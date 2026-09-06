@@ -1,0 +1,99 @@
+{
+  "id": "ghcn-daily",
+  "name": "GHCN-Daily",
+  "publisher": "NOAA NCEI",
+  "homepage": "https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily",
+  "description": "Daily weather observations from ~120,000 land stations worldwide - max/min temperature, precipitation, snowfall, snow depth - many running back to the 1940s and some to the 1800s. The reference source for 'what was the weather actually like here, every day, for eighty years'.",
+  "topics": [
+    "climate",
+    "weather",
+    "time series"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "1750s (a handful; most US stations from the 1940s)",
+    "end": "present",
+    "grain": "daily",
+    "updated": "daily"
+  },
+  "license": {
+    "name": "US Government public domain",
+    "url": "https://www.ncei.noaa.gov/access/use-of-noaa-data",
+    "redistribution": "free to redistribute; attribution to NOAA NCEI expected"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "csv",
+      "fixed-width text"
+    ],
+    "bulk": true,
+    "size_hint": "one station-CSV is 1-5 MB; the whole archive is ~15 GB",
+    "rate_limit": "none published; www.ncei.noaa.gov is slow under load",
+    "etiquette": "fetch per station, not the whole archive, unless you really need it"
+  },
+  "fields": [
+    "DATE",
+    "TMAX and TMIN in tenths of a degree C",
+    "PRCP in tenths of a mm",
+    "SNOW in mm",
+    "SNWD in mm",
+    "<ELEMENT>_ATTRIBUTES = MFLAG,QFLAG,SFLAG"
+  ],
+  "probes": [
+    {
+      "id": "station-csv",
+      "description": "Reagan National (USW00013743), the long gapless record for the DC area",
+      "url": "https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/access/USW00013743.csv",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "STATION",
+          "TMAX"
+        ]
+      }
+    },
+    {
+      "id": "legacy-pub-path",
+      "description": "The path most tutorials still tell you to use",
+      "url": "https://www.ncei.noaa.gov/pub/data/ghcnd/ghcnd-stations.txt",
+      "known_broken": "NCEI retired /pub/data/ghcnd/ - every tutorial and blog post older than ~2024 sends you here. Use the AWS mirror in ghcn-stations-inventory instead.",
+      "expect": {
+        "body_contains": [
+          "USW00013743"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "One station, quality-flagged values dropped",
+      "lang": "python",
+      "code": "import csv, io, urllib.request\nurl = 'https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/access/USW00013743.csv'\nrows = csv.DictReader(io.StringIO(urllib.request.urlopen(url).read().decode()))\nfor r in rows:\n    # QFLAG is the middle character of the ATTRIBUTES triple; non-blank means failed QC\n    if r.get('TMAX') and r['TMAX_ATTRIBUTES'].split(',')[1].strip() == '':\n        print(r['DATE'], int(r['TMAX']) / 10.0)  # tenths of a degree C"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "The old ncei.noaa.gov/pub/data/ghcnd/* paths 404 now, including the station list and inventory that every tutorial links to.",
+      "fix": "Use the AWS Open Data mirror (see ghcn-stations-inventory). The per-station /data/.../access/ CSVs are unaffected."
+    },
+    {
+      "trap": "Temperatures are in tenths of a degree Celsius and precipitation in tenths of a millimetre. Forget the divide and you get a 340 degree August.",
+      "fix": "TMAX/10 for C, PRCP/10 for mm."
+    },
+    {
+      "trap": "Failed-QC values are present in the file, not removed.",
+      "fix": "Every element has a companion <EL>_ATTRIBUTES of MFLAG,QFLAG,SFLAG. Drop the row when QFLAG is non-blank."
+    }
+  ],
+  "related": [
+    "ghcn-stations-inventory",
+    "open-meteo"
+  ],
+  "used_by": [
+    "daybook"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

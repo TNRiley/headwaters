@@ -1,0 +1,964 @@
+{
+  "checked": "2026-09-06T14:47:02+00:00",
+  "probe_version": 1,
+  "summary": {
+    "ok": 0,
+    "fail": 0,
+    "expected_fail": 0,
+    "partial": true
+  },
+  "results": {
+    "apple-review-rss": {
+      "reviews-page1": {
+        "url": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=375380948/sortby=mostrecent/json",
+        "checked": "2026-09-06T14:46:11+00:00",
+        "status": 403,
+        "content_type": "",
+        "ms": 144,
+        "bytes_read": 0,
+        "ok": false,
+        "why": [
+          "status 403, wanted [200, 206]",
+          "body missing 'feed'"
+        ],
+        "preview": "",
+        "known_broken": null
+      }
+    },
+    "arxiv": {
+      "query": {
+        "url": "https://export.arxiv.org/api/query?search_query=cat:stat.AP&max_results=1",
+        "checked": "2026-09-06T14:43:08+00:00",
+        "status": 206,
+        "content_type": "application/atom+xml; charset=utf-8",
+        "length_header": "bytes 0-1992/1993",
+        "ms": 72,
+        "bytes_read": 1993,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "aws-open-data-registry": {
+      "dataset-yaml": {
+        "url": "https://raw.githubusercontent.com/awslabs/open-data-registry/main/datasets/noaa-ghcn.yaml",
+        "checked": "2026-09-06T14:43:09+00:00",
+        "status": 206,
+        "content_type": "text/plain; charset=utf-8",
+        "length_header": "bytes 0-4095/4821",
+        "ms": 86,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "registry-index": {
+        "url": "https://api.github.com/repos/awslabs/open-data-registry/contents/datasets?per_page=1",
+        "checked": "2026-09-06T14:43:09+00:00",
+        "status": 206,
+        "content_type": "application/json; charset=utf-8",
+        "length_header": "bytes 0-4095/939777",
+        "ms": 161,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "census-acs": {
+      "acs5-keyless": {
+        "url": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B01001_001E&for=state:24",
+        "checked": "2026-09-06T14:43:10+00:00",
+        "status": 206,
+        "content_type": "text/html",
+        "length_header": "bytes 0-4095/8531",
+        "ms": 168,
+        "bytes_read": 4096,
+        "ok": false,
+        "why": [
+          "body missing 'NAME'"
+        ],
+        "preview": "<html style=\"font-size: 14px;\"> <head> <title>Missing Key</title> <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\"> <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/styles.css\"> <script type=\"text/javascript\" src=\"assets/jquery-1.4.4.min.js\"></script>",
+        "known_broken": "Since some point before 2026-09-06 a keyless call 302s to https://api.census.gov/data/missing_key.html, which answers 200 with an HTML page. A client that follows redirects and does not check content-type sees a successful request and a JSON parse error."
+      },
+      "variable-metadata": {
+        "url": "https://api.census.gov/data/2023/acs/acs5/variables.json",
+        "checked": "2026-09-06T14:43:11+00:00",
+        "status": 200,
+        "content_type": "application/json;charset=utf-8",
+        "length_header": "10457748",
+        "ms": 101,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "crossref": {
+      "works-query": {
+        "url": "https://api.crossref.org/works?query.bibliographic=retraction&rows=1&mailto=tnril@users.noreply.github.com",
+        "checked": "2026-09-06T14:43:12+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "ms": 416,
+        "bytes_read": 1146,
+        "ok": true,
+        "known_broken": null
+      },
+      "single-doi": {
+        "url": "https://api.crossref.org/works/10.1038/s41597-023-02462-y?mailto=tnril@users.noreply.github.com",
+        "checked": "2026-09-06T14:43:14+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "ms": 67,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "data-gov": {
+      "ckan-package-search": {
+        "url": "https://catalog.data.gov/api/3/action/package_search?q=climate&rows=1",
+        "checked": "2026-09-06T14:43:14+00:00",
+        "status": 404,
+        "content_type": "application/json",
+        "ms": 190,
+        "bytes_read": 36,
+        "ok": false,
+        "why": [
+          "status 404, wanted [200, 206]",
+          "body missing '\"success\"'"
+        ],
+        "preview": "{\"detail\":{},\"message\":\"Not Found\"}",
+        "known_broken": "404 with {\"message\":\"Not Found\"} on 2026-09-06. Also tried: /api/action/package_search, /api/3/action/site_read, /api/1/metastore/schemas/dataset/items, /api/4/harvest_sources, and the api.gsa.gov v3 proxy with a key - the proxy authenticates and then 301s straight back to this dead path. catalog.data.gov/dataset now redirects to the catalogue root."
+      },
+      "gsa-proxy": {
+        "url": "https://api.gsa.gov/technology/datagov/v3/action/package_search?q=climate&rows=1",
+        "checked": "2026-09-06T14:43:14+00:00",
+        "status": 403,
+        "content_type": "application/json",
+        "ms": 401,
+        "bytes_read": 128,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "data-is-plural": {
+      "archive-csv": {
+        "url": "https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/export?format=csv&gid=0",
+        "checked": "2026-09-06T14:43:15+00:00",
+        "status": 200,
+        "content_type": "text/csv; charset=utf-8",
+        "ms": 400,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "datacite-re3data": {
+      "re3data-list": {
+        "url": "https://www.re3data.org/api/v1/repositories",
+        "checked": "2026-09-06T14:43:16+00:00",
+        "status": 200,
+        "content_type": "text/xml; charset=UTF-8",
+        "ms": 2219,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "datacite-dois": {
+        "url": "https://api.datacite.org/dois?query=sea+level&page[size]=1",
+        "checked": "2026-09-06T14:43:18+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "ms": 1438,
+        "bytes_read": 3996,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "europe-pmc": {
+      "search": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&format=json&pageSize=1",
+        "checked": "2026-09-06T14:43:20+00:00",
+        "status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "ms": 538,
+        "bytes_read": 1228,
+        "ok": true,
+        "known_broken": null
+      },
+      "citations": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/23245604/citations?format=json&pageSize=1",
+        "checked": "2026-09-06T14:43:22+00:00",
+        "status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "ms": 475,
+        "bytes_read": 581,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "federal-register": {
+      "documents": {
+        "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=1",
+        "checked": "2026-09-06T14:43:23+00:00",
+        "status": 206,
+        "content_type": "application/json; charset=utf-8",
+        "length_header": "bytes 0-4095/31088",
+        "ms": 69,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "agency-filter": {
+        "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=1&conditions[agencies][]=national-oceanic-and-atmospheric-administration&conditions[publication_date][gte]=2025-01-01&conditions[publication_date][lte]=2025-01-31",
+        "checked": "2026-09-06T14:43:25+00:00",
+        "status": 206,
+        "content_type": "application/json; charset=utf-8",
+        "length_header": "bytes 0-4095/35638",
+        "ms": 90,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "gbif": {
+      "occurrence-search": {
+        "url": "https://api.gbif.org/v1/occurrence/search?q=Quercus&limit=1",
+        "checked": "2026-09-06T14:43:25+00:00",
+        "status": 206,
+        "content_type": "application/json",
+        "length_header": "bytes 0-4095/5135",
+        "ms": 385,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "species-match": {
+        "url": "https://api.gbif.org/v1/species/match?name=Quercus%20alba",
+        "checked": "2026-09-06T14:43:27+00:00",
+        "status": 206,
+        "content_type": "application/json",
+        "length_header": "bytes 0-430/431",
+        "ms": 333,
+        "bytes_read": 431,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "gdelt": {
+      "timeline-tone": {
+        "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22sea%20level%22&mode=timelinetone&format=json&timespan=1w",
+        "checked": "2026-09-06T14:43:27+00:00",
+        "status": 429,
+        "content_type": "",
+        "ms": 9872,
+        "bytes_read": 444,
+        "ok": false,
+        "why": [
+          "status 429, wanted [200, 206]",
+          "body missing 'timeline'"
+        ],
+        "preview": "Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the-new-web-ngrams-dataset-to-find-relevant-coverage/. For trend analysis, please s",
+        "known_broken": null
+      },
+      "artlist": {
+        "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=flooding&mode=artlist&format=json&maxrecords=2",
+        "checked": "2026-09-06T14:43:49+00:00",
+        "status": 429,
+        "content_type": "",
+        "ms": 13815,
+        "bytes_read": 444,
+        "ok": false,
+        "why": [
+          "status 429, wanted [200, 206]",
+          "body missing 'articles'"
+        ],
+        "preview": "Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the-new-web-ngrams-dataset-to-find-relevant-coverage/. For trend analysis, please s",
+        "known_broken": null
+      }
+    },
+    "ghcn-daily": {
+      "station-csv": {
+        "url": "https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/access/USW00013743.csv",
+        "checked": "2026-09-06T14:44:03+00:00",
+        "status": 206,
+        "content_type": "text/csv",
+        "length_header": "bytes 0-4095/12400979",
+        "ms": 314,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "legacy-pub-path": {
+        "url": "https://www.ncei.noaa.gov/pub/data/ghcnd/ghcnd-stations.txt",
+        "checked": "2026-09-06T14:44:05+00:00",
+        "status": 404,
+        "content_type": "text/html; charset=iso-8859-1",
+        "ms": 112,
+        "bytes_read": 196,
+        "ok": false,
+        "why": [
+          "status 404, wanted [200, 206]",
+          "body missing 'USW00013743'"
+        ],
+        "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html>",
+        "known_broken": "NCEI retired /pub/data/ghcnd/ - every tutorial and blog post older than ~2024 sends you here. Use the AWS mirror in ghcn-stations-inventory instead."
+      }
+    },
+    "ghcn-stations-inventory": {
+      "stations": {
+        "url": "https://noaa-ghcn-pds.s3.amazonaws.com/ghcnd-stations.txt",
+        "checked": "2026-09-06T14:44:06+00:00",
+        "status": 206,
+        "content_type": "application/octet-stream",
+        "length_header": "bytes 0-4095/11395086",
+        "ms": 114,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "inventory": {
+        "url": "https://noaa-ghcn-pds.s3.amazonaws.com/ghcnd-inventory.txt",
+        "checked": "2026-09-06T14:44:07+00:00",
+        "status": 206,
+        "content_type": "application/octet-stream",
+        "length_header": "bytes 0-4095/35997392",
+        "ms": 136,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "github-api": {
+      "repo": {
+        "url": "https://api.github.com/repos/rfordatascience/tidytuesday",
+        "checked": "2026-09-06T14:44:08+00:00",
+        "status": 206,
+        "content_type": "application/json; charset=utf-8",
+        "length_header": "bytes 0-6822/6823",
+        "ms": 178,
+        "bytes_read": 6823,
+        "ok": true,
+        "known_broken": null
+      },
+      "contents": {
+        "url": "https://api.github.com/repos/awslabs/open-data-registry/contents/datasets?per_page=1",
+        "checked": "2026-09-06T14:44:09+00:00",
+        "status": 206,
+        "content_type": "application/json; charset=utf-8",
+        "length_header": "bytes 0-4095/939777",
+        "ms": 139,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "git-tree": {
+        "url": "https://api.github.com/repos/awslabs/open-data-registry/git/trees/main?recursive=1",
+        "checked": "2026-09-06T14:44:11+00:00",
+        "status": 206,
+        "content_type": "application/json; charset=utf-8",
+        "length_header": "bytes 0-8191/*",
+        "ms": 153,
+        "bytes_read": 8192,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "google-play": {
+      "search-html": {
+        "url": "https://play.google.com/store/search?q=tennis&c=apps&hl=en&gl=us",
+        "checked": "2026-09-06T14:44:12+00:00",
+        "status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "ms": 524,
+        "bytes_read": 1150000,
+        "ok": true,
+        "known_broken": null
+      },
+      "listing-page": {
+        "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=en&gl=us",
+        "checked": "2026-09-06T14:44:15+00:00",
+        "status": 200,
+        "content_type": "text/html; charset=utf-8",
+        "ms": 228,
+        "bytes_read": 1200000,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "hn-algolia": {
+      "search": {
+        "url": "https://hn.algolia.com/api/v1/search?query=open%20data&hitsPerPage=1",
+        "checked": "2026-09-06T14:44:16+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "length_header": "1641",
+        "ms": 266,
+        "bytes_read": 1641,
+        "ok": true,
+        "known_broken": null
+      },
+      "by-date": {
+        "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i%3E1700000000&hitsPerPage=1",
+        "checked": "2026-09-06T14:44:17+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "length_header": "1293",
+        "ms": 264,
+        "bytes_read": 1293,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "huggingface-datasets": {
+      "list": {
+        "url": "https://huggingface.co/api/datasets?limit=1",
+        "checked": "2026-09-06T14:44:18+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "length_header": "1444",
+        "ms": 143,
+        "bytes_read": 1444,
+        "ok": true,
+        "known_broken": null
+      },
+      "rows": {
+        "url": "https://datasets-server.huggingface.co/rows?dataset=rajpurkar%2Fsquad&config=plain_text&split=train&offset=0&length=1",
+        "checked": "2026-09-06T14:44:18+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "length_header": "1553",
+        "ms": 303,
+        "bytes_read": 1553,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "itunes-search": {
+      "search": {
+        "url": "https://itunes.apple.com/search?term=tennis&entity=software&country=us&limit=2",
+        "checked": "2026-09-06T14:44:19+00:00",
+        "status": 200,
+        "content_type": "text/javascript; charset=utf-8",
+        "length_header": "18389",
+        "ms": 60,
+        "bytes_read": 18389,
+        "ok": true,
+        "known_broken": null
+      },
+      "lookup-by-id": {
+        "url": "https://itunes.apple.com/lookup?id=284882215&country=us",
+        "checked": "2026-09-06T14:44:22+00:00",
+        "status": 200,
+        "content_type": "text/javascript; charset=utf-8",
+        "length_header": "10443",
+        "ms": 51,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "natural-earth": {
+      "countries-110m": {
+        "url": "https://naciscdn.org/naturalearth/110m/cultural/ne_110m_admin_0_countries.zip",
+        "checked": "2026-09-06T14:44:22+00:00",
+        "status": 206,
+        "content_type": "application/zip",
+        "length_header": "bytes 0-2047/214976",
+        "ms": 283,
+        "bytes_read": 2048,
+        "ok": true,
+        "known_broken": null
+      },
+      "coastline-50m": {
+        "url": "https://naciscdn.org/naturalearth/50m/physical/ne_50m_coastline.zip",
+        "checked": "2026-09-06T14:44:24+00:00",
+        "status": 206,
+        "content_type": "application/zip",
+        "length_header": "bytes 0-2047/455936",
+        "ms": 45,
+        "bytes_read": 2048,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "noaa-coops": {
+      "latest-water-level": {
+        "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=latest&station=8574680&product=water_level&datum=MLLW&units=english&time_zone=gmt&format=json&application=headwaters",
+        "checked": "2026-09-06T14:44:25+00:00",
+        "status": 200,
+        "content_type": "application/json;charset=UTF-8",
+        "length_header": "166",
+        "ms": 343,
+        "bytes_read": 166,
+        "ok": true,
+        "known_broken": null
+      },
+      "station-metadata": {
+        "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=waterlevels",
+        "checked": "2026-09-06T14:44:26+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "length_header": "777389",
+        "ms": 86,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "noaa-swpc": {
+      "k-index": {
+        "url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+        "checked": "2026-09-06T14:44:27+00:00",
+        "status": 206,
+        "content_type": "application/json",
+        "length_header": "bytes 0-2047/27925",
+        "ms": 147,
+        "bytes_read": 2048,
+        "ok": true,
+        "known_broken": null
+      },
+      "solar-wind-rtsw": {
+        "url": "https://services.swpc.noaa.gov/json/rtsw/rtsw_wind_1m.json",
+        "checked": "2026-09-06T14:44:28+00:00",
+        "status": 206,
+        "content_type": "application/json",
+        "length_header": "bytes 0-2047/2621529",
+        "ms": 45,
+        "bytes_read": 2048,
+        "ok": true,
+        "known_broken": null
+      },
+      "geospace-propagated": {
+        "url": "https://services.swpc.noaa.gov/products/geospace/propagated-solar-wind-1-hour.json",
+        "checked": "2026-09-06T14:44:30+00:00",
+        "status": 206,
+        "content_type": "application/json",
+        "length_header": "bytes 0-2047/6492",
+        "ms": 50,
+        "bytes_read": 2048,
+        "ok": true,
+        "known_broken": null
+      },
+      "retired-plasma-path": {
+        "url": "https://services.swpc.noaa.gov/products/solar-wind/plasma-1-day.json",
+        "checked": "2026-09-06T14:44:32+00:00",
+        "status": 404,
+        "content_type": "text/html; charset=iso-8859-1",
+        "ms": 85,
+        "bytes_read": 196,
+        "ok": false,
+        "why": [
+          "status 404, wanted [200, 206]",
+          "body missing 'density'"
+        ],
+        "preview": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\"> <html><head> <title>404 Not Found</title> </head><body> <h1>Not Found</h1> <p>The requested URL was not found on this server.</p> </body></html>",
+        "known_broken": "SWPC retired /products/solar-wind/plasma-*.json. The live equivalent is /json/rtsw/rtsw_wind_1m.json."
+      }
+    },
+    "nominatim": {
+      "forward": {
+        "url": "https://nominatim.openstreetmap.org/search?q=Kensington%2C%20Maryland&format=json&limit=1",
+        "checked": "2026-09-06T14:44:32+00:00",
+        "status": 206,
+        "content_type": "application/json; charset=utf-8",
+        "length_header": "bytes 0-464/465",
+        "ms": 73,
+        "bytes_read": 465,
+        "ok": true,
+        "known_broken": null
+      },
+      "reverse": {
+        "url": "https://nominatim.openstreetmap.org/reverse?lat=39.029&lon=-77.076&format=json",
+        "checked": "2026-09-06T14:44:34+00:00",
+        "status": 206,
+        "content_type": "application/json; charset=utf-8",
+        "length_header": "bytes 0-668/669",
+        "ms": 60,
+        "bytes_read": 669,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "open-meteo": {
+      "forecast": {
+        "url": "https://api.open-meteo.com/v1/forecast?latitude=39.03&longitude=-77.08&hourly=temperature_2m&forecast_days=1",
+        "checked": "2026-09-06T14:44:34+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "ms": 485,
+        "bytes_read": 837,
+        "ok": true,
+        "known_broken": null
+      },
+      "archive-era5": {
+        "url": "https://archive-api.open-meteo.com/v1/archive?latitude=39.03&longitude=-77.08&start_date=1990-07-04&end_date=1990-07-04&daily=temperature_2m_max&timezone=UTC",
+        "checked": "2026-09-06T14:44:35+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "ms": 505,
+        "bytes_read": 290,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "openalex": {
+      "works-filter": {
+        "url": "https://api.openalex.org/works?filter=is_retracted:true&per-page=1&mailto=tnril@users.noreply.github.com",
+        "checked": "2026-09-06T14:44:35+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "length_header": "78172",
+        "ms": 155,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "cursor-select": {
+        "url": "https://api.openalex.org/works?filter=publication_year:2024&per-page=2&select=doi,cited_by_count,counts_by_year&cursor=*&mailto=tnril@users.noreply.github.com",
+        "checked": "2026-09-06T14:44:37+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "length_header": "1657",
+        "ms": 152,
+        "bytes_read": 1657,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "openlibrary": {
+      "search": {
+        "url": "https://openlibrary.org/search.json?q=moby+dick&limit=1",
+        "checked": "2026-09-06T14:44:38+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "length_header": "3205",
+        "ms": 6398,
+        "bytes_read": 3205,
+        "ok": true,
+        "known_broken": null
+      },
+      "isbn-lookup": {
+        "url": "https://openlibrary.org/isbn/9780140449136.json",
+        "checked": "2026-09-06T14:44:46+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "ms": 17891,
+        "bytes_read": 1701,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "our-world-in-data": {
+      "grapher-csv": {
+        "url": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country.csv?v=1&csvType=full",
+        "checked": "2026-09-06T14:45:04+00:00",
+        "status": 206,
+        "content_type": "text/csv",
+        "length_header": "bytes 0-4095/833076",
+        "ms": 75,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "overpass": {
+      "status": {
+        "url": "https://overpass-api.de/api/status",
+        "checked": "2026-09-06T14:45:04+00:00",
+        "status": 200,
+        "content_type": "text/plain; charset=utf-8",
+        "ms": 398,
+        "bytes_read": 210,
+        "ok": true,
+        "known_broken": null
+      },
+      "small-bbox": {
+        "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A20%5D%3Bnode(39.025%2C-77.080%2C39.030%2C-77.075)%3Bout%201%3B",
+        "checked": "2026-09-06T14:45:07+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "ms": 9496,
+        "bytes_read": 368,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "pubmed-eutilities": {
+      "esearch": {
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=evidence+synthesis&retmode=json&retmax=1",
+        "checked": "2026-09-06T14:45:17+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=UTF-8",
+        "ms": 170,
+        "bytes_read": 366,
+        "ok": true,
+        "known_broken": null
+      },
+      "esummary": {
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=23245604&retmode=json",
+        "checked": "2026-09-06T14:45:19+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=UTF-8",
+        "ms": 160,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "retraction-watch": {
+      "full-csv": {
+        "url": "https://api.labs.crossref.org/data/retractionwatch?tnril@users.noreply.github.com",
+        "checked": "2026-09-06T14:45:19+00:00",
+        "status": 200,
+        "content_type": "",
+        "ms": 848,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "socrata-portals": {
+      "portal-catalog": {
+        "url": "https://data.ny.gov/api/views.json?limit=1",
+        "checked": "2026-09-06T14:45:21+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "ms": 2855,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "soql-query": {
+        "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?$select=primary_type,count(*)&$group=primary_type&$limit=3",
+        "checked": "2026-09-06T14:45:24+00:00",
+        "status": 200,
+        "content_type": "application/json;charset=utf-8",
+        "ms": 6967,
+        "bytes_read": 134,
+        "ok": true,
+        "known_broken": null
+      },
+      "discovery-api": {
+        "url": "https://api.us.socrata.com/api/catalog/v1?q=air+quality&limit=1",
+        "checked": "2026-09-06T14:45:31+00:00",
+        "status": 200,
+        "content_type": "application/json;charset=utf-8",
+        "ms": 147,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "tennis-open-data": {
+      "mcp-repo": {
+        "url": "https://api.github.com/repos/JeffSackmann/tennis_MatchChartingProject",
+        "checked": "2026-09-06T14:45:31+00:00",
+        "status": 206,
+        "content_type": "application/json; charset=utf-8",
+        "length_header": "bytes 0-4095/6118",
+        "ms": 149,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "tml-year-csv": {
+        "url": "https://raw.githubusercontent.com/Tennismylife/TML-Database/master/2026.csv",
+        "checked": "2026-09-06T14:45:32+00:00",
+        "status": 206,
+        "content_type": "text/plain; charset=utf-8",
+        "length_header": "bytes 0-4095/28551",
+        "ms": 87,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "sackmann-atp": {
+        "url": "https://api.github.com/repos/JeffSackmann/tennis_atp",
+        "checked": "2026-09-06T14:45:33+00:00",
+        "status": 404,
+        "content_type": "application/json; charset=utf-8",
+        "ms": 150,
+        "bytes_read": 118,
+        "ok": false,
+        "why": [
+          "status 404, wanted [200, 206]",
+          "body missing 'full_name'"
+        ],
+        "preview": "{\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/repos#get-a-repository\",\"status\":\"404\"}",
+        "known_broken": "404 on 2026-09-06, as are tennis_wta, tennis_slam_pointbypoint and tennis_pointbypoint. Only tennis_MatchChartingProject remains under that account. Thousands of tutorials, papers and notebooks point at these URLs."
+      }
+    },
+    "tidytuesday": {
+      "year-index": {
+        "url": "https://api.github.com/repos/rfordatascience/tidytuesday/contents/data/2026",
+        "checked": "2026-09-06T14:45:35+00:00",
+        "status": 206,
+        "content_type": "application/json; charset=utf-8",
+        "length_header": "bytes 0-8191/27279",
+        "ms": 124,
+        "bytes_read": 8192,
+        "ok": true,
+        "known_broken": null
+      },
+      "week-file": {
+        "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-04-02/us_avg_tuition.xlsx",
+        "checked": "2026-09-06T14:45:35+00:00",
+        "status": 206,
+        "content_type": "application/octet-stream",
+        "length_header": "bytes 0-2047/23015",
+        "ms": 88,
+        "bytes_read": 2048,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "usaspending": {
+      "toptier-agencies": {
+        "url": "https://api.usaspending.gov/api/v2/references/toptier_agencies/",
+        "checked": "2026-09-06T14:47:00+00:00",
+        "status": null,
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1082)>",
+        "ms": 175,
+        "bytes_read": 0,
+        "ok": false,
+        "why": [
+          "status None, wanted [200, 206]",
+          "body missing 'toptier_code'",
+          "body missing 'agency_name'"
+        ],
+        "preview": "",
+        "known_broken": null
+      },
+      "award-search": {
+        "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+        "checked": "2026-09-06T14:47:02+00:00",
+        "status": null,
+        "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1082)>",
+        "ms": 166,
+        "bytes_read": 0,
+        "ok": false,
+        "why": [
+          "status None, wanted [200, 206]",
+          "body missing 'results'"
+        ],
+        "preview": "",
+        "known_broken": null
+      }
+    },
+    "usgs-earthquakes": {
+      "summary-feed": {
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson",
+        "checked": "2026-09-06T14:45:38+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "ms": 64,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "fdsn-query": {
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-01-01&endtime=2025-01-03&minmagnitude=5",
+        "checked": "2026-09-06T14:45:39+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "ms": 345,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "usgs-water": {
+      "instantaneous": {
+        "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01646500&parameterCd=00060&siteStatus=all",
+        "checked": "2026-09-06T14:45:40+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "ms": 237,
+        "bytes_read": 2430,
+        "ok": true,
+        "known_broken": null
+      },
+      "daily-values": {
+        "url": "https://waterservices.usgs.gov/nwis/dv/?format=json&sites=01646500&parameterCd=00060&startDT=2024-01-01&endDT=2024-01-07",
+        "checked": "2026-09-06T14:45:42+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "ms": 102,
+        "bytes_read": 3097,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "wikidata": {
+      "sparql": {
+        "url": "https://query.wikidata.org/sparql?query=SELECT%20%3Fs%20WHERE%20%7B%3Fs%20wdt%3AP31%20wd%3AQ3918%7D%20LIMIT%201&format=json",
+        "checked": "2026-09-06T14:45:42+00:00",
+        "status": 206,
+        "content_type": "application/sparql-results+json;charset=utf-8",
+        "length_header": "bytes 0-194/195",
+        "ms": 158,
+        "bytes_read": 195,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "wikimedia-pageviews": {
+      "per-article": {
+        "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Tennis/daily/20250101/20250107",
+        "checked": "2026-09-06T14:45:43+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "length_header": "1012",
+        "ms": 73,
+        "bytes_read": 1012,
+        "ok": true,
+        "known_broken": null
+      },
+      "top-articles": {
+        "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/2025/01/01",
+        "checked": "2026-09-06T14:45:44+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "length_header": "55737",
+        "ms": 52,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "world-bank": {
+      "indicator": {
+        "url": "https://api.worldbank.org/v2/country/US/indicator/NY.GDP.MKTP.CD?format=json&per_page=2",
+        "checked": "2026-09-06T14:45:45+00:00",
+        "status": 200,
+        "content_type": "application/json;charset=utf-8",
+        "ms": 178,
+        "bytes_read": 513,
+        "ok": true,
+        "known_broken": null
+      },
+      "indicator-list": {
+        "url": "https://api.worldbank.org/v2/indicator?format=json&per_page=1",
+        "checked": "2026-09-06T14:45:46+00:00",
+        "status": 200,
+        "content_type": "application/json;charset=utf-8",
+        "ms": 119,
+        "bytes_read": 465,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "zenodo": {
+      "records-search": {
+        "url": "https://zenodo.org/api/records?q=sea+level&size=1",
+        "checked": "2026-09-06T14:45:47+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "length_header": "13015",
+        "ms": 694,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    }
+  }
+}

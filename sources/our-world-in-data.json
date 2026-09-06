@@ -1,0 +1,74 @@
+{
+  "id": "our-world-in-data",
+  "name": "Our World in Data",
+  "publisher": "Global Change Data Lab / University of Oxford",
+  "homepage": "https://ourworldindata.org/",
+  "description": "Several thousand curated, harmonised long-run indicators on emissions, energy, health, poverty, food, war and democracy - assembled from primary statistical sources, documented, and served as tidy CSV straight off each chart's URL. The fastest route from a question to a defensible, citable time series.",
+  "topics": [
+    "global development",
+    "climate",
+    "health",
+    "economics",
+    "time series"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "varies; some series run to 1750",
+    "end": "latest available",
+    "grain": "annual mostly",
+    "updated": "continuously as upstream sources release"
+  },
+  "license": {
+    "name": "CC-BY 4.0 for OWID's own work; upstream sources keep their terms",
+    "url": "https://ourworldindata.org/faqs#can-i-use-or-reproduce-your-data",
+    "redistribution": "permitted with attribution to OWID and the underlying source"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "csv",
+      "json",
+      "zip with metadata"
+    ],
+    "bulk": true,
+    "size_hint": "a single indicator CSV is typically under 5 MB",
+    "etiquette": "append ?v=1&csvType=full to a grapher URL rather than scraping the chart"
+  },
+  "probes": [
+    {
+      "id": "grapher-csv",
+      "description": "Any chart's underlying data, as CSV, from the chart's own slug",
+      "url": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country.csv?v=1&csvType=full",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "Entity",
+          "Year"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Turn any OWID chart into a dataframe",
+      "lang": "python",
+      "code": "import pandas as pd\nslug = 'annual-co2-emissions-per-country'   # the last path segment of any OWID chart URL\ndf = pd.read_csv('https://ourworldindata.org/grapher/%s.csv?v=1&csvType=full' % slug)\nprint(df.head())\n# metadata for the same chart:\n# https://ourworldindata.org/grapher/<slug>.metadata.json"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "The Entity column mixes countries, continents and income groups, so a naive sum double-counts.",
+      "fix": "Rows with a blank Code, or a Code like OWID_WRL, are aggregates. Filter them out."
+    },
+    {
+      "trap": "OWID harmonises and sometimes rescales upstream data, so figures can differ slightly from the original agency's.",
+      "fix": "Cite both OWID and the underlying source; the .metadata.json names it."
+    }
+  ],
+  "related": [
+    "world-bank"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

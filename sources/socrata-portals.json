@@ -1,0 +1,101 @@
+{
+  "id": "socrata-portals",
+  "name": "Socrata Open Data API (state and city portals)",
+  "publisher": "Tyler Technologies, deployed by hundreds of governments",
+  "homepage": "https://dev.socrata.com/",
+  "description": "The engine behind most US state and city open data portals - data.ny.gov, data.cityofchicago.org, data.seattle.gov, healthdata.gov and hundreds more. Every dataset gets the same REST interface with a SQL-like query language (SoQL), so one client works against all of them. With the federal catalogue's API down, this is the practical route to US public-sector data.",
+  "topics": [
+    "government",
+    "cities",
+    "meta-catalog",
+    "united states"
+  ],
+  "geography": "United States, mostly",
+  "temporal": {
+    "grain": "varies by dataset",
+    "updated": "varies by dataset, often daily"
+  },
+  "license": {
+    "name": "per-portal; most are public domain or CC-BY",
+    "redistribution": "check the individual dataset page"
+  },
+  "access": {
+    "auth": "api-key-free",
+    "auth_note": "anonymous access works and is throttled by IP; a free app token raises the limit and is passed as X-App-Token",
+    "formats": [
+      "json",
+      "csv",
+      "geojson"
+    ],
+    "bulk": true,
+    "rate_limit": "strict but unpublished for anonymous callers; generous with an app token",
+    "pagination": "$limit and $offset, or $order plus a keyset filter for large walks"
+  },
+  "fields": [
+    "Every dataset has a 4x4 id like pmsa-f2ss",
+    "$select, $where, $group, $order, $limit - SoQL, close to SQL",
+    "/resource/<4x4>.json is the data; /api/views/<4x4>.json is the metadata"
+  ],
+  "probes": [
+    {
+      "id": "portal-catalog",
+      "description": "Every dataset on one portal",
+      "url": "https://data.ny.gov/api/views.json?limit=1",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "id",
+          "name"
+        ]
+      }
+    },
+    {
+      "id": "soql-query",
+      "description": "SoQL against a live dataset",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?$select=primary_type,count(*)&$group=primary_type&$limit=3",
+      "expect": {
+        "body_contains": [
+          "primary_type"
+        ]
+      }
+    },
+    {
+      "id": "discovery-api",
+      "description": "Search across every Socrata portal at once",
+      "url": "https://api.us.socrata.com/api/catalog/v1?q=air+quality&limit=1",
+      "expect": {
+        "body_contains": [
+          "results",
+          "resource"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Aggregate server-side instead of downloading",
+      "lang": "bash",
+      "code": "curl -s 'https://data.cityofchicago.org/resource/ijzp-q8t2.json?$select=year,count(*)&$group=year&$order=year' | python3 -m json.tool | head -20"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "The default $limit is 1,000, not 'all'. A loop that never sets $limit silently analyses the first thousand rows.",
+      "fix": "Set $limit explicitly and page with $offset, or use the /rows.csv export for the whole table."
+    },
+    {
+      "trap": "$where uses SoQL, not SQL - string literals are single-quoted and dates want ISO with no timezone suffix.",
+      "fix": "Test the filter in the portal's own query builder first."
+    },
+    {
+      "trap": "Anonymous requests share an IP throttle, so a fast loop from an office network gets 429s that look like your fault.",
+      "fix": "Register a free app token and send X-App-Token."
+    }
+  ],
+  "related": [
+    "data-gov"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

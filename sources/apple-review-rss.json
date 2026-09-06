@@ -1,0 +1,78 @@
+{
+  "id": "apple-review-rss",
+  "name": "Apple customer reviews RSS feed",
+  "publisher": "Apple",
+  "homepage": "https://itunes.apple.com/us/rss/",
+  "description": "The only free route to App Store review text: a paginated JSON feed of up to 500 recent reviews per app, with rating, title, body and app version. Undocumented, unstable, and aggressively rate-limited - it returned a flat 403 for the whole of one build in September 2026 - but there is no supported alternative, and the four obvious substitutes are all closed.",
+  "topics": [
+    "apps",
+    "app store",
+    "reviews",
+    "text"
+  ],
+  "geography": "per-storefront",
+  "temporal": {
+    "grain": "per-review, most recent first",
+    "updated": "live"
+  },
+  "license": {
+    "name": "unclear - undocumented endpoint",
+    "redistribution": "quote individual reviews with attribution to the app; do not redistribute the corpus"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json",
+      "xml"
+    ],
+    "bulk": false,
+    "size_hint": "50 reviews per page, 10 pages, so 500 per app maximum",
+    "rate_limit": "about 5 requests/second is tolerated. Roughly 50/second earned a flat 403 across the whole endpoint for well over an hour.",
+    "etiquette": "write one file per app and skip what already exists, so a blocked run resumes instead of restarting"
+  },
+  "probes": [
+    {
+      "id": "reviews-page1",
+      "description": "Page 1 for Apple Store app id 375380948",
+      "url": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=375380948/sortby=mostrecent/json",
+      "min_interval_s": 5,
+      "expect": {
+        "body_contains": [
+          "feed"
+        ]
+      },
+      "note": "A 403 here is the documented behaviour, not a dead endpoint: this feed answered normally earlier on 2026-09-06 and returned 403 after a few dozen requests from the same IP during that day's testing. The block lasted well over an hour when it was first measured. Wait, do not retry."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Resumable review harvest",
+      "lang": "python",
+      "code": "import json, os, time, urllib.request\ndef fetch(app_id, page):\n    url = ('https://itunes.apple.com/us/rss/customerreviews/'\n           'page=%d/id=%s/sortby=mostrecent/json' % (page, app_id))\n    r = urllib.request.urlopen(url)\n    if r.status != 200:            # a 403 body is HTML and will look like your bug\n        raise SystemExit('blocked at %s page %d' % (app_id, page))\n    return json.load(r)\n\nfor app_id in ['375380948']:\n    out = 'reviews_%s.json' % app_id\n    if os.path.exists(out):        # resume after a block\n        continue\n    rows = []\n    for page in range(1, 11):      # 10 pages x 50 = the 500 ceiling\n        feed = fetch(app_id, page).get('feed', {})\n        entries = feed.get('entry', [])\n        if page == 1:\n            entries = entries[1:]  # entry[0] is the app, not a review\n        if not entries:\n            break\n        rows += entries\n        time.sleep(0.2)\n    json.dump(rows, open(out, 'w'))"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Exceeding the rate limit returns 403 with an HTML body, so a json.load raises a decode error and it looks like a parsing bug in your own code.",
+      "fix": "Check response.status before parsing, and stop the run on the first 403 rather than hammering."
+    },
+    {
+      "trap": "On page 1, entry[0] is the app itself, not a review. An empty feed omits the entry key entirely rather than returning [].",
+      "fix": "Slice off the first entry on page 1 and use .get('entry', [])."
+    },
+    {
+      "trap": "Four obvious substitutes are closed: the older /rss/customerreviews/id= path (same block), amp-api.apps.apple.com (401, wants a bearer token that is in neither the page HTML nor the bundles), the product page's serialized-server-data (only 8 Apple-chosen reviews), and ?see-all=reviews (renders client-side).",
+      "fix": "Budget for the RSS feed at 5 req/s, or buy a commercial ASO feed."
+    }
+  ],
+  "related": [
+    "itunes-search",
+    "google-play"
+  ],
+  "used_by": [
+    "unforced"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "degraded"
+}

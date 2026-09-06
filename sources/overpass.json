@@ -1,0 +1,82 @@
+{
+  "id": "overpass",
+  "name": "Overpass API (OpenStreetMap query engine)",
+  "publisher": "OpenStreetMap community (several public instances)",
+  "homepage": "https://wiki.openstreetmap.org/wiki/Overpass_API",
+  "description": "A query language over the entire OpenStreetMap database: every cafe in a bounding box, every trail with a given surface tag, every building within 500 m of a school. This is the closest thing there is to a free global spatial database you can ask arbitrary questions of.",
+  "topics": [
+    "geospatial",
+    "openstreetmap",
+    "query engine"
+  ],
+  "geography": "global",
+  "temporal": {
+    "grain": "snapshot",
+    "updated": "minutely from OSM edits"
+  },
+  "license": {
+    "name": "ODbL 1.0",
+    "url": "https://www.openstreetmap.org/copyright",
+    "redistribution": "share-alike, attribution required"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json",
+      "xml",
+      "csv"
+    ],
+    "bulk": true,
+    "size_hint": "a city-sized amenity query is a few hundred KB; a country-sized one can be gigabytes and will be refused",
+    "rate_limit": "slot-based, not request-based: GET /api/status tells you your rate limit, slots available and current load",
+    "etiquette": "always put [timeout:25] in the query and bound it by bbox or area; unbounded queries are what get instances overloaded"
+  },
+  "probes": [
+    {
+      "id": "status",
+      "description": "Your slot allocation and the server's load",
+      "url": "https://overpass-api.de/api/status",
+      "expect": {
+        "body_contains": [
+          "Rate limit"
+        ]
+      }
+    },
+    {
+      "id": "small-bbox",
+      "description": "A deliberately tiny query - large ones 504 under load",
+      "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A20%5D%3Bnode(39.025%2C-77.080%2C39.030%2C-77.075)%3Bout%201%3B",
+      "min_interval_s": 3,
+      "expect": {
+        "body_contains": [
+          "generator",
+          "osm3s"
+        ]
+      },
+      "note": "The public instance answers 504 whenever it is busy, which is often. A failure here is usually load, not breakage - check the status probe beside it."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Every cafe in a bounding box",
+      "lang": "bash",
+      "code": "curl -s -G https://overpass-api.de/api/interpreter \\\n  --data-urlencode 'data=[out:json][timeout:25];node(39.02,-77.09,39.04,-77.06)[amenity=cafe];out body;' \\\n  | python3 -c \"import json,sys; [print(e['tags'].get('name'), e['lat'], e['lon']) for e in json.load(sys.stdin)['elements']]\""
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "HTTP 504 from the public instance usually means the server was busy, not that your query was wrong. The same query often succeeds a minute later or with a smaller bbox.",
+      "fix": "Check /api/status first, keep [timeout:25] in the query, and back off rather than retrying immediately."
+    },
+    {
+      "trap": "Query results are nodes, ways and relations, not features. A building is a way whose geometry is a list of node ids.",
+      "fix": "Ask for 'out geom;' or 'out center;' unless you want to resolve node references yourself."
+    }
+  ],
+  "related": [
+    "nominatim"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

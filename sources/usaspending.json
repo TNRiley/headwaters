@@ -1,0 +1,88 @@
+{
+  "id": "usaspending",
+  "name": "USAspending API",
+  "publisher": "US Department of the Treasury",
+  "homepage": "https://api.usaspending.gov/",
+  "description": "Every federal contract, grant, loan and direct payment - who received it, from which agency, for what, and where the recipient is - covering more than $10 trillion of awards since 2008. Search is a POST API with a rich filter object; agency and reference lookups are plain GETs.",
+  "topics": [
+    "government",
+    "spending",
+    "economics",
+    "united states"
+  ],
+  "geography": "United States",
+  "temporal": {
+    "start": "FY2008",
+    "end": "present",
+    "grain": "per-award and per-transaction",
+    "updated": "twice monthly"
+  },
+  "license": {
+    "name": "US Government work, public domain",
+    "redistribution": "free"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json",
+      "csv bulk download"
+    ],
+    "bulk": true,
+    "size_hint": "the bulk award archives run to tens of GB per fiscal year",
+    "rate_limit": "none published; the search endpoint is heavy, so page rather than widen",
+    "pagination": "page and limit inside the POST body; limit max 100 for search"
+  },
+  "probes": [
+    {
+      "id": "toptier-agencies",
+      "url": "https://api.usaspending.gov/api/v2/references/toptier_agencies/",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "toptier_code",
+          "agency_name"
+        ]
+      },
+      "note": "Reachable, but this endpoint's TLS chain was rejected by Python's OpenSSL 3.5 on the machine that ran the probes on 2026-09-06 ('self-signed certificate in certificate chain') while curl against the same host, on the same bundle, returned 200. A grey dot here is a fact about the prober, not about USAspending."
+    },
+    {
+      "id": "award-search",
+      "description": "POST search - the endpoint that does the real work",
+      "method": "POST",
+      "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\"filters\":{\"award_type_codes\":[\"A\",\"B\",\"C\",\"D\"],\"time_period\":[{\"start_date\":\"2024-01-01\",\"end_date\":\"2024-03-31\"}]},\"fields\":[\"Award ID\",\"Recipient Name\",\"Award Amount\"],\"limit\":2,\"page\":1}",
+      "expect": {
+        "body_contains": [
+          "results"
+        ]
+      },
+      "note": "Reachable, but this endpoint's TLS chain was rejected by Python's OpenSSL 3.5 on the machine that ran the probes on 2026-09-06 ('self-signed certificate in certificate chain') while curl against the same host, on the same bundle, returned 200. A grey dot here is a fact about the prober, not about USAspending."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Largest contracts in a quarter",
+      "lang": "bash",
+      "code": "curl -s -X POST https://api.usaspending.gov/api/v2/search/spending_by_award/ \\\n  -H 'Content-Type: application/json' \\\n  -d '{\"filters\":{\"award_type_codes\":[\"A\",\"B\",\"C\",\"D\"],\"time_period\":[{\"start_date\":\"2024-01-01\",\"end_date\":\"2024-03-31\"}]},\"fields\":[\"Award ID\",\"Recipient Name\",\"Award Amount\",\"Awarding Agency\"],\"sort\":\"Award Amount\",\"order\":\"desc\",\"limit\":10}' | python3 -m json.tool | head -40"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "The fields list uses human-readable labels with spaces and exact capitalisation ('Award ID', not award_id). A wrong label is a 400 with a long validation message.",
+      "fix": "Read the endpoint's docs page for the exact label list; they differ per award type."
+    },
+    {
+      "trap": "award_type_codes is required on the award search and there is no 'everything' value.",
+      "fix": "A, B, C, D are contracts; 02-05 grants; 07, 08 loans; 06, 10 direct payments."
+    }
+  ],
+  "related": [
+    "federal-register"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

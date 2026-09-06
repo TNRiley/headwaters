@@ -1,0 +1,75 @@
+{
+  "id": "natural-earth",
+  "name": "Natural Earth",
+  "publisher": "Natural Earth (volunteer, NACIS-supported)",
+  "homepage": "https://www.naturalearthdata.com/",
+  "description": "Public-domain vector and raster basemap data at three scales - countries, states, coastlines, rivers, lakes, roads, urban areas, populated places - designed for cartography rather than analysis. The default answer to 'I need a world map that looks right and I need it in one download'.",
+  "topics": [
+    "geospatial",
+    "cartography",
+    "reference",
+    "basemap"
+  ],
+  "geography": "global",
+  "temporal": {
+    "grain": "snapshot",
+    "updated": "infrequently; version 5.x is current"
+  },
+  "license": {
+    "name": "Public domain",
+    "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "redistribution": "unrestricted, no attribution required (though it is appreciated)"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "shapefile",
+      "geopackage",
+      "geotiff"
+    ],
+    "bulk": true,
+    "size_hint": "110m countries is ~200 KB zipped; 10m physical layers run to tens of MB",
+    "etiquette": "the naciscdn.org paths are the CDN the site itself uses; the naturalearthdata.com download links redirect there"
+  },
+  "probes": [
+    {
+      "id": "countries-110m",
+      "url": "https://naciscdn.org/naturalearth/110m/cultural/ne_110m_admin_0_countries.zip",
+      "range_bytes": 2048,
+      "expect": {
+        "content_type": "zip"
+      }
+    },
+    {
+      "id": "coastline-50m",
+      "url": "https://naciscdn.org/naturalearth/50m/physical/ne_50m_coastline.zip",
+      "range_bytes": 2048,
+      "expect": {
+        "content_type": "zip"
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Country outlines as GeoJSON in three commands",
+      "lang": "bash",
+      "code": "curl -sO https://naciscdn.org/naturalearth/110m/cultural/ne_110m_admin_0_countries.zip\nunzip -o ne_110m_admin_0_countries.zip\nogr2ogr -f GeoJSON countries.json ne_110m_admin_0_countries.shp   # needs GDAL"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "110m, 50m and 10m are map scales, not resolutions in metres. 110m is the coarsest.",
+      "fix": "110m for world maps, 50m for continents, 10m for a country or smaller."
+    },
+    {
+      "trap": "Disputed boundaries have several variants (ne_10m_admin_0_countries, _lakes, _disputed_areas) and they differ politically.",
+      "fix": "Pick deliberately and say which you used."
+    }
+  ],
+  "related": [
+    "nominatim"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

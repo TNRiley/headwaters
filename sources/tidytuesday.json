@@ -1,0 +1,82 @@
+{
+  "id": "tidytuesday",
+  "name": "TidyTuesday",
+  "publisher": "Data Science Learning Community",
+  "homepage": "https://github.com/rfordatascience/tidytuesday",
+  "description": "A weekly community data project: every Monday a curated, cleaned dataset lands in a public repository with a readme describing its columns and provenance, and thousands of people publish visualisations of it. Running since 2018, so the repository is now a well-documented archive of ~400 tidy datasets on almost every subject.",
+  "topics": [
+    "meta-catalog",
+    "teaching",
+    "curation",
+    "community"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "2018-04",
+    "end": "present",
+    "grain": "one dataset per week",
+    "updated": "weekly, Mondays"
+  },
+  "license": {
+    "name": "per-dataset; each week's readme names the original source and its terms",
+    "url": "https://github.com/rfordatascience/tidytuesday/blob/main/README.md",
+    "redistribution": "the repo is a teaching mirror - cite the original source"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "csv",
+      "xlsx",
+      "rds"
+    ],
+    "bulk": true,
+    "size_hint": "most weeks are under 5 MB",
+    "pagination": "directory listing per year: data/<year>/<YYYY-MM-DD>/"
+  },
+  "probes": [
+    {
+      "id": "year-index",
+      "description": "This year's weeks",
+      "url": "https://api.github.com/repos/rfordatascience/tidytuesday/contents/data/2026",
+      "range_bytes": 8192,
+      "expect": {
+        "body_contains": [
+          "2026-"
+        ]
+      }
+    },
+    {
+      "id": "week-file",
+      "description": "An arbitrary historical week's data file",
+      "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-04-02/us_avg_tuition.xlsx",
+      "range_bytes": 2048,
+      "expect": {
+        "content_type": "octet-stream"
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "List every week and its files",
+      "lang": "bash",
+      "code": "for y in 2024 2025 2026; do\n  curl -s \"https://api.github.com/repos/rfordatascience/tidytuesday/contents/data/$y\" \\\n    | python3 -c \"import json,sys;[print(d['path']) for d in json.load(sys.stdin)]\"\ndone"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Weekly folders hold the data files and a readme.md, but the readme is the only description of the columns.",
+      "fix": "Fetch data/<year>/<date>/readme.md alongside the data; it names the original source, which is what you should cite."
+    },
+    {
+      "trap": "The datasets are cleaned for teaching, sometimes subset or simplified relative to the original.",
+      "fix": "Use it to learn the shape of a dataset, then go to the source for analysis you will publish."
+    }
+  ],
+  "related": [
+    "data-is-plural",
+    "github-api"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

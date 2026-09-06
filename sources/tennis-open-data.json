@@ -1,0 +1,108 @@
+{
+  "id": "tennis-open-data",
+  "name": "Open professional tennis match data",
+  "publisher": "Jeff Sackmann (Match Charting Project) and the Tennismylife community",
+  "homepage": "https://github.com/JeffSackmann/tennis_MatchChartingProject",
+  "description": "Match-level and point-level results for professional tennis, distributed as CSVs in git. Jeff Sackmann's tennis_atp and tennis_wta - the datasets almost every tennis analytics project has been built on - were 404 on 2026-09-06; his Match Charting Project, with point-by-point data for thousands of charted matches, is alive and was updated the same day. Tennismylife/TML-Database carries ATP results from 1968 to the present in Sackmann's own column layout.",
+  "topics": [
+    "sport",
+    "tennis",
+    "match data",
+    "time series"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "1968 (TML ATP results); 1970s for charted matches",
+    "end": "present",
+    "grain": "per-match and per-point",
+    "updated": "TML weekly; charting project continuously"
+  },
+  "license": {
+    "name": "Match Charting Project is CC-BY-NC-SA 4.0; TML-Database states no explicit licence",
+    "url": "https://github.com/JeffSackmann/tennis_MatchChartingProject#readme",
+    "redistribution": "MCP: non-commercial with attribution and share-alike. TML: unstated, so ask before republishing."
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "csv"
+    ],
+    "bulk": true,
+    "size_hint": "charting-m-points-2020s.csv is tens of MB; one TML year file is under 1 MB",
+    "etiquette": "clone the repo once rather than fetching raw files in a loop"
+  },
+  "fields": [
+    "TML: tourney_id, surface, tourney_level, winner_name, loser_name, winner_rank, score, w_ace, w_df, w_svpt ...",
+    "MCP: charting-m-points-*.csv has one row per point with a shot-by-shot notation string"
+  ],
+  "probes": [
+    {
+      "id": "mcp-repo",
+      "description": "The Match Charting Project, alive",
+      "url": "https://api.github.com/repos/JeffSackmann/tennis_MatchChartingProject",
+      "expect": {
+        "body_contains": [
+          "tennis_MatchChartingProject"
+        ]
+      }
+    },
+    {
+      "id": "tml-year-csv",
+      "description": "ATP results for the current season",
+      "url": "https://raw.githubusercontent.com/Tennismylife/TML-Database/master/2026.csv",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "tourney_name",
+          "winner_name"
+        ]
+      }
+    },
+    {
+      "id": "sackmann-atp",
+      "description": "The canonical dataset almost every tennis project cites",
+      "url": "https://api.github.com/repos/JeffSackmann/tennis_atp",
+      "known_broken": "404 on 2026-09-06, as are tennis_wta, tennis_slam_pointbypoint and tennis_pointbypoint. Only tennis_MatchChartingProject remains under that account. Thousands of tutorials, papers and notebooks point at these URLs.",
+      "expect": {
+        "body_contains": [
+          "full_name"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Every match a player won this season",
+      "lang": "bash",
+      "code": "curl -s https://raw.githubusercontent.com/Tennismylife/TML-Database/master/2026.csv \\\n | python3 -c \"import csv,sys;[print(r['tourney_name'], r['round'], r['loser_name'], r['score']) for r in csv.DictReader(sys.stdin) if 'Sinner' in r['winner_name']]\" | head"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Any code or tutorial fetching raw.githubusercontent.com/JeffSackmann/tennis_atp/... breaks today. The failure is a 404 on a raw URL, which is easy to misread as a typo.",
+      "fix": "Use Tennismylife/TML-Database for ATP match results - same column layout - and check for an archived copy before assuming the history is lost."
+    },
+    {
+      "trap": "The Match Charting Project is crowd-charted, so coverage is deep but not representative: big matches are over-sampled.",
+      "fix": "Do not treat it as a random sample of professional tennis."
+    }
+  ],
+  "see_also": [
+    {
+      "name": "Tennismylife/TML-Database",
+      "url": "https://github.com/Tennismylife/TML-Database",
+      "note": "ATP 1968-present in Sackmann's schema, updated weekly"
+    },
+    {
+      "name": "serve-and-volley/atp-world-tour-tennis-data",
+      "url": "https://github.com/serve-and-volley/atp-world-tour-tennis-data",
+      "note": "independent scraper, still active"
+    }
+  ],
+  "related": [
+    "github-api"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "degraded"
+}

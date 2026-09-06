@@ -1,0 +1,80 @@
+{
+  "id": "aws-open-data-registry",
+  "name": "Registry of Open Data on AWS",
+  "publisher": "Amazon Web Services (community-contributed)",
+  "homepage": "https://registry.opendata.aws/",
+  "description": "A registry of large public datasets hosted in S3 - satellite imagery, genomics, climate models, road networks, web crawls - each described by a YAML file in a public GitHub repository giving the bucket, region, format, licence and example usage. The practical index for data too big to download, including the NOAA mirrors that replaced several retired FTP endpoints.",
+  "topics": [
+    "meta-catalog",
+    "cloud",
+    "big data",
+    "registry"
+  ],
+  "geography": "global",
+  "temporal": {
+    "grain": "per-dataset record",
+    "updated": "continuously by pull request"
+  },
+  "license": {
+    "name": "registry metadata is CC-BY 4.0; each dataset states its own licence",
+    "url": "https://github.com/awslabs/open-data-registry/blob/main/LICENSE"
+  },
+  "access": {
+    "auth": "none",
+    "auth_note": "the registry itself is public YAML; most listed buckets allow anonymous S3 reads (aws s3 ls --no-sign-request)",
+    "formats": [
+      "yaml",
+      "the datasets themselves in every format"
+    ],
+    "bulk": true,
+    "size_hint": "registry is a few MB; the datasets it points at run to petabytes"
+  },
+  "probes": [
+    {
+      "id": "dataset-yaml",
+      "description": "One record - the GHCN mirror that replaced NOAA's retired FTP paths",
+      "url": "https://raw.githubusercontent.com/awslabs/open-data-registry/main/datasets/noaa-ghcn.yaml",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "Name:",
+          "ARN:"
+        ]
+      }
+    },
+    {
+      "id": "registry-index",
+      "url": "https://api.github.com/repos/awslabs/open-data-registry/contents/datasets?per_page=1",
+      "expect": {
+        "body_contains": [
+          "download_url"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Find every dataset mentioning a term",
+      "lang": "bash",
+      "code": "git clone --depth 1 https://github.com/awslabs/open-data-registry\ngrep -il 'bathymetry' open-data-registry/datasets/*.yaml | head\n# then: aws s3 ls --no-sign-request s3://<bucket>/"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Records are contributed by the data owners and are not re-verified, so buckets do occasionally move or close.",
+      "fix": "Check the ARN with aws s3 ls --no-sign-request before planning a pipeline around it."
+    },
+    {
+      "trap": "'Free' means the data is free; egress out of AWS is not.",
+      "fix": "Process in the same region, or pull only the objects you need."
+    }
+  ],
+  "related": [
+    "ghcn-stations-inventory",
+    "huggingface-datasets",
+    "data-is-plural"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

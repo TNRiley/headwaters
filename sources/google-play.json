@@ -1,0 +1,111 @@
+{
+  "id": "google-play",
+  "name": "Google Play store listings and review RPC",
+  "publisher": "Google (unofficial - scraped, not an API)",
+  "homepage": "https://play.google.com/store/apps",
+  "description": "Play has no public data API, but the store's own web front end is reachable: search HTML carries package names, the listing page embeds a full metadata blob, and the private batchexecute RPC that powers the reviews tab returns up to 199 reviews per call. Everything below was verified by reading the rendered pages, not from documentation, so treat the offsets as perishable.",
+  "topics": [
+    "apps",
+    "google play",
+    "reviews",
+    "text",
+    "scraping"
+  ],
+  "geography": "per-country (gl= parameter)",
+  "temporal": {
+    "grain": "snapshot; reviews are per-review with timestamps",
+    "updated": "live"
+  },
+  "license": {
+    "name": "unclear - public store pages, no data licence",
+    "redistribution": "quote individual reviews with attribution; do not republish the corpus"
+  },
+  "access": {
+    "auth": "scrape",
+    "auth_note": "no key and no supported API; you are parsing the site's own payloads",
+    "formats": [
+      "html with embedded json",
+      "batchexecute rpc"
+    ],
+    "bulk": false,
+    "size_hint": "~30 results per search query; 199 reviews per RPC call, 3 calls, so about 597 per app",
+    "etiquette": "identify yourself with a normal User-Agent, keep concurrency low, and cache aggressively - this is someone's web front end"
+  },
+  "fields": [
+    "ds:5 positional array on the listing page",
+    "title (1,2,0,0)",
+    "developer (1,2,68,0)",
+    "installs (1,2,13,0)",
+    "score (1,2,51,0,1)",
+    "ratings count (1,2,51,2,1)",
+    "1-5 star histogram (1,2,51,1,<1..5>,1)",
+    "genreId (1,2,79,0,0,2)",
+    "description (1,2,72,0,1)"
+  ],
+  "probes": [
+    {
+      "id": "search-html",
+      "description": "Search results carry package ids in hrefs",
+      "url": "https://play.google.com/store/search?q=tennis&c=apps&hl=en&gl=us",
+      "headers": {
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "range_bytes": 1150000,
+      "min_interval_s": 3,
+      "expect": {
+        "body_contains": [
+          "/store/apps/details?id="
+        ]
+      },
+      "note": "Deliberately expensive: the package-name hrefs first appear about 1 MB into the page, so proving the scrape route works costs roughly that much."
+    },
+    {
+      "id": "listing-page",
+      "description": "The listing page and its AF_initDataCallback blob",
+      "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=en&gl=us",
+      "headers": {
+        "Accept-Language": "en-US,en;q=0.9"
+      },
+      "range_bytes": 1200000,
+      "min_interval_s": 3,
+      "expect": {
+        "body_contains": [
+          "AF_initDataCallback"
+        ]
+      },
+      "note": "AF_initDataCallback sits about 1.05 MB into a 1.36 MB page. There is no cheaper way to prove the blob is still there."
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "The listing page is ~1.4 MB and the data blob starts around byte 1,050,000. A ranged or truncated read returns a page that looks fine and contains nothing you need.",
+      "fix": "Read the whole response before searching for AF_initDataCallback."
+    },
+    {
+      "trap": "The displayed genre is useless for excluding games - Play files Tennis Clash under 'Sports'.",
+      "fix": "Read genreId at (1,2,79,0,0,2); games carry a GAME_* value."
+    },
+    {
+      "trap": "The ds:5 blob is a positional unnamed array. Any offset here can move without warning when Google ships a front-end change.",
+      "fix": "Assert on a known app before a long run: if Google Maps does not parse, the offsets have moved."
+    },
+    {
+      "trap": "Search returns only about 30 results per query, however you page it.",
+      "fix": "Cover the space with many queries and deduplicate on package name."
+    },
+    {
+      "trap": "The reviews RPC response starts with )]}' and a length line before the JSON.",
+      "fix": "Strip the first line, parse, then parse [0][2] which is itself a JSON string."
+    }
+  ],
+  "related": [
+    "itunes-search",
+    "apple-review-rss"
+  ],
+  "used_by": [
+    "unforced"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

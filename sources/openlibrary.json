@@ -1,0 +1,79 @@
+{
+  "id": "openlibrary",
+  "name": "Open Library API",
+  "publisher": "Internet Archive",
+  "homepage": "https://openlibrary.org/developers/api",
+  "description": "A catalogue of over 40 million books - editions, works, authors, subjects, covers and, for a large slice, full text searchable through the Internet Archive. Bulk dumps are published monthly. No key, and the search API accepts ISBNs, titles and authors interchangeably.",
+  "topics": [
+    "books",
+    "culture",
+    "library",
+    "reference"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "printing to present",
+    "end": "present",
+    "grain": "per-edition",
+    "updated": "continuously; monthly bulk dumps"
+  },
+  "license": {
+    "name": "CC0 for the catalogue data",
+    "url": "https://openlibrary.org/developers/api",
+    "redistribution": "free"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json",
+      "bulk tsv dumps"
+    ],
+    "bulk": true,
+    "size_hint": "the monthly editions dump is ~10 GB compressed",
+    "rate_limit": "unpublished; they ask for under 100 requests/minute and a real User-Agent. In practice the host sheds load well before that - expect resets and multi-second responses, and retry rather than parallelise.",
+    "pagination": "offset= and limit=, or page="
+  },
+  "probes": [
+    {
+      "id": "search",
+      "url": "https://openlibrary.org/search.json?q=moby+dick&limit=1",
+      "expect": {
+        "body_contains": [
+          "numFound",
+          "docs"
+        ]
+      },
+      "note": "openlibrary.org is frequently slow and sheds load: measured 0.4 s, then 6.7 s, then a 30 s timeout and a connection reset within one afternoon on 2026-09-06. Give it a long timeout and retry before reading a failure here as an outage."
+    },
+    {
+      "id": "isbn-lookup",
+      "url": "https://openlibrary.org/isbn/9780140449136.json",
+      "expect": {
+        "body_contains": [
+          "title"
+        ]
+      },
+      "note": "openlibrary.org is frequently slow and sheds load: measured 0.4 s, then 6.7 s, then a 30 s timeout and a connection reset within one afternoon on 2026-09-06. Give it a long timeout and retry before reading a failure here as an outage."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Everything an ISBN resolves to",
+      "lang": "bash",
+      "code": "curl -s 'https://openlibrary.org/api/books?bibkeys=ISBN:9780140449136&format=json&jscmd=data' | python3 -m json.tool | head -30"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Works and editions are different objects. A search hit is a work; the ISBN, page count and publisher live on an edition.",
+      "fix": "Follow the edition_key from the search result if you need physical details."
+    },
+    {
+      "trap": "Coverage is uneven and crowd-edited, so subjects and dates for older books are frequently wrong.",
+      "fix": "Do not treat it as an authority file; cross-check against a library catalogue for anything load-bearing."
+    }
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

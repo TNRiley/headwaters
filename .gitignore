@@ -1,0 +1,11 @@
+.DS_Store
+*.pyc
+__pycache__/
+# raw downloads and intermediates — regenerate them, don't commit them
+*.csv
+*.dly
+!docs/*.csv
+openalex_*.json
+payload.json
+retractionwatch.csv
+node_modules/

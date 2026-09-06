@@ -1,0 +1,82 @@
+{
+  "id": "open-meteo",
+  "name": "Open-Meteo",
+  "publisher": "Open-Meteo (Zurich)",
+  "homepage": "https://open-meteo.com/",
+  "description": "Weather forecast and reanalysis history for any coordinate on earth, as JSON, with no API key and no registration. The archive endpoint serves ERA5 back to 1940 at hourly resolution, which makes it the fastest way to get a defensible weather history for a place that has no nearby station.",
+  "topics": [
+    "weather",
+    "climate",
+    "forecast",
+    "time series"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "1940 (archive)",
+    "end": "16 days ahead (forecast)",
+    "grain": "hourly",
+    "updated": "hourly; archive lags ~5 days"
+  },
+  "license": {
+    "name": "CC-BY-4.0 for the API; underlying models are national weather service open data",
+    "url": "https://open-meteo.com/en/license",
+    "redistribution": "permitted with attribution; non-commercial free tier"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json",
+      "csv",
+      "flatbuffers"
+    ],
+    "bulk": false,
+    "size_hint": "a year of hourly data for one point is ~1 MB of JSON",
+    "rate_limit": "free tier: under 10,000 calls/day, and they mean it - batch coordinates instead of looping",
+    "etiquette": "ask for many variables in one call rather than one call per variable; use the &start_date/&end_date form rather than day-by-day loops"
+  },
+  "probes": [
+    {
+      "id": "forecast",
+      "url": "https://api.open-meteo.com/v1/forecast?latitude=39.03&longitude=-77.08&hourly=temperature_2m&forecast_days=1",
+      "expect": {
+        "body_contains": [
+          "temperature_2m",
+          "generationtime_ms"
+        ]
+      }
+    },
+    {
+      "id": "archive-era5",
+      "description": "ERA5 reanalysis, one historical day",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=39.03&longitude=-77.08&start_date=1990-07-04&end_date=1990-07-04&daily=temperature_2m_max&timezone=UTC",
+      "expect": {
+        "body_contains": [
+          "temperature_2m_max"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Daily max/min for a decade at one point",
+      "lang": "bash",
+      "code": "curl -s 'https://archive-api.open-meteo.com/v1/archive?latitude=39.03&longitude=-77.08&start_date=2015-01-01&end_date=2025-01-01&daily=temperature_2m_max,temperature_2m_min&timezone=America%2FNew_York' | head -c 400"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "The forecast host and the archive host are different services with different date coverage.",
+      "fix": "api.open-meteo.com for forecast and recent past, archive-api.open-meteo.com for anything older than about a week."
+    },
+    {
+      "trap": "Reanalysis is a model, not an observation. It will not match the station down the road exactly.",
+      "fix": "Use GHCN-Daily when you need what a thermometer actually recorded; use Open-Meteo when you need coverage."
+    }
+  ],
+  "related": [
+    "ghcn-daily"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

@@ -1,0 +1,412 @@
+<title>Headwaters</title>
+<style>
+  :root{
+    --bg:#0b1016; --bg2:#0f151d; --panel:#121a24; --line:#1f2b38; --line2:#2a3a4c;
+    --ink:#dfe8f2; --dim:#8ba0b6; --dimmer:#5f748a;
+    --ok:#4ec9a0; --bad:#e8646a; --dead:#6b7c8f; --warn:#e0b054;
+    --accent:#5fb3f0; --accent2:#7ee0c4;
+    --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+
+  header{border-bottom:1px solid var(--line);padding:22px 26px 18px;background:
+    radial-gradient(120% 140% at 0% 0%, #14202c 0%, var(--bg) 62%)}
+  .brand{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+  h1{margin:0;font-size:23px;letter-spacing:-.4px;font-weight:650}
+  h1 .drop{color:var(--accent2)}
+  .tag{color:var(--dim);font-size:13.5px;max-width:62ch}
+  .stats{display:flex;gap:26px;margin-top:14px;flex-wrap:wrap;font-family:var(--mono);font-size:12px}
+  .stat b{display:block;font-size:19px;font-weight:600;letter-spacing:-.3px;font-family:var(--sans)}
+  .stat span{color:var(--dimmer);text-transform:uppercase;letter-spacing:.09em;font-size:10px}
+  .stat.ok b{color:var(--ok)} .stat.bad b{color:var(--bad)} .stat.dead b{color:var(--dead)}
+
+  .wrap{display:grid;grid-template-columns:232px minmax(0,1fr);gap:0;min-height:calc(100vh - 132px)}
+  aside{border-right:1px solid var(--line);padding:18px 16px 60px;position:sticky;top:0;align-self:start;
+        max-height:100vh;overflow:auto}
+  .facet{margin-bottom:20px}
+  .facet h3{margin:0 0 7px;font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--dimmer);font-weight:600}
+  .facet button{display:flex;justify-content:space-between;gap:8px;width:100%;text-align:left;background:none;border:0;
+    color:var(--dim);font:inherit;font-size:13px;padding:2.5px 6px;border-radius:5px;cursor:pointer;line-height:1.4}
+  .facet button:hover{background:var(--bg2);color:var(--ink)}
+  .facet button.on{background:#17304a;color:#cfe6ff}
+  .facet button i{font-style:normal;color:var(--dimmer);font-family:var(--mono);font-size:11px}
+
+  main{padding:18px 26px 90px;min-width:0}
+  .searchrow{display:flex;gap:10px;align-items:center;margin-bottom:6px}
+  #q{flex:1;background:var(--bg2);border:1px solid var(--line2);color:var(--ink);border-radius:8px;
+     padding:9px 12px;font:14px var(--sans);outline:none}
+  #q:focus{border-color:var(--accent);box-shadow:0 0 0 3px #5fb3f022}
+  .modes{display:flex;gap:2px;background:var(--bg2);border:1px solid var(--line2);border-radius:8px;padding:2px}
+  .modes button{background:none;border:0;color:var(--dim);font:12px var(--sans);padding:6px 11px;border-radius:6px;cursor:pointer}
+  .modes button.on{background:#17304a;color:#cfe6ff}
+  .count{color:var(--dimmer);font-size:12px;font-family:var(--mono);margin:8px 0 14px}
+
+  .card{border:1px solid var(--line);border-radius:10px;padding:13px 15px;margin-bottom:9px;background:var(--bg2);cursor:pointer;
+        transition:border-color .12s,background .12s}
+  .card:hover{border-color:var(--line2);background:#121b25}
+  .card.sel{border-color:var(--accent);background:#101c28}
+  .card h2{margin:0 0 3px;font-size:16px;font-weight:600;letter-spacing:-.2px;display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+  .pub{color:var(--dimmer);font-size:12px;font-weight:400}
+  .card p{margin:5px 0 8px;color:var(--dim);font-size:13.5px;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .chips{display:flex;gap:5px;flex-wrap:wrap;align-items:center}
+  .chip{font-family:var(--mono);font-size:10.5px;color:var(--dim);border:1px solid var(--line2);
+    border-radius:20px;padding:1.5px 8px;white-space:nowrap}
+  .chip.k{border-color:#3a4a2f;color:#b9d08e}
+  .chip.warnc{border-color:#4a3f20;color:var(--warn)}
+  .dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex:none}
+  .dot.ok{background:var(--ok);box-shadow:0 0 8px #4ec9a066}
+  .dot.bad{background:var(--bad);box-shadow:0 0 8px #e8646a66}
+  .dot.dead{background:var(--dead)}
+  .dot.net{background:var(--warn);box-shadow:0 0 8px #e0b05455}
+  .dot.none{background:var(--line2)}
+
+  /* detail */
+  .sheet{position:fixed;inset:0 0 0 auto;width:min(760px,94vw);background:var(--panel);border-left:1px solid var(--line2);
+    overflow:auto;padding:24px 28px 90px;box-shadow:-30px 0 60px #0006;transform:translateX(100%);transition:transform .16s ease-out;z-index:9}
+  .sheet.open{transform:none}
+  .sheet .x{position:absolute;top:14px;right:18px;background:none;border:0;color:var(--dim);font-size:22px;cursor:pointer;line-height:1}
+  .sheet h2{margin:0 0 2px;font-size:22px;letter-spacing:-.4px}
+  .sheet .lede{color:var(--dim);font-size:14px;margin:10px 0 18px}
+  .sheet h4{margin:22px 0 8px;font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--dimmer)}
+  table.kv{width:100%;border-collapse:collapse;font-size:13px}
+  table.kv td{padding:5px 0;vertical-align:top;border-bottom:1px solid var(--line)}
+  table.kv td:first-child{color:var(--dimmer);width:132px;font-family:var(--mono);font-size:11.5px;padding-right:12px}
+  .probe{border:1px solid var(--line);border-radius:8px;padding:9px 11px;margin-bottom:7px;background:var(--bg2)}
+  .probe .top{display:flex;align-items:center;gap:9px;font-size:13px}
+  .probe code{font-family:var(--mono);font-size:11.5px;color:var(--dim);word-break:break-all;display:block;margin-top:5px}
+  .probe .meta{font-family:var(--mono);font-size:11px;color:var(--dimmer);margin-left:auto;white-space:nowrap}
+  .probe .why{color:var(--bad);font-size:12px;margin-top:5px}
+  .probe .note{color:var(--warn);font-size:12px;margin-top:5px}
+  .gotcha{border-left:2px solid var(--warn);padding:2px 0 2px 12px;margin:0 0 11px}
+  .gotcha .t{font-size:13.5px}
+  .gotcha .f{font-size:13px;color:var(--dim);margin-top:3px}
+  .gotcha .f b{color:var(--accent2);font-weight:600}
+  pre{background:#0a0f15;border:1px solid var(--line);border-radius:8px;padding:11px 13px;overflow:auto;
+      font-family:var(--mono);font-size:11.5px;line-height:1.5;margin:0 0 10px;position:relative}
+  .copy{position:absolute;top:6px;right:6px;background:var(--bg2);border:1px solid var(--line2);color:var(--dim);
+    border-radius:5px;font:10.5px var(--mono);padding:2.5px 7px;cursor:pointer}
+  .copy:hover{color:var(--ink);border-color:var(--accent)}
+  .scrim{position:fixed;inset:0;background:#0006;opacity:0;pointer-events:none;transition:opacity .16s;z-index:8}
+  .scrim.on{opacity:1;pointer-events:auto}
+
+  .gview .gotcha{margin-bottom:16px}
+  .gview .src{font-size:11px;font-family:var(--mono);color:var(--dimmer);margin-bottom:2px}
+  .empty{color:var(--dimmer);padding:40px 0;text-align:center}
+  footer{border-top:1px solid var(--line);padding:20px 26px 40px;color:var(--dimmer);font-size:12.5px}
+  kbd{font-family:var(--mono);font-size:11px;border:1px solid var(--line2);border-radius:4px;padding:1px 5px;color:var(--dim)}
+  @media(max-width:820px){.wrap{grid-template-columns:1fr}aside{position:static;max-height:none;border-right:0;border-bottom:1px solid var(--line)}}
+</style>
+
+<header>
+  <div class="brand">
+    <h1>Head<span class="drop">waters</span></h1>
+    <div class="tag">Open data sources, each one described well enough to start using it from a shell &mdash; and probed, so the page can tell you whether it still answers.</div>
+  </div>
+  <div class="stats" id="stats"></div>
+</header>
+
+<div class="wrap">
+  <aside id="facets"></aside>
+  <main>
+    <div class="searchrow">
+      <input id="q" placeholder="Search names, descriptions, traps, fields&hellip;   ( / )" autocomplete="off">
+      <div class="modes">
+        <button data-mode="sources" class="on">Sources</button>
+        <button data-mode="gotchas">Traps</button>
+      </div>
+    </div>
+    <div class="count" id="count"></div>
+    <div id="list"></div>
+  </main>
+</div>
+
+<footer id="foot"></footer>
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet"><button class="x" id="closex">&times;</button><div id="sheetbody"></div></div>
+
+<script id="DATA" type="application/json">__PAYLOAD__</script>
+<script>
+(function(){
+  var D = JSON.parse(document.getElementById('DATA').textContent);
+  var SRC = D.sources, H = D.health || {}, R = H.results || {};
+  var state = {q:'', mode:'sources', facets:{}};
+
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+  // ---- health rollup -------------------------------------------------------
+  function probeState(sid, pid){
+    var r = (R[sid]||{})[pid];
+    if(!r) return 'none';
+    if(r.ok) return 'ok';
+    if(r.known_broken) return 'dead';
+    // no HTTP status at all: DNS, TLS or a timeout on the machine that ran the probe.
+    // That is a fact about the prober's network, not about the endpoint.
+    if(r.status == null && r.error) return 'net';
+    return 'bad';
+  }
+  function srcState(s){
+    var any=false, bad=false, live=false, net=false;
+    s.probes.forEach(function(p){
+      var st = probeState(s.id, p.id);
+      if(st!=='none') any=true;
+      if(st==='ok') live=true;
+      if(st==='bad') bad=true;
+      if(st==='net') net=true;
+    });
+    if(!any) return 'none';
+    if(bad) return 'bad';
+    if(net && !live) return 'net';
+    return live ? 'ok' : 'dead';
+  }
+
+  // ---- facets --------------------------------------------------------------
+  var FACETS = [
+    {key:'topic',  label:'Topic',   get:function(s){ return s.topics; }},
+    {key:'auth',   label:'Access',  get:function(s){ return [s.access.auth]; }},
+    {key:'bulk',   label:'Bulk',    get:function(s){ return [s.access.bulk ? 'whole dataset' : 'query only']; }},
+    {key:'licence',label:'Licence', get:function(s){ return [licBucket(s.license.name)]; }},
+    {key:'health', label:'Answering now', get:function(s){ return [{ok:'all probes ok',bad:'a probe failing',dead:'only known-dead',net:'unreachable when last run',none:'unprobed'}[srcState(s)]]; }},
+    {key:'status', label:'Record',  get:function(s){ return [s.status||'live']; }}
+  ];
+  function licBucket(n){
+    n = (n||'').toLowerCase();
+    if(n.indexOf('cc0')>=0 || n.indexOf('public domain')>=0) return 'public domain / CC0';
+    if(n.indexOf('cc-by')>=0 || n.indexOf('cc by')>=0) return 'CC-BY';
+    if(n.indexOf('odbl')>=0 || n.indexOf('share')>=0) return 'share-alike';
+    if(n.indexOf('unclear')>=0 || n.indexOf('unspecified')>=0 || n.indexOf('unstated')>=0) return 'unclear';
+    return 'other / per-record';
+  }
+
+  function matches(s){
+    for(var k in state.facets){
+      var want = state.facets[k]; if(!want) continue;
+      var f = FACETS.filter(function(x){return x.key===k;})[0];
+      if(f.get(s).indexOf(want) < 0) return false;
+    }
+    if(!state.q) return true;
+    var hay = [s.name, s.publisher, s.description, s.topics.join(' '), s.id,
+               (s.fields||[]).join(' '),
+               (s.gotchas||[]).map(function(g){return g.trap+' '+(g.fix||'');}).join(' '),
+               s.probes.map(function(p){return p.url;}).join(' ')].join(' ').toLowerCase();
+    return state.q.toLowerCase().split(/\s+/).every(function(t){ return hay.indexOf(t)>=0; });
+  }
+
+  function drawFacets(){
+    var vis = SRC.filter(matches);
+    var html = '';
+    FACETS.forEach(function(f){
+      var counts = {};
+      SRC.forEach(function(s){ f.get(s).forEach(function(v){ counts[v]=(counts[v]||0)+1; }); });
+      var keys = Object.keys(counts).sort(function(a,b){ return counts[b]-counts[a] || a.localeCompare(b); });
+      if(f.key==='topic') keys = keys.slice(0,14);
+      html += '<div class="facet"><h3>'+f.label+'</h3>';
+      keys.forEach(function(k){
+        var on = state.facets[f.key]===k;
+        html += '<button class="'+(on?'on':'')+'" data-f="'+esc(f.key)+'" data-v="'+esc(k)+'">'+
+                '<span>'+esc(k)+'</span><i>'+counts[k]+'</i></button>';
+      });
+      html += '</div>';
+    });
+    document.getElementById('facets').innerHTML = html;
+    document.getElementById('facets').querySelectorAll('button').forEach(function(b){
+      b.onclick = function(){
+        var k=b.dataset.f, v=b.dataset.v;
+        state.facets[k] = (state.facets[k]===v) ? null : v;
+        draw();
+      };
+    });
+    return vis;
+  }
+
+  function card(s){
+    var st = srcState(s);
+    var probeBits = s.probes.map(function(p){ return '<span class="dot '+probeState(s.id,p.id)+'"></span>'; }).join(' ');
+    return '<div class="card" data-id="'+esc(s.id)+'">'+
+      '<h2><span class="dot '+st+'"></span>'+esc(s.name)+' <span class="pub">'+esc(s.publisher)+'</span></h2>'+
+      '<p>'+esc(s.description)+'</p>'+
+      '<div class="chips">'+
+        s.topics.slice(0,4).map(function(t){return '<span class="chip">'+esc(t)+'</span>';}).join('')+
+        '<span class="chip k">'+esc(s.access.auth)+'</span>'+
+        (s.access.bulk?'<span class="chip k">bulk</span>':'')+
+        ((s.gotchas||[]).length?'<span class="chip warnc">'+s.gotchas.length+' trap'+(s.gotchas.length>1?'s':'')+'</span>':'')+
+        '<span style="margin-left:auto">'+probeBits+'</span>'+
+      '</div></div>';
+  }
+
+  function gotchaView(list){
+    var out = '<div class="gview">';
+    list.forEach(function(s){
+      (s.gotchas||[]).forEach(function(g){
+        out += '<div class="gotcha"><div class="src">'+esc(s.name)+'</div>'+
+               '<div class="t">'+esc(g.trap)+'</div>'+
+               (g.fix?'<div class="f"><b>&rarr;</b> '+esc(g.fix)+'</div>':'')+'</div>';
+      });
+    });
+    return out + '</div>';
+  }
+
+  function draw(){
+    var vis = drawFacets().filter(matches);
+    vis.sort(function(a,b){ return a.name.localeCompare(b.name); });
+    var listEl = document.getElementById('list');
+    if(state.mode==='gotchas'){
+      var n = vis.reduce(function(a,s){ return a+(s.gotchas||[]).length; },0);
+      document.getElementById('count').textContent = n+' traps recorded across '+vis.length+' sources';
+      listEl.innerHTML = n ? gotchaView(vis) : '<div class="empty">nothing matches</div>';
+      return;
+    }
+    document.getElementById('count').textContent =
+      vis.length+' of '+SRC.length+' sources'+
+      (Object.keys(state.facets).filter(function(k){return state.facets[k];}).length||state.q ? '  ·  filtered' : '');
+    listEl.innerHTML = vis.length ? vis.map(card).join('') : '<div class="empty">nothing matches</div>';
+    listEl.querySelectorAll('.card').forEach(function(c){
+      c.onclick = function(){ open(c.dataset.id); };
+    });
+  }
+
+  // ---- detail sheet --------------------------------------------------------
+  function pre(code, lang){
+    return '<pre data-code="'+esc(code)+'"><button class="copy">copy</button>'+esc(code)+'</pre>';
+  }
+  function open(id){
+    var s = SRC.filter(function(x){return x.id===id;})[0]; if(!s) return;
+    var h = '';
+    h += '<h2>'+esc(s.name)+'</h2><div class="pub">'+esc(s.publisher)+' &middot; <a href="'+esc(s.homepage)+'" target="_blank" rel="noopener">'+esc(s.homepage.replace(/^https?:\/\//,''))+'</a></div>';
+    h += '<div class="lede">'+esc(s.description)+'</div>';
+
+    h += '<h4>Facts</h4><table class="kv">';
+    var t = s.temporal||{};
+    var rows = [
+      ['id', s.id],
+      ['topics', s.topics.join(', ')],
+      ['geography', s.geography],
+      ['covers', [t.start, t.end].filter(Boolean).join(' → ') + (t.grain?'  ('+t.grain+')':'')],
+      ['updated', t.updated],
+      ['licence', s.license.name + (s.license.redistribution ? '  — ' + s.license.redistribution : '')],
+      ['auth', s.access.auth + (s.access.auth_note ? '  — ' + s.access.auth_note : '')],
+      ['formats', s.access.formats.join(', ')],
+      ['bulk', s.access.bulk===undefined ? '' : (s.access.bulk?'the whole dataset is downloadable':'query only')],
+      ['size', s.access.size_hint],
+      ['rate limit', s.access.rate_limit],
+      ['pagination', s.access.pagination],
+      ['etiquette', s.access.etiquette],
+      ['used by', (s.used_by||[]).join(', ')],
+      ['record', (s.status||'live')+', verified '+(s.verified||s.added)]
+    ];
+    rows.forEach(function(r){ if(r[1]) h += '<tr><td>'+esc(r[0])+'</td><td>'+esc(r[1])+'</td></tr>'; });
+    h += '</table>';
+
+    if((s.gotchas||[]).length){
+      h += '<h4>Traps</h4>';
+      s.gotchas.forEach(function(g){
+        h += '<div class="gotcha"><div class="t">'+esc(g.trap)+'</div>'+
+             (g.fix?'<div class="f"><b>&rarr;</b> '+esc(g.fix)+'</div>':'')+'</div>';
+      });
+    }
+
+    h += '<h4>Probes'+(H.checked?' &middot; last run '+esc(H.checked.replace('T',' ').replace('+00:00','Z')):'')+'</h4>';
+    s.probes.forEach(function(p){
+      var st = probeState(s.id,p.id), r = (R[s.id]||{})[p.id] || {};
+      var label = {ok:'answering', bad:'not answering', dead:'dead, as expected',
+                   net:'prober could not connect', none:'not yet probed'}[st];
+      h += '<div class="probe"><div class="top"><span class="dot '+st+'"></span><b>'+esc(p.id)+'</b> '+
+           '<span style="color:var(--dim);font-size:12.5px">'+esc(p.description||'')+'</span>'+
+           '<span class="meta">'+esc(label)+(r.status?' · '+r.status:'')+(r.ms?' · '+r.ms+'ms':'')+'</span></div>'+
+           '<code>'+esc((p.method||'GET')+' '+p.url)+'</code>'+
+           (p.known_broken?'<div class="note">'+esc(p.known_broken)+'</div>':'')+
+           (p.note?'<div class="note">'+esc(p.note)+'</div>':'')+
+           (!r.ok && r.error && !p.known_broken ? '<div class="note">'+esc(r.error)+'</div>':'')+
+           (!r.ok && r.why && !p.known_broken && !r.error ? '<div class="why">'+esc(r.why.join('; '))+'</div>':'')+
+           '</div>';
+    });
+
+    if((s.recipes||[]).length){
+      h += '<h4>Recipes</h4>';
+      s.recipes.forEach(function(rc){
+        h += '<div style="font-size:13px;color:var(--dim);margin:0 0 5px">'+esc(rc.title||rc.lang)+'</div>'+pre(rc.code, rc.lang);
+      });
+    }
+    if((s.fields||[]).length){
+      h += '<h4>Fields worth knowing</h4><ul style="margin:0;padding-left:18px;color:var(--dim);font-size:13px">'+
+           s.fields.map(function(f){return '<li>'+esc(f)+'</li>';}).join('')+'</ul>';
+    }
+    if((s.see_also||[]).length){
+      h += '<h4>See also</h4><ul style="margin:0;padding-left:18px;font-size:13px">'+
+        s.see_also.map(function(x){return '<li><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.name)+'</a>'+
+          (x.note?' <span style="color:var(--dim)">&mdash; '+esc(x.note)+'</span>':'')+'</li>';}).join('')+'</ul>';
+    }
+    if((s.related||[]).length){
+      h += '<h4>Related records</h4><div class="chips">'+s.related.map(function(rid){
+        return '<span class="chip" style="cursor:pointer" data-go="'+esc(rid)+'">'+esc(rid)+'</span>';}).join('')+'</div>';
+    }
+    h += '<h4>Raw record</h4><div style="font-size:12.5px;color:var(--dim)">'+
+         '<code style="font-family:var(--mono)">sources/'+esc(s.id)+'.json</code> &middot; '+
+         '<a href="https://github.com/TNRiley/headwaters/blob/main/sources/'+esc(s.id)+'.json" target="_blank" rel="noopener">on GitHub</a></div>';
+
+    var body = document.getElementById('sheetbody');
+    body.innerHTML = h;
+    body.querySelectorAll('[data-go]').forEach(function(el){ el.onclick=function(){ open(el.dataset.go); }; });
+    body.querySelectorAll('.copy').forEach(function(b){
+      b.onclick = function(e){
+        e.stopPropagation();
+        navigator.clipboard.writeText(b.parentNode.dataset.code).then(function(){
+          b.textContent='copied'; setTimeout(function(){b.textContent='copy';},1200); });
+      };
+    });
+    document.getElementById('sheet').classList.add('open');
+    document.getElementById('scrim').classList.add('on');
+    document.getElementById('sheet').scrollTop = 0;
+    if(history.replaceState) history.replaceState(null,'','#'+s.id);
+  }
+  function close(){
+    document.getElementById('sheet').classList.remove('open');
+    document.getElementById('scrim').classList.remove('on');
+    if(history.replaceState) history.replaceState(null,'',location.pathname);
+  }
+  document.getElementById('closex').onclick = close;
+  document.getElementById('scrim').onclick = close;
+  document.addEventListener('keydown', function(e){
+    if(e.key==='Escape') close();
+    if(e.key==='/' && document.activeElement!==document.getElementById('q')){
+      e.preventDefault(); document.getElementById('q').focus();
+    }
+  });
+
+  // ---- header stats --------------------------------------------------------
+  var np = SRC.reduce(function(a,s){return a+s.probes.length;},0);
+  var okc=0, badc=0, deadc=0, netc=0;
+  SRC.forEach(function(s){ s.probes.forEach(function(p){
+    var st=probeState(s.id,p.id);
+    if(st==='ok')okc++; else if(st==='bad')badc++; else if(st==='dead')deadc++; else if(st==='net')netc++; });});
+  var traps = SRC.reduce(function(a,s){return a+(s.gotchas||[]).length;},0);
+  document.getElementById('stats').innerHTML =
+    [['sources',SRC.length,''],['probes',np,''],['answering',okc,'ok'],
+     ['not answering',badc,badc?'bad':''],['known dead',deadc,'dead']]
+    .concat(netc?[['unreachable',netc,'']]:[])
+    .concat([['traps recorded',traps,''],['leads waiting',D.leads_new,'']])
+    .map(function(x){ return '<div class="stat '+x[2]+'"><b>'+x[1]+'</b><span>'+x[0]+'</span></div>'; }).join('');
+
+  document.getElementById('foot').innerHTML =
+    'Probes last run <b>'+esc((H.checked||'never').replace('T',' ').replace('+00:00'," UTC"))+'</b>. '+
+    'Every record is a JSON file in <a href="https://github.com/TNRiley/headwaters" target="_blank" rel="noopener">the repository</a>; '+
+    'run <code style="font-family:var(--mono)">python3 src/probe.py</code> to re-check every endpoint yourself. '+
+    '<span style="color:var(--dimmer)">Press <kbd>/</kbd> to search, <kbd>esc</kbd> to close a record.</span>';
+
+  document.getElementById('q').addEventListener('input', function(e){ state.q=e.target.value; draw(); });
+  document.querySelectorAll('.modes button').forEach(function(b){
+    b.onclick=function(){
+      document.querySelectorAll('.modes button').forEach(function(x){x.classList.remove('on');});
+      b.classList.add('on'); state.mode=b.dataset.mode; draw();
+    };
+  });
+
+  draw();
+  if(location.hash) open(location.hash.slice(1));
+})();
+</script>

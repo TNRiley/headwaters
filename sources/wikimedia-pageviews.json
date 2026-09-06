@@ -1,0 +1,80 @@
+{
+  "id": "wikimedia-pageviews",
+  "name": "Wikimedia Pageviews API",
+  "publisher": "Wikimedia Foundation",
+  "homepage": "https://wikimedia.org/api/rest_v1/",
+  "description": "Hourly, daily and monthly view counts for any Wikipedia article in any language since 2015, plus top-article rankings per day. A remarkably clean proxy for public attention: what people looked up, when, and in which language.",
+  "topics": [
+    "attention",
+    "culture",
+    "web",
+    "time series"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "2015-07 (hourly); 2007 in the older pagecounts dumps",
+    "end": "yesterday",
+    "grain": "hourly, daily, monthly",
+    "updated": "daily, about a day behind"
+  },
+  "license": {
+    "name": "CC0",
+    "url": "https://wikimediafoundation.org/wiki/Terms_of_Use",
+    "redistribution": "free"
+  },
+  "access": {
+    "auth": "none",
+    "auth_note": "no key, but send a real User-Agent - the default library agents are blocked",
+    "formats": [
+      "json"
+    ],
+    "bulk": true,
+    "size_hint": "the raw dumps at dumps.wikimedia.org are ~50 GB/year",
+    "rate_limit": "100 requests/second across the REST API; be far below that"
+  },
+  "probes": [
+    {
+      "id": "per-article",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Tennis/daily/20250101/20250107",
+      "expect": {
+        "body_contains": [
+          "items",
+          "views"
+        ]
+      }
+    },
+    {
+      "id": "top-articles",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/2025/01/01",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "articles"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Daily views for one article over a year",
+      "lang": "bash",
+      "code": "curl -s -H 'User-Agent: my-project/1.0 (you@example.com)' \\\n  'https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Wimbledon/daily/20240101/20241231' \\\n  | python3 -c \"import json,sys;[print(i['timestamp'][:8], i['views']) for i in json.load(sys.stdin)['items'][:10]]\""
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "The article title must be exactly as it appears in the URL, with underscores, and it is case sensitive after the first letter.",
+      "fix": "Resolve the title through the Wikipedia API first; redirects are counted separately from their target."
+    },
+    {
+      "trap": "agent=all-agents includes bots and spiders and can be several times the human number.",
+      "fix": "Use /user/ unless you specifically want automated traffic."
+    }
+  ],
+  "related": [
+    "wikidata"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

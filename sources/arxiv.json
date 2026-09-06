@@ -1,0 +1,75 @@
+{
+  "id": "arxiv",
+  "name": "arXiv API",
+  "publisher": "Cornell University / arXiv",
+  "homepage": "https://info.arxiv.org/help/api/index.html",
+  "description": "Search and metadata for 2.5 million preprints in physics, mathematics, computer science, quantitative biology, statistics and economics, as Atom XML. Full text is available as PDF and, in bulk, from a requester-pays S3 bucket. The place to see a field's output weeks or years before journals catch up.",
+  "topics": [
+    "research",
+    "preprints",
+    "physics",
+    "machine learning"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "1991",
+    "end": "present",
+    "grain": "per-preprint",
+    "updated": "daily"
+  },
+  "license": {
+    "name": "metadata CC0; papers keep the author's chosen licence",
+    "url": "https://info.arxiv.org/help/license/index.html"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "atom xml",
+      "pdf",
+      "s3 bulk (requester pays)"
+    ],
+    "bulk": true,
+    "rate_limit": "one request every 3 seconds, and they enforce it",
+    "pagination": "start= and max_results=, max 2000 per call, 30,000 total per query"
+  },
+  "probes": [
+    {
+      "id": "query",
+      "url": "https://export.arxiv.org/api/query?search_query=cat:stat.AP&max_results=1",
+      "expect": {
+        "body_contains": [
+          "<feed",
+          "<entry"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Newest preprints in a category",
+      "lang": "bash",
+      "code": "curl -s 'https://export.arxiv.org/api/query?search_query=cat:stat.ME&sortBy=submittedDate&sortOrder=descending&max_results=5' | grep -E '<title>|<published>'"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Atom XML only - there is no JSON mode, whatever a wrapper library implies.",
+      "fix": "Parse with feedparser or xml.etree; the namespace is http://www.w3.org/2005/Atom."
+    },
+    {
+      "trap": "Faster than one call per 3 seconds gets you a 403 for a while.",
+      "fix": "Sleep 3s in the loop. For anything large, use the bulk S3 access instead."
+    },
+    {
+      "trap": "Versions matter: the same paper has v1, v2, v3 with different dates and sometimes different conclusions.",
+      "fix": "The id carries the version suffix; decide up front whether you want v1 or latest."
+    }
+  ],
+  "related": [
+    "openalex",
+    "zenodo"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

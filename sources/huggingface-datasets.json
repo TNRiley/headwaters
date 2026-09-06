@@ -1,0 +1,81 @@
+{
+  "id": "huggingface-datasets",
+  "name": "Hugging Face Datasets API",
+  "publisher": "Hugging Face",
+  "homepage": "https://huggingface.co/docs/datasets-server/",
+  "description": "Several hundred thousand published datasets with a uniform API: list and filter them, then read rows, splits, column types and summary statistics through the datasets-server without downloading anything. Effectively a machine-learning-shaped index of open data, including a great deal of scraped, derived and annotated material that exists nowhere else.",
+  "topics": [
+    "machine learning",
+    "meta-catalog",
+    "text",
+    "benchmark"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "2020",
+    "end": "present",
+    "grain": "per-dataset",
+    "updated": "continuously"
+  },
+  "license": {
+    "name": "per-dataset; the hub records each one's declared licence",
+    "url": "https://huggingface.co/docs/hub/repositories-licenses",
+    "redistribution": "read the dataset card - a lot of hub data is scraped and its licence is aspirational"
+  },
+  "access": {
+    "auth": "api-key-free",
+    "auth_note": "public datasets need no token; gated ones need a free account token",
+    "formats": [
+      "json",
+      "parquet",
+      "arrow"
+    ],
+    "bulk": true,
+    "rate_limit": "unpublished; the datasets-server is the polite way to sample rows",
+    "pagination": "limit and offset on /api/datasets; offset and length on /rows"
+  },
+  "probes": [
+    {
+      "id": "list",
+      "url": "https://huggingface.co/api/datasets?limit=1",
+      "expect": {
+        "body_contains": [
+          "id"
+        ]
+      }
+    },
+    {
+      "id": "rows",
+      "description": "Read rows without downloading the dataset",
+      "url": "https://datasets-server.huggingface.co/rows?dataset=rajpurkar%2Fsquad&config=plain_text&split=train&offset=0&length=1",
+      "expect": {
+        "body_contains": [
+          "rows"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Peek at a dataset's schema before downloading gigabytes",
+      "lang": "bash",
+      "code": "curl -s 'https://datasets-server.huggingface.co/info?dataset=rajpurkar/squad' | python3 -m json.tool | head -40"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "A declared licence on the hub is whatever the uploader typed. Plenty of 'MIT' datasets are scraped from sources that never granted it.",
+      "fix": "For anything you will publish, trace the dataset card back to the original source."
+    },
+    {
+      "trap": "The datasets-server only serves datasets it has converted to parquet, so some large or gated ones return an error rather than rows.",
+      "fix": "Check /is-valid before assuming /rows will work."
+    }
+  ],
+  "related": [
+    "aws-open-data-registry"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

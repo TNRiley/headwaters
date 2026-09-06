@@ -1,0 +1,74 @@
+{
+  "id": "wikidata",
+  "name": "Wikidata Query Service (SPARQL)",
+  "publisher": "Wikimedia Foundation",
+  "homepage": "https://query.wikidata.org/",
+  "description": "A queryable knowledge graph of ~115 million items - people, places, works, species, buildings, elections - with a SPARQL endpoint that will answer questions no tabular source can, like 'every lighthouse in Europe with its construction year and coordinates'. Free, no key, and the results come back as JSON or CSV.",
+  "topics": [
+    "knowledge graph",
+    "reference",
+    "sparql",
+    "culture"
+  ],
+  "geography": "global",
+  "temporal": {
+    "grain": "snapshot",
+    "updated": "live, seconds behind edits"
+  },
+  "license": {
+    "name": "CC0",
+    "url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+    "redistribution": "free"
+  },
+  "access": {
+    "auth": "none",
+    "auth_note": "no key; a descriptive User-Agent is required by the policy",
+    "formats": [
+      "json",
+      "csv",
+      "tsv",
+      "xml"
+    ],
+    "bulk": true,
+    "size_hint": "the full dump is ~140 GB compressed",
+    "rate_limit": "60 seconds of query time per query, and a concurrency cap per IP; expensive queries are killed rather than queued",
+    "etiquette": "put LIMIT on exploratory queries; use the query service's own editor to test before scripting"
+  },
+  "probes": [
+    {
+      "id": "sparql",
+      "description": "One instance of Q3918 (university)",
+      "url": "https://query.wikidata.org/sparql?query=SELECT%20%3Fs%20WHERE%20%7B%3Fs%20wdt%3AP31%20wd%3AQ3918%7D%20LIMIT%201&format=json",
+      "min_interval_s": 2,
+      "expect": {
+        "body_contains": [
+          "results",
+          "bindings"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Every lighthouse in a country with coordinates",
+      "lang": "bash",
+      "code": "Q='SELECT ?item ?itemLabel ?coord WHERE {\n  ?item wdt:P31 wd:Q39715; wdt:P17 wd:Q142; wdt:P625 ?coord.\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }\n} LIMIT 20'\ncurl -sG https://query.wikidata.org/sparql -H 'Accept: application/json' \\\n  -H 'User-Agent: my-project/1.0 (you@example.com)' --data-urlencode \"query=$Q\" | python3 -m json.tool | head -30"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "A query with no LIMIT over a common property times out at 60 seconds and returns an HTML error page.",
+      "fix": "Add LIMIT, filter early, and prefer wdt: (truthy) over p:/ps: statement paths unless you need qualifiers."
+    },
+    {
+      "trap": "Labels are not properties. Selecting ?itemLabel without the label service returns nothing.",
+      "fix": "Include SERVICE wikibase:label { bd:serviceParam wikibase:language \"en\". }"
+    }
+  ],
+  "related": [
+    "wikimedia-pageviews"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

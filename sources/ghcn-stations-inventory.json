@@ -1,0 +1,79 @@
+{
+  "id": "ghcn-stations-inventory",
+  "name": "GHCN-Daily station list and inventory (AWS mirror)",
+  "publisher": "NOAA, mirrored by the AWS Open Data Sponsorship Program",
+  "homepage": "https://registry.opendata.aws/noaa-ghcn/",
+  "description": "The two flat files that make GHCN-Daily usable: every station with its latitude, longitude, elevation and name; and an inventory giving, per station and per element, the first and last year of record. Together they let you pick a station by distance and by how long it has been measuring, instead of guessing an identifier.",
+  "topics": [
+    "climate",
+    "weather",
+    "reference",
+    "geospatial"
+  ],
+  "geography": "global",
+  "temporal": {
+    "grain": "snapshot",
+    "updated": "daily"
+  },
+  "license": {
+    "name": "US Government public domain",
+    "redistribution": "free"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "fixed-width text"
+    ],
+    "bulk": true,
+    "size_hint": "stations 10 MB, inventory 34 MB",
+    "etiquette": "S3 public bucket, no credentials needed over HTTPS"
+  },
+  "fields": [
+    "ghcnd-stations.txt: ID, LAT, LON, ELEV, STATE, NAME (fixed columns)",
+    "ghcnd-inventory.txt: ID, LAT, LON, ELEMENT, FIRSTYEAR, LASTYEAR"
+  ],
+  "probes": [
+    {
+      "id": "stations",
+      "url": "https://noaa-ghcn-pds.s3.amazonaws.com/ghcnd-stations.txt",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "ACW000"
+        ]
+      }
+    },
+    {
+      "id": "inventory",
+      "url": "https://noaa-ghcn-pds.s3.amazonaws.com/ghcnd-inventory.txt",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "TMAX"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Nearest long-running stations to a point",
+      "lang": "python",
+      "code": "import math, urllib.request\nLAT, LON = 39.029, -77.076   # Kensington, MD\ntxt = urllib.request.urlopen('https://noaa-ghcn-pds.s3.amazonaws.com/ghcnd-stations.txt').read().decode()\nnear = []\nfor line in txt.splitlines():\n    sid, lat, lon = line[0:11], float(line[12:20]), float(line[21:30])\n    d = math.hypot((lat - LAT) * 111, (lon - LON) * 111 * math.cos(math.radians(LAT)))\n    if d < 25: near.append((round(d, 1), sid, line[41:71].strip()))\nfor d, sid, name in sorted(near)[:10]: print(d, sid, name)"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Fixed-width, not delimited. Splitting on whitespace breaks on station names with spaces.",
+      "fix": "Slice by column position; the layout is documented in readme.txt beside the files."
+    }
+  ],
+  "related": [
+    "ghcn-daily"
+  ],
+  "used_by": [
+    "daybook"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

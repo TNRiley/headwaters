@@ -1,0 +1,92 @@
+{
+  "id": "census-acs",
+  "name": "US Census Bureau API (ACS, Decennial, Population Estimates)",
+  "publisher": "US Census Bureau",
+  "homepage": "https://www.census.gov/data/developers/data-sets.html",
+  "description": "Every published Census table queryable by geography, from the nation down to the block group - population, income, housing, commuting, language, ancestry and several hundred other variables in the American Community Survey alone. The definitive denominator for any US per-capita statistic.",
+  "topics": [
+    "demographics",
+    "government",
+    "united states",
+    "survey"
+  ],
+  "geography": "United States",
+  "temporal": {
+    "start": "1790 (decennial); 2005 (ACS)",
+    "end": "latest ACS release",
+    "grain": "annual (ACS 1-year and 5-year)",
+    "updated": "annually, each autumn"
+  },
+  "license": {
+    "name": "US Government work, public domain",
+    "redistribution": "free"
+  },
+  "access": {
+    "auth": "api-key-free",
+    "auth_note": "a free key from api.census.gov/data/key_signup.html. Keyless requests are no longer served - see the gotcha, the failure is silent.",
+    "formats": [
+      "json (array-of-arrays)",
+      "csv"
+    ],
+    "bulk": true,
+    "rate_limit": "500 calls/day per key without registration limits published beyond that",
+    "pagination": "none - you widen or narrow the geography instead"
+  },
+  "fields": [
+    "get= comma-separated variable ids, e.g. B01001_001E (total population)",
+    "for= the geography you want",
+    "in= the containing geography",
+    "NAME is always available"
+  ],
+  "probes": [
+    {
+      "id": "acs5-keyless",
+      "description": "The exact call every tutorial shows, without a key",
+      "url": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B01001_001E&for=state:24",
+      "known_broken": "Since some point before 2026-09-06 a keyless call 302s to https://api.census.gov/data/missing_key.html, which answers 200 with an HTML page. A client that follows redirects and does not check content-type sees a successful request and a JSON parse error.",
+      "expect": {
+        "body_contains": [
+          "NAME"
+        ]
+      }
+    },
+    {
+      "id": "variable-metadata",
+      "description": "Variable definitions need no key",
+      "url": "https://api.census.gov/data/2023/acs/acs5/variables.json",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "variables"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Population by county for one state",
+      "lang": "bash",
+      "code": "KEY=your_key_here\ncurl -s \"https://api.census.gov/data/2023/acs/acs5?get=NAME,B01001_001E&for=county:*&in=state:24&key=$KEY\" | head -5\n# Response is an array of arrays; row 0 is the header."
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "A missing key does not return 401. It returns a 302 to an HTML 'Missing Key' page that answers 200, so the failure surfaces as a JSON decode error in your own code.",
+      "fix": "Check content-type, or assert the body starts with '[['."
+    },
+    {
+      "trap": "The response is an array of arrays with the header in row 0, not an array of objects.",
+      "fix": "rows = json.load(...); dict(zip(rows[0], r)) for r in rows[1:]."
+    },
+    {
+      "trap": "ACS 5-year and 1-year tables have the same variable ids but different geographies and margins of error.",
+      "fix": "1-year covers only areas above 65,000 population. For counties and tracts you almost always want acs5."
+    }
+  ],
+  "related": [
+    "data-gov"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

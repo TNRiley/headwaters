@@ -1,0 +1,82 @@
+{
+  "id": "nominatim",
+  "name": "Nominatim (OpenStreetMap geocoding)",
+  "publisher": "OpenStreetMap Foundation",
+  "homepage": "https://nominatim.org/release-docs/latest/api/Overview/",
+  "description": "Free forward and reverse geocoding over the whole OpenStreetMap database: address to coordinates, coordinates to address, with bounding boxes and administrative hierarchy. The public instance is donated infrastructure with a hard one-request-per-second rule, which is the only real catch.",
+  "topics": [
+    "geospatial",
+    "geocoding",
+    "reference"
+  ],
+  "geography": "global",
+  "temporal": {
+    "grain": "snapshot",
+    "updated": "continuously from OSM edits"
+  },
+  "license": {
+    "name": "ODbL 1.0",
+    "url": "https://www.openstreetmap.org/copyright",
+    "redistribution": "share-alike; derived geodata must carry the same licence and attribute OpenStreetMap contributors"
+  },
+  "access": {
+    "auth": "email-in-user-agent",
+    "auth_note": "no key, but a real User-Agent identifying your application is required by the usage policy and enforced",
+    "formats": [
+      "json",
+      "jsonv2",
+      "geojson",
+      "xml"
+    ],
+    "bulk": false,
+    "rate_limit": "1 request per second absolute maximum on the public instance, and no bulk geocoding at all",
+    "etiquette": "cache every result; for more than a few thousand lookups, run your own instance or use a bulk geocoder"
+  },
+  "probes": [
+    {
+      "id": "forward",
+      "url": "https://nominatim.openstreetmap.org/search?q=Kensington%2C%20Maryland&format=json&limit=1",
+      "min_interval_s": 1.2,
+      "expect": {
+        "body_contains": [
+          "place_id",
+          "lat"
+        ]
+      }
+    },
+    {
+      "id": "reverse",
+      "url": "https://nominatim.openstreetmap.org/reverse?lat=39.029&lon=-77.076&format=json",
+      "min_interval_s": 1.2,
+      "expect": {
+        "body_contains": [
+          "address"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Geocode politely",
+      "lang": "python",
+      "code": "import json, time, urllib.parse, urllib.request\nUA = 'my-project/1.0 (you@example.com)'   # required, and they check\ndef geocode(q):\n    url = 'https://nominatim.openstreetmap.org/search?' + urllib.parse.urlencode(\n        {'q': q, 'format': 'json', 'limit': 1})\n    req = urllib.request.Request(url, headers={'User-Agent': UA})\n    hits = json.load(urllib.request.urlopen(req))\n    time.sleep(1.1)                      # the policy, not a suggestion\n    return (float(hits[0]['lat']), float(hits[0]['lon'])) if hits else None"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "A default urllib or requests User-Agent gets blocked outright - the response is a 403 HTML page, not JSON.",
+      "fix": "Set a descriptive User-Agent with a contact address on every call."
+    },
+    {
+      "trap": "ODbL is share-alike. Geocoding a private address list and publishing the result can pull your data into the same licence.",
+      "fix": "Read the licence before publishing anything derived from it; for many commercial uses a different geocoder is the safer choice."
+    }
+  ],
+  "related": [
+    "overpass",
+    "natural-earth"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

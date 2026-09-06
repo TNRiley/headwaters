@@ -1,0 +1,81 @@
+{
+  "id": "europe-pmc",
+  "name": "Europe PMC REST API",
+  "publisher": "EMBL-EBI",
+  "homepage": "https://europepmc.org/RestfulWebService",
+  "description": "Search across ~45 million life-science abstracts and ~10 million full texts, including preprints, patents and clinical guidelines. Unlike PubMed it returns full text where it is open access, and it exposes the reference and citation lists per article. No key.",
+  "topics": [
+    "research",
+    "biomedical",
+    "literature",
+    "systematic review"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "1780s via Medline backfiles",
+    "end": "present",
+    "grain": "per-article",
+    "updated": "daily"
+  },
+  "license": {
+    "name": "metadata free to use; full text keeps the article's own licence",
+    "url": "https://europepmc.org/Copyright"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json",
+      "xml",
+      "dc"
+    ],
+    "bulk": true,
+    "rate_limit": "be reasonable; they ask for under ~1 request/second sustained",
+    "pagination": "cursorMark=* then nextCursorMark; pageSize max 1000"
+  },
+  "probes": [
+    {
+      "id": "search",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&format=json&pageSize=1",
+      "expect": {
+        "body_contains": [
+          "resultList",
+          "hitCount"
+        ]
+      }
+    },
+    {
+      "id": "citations",
+      "description": "Who cites a given article",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/23245604/citations?format=json&pageSize=1",
+      "expect": {
+        "body_contains": [
+          "citationList"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "A systematic-review style query with field tags",
+      "lang": "bash",
+      "code": "curl -s --data-urlencode 'query=(TITLE:\"evidence synthesis\") AND (PUB_YEAR:[2020 TO 2026])' --data 'format=json&pageSize=5' -G https://www.ebi.ac.uk/europepmc/webservices/rest/search | python3 -m json.tool | head -40"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "hitCount counts everything the query matched, but only the first 1,000 are reachable by page number.",
+      "fix": "Use cursorMark for anything past the first page or two."
+    },
+    {
+      "trap": "The same paper can appear under several sources (MED, PMC, PPR for preprints) with different ids.",
+      "fix": "Deduplicate on DOI, not on id."
+    }
+  ],
+  "related": [
+    "pubmed-eutilities",
+    "openalex"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

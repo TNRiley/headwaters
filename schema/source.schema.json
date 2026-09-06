@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://tnriley.github.io/headwaters/schema/source.schema.json",
+  "title": "Headwaters source record",
+  "description": "One open data source, described well enough that an agent with a shell can start using it without a browser.",
+  "type": "object",
+  "required": ["id", "name", "publisher", "homepage", "description", "topics", "license", "access", "probes", "added"],
+  "additionalProperties": false,
+  "properties": {
+    "id":          { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "kebab-case, matches the filename" },
+    "name":        { "type": "string", "minLength": 2 },
+    "publisher":   { "type": "string", "description": "Who actually publishes it, not who mirrors it" },
+    "homepage":    { "type": "string", "format": "uri" },
+    "description": { "type": "string", "minLength": 40, "description": "What is in it and what it is good for. Written for someone who has never heard of it." },
+    "topics":      { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "geography":   { "type": "string", "description": "global | US | a named region" },
+    "temporal": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start":   { "type": "string", "description": "earliest data, year or ISO date" },
+        "end":     { "type": "string", "description": "'present' for live series" },
+        "grain":   { "type": "string", "description": "observation cadence: daily, hourly, per-event, snapshot" },
+        "updated": { "type": "string", "description": "how often the publisher refreshes it" }
+      }
+    },
+    "license": {
+      "type": "object",
+      "required": ["name"],
+      "additionalProperties": false,
+      "properties": {
+        "name": { "type": "string", "description": "Exact string. 'unclear' is an acceptable and useful answer." },
+        "url":  { "type": "string" },
+        "redistribution": { "type": "string", "description": "What you may republish. Say so plainly if it has not been checked." }
+      }
+    },
+    "access": {
+      "type": "object",
+      "required": ["auth", "formats"],
+      "additionalProperties": false,
+      "properties": {
+        "auth":       { "enum": ["none", "email-in-user-agent", "api-key-free", "api-key-paid", "oauth", "scrape"] },
+        "auth_note":  { "type": "string" },
+        "formats":    { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "bulk":       { "type": "boolean", "description": "Can you get the whole thing, or only query it row by row?" },
+        "size_hint":  { "type": "string" },
+        "rate_limit": { "type": "string", "description": "Documented limit, and the observed one if they differ" },
+        "etiquette":  { "type": "string", "description": "What a polite client does. Read this before writing a loop." },
+        "pagination": { "type": "string" }
+      }
+    },
+    "probes": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Small, cheap, real requests that prove the source still answers. Run by src/probe.py.",
+      "items": {
+        "type": "object",
+        "required": ["id", "url", "expect"],
+        "additionalProperties": false,
+        "properties": {
+          "id":          { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+          "description": { "type": "string" },
+          "method":      { "enum": ["GET", "POST", "HEAD"] },
+          "url":         { "type": "string", "format": "uri" },
+          "headers":     { "type": "object" },
+          "body":        { "type": "string", "description": "POST body, sent as-is" },
+          "range_bytes": { "type": "integer", "minimum": 256, "description": "Read at most this many bytes. Keeps a probe of a 66 MB file cheap." },
+          "min_interval_s": { "type": "number", "minimum": 0, "description": "Seconds the publisher demands between requests. The prober waits this long before firing." },
+          "expect": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "status":        { "type": "array", "items": { "type": "integer" } },
+              "body_contains": { "type": "array", "items": { "type": "string" }, "description": "Every string must appear in the bytes read" },
+              "content_type":  { "type": "string", "description": "substring match" }
+            }
+          },
+          "note": { "type": "string", "description": "Context shown beside the probe result - why it is expensive, or why it fails intermittently." },
+          "known_broken": { "type": "string", "description": "Set when the probe is expected to fail. The failure is the finding; the note says what it means." }
+        }
+      }
+    },
+    "recipes": {
+      "type": "array",
+      "description": "Copy-paste starting points. Should run as written.",
+      "items": {
+        "type": "object",
+        "required": ["lang", "code"],
+        "additionalProperties": false,
+        "properties": {
+          "title": { "type": "string" },
+          "lang":  { "enum": ["bash", "python", "r", "sql"] },
+          "code":  { "type": "string" }
+        }
+      }
+    },
+    "gotchas": {
+      "type": "array",
+      "description": "The things that cost someone an hour. The most valuable field in this file.",
+      "items": {
+        "type": "object",
+        "required": ["trap"],
+        "additionalProperties": false,
+        "properties": {
+          "trap": { "type": "string" },
+          "fix":  { "type": "string" }
+        }
+      }
+    },
+    "fields": { "type": "array", "items": { "type": "string" }, "description": "Notable columns/keys worth knowing before you fetch" },
+    "related":  { "type": "array", "items": { "type": "string" }, "description": "ids of other Headwaters sources" },
+    "used_by":  { "type": "array", "items": { "type": "string" }, "description": "Quick Projects slugs that consumed this" },
+    "see_also": { "type": "array", "items": { "type": "object", "required": ["name", "url"], "additionalProperties": false,
+                  "properties": { "name": { "type": "string" }, "url": { "type": "string" }, "note": { "type": "string" } } } },
+    "added":    { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "verified": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "Last day a human or agent read this record and believed it. Probes run more often than this." },
+    "status":   { "enum": ["live", "degraded", "closed"], "description": "closed = it used to work and no longer does; keep the record, it saves the next person the search" }
+  }
+}

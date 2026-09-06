@@ -1,0 +1,69 @@
+{
+  "id": "hn-algolia",
+  "name": "Hacker News Search API (Algolia)",
+  "publisher": "Algolia, on behalf of Y Combinator",
+  "homepage": "https://hn.algolia.com/api",
+  "description": "Full-text search over every Hacker News story and comment since 2007, with points, comment counts, authors and timestamps, as JSON with no key. A convenient corpus for measuring technology attention, and the fastest way to find the discussion thread about anything.",
+  "topics": [
+    "text",
+    "technology",
+    "community",
+    "attention"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "2007-02",
+    "end": "present",
+    "grain": "per-item",
+    "updated": "within minutes"
+  },
+  "license": {
+    "name": "unspecified; the API is public and widely used for research"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json"
+    ],
+    "bulk": false,
+    "rate_limit": "10,000 requests/hour per IP",
+    "pagination": "page= and hitsPerPage= (max 1000); use search_by_date with numericFilters for full walks"
+  },
+  "probes": [
+    {
+      "id": "search",
+      "url": "https://hn.algolia.com/api/v1/search?query=open%20data&hitsPerPage=1",
+      "expect": {
+        "body_contains": [
+          "hits",
+          "nbHits"
+        ]
+      }
+    },
+    {
+      "id": "by-date",
+      "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i%3E1700000000&hitsPerPage=1",
+      "expect": {
+        "body_contains": [
+          "hits"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Walk every story matching a term, oldest to newest",
+      "lang": "bash",
+      "code": "curl -s 'https://hn.algolia.com/api/v1/search_by_date?query=tidytuesday&tags=story&hitsPerPage=20' | python3 -c \"import json,sys;[print(h['created_at'][:10], h['points'], h['title']) for h in json.load(sys.stdin)['hits']]\""
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "/search ranks by relevance and silently caps deep paging; /search_by_date is the one that walks completely.",
+      "fix": "For a full crawl use search_by_date plus numericFilters=created_at_i<last_seen and page backwards in time."
+    }
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

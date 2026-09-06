@@ -1,0 +1,81 @@
+{
+  "id": "crossref",
+  "name": "Crossref REST API",
+  "publisher": "Crossref",
+  "homepage": "https://api.crossref.org",
+  "description": "Metadata for ~165 million DOIs registered by publishers - titles, authors, dates, funders, licences, references where the publisher deposits them. The registration authority for most scholarly DOIs, so it is the authoritative answer to 'what is this DOI'.",
+  "topics": [
+    "bibliometrics",
+    "research",
+    "doi",
+    "citations"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "1600s via retrodigitised deposits",
+    "end": "present",
+    "grain": "per-work",
+    "updated": "continuously"
+  },
+  "license": {
+    "name": "metadata is open (CC0-equivalent facts); abstracts carry publisher terms",
+    "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+    "redistribution": "metadata freely redistributable"
+  },
+  "access": {
+    "auth": "email-in-user-agent",
+    "auth_note": "anonymous works; adding mailto= puts you in the polite pool with far better latency",
+    "formats": [
+      "json"
+    ],
+    "bulk": true,
+    "size_hint": "annual public data file is ~185 GB compressed",
+    "rate_limit": "published in the X-Rate-Limit-Limit response header, typically 50/second in the polite pool",
+    "pagination": "cursor=* with next-cursor; rows max 1000"
+  },
+  "probes": [
+    {
+      "id": "works-query",
+      "url": "https://api.crossref.org/works?query.bibliographic=retraction&rows=1&mailto=tnril@users.noreply.github.com",
+      "expect": {
+        "body_contains": [
+          "message",
+          "total-results"
+        ]
+      }
+    },
+    {
+      "id": "single-doi",
+      "url": "https://api.crossref.org/works/10.1038/s41597-023-02462-y?mailto=tnril@users.noreply.github.com",
+      "expect": {
+        "body_contains": [
+          "DOI"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Resolve a DOI to structured metadata",
+      "lang": "bash",
+      "code": "curl -s 'https://api.crossref.org/works/10.1038/s41597-023-02462-y?mailto=you@example.com' | python3 -m json.tool | head -30"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Reference lists are only present when the publisher deposited them, which is roughly 60% of works and heavily skewed by publisher.",
+      "fix": "Check is-referenced-by-count and reference-count separately; absence is not evidence of no citations."
+    },
+    {
+      "trap": "Titles and abstracts arrive as arrays and may carry JATS XML tags inside the string.",
+      "fix": "Take element [0] and strip tags before indexing text."
+    }
+  ],
+  "related": [
+    "openalex",
+    "retraction-watch"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

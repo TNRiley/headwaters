@@ -1,0 +1,80 @@
+{
+  "id": "noaa-coops",
+  "name": "NOAA Tides and Currents (CO-OPS)",
+  "publisher": "NOAA National Ocean Service",
+  "homepage": "https://tidesandcurrents.noaa.gov/",
+  "description": "Water level, tide predictions, currents, water temperature and meteorology from NOAA's coastal station network, going back over a century at the oldest gauges. The 'datagetter' endpoint answers in JSON, CSV or XML with no key, and the separate metadata API lists the stations and what each one measures.",
+  "topics": [
+    "ocean",
+    "tides",
+    "sea level",
+    "time series"
+  ],
+  "geography": "US coasts and Great Lakes",
+  "temporal": {
+    "start": "1854 at the oldest gauge (San Francisco)",
+    "end": "present",
+    "grain": "6-minute and hourly",
+    "updated": "continuously"
+  },
+  "license": {
+    "name": "US Government public domain",
+    "redistribution": "free"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json",
+      "csv",
+      "xml"
+    ],
+    "bulk": false,
+    "rate_limit": "31 days per request for 6-minute data, 1 year for hourly - the limit is per request, not per day",
+    "etiquette": "pass a descriptive application= parameter; they use it to see who is calling"
+  },
+  "probes": [
+    {
+      "id": "latest-water-level",
+      "description": "Baltimore, most recent observed water level",
+      "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=latest&station=8574680&product=water_level&datum=MLLW&units=english&time_zone=gmt&format=json&application=headwaters",
+      "expect": {
+        "body_contains": [
+          "\"data\""
+        ]
+      }
+    },
+    {
+      "id": "station-metadata",
+      "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=waterlevels",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "stations"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "A month of six-minute water levels",
+      "lang": "bash",
+      "code": "curl -s 'https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20250101&end_date=20250131&station=8574680&product=water_level&datum=MLLW&units=english&time_zone=lst_ldt&format=csv&application=headwaters' | head -5"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "An error comes back as HTTP 200 with an {\"error\":{\"message\":...}} body.",
+      "fix": "Check for the error key, not the status code."
+    },
+    {
+      "trap": "Datum matters more than units. MLLW, MSL and NAVD88 differ by feet, and the default is not the one you want.",
+      "fix": "Always pass datum= explicitly and record which you used."
+    }
+  ],
+  "related": [
+    "usgs-water"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

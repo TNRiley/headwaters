@@ -1,0 +1,93 @@
+{
+  "id": "itunes-search",
+  "name": "Apple iTunes Search API",
+  "publisher": "Apple",
+  "homepage": "https://performance-partners.apple.com/search-api",
+  "description": "Metadata for everything in Apple's stores - apps, music, podcasts, books, films - by keyword or by id, up to 200 results per query, with no key. For apps it returns price, category, developer, version history dates, description, screenshots, average rating and rating count. The practical census tool for App Store research.",
+  "topics": [
+    "apps",
+    "app store",
+    "consumer",
+    "text"
+  ],
+  "geography": "per-storefront (country= parameter)",
+  "temporal": {
+    "grain": "snapshot of current listings",
+    "updated": "live"
+  },
+  "license": {
+    "name": "Apple public endpoint; terms permit use for referral and discovery",
+    "redistribution": "metadata used for research is normal practice; do not republish in bulk as a competing catalogue"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json"
+    ],
+    "bulk": false,
+    "rate_limit": "about 20 calls/minute is the commonly cited ceiling; heavy bursts get throttled",
+    "pagination": "none - limit maxes at 200, so you widen the keyword list instead of paging"
+  },
+  "fields": [
+    "trackId",
+    "trackName",
+    "sellerName",
+    "primaryGenreName",
+    "averageUserRating",
+    "userRatingCount (US storefront only)",
+    "currentVersionReleaseDate",
+    "releaseDate",
+    "price"
+  ],
+  "probes": [
+    {
+      "id": "search",
+      "url": "https://itunes.apple.com/search?term=tennis&entity=software&country=us&limit=2",
+      "min_interval_s": 3,
+      "expect": {
+        "body_contains": [
+          "resultCount",
+          "trackId"
+        ]
+      },
+      "range_bytes": 32768
+    },
+    {
+      "id": "lookup-by-id",
+      "url": "https://itunes.apple.com/lookup?id=284882215&country=us",
+      "min_interval_s": 3,
+      "expect": {
+        "body_contains": [
+          "resultCount"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Census a keyword space",
+      "lang": "python",
+      "code": "import json, time, urllib.parse, urllib.request\nseen = {}\nfor term in ['tennis', 'padel', 'pickleball', 'squash', 'badminton']:\n    url = 'https://itunes.apple.com/search?' + urllib.parse.urlencode(\n        {'term': term, 'entity': 'software', 'country': 'us', 'limit': 200})\n    for app in json.load(urllib.request.urlopen(url))['results']:\n        seen[app['trackId']] = app\n    time.sleep(3)\nprint(len(seen), 'distinct apps')"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "userRatingCount is the US storefront only, while averageUserRating is lifetime across all versions. Dividing one by the other mixes two populations.",
+      "fix": "Use userRatingCountForCurrentVersion when you want a like-for-like pair, and say which you used."
+    },
+    {
+      "trap": "200 results is a hard ceiling per query with no paging.",
+      "fix": "Cover the space with many keywords and deduplicate on trackId."
+    }
+  ],
+  "related": [
+    "apple-review-rss",
+    "google-play"
+  ],
+  "used_by": [
+    "unforced"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "zenodo",
+  "name": "Zenodo REST API",
+  "publisher": "CERN",
+  "homepage": "https://developers.zenodo.org/",
+  "description": "CERN's general-purpose research repository: several million deposits of datasets, software releases, figures, posters and papers, each with a DOI. Because GitHub releases can be archived here automatically, it is also a large and searchable index of citable research software.",
+  "topics": [
+    "research data",
+    "repository",
+    "doi",
+    "software"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "2013",
+    "end": "present",
+    "grain": "per-deposit",
+    "updated": "continuously"
+  },
+  "license": {
+    "name": "per-record; the metadata is CC0 and each deposit states its own licence",
+    "url": "https://about.zenodo.org/terms/"
+  },
+  "access": {
+    "auth": "api-key-free",
+    "auth_note": "reading public records needs no token; a free personal token raises the limit and is required to deposit",
+    "formats": [
+      "json",
+      "the deposited files themselves"
+    ],
+    "bulk": false,
+    "rate_limit": "60 requests/minute anonymous, 120/minute with a token",
+    "pagination": "page= and size=, size max 100"
+  },
+  "probes": [
+    {
+      "id": "records-search",
+      "url": "https://zenodo.org/api/records?q=sea+level&size=1",
+      "expect": {
+        "body_contains": [
+          "hits"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Find datasets on a topic with their download URLs",
+      "lang": "bash",
+      "code": "curl -s 'https://zenodo.org/api/records?q=title:%22coral%20bleaching%22&type=dataset&size=3' | python3 -c \"import json,sys\nfor h in json.load(sys.stdin)['hits']['hits']:\n    print(h['doi'], h['title'])\n    for f in h.get('files', []): print('   ', f['links']['self'])\""
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Records have both a versioned DOI and a concept DOI that always points at the newest version.",
+      "fix": "Cite the concept DOI for 'the dataset', the versioned DOI for reproducibility."
+    },
+    {
+      "trap": "Anything can be deposited, so search results mix peer-reviewed data with slide decks and student projects.",
+      "fix": "Filter on type= and read resource_type before trusting a hit."
+    }
+  ],
+  "related": [
+    "datacite-re3data",
+    "arxiv"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

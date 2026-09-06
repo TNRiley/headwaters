@@ -1,0 +1,96 @@
+{
+  "id": "github-api",
+  "name": "GitHub REST API",
+  "publisher": "GitHub",
+  "homepage": "https://docs.github.com/rest",
+  "description": "Repositories, releases, issues, commits, contributors and code search across the largest public code corpus there is. Useful as a data source in its own right - measuring what people build, when projects die, how fast issues close - and as the delivery mechanism for a large share of the open datasets that live in git.",
+  "topics": [
+    "software",
+    "open source",
+    "metadata",
+    "text"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "2008",
+    "end": "present",
+    "grain": "per-event",
+    "updated": "live"
+  },
+  "license": {
+    "name": "API metadata is usable under the GitHub terms; repository contents keep their own licences",
+    "url": "https://docs.github.com/site-policy"
+  },
+  "access": {
+    "auth": "api-key-free",
+    "auth_note": "60 requests/hour anonymous, 5,000/hour with any personal access token, even one with no scopes",
+    "formats": [
+      "json"
+    ],
+    "bulk": false,
+    "rate_limit": "the X-RateLimit-Remaining header is authoritative; search has its own much lower limit of 30/minute",
+    "pagination": "Link header with rel=\"next\"; per_page max 100"
+  },
+  "probes": [
+    {
+      "id": "repo",
+      "url": "https://api.github.com/repos/rfordatascience/tidytuesday",
+      "expect": {
+        "body_contains": [
+          "full_name",
+          "default_branch"
+        ]
+      },
+      "range_bytes": 16384
+    },
+    {
+      "id": "contents",
+      "description": "Directory listing, which is how you discover files in a data repo",
+      "url": "https://api.github.com/repos/awslabs/open-data-registry/contents/datasets?per_page=1",
+      "expect": {
+        "body_contains": [
+          "download_url"
+        ]
+      }
+    },
+    {
+      "id": "git-tree",
+      "description": "The listing route that does not truncate at 1,000",
+      "url": "https://api.github.com/repos/awslabs/open-data-registry/git/trees/main?recursive=1",
+      "range_bytes": 8192,
+      "expect": {
+        "body_contains": [
+          "\"tree\""
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Is a data repo still maintained",
+      "lang": "bash",
+      "code": "curl -s https://api.github.com/repos/OWNER/REPO | python3 -c \"import json,sys;d=json.load(sys.stdin);print(d.get('pushed_at'), d.get('archived'), d.get('stargazers_count'))\"\n# a 404 here is the single fastest way to learn a dataset has been withdrawn"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "A deleted or renamed repository returns 404 with a generic message, identical to a private repo or a typo.",
+      "fix": "Search the API for the name before concluding it is gone - and record the finding, because dataset repos disappear."
+    },
+    {
+      "trap": "Anonymous access is 60 requests/hour, which one loop exhausts instantly.",
+      "fix": "Any token, even scopeless, raises it to 5,000/hour."
+    },
+    {
+      "trap": "The contents API silently ignores per_page and page for a directory and returns at most 1,000 entries. Paging through it hands you the same first 1,000 over and over, so a large data repo looks smaller than it is - the AWS open-data registry has ~1,200 dataset files and this route shows 1,000.",
+      "fix": "Use the git trees API: /repos/OWNER/REPO/git/trees/BRANCH?recursive=1 returns the whole tree in one response, with a truncated flag when it really is too large."
+    }
+  ],
+  "related": [
+    "tidytuesday",
+    "tennis-open-data"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

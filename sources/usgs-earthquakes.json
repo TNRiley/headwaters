@@ -1,0 +1,78 @@
+{
+  "id": "usgs-earthquakes",
+  "name": "USGS Earthquake Catalog (FDSN event service)",
+  "publisher": "US Geological Survey",
+  "homepage": "https://earthquake.usgs.gov/fdsnws/event/1/",
+  "description": "Every earthquake the USGS has located, queryable by time, place, magnitude and depth, returned as GeoJSON. Also published as rolling summary feeds (past hour through past month) that are ideal for a live map. The catalogue runs back to 1900 for large events.",
+  "topics": [
+    "geology",
+    "hazards",
+    "geospatial",
+    "real time"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "1900",
+    "end": "present",
+    "grain": "per-event",
+    "updated": "within a minute of detection"
+  },
+  "license": {
+    "name": "US Government public domain",
+    "redistribution": "free"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "geojson",
+      "csv",
+      "quakeml",
+      "kml"
+    ],
+    "bulk": true,
+    "rate_limit": "20,000 events per query; split by time window for more",
+    "pagination": "offset= and limit=, or slice by starttime/endtime"
+  },
+  "probes": [
+    {
+      "id": "summary-feed",
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "FeatureCollection"
+        ]
+      }
+    },
+    {
+      "id": "fdsn-query",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-01-01&endtime=2025-01-03&minmagnitude=5",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "FeatureCollection"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Everything above M6 in a decade, as CSV",
+      "lang": "bash",
+      "code": "curl -s 'https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime=2015-01-01&endtime=2025-01-01&minmagnitude=6' -o quakes.csv && wc -l quakes.csv"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Exceeding the 20,000-event cap returns HTTP 400 with a text explanation, not a truncated list.",
+      "fix": "Query count first (.../query?format=geojson&...&count) and split the time window."
+    },
+    {
+      "trap": "Magnitudes come from different scales (mb, ml, mw) and are not strictly comparable.",
+      "fix": "The magType field is in every feature; keep it."
+    }
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

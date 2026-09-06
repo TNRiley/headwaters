@@ -1,0 +1,85 @@
+{
+  "id": "usgs-water",
+  "name": "USGS Water Services (NWIS)",
+  "publisher": "US Geological Survey",
+  "homepage": "https://waterservices.usgs.gov/",
+  "description": "Streamflow, gage height, water temperature and groundwater level from roughly 1.9 million US monitoring sites, live at 15-minute resolution and historically as daily values back to the 1890s at the oldest gauges. The instantaneous-values service is keyless JSON.",
+  "topics": [
+    "water",
+    "hydrology",
+    "environment",
+    "time series"
+  ],
+  "geography": "United States",
+  "temporal": {
+    "start": "1890s (daily values)",
+    "end": "present",
+    "grain": "15-minute and daily",
+    "updated": "continuously"
+  },
+  "license": {
+    "name": "US Government public domain",
+    "redistribution": "free"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json",
+      "rdb (tab-delimited)",
+      "waterml"
+    ],
+    "bulk": false,
+    "rate_limit": "no key, but large multi-site multi-year requests are throttled",
+    "pagination": "none - you constrain by sites, parameterCd and period instead"
+  },
+  "fields": [
+    "parameterCd 00060 = discharge in cubic feet per second",
+    "parameterCd 00065 = gage height in feet",
+    "parameterCd 00010 = water temperature C"
+  ],
+  "probes": [
+    {
+      "id": "instantaneous",
+      "description": "Potomac River at Little Falls, current discharge",
+      "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01646500&parameterCd=00060&siteStatus=all",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "timeSeries"
+        ]
+      }
+    },
+    {
+      "id": "daily-values",
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=json&sites=01646500&parameterCd=00060&startDT=2024-01-01&endDT=2024-01-07",
+      "expect": {
+        "body_contains": [
+          "timeSeries"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Every gauge in a county with current flow",
+      "lang": "bash",
+      "code": "curl -s 'https://waterservices.usgs.gov/nwis/iv/?format=json&countyCd=24031&parameterCd=00060' | head -c 400"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "An empty result is HTTP 200 with an empty timeSeries array, and a bad site code is a 400 with an HTML body.",
+      "fix": "Check both the status and whether timeSeries is non-empty."
+    },
+    {
+      "trap": "Provisional data is served alongside approved data and can be revised or withdrawn.",
+      "fix": "The qualifier codes (P = provisional, A = approved) are in the values array; keep them."
+    }
+  ],
+  "related": [
+    "noaa-coops"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

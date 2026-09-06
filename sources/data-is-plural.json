@@ -1,0 +1,81 @@
+{
+  "id": "data-is-plural",
+  "name": "Data Is Plural (structured archive)",
+  "publisher": "Jeremy Singer-Vine",
+  "homepage": "https://www.data-is-plural.com/",
+  "description": "A weekly newsletter of five useful or curious datasets, running since October 2015, with an archive of well over 1,750 entries published as a Google Sheet with one row per dataset - edition, headline, prose description and links. The single richest lead list of unusual open data in existence, and machine-readable, which makes it the natural thing to harvest.",
+  "topics": [
+    "meta-catalog",
+    "lead list",
+    "journalism",
+    "curation"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "2015-10-21",
+    "end": "present",
+    "grain": "per-dataset entry",
+    "updated": "weekly"
+  },
+  "license": {
+    "name": "archive released for reuse; the newsletter text is the author's",
+    "url": "https://www.data-is-plural.com/archive/",
+    "redistribution": "link and quote with attribution; do not republish the prose wholesale"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "csv (Google Sheets export)",
+      "html archive"
+    ],
+    "bulk": true,
+    "size_hint": "a few MB of CSV",
+    "etiquette": "it is one person's newsletter - subscribe, and credit it when a lead comes from here"
+  },
+  "fields": [
+    "edition (date)",
+    "position (1-5)",
+    "headline",
+    "text",
+    "links",
+    "hattips"
+  ],
+  "probes": [
+    {
+      "id": "archive-csv",
+      "description": "The whole archive as CSV, via the sheet's export endpoint",
+      "url": "https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/export?format=csv&gid=0",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "edition",
+          "headline"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Mine the archive for a topic",
+      "lang": "bash",
+      "code": "curl -sL 'https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/export?format=csv&gid=0' -o dip.csv\npython3 -c \"import csv;[print(r['edition'], r['headline']) for r in csv.DictReader(open('dip.csv')) if 'tide' in (r['text']+r['headline']).lower()]\""
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "The export URL 307-redirects before it serves the CSV.",
+      "fix": "Follow redirects (curl -L). A client that does not will see an empty body and a 307."
+    },
+    {
+      "trap": "Entries go back to 2015 and nobody re-checks the links, so a large share of the URLs are now dead.",
+      "fix": "Treat it as a lead list, not a catalogue - which is exactly the division of labour between it and this repository."
+    }
+  ],
+  "related": [
+    "tidytuesday",
+    "aws-open-data-registry"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

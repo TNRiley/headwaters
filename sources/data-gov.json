@@ -1,0 +1,82 @@
+{
+  "id": "data-gov",
+  "name": "Data.gov catalog (CKAN API)",
+  "publisher": "US General Services Administration",
+  "homepage": "https://data.gov/",
+  "description": "The US federal open data catalogue - roughly half a million dataset descriptions harvested from federal, state and local publishers. Historically its CKAN API was the standard way to search all of them at once. On 2026-09-06 every documented API path returned 404; the web catalogue itself still loads. Kept here with the evidence, because a link list would still be telling you to call package_search.",
+  "topics": [
+    "government",
+    "meta-catalog",
+    "united states"
+  ],
+  "geography": "United States",
+  "temporal": {
+    "grain": "per-dataset record",
+    "updated": "harvested continuously"
+  },
+  "license": {
+    "name": "US Government work; individual datasets carry their publishers' terms"
+  },
+  "access": {
+    "auth": "api-key-free",
+    "auth_note": "api.data.gov key, sent as x-api-key, for the api.gsa.gov proxy. The proxy authenticates, then 301s to catalog.data.gov, which is what is 404ing.",
+    "formats": [
+      "json"
+    ],
+    "bulk": false,
+    "pagination": "rows= and start= (CKAN convention)"
+  },
+  "probes": [
+    {
+      "id": "ckan-package-search",
+      "description": "The documented endpoint, unauthenticated",
+      "url": "https://catalog.data.gov/api/3/action/package_search?q=climate&rows=1",
+      "known_broken": "404 with {\"message\":\"Not Found\"} on 2026-09-06. Also tried: /api/action/package_search, /api/3/action/site_read, /api/1/metastore/schemas/dataset/items, /api/4/harvest_sources, and the api.gsa.gov v3 proxy with a key - the proxy authenticates and then 301s straight back to this dead path. catalog.data.gov/dataset now redirects to the catalogue root.",
+      "expect": {
+        "body_contains": [
+          "\"success\""
+        ]
+      }
+    },
+    {
+      "id": "gsa-proxy",
+      "description": "The api.gsa.gov v3 proxy, unauthenticated - proves the proxy is up even though the origin is not",
+      "url": "https://api.gsa.gov/technology/datagov/v3/action/package_search?q=climate&rows=1",
+      "expect": {
+        "status": [
+          403
+        ],
+        "body_contains": [
+          "API_KEY_MISSING"
+        ]
+      }
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Every tutorial, wrapper library and LLM answer about US open data starts with catalog.data.gov/api/3/action/package_search. It does not answer today.",
+      "fix": "Go to the publishing agency's own portal instead - most are CKAN or Socrata and have live APIs. See socrata-portals, and use datacite-re3data to find subject repositories."
+    },
+    {
+      "trap": "The api.gsa.gov proxy makes the failure look like an auth problem: without a key you get a clean 403 API_KEY_MISSING, so it reads as 'I just need a key'. With a key you get a 301 to the dead origin.",
+      "fix": "Follow redirects when testing an API gateway, and check what the origin actually returns."
+    }
+  ],
+  "see_also": [
+    {
+      "name": "GSA API documentation",
+      "url": "https://open.gsa.gov/api/datadotgov/"
+    },
+    {
+      "name": "resources.data.gov catalog API notes",
+      "url": "https://resources.data.gov/catalog-api/"
+    }
+  ],
+  "related": [
+    "socrata-portals",
+    "federal-register"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "degraded"
+}

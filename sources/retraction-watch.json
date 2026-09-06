@@ -1,0 +1,93 @@
+{
+  "id": "retraction-watch",
+  "name": "Retraction Watch Database (distributed by Crossref)",
+  "publisher": "The Center for Scientific Integrity, distributed by Crossref",
+  "homepage": "https://www.crossref.org/blog/news-crossref-and-retraction-watch/",
+  "description": "The hand-curated census of retractions, expressions of concern and corrections - over 72,000 notices with the retracted paper's DOI, the notice's DOI, dates, country, subject and a coded reason field spanning 112 reasons. Since 2023 Crossref distributes it free under CC0; before that it was a paid licence.",
+  "topics": [
+    "research integrity",
+    "bibliometrics",
+    "research"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "1756 (earliest notice)",
+    "end": "present",
+    "grain": "per-notice",
+    "updated": "daily"
+  },
+  "license": {
+    "name": "CC0",
+    "url": "https://www.crossref.org/blog/news-crossref-and-retraction-watch/",
+    "redistribution": "unrestricted"
+  },
+  "access": {
+    "auth": "email-in-user-agent",
+    "auth_note": "the email goes in the query string, with no key and no name: ?you@example.com",
+    "formats": [
+      "csv"
+    ],
+    "bulk": true,
+    "size_hint": "~66 MB CSV, 72,389 rows as of September 2026",
+    "etiquette": "one download gets the whole database - do not poll it"
+  },
+  "fields": [
+    "Title",
+    "Journal",
+    "Publisher",
+    "Country",
+    "Subject",
+    "RetractionDate",
+    "OriginalPaperDate",
+    "OriginalPaperDOI",
+    "RetractionDOI",
+    "RetractionNature",
+    "Reason (semicolon-delimited, 112 coded values)"
+  ],
+  "probes": [
+    {
+      "id": "full-csv",
+      "description": "The whole database. Ranged so the probe costs 4 KB, not 66 MB.",
+      "url": "https://api.labs.crossref.org/data/retractionwatch?tnril@users.noreply.github.com",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "OriginalPaperDOI",
+          "RetractionDate"
+        ]
+      },
+      "note": "api.labs.crossref.org generates the CSV on request and 502s under load; it answered in 7 s and 502'd 20 minutes later on 2026-09-06. Retry before concluding anything."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Download and count by reason",
+      "lang": "bash",
+      "code": "curl -s 'https://api.labs.crossref.org/data/retractionwatch?you@example.com' -o rw.csv\npython3 - <<'EOF'\nimport csv, collections\nc = collections.Counter()\nfor row in csv.DictReader(open('rw.csv', encoding='utf-8-sig')):\n    for reason in row['Reason'].split(';'):\n        if reason.strip(): c[reason.strip()] += 1\nfor reason, n in c.most_common(10): print(n, reason)\nEOF"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "'Investigation by Journal/Publisher' is the single most common Reason value, and it is a process marker, not a cause. Charting reasons without dropping it produces a meaningless top bar.",
+      "fix": "Treat the process markers (investigation by journal, by third party, by company) separately from substantive reasons."
+    },
+    {
+      "trap": "The file is UTF-8 with a BOM.",
+      "fix": "Open with encoding='utf-8-sig' or the first column name comes back with a leading zero-width character."
+    },
+    {
+      "trap": "Joining to OpenAlex on the raw DOI string fails often - case and https://doi.org/ prefixes differ between the two.",
+      "fix": "Normalise to lowercase bare DOI on both sides. That matched 59,971 of 72,389 in September 2026."
+    }
+  ],
+  "related": [
+    "openalex",
+    "crossref"
+  ],
+  "used_by": [
+    "still-cited"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

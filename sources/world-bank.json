@@ -1,0 +1,82 @@
+{
+  "id": "world-bank",
+  "name": "World Bank Indicators API",
+  "publisher": "The World Bank",
+  "homepage": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+  "description": "About 16,000 time series for every country and aggregate region - GDP, population, emissions, literacy, life expectancy, energy use - most running from 1960 to the most recent reporting year. No key, stable URLs, and the same query shape for every indicator, which makes it the easiest cross-country panel to assemble.",
+  "topics": [
+    "economics",
+    "development",
+    "global",
+    "time series"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "1960",
+    "end": "present (reporting lags 1-2 years)",
+    "grain": "annual",
+    "updated": "continuously as countries report"
+  },
+  "license": {
+    "name": "CC-BY-4.0",
+    "url": "https://datacatalog.worldbank.org/public-licenses",
+    "redistribution": "permitted with attribution"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json",
+      "xml"
+    ],
+    "bulk": true,
+    "pagination": "page= and per_page= (max 32,500). The JSON response is a two-element array: [metadata, rows]."
+  },
+  "probes": [
+    {
+      "id": "indicator",
+      "url": "https://api.worldbank.org/v2/country/US/indicator/NY.GDP.MKTP.CD?format=json&per_page=2",
+      "expect": {
+        "body_contains": [
+          "indicator",
+          "value"
+        ]
+      }
+    },
+    {
+      "id": "indicator-list",
+      "url": "https://api.worldbank.org/v2/indicator?format=json&per_page=1",
+      "expect": {
+        "body_contains": [
+          "sourceNote"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "One indicator for every country, all years",
+      "lang": "bash",
+      "code": "curl -s 'https://api.worldbank.org/v2/country/all/indicator/EN.ATM.CO2E.PC?format=json&per_page=20000' -o co2.json\npython3 -c \"import json;d=json.load(open('co2.json'));print(d[0]['total'],'rows');print(d[1][0])\""
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "The top level is [metadata, data], so d[0] is paging info and d[1] is the rows. Iterating d directly gives you two useless objects.",
+      "fix": "rows = d[1]."
+    },
+    {
+      "trap": "country/all includes aggregates - World, OECD, Euro area - alongside real countries, which double-counts any sum.",
+      "fix": "Filter on the region.id field; aggregates carry region.id == 'NA'."
+    },
+    {
+      "trap": "Missing years are present with value null rather than omitted.",
+      "fix": "Drop nulls before averaging."
+    }
+  ],
+  "related": [
+    "census-acs"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

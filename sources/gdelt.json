@@ -1,0 +1,92 @@
+{
+  "id": "gdelt",
+  "name": "GDELT 2.0 Document API",
+  "publisher": "The GDELT Project",
+  "homepage": "https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/",
+  "description": "A running index of world news - hundreds of millions of articles in 65 languages, updated every 15 minutes, searchable by phrase, country, tone, image content and theme. The Document API returns matching articles, timelines of coverage volume, and tone series, without a key. Unusual and genuinely hard to get anywhere else.",
+  "topics": [
+    "news",
+    "text",
+    "global",
+    "real time",
+    "media"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "2017 (Document API window); 1979 in the Event database",
+    "end": "present",
+    "grain": "per-article, 15-minute updates",
+    "updated": "every 15 minutes"
+  },
+  "license": {
+    "name": "GDELT data is free for research and commercial use; article text stays with the publisher",
+    "url": "https://www.gdeltproject.org/about.html#termsofuse"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json",
+      "csv",
+      "html",
+      "rss"
+    ],
+    "bulk": true,
+    "size_hint": "the raw 15-minute event files are ~100 MB/day",
+    "rate_limit": "one request every 5 seconds is the documented rule, enforced with a 429 whose plain-text body says so. Measured behaviour is stricter after a burst: on 2026-09-06 calls at 5-12 second spacing still 429'd for several minutes, and each throttled request took 10-16 seconds to answer at all.",
+    "etiquette": "the 429 body is plain text asking you to slow down and pointing heavy users at the bulk files - read it rather than retrying"
+  },
+  "probes": [
+    {
+      "id": "timeline-tone",
+      "description": "Coverage volume and tone over time for a query",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22sea%20level%22&mode=timelinetone&format=json&timespan=1w",
+      "min_interval_s": 12,
+      "expect": {
+        "body_contains": [
+          "timeline"
+        ]
+      },
+      "note": "GDELT's limiter is per IP and shared across modes. Observed on 2026-09-06: after a burst of testing, whichever call came first got a 429 and a later one succeeded - artlist and timelinetone traded places between runs. A single failure here means throttling, not an outage."
+    },
+    {
+      "id": "artlist",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=flooding&mode=artlist&format=json&maxrecords=2",
+      "min_interval_s": 12,
+      "expect": {
+        "body_contains": [
+          "articles"
+        ]
+      },
+      "description": "Article list. Throttled far harder than the timeline modes - see the gotcha.",
+      "note": "GDELT's limiter is per IP and shared across modes. Observed on 2026-09-06: after a burst of testing, whichever call came first got a 429 and a later one succeeded - artlist and timelinetone traded places between runs. A single failure here means throttling, not an outage."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "How much coverage did a phrase get, week by week",
+      "lang": "bash",
+      "code": "curl -s 'https://api.gdeltproject.org/api/v2/doc/doc?query=%22atmospheric%20river%22&mode=timelinevol&format=json&timespan=3m' | python3 -m json.tool | head -30\n# sleep 5 between calls or you get a 429 that explains itself"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Faster than one call per 5 seconds returns HTTP 429 with a plain-text body, so a JSON parser raises a decode error and the real message is never seen.",
+      "fix": "Check the status code before parsing, and sleep 5s in any loop."
+    },
+    {
+      "trap": "The limiter is per IP and shared across modes, and it stays hostile for minutes after a burst. Testing a few queries in quick succession puts you in a penalty box where even correct, well-spaced calls 429.",
+      "fix": "Space calls at least 5 s apart from the very first one, back off hard on the first 429, and switch to the bulk 15-minute files for anything at volume."
+    },
+    {
+      "trap": "The Document API only reaches back a few years. The deep archive lives in the separate Event and GKG bulk files.",
+      "fix": "For long history download the 15-minute CSVs from data.gdeltproject.org, or query the public BigQuery copy."
+    },
+    {
+      "trap": "maxrecords caps at 250 per call.",
+      "fix": "Slice by time window rather than paging."
+    }
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "gbif",
+  "name": "GBIF (Global Biodiversity Information Facility)",
+  "publisher": "GBIF Secretariat",
+  "homepage": "https://techdocs.gbif.org/en/openapi/",
+  "description": "Over three billion species occurrence records - a specimen in a museum drawer, a bird logged on eBird, a plant photographed on iNaturalist - each with species, date and coordinates, from more than 2,000 publishing institutions. The single largest open record of where life has been observed.",
+  "topics": [
+    "biodiversity",
+    "ecology",
+    "geospatial",
+    "science"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "1600s (herbarium specimens)",
+    "end": "present",
+    "grain": "per-occurrence",
+    "updated": "continuously"
+  },
+  "license": {
+    "name": "per-record: CC0, CC-BY or CC-BY-NC",
+    "url": "https://www.gbif.org/terms",
+    "redistribution": "honour each record's licence; a download DOI is minted for citation"
+  },
+  "access": {
+    "auth": "none",
+    "auth_note": "searching is anonymous; large downloads need a free GBIF account and are delivered asynchronously with a DOI",
+    "formats": [
+      "json",
+      "darwin core archive",
+      "csv"
+    ],
+    "bulk": true,
+    "size_hint": "a full-species download can be several GB",
+    "rate_limit": "search API is limited to 100,000 records via paging - past that you must use the download API",
+    "pagination": "offset and limit, offset capped at 100,000"
+  },
+  "probes": [
+    {
+      "id": "occurrence-search",
+      "url": "https://api.gbif.org/v1/occurrence/search?q=Quercus&limit=1",
+      "expect": {
+        "body_contains": [
+          "results",
+          "count"
+        ]
+      }
+    },
+    {
+      "id": "species-match",
+      "description": "Resolve a loose name to the accepted taxon",
+      "url": "https://api.gbif.org/v1/species/match?name=Quercus%20alba",
+      "expect": {
+        "body_contains": [
+          "usageKey"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Occurrences of one species in a bounding box",
+      "lang": "bash",
+      "code": "KEY=$(curl -s 'https://api.gbif.org/v1/species/match?name=Danaus%20plexippus' | python3 -c 'import json,sys;print(json.load(sys.stdin)[\"usageKey\"])')\ncurl -s \"https://api.gbif.org/v1/occurrence/search?taxonKey=$KEY&decimalLatitude=38,40&decimalLongitude=-78,-76&limit=5\" | python3 -m json.tool | head -30"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Paging past 100,000 records silently stops rather than erroring.",
+      "fix": "Use the asynchronous download API for anything larger; it returns a DOI you can cite."
+    },
+    {
+      "trap": "Occurrence records include cultivated plants, zoo animals and fossils.",
+      "fix": "Filter on basisOfRecord and establishmentMeans before treating hits as wild observations."
+    },
+    {
+      "trap": "Coordinates are often rounded or obscured for endangered species.",
+      "fix": "Check coordinateUncertaintyInMeters and hasGeospatialIssues."
+    }
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

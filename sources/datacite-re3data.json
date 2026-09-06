@@ -1,0 +1,80 @@
+{
+  "id": "datacite-re3data",
+  "name": "DataCite Commons and re3data",
+  "publisher": "DataCite",
+  "homepage": "https://www.re3data.org/",
+  "description": "Two connected registries: re3data describes over 3,000 research data repositories worldwide with their subjects, policies, licences and API endpoints; DataCite Commons indexes the DOIs those repositories mint. Between them they answer 'where would data about X live' - the question that comes before any dataset search.",
+  "topics": [
+    "research data",
+    "metadata",
+    "registry",
+    "meta-catalog"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "2012 (re3data)",
+    "end": "present",
+    "grain": "per-repository / per-DOI",
+    "updated": "continuously"
+  },
+  "license": {
+    "name": "re3data descriptions are CC0",
+    "url": "https://www.re3data.org/about",
+    "redistribution": "free"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "xml (re3data)",
+      "json:api (DataCite)"
+    ],
+    "bulk": true,
+    "pagination": "DataCite: page[number] and page[size], or cursor for large walks"
+  },
+  "probes": [
+    {
+      "id": "re3data-list",
+      "description": "Every registered repository, as one XML index",
+      "url": "https://www.re3data.org/api/v1/repositories",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "<repository>"
+        ]
+      }
+    },
+    {
+      "id": "datacite-dois",
+      "url": "https://api.datacite.org/dois?query=sea+level&page[size]=1",
+      "expect": {
+        "body_contains": [
+          "data"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Which repositories cover a subject",
+      "lang": "bash",
+      "code": "curl -s 'https://www.re3data.org/api/v1/repositories?query=oceanography' | grep -o '<name>[^<]*</name>' | head -20"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "The re3data list endpoint returns ids and names only; policies, APIs and licences need a second call per repository.",
+      "fix": "GET /api/v1/repository/<id> for the full record, and cache - there are 3,000 of them."
+    },
+    {
+      "trap": "DataCite search is keyword over metadata, not over data contents.",
+      "fix": "Expect to follow the DOI to the repository to find out what the columns actually are."
+    }
+  ],
+  "related": [
+    "zenodo",
+    "openalex"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

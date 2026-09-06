@@ -1,0 +1,80 @@
+{
+  "id": "pubmed-eutilities",
+  "name": "NCBI E-utilities",
+  "publisher": "US National Library of Medicine",
+  "homepage": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
+  "description": "The programmatic door to every NCBI database - PubMed, PMC, GenBank, ClinVar, dbSNP and thirty more - through one small family of endpoints (esearch, efetch, esummary, elink). Old-fashioned and superbly documented, and still the canonical way to run a reproducible literature search.",
+  "topics": [
+    "research",
+    "biomedical",
+    "literature",
+    "genomics"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "1781 (oldest indexed citation)",
+    "end": "present",
+    "grain": "per-record",
+    "updated": "daily"
+  },
+  "license": {
+    "name": "US Government work; PubMed records are free to use",
+    "url": "https://www.ncbi.nlm.nih.gov/home/about/policies/"
+  },
+  "access": {
+    "auth": "api-key-free",
+    "auth_note": "works without a key at 3 requests/second; a free NCBI key raises it to 10/second",
+    "formats": [
+      "json",
+      "xml",
+      "medline text"
+    ],
+    "bulk": true,
+    "rate_limit": "3/second anonymous, 10/second with a key - exceeding it gets your IP blocked, not throttled",
+    "pagination": "retstart and retmax; use the history server (usehistory=y) for large sets"
+  },
+  "probes": [
+    {
+      "id": "esearch",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=evidence+synthesis&retmode=json&retmax=1",
+      "expect": {
+        "body_contains": [
+          "esearchresult",
+          "idlist"
+        ]
+      }
+    },
+    {
+      "id": "esummary",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=23245604&retmode=json",
+      "expect": {
+        "body_contains": [
+          "result"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Search then fetch, using the history server",
+      "lang": "bash",
+      "code": "BASE=https://eutils.ncbi.nlm.nih.gov/entrez/eutils\ncurl -s \"$BASE/esearch.fcgi?db=pubmed&term=sea+level+rise&usehistory=y&retmode=json\" > s.json\nQK=$(python3 -c \"import json;d=json.load(open('s.json'))['esearchresult'];print(d['querykey'])\")\nWE=$(python3 -c \"import json;d=json.load(open('s.json'))['esearchresult'];print(d['webenv'])\")\ncurl -s \"$BASE/efetch.fcgi?db=pubmed&query_key=$QK&WebEnv=$WE&retmax=20&rettype=medline&retmode=text\" | head -20"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Going over the rate limit gets the IP blocked rather than 429'd, and the block outlasts the run.",
+      "fix": "Sleep 0.34s between calls without a key, 0.1s with one, and always send tool= and email=."
+    },
+    {
+      "trap": "efetch for PubMed returns XML even when you ask for retmode=json - only esearch and esummary speak JSON.",
+      "fix": "Parse XML for efetch, or use esummary if the summary fields are enough."
+    }
+  ],
+  "related": [
+    "europe-pmc"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}

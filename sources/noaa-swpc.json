@@ -1,0 +1,108 @@
+{
+  "id": "noaa-swpc",
+  "name": "NOAA Space Weather Prediction Center",
+  "publisher": "NOAA SWPC",
+  "homepage": "https://www.swpc.noaa.gov/",
+  "description": "Live solar and geomagnetic conditions as plain JSON files: planetary K index, solar wind speed and density from DSCOVR, X-ray flux, aurora probability grids. Static files with no key, no query language and no rate limit, which makes them unusually easy to build against.",
+  "topics": [
+    "space weather",
+    "solar",
+    "real time"
+  ],
+  "geography": "global / near-earth",
+  "temporal": {
+    "start": "varies by product; K index back to the 1930s in the archive",
+    "end": "present",
+    "grain": "1-minute to 3-hourly",
+    "updated": "every minute for the live products"
+  },
+  "license": {
+    "name": "US Government public domain",
+    "redistribution": "free"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json",
+      "txt"
+    ],
+    "bulk": true,
+    "size_hint": "most products are under 1 MB",
+    "etiquette": "these are cached static files; polling more than once a minute gains nothing"
+  },
+  "probes": [
+    {
+      "id": "k-index",
+      "description": "Planetary K index, one-minute estimate",
+      "url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
+      "range_bytes": 2048,
+      "expect": {
+        "body_contains": [
+          "kp_index"
+        ]
+      }
+    },
+    {
+      "id": "solar-wind-rtsw",
+      "description": "Real-time solar wind plasma from ACE/DSCOVR",
+      "url": "https://services.swpc.noaa.gov/json/rtsw/rtsw_wind_1m.json",
+      "range_bytes": 2048,
+      "expect": {
+        "body_contains": [
+          "proton_speed",
+          "proton_density"
+        ]
+      }
+    },
+    {
+      "id": "geospace-propagated",
+      "description": "Solar wind propagated to the magnetopause - the array-of-arrays shape",
+      "url": "https://services.swpc.noaa.gov/products/geospace/propagated-solar-wind-1-hour.json",
+      "range_bytes": 2048,
+      "expect": {
+        "body_contains": [
+          "time_tag",
+          "bz"
+        ]
+      }
+    },
+    {
+      "id": "retired-plasma-path",
+      "description": "The path most tutorials and half of GitHub still use",
+      "url": "https://services.swpc.noaa.gov/products/solar-wind/plasma-1-day.json",
+      "known_broken": "SWPC retired /products/solar-wind/plasma-*.json. The live equivalent is /json/rtsw/rtsw_wind_1m.json.",
+      "expect": {
+        "body_contains": [
+          "density"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Is there a geomagnetic storm right now",
+      "lang": "bash",
+      "code": "curl -s https://services.swpc.noaa.gov/json/planetary_k_index_1m.json | python3 -c \"import json,sys; d=json.load(sys.stdin); print(d[-1]['time_tag'], d[-1]['kp_index'])\""
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "/products/solar-wind/plasma-1-day.json - the path in most tutorials and a lot of live code - now 404s.",
+      "fix": "Use /json/rtsw/rtsw_wind_1m.json for plasma and /json/rtsw/rtsw_mag_1m.json for the magnetic field."
+    },
+    {
+      "trap": "The two families have different shapes. /json/* files are arrays of objects; /products/* files are arrays-of-arrays whose first row is the column names.",
+      "fix": "Check which family the URL is in before writing the parser, and pop the header row for /products/."
+    },
+    {
+      "trap": "proton_vx_gse and friends are often null even when speed and density are present.",
+      "fix": "Do not assume a full record; check per field."
+    }
+  ],
+  "related": [
+    "usgs-earthquakes"
+  ],
+  "added": "2026-09-06",
+  "verified": "2026-09-06",
+  "status": "live"
+}
