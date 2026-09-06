@@ -3,7 +3,7 @@
   "name": "NOAA Tides and Currents (CO-OPS)",
   "publisher": "NOAA National Ocean Service",
   "homepage": "https://tidesandcurrents.noaa.gov/",
-  "description": "Water level, tide predictions, currents, water temperature and meteorology from NOAA's coastal station network, going back over a century at the oldest gauges. The 'datagetter' endpoint answers in JSON, CSV or XML with no key, and the separate metadata API lists the stations and what each one measures.",
+  "description": "Water level, tide predictions, currents, water temperature and meteorology from NOAA's coastal station network, going back over a century at the oldest gauges. The 'datagetter' endpoint answers in JSON, CSV or XML with no key, and the separate metadata API lists the stations and what each measures. The metadata API also serves the harmonic constituents - the 37 (amplitude, phase) pairs from which every prediction is generated - which is the most interesting and least advertised thing here.",
   "topics": [
     "ocean",
     "tides",
@@ -52,6 +52,30 @@
           "stations"
         ]
       }
+    },
+    {
+      "id": "harmonic-constituents",
+      "description": "Washington DC: the 37 harmonic constituents behind every published tide prediction",
+      "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8594900/harcon.json?units=english",
+      "expect": {
+        "body_contains": [
+          "HarmonicConstituents",
+          "M2",
+          "phase_GMT",
+          "speed"
+        ]
+      }
+    },
+    {
+      "id": "harcon-station-list",
+      "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=harcon",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "stations",
+          "tideType"
+        ]
+      }
     }
   ],
   "recipes": [
@@ -59,6 +83,11 @@
       "title": "A month of six-minute water levels",
       "lang": "bash",
       "code": "curl -s 'https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=20250101&end_date=20250131&station=8574680&product=water_level&datum=MLLW&units=english&time_zone=lst_ldt&format=csv&application=headwaters' | head -5"
+    },
+    {
+      "title": "Every station that publishes harmonic constants, then the constants themselves",
+      "lang": "bash",
+      "code": "curl -s 'https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=harcon' | python3 -c \"import json,sys;[print(s['id'],s['lat'],s['lng'],s['name']) for s in json.load(sys.stdin)['stations']]\"\n# 1,367 listed; 1,303 answer; 64 return 403. Then per station:\ncurl -s 'https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8443970/harcon.json?units=english'"
     }
   ],
   "gotchas": [
@@ -69,6 +98,26 @@
     {
       "trap": "Datum matters more than units. MLLW, MSL and NAVD88 differ by feet, and the default is not the one you want.",
       "fix": "Always pass datum= explicitly and record which you used."
+    },
+    {
+      "trap": "The harcon endpoint is linked from no station page and appears in no bulk download; the only way to enumerate it is stations.json?type=harcon, and 64 of the 1,367 listed stations return HTTP 403 for their constants.",
+      "fix": "Write one file per station and skip what exists, so a partial run resumes and the 403s stay recorded rather than retried."
+    },
+    {
+      "trap": "The station list's own tideType field is close to useless - it labels only 2 of 1,303 stations 'Semi Diurnal', including neither Boston nor Eastport.",
+      "fix": "Compute the form factor yourself: F = (K1+O1)/(M2+S2). Under 0.25 semidiurnal, over 3 diurnal."
+    },
+    {
+      "trap": "Predictions are NOT the sum of the published constants alone: NOAA freezes each year's node factors f and u at the middle of that calendar year rather than varying them continuously. Matching that convention is worth about a third of the residual.",
+      "fix": "Compute f and u once per prediction year, at 2 July, and hold them."
+    },
+    {
+      "trap": "The list is not entirely American - it still carries legacy international gauges (Balboa in the Canal Zone, Guayaquil, and one filed as 'Djkarta').",
+      "fix": "Filter on the state field or on a bounding box if you mean US only."
+    },
+    {
+      "trap": "Historic water levels stop mid-storm at gauges that were overtopped (Dauphin Island in Katrina). The series just ends; nothing marks it as a failure.",
+      "fix": "Treat an abrupt end during an extreme as instrument loss, not as the event ending."
     }
   ],
   "related": [

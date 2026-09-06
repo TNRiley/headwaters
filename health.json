@@ -1,5 +1,5 @@
 {
-  "checked": "2026-09-06T14:47:02+00:00",
+  "checked": "2026-09-06T22:18:50+00:00",
   "probe_version": 1,
   "summary": {
     "ok": 0,
@@ -483,22 +483,44 @@
     "noaa-coops": {
       "latest-water-level": {
         "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=latest&station=8574680&product=water_level&datum=MLLW&units=english&time_zone=gmt&format=json&application=headwaters",
-        "checked": "2026-09-06T14:44:25+00:00",
+        "checked": "2026-09-06T22:18:45+00:00",
         "status": 200,
         "content_type": "application/json;charset=UTF-8",
-        "length_header": "166",
-        "ms": 343,
-        "bytes_read": 166,
+        "length_header": "167",
+        "ms": 104,
+        "bytes_read": 167,
         "ok": true,
         "known_broken": null
       },
       "station-metadata": {
         "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=waterlevels",
-        "checked": "2026-09-06T14:44:26+00:00",
+        "checked": "2026-09-06T22:18:46+00:00",
         "status": 200,
         "content_type": "application/json",
-        "length_header": "777389",
-        "ms": 86,
+        "length_header": "777390",
+        "ms": 98,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "harmonic-constituents": {
+        "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8594900/harcon.json?units=english",
+        "checked": "2026-09-06T22:18:48+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "length_header": "12483",
+        "ms": 87,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "harcon-station-list": {
+        "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=harcon",
+        "checked": "2026-09-06T22:18:50+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "length_header": "3513974",
+        "ms": 175,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
