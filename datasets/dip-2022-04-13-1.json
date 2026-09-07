@@ -1,0 +1,63 @@
+{
+ "id": "dip-2022-04-13-1",
+ "title": "Constitutions",
+ "hook": "The Comparative Constitutions Project, a nonprofit originally launched at the University of Illinois in 2005, “produces comprehensive data about the world’s constitutions.” Its downloadable datasets cover both chronology (years of creation, amendment, dissolution, and other events from 1789 to 2019) and characteristics (hundreds of variables on topics ranging from citizenship and electoral oversight to whether the text discusses a national flag or motto).",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "comparativeconstitutionsproject.org",
+   "url": "https://comparativeconstitutionsproject.org/"
+  },
+  {
+   "name": "comparativeconstitutionsproject.org",
+   "url": "https://comparativeconstitutionsproject.org/about-ccp/"
+  },
+  {
+   "name": "comparativeconstitutionsproject.org",
+   "url": "https://comparativeconstitutionsproject.org/download-data/"
+  },
+  {
+   "name": "comparativeconstitutionsproject.org",
+   "url": "https://comparativeconstitutionsproject.org/chronology/"
+  },
+  {
+   "name": "constituteproject.org",
+   "url": "https://www.constituteproject.org/"
+  },
+  {
+   "name": "constituteproject.org",
+   "url": "https://constituteproject.org/constitutions?lang=en&status=in_force"
+  },
+  {
+   "name": "constituteproject.org",
+   "url": "https://www.constituteproject.org/content/data?lang=en"
+  },
+  {
+   "name": "andreborges.org",
+   "url": "https://andreborges.org/"
+  },
+  {
+   "name": "andreborges.org",
+   "url": "https://andreborges.org/datasets/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-13",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "comparativeconstitutionsproject.org",
+  "host": "comparativeconstitutionsproject.org"
+ }
+}

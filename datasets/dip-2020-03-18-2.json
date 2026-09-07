@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-03-18-2",
+ "title": "Coronavirus research papers",
+ "hook": "The COVID-19 Open Research Dataset is “a free resource of over 29,000 scholarly articles, including over 13,000 with full text, about COVID-19 and the coronavirus family of viruses for use by the global research community.” The dataset, produced by a collaboration of several research groups and the National Library of…",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "pages.semanticscholar.org",
+   "url": "https://pages.semanticscholar.org/coronavirus-research"
+  },
+  {
+   "name": "whitehouse.gov",
+   "url": "https://www.whitehouse.gov/briefings-statements/call-action-tech-community-new-machine-readable-covid-19-dataset/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-18",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pages.semanticscholar.org",
+  "host": "pages.semanticscholar.org"
+ }
+}

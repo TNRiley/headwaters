@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-12-02-2",
+ "title": "Rural facilities in India",
+ "hook": "As part of its Pradhan Mantri Gram Sadak Yojana road-development program, India’s Ministry of Rural Development has gathered data on 700,000+ rural facilities, which data-science engineer Pratap Vardhan has organized into state-level CSV files.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "omms.nic.in",
+   "url": "http://omms.nic.in/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Pradhan_Mantri_Gram_Sadak_Yojana"
+  },
+  {
+   "name": "pratapvardhan.com",
+   "url": "https://pratapvardhan.com"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/pratapvardhan/rural-facilities-pmgsy"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-02",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "omms.nic.in",
+  "host": "omms.nic.in"
+ }
+}

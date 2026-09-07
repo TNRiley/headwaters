@@ -1,0 +1,38 @@
+{
+ "id": "dip-2015-10-21-3",
+ "title": "What police-related data does your city publish?",
+ "hook": "The Police Open Data Census, created by Code for America fellows in Indianapolis, is tracking “currently available open datasets about police interactions with citizens in the US,\" including officer-involved shootings, use of force, and citizen complaints. The census currently covers 36 police departments.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "codeforamerica.github.io",
+   "url": "https://codeforamerica.github.io/PoliceOpenDataCensus/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "http://www.nytimes.com/2015/10/01/nyregion/new-york-police-will-document-virtually-all-instances-of-force.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-10-21",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-10-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "codeforamerica.github.io",
+  "host": "codeforamerica.github.io"
+ }
+}

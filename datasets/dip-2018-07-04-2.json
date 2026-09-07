@@ -1,0 +1,51 @@
+{
+ "id": "dip-2018-07-04-2",
+ "title": "Landslides",
+ "hook": "The Cooperative Open Online Landslide Repository (COOLR) is a recently-launched NASA project that “seeks to cultivate an open platform where scientists and citizen scientists around the world can share landslide reports to guide awareness of landslide hazards for improving scientific modeling and emergency response.”…",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "science.gsfc.nasa.gov",
+   "url": "https://science.gsfc.nasa.gov/600/citizen-science/landslides/about.html"
+  },
+  {
+   "name": "blogs.discovermagazine.com",
+   "url": "http://blogs.discovermagazine.com/citizen-science-salon/2018/03/23/help-nasa-build-the-largest-open-landslide-catalog-with-landslide-reporter/"
+  },
+  {
+   "name": "nasa.gov",
+   "url": "https://data.nasa.gov/Earth-Science/Global-Landslide-Catalog/h9d8-neg4/data"
+  },
+  {
+   "name": "science.gsfc.nasa.gov",
+   "url": "https://science.gsfc.nasa.gov/600/citizen-science/landslides/resources.html#GLC"
+  },
+  {
+   "name": "maps.nccs.nasa.gov",
+   "url": "https://maps.nccs.nasa.gov/arcgis/apps/webappviewer/index.html?id=824ea5864ec8423fb985b33ee6bc05b7"
+  },
+  {
+   "name": "maps.nccs.nasa.gov",
+   "url": "https://maps.nccs.nasa.gov/arcgis/apps/MapAndAppGallery/index.html?appid=574f26408683485799d02e857e5d9521"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-07-04",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-07-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "science.gsfc.nasa.gov",
+  "host": "science.gsfc.nasa.gov"
+ }
+}

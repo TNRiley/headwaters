@@ -1,0 +1,50 @@
+{
+ "id": "dip-2019-03-20-3",
+ "title": "Metro-area segregation",
+ "hook": "“[W]hy are so many cities and metropolitan areas still split along racial lines? And what is the role of local government in reinforcing those divides?",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "governing.com",
+   "url": "https://www.governing.com/topics/public-justice-safety/gov-segregation-series.html"
+  },
+  {
+   "name": "governing.com",
+   "url": "https://www.governing.com/gov-data/school-segregation-dissimilarity-index-for-metro-areas.html"
+  },
+  {
+   "name": "governing.com",
+   "url": "https://www.governing.com/gov-data/residential-racial-segregation-metro-areas.html"
+  },
+  {
+   "name": "governing.com",
+   "url": "https://www.governing.com/gov-data/segregation-report-methodology.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/the-most-diverse-cities-are-often-the-most-segregated/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-20",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "governing.com",
+  "host": "governing.com"
+ }
+}

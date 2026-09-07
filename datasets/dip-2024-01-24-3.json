@@ -1,0 +1,41 @@
+{
+ "id": "dip-2024-01-24-3",
+ "title": "Medicaid offices, geocoded",
+ "hook": "Paul R. Shafer et al. have created a dataset of 3,000+ Medicaid offices in the US, identified via state and county government websites.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340924000416"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/AVRHMI"
+  },
+  {
+   "name": "geocoding.geo.census.gov",
+   "url": "https://geocoding.geo.census.gov/geocoder/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-01-24",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-01-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

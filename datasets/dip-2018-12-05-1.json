@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-12-05-1",
+ "title": "Novel-writing, recorded",
+ "hook": "In 2014, author C. M. Taylor began writing a new novel, this time with a twist: He would write the entire story on a laptop intentionally infected with spyware. With the help of the British Library, a program recorded every keystroke Taylor typed and took screenshots every few seconds.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "reference works",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/C._M._Taylor"
+  },
+  {
+   "name": "blogs.bl.uk",
+   "url": "https://blogs.bl.uk/english-and-drama/2018/11/c-m-taylor-on-keystroke-logging-project-with-british-library.html"
+  },
+  {
+   "name": "cmtaylorstory.com",
+   "url": "https://cmtaylorstory.com/portfolio/staying-on/"
+  },
+  {
+   "name": "bl.uk",
+   "url": "https://data.bl.uk/cmtaylorkeylogging/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-12-05",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-12-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

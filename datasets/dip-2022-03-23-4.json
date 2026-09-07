@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-03-23-4",
+ "title": "PISA results and responses",
+ "hook": "Through tests and questionnaires, the OECD’s Programme for International Student Assessment examines the math, science, and reading proficiency, learning environments, and attitudes of hundreds of thousands 15-year-olds in dozens of countries around the world.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "oecd.org",
+   "url": "https://www.oecd.org/pisa/"
+  },
+  {
+   "name": "oecd.org",
+   "url": "http://www.oecd.org/pisa/aboutpisa/pisa-participants.htm"
+  },
+  {
+   "name": "oecd.org",
+   "url": "https://www.oecd.org/pisa/data/"
+  },
+  {
+   "name": "journals.plos.org",
+   "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0261438"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-23",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "oecd.org",
+  "host": "oecd.org"
+ }
+}

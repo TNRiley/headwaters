@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-12-13-4",
+ "title": "State lawmakers’ financial disclosures",
+ "hook": "For a recent investigation into state legislators’ financial interests, the Center for Public Integrity “analyzed disclosure reports from 6,933 lawmakers holding office in 2015 from the 47 states that required them.” You can search through the disclosures and download the data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "publicintegrity.org",
+   "url": "https://www.publicintegrity.org/2017/12/06/21297/conflicted-interests-state-lawmakers-often-blur-line-between-publics-business-and"
+  },
+  {
+   "name": "apps.publicintegrity.org",
+   "url": "https://apps.publicintegrity.org/disclosure/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/PublicI/state-lawmakers-disclosures"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-12-13",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-12-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "publicintegrity.org",
+  "host": "publicintegrity.org"
+ }
+}

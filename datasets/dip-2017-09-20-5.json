@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-09-20-5",
+ "title": "Xkcd",
+ "hook": "The popular “webcomic of romance, sarcasm, math, and language” provides an interface for grabbing data about each comic strip, including the title, image file, date of publication, easter-egg-y “alt” text, and transcript. [h/t Karl L. Hughes]",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "xkcd.com",
+   "url": "https://xkcd.com/"
+  },
+  {
+   "name": "xkcd.com",
+   "url": "https://xkcd.com/json.html"
+  },
+  {
+   "name": "explainxkcd.com",
+   "url": "https://www.explainxkcd.com/wiki/index.php/title_text"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-09-20",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-09-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "xkcd Color Survey SQLite database",
+  "host": "xkcd.com"
+ }
+}

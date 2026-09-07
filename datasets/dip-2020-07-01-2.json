@@ -1,0 +1,66 @@
+{
+ "id": "dip-2020-07-01-2",
+ "title": "Voter registration",
+ "hook": "At least three states publish monthly, machine-readable statistics on new voter registrations: Florida, Virginia, and North Carolina. Maryland and the District of Columbia publish similar data as PDF tables.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "dos.myflorida.com",
+   "url": "https://dos.myflorida.com/elections/data-statistics/voter-registration-statistics/voter-registration-reportsxlsx/"
+  },
+  {
+   "name": "elections.virginia.gov",
+   "url": "https://www.elections.virginia.gov/resultsreports/registration-statistics/"
+  },
+  {
+   "name": "dl.ncsbe.gov",
+   "url": "https://dl.ncsbe.gov/?prefix=data/voterstats/"
+  },
+  {
+   "name": "elections.maryland.gov",
+   "url": "https://elections.maryland.gov/voter_registration/stats.html"
+  },
+  {
+   "name": "dcboe.org",
+   "url": "https://www.dcboe.org/Data-Resources-Forms/Voter-Registration-Stats"
+  },
+  {
+   "name": "electioninnovation.org",
+   "url": "https://electioninnovation.org/new-voter-registrations-in-2020/"
+  },
+  {
+   "name": "electioninnovation.org",
+   "url": "https://electioninnovation.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/voter-registration"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/voter-registrations-are-way-way-down-during-the-pandemic/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-01",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dos.myflorida.com",
+  "host": "dos.myflorida.com"
+ }
+}

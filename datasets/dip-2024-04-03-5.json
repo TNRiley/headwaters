@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-04-03-5",
+ "title": "Deaths in plague-era London",
+ "hook": "Death by Numbers, also known as the Bills of Mortality Project, aims to transcribe ~8,000 official weekly tallies of deaths in London published in the 1600s and 1700s.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "deathbynumbers.org",
+   "url": "https://deathbynumbers.org/"
+  },
+  {
+   "name": "deathbynumbers.org",
+   "url": "https://deathbynumbers.org/about/"
+  },
+  {
+   "name": "datascribe.tech",
+   "url": "https://datascribe.tech/casestudies/DataScribe_BillsOfMortality_CaseStudy.pdf"
+  },
+  {
+   "name": "deathbynumbers.org",
+   "url": "https://deathbynumbers.org/database/"
+  },
+  {
+   "name": "deathbynumbers.org",
+   "url": "https://deathbynumbers.org/data/"
+  },
+  {
+   "name": "deathbynumbers.org",
+   "url": "https://deathbynumbers.org/api/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-03",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "deathbynumbers.org",
+  "host": "deathbynumbers.org"
+ }
+}

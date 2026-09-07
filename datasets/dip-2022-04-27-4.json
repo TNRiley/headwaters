@@ -1,0 +1,35 @@
+{
+ "id": "dip-2022-04-27-4",
+ "title": "Alpine snow",
+ "hook": "Michael Matiu et al. (2021) compiled a dataset of daily snowfall and snow depths at 2,000+ measurement stations in the European Alps, spanning the years 1970 to 2019.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "tc.copernicus.org",
+   "url": "https://tc.copernicus.org/articles/15/1343/2021/"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/5109574"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-27",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tc.copernicus.org",
+  "host": "tc.copernicus.org"
+ }
+}

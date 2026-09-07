@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-02-05-3",
+ "title": "Baseball sign-stealing",
+ "hook": "“I’m an Astros fan. They cheated during the 2017 regular season — the evidence is clear. In an attempt to understand the scope of the cheating and the players involved, I decided to listen to every pitch from the Astros’ 2017 home games and log any banging noise I could detect.” That’s from Tony Adams, who analyzed audio spectrograms corresponding to more than 8,200 pitches.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "signstealingscandal.com",
+   "url": "http://signstealingscandal.com/about/"
+  },
+  {
+   "name": "signstealingscandal.com",
+   "url": "http://signstealingscandal.com/"
+  },
+  {
+   "name": "signstealingscandal.com",
+   "url": "http://signstealingscandal.com/files/"
+  },
+  {
+   "name": "signstealingscandal.com",
+   "url": "http://signstealingscandal.com/statistical-analysis/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-05",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "signstealingscandal.com",
+  "host": "signstealingscandal.com"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "dip-2016-03-23-3",
+ "title": "Rising waters",
+ "hook": "The U.S. National Water Level Observation Network tracks water levels at hundreds of tide gauges around the country. The data is available via an API. Related: Water’s Edge, a 2014 Reuters investigation based on the gauge data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "tidesandcurrents.noaa.gov",
+   "url": "http://tidesandcurrents.noaa.gov/nwlon.html"
+  },
+  {
+   "name": "tidesandcurrents.noaa.gov",
+   "url": "https://tidesandcurrents.noaa.gov/stations.html?type=Water+Levels"
+  },
+  {
+   "name": "tidesandcurrents.noaa.gov",
+   "url": "https://tidesandcurrents.noaa.gov/api/"
+  },
+  {
+   "name": "water.weather.gov",
+   "url": "http://water.weather.gov/ahps/"
+  },
+  {
+   "name": "water.weather.gov",
+   "url": "http://water.weather.gov/ahps/download.php"
+  }
+ ],
+ "articles": [
+  {
+   "name": "reuters.com",
+   "url": "http://www.reuters.com/investigates/special-report/waters-edge-the-crisis-of-rising-sea-levels/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-23",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tidesandcurrents.noaa.gov",
+  "host": "tidesandcurrents.noaa.gov"
+ }
+}

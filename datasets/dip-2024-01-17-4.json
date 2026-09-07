@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-01-17-4",
+ "title": "Chicago’s “menu money",
+ "hook": "Chicago’s 50 wards can each receive up to $1.5 million annually to spend on infrastructure projects such as street lighting, sidewalk repair, art murals, and park improvements.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "chicago.suntimes.com",
+   "url": "https://chicago.suntimes.com/2023/8/3/23819111/chicago-vote-tax-money-spent-wards-participatory-budgeting-democracy-solutions-project"
+  },
+  {
+   "name": "chicago.gov",
+   "url": "https://www.chicago.gov/city/en/depts/obm/provdrs/cap_improve/svcs/aldermanic-menu-program.html"
+  },
+  {
+   "name": "chicago.gov",
+   "url": "https://www.chicago.gov/city/en/depts/obm/provdrs/cap_improve/svcs/cip-archive.html"
+  },
+  {
+   "name": "jakejeromesmith.wordpress.com",
+   "url": "https://jakejeromesmith.wordpress.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jakejsmith/ChicagoMenuMoney"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1MZpUnD8bXceRw-P3fiTZtH7KtSunNaEYa-xpapWw1Ho/edit"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jakejsmith/ChicagoMenuMoney/blob/main/data-dictionary.md"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-01-17",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-01-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "chicago.suntimes.com",
+  "host": "chicago.suntimes.com"
+ }
+}

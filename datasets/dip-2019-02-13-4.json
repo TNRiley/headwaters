@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-02-13-4",
+ "title": "Two decades of tobacco (and e-cigarette) laws",
+ "hook": "The CDC’s State Tobacco Activities Tracking and Evaluation system tracks “current and historical state-level legislative data on tobacco [and now also e-cigarette] use prevention and control policies.” The system’s datasets provide quarterly snapshots — going back to 1995 — of rules concerning taxes, youth access, licensing, fire safety, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/statesystem/index.html"
+  },
+  {
+   "name": "chronicdata.cdc.gov",
+   "url": "https://chronicdata.cdc.gov/browse?limitTo=datasets&sortBy=alpha&tags=legislation&utf8=%E2%9C%93"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-02-13",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-02-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

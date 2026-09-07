@@ -1,0 +1,45 @@
+{
+ "id": "dip-2025-04-30-2",
+ "title": "Tens of millions of flights",
+ "hook": "Sebastiaan Menger has developed a series of quarterly datasets “featuring global, high-level flight schedules extracted from worldwide aircraft ADS-B position transmissions,” going back to early 2024.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/in/sebastiaanmenger/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/MrAirspace/aircraft-flight-schedules"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/adsblol"
+  },
+  {
+   "name": "adsb.lol",
+   "url": "https://www.adsb.lol/docs/overview/introduction/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-04-30",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-04-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "linkedin.com",
+  "host": "linkedin.com"
+ }
+}

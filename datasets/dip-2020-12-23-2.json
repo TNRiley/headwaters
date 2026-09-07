@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-12-23-2",
+ "title": "County-level coronavirus tests",
+ "hook": "The US federal government has finally begun publishing county-level data on COVID-19 test counts, positivity rates, and delays.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/CareSet/COVID_Community_Profile_Report_FAQ"
+  },
+  {
+   "name": "beta.healthdata.gov",
+   "url": "https://beta.healthdata.gov/National/COVID-19-Community-Profile-Report/gqxm-d9w9"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-23",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

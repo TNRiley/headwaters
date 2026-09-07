@@ -1,0 +1,38 @@
+{
+ "id": "dip-2016-02-03-3",
+ "title": "Zika data",
+ "hook": "Fears about the Zika virus — and a possible, but not proven, connection to microcephaly — are growing. Little data on the latest outbreak has been published, but here’s an open guide to what’s available so far, including reported cases of microcephaly in Brazil and the number of suspected Zika samples sent to Colombia’s national institute of health.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "journalism",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/BuzzFeedNews/zika-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "http://fivethirtyeight.com/features/zikas-not-a-global-health-emergency-its-potential-consequences-are/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-03",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

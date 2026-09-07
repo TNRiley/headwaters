@@ -1,0 +1,50 @@
+{
+ "id": "dip-2022-07-27-5",
+ "title": "Shark bites",
+ "hook": "Madeline Riley et al. describe the Australian Shark-Incident Database, which contains details about 1,100+ shark bites (and attempted shark bites) between 1791 and early 2022, gathered by the Taronga Conservation Society using “questionnaires provided to shark-bite victims or witnesses, media reports,” and information from state agencies.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-022-01453-9"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/6672829"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cjabradshaw/AustralianSharkIncidentDatabase"
+  },
+  {
+   "name": "taronga.org.au",
+   "url": "https://www.taronga.org.au/about"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/news/datablog/2022/jul/07/new-dataset-shows-shark-attacks-in-australia-are-increasing-and-researchers-want-to-know-why"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-27",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

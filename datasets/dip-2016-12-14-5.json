@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-12-14-5",
+ "title": "Energy use at 10 Downing Street",
+ "hook": "UK-based CarbonCulture helps organizations measure and publish their buildings’ energy and water use in near-realtime. Among the first users: 10 Downing Street, the Tate Modern, and University College London. For each building, you can download yearly datasets, which are broken down into 30-minute intervals.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "other",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "platform.carbonculture.net",
+   "url": "https://platform.carbonculture.net/places/10-downing-street/9/https://platform.carbonculture.net/about/"
+  },
+  {
+   "name": "platform.carbonculture.net",
+   "url": "https://platform.carbonculture.net/places/10-downing-street/9/"
+  },
+  {
+   "name": "platform.carbonculture.net",
+   "url": "https://platform.carbonculture.net/places/tate-modern/8962/"
+  },
+  {
+   "name": "platform.carbonculture.net",
+   "url": "https://platform.carbonculture.net/communities/ucl/30/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-12-14",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-12-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "platform.carbonculture.net",
+  "host": "platform.carbonculture.net"
+ }
+}

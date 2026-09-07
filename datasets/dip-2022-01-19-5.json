@@ -1,0 +1,70 @@
+{
+ "id": "dip-2022-01-19-5",
+ "title": "Wordle words",
+ "hook": "You might have heard of Wordle. The game’s 2,315 possible answers and 12,972 permitted guesses are not an enormous secret, being embedded in its viewable source code. The Riddler’s Zach Wissner-Gross, for instance, has extracted those word lists into two spreadsheets.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "powerlanguage.co.uk",
+   "url": "https://www.powerlanguage.co.uk/wordle/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1-M0RIVVZqbeh0mZacdAsJyBrLuEmhKUhNaVAI-7pr2Y/edit#gid=0"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1KR5lsyI60J1Ek6YgJRU2hKsk4iAOWvlPLUWjAZ6m8sg/edit#gid=0"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2022/01/03/technology/wordle-word-game-creator.html"
+  },
+  {
+   "name": "wsj.com",
+   "url": "https://www.wsj.com/articles/wordle-has-turned-fans-of-word-games-into-argumentative-strategy-nerds-11641831311"
+  },
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/games/2022/jan/11/wordle-creator-overwhelmed-by-global-success-of-hit-puzzle"
+  },
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/stefficao/how-wordle-went-viral-strategy"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/opinions/2022/01/13/wordle-perfect-pandemic-game-together/"
+  },
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/tag/the-riddler/"
+  },
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/when-the-riddler-met-wordle/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-19",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "powerlanguage.co.uk",
+  "host": "powerlanguage.co.uk"
+ }
+}

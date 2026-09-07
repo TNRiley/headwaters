@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-07-12-1",
+ "title": "US military interventions",
+ "hook": "For the Military Intervention Project, Sidita Kushi and Monica Duffy Toft have constructed a dataset of “all instances of US military intervention from 1776 until 2019, alongside key drivers and consequences of these interventions.” The 392 cases include wars, occupations, major troop deployments, humanitarian assistance, and other military actions abroad.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "sites.tufts.edu",
+   "url": "https://sites.tufts.edu/css/mip-research/"
+  },
+  {
+   "name": "siditakushi.com",
+   "url": "https://www.siditakushi.com/"
+  },
+  {
+   "name": "sites.tufts.edu",
+   "url": "https://sites.tufts.edu/css/people/about/monica-duffy-toft/"
+  },
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/10.1177/00220027221117546"
+  },
+  {
+   "name": "sites.tufts.edu",
+   "url": "https://sites.tufts.edu/css/mip-research/mip-dataset/"
+  },
+  {
+   "name": "icpsr.umich.edu",
+   "url": "https://www.icpsr.umich.edu/web/ICPSR/studies/21282"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/15519"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-07-12",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-07-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sites.tufts.edu",
+  "host": "sites.tufts.edu"
+ }
+}

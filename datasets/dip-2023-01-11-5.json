@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-01-11-5",
+ "title": "NYC pizza slices",
+ "hook": "“Starting in 2014, I logged every slice of pizza I ate in New York City on the Instagram account NYC Slice,” writes reporter Liam Quigley, who has published a map, price chart, searchable table, and spreadsheet of the first 464 slices. The data include each slice’s date, location, style, and price.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "instagram.com",
+   "url": "https://www.instagram.com/nycslice/"
+  },
+  {
+   "name": "elkue.com",
+   "url": "https://elkue.com/"
+  },
+  {
+   "name": "elkue.com",
+   "url": "https://elkue.com/nyc-slice/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1EY3oi9ttxybG0A0Obtwey6BFu7QLqdHe02JApijgztg/edit"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-11",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "instagram.com",
+  "host": "instagram.com"
+ }
+}

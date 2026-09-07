@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-12-27-4",
+ "title": "Drug-free school zones in Tennessee",
+ "hook": "As part of a recent investigation, reporters at Reason Magazine used public records law to obtain geospatial data on each of Tennessee's 8,544 drug-free zones. In addition the geographic boundaries, the shapefile also includes each zone’s name and type (school, childcare, park, or library). [h/t CJ Ciaramella]",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "reason.com",
+   "url": "http://reason.com/archives/2017/12/18/the-myth-of-the-playground-pus"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cjciaramella/tn-drug-free-school-zones"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-12-27",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-12-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "reason.com",
+  "host": "reason.com"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "dip-2019-07-03-3",
+ "title": "Territorial disputes",
+ "hook": "The Issue Correlates of War project, which started in 1997 with a focus on territorial disputes, gathers “systematic data on contentious issues in world politics.” In addition to its two centuries of territorial claims, the project has also catalogued disputes over rivers, maritime zones, and ethnic groups, and compiled supplementary datasets on colonial history, historical country names, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "paulhensel.org",
+   "url": "http://www.paulhensel.org/icow.html"
+  },
+  {
+   "name": "paulhensel.org",
+   "url": "http://www.paulhensel.org/icowterr.html"
+  },
+  {
+   "name": "paulhensel.org",
+   "url": "http://www.paulhensel.org/icowriver.html"
+  },
+  {
+   "name": "paulhensel.org",
+   "url": "http://www.paulhensel.org/icowmar.html"
+  },
+  {
+   "name": "paulhensel.org",
+   "url": "http://www.paulhensel.org/icowiden.html"
+  },
+  {
+   "name": "paulhensel.org",
+   "url": "http://www.paulhensel.org/icowcol.html"
+  },
+  {
+   "name": "paulhensel.org",
+   "url": "http://www.paulhensel.org/icownames.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-03",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "paulhensel.org",
+  "host": "paulhensel.org"
+ }
+}

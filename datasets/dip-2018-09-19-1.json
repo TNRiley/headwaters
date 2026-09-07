@@ -1,0 +1,49 @@
+{
+ "id": "dip-2018-09-19-1",
+ "title": "Parties and parliaments",
+ "hook": "ParlGov, “a data infrastructure for political science,” has collected detailed information on 1,500+ political parties, the results of 900+ elections, and the formation of 1,400+ parliamentary cabinets.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "parlgov.org",
+   "url": "http://www.parlgov.org/"
+  },
+  {
+   "name": "parlgov.org",
+   "url": "http://www.parlgov.org/data/table/view_party/"
+  },
+  {
+   "name": "parlgov.org",
+   "url": "http://www.parlgov.org/data/table/view_election/"
+  },
+  {
+   "name": "parlgov.org",
+   "url": "http://www.parlgov.org/data/table/view_cabinet/"
+  },
+  {
+   "name": "parlgov.org",
+   "url": "http://www.parlgov.org/explore/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-09-19",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-09-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "parlgov.org",
+  "host": "parlgov.org"
+ }
+}

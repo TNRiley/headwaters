@@ -1,0 +1,41 @@
+{
+ "id": "dip-2023-12-20-5",
+ "title": "Netflix viewership",
+ "hook": "In late 2021, Netflix began publishing downloadable datasets of the 10 most popular movies and TV shows each week, overall and by country. Last week the company published a new data report, which lists all 18,000+ titles viewed for 50,000+ hours on the platform in the first half of 2023.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "variety.com",
+   "url": "https://variety.com/vip/netflixs-new-top-10-lists-project-the-illusion-of-transparency-1235113186/"
+  },
+  {
+   "name": "top10.netflix.com",
+   "url": "https://top10.netflix.com/"
+  },
+  {
+   "name": "about.netflix.com",
+   "url": "https://about.netflix.com/en/news/what-we-watched-a-netflix-engagement-report"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-12-20",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-12-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "variety.com",
+  "host": "variety.com"
+ }
+}

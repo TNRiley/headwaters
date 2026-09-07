@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-04-17-4",
+ "title": "18th-century coroner inquests",
+ "hook": "The London Lives initiative “makes available, in a fully digitised and searchable form, a wide range of primary sources about eighteenth-century London, with a particular focus on plebeian Londoners.” As part of the project, digital historian Sharon Howard has compiled a dataset of 2,894 Westminster coroners’ inquests from 1760 to 1799.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "londonlives.org",
+   "url": "https://www.londonlives.org/static/Project.jsp"
+  },
+  {
+   "name": "sharonhoward.org",
+   "url": "http://sharonhoward.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/sharonhoward/londonlives/tree/master/coroners_inquests"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-17",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "londonlives.org",
+  "host": "londonlives.org"
+ }
+}

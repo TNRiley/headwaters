@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-11-30-3",
+ "title": "Travelers’ coronavirus variants",
+ "hook": "In the past year, the CDC’s Traveler-Based Genomic Surveillance program has collected 60,000+ voluntary nasal swabs from people disembarking international flights at four major US airports.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "wwwnc.cdc.gov",
+   "url": "https://wwwnc.cdc.gov/travel/page/travel-genomic-surveillance"
+  },
+  {
+   "name": "covid.cdc.gov",
+   "url": "https://covid.cdc.gov/covid-data-tracker/#traveler-genomic-surveillance"
+  },
+  {
+   "name": "coviddatadispatch.com",
+   "url": "https://coviddatadispatch.com/2022/11/06/how-testing-international-travelers-helps-the-cdc-keep-tabs-on-new-variants/"
+  },
+  {
+   "name": "coviddatadispatch.com",
+   "url": "https://coviddatadispatch.com/"
+  },
+  {
+   "name": "betsyladyzhets.com",
+   "url": "https://betsyladyzhets.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-30",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wwwnc.cdc.gov",
+  "host": "wwwnc.cdc.gov"
+ }
+}

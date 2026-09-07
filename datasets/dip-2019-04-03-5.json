@@ -1,0 +1,44 @@
+{
+ "id": "dip-2019-04-03-5",
+ "title": "The Index Thomisticus",
+ "hook": "“In 1949, an Italian Jesuit priest named Roberto Busa presented a pitch to Thomas J. Watson, of I.B.M.,” according to a New Yorker article principally about the Enron email archive. “Busa was trained in philosophy, and had just published his thesis on St.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-07-26-edition"
+  },
+  {
+   "name": "corpusthomisticum.org",
+   "url": "http://www.corpusthomisticum.org/it/index.age"
+  },
+  {
+   "name": "itreebank.marginalia.it",
+   "url": "https://itreebank.marginalia.it/view/download.php"
+  }
+ ],
+ "articles": [
+  {
+   "name": "newyorker.com",
+   "url": "https://www.newyorker.com/magazine/2017/07/24/what-the-enron-e-mails-say-about-us"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-03",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tinyletter.com",
+  "host": "tinyletter.com"
+ }
+}

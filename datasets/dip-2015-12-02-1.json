@@ -1,0 +1,41 @@
+{
+ "id": "dip-2015-12-02-1",
+ "title": "Historical climate data",
+ "hook": "The National Centers for Environmental Information maintains more than 20 petabytes of data, it says. Among the most useful slices is the Global Historical Climatology Network’s data, which aggregates reports on temperature, precipitation, wind, and more from tens of thousands of climate-monitoring stations around the world.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "ncei.noaa.gov",
+   "url": "https://www.ncei.noaa.gov/"
+  },
+  {
+   "name": "ncdc.noaa.gov",
+   "url": "https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn"
+  },
+  {
+   "name": "journals.ametsoc.org",
+   "url": "http://journals.ametsoc.org/doi/full/10.1175/JTECH-D-11-00103.1"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-02",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ncei.noaa.gov",
+  "host": "ncei.noaa.gov"
+ }
+}

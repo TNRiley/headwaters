@@ -1,0 +1,61 @@
+{
+ "id": "dip-2023-04-26-4",
+ "title": "Art history allocations",
+ "hook": "For her undergraduate thesis, “Quantifying Art Historical Narratives,” Holland Stam measured the amount of space (in text and in images) devoted to each artwork and artist in 25 editions of two major art history textbooks: Gardner’s Art Through the Ages and Janson’s History of Art.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/hollandstam1/thesis/blob/main/_book/Quantifying-Art-Historical-Narratives.pdf"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Gardner%27s_Art_Through_the_Ages"
+  },
+  {
+   "name": "worldcat.org",
+   "url": "https://www.worldcat.org/title/373059219"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/hollandstam1/thesis"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/hollandstam1/thesis/tree/main/raw-data"
+  },
+  {
+   "name": "saralemus7.github.io",
+   "url": "https://saralemus7.github.io/arthistory/"
+  },
+  {
+   "name": "juliasilge.com",
+   "url": "https://juliasilge.com/blog/art-history/"
+  },
+  {
+   "name": "juliasilge.com",
+   "url": "https://juliasilge.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-26",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

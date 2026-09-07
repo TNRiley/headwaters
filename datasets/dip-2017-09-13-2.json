@@ -1,0 +1,57 @@
+{
+ "id": "dip-2017-09-13-2",
+ "title": "House price indices, part two",
+ "hook": "Two weeks ago, DIP featured Case-Shiller’s home price index data. There are, in fact, several other prominent (and downloadable) house price indices, including the Federal Housing Finance Agency’s House Price Index, the National Association of Realtors’ indices, and Zillow’s Home Value Index.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "tinyletter.com",
+   "url": "http://tinyletter.com/data-is-plural/letters/data-is-plural-2017-08-30-edition"
+  },
+  {
+   "name": "fhfa.gov",
+   "url": "https://www.fhfa.gov/DataTools/Downloads/Pages/House-Price-Index.aspx"
+  },
+  {
+   "name": "nar.realtor",
+   "url": "https://www.nar.realtor/research-and-statistics/housing-statistics"
+  },
+  {
+   "name": "zillow.com",
+   "url": "https://www.zillow.com/research/data/"
+  },
+  {
+   "name": "calculatedriskblog.com",
+   "url": "http://www.calculatedriskblog.com/2012/05/kolko-dissecting-house-price-indices.html"
+  },
+  {
+   "name": "jedkolko.com",
+   "url": "http://jedkolko.com/"
+  },
+  {
+   "name": "calculatedriskblog.com",
+   "url": "http://www.calculatedriskblog.com/2014/08/kolko-lets-improve-not-ignore-seasonal.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-09-13",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-09-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tinyletter.com",
+  "host": "tinyletter.com"
+ }
+}

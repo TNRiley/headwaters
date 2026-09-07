@@ -1,0 +1,47 @@
+{
+ "id": "dip-2020-01-01-2",
+ "title": "State legislator ideologies",
+ "hook": "Political scientists Boris Shor and Nolan McCarty’s have assigned ideology scores, on a conservative-to-liberal scale, to every US lawmaker in all 50 state legislatures. The most recent update, published May 2018, covers more than 22,000 legislators from 1993 through 2016.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "research.bshor.com",
+   "url": "https://research.bshor.com"
+  },
+  {
+   "name": "princeton.edu",
+   "url": "https://www.princeton.edu/~nmccarty/"
+  },
+  {
+   "name": "americanlegislatures.com",
+   "url": "https://americanlegislatures.com/faq/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6QWX7Q"
+  },
+  {
+   "name": "justfacts.votesmart.org",
+   "url": "https://justfacts.votesmart.org/about/political-courage-test/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-01",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "research.bshor.com",
+  "host": "research.bshor.com"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-07-03-1",
+ "title": "Wiretaps",
+ "hook": "The Administrative Office of the United States Courts posts its annual “wiretap reports”, which provide details on the wiretaps that state and federal judges have authorized.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "uscourts.gov",
+   "url": "https://www.uscourts.gov/statistics-reports/analysis-reports/wiretap-reports"
+  },
+  {
+   "name": "uscourts.gov",
+   "url": "https://www.uscourts.gov/news/2019/06/28/2018-wiretap-report-orders-and-convictions-fall"
+  },
+  {
+   "name": "uscourts.gov",
+   "url": "https://www.uscourts.gov/statistics-reports/wiretap-report-2018"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-03",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "uscourts.gov",
+  "host": "uscourts.gov"
+ }
+}

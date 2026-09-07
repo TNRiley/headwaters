@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-09-25-1",
+ "title": "NYC evictions",
+ "hook": "New York City’s government publishes a dataset listing evictions “pending, scheduled and executed” since 2017, updated daily. The data are “compiled from the majority of New York City Marshals,” who are mayor-appointed officers tasked with enforcing civil court cases.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/City-Government/Evictions/6z8x-wfk4/about_data"
+  },
+  {
+   "name": "nyc.gov",
+   "url": "https://www.nyc.gov/site/doi/offices/nyc-marshals.page"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/New_York_City_Marshal"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/City-Government/City-Marshals-Revenue/7ewi-9cdf/about_data"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/nycdb/nycdb"
+  },
+  {
+   "name": "citylimits.org",
+   "url": "https://citylimits.org/2024/08/26/spiking-evictions-renew-calls-to-reform-nyc-marshals-system/"
+  },
+  {
+   "name": "patrickspauster.com",
+   "url": "https://patrickspauster.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-25",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Squirrel Census",
+  "host": "cityofnewyork.us"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-12-20-2",
+ "title": "Workforce training providers",
+ "hook": "The Workforce Almanac, launched last month by the Harvard-based Project on Workforce, maps “almost 17,000 providers of workforce training, which we have defined as short-term (lasting less than two years), post-high school training opportunities in which learners gain work-relevant skills to help them find a job.” The dataset lists each organization’s name, address, city, state, coordinates, and various categorizations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "workforcealmanac.com",
+   "url": "https://www.workforcealmanac.com/"
+  },
+  {
+   "name": "pw.hks.harvard.edu",
+   "url": "https://www.pw.hks.harvard.edu/post/workforce-almanac-launch"
+  },
+  {
+   "name": "pw.hks.harvard.edu",
+   "url": "https://www.pw.hks.harvard.edu/"
+  },
+  {
+   "name": "workforcealmanac.com",
+   "url": "https://www.workforcealmanac.com/explore"
+  },
+  {
+   "name": "workforcealmanac.com",
+   "url": "https://workforcealmanac.com/methodology"
+  },
+  {
+   "name": "apprenticeship.gov",
+   "url": "https://www.apprenticeship.gov/data-and-statistics"
+  },
+  {
+   "name": "trainingproviderresults.gov",
+   "url": "https://www.trainingproviderresults.gov"
+  },
+  {
+   "name": "irs.gov",
+   "url": "https://www.irs.gov/charities-non-profits/exempt-organizations-business-master-file-extract-eo-bmf"
+  },
+  {
+   "name": "nces.ed.gov",
+   "url": "https://nces.ed.gov/ipeds/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-12-20",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-12-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "workforcealmanac.com",
+  "host": "workforcealmanac.com"
+ }
+}

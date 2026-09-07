@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-12-07-2",
+ "title": "Solar panels",
+ "hook": "The Open PV Project is a “community driven, comprehensive database” of solar panel installations in the U.S., ranging from home installations to utility-scale projects.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "openpv.nrel.gov",
+   "url": "https://openpv.nrel.gov/index"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-12-07",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-12-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openpv.nrel.gov",
+  "host": "openpv.nrel.gov"
+ }
+}

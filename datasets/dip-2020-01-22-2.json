@@ -1,0 +1,61 @@
+{
+ "id": "dip-2020-01-22-2",
+ "title": "Broadcast geography",
+ "hook": "To construct her maps “visualizing the geography of FM radio” in the US, Erin Davis combined the Federal Communication Commission’s service contour data — the area where reception for a station “is generally protected from interference caused by other stations” — with the agency’s radio station licensing data and genre information from radio-locator.com.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "erdavis.com",
+   "url": "https://erdavis.com/2020/01/04/visualizing-the-geography-of-fm-radio/"
+  },
+  {
+   "name": "erdavis.com",
+   "url": "https://erdavis.com/about/"
+  },
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/media/radio/fm-service-contour-data-points"
+  },
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/media/radio/fm-query"
+  },
+  {
+   "name": "radio-locator.com",
+   "url": "https://radio-locator.com"
+  },
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/media/television/tv-service-contour-data-points"
+  },
+  {
+   "name": "reboot.fcc.gov",
+   "url": "http://reboot.fcc.gov/license-view/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-09-07-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-22",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "erdavis.com",
+  "host": "erdavis.com"
+ }
+}

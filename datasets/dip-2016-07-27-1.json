@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-07-27-1",
+ "title": "How we die",
+ "hook": "The Global Burden of Disease dataset represents “the largest and most comprehensive effort to date to measure epidemiological levels and trends worldwide,” according to the Institute for Health Metrics and Evaluation, which runs the project.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "healthdata.org",
+   "url": "http://www.healthdata.org/gbd/data"
+  },
+  {
+   "name": "healthdata.org",
+   "url": "http://www.healthdata.org/gbd"
+  },
+  {
+   "name": "howwegettonext.com",
+   "url": "https://howwegettonext.com/where-we-live-and-how-we-die-36eeb4c256ab#.6g464ysu0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-27",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "healthdata.org",
+  "host": "healthdata.org"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-01-15-4",
+ "title": "Geographic (re)naming proposals",
+ "hook": "When someone wants to officially name or rename a geographic feature of the United States — such as a mountain, creek, or island — they file a proposal with the US Board on Geographic Names. Those proposals end up on the agency’s “Action List,” the most recent year of which can be downloaded as a spreadsheet.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names"
+  },
+  {
+   "name": "geonames.usgs.gov",
+   "url": "https://geonames.usgs.gov/apex/f?p=geonames_web:review_lists:0:::::"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/core-science-systems/ngp/board-on-geographic-names/download-gnis-data"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-10-21-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usgs.gov",
+  "host": "usgs.gov"
+ }
+}

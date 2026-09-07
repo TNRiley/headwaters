@@ -1,0 +1,35 @@
+{
+ "id": "dip-2021-09-01-1",
+ "title": "Attacks against aid workers",
+ "hook": "The Aid Worker Security Database is “a global compilation of reports on major security incidents involving deliberate acts of violence affecting aid workers,” with more than 3,200 records since 1997.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "aidworkersecurity.org",
+   "url": "https://aidworkersecurity.org/"
+  },
+  {
+   "name": "aidworkersecurity.org",
+   "url": "https://aidworkersecurity.org/incidents"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-01",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aidworkersecurity.org",
+  "host": "aidworkersecurity.org"
+ }
+}

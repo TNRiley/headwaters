@@ -1,0 +1,45 @@
+{
+ "id": "dip-2024-03-06-1",
+ "title": "Global military spending",
+ "hook": "How much money has each country spent, each year, on its military? Different datasets have different answers, cover different timeframes, and use different methodologies. Miriam Barnum et al.’s Global Military Spending Dataset attempts to bring them together.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/pkxt8"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DHMZOW"
+  },
+  {
+   "name": "sipri.org",
+   "url": "https://www.sipri.org/databases/milex"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2017-03-29-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-03-06",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-03-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "osf.io",
+  "host": "osf.io"
+ }
+}

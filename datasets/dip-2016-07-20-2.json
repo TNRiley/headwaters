@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-07-20-2",
+ "title": "Tech support",
+ "hook": "StackOverflow is a Q&amp;A site for programmers, and part of the larger StackExchange network of Q&amp;A communities. StackExchange publishes periodic data dumps of the networks’ users, questions, answers, votes, and comments. On Monday, the company released “StackLite,” a smaller, easier-to-use slice of the data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "stackoverflow.com",
+   "url": "http://stackoverflow.com/"
+  },
+  {
+   "name": "stackexchange.com",
+   "url": "http://stackexchange.com/"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/stackexchange"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/dgrtwo/StackLite"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-20",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "stackoverflow.com",
+  "host": "stackoverflow.com"
+ }
+}

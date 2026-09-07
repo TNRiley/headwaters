@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-12-14-4",
+ "title": "Crowdfunding",
+ "hook": "A Lithuania-based web-scraping company has been collecting data on Kickstarter projects and Indiegogo campaigns every month. The datasets include (among other things) each project’s number of backers, amount pledged, and category. You can also explore the data online. [h/t Vincent Granville]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "webrobots.io",
+   "url": "https://webrobots.io/about-us/"
+  },
+  {
+   "name": "webrobots.io",
+   "url": "https://webrobots.io/kickstarter-datasets/"
+  },
+  {
+   "name": "webrobots.io",
+   "url": "https://webrobots.io/indiegogo-dataset/"
+  },
+  {
+   "name": "crowdfunding.webrobots.io",
+   "url": "http://crowdfunding.webrobots.io/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-12-14",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-12-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "webrobots.io",
+  "host": "webrobots.io"
+ }
+}

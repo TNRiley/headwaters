@@ -1,0 +1,73 @@
+{
+ "id": "dip-2023-03-15-1",
+ "title": "Bank financials, 1976–present",
+ "hook": "The Federal Financial Institutions Examination Council’s National Information Center “provides comprehensive financial and structure information on banks and other institutions for which the Federal Reserve has a supervisory, regulatory, or research interest.” Its datasets include quarterly financial statements for…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ffiec.gov",
+   "url": "https://www.ffiec.gov/default.htm"
+  },
+  {
+   "name": "ffiec.gov",
+   "url": "https://www.ffiec.gov/npw/Home/About"
+  },
+  {
+   "name": "ffiec.gov",
+   "url": "https://www.ffiec.gov/npw/FinancialReport/FinancialDataDownload"
+  },
+  {
+   "name": "ffiec.gov",
+   "url": "https://www.ffiec.gov/npw/Help/InstitutionTypes#bhcs"
+  },
+  {
+   "name": "ffiec.gov",
+   "url": "https://www.ffiec.gov/npw/FinancialReport/DataDownload"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Silicon_Valley_Bank"
+  },
+  {
+   "name": "cdr.ffiec.gov",
+   "url": "https://cdr.ffiec.gov/public/PWS/DownloadBulkData.aspx"
+  },
+  {
+   "name": "cdr.ffiec.gov",
+   "url": "https://cdr.ffiec.gov/public/HelpFileContainers/FAQ.aspx"
+  },
+  {
+   "name": "fdic.gov",
+   "url": "https://www.fdic.gov/resources/bankers/accounting/reports-of-condition-and-income/"
+  },
+  {
+   "name": "chicagofed.org",
+   "url": "https://www.chicagofed.org/banking/financial-institution-reports/commercial-bank-data"
+  },
+  {
+   "name": "fdic.gov",
+   "url": "https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-15",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ffiec.gov",
+  "host": "ffiec.gov"
+ }
+}

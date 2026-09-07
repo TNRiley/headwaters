@@ -1,0 +1,61 @@
+{
+ "id": "dip-2023-03-01-1",
+ "title": "Congressional votes and ideology",
+ "hook": "The Voteview project “allows users to view every congressional roll call vote in American history,” and places those votes in the context of ideology estimates along a liberal-to-conservative spectrum. The core estimates come from DW-NOMINATE, a method developed by the project’s directors emeritus, Keith T.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "voteview.com",
+   "url": "https://voteview.com/"
+  },
+  {
+   "name": "voteview.com",
+   "url": "https://voteview.com/about"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/NOMINATE_(scaling_method)"
+  },
+  {
+   "name": "authors.library.caltech.edu",
+   "url": "https://authors.library.caltech.edu/83232/"
+  },
+  {
+   "name": "voteview.com",
+   "url": "https://voteview.com/data"
+  },
+  {
+   "name": "voteview.com",
+   "url": "https://voteview.com/articles/data_help_members"
+  },
+  {
+   "name": "voteview.com",
+   "url": "https://voteview.com/articles/data_help_rollcalls"
+  },
+  {
+   "name": "voteview.com",
+   "url": "https://voteview.com/articles/data_help_votes"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-01",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "voteview.com",
+  "host": "voteview.com"
+ }
+}

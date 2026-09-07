@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-02-22-4",
+ "title": "Unclaimed estates",
+ "hook": "The UK government’s Bona Vacantia division publishes a dataset of unclaimed estates — inheritances that nobody has claimed yet to inherit. The entries indicate the deceased person’s name, aliases, date/place of birth and death, marital status, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/organisations/bona-vacantia"
+  },
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/statistical-data-sets/unclaimed-estates-list"
+  },
+  {
+   "name": "sco.ca.gov",
+   "url": "https://sco.ca.gov/upd_download_property_records.html"
+  },
+  {
+   "name": "sco.ca.gov",
+   "url": "https://sco.ca.gov/upd_msg.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-22",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "www.gov.uk",
+  "host": "gov.uk"
+ }
+}

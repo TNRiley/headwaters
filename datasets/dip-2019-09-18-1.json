@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-09-18-1",
+ "title": "Amazonian deforestation",
+ "hook": "Since 1988, Brazil’s PRODES project has been using satellite imagery to track clear-cutting in the country’s Amazon basin. The government’s TerraBrasilis web portal provides an interactive map and downloads of the data. Global Forest Watch also provides a dataset of PRODES-detected deforestation, from 2001 to 2015.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "reference works",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "obt.inpe.br",
+   "url": "http://www.obt.inpe.br/OBT/assuntos/programas/amazonia/prodes"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Amaz%C3%B4nia_Legal"
+  },
+  {
+   "name": "terrabrasilis.dpi.inpe.br",
+   "url": "http://terrabrasilis.dpi.inpe.br/en/home-page/"
+  },
+  {
+   "name": "terrabrasilis.dpi.inpe.br",
+   "url": "http://terrabrasilis.dpi.inpe.br/app/map/deforestation?hl=en-us"
+  },
+  {
+   "name": "terrabrasilis.dpi.inpe.br",
+   "url": "http://terrabrasilis.dpi.inpe.br/en/download-2/"
+  },
+  {
+   "name": "globalforestwatch.org",
+   "url": "http://data.globalforestwatch.org/datasets/4160f715e12d46a98c989bdbe7e5f4d6_1"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-18",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "obt.inpe.br",
+  "host": "obt.inpe.br"
+ }
+}

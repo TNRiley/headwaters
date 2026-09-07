@@ -1,0 +1,37 @@
+{
+ "id": "dip-2023-04-12-5",
+ "title": "Dutch textile shipments",
+ "hook": "The Dutch Textile Trade Project “aims to understand the circulation of globally-sourced textiles on Dutch ships around the world in the seventeenth and eighteenth centuries by examining data drawn from trade records alongside samples of textiles and visual culture depicting textiles in use.” The 22,000+ entries in the…",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "dutchtextiletrade.org",
+   "url": "https://dutchtextiletrade.org/"
+  },
+  {
+   "name": "dutchtextiletrade.org",
+   "url": "https://dutchtextiletrade.org/data/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-12",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dutchtextiletrade.org",
+  "host": "dutchtextiletrade.org"
+ }
+}

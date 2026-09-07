@@ -1,0 +1,53 @@
+{
+ "id": "dip-2020-06-17-2",
+ "title": "More protest data",
+ "hook": "CountLove.org has been using news reports to quantify protest events in the US since 2017. Its downloadable dataset currently contains more than 27,000 events and provides each event’s date, location, and approximate number of attendees.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "countlove.org",
+   "url": "https://countlove.org/"
+  },
+  {
+   "name": "countlove.org",
+   "url": "https://countlove.org/faq.html"
+  },
+  {
+   "name": "countlove.org",
+   "url": "https://countlove.org/search.html"
+  },
+  {
+   "name": "tommyleung.com",
+   "url": "https://www.tommyleung.com/about.htm"
+  },
+  {
+   "name": "nathanntg.com",
+   "url": "https://www.nathanntg.com/"
+  },
+  {
+   "name": "tommyleung.com",
+   "url": "https://www.tommyleung.com/countLove/index.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-06-17",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-06-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "countlove.org",
+  "host": "countlove.org"
+ }
+}

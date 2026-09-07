@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-01-27-4",
+ "title": "Federal employees’ feelings",
+ "hook": "Last year, more than 400,000 federal employees took the Office of Personnel Management’s annual survey, which includes questions about satisfaction, leadership, and work schedules. You can download aggregate and raw results. Important note: The survey is voluntary and non-random.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fedview.opm.gov",
+   "url": "http://www.fedview.opm.gov/2015/"
+  },
+  {
+   "name": "fedview.opm.gov",
+   "url": "http://www.fedview.opm.gov/2015/Reports/"
+  },
+  {
+   "name": "fedview.opm.gov",
+   "url": "http://www.fedview.opm.gov/2015/EVSDATA/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-27",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fedview.opm.gov",
+  "host": "fedview.opm.gov"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "dip-2021-12-29-3",
+ "title": "COVID-era news layoffs",
+ "hook": "“At least 6,154 news organization workers, which includes both editorial and non-editorial staffers, were laid off beginning March 2020 through August 2021,” according to a new report from the Tow Center’s Gabby Miller.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "cjr.org",
+   "url": "https://www.cjr.org/tow_center_reports/more-than-6150-news-workers-laid-off.php"
+  },
+  {
+   "name": "towcenter.columbia.edu",
+   "url": "https://towcenter.columbia.edu/"
+  },
+  {
+   "name": "cjr.org",
+   "url": "https://www.cjr.org/widescreen/covid-cutback-tracker.php"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/magazine/interactive/2021/local-news-deserts-expanding/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-29",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cjr.org",
+  "host": "cjr.org"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-02-14-5",
+ "title": "Imported bats",
+ "hook": "Via a Freedom of Information Act request to the Fish and Wildlife Service, Newsweek reporter Kristin Hugo obtained a spreadsheet listing all imports of bats — vampire, fruit, yellow-shouldered, leaf-nosed, and more — to the United States between January 2016 and October 2017.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "strangebio.com",
+   "url": "http://www.strangebio.com/post/170249749601/conservationists-to-americans-please-stop-buying"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1gtfdz6cqoenEsuauOPDy8mKJFernuy2CFde89ukPNtE/edit"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-14",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "strangebio.com",
+  "host": "strangebio.com"
+ }
+}

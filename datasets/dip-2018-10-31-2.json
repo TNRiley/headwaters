@@ -1,0 +1,50 @@
+{
+ "id": "dip-2018-10-31-2",
+ "title": "Foreign influence campaigns on Twitter",
+ "hook": "Earlier this month, Twitter released data on the public activity of “3,841 accounts affiliated with the [Internet Research Agency], originating in Russia, and 770 other accounts, potentially originating in Iran.” Together, the datasets “include more than 10 million Tweets and more than 2 million images, GIFs, videos…",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "blog.twitter.com",
+   "url": "https://blog.twitter.com/official/en_us/topics/company/2018/enabling-further-research-of-information-operations-on-twitter.html"
+  },
+  {
+   "name": "about.twitter.com",
+   "url": "https://about.twitter.com/en_us/values/elections-integrity.html#data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/"
+  },
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/peteraldhous/russia-online-trolls-viral-strategy"
+  },
+  {
+   "name": "buzzfeednews.github.io",
+   "url": "https://buzzfeednews.github.io/2018-10-russian-troll-tweets/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-10-31",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-10-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "blog.twitter.com",
+  "host": "blog.twitter.com"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-08-14-5",
+ "title": "TED talks",
+ "hook": "Katherine M. Kinnaird and John Laudun — professors whose research includes cultural analytics and computational folklore studies — have created a dataset of 2,656 TED talks, with metadata and transcripts, and have published a detailed description of the project. [h/t Lynn Cherny]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "katherinemkinnaird.net",
+   "url": "http://katherinemkinnaird.net/"
+  },
+  {
+   "name": "johnlaudun.org",
+   "url": "http://johnlaudun.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/kinnaird-laudun/data/tree/master/Release_v0"
+  },
+  {
+   "name": "culturalanalytics.org",
+   "url": "https://culturalanalytics.org/2019/07/ted-talks-as-data/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-14",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "katherinemkinnaird.net",
+  "host": "katherinemkinnaird.net"
+ }
+}

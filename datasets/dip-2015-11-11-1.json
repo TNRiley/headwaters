@@ -1,0 +1,41 @@
+{
+ "id": "dip-2015-11-11-1",
+ "title": "Naughty companies",
+ "hook": "Good Jobs First’s Violation Tracker calls itself “the first national search engine on corporate misconduct.” The new database currently contains nearly 100,000 penalties for environmental, health, and safety violations — sourced from 13 U.S. regulatory agencies — since 2010.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "goodjobsfirst.org",
+   "url": "http://www.goodjobsfirst.org/violation-tracker"
+  },
+  {
+   "name": "goodjobsfirst.org",
+   "url": "http://www.goodjobsfirst.org/violation-tracker-data-sources"
+  },
+  {
+   "name": "violationtracker.goodjobsfirst.org",
+   "url": "http://violationtracker.goodjobsfirst.org/parent/bp"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-11",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "goodjobsfirst.org",
+  "host": "goodjobsfirst.org"
+ }
+}

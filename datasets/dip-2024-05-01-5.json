@@ -1,0 +1,35 @@
+{
+ "id": "dip-2024-05-01-5",
+ "title": "Agatha Christie’s bibliography",
+ "hook": "Nicole Mark has compiled a dataset of Agatha Christie’s published stories, covering 75 novels, 154 short stories, and 22 short story collections. The spreadsheets provide each work’s title and the character-based series to which it belongs (e.g., Hercule Poirot, Miss Marple, etc.).",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nicoledesignsdata.net",
+   "url": "https://www.nicoledesignsdata.net/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1A8ZRe5KLLAllhT31pCzke4j5qAPqeMKf0jYgyJXcoPs/edit#gid=0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-01",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nicoledesignsdata.net",
+  "host": "nicoledesignsdata.net"
+ }
+}

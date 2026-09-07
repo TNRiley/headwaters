@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-04-20-5",
+ "title": "Spider news",
+ "hook": "Stefano Mammola et al. have “compiled an expert-curated global database on the online newspaper coverage of human-spider encounters” from 2010 to 2020, spanning 5,300+ articles from 81 countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-022-01197-6"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/dataset/Global_Spider_News_Database/14822301"
+  },
+  {
+   "name": "researchsquare.com",
+   "url": "https://www.researchsquare.com/article/rs-1383492/v1"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-20",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

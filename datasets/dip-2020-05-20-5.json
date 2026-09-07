@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-05-20-5",
+ "title": "Victorian fiction",
+ "hook": "At the Circulating Library “offers a biographical and bibliography database of nineteenth-century British fiction.” Launched by literature professor Troy J. Bassett in 2007, the searchable, browseable, downloadable database now contains information on more than 19,000 titles by more than 4,000 authors.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "victorianresearch.org",
+   "url": "https://www.victorianresearch.org/atcl/index.php"
+  },
+  {
+   "name": "victorianresearch.org",
+   "url": "https://www.victorianresearch.org/atcl/search.php"
+  },
+  {
+   "name": "victorianresearch.org",
+   "url": "https://www.victorianresearch.org/atcl/view_authors.php"
+  },
+  {
+   "name": "victorianresearch.org",
+   "url": "http://www.victorianresearch.org/atcl/snapshots.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-20",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "victorianresearch.org",
+  "host": "victorianresearch.org"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-08-10-1",
+ "title": "Pretrial inmates",
+ "hook": "Connecticut has begun publishing a daily census of every inmate held in jail while awaiting trial. Starting July 1, the database contains one row per inmate per day; each row includes basic demographic data (age, gender, race), as well as the inmate’s bond amount, main offense, and jail location.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ct.gov",
+   "url": "https://data.ct.gov/Public-Safety/Accused-Pre-Trial-Inmates-in-Correctional-Faciltie/b674-jy6w"
+  },
+  {
+   "name": "newhavenindependent.org",
+   "url": "http://www.newhavenindependent.org/index.php/archives/entry/bail_reform1/"
+  },
+  {
+   "name": "trendct.org",
+   "url": "http://trendct.org/2016/07/20/pre-trial-inmates/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-10",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ct.gov",
+  "host": "ct.gov"
+ }
+}

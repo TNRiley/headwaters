@@ -1,0 +1,66 @@
+{
+ "id": "dip-2024-02-14-5",
+ "title": "Twisty roads",
+ "hook": "Curvature uses OpenStreetMap data to map the world’s curviest roads. Built by motorcyclist and software developer Adam Franco, the open-source project “works by looking at the geometry of every road segment and adding up how much length of the road is sharp corners, broad sweeping curves, and straight areas.” Franco also provides a more detailed explanation, as well as data files scoring each road and curve segment.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure",
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "roadcurvature.com",
+   "url": "https://roadcurvature.com/"
+  },
+  {
+   "name": "openstreetmap.org",
+   "url": "https://www.openstreetmap.org"
+  },
+  {
+   "name": "wiki.openstreetmap.org",
+   "url": "https://wiki.openstreetmap.org/wiki/Downloading_data"
+  },
+  {
+   "name": "roadcurvature.com",
+   "url": "https://roadcurvature.com/map/"
+  },
+  {
+   "name": "caranddriver.com",
+   "url": "https://www.caranddriver.com/features/a34610356/adam-franco-curvature-fun-roads/"
+  },
+  {
+   "name": "adamfranco.com",
+   "url": "https://www.adamfranco.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/adamfranco/curvature"
+  },
+  {
+   "name": "roadcurvature.com",
+   "url": "https://roadcurvature.com/how-it-works/"
+  },
+  {
+   "name": "kml.roadcurvature.com",
+   "url": "https://kml.roadcurvature.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-14",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "roadcurvature.com",
+  "host": "roadcurvature.com"
+ }
+}

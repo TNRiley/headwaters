@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-04-19-3",
+ "title": "Tropical cyclones",
+ "hook": "Through its International Best Track Archive for Climate Stewardship project, the National Oceanic and Atmospheric Administration publishes what it calls “the most complete global set of historical tropical cyclones available.” For each tropical cyclone — a category that includes typhoons, hurricanes, tropical depressions, and more — the dataset includes its position, wind speed, central pressure, and classification at six-hour intervals.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "ncdc.noaa.gov",
+   "url": "https://www.ncdc.noaa.gov/ibtracs/"
+  },
+  {
+   "name": "ncdc.noaa.gov",
+   "url": "https://www.ncdc.noaa.gov/ibtracs/index.php?name=ibtracs-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-19",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ncdc.noaa.gov",
+  "host": "ncdc.noaa.gov"
+ }
+}

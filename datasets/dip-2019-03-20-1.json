@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-03-20-1",
+ "title": "Africapolis",
+ "hook": "“Produced by the OECD Sahel and West Africa Club, Africapolis.org is the only comprehensive and standardised geospatial database on cities and urbanisation dynamics in Africa.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "oecd.org",
+   "url": "http://www.oecd.org/swac/"
+  },
+  {
+   "name": "africapolis.org",
+   "url": "http://www.africapolis.org/"
+  },
+  {
+   "name": "africapolis.org",
+   "url": "http://africapolis.org/data"
+  },
+  {
+   "name": "africapolis.org",
+   "url": "http://africapolis.org/explore"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-20",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "oecd.org",
+  "host": "oecd.org"
+ }
+}

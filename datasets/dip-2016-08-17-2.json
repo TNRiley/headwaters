@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-08-17-2",
+ "title": "Internet access",
+ "hook": "Through its Form 477 program, the Federal Communications Commission collects detailed data on broadband internet access in the United States.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/general/broadband-deployment-data-fcc-form-477"
+  },
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/health/maps/methodology"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-17",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fcc.gov",
+  "host": "fcc.gov"
+ }
+}

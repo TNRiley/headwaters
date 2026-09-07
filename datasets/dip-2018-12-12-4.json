@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-12-12-4",
+ "title": "German political speeches",
+ "hook": "Academic researcher Adrien Barbaresi has compiled a corpus of thousands of speeches from the the German Presidency, Presidency of the Bundestag, Chancellery, and Ministry of Foreign Affairs. The corpus, now in its third version, was first released in 2011. [h/t Adrien Barbaresi]",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "adrien.barbaresi.eu",
+   "url": "http://adrien.barbaresi.eu/"
+  },
+  {
+   "name": "adrien.barbaresi.eu",
+   "url": "http://adrien.barbaresi.eu/corpora/speeches/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-12-12",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-12-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "adrien.barbaresi.eu",
+  "host": "adrien.barbaresi.eu"
+ }
+}

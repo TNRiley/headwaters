@@ -1,0 +1,49 @@
+{
+ "id": "dip-2016-06-22-2",
+ "title": "6,000 years of urbanization",
+ "hook": "Earlier this month, researchers published “the first spatially explicit dataset of urban settlements from 3700 BC to AD 2000,” along with a detailed methodology.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "http://www.nature.com/articles/sdata201634"
+  },
+  {
+   "name": "urban.yale.edu",
+   "url": "http://urban.yale.edu/data"
+  },
+  {
+   "name": "worldcat.org",
+   "url": "http://www.worldcat.org/title/four-thousand-years-of-urban-growth/oclc/59678315"
+  },
+  {
+   "name": "worldcat.org",
+   "url": "http://www.worldcat.org/title/world-cities-3000-to-2000/oclc/57695214"
+  },
+  {
+   "name": "qz.com",
+   "url": "http://qz.com/706051/706051/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-22",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

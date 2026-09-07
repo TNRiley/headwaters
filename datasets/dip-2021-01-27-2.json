@@ -1,0 +1,61 @@
+{
+ "id": "dip-2021-01-27-2",
+ "title": "Dot-gov characteristics",
+ "hook": "The US General Services Administration publishes a list of all registered .gov domains (DIP 2017.01.18). In 2011, 2014, and 2015, open-source advocate Ben Balter used software to scan each federally-managed domain “to sniff out information about [their] technology and capabilities.” For instance: Do the domains support HTTPS?",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/GSA/data/tree/master/dotgov-domains"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-01-18-edition"
+  },
+  {
+   "name": "ben.balter.com",
+   "url": "https://ben.balter.com/2011/09/07/analysis-of-federal-executive-domains/"
+  },
+  {
+   "name": "ben.balter.com",
+   "url": "https://ben.balter.com/2014/07/07/analysis-of-federal-executive-domains-part-deux/"
+  },
+  {
+   "name": "ben.balter.com",
+   "url": "https://ben.balter.com/2015/05/11/third-analysis-of-federal-executive-dotgovs/"
+  },
+  {
+   "name": "ben.balter.com",
+   "url": "https://ben.balter.com/about/"
+  },
+  {
+   "name": "ben.balter.com",
+   "url": "https://ben.balter.com/2021/01/11/analysis-of-federal-dotgov-domains-pre-biden-edition/"
+  },
+  {
+   "name": "ben.balter.com",
+   "url": "https://ben.balter.com/2021-analysis-of-federal-dotgov-domains/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-27",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

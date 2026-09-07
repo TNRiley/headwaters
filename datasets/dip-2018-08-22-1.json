@@ -1,0 +1,50 @@
+{
+ "id": "dip-2018-08-22-1",
+ "title": "Political ads online",
+ "hook": "Google recently launched a database of political ads “that have appeared on Google and partner properties.” The searchable and downloadable dataset indicates the organization that paid for each advertisement, approximately how much they spent, how long the ad ran, what demographics were used for targeting, and roughly how many people it reached.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "transparencyreport.google.com",
+   "url": "https://transparencyreport.google.com/political-ads/library"
+  },
+  {
+   "name": "facebook.com",
+   "url": "https://www.facebook.com/ads/archive/?active_status=all&ad_type=political_and_issue_ads&country=US"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/online-pol-ads/FBPoliticalAds"
+  }
+ ],
+ "articles": [
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/datastore/dataset/political-advertisements-from-facebook"
+  },
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/facebook-ads/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-22",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "transparencyreport.google.com",
+  "host": "transparencyreport.google.com"
+ }
+}

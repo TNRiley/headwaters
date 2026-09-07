@@ -1,0 +1,48 @@
+{
+ "id": "dip-2016-01-20-1",
+ "title": "Flint water samples",
+ "hook": "Researchers from Virginia Tech have joined forces with Flint, Mich., residents to sample the city’s lead-tainted water supply. In December, the researchers posted the results of 271 samples, which indicated high levels of lead contamination.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "flintwaterstudy.org",
+   "url": "http://flintwaterstudy.org/"
+  },
+  {
+   "name": "flintwaterstudy.org",
+   "url": "http://flintwaterstudy.org/2015/12/complete-dataset-lead-results-in-tap-water-for-271-flint-samples/"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "http://www.cdc.gov/nceh/lead/tips/water.htm"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "http://www.nytimes.com/interactive/2016/01/15/us/flint-lead-water-michigan.html"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/news/wonk/wp/2016/01/15/this-is-how-toxic-flints-water-really-is/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-20",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "flintwaterstudy.org",
+  "host": "flintwaterstudy.org"
+ }
+}

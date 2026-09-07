@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-03-08-2",
+ "title": "Debt-to-income ratios",
+ "hook": "The US Federal Reserve generates quarterly statistics estimating the median ratio of household debt to income in each state, county, and metro area. The published maps and datasets, which go back to 1999, don’t include precise figures, but rather place each geographic unit into one of ten ranges.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "federalreserve.gov",
+   "url": "https://www.federalreserve.gov/releases/z1/dataviz/household_debt/"
+  },
+  {
+   "name": "federalreserve.gov",
+   "url": "https://www.federalreserve.gov/econres/notes/feds-notes/household-debt-to-income-ratios-in-the-enhanced-financial-accounts-20180109.html"
+  },
+  {
+   "name": "newyorkfed.org",
+   "url": "https://www.newyorkfed.org/research/staff_reports/sr479"
+  },
+  {
+   "name": "americaninequality.substack.com",
+   "url": "https://americaninequality.substack.com/p/debt-and-inequality"
+  },
+  {
+   "name": "americaninequality.io",
+   "url": "https://www.americaninequality.io/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-08",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "federalreserve.gov",
+  "host": "federalreserve.gov"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "dip-2017-11-29-5",
+ "title": "Folktales",
+ "hook": "The Aarne-Thompson-Uther Classification of Folk Tales organizes (mostly Indo-European) folktales into groups and hierarchies.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "mftd.org",
+   "url": "http://www.mftd.org/index.php?action=atu"
+  },
+  {
+   "name": "mftd.org",
+   "url": "http://www.mftd.org/index.php?action=browse&act=select&fld=langname"
+  },
+  {
+   "name": "atlasobscura.com",
+   "url": "https://www.atlasobscura.com/articles/aarne-thompson-uther-tale-type-index-fables-fairy-tales"
+  },
+  {
+   "name": "rsos.royalsocietypublishing.org",
+   "url": "http://rsos.royalsocietypublishing.org/content/3/1/150645"
+  },
+  {
+   "name": "rsos.royalsocietypublishing.org",
+   "url": "http://rsos.royalsocietypublishing.org/content/3/1/150645.figures-only"
+  },
+  {
+   "name": "mftd.org",
+   "url": "http://www.mftd.org/index.php?action=atu&act=range&id=300-749"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-11-29",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-11-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mftd.org",
+  "host": "mftd.org"
+ }
+}

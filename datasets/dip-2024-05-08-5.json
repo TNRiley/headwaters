@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-05-08-5",
+ "title": "Poisonous book bindings",
+ "hook": "As recently as the 1800s, green pigments containing arsenic were in fairly wide use. The Arsenical Books Database — part of the Winterthur Museum and the University of Delaware’s Poison Book Project — has identified hundreds of examples of 19th-century books that used these colorants in their covers and other binding components.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Paris_green"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Scheele%27s_Green"
+  },
+  {
+   "name": "sites.udel.edu",
+   "url": "https://sites.udel.edu/poisonbookproject/arsenical-books-database/"
+  },
+  {
+   "name": "winterthur.org",
+   "url": "https://www.winterthur.org/"
+  },
+  {
+   "name": "sites.udel.edu",
+   "url": "https://sites.udel.edu/poisonbookproject/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-08",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

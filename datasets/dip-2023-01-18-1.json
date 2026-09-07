@@ -1,0 +1,66 @@
+{
+ "id": "dip-2023-01-18-1",
+ "title": "Unreturned remains",
+ "hook": "“The remains of more than 110,000 Native American, Native Hawaiian and Alaska Natives’ ancestors are still held by museums, universities and federal agencies,” according to The Repatriation Project, a ProPublica investigative series launched last week.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nps.gov",
+   "url": "https://www.nps.gov/subjects/nagpra/databases.htm"
+  },
+  {
+   "name": "nps.gov",
+   "url": "https://www.nps.gov/subjects/nagpra/index.htm"
+  },
+  {
+   "name": "grantsdev.cr.nps.gov",
+   "url": "https://grantsdev.cr.nps.gov/NagpraPublic/Home/Inventory"
+  },
+  {
+   "name": "grantsdev.cr.nps.gov",
+   "url": "https://grantsdev.cr.nps.gov/NagpraPublic/Home/Notice"
+  },
+  {
+   "name": "time.is",
+   "url": "https://time.is/compare/4pm_18_Jan_2023_in_New_York"
+  }
+ ],
+ "articles": [
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/repatriation-nagpra-museums-human-remains"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/series/the-repatriation-project"
+  },
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/repatriation-nagpra-database/"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/events/repatriation"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-18",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nps.gov",
+  "host": "nps.gov"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "dip-2023-04-19-5",
+ "title": "Pirate radio” enforcement",
+ "hook": "The Federal Communications Commission publishes a dashboard and dataset of its “pirate radio” enforcement actions, part of the agency’s crackdown against the “unauthorized transmission of radio frequency signals on the frequencies in or adjacent to the FM and AM radio bands.” The 38 entries list the entity targeted, state/territory, radio frequency, enforcement type, date issued, and penalty amount.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/pirate-database"
+  },
+  {
+   "name": "opendata.fcc.gov",
+   "url": "https://opendata.fcc.gov/stories/s/wgq8-eb5c"
+  },
+  {
+   "name": "opendata.fcc.gov",
+   "url": "https://opendata.fcc.gov/Pirate-Radio-Enforcement/Pirate-Radio-Broadcasting-Database/xqgr-24et"
+  },
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/document/fcc-proposes-first-pirate-act-fines-totaling-more-2-million"
+  },
+  {
+   "name": "congress.gov",
+   "url": "https://www.congress.gov/bill/116th-congress/house-bill/583"
+  },
+  {
+   "name": "noahveltman.com",
+   "url": "https://noahveltman.com/acronyms/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-19",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fcc.gov",
+  "host": "fcc.gov"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "dip-2020-08-12-2",
+ "title": "US climate change",
+ "hook": "On Friday, the Washington Post released several datasets and computer scripts from its Pulitzer Prize–winning series, “2°C: Beyond the Limit,” which examined how “extreme climate change has arrived in America.” The data files — derived from NOAA’s nClimDiv and nClimGrid climate datasets — contain the annual average temperatures and seasonal temperature changes for each state and county in the contiguous US.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/washingtonpost/data-2C-beyond-the-limit-usa/"
+  },
+  {
+   "name": "pulitzer.org",
+   "url": "https://www.pulitzer.org/winners/staff-washington-post"
+  },
+  {
+   "name": "nodc.noaa.gov",
+   "url": "https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00005"
+  },
+  {
+   "name": "nodc.noaa.gov",
+   "url": "https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00332"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/climate-environment/2020/08/07/how-use-posts-climate-data-analysis/"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/graphics/2019/national/climate-environment/climate-change-america/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-12",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

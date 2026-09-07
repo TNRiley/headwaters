@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-08-19-4",
+ "title": "Late-medieval English immigrants",
+ "hook": "England’s Immigrants 1330-1550 is “a fully-searchable database containing over 64,000 names of people known to have migrated to England during the period of the Hundred Years’ War and the Black Death, the Wars of the Roses and the Reformation,” drawing on “taxation assessments, letters of denization and protection…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "englandsimmigrants.com",
+   "url": "https://www.englandsimmigrants.com/"
+  },
+  {
+   "name": "englandsimmigrants.com",
+   "url": "https://www.englandsimmigrants.com/browse/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-19",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "englandsimmigrants.com",
+  "host": "englandsimmigrants.com"
+ }
+}

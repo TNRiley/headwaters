@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-06-23-4",
+ "title": "NYC constituent inquiries",
+ "hook": "Many members of the New York City Council use CouncilStat to track their constituents’ requests, complaints, and other inquiries. The tool’s public dataset contains 260,000+ anonymized entries going back to 2015.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "council.nyc.gov",
+   "url": "https://council.nyc.gov/districts/data1/"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/City-Government/NYC-Council-Constituent-Services/9hzi-kbqb"
+  },
+  {
+   "name": "thecity.nyc",
+   "url": "https://www.thecity.nyc/2021/6/15/22536020/nyc-city-council-constituent-service"
+  },
+  {
+   "name": "twitter.com",
+   "url": "https://www.twitter.com/annjychoi"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-23",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "council.nyc.gov",
+  "host": "council.nyc.gov"
+ }
+}

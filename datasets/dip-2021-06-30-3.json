@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-06-30-3",
+ "title": "Police activity in 2002 Gujarat news coverage",
+ "hook": "More than 1,000 people died in the inter-communal violence that erupted in Gujarat, India, in early 2002. A team of political and computational scientists recently trained students to annotate 21,000+ sentences from 1,257 contemporaneous articles about the events published in the Times of India, asking them to categorize whether police officers used force, killed someone, made arrests, failed to intervene, and/or took any other action.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/2002_Gujarat_riots"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2105.12936"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/slanglab/IndiaPoliceEvents"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-30",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

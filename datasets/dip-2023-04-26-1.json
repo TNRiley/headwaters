@@ -1,0 +1,73 @@
+{
+ "id": "dip-2023-04-26-1",
+ "title": "Drinking water violations",
+ "hook": "Through the Safe Drinking Water Act, the US Environmental Protection Agency sets baseline standards for the country’s ~150,000 public water systems.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/sdwa"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/dwreginfo/information-about-public-water-systems"
+  },
+  {
+   "name": "echo.epa.gov",
+   "url": "https://echo.epa.gov/help/sdwa-faqs"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/enviro/sdwis-overview"
+  },
+  {
+   "name": "echo.epa.gov",
+   "url": "https://echo.epa.gov/tools/data-downloads#dwdownloads"
+  },
+  {
+   "name": "echo.epa.gov",
+   "url": "https://echo.epa.gov/tools/data-downloads/sdwa-download-summary"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/enviro/sdwis-search"
+  },
+  {
+   "name": "echo.epa.gov",
+   "url": "https://echo.epa.gov/trends/comparative-maps-dashboards/drinking-water-dashboard?state=National"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/articles/which-cities-have-health-issues-with-their-drinking-water/"
+  },
+  {
+   "name": "journals.plos.org",
+   "url": "https://journals.plos.org/water/article?id=10.1371/journal.pwat.0000081"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DFB6NG"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-26",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "epa.gov",
+  "host": "epa.gov"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "dip-2021-05-26-1",
+ "title": "Rainfall records, rescued",
+ "hook": "For centuries, a network of volunteers recorded monthly measurements from thousands of rain gauges across the UK and Ireland. Those observations were trapped on paper forms known “10-year sheets” until very recently, when the UK’s Meteorological Office scanned them.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "digital.nmla.metoffice.gov.uk",
+   "url": "https://digital.nmla.metoffice.gov.uk/index.php?name=SO_d383374a-91c3-4a7b-ba96-41b81cfb9d67"
+  },
+  {
+   "name": "zooniverse.org",
+   "url": "https://www.zooniverse.org/projects/edh/rainfall-rescue/about/team"
+  },
+  {
+   "name": "zooniverse.org",
+   "url": "https://www.zooniverse.org/projects/edh/rainfall-rescue"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ed-hawkins/rainfall-rescue"
+  }
+ ],
+ "articles": [
+  {
+   "name": "bbc.com",
+   "url": "https://www.bbc.com/news/science-environment-52040822"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-05-26",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-05-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "digital.nmla.metoffice.gov.uk",
+  "host": "digital.nmla.metoffice.gov.uk"
+ }
+}

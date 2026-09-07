@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-04-10-1",
+ "title": "Political conditions",
+ "hook": "“The Rulers, Elections, and Irregular Governance (REIGN) dataset describes political conditions in every country each and every month.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "oefresearch.org",
+   "url": "https://oefresearch.org/datasets/reign"
+  },
+  {
+   "name": "oefdatascience.github.io",
+   "url": "https://oefdatascience.github.io/REIGN.github.io/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-10",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "oefresearch.org",
+  "host": "oefresearch.org"
+ }
+}

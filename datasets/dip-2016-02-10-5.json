@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-02-10-5",
+ "title": "One million songs",
+ "hook": "The Million Song Database contains metadata and “feature analysis” (e.g., loudness, tempo, and “danceability”) for, you guessed it, one thousand-thousand songs. The full dataset occupies hundreds of gigabytes, but you can also download a 1% sample. [h/t Neal Lathia]",
+ "hook_source": "publisher",
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "labrosa.ee.columbia.edu",
+   "url": "http://labrosa.ee.columbia.edu/millionsong/"
+  },
+  {
+   "name": "labrosa.ee.columbia.edu",
+   "url": "http://labrosa.ee.columbia.edu/millionsong/pages/example-track-description"
+  },
+  {
+   "name": "labrosa.ee.columbia.edu",
+   "url": "http://labrosa.ee.columbia.edu/millionsong/pages/getting-dataset"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-10",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "labrosa.ee.columbia.edu",
+  "host": "labrosa.ee.columbia.edu"
+ }
+}

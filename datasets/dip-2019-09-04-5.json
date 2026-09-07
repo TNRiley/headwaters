@@ -1,0 +1,38 @@
+{
+ "id": "dip-2019-09-04-5",
+ "title": "Rah, rah, rah! Fight, fight, fight!",
+ "hook": "FiveThirtyEight has built a dataset of 65 college football fight songs, which contains each song’s name, authors, year written, tempo, duration, and whether it includes various tropes, such as spelling out words or mentioning the school’s colors.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "journalism",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/fight-songs"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.fivethirtyeight.com",
+   "url": "https://projects.fivethirtyeight.com/college-fight-song-lyrics/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-04",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

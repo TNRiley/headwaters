@@ -1,0 +1,33 @@
+{
+ "id": "dip-2019-07-03-5",
+ "title": "Annotated pizzas",
+ "hook": "“In this paper, we aim to teach a machine how to make a pizza,” writes a team of computer scientists from MIT and the Qatar Computing Research Institute. One of the key ingredients: 9,213 photos of pizza, with their lists of toppings annotated by Amazon Mechanical Turk workers.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "academic",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "pizzagan.csail.mit.edu",
+   "url": "http://pizzagan.csail.mit.edu/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-03",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pizzagan.csail.mit.edu",
+  "host": "pizzagan.csail.mit.edu"
+ }
+}

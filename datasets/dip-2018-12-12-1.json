@@ -1,0 +1,73 @@
+{
+ "id": "dip-2018-12-12-1",
+ "title": "Bike and pedestrian safety",
+ "hook": "A growing number of cities publish detailed data on bicyclist and pedestrian injuries involving cars, including New York City, Chicago, Boston, Seattle, St. Paul, Minn., Chapel Hill, N.C., Tempe, Ariz., Toronto, and London — many through the cities’ “Vision Zero” street-safety initiatives.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nyc.gov",
+   "url": "http://www.nyc.gov/html/dot/html/about/vz_datafeeds.shtml"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if"
+  },
+  {
+   "name": "boston.gov",
+   "url": "https://data.boston.gov/dataset/vision-zero-crash-records"
+  },
+  {
+   "name": "seattle.gov",
+   "url": "https://data.seattle.gov/Transportation/Collisions/vac5-r8kk"
+  },
+  {
+   "name": "information.stpaul.gov",
+   "url": "https://information.stpaul.gov/Public-Safety/Pedestrian-And-Bike-Crash-Data-Dataset/bw92-5h94"
+  },
+  {
+   "name": "chapelhillopendata.org",
+   "url": "https://www.chapelhillopendata.org/explore/?sort=modified&q=crashes"
+  },
+  {
+   "name": "tempe.gov",
+   "url": "https://data.tempe.gov/dataset/high-severity-traffic-crashes-1-08"
+  },
+  {
+   "name": "opendata-torontops.opendata.arcgis.com",
+   "url": "http://opendata-torontops.opendata.arcgis.com/datasets/55d5b9f7af7d4710bc98743b2c005f02_0"
+  },
+  {
+   "name": "tfl.gov.uk",
+   "url": "https://tfl.gov.uk/corporate/publications-and-reports/road-safety"
+  },
+  {
+   "name": "visionzeronetwork.org",
+   "url": "https://visionzeronetwork.org/resources/vision-zero-cities/"
+  },
+  {
+   "name": "seattletimes.com",
+   "url": "https://www.seattletimes.com/seattle-news/transportation/the-most-dangerous-intersections-in-seattle-for-bicyclists-and-pedestrians/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-12-12",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-12-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nyc.gov",
+  "host": "nyc.gov"
+ }
+}

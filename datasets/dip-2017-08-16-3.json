@@ -1,0 +1,33 @@
+{
+ "id": "dip-2017-08-16-3",
+ "title": "Brain scans",
+ "hook": "The Open Access Series of Imaging Studies (OASIS) project is “aimed at making MRI data sets of the brain freely available to the scientific community,” with the goal of “[facilitating] future discoveries in basic and clinical neuroscience.” So far, the project has published two collections: a cross-sectional dataset…",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "oasis-brains.org",
+   "url": "http://www.oasis-brains.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-16",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "oasis-brains.org",
+  "host": "oasis-brains.org"
+ }
+}

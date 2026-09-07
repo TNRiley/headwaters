@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-05-29-4",
+ "title": "Lone Star land use",
+ "hook": "The Texas General Land Office’s geospatial data offerings include beach access points, shoreline environmental sensitivity ratings, offshore oil structures, oil and gas leases, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "glo.texas.gov",
+   "url": "http://www.glo.texas.gov/index.html"
+  },
+  {
+   "name": "glo.texas.gov",
+   "url": "http://www.glo.texas.gov/land/land-management/gis/"
+  },
+  {
+   "name": "nber.org",
+   "url": "https://www.nber.org/papers/w25712"
+  },
+  {
+   "name": "home.uchicago.edu",
+   "url": "https://home.uchicago.edu/~tcovert/"
+  },
+  {
+   "name": "richard-sweeney.com",
+   "url": "http://www.richard-sweeney.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/rlsweeney/public_cs_texas"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-29",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "glo.texas.gov",
+  "host": "glo.texas.gov"
+ }
+}

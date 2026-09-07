@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-05-11-3",
+ "title": "Marihuana",
+ "hook": "The Institute for Cannabis (established in 1985 as The Institute for Hemp) has obtained, via FOIA, the U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "birrenbach.com",
+   "url": "http://birrenbach.com/INSTITUTE/"
+  },
+  {
+   "name": "birrenbach.com",
+   "url": "http://birrenbach.com/INSTITUTE/foia/dea/"
+  },
+  {
+   "name": "deadiversion.usdoj.gov",
+   "url": "http://www.deadiversion.usdoj.gov/drugreg/reg_apps/225/225_form.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-11",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "birrenbach.com",
+  "host": "birrenbach.com"
+ }
+}

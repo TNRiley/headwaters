@@ -1,0 +1,33 @@
+{
+ "id": "dip-2019-07-31-4",
+ "title": "UK ministerial resignations",
+ "hook": "The UK Institute for Government has been updating a spreadsheet of ministers who’ve resigned since 1979, the post each one held, the reasons for resignation, and the prime minister in charge at the time.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1gVHNx4kzXd947AFfQGiJg5zJrdNXrM81t2OC8UJFnw8/edit"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-31",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "google.com",
+  "host": "google.com"
+ }
+}

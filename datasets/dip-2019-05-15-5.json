@@ -1,0 +1,46 @@
+{
+ "id": "dip-2019-05-15-5",
+ "title": "Speedcubing",
+ "hook": "The World Cube Association “governs competitions for mechanical puzzles that are operated by twisting groups of pieces,” the most famous of which is the Rubik’s Cube. The association also publishes a database of all competitions, competitors, results, rankings, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "worldcubeassociation.org",
+   "url": "https://www.worldcubeassociation.org/about"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Rubik%27s_Cube"
+  },
+  {
+   "name": "worldcubeassociation.org",
+   "url": "https://www.worldcubeassociation.org/results/misc/export.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2018/08/15/sports/cubing-usa-nationals-max-park.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-15",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "worldcubeassociation.org",
+  "host": "worldcubeassociation.org"
+ }
+}

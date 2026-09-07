@@ -1,0 +1,58 @@
+{
+ "id": "dip-2021-09-29-3",
+ "title": "South Carolina jail deaths",
+ "hook": "For an investigation into inmate deaths in South Carolina, Lucas Smolcic Larson has compiled a dataset “that aims to fill a void left by inconsistent government tracking” of these incidents.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "islandpacket.com",
+   "url": "https://www.islandpacket.com/news/state/south-carolina/article252332068.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/islandpacket/SCjaildeaths"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-10-21-edition/"
+  },
+  {
+   "name": "huffingtonpost.com",
+   "url": "https://data.huffingtonpost.com/2016/jail-deaths"
+  },
+  {
+   "name": "incarcerationtransparency.org",
+   "url": "https://www.incarcerationtransparency.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-08-18-edition/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "reuters.com",
+   "url": "https://www.reuters.com/investigates/special-report/usa-jails-graphic/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-29",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "islandpacket.com",
+  "host": "islandpacket.com"
+ }
+}

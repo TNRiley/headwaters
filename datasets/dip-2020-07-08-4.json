@@ -1,0 +1,47 @@
+{
+ "id": "dip-2020-07-08-4",
+ "title": "UK land parcels",
+ "hook": "Last week, the UK expanded access to its datasets defining the geographical boundaries of 23 million “title extents” in England, Wales, and Scotland. Previously: UK property sales (DIP 2016.03.23).",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/news/inspire-data-to-be-shared-under-open-terms"
+  },
+  {
+   "name": "use-land-property-data.service.gov.uk",
+   "url": "https://use-land-property-data.service.gov.uk/datasets/inspire"
+  },
+  {
+   "name": "ros.locationcentre.co.uk",
+   "url": "https://ros.locationcentre.co.uk/inspire/"
+  },
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/collections/price-paid-data"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-03-23-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-08",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "www.gov.uk",
+  "host": "gov.uk"
+ }
+}

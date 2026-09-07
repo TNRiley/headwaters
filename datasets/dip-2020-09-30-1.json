@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-09-30-1",
+ "title": "State bills",
+ "hook": "For years, Open States has allowed you to “track bills, review upcoming legislation, and see how your local representatives are voting in your state.” The volunteer-driven project provides bulk downloads of nearly all its data, plus an API.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "openstates.org",
+   "url": "https://openstates.org/"
+  },
+  {
+   "name": "openstates.org",
+   "url": "https://openstates.org/about/"
+  },
+  {
+   "name": "openstates.org",
+   "url": "https://openstates.org/data/"
+  },
+  {
+   "name": "openstates.org",
+   "url": "https://docs.openstates.org/en/latest/api/v2/"
+  },
+  {
+   "name": "openstates.org",
+   "url": "https://openstates.org/covid19/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-09-30",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-09-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openstates.org",
+  "host": "openstates.org"
+ }
+}

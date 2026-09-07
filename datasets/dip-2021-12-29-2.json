@@ -1,0 +1,47 @@
+{
+ "id": "dip-2021-12-29-2",
+ "title": "Religious congregations",
+ "hook": "The Association of Religion Data Archives, founded in 1997, “strives to democratize access to the best data on religion.” Among its resources are four waves of the National Congregations Study, a Duke University–based survey that asks US religious establishments about their denominational affiliation, buildings of worship, congregants, staffing, educational offerings, and more.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "thearda.com",
+   "url": "https://www.thearda.com/"
+  },
+  {
+   "name": "thearda.com",
+   "url": "https://www.thearda.com/Archive/browse.asp"
+  },
+  {
+   "name": "thearda.com",
+   "url": "https://www.thearda.com/Archive/NCS.asp"
+  },
+  {
+   "name": "sites.duke.edu",
+   "url": "https://sites.duke.edu/ncsweb/"
+  },
+  {
+   "name": "sites.duke.edu",
+   "url": "https://sites.duke.edu/ncsweb/methodology/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-29",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "thearda.com",
+  "host": "thearda.com"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2017-01-25-3",
+ "title": "TV talk",
+ "hook": "The GDELT Project and the Internet Archive have collaborated to make the latter's Television News Archive more powerfully searchable. Their new tool, announced in December, lets you search across “more than 5.7 billion words from over 150 distinct stations spanning July 2009 to present” at a sentence-by-sentence level.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "gdeltproject.org",
+   "url": "http://gdeltproject.org/"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/tv"
+  },
+  {
+   "name": "television.gdeltproject.org",
+   "url": "http://television.gdeltproject.org/cgi-bin/iatv_ftxtsearch/iatv_ftxtsearch"
+  },
+  {
+   "name": "blog.archive.org",
+   "url": "https://blog.archive.org/2016/12/20/new-research-tool-for-visualizing-two-million-hours-of-television-news/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-02-10-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-01-25",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-01-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gdeltproject.org",
+  "host": "gdeltproject.org"
+ }
+}

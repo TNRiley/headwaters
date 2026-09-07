@@ -1,0 +1,49 @@
+{
+ "id": "dip-2017-08-16-1",
+ "title": "Historic newspapers",
+ "hook": "Chronicling America — a project run by the Library of Congress and the National Endowment for the Humanities — provides information about more than 150,000 historic newspapers and access to digitized pages from many of them.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "chroniclingamerica.loc.gov",
+   "url": "http://chroniclingamerica.loc.gov/about/"
+  },
+  {
+   "name": "chroniclingamerica.loc.gov",
+   "url": "http://chroniclingamerica.loc.gov/search/titles/results/"
+  },
+  {
+   "name": "chroniclingamerica.loc.gov",
+   "url": "http://chroniclingamerica.loc.gov/about/api/"
+  },
+  {
+   "name": "chroniclingamerica.loc.gov",
+   "url": "http://chroniclingamerica.loc.gov/ocr/"
+  },
+  {
+   "name": "chroniclingamerica.loc.gov",
+   "url": "http://chroniclingamerica.loc.gov/lccn/sn99021999/1917-04-07/ed-1/seq-1/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-16",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "chroniclingamerica.loc.gov",
+  "host": "chroniclingamerica.loc.gov"
+ }
+}

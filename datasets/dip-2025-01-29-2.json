@@ -1,0 +1,54 @@
+{
+ "id": "dip-2025-01-29-2",
+ "title": "Private schools",
+ "hook": "The National Center for Education Statistics’s Private School Universe Survey has been gathering data about private elementary and secondary schools every two years since the 1989–90 school year.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nces.ed.gov",
+   "url": "https://nces.ed.gov/"
+  },
+  {
+   "name": "nces.ed.gov",
+   "url": "https://nces.ed.gov/surveys/pss/index.asp"
+  },
+  {
+   "name": "nces.ed.gov",
+   "url": "https://nces.ed.gov/surveys/pss/pssdata.asp"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/private-school-demographics"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/events/how-to-use-our-private-school-demographics-news-app"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/series/segregation-academies"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-01-29",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-01-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "NCES",
+  "host": "nces.ed.gov"
+ }
+}

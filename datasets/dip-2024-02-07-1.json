@@ -1,0 +1,41 @@
+{
+ "id": "dip-2024-02-07-1",
+ "title": "Local election results",
+ "hook": "Justin de Benedictis-Kessner et al. have compiled a dataset of 77,000+ (distinct) candidates across 57,000+ US elections for mayor, city council, school board, county executive, county legislature, sheriff, and prosecutor.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-023-02792-x"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/mv5e6/"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/tbwzd"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-07",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

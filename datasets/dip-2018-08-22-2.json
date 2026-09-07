@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-08-22-2",
+ "title": "Healthcare service in Africa",
+ "hook": "The African Economic Research Consortium, African Development Bank, and the World Bank have partnered to create the Service Delivery Indicators program — ”a new Africa-wide initiative” that dispatches teams of surveyors “to gauge the quality of service delivery in basic health services” across the continent.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "platform",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "worldbank.github.io",
+   "url": "https://worldbank.github.io/SDI-Health/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/worldbank/SDI-Health"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-22",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "worldbank.github.io",
+  "host": "worldbank.github.io"
+ }
+}

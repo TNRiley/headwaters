@@ -1,0 +1,39 @@
+{
+ "id": "dip-2018-01-03-5",
+ "title": "Knotted string",
+ "hook": "“The Khipu Database Project began in the fall of 2002, with the goal of collecting all known information about khipu” — the knotted string textiles used for recordkeeping in the Inca Empire — “into one centralized repository.” The project’s datasets include detailed structural data about hundreds of khipu, as well as an inventory of all known specimens.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "khipukamayuq.fas.harvard.edu",
+   "url": "http://khipukamayuq.fas.harvard.edu/ProjectDescription.html"
+  },
+  {
+   "name": "khipukamayuq.fas.harvard.edu",
+   "url": "http://khipukamayuq.fas.harvard.edu/DataTables.html"
+  },
+  {
+   "name": "atlasobscura.com",
+   "url": "https://www.atlasobscura.com/articles/khipus-inca-empire-harvard-university-colonialism"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-03",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "khipukamayuq.fas.harvard.edu",
+  "host": "khipukamayuq.fas.harvard.edu"
+ }
+}

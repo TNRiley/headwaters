@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-05-04-3",
+ "title": "Disciplined doctors",
+ "hook": "The National Practitioner Data Bank tracks medical malpractice payments, license suspensions, Medicare expulsions, and other lists of penalized physicians. The public use data file includes dozens of details per entry but excludes the part that is almost certainly most important to patients: the doctors' names.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "npdb.hrsa.gov",
+   "url": "http://www.npdb.hrsa.gov/"
+  },
+  {
+   "name": "npdb.hrsa.gov",
+   "url": "http://www.npdb.hrsa.gov/resources/publicData.jsp"
+  },
+  {
+   "name": "usatoday.com",
+   "url": "http://www.usatoday.com/story/news/nation/2013/06/18/unnecessary-surgery-usa-today-investigation/2435009/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-04",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "npdb.hrsa.gov",
+  "host": "npdb.hrsa.gov"
+ }
+}

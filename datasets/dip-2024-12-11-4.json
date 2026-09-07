@@ -1,0 +1,45 @@
+{
+ "id": "dip-2024-12-11-4",
+ "title": "Serbian political party funds",
+ "hook": "The Center for Investigative Journalism of Serbia’s Party Funds database “tracks all reported incomes and expenses of 40 political parties and citizens’ groups in Serbia over the past nine years.” The records, based on financial disclosure reports, can be browsed online, searched, and downloaded.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "cins.rs",
+   "url": "https://www.cins.rs/en/"
+  },
+  {
+   "name": "cins.rs",
+   "url": "https://www.cins.rs/en/party-funds-database-sns-the-financially-strongest-political-party-in-serbia/"
+  },
+  {
+   "name": "cins.rs",
+   "url": "https://www.cins.rs/baze-podataka/stranacka-kasa-2024/"
+  },
+  {
+   "name": "cins.rs",
+   "url": "https://www.cins.rs/baze-podataka/stranacka-kasa-2024/pretrazi-bazu/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-12-11",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-12-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cins.rs",
+  "host": "cins.rs"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "dip-2019-03-13-1",
+ "title": "Employment discrimination cases",
+ "hook": "“Thousands of people report workplace discrimination to the government each year. Employers are rarely held accountable,” according to an investigation by the Center for Public Integrity. Reporters Maryam Jameel and Joe Yerardi “analyzed eight years of complaint data — through fiscal 2017 — from the [U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "publicintegrity.org",
+   "url": "https://publicintegrity.org/workers-rights/workplace-inequities/injustice-at-work/workplace-discrimination-cases/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/PublicI/employment-discrimination"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/BuzzFeedNews/2017-12-eeoc-harassment-charges/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-12-06-edition"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/graphics/2019/business/discrimination-complaint-outcomes/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-13",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "publicintegrity.org",
+  "host": "publicintegrity.org"
+ }
+}

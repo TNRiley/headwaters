@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-02-24-5",
+ "title": "Funny ha ha",
+ "hook": "Since 1999, Jester has been telling jokes. The website, built by UC Berkeley’s Laboratory for Automation Science and Engineering, asks you to rate its sometimes-humorous offerings, and then uses those answers to guess which of the remaining 100+ jokes you’ll like best.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "eigentaste.berkeley.edu",
+   "url": "http://eigentaste.berkeley.edu/"
+  },
+  {
+   "name": "eigentaste.berkeley.edu",
+   "url": "http://eigentaste.berkeley.edu/dataset/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-24",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "eigentaste.berkeley.edu",
+  "host": "eigentaste.berkeley.edu"
+ }
+}

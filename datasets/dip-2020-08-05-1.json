@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-08-05-1",
+ "title": "Cabinet members",
+ "hook": "WhoGov, a new project led by two graduate students at Oxford, provides “bibliographic information, such as gender and party affiliation, on cabinet members in July every year in the period 1966-2016 in all countries with a population of more than 400,000 citizens.” In all, the dataset covers more than 50,000…",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "other",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "nuffield.ox.ac.uk",
+   "url": "https://www.nuffield.ox.ac.uk/our-research/research-centres/nuffield-politics-research-centre/whogov/"
+  },
+  {
+   "name": "nuffield.ox.ac.uk",
+   "url": "https://www.nuffield.ox.ac.uk/our-research/research-centres/nuffield-politics-research-centre/whogov/people/"
+  },
+  {
+   "name": "nuffield.ox.ac.uk",
+   "url": "https://www.nuffield.ox.ac.uk/our-research/research-centres/nuffield-politics-research-centre/whogov/download-dataset/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-05",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nuffield.ox.ac.uk",
+  "host": "nuffield.ox.ac.uk"
+ }
+}

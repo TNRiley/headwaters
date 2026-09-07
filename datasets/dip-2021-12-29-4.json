@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-12-29-4",
+ "title": "Leaders’ economic persuasions",
+ "hook": "Political scientist Bastian Herre’s new Global Leader Ideology dataset “provides unprecedented coverage of chief executives’ [economic] ideologies across time and space,” classifying their approaches as leftist, centrist, rightist, or non-ideological in 182 countries, from 1945 to 2020.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "bastianherre.com",
+   "url": "https://www.bastianherre.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/bastianherre/global-leader-ideologies"
+  },
+  {
+   "name": "bb1fa620-fff9-4aa7-b146-7f71c3bf5bae.filesusr.com",
+   "url": "https://bb1fa620-fff9-4aa7-b146-7f71c3bf5bae.filesusr.com/ugd/654001_8c377a64fecb46cd84f76ee5d69c9edb.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-29",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bastianherre.com",
+  "host": "bastianherre.com"
+ }
+}

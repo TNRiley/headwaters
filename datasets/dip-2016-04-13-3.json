@@ -1,0 +1,42 @@
+{
+ "id": "dip-2016-04-13-3",
+ "title": "Health and wealth",
+ "hook": "The Health Inequality Project calculates American life expectancies by income, gender, and geography. You can download the data at the national, state, county, and “commuting zone” levels. Where do poor Americans live the longest? New York City, Santa Barbara, and San Jose. [h/t Margot Sanger-Katz]",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "healthinequality.org",
+   "url": "https://healthinequality.org/"
+  },
+  {
+   "name": "healthinequality.org",
+   "url": "https://healthinequality.org/data/"
+  },
+  {
+   "name": "healthinequality.org",
+   "url": "https://healthinequality.org/rankings/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-13",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "healthinequality.org",
+  "host": "healthinequality.org"
+ }
+}

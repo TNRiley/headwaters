@@ -1,0 +1,57 @@
+{
+ "id": "dip-2019-11-27-1",
+ "title": "UN blue helmets",
+ "hook": "The United Nations publishes data describing its active peacekeeping missions and police and military personnel, plus all peacekeeping fatalities since 1948. Also: The International Peace Institute’s Peacekeeping Database tracks member-countries’ historical contributions of personnel going back to 1990.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "peacekeeping.un.org",
+   "url": "https://peacekeeping.un.org/en/open-data-portal"
+  },
+  {
+   "name": "peacekeeping.un.org",
+   "url": "https://peacekeeping.un.org/en/peacekeeping-master-open-datasets"
+  },
+  {
+   "name": "peacekeeping.un.org",
+   "url": "https://peacekeeping.un.org/en/data-troop-and-police-contributions"
+  },
+  {
+   "name": "peacekeeping.un.org",
+   "url": "https://peacekeeping.un.org/en/peacekeeper-fatalities"
+  },
+  {
+   "name": "providingforpeacekeeping.org",
+   "url": "http://www.providingforpeacekeeping.org/contributions/"
+  },
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/abs/10.1177/0022343319871978?journalCode=jpra"
+  },
+  {
+   "name": "pcr.uu.se",
+   "url": "https://www.pcr.uu.se/data/geo-pko/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-11-27",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-11-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "peacekeeping.un.org",
+  "host": "peacekeeping.un.org"
+ }
+}

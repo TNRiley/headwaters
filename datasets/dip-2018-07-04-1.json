@@ -1,0 +1,53 @@
+{
+ "id": "dip-2018-07-04-1",
+ "title": "The National Transit Database",
+ "hook": "Every year, hundreds of U.S. transit systems — from the Pomona Valley Transportation Authority’s Claremont Dial-a-Ride to the Metropolitan Transportation Authority’s New York City Transit — submit detailed metrics to the congressionally-established National Transit Database.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "pvtrans.org",
+   "url": "http://www.pvtrans.org/asp/site/claremont/"
+  },
+  {
+   "name": "transit.dot.gov",
+   "url": "https://www.transit.dot.gov/ntd"
+  },
+  {
+   "name": "transit.dot.gov",
+   "url": "https://www.transit.dot.gov/ntd/ntd-data"
+  },
+  {
+   "name": "transit.dot.gov",
+   "url": "https://www.transit.dot.gov/ntd/national-transit-database-ntd-glossary"
+  },
+  {
+   "name": "transit.dot.gov",
+   "url": "https://www.transit.dot.gov/ntd/manuals"
+  },
+  {
+   "name": "transit.dot.gov",
+   "url": "https://www.transit.dot.gov/ntd/ntd-reporting-system-forms"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-07-04",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-07-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pvtrans.org",
+  "host": "pvtrans.org"
+ }
+}

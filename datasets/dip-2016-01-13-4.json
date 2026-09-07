@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-01-13-4",
+ "title": "Retirees’ language preferences",
+ "hook": "Last year, more than 2 million people applied for new Social Security retirement and survivor benefits. When they did, they indicated their preferred language. More than 93% said English, and about 5% of applicants said Spanish — the second most popular choice.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "ssa.gov",
+   "url": "https://www.ssa.gov/open/data/LEP-Yearly-Spoken-Language-RSI-Claimants.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-13",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ssa.gov",
+  "host": "ssa.gov"
+ }
+}

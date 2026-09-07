@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-08-12-5",
+ "title": "44 million Reddit votes",
+ "hook": "On Reddit, users can choose to publicize their history of upvoting and downvoting other users’ posts. Software engineer Joey Leake recently collected and published data on more than 44 million of these votes.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/in/joey-leake-83229b1/"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/datasets/comments/hzdkbp/a_huge_collection_of_reddit_voting_data/"
+  },
+  {
+   "name": "kaggle.com",
+   "url": "https://www.kaggle.com/josephleake/huge-collection-of-reddit-votes/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-12",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "linkedin.com",
+  "host": "linkedin.com"
+ }
+}

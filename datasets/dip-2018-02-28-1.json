@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-02-28-1",
+ "title": "Peace agreements",
+ "hook": "The PA-X Peace Agreements Database contains structured information about 1,500+ “formal, publicly-available documents” that address “conflict with a view to ending it.” The database covers more than 140 peace processes between 1990 and 2015, and each agreement has been coded for more than 200 variables — for instance, whether the agreement contains provisions about religious groups.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "peaceagreements.org",
+   "url": "https://www.peaceagreements.org/"
+  },
+  {
+   "name": "peaceagreements.org",
+   "url": "https://www.peaceagreements.org/files/PA_X_codebook_Version1_Feb_20_20.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-28",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "peaceagreements.org",
+  "host": "peaceagreements.org"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2019-09-04-1",
+ "title": "Malaria geography",
+ "hook": "The University of Oxford’s Malaria Atlas Project collects, models, and publishes a range of datasets related to the mosquito-borne disease, including localized incidence rates. You can explore and download the data, layer by layer, through the project’s interactive map. [h/t Clara Burgert-Brucker]",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "other",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "map.ox.ac.uk",
+   "url": "https://map.ox.ac.uk/"
+  },
+  {
+   "name": "map.ox.ac.uk",
+   "url": "https://map.ox.ac.uk/data-directory/"
+  },
+  {
+   "name": "map.ox.ac.uk",
+   "url": "https://map.ox.ac.uk/malaria-burden-data-download/"
+  },
+  {
+   "name": "map.ox.ac.uk",
+   "url": "https://map.ox.ac.uk/faq/can-access-gis-data-map/"
+  },
+  {
+   "name": "map.ox.ac.uk",
+   "url": "https://map.ox.ac.uk/explorer/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-04",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "map.ox.ac.uk",
+  "host": "map.ox.ac.uk"
+ }
+}

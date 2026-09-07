@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-05-01-5",
+ "title": "Fortnite",
+ "hook": "Through an unofficial API, you can access to data on the latest items, weapons, challenges, and other aspects of the global video game phenomenon.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "fortniteapi.com",
+   "url": "https://fortniteapi.com"
+  },
+  {
+   "name": "polygon.com",
+   "url": "https://www.polygon.com/fortnite-battle-royale/2018/3/30/17177068/why-is-fortnite-popular"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-01",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fortniteapi.com",
+  "host": "fortniteapi.com"
+ }
+}

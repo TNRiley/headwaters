@@ -1,5 +1,5 @@
 {
-  "learned_from": "datasets/*.json (428 records)",
+  "learned_from": "datasets/*.json (2371 records)",
   "min_records": 3,
   "min_chars": 40,
   "not_boilerplate": {

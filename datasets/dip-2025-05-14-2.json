@@ -1,0 +1,49 @@
+{
+ "id": "dip-2025-05-14-2",
+ "title": "European workforces",
+ "hook": "Each quarter, dozens of countries collectively conduct more than 1.7 million interviews for the European Union Labour Force Survey.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/web/lfs/information-data"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/web/lfs"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/web/lfs/database"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/web/microdata"
+  },
+  {
+   "name": "bruegel.org",
+   "url": "https://www.bruegel.org/dataset/eu-labour-market-outlook-dashboard"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-05-14",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-05-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Eurostat Energy",
+  "host": "ec.europa.eu"
+ }
+}

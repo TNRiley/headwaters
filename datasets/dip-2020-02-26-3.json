@@ -1,0 +1,67 @@
+{
+ "id": "dip-2020-02-26-3",
+ "title": "Anti-press incidents",
+ "hook": "Since 2017, the U.S. Press Freedom Tracker has collected information on more than 400 incidents targeting journalists in the United States, such as arrests, attacks, and denials of access.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "pressfreedomtracker.us",
+   "url": "https://pressfreedomtracker.us"
+  },
+  {
+   "name": "pressfreedomtracker.us",
+   "url": "https://pressfreedomtracker.us/blog/3-years-tracking-our-january-2020-newsletter/"
+  },
+  {
+   "name": "pressfreedomtracker.us",
+   "url": "https://pressfreedomtracker.us/about/"
+  },
+  {
+   "name": "freedom.press",
+   "url": "https://freedom.press/"
+  },
+  {
+   "name": "cpj.org",
+   "url": "https://www.cpj.org/"
+  },
+  {
+   "name": "pressfreedomtracker.us",
+   "url": "https://pressfreedomtracker.us/data/"
+  },
+  {
+   "name": "pressfreedomtracker.us",
+   "url": "https://pressfreedomtracker.us/blog/back-campaign-trail-president-trump-increases-his-anti-press-tweet-offensive/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1uNA6nsgcRhhQ0b6USsMNzhYLMfuDRSMhbGZNZ00WkHk/edit?usp=sharing"
+  },
+  {
+   "name": "cpj.org",
+   "url": "https://cpj.org/data/killed"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-01-16-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-26",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pressfreedomtracker.us",
+  "host": "pressfreedomtracker.us"
+ }
+}

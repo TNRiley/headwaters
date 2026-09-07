@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-03-02-4",
+ "title": "Provincial populations",
+ "hook": "National population data is easy to find. But it’s much harder to find reliable, standardized population figures for finer-grained geographies. To that end, the World Bank has launched a pilot of its Subnational Population Database, which calculates estimates for 75 countries’ major provinces/states/regions.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "blogs.worldbank.org",
+   "url": "http://blogs.worldbank.org/opendata/new-time-series-global-subnational-population-estimates-launched"
+  },
+  {
+   "name": "worldbank.org",
+   "url": "http://data.worldbank.org/data-catalog/subnational-population"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-02",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "blogs.worldbank.org",
+  "host": "blogs.worldbank.org"
+ }
+}

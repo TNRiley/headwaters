@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-09-28-4",
+ "title": "University endowments",
+ "hook": "Earlier this month, the National Association of College and University Business Officers released the latest of its annual studies of college and university endowments in the US and Canada.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nacubo.org",
+   "url": "https://www.nacubo.org/About/Who-We-Are"
+  },
+  {
+   "name": "nacubo.org",
+   "url": "https://www.nacubo.org/Research/2021/NACUBO-TIAA-Study-of-Endowments"
+  },
+  {
+   "name": "nacubo.org",
+   "url": "https://www.nacubo.org/Research/2021/Public-NTSE-Tables"
+  },
+  {
+   "name": "nacubo.org",
+   "url": "https://www.nacubo.org/research/2021/historic%20endowment%20study%20data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-28",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nacubo.org",
+  "host": "nacubo.org"
+ }
+}

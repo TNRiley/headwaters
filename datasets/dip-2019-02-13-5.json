@@ -1,0 +1,35 @@
+{
+ "id": "dip-2019-02-13-5",
+ "title": "Obstacle courses",
+ "hook": "Drawing upon a fan wiki, Matt Laessig has created a spreadsheet of all 889 obstacles in the first 10 seasons of American Ninja Warrior. (Free registration required to download.) [h/t Ilan Brat]",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "sasukepedia.fandom.com",
+   "url": "https://sasukepedia.fandom.com/wiki/List_of_American_Ninja_Warrior_obstacles"
+  },
+  {
+   "name": "data.world",
+   "url": "https://data.world/ninja/anw-obstacle-history"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-02-13",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-02-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sasukepedia.fandom.com",
+  "host": "sasukepedia.fandom.com"
+ }
+}

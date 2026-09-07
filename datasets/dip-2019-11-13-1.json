@@ -1,0 +1,50 @@
+{
+ "id": "dip-2019-11-13-1",
+ "title": "Millions of violent crimes",
+ "hook": "The Trace has posted raw data on 4.3 million murders, nonfatal shootings, assaults, robberies, and rapes, obtained from 56 police and sheriff’s departments in the United States. Related: Sarah Ryley's introductory Twitter thread.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "thetrace.org",
+   "url": "https://www.thetrace.org/"
+  },
+  {
+   "name": "thetrace.org",
+   "url": "https://www.thetrace.org/violent-crime-data/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-trace-and-buzzfeed-news/introduction"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/sarahryley/police-unsolved-shootings"
+  },
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/sarahryley/5-things-to-know-about-cities-failure-to-arrest-shooters"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-11-13",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-11-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "thetrace.org",
+  "host": "thetrace.org"
+ }
+}

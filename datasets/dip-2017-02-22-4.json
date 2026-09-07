@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-02-22-4",
+ "title": "NBA refereeing",
+ "hook": "Since March 2015, the National Basketball Association has issued post-game reports reviewing referees’ calls during the final two minutes of neck-and-neck games. The NBA publishes those reports as PDFs; journalist Russell Goldenberg has been converting them to spreadsheet-friendly CSVs.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "official.nba.com",
+   "url": "http://official.nba.com/nba-last-two-minute-reports-archive/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/polygraph-cool/last-two-minute-report/tree/master/output"
+  },
+  {
+   "name": "pudding.cool",
+   "url": "https://pudding.cool/2017/02/two-minute-report/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-02-22",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-02-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "official.nba.com",
+  "host": "official.nba.com"
+ }
+}

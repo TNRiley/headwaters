@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-12-07-1",
+ "title": "Work stoppages",
+ "hook": "The US Bureau of Labor Statistics’ Work Stoppages program collects and publishes data on “major work stoppages involving 1,000 or more workers lasting one full shift or longer.” The program’s main dataset lists each major strike or lockout since 1993, the organizations involved, employer industry and ownership type, start and end dates, number of workers participating, and total worker-days idle.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/wsp/home.htm"
+  },
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/opub/hom/wsp/data.htm"
+  },
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/web/wkstp/monthly-listing.htm"
+  },
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/opub/hom/wsp/concepts.htm"
+  },
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/web/wkstp/annual-listing.htm"
+  },
+  {
+   "name": "web.archive.org",
+   "url": "https://web.archive.org/web/20210105232710/https://www.fmcs.gov/resources/documents-and-data/#tab-490260b30b23e527b80"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/labordata/fmcs-work-stoppage"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-12-07",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-12-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BLS",
+  "host": "bls.gov"
+ }
+}

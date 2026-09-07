@@ -1,0 +1,53 @@
+{
+ "id": "dip-2023-09-20-3",
+ "title": "Gubernatorial approval",
+ "hook": "Political scientist Matthew M. Singer’s State Executive Approval Database contains the results of 10,000+ gubernatorial approval polls, spanning all 50 states and going back decades.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "polisci.uconn.edu",
+   "url": "https://polisci.uconn.edu/person/matthew-singer/"
+  },
+  {
+   "name": "dataverse.unc.edu",
+   "url": "https://dataverse.unc.edu/dataset.xhtml?persistentId=doi:10.15139/S3/QHHQEF"
+  },
+  {
+   "name": "jmj313.web.lehigh.edu",
+   "url": "https://jmj313.web.lehigh.edu/node/6"
+  },
+  {
+   "name": "executiveapproval.org",
+   "url": "http://www.executiveapproval.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-10-16-edition/"
+  },
+  {
+   "name": "executiveapproval.org",
+   "url": "http://www.executiveapproval.org/contributors/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-20",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "polisci.uconn.edu",
+  "host": "polisci.uconn.edu"
+ }
+}

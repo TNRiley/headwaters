@@ -1,0 +1,42 @@
+{
+ "id": "dip-2017-08-23-5",
+ "title": "The World Color Survey",
+ "hook": "The 1970s, a team of linguistic investigators canvassed the globe, armed with boxes of color chips. They sought out a couple dozen native speakers of 110 unwritten languages, and asked: What do you call these colors? The results are available online. Related: This Vox video provides context.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "www1.icsi.berkeley.edu",
+   "url": "http://www1.icsi.berkeley.edu/wcs/"
+  },
+  {
+   "name": "www1.icsi.berkeley.edu",
+   "url": "http://www1.icsi.berkeley.edu/wcs/data.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "vox.com",
+   "url": "https://www.vox.com/videos/2017/5/16/15646500/color-pattern-language"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-23",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "www1.icsi.berkeley.edu",
+  "host": "www1.icsi.berkeley.edu"
+ }
+}

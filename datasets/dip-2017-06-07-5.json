@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-06-07-5",
+ "title": "E. coli at Ocean Beach",
+ "hook": "The San Francisco Public Utilities Commission’s Beach Water Quality Monitoring Program measures bacteria levels at fifteen locations on the city’s shoreline. You can download the measurements by clicking the “raw data” link below this map. The data powers the (unsurprisingly) unofficial @BeachPooBot account on Twitter.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "sfwater.org",
+   "url": "http://sfwater.org/index.aspx?page=87"
+  },
+  {
+   "name": "sfwater.org",
+   "url": "http://sfwater.org/cfapps/lims/beachmain1.cfm"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/John-Brandon/Beach_Poo_Bot"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-07",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sfwater.org",
+  "host": "sfwater.org"
+ }
+}

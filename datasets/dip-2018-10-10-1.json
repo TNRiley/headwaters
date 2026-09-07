@@ -1,0 +1,69 @@
+{
+ "id": "dip-2018-10-10-1",
+ "title": "Public health policy",
+ "hook": "LawAtlas.org publishes interactive maps that detail state and federal regulations on dozens of public health–related topics. Among them: e-cigarettes, HIV criminalization, fair housing, syringe distribution, and cell phone use while driving.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "lawatlas.org",
+   "url": "http://lawatlas.org/"
+  },
+  {
+   "name": "lawatlas.org",
+   "url": "http://lawatlas.org/topics"
+  },
+  {
+   "name": "lawatlas.org",
+   "url": "http://lawatlas.org/datasets/electronic-nicotine-delivery-systems"
+  },
+  {
+   "name": "lawatlas.org",
+   "url": "http://lawatlas.org/datasets/hiv-criminalization-statutes"
+  },
+  {
+   "name": "lawatlas.org",
+   "url": "http://lawatlas.org/datasets/state-fair-housing-protections-1498143743"
+  },
+  {
+   "name": "lawatlas.org",
+   "url": "http://lawatlas.org/datasets/syringe-policies-laws-regulating-non-retail-distribution-of-drug-parapherna"
+  },
+  {
+   "name": "lawatlas.org",
+   "url": "http://lawatlas.org/datasets/distracted-driving-1470663668"
+  },
+  {
+   "name": "lawatlas.org",
+   "url": "http://lawatlas.org/page/lawatlas-learning-library"
+  },
+  {
+   "name": "ippsr.msu.edu",
+   "url": "http://ippsr.msu.edu/public-policy/correlates-state-policy"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-07-06-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-10-10",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-10-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lawatlas.org",
+  "host": "lawatlas.org"
+ }
+}

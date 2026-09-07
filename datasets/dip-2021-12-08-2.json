@@ -1,0 +1,53 @@
+{
+ "id": "dip-2021-12-08-2",
+ "title": "Overturned Supreme Court decisions",
+ "hook": "The Library of Congress’s Constitution Annotated project is a “comprehensive, government-sanctioned record of the interpretations of the Constitution,” intended for a wide audience and in publication for more than 100 years.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "constitution.congress.gov",
+   "url": "https://constitution.congress.gov/"
+  },
+  {
+   "name": "constitution.congress.gov",
+   "url": "https://constitution.congress.gov/about/constitution-annotated/"
+  },
+  {
+   "name": "constitution.congress.gov",
+   "url": "https://constitution.congress.gov/resources/decisions-overruled/"
+  },
+  {
+   "name": "constitution.congress.gov",
+   "url": "https://constitution.congress.gov/resources/unconstitutional-laws/"
+  },
+  {
+   "name": "constitution.congress.gov",
+   "url": "https://constitution.congress.gov/browse/essay/appx-1/ALDE_00000679/"
+  },
+  {
+   "name": "qz.com",
+   "url": "https://qz.com/2098152/how-often-are-supreme-court-decisions-overturned/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-08",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "constitution.congress.gov",
+  "host": "constitution.congress.gov"
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "dip-2024-05-01-3",
+ "title": "Biological numbers",
+ "hook": "BioNumbers wants “you to find in one minute any useful molecular biology number that can be important for your research.” As its creators Ron Milo et al.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "bionumbers.hms.harvard.edu",
+   "url": "https://bionumbers.hms.harvard.edu/search.aspx"
+  },
+  {
+   "name": "ncbi.nlm.nih.gov",
+   "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2808940/"
+  },
+  {
+   "name": "bionumbers.hms.harvard.edu",
+   "url": "https://bionumbers.hms.harvard.edu/browse.aspx"
+  },
+  {
+   "name": "bionumbers.hms.harvard.edu",
+   "url": "https://bionumbers.hms.harvard.edu/resources.aspx"
+  },
+  {
+   "name": "bionumbers.hms.harvard.edu",
+   "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100002&ver=12&trm=100002&org="
+  },
+  {
+   "name": "bionumbers.hms.harvard.edu",
+   "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=112478&ver=0&trm=red+blood+cell&org=a"
+  },
+  {
+   "name": "bionumbers.hms.harvard.edu",
+   "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?id=100282&ver=6&trm=genome&org="
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-01",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bionumbers.hms.harvard.edu",
+  "host": "bionumbers.hms.harvard.edu"
+ }
+}

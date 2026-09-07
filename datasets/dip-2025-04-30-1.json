@@ -1,0 +1,49 @@
+{
+ "id": "dip-2025-04-30-1",
+ "title": "Refugee and asylum policies",
+ "hook": "The Dataset of World Refugee and Asylum Policies “offers a complete dataset of de jure asylum and refugee policies” across 190+ countries and 70+ years, from 1951 to 2022. The project, developed by Christopher W. Blair et al.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "datanalytics.worldbank.org",
+   "url": "https://datanalytics.worldbank.org/dwrap/"
+  },
+  {
+   "name": "cambridge.org",
+   "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/abs/liberal-displacement-policies-attract-forced-migrants-in-the-global-south/F6872E76FBB27F61B96B90193BDE9A1D"
+  },
+  {
+   "name": "jointdatacenter.org",
+   "url": "https://www.jointdatacenter.org/"
+  },
+  {
+   "name": "datanalytics.worldbank.org",
+   "url": "https://datanalytics.worldbank.org/dwrap/_w_3baf84c2101c4832b34da12495c9dbfc/DWRAP_Tech_Guide_Sep2024.pdf"
+  },
+  {
+   "name": "datacatalog.worldbank.org",
+   "url": "https://datacatalog.worldbank.org/search/dataset/0066171/Dataset-of-World-Refugee-and-Asylum-Policies--DWRAP-"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-04-30",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-04-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "datanalytics.worldbank.org",
+  "host": "datanalytics.worldbank.org"
+ }
+}

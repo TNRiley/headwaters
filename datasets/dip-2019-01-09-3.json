@@ -1,0 +1,31 @@
+{
+ "id": "dip-2019-01-09-3",
+ "title": "Fiscal crises",
+ "hook": "Researchers at the International Monetary Fund have built a historical database of fiscal crises, defined as “periods of extreme fiscal distress, when governments have not been able to contain large fiscal imbalances leading to the adoption of extreme measures (e.g., debt default and monetization of the deficit).” The…",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "imf.org",
+   "url": "https://www.imf.org/en/Publications/WP/Issues/2017/04/03/Fiscal-Crises-44795"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-09",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "imf.org",
+  "host": "imf.org"
+ }
+}

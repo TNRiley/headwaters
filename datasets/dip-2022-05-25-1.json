@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-05-25-1",
+ "title": "Supercomputers",
+ "hook": "Since 1993, a team of researchers has regularly assessed the most powerful computers in the world. The resulting TOP500 lists are published twice a year, in June and November, using a performance benchmark developed by team member Jack Dongarra, who became a Turing Award laureate this year.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "top500.org",
+   "url": "https://www.top500.org/project/authors/"
+  },
+  {
+   "name": "top500.org",
+   "url": "https://www.top500.org/"
+  },
+  {
+   "name": "top500.org",
+   "url": "https://www.top500.org/project/linpack/"
+  },
+  {
+   "name": "acm.org",
+   "url": "https://www.acm.org/media-center/2022/march/turing-award-2021"
+  },
+  {
+   "name": "blog.datawrapper.de",
+   "url": "https://blog.datawrapper.de/the-race-to-build-the-fastest-supercomputer/"
+  },
+  {
+   "name": "bsc.es",
+   "url": "https://www.bsc.es/marenostrum/marenostrum"
+  },
+  {
+   "name": "top500.org",
+   "url": "https://www.top500.org/lists/top500/list/2021/11/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-25",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "top500.org",
+  "host": "top500.org"
+ }
+}

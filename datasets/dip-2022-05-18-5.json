@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-05-18-5",
+ "title": "Banknote people",
+ "hook": "The visual essay “Who’s in Your Wallet?” examines the famous faces that appear on 38 countries’ paper money. To do that, Alejandra Arevalo and Eric Hausken built a dataset describing 279 person-banknote combinations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "pudding.cool",
+   "url": "https://pudding.cool/2022/04/banknotes/"
+  },
+  {
+   "name": "alejandra-arevalo.com",
+   "url": "https://alejandra-arevalo.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-pudding/banknotes/tree/master/src/data"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/List_of_people_on_banknotes"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/List_of_people_on_coins"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-18",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pudding.cool",
+  "host": "pudding.cool"
+ }
+}

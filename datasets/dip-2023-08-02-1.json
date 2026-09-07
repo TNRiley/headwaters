@@ -1,0 +1,58 @@
+{
+ "id": "dip-2023-08-02-1",
+ "title": "Nursing home inspections",
+ "hook": "A couple of weeks ago, ProPublica launched a major update to its Nursing Home Inspect database, originally published in 2012 (and briefly mentioned in DIP 2016.07.06).",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-07-06-edition/"
+  },
+  {
+   "name": "cms.gov",
+   "url": "https://data.cms.gov/provider-data/dataset/4pq5-n9py"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/seattletimes/nursing_homes_staffing_20200925#deficiency-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/here-whats-new-in-nursing-home-inspect-database"
+  },
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/nursing-homes/"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/how-to-use-updated-nursing-home-inspect"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/events/how-to-use-propublicas-updated-nursing-home-inspect-database"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-08-02",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-08-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "MuseWeb by way of Data Is Plural",
+  "host": "data-is-plural.com"
+ }
+}

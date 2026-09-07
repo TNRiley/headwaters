@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-09-28-1",
+ "title": "FDA inspections",
+ "hook": "The US Food and Drug Administration’s inspections dashboard lists 264,000+ assessments of facilities (primarily those manufacturing food, drugs, and other FDA-regulated products) and 227,000+ problems the inspectors found.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "datadashboard.fda.gov",
+   "url": "https://datadashboard.fda.gov/ora/cd/inspections.htm"
+  },
+  {
+   "name": "datadashboard.fda.gov",
+   "url": "https://datadashboard.fda.gov/ora/api/index.htm"
+  },
+  {
+   "name": "datadashboard.fda.gov",
+   "url": "https://datadashboard.fda.gov/ora/cd/index.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-28",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "datadashboard.fda.gov",
+  "host": "datadashboard.fda.gov"
+ }
+}

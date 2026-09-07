@@ -1,0 +1,45 @@
+{
+ "id": "dip-2015-12-23-3",
+ "title": "Wikipedia traffic trends",
+ "hook": "The Wikimedia Foundation publishes hourly pageview counts for each of its articles. It’s a tremendous amount of data — about 90 megabytes, compressed, per hour. Luckily, there’s also a tool for browsing individual pages’ daily traffic stats.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "dumps.wikimedia.org",
+   "url": "http://dumps.wikimedia.org/other/pagecounts-raw/"
+  },
+  {
+   "name": "stats.grok.se",
+   "url": "http://stats.grok.se/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Christmas_tree"
+  },
+  {
+   "name": "stats.grok.se",
+   "url": "http://stats.grok.se/en/latest90/Christmas_tree"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-23",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dumps.wikimedia.org",
+  "host": "dumps.wikimedia.org"
+ }
+}

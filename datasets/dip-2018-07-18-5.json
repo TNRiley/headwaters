@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-07-18-5",
+ "title": "FOIA’ed FBI files",
+ "hook": "“When somebody's obituary appears in the New York Times, FOIA The Dead sends an automated request to the FBI for their (newly-available) records.” So far, the project has obtained and published FBI’s files on 54 people.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "foiathedead.org",
+   "url": "https://foiathedead.org/about/"
+  },
+  {
+   "name": "foiathedead.org",
+   "url": "https://foiathedead.org/"
+  },
+  {
+   "name": "foiathedead.org",
+   "url": "https://foiathedead.org/entries.json"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-07-18",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-07-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "foiathedead.org",
+  "host": "foiathedead.org"
+ }
+}

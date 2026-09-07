@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-08-03-1",
+ "title": "Employee benefit plans",
+ "hook": "US companies that offer their employees a retirement plan, such as a pension or 401(k), must report the particulars of those plans through Form 5500 — a creation of the IRS, Department of Labor, and Pension Benefit Guaranty Corporation.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "dol.gov",
+   "url": "https://www.dol.gov/agencies/ebsa/employers-and-advisers/plan-administration-and-compliance/reporting-and-filing/form-5500"
+  },
+  {
+   "name": "pbgc.gov",
+   "url": "https://www.pbgc.gov/"
+  },
+  {
+   "name": "dol.gov",
+   "url": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/public-disclosure/foia/form-5500-datasets"
+  },
+  {
+   "name": "efast.dol.gov",
+   "url": "https://www.efast.dol.gov/5500search/"
+  },
+  {
+   "name": "dan-bauman.com",
+   "url": "https://dan-bauman.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/danbauman77/tophat"
+  },
+  {
+   "name": "dol.gov",
+   "url": "https://www.dol.gov/sites/dolgov/files/EBSA/about-ebsa/about-us/erisa-advisory-council/2020-examining-top-hat-plan-participation-and-reporting.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-03",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "National Database of Childcare Prices",
+  "host": "dol.gov"
+ }
+}

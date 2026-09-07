@@ -1,0 +1,57 @@
+{
+ "id": "dip-2017-12-27-2",
+ "title": "Marine traffic",
+ "hook": "Ships use the internationally-standardized automatic identification systems (AIS) to broadcast their name, speed, direction, and other details. With a bit of radio hardware and software, anyone can collect the signals emitted by nearby vessels.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "navcen.uscg.gov",
+   "url": "https://www.navcen.uscg.gov/?pageName=AISmain"
+  },
+  {
+   "name": "aishub.net",
+   "url": "http://www.aishub.net/"
+  },
+  {
+   "name": "aishub.net",
+   "url": "http://www.aishub.net/stations"
+  },
+  {
+   "name": "aishub.net",
+   "url": "http://www.aishub.net/api"
+  },
+  {
+   "name": "meri.digitraffic.fi",
+   "url": "https://meri.digitraffic.fi/api/v1/metadata/documentation/swagger-ui.html"
+  },
+  {
+   "name": "dma.dk",
+   "url": "https://www.dma.dk/SikkerhedTilSoes/Sejladsinformation/AIS/Sider/default.aspx"
+  },
+  {
+   "name": "marinecadastre.gov",
+   "url": "https://marinecadastre.gov/ais/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-12-27",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-12-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "navcen.uscg.gov",
+  "host": "navcen.uscg.gov"
+ }
+}

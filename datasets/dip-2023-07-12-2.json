@@ -1,0 +1,56 @@
+{
+ "id": "dip-2023-07-12-2",
+ "title": "The latest White House visitors",
+ "hook": "In May 2021, the Biden-Harris administration began releasing its logs of visitors to the White House. The records now include 500,000+ entries from January 2021 to March 2023, featuring 350,000+ distinct names and indicating the visit’s timing, visitee, meeting location, and more.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "whitehouse.gov",
+   "url": "https://www.whitehouse.gov/briefing-room/disclosures/2021/05/07/biden-harris-administration-reinstates-visitor-log-policy-will-be-first-administration-to-post-records-from-first-full-year-in-office/"
+  },
+  {
+   "name": "whitehouse.gov",
+   "url": "https://www.whitehouse.gov/disclosures/visitor-logs/"
+  },
+  {
+   "name": "obamawhitehouse.archives.gov",
+   "url": "https://obamawhitehouse.archives.gov/goodgovernment/tools/visitor-records"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2017-11-29-edition/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "bloomberg.com",
+   "url": "https://www.bloomberg.com/news/articles/2023-06-26/biden-re-opens-white-house-visitor-logs-but-some-names-are-missing"
+  },
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/graphics/wh-complex"
+  },
+  {
+   "name": "politico.com",
+   "url": "https://www.politico.com/interactives/databases/trump-white-house-visitor-logs-and-records/index.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-07-12",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-07-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "whitehouse.gov",
+  "host": "whitehouse.gov"
+ }
+}

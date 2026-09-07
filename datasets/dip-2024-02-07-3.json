@@ -1,0 +1,50 @@
+{
+ "id": "dip-2024-02-07-3",
+ "title": "US travel behavior",
+ "hook": "Fielded every five to eight years since 1968, the Federal Highway Administration’s National Household Travel Survey “is the authoritative source on the travel behavior of the American public.” The questionnaire asks respondents to inventory all of their household’s trips taken during a 24-hour period.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nhts.ornl.gov",
+   "url": "https://nhts.ornl.gov/"
+  },
+  {
+   "name": "nhts.ornl.gov",
+   "url": "https://nhts.ornl.gov/downloads"
+  },
+  {
+   "name": "nhts.ornl.gov",
+   "url": "https://nhts.ornl.gov/documentation"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/business/2024/02/02/school-bus-era-ends/"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/people/andrew-van-dam/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-07",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nhts.ornl.gov",
+  "host": "nhts.ornl.gov"
+ }
+}

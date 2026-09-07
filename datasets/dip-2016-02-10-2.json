@@ -1,0 +1,49 @@
+{
+ "id": "dip-2016-02-10-2",
+ "title": "Nature-spotting",
+ "hook": "iNaturalist is a sort of social network for nature enthusiasts. Users can post photos and descriptions of birds, fish, bugs, and even mold, which experts can then help to identify. In November, the site recorded its two-millionth observation.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "inaturalist.org",
+   "url": "http://www.inaturalist.org/pages/about"
+  },
+  {
+   "name": "inaturalist.org",
+   "url": "http://www.inaturalist.org/observations/2656845"
+  },
+  {
+   "name": "inaturalist.tumblr.com",
+   "url": "http://inaturalist.tumblr.com/post/133980888898/2-million-observations"
+  },
+  {
+   "name": "inaturalist.org",
+   "url": "http://www.inaturalist.org/pages/api+reference"
+  },
+  {
+   "name": "inaturalist.org",
+   "url": "http://www.inaturalist.org/observations/export"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-10",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "inaturalist.org",
+  "host": "inaturalist.org"
+ }
+}

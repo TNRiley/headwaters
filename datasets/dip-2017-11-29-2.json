@@ -1,0 +1,49 @@
+{
+ "id": "dip-2017-11-29-2",
+ "title": "Stolen guns",
+ "hook": "Missing Pieces is “a yearlong investigation by The Trace and more than a dozen NBC TV stations [that has] identified more than 23,000 stolen firearms recovered by police between 2010 and 2016 — the vast majority connected with crimes.” To support the investigation, the reporters obtained more than 800,000 records of stolen and recovered guns, which they’ve standardized into a single CSV file and supplemented with a data dictionary.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "thetrace.org",
+   "url": "https://www.thetrace.org/features/stolen-guns-violent-crime-america/"
+  },
+  {
+   "name": "thetrace.org",
+   "url": "https://www.thetrace.org/missing-pieces-data/"
+  },
+  {
+   "name": "storage.googleapis.com",
+   "url": "https://storage.googleapis.com/missing-pieces/missing_pieces_data_dict_11-20-2017.pdf"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-11-08-edition"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-12-09-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-11-29",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-11-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "thetrace.org",
+  "host": "thetrace.org"
+ }
+}

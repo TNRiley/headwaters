@@ -1,0 +1,61 @@
+{
+ "id": "dip-2021-06-23-1",
+ "title": "2020 election emails",
+ "hook": "To build the Princeton Corpus of Political Emails, researchers auto-subscribed to thousands of mailing lists run by candidates, political parties, and other groups participating in the 2020 US election cycle. They’ve received 400,000+ messages so far.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "electionemails2020.org",
+   "url": "https://electionemails2020.org/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSdcgjZo-D1nNON4d90H2j0VLtTdxiHK6Y8HPJSpdRu4w5YILw/viewform"
+  },
+  {
+   "name": "lindseycormack.com",
+   "url": "https://www.lindseycormack.com/dcinbox-data-downloads"
+  },
+  {
+   "name": "dcinbox.com",
+   "url": "https://www.dcinbox.com/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-03-03-edition/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-markup/investigation-wheres-my-email"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/candidate-emails"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-03-04-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-23",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "electionemails2020.org",
+  "host": "electionemails2020.org"
+ }
+}

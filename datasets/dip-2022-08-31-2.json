@@ -1,0 +1,42 @@
+{
+ "id": "dip-2022-08-31-2",
+ "title": "Business formations",
+ "hook": "To compile its Business Formation Statistics, the US Census Bureau analyzes several sources, including every application to the IRS for an Employer Identification Number (EIN) and those applicants’ first payroll tax filings.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/econ/bfs/index.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/econ/bfs/methodology.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/econ/bfs/about_the_data.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-31",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

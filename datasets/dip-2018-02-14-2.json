@@ -1,0 +1,53 @@
+{
+ "id": "dip-2018-02-14-2",
+ "title": "Historical congressional results, historical boundaries",
+ "hook": "Through the Constituency-Level Elections Archive (DIP 2016.09.28) and other sources, you can get historical election results for the U.S. Congress. And through the work of Jeffrey B. Lewis et al., you can get data describing the historical boundaries of each congressional district.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "electiondataarchive.org",
+   "url": "http://www.electiondataarchive.org/index.html"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-09-28-edition"
+  },
+  {
+   "name": "cdmaps.polisci.ucla.edu",
+   "url": "http://cdmaps.polisci.ucla.edu/"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata2017108"
+  },
+  {
+   "name": "ljwolf.org",
+   "url": "http://ljwolf.org/about"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/mjvkb/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-14",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "electiondataarchive.org",
+  "host": "electiondataarchive.org"
+ }
+}

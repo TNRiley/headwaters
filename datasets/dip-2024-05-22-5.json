@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-05-22-5",
+ "title": "France and Italy’s protected wines",
+ "hook": "Sebastian Candiago et al. have assembled a dataset of 5,400+ Italian and French wines granted Protected Designation of Origin status, restricting their production to specific geographies and methods.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340924003779"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/dataset/Quality_wines_in_Italy_and_France_a_dataset_of_protected_designation_of_origin_specifications/25393261"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Protected_designation_of_origin"
+  },
+  {
+   "name": "tandfonline.com",
+   "url": "https://www.tandfonline.com/doi/full/10.1080/00343404.2023.2187365"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2023-05-24-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-22",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

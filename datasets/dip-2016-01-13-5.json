@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-01-13-5",
+ "title": "State Department per diems",
+ "hook": "When State Department employees travel on official business abroad, they can get reimbursed — to a point — for lodging, meals, and things such as laundry. The department publishes monthly spreadsheets of the maximum per diems, which vary by location. The highest right now? The Cayman Islands ($735 per day). The lowest?",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "aoprals.state.gov",
+   "url": "https://aoprals.state.gov/content.asp?content_id=233&menu_id=78"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-13",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aoprals.state.gov",
+  "host": "aoprals.state.gov"
+ }
+}

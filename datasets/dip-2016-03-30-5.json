@@ -1,0 +1,40 @@
+{
+ "id": "dip-2016-03-30-5",
+ "title": "America, the varyingly beautiful",
+ "hook": "In 1999, the USDA Economic Research Service published a “natural amenities scale,” which rated every county in the contiguous United States based on factors such as landscape variation and January sunniness.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ers.usda.gov",
+   "url": "http://www.ers.usda.gov/data-products/natural-amenities-scale.aspx"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/news/wonk/wp/2015/08/17/every-county-in-america-ranked-by-natural-beauty/"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/news/wonk/wp/2016/03/08/why-im-moving-to-the-place-i-called-americas-worst-place-to-live/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-30",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "USDA",
+  "host": "ers.usda.gov"
+ }
+}

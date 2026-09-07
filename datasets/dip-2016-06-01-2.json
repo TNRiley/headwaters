@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-06-01-2",
+ "title": "Farmers in Africa",
+ "hook": "Between 2002 and 2004, researchers surveyed more than 9,500 farming households in 11 African countries to better understand how climate change might affect agricultural practices. Last month, they published the detailed results and documentation in Scientific Data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "http://www.nature.com/articles/sdata201620?WT.ec_id=SDATA-201605"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-01",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

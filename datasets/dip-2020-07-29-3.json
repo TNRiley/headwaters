@@ -1,0 +1,42 @@
+{
+ "id": "dip-2020-07-29-3",
+ "title": "US political polls",
+ "hook": "FiveThirtyEight’s frequently-updated polling database provides results from thousands of polls (and hundreds of pollsters) on the current presidential, congressional, and gubernatorial elections. Those datasets — plus historical polling averages for presidential elections since 1980 — are available to download.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/polls"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.fivethirtyeight.com",
+   "url": "https://projects.fivethirtyeight.com/polls/"
+  },
+  {
+   "name": "projects.fivethirtyeight.com",
+   "url": "https://projects.fivethirtyeight.com/pollster-ratings/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-29",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

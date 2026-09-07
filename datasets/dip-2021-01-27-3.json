@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-01-27-3",
+ "title": "Corporate risk-talk",
+ "hook": "The Firm-Level Risk project uses “textual analysis of quarterly earnings conference calls held by more than 11,000 listed firms in 81 countries” to construct company-by-company “measures of exposure, risk, and sentiment.” The dataset goes back nearly two decades and includes sub-measures for various themes, such as tax policy, Brexit, and COVID-19.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "firmlevelrisk.com",
+   "url": "https://www.firmlevelrisk.com/"
+  },
+  {
+   "name": "firmlevelrisk.com",
+   "url": "https://www.firmlevelrisk.com/download"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-27",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "firmlevelrisk.com",
+  "host": "firmlevelrisk.com"
+ }
+}

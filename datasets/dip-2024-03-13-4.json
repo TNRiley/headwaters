@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-03-13-4",
+ "title": "NYC council members",
+ "hook": "Maximum New York has published a biographical dataset of people elected to the New York City Council. For each member since 1998 (plus some before that), it lists their name, district, borough, political party, date of birth, undergraduate/graduate universities and fields of study, whether they ever served on a community board, prior employer, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "maximumnewyork.com",
+   "url": "https://www.maximumnewyork.com/about"
+  },
+  {
+   "name": "maximumnewyork.com",
+   "url": "https://www.maximumnewyork.com/p/city-council-data-project"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/11kMfI0iY4CSYrrwoUSM1oERm_bOYtbZI379N1wX3QO4/edit"
+  },
+  {
+   "name": "datamade.us",
+   "url": "https://datamade.us/"
+  },
+  {
+   "name": "chicago.councilmatic.org",
+   "url": "https://chicago.councilmatic.org/"
+  },
+  {
+   "name": "puddle.datamade.us",
+   "url": "https://puddle.datamade.us/"
+  },
+  {
+   "name": "puddle.bunkum.us",
+   "url": "https://puddle.bunkum.us/chicago_council"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-03-13",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-03-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "maximumnewyork.com",
+  "host": "maximumnewyork.com"
+ }
+}

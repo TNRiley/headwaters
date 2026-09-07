@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-04-08-3",
+ "title": "Forty-plus years of FOIA",
+ "hook": "Journalism professor A.Jay Wagner has compiled a dataset of 14 federal agencies’ Freedom of Information Act annual reports from 1975 through 2018.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ajaywagner.com",
+   "url": "https://www.ajaywagner.com/"
+  },
+  {
+   "name": "epublications.marquette.edu",
+   "url": "https://epublications.marquette.edu/comm_data/1/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-08",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ajaywagner.com",
+  "host": "ajaywagner.com"
+ }
+}

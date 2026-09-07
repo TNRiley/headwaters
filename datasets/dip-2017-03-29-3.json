@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-03-29-3",
+ "title": "Failed banks",
+ "hook": "The Federal Deposit Insurance Corporation publishes a spreadsheet of failed banks for which the agency has been appointed as a receiver — some 550 banks since October 2000. It also provides short descriptions of each bank failure. The most recent: Proficio Bank of Cottonwood Heights, Utah, which closed on March 3.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fdic.gov",
+   "url": "https://www.fdic.gov/bank/individual/failed/banklist.html"
+  },
+  {
+   "name": "fdic.gov",
+   "url": "https://www.fdic.gov/bank/historical/bank/"
+  },
+  {
+   "name": "fdic.gov",
+   "url": "https://www.fdic.gov/about/strategic/strategic/receivership.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-29",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fdic.gov",
+  "host": "fdic.gov"
+ }
+}

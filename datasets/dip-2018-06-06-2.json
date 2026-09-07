@@ -1,0 +1,50 @@
+{
+ "id": "dip-2018-06-06-2",
+ "title": "Volcanoes and eruptions",
+ "hook": "The Smithsonian Institution’s Global Volcanism Program maintains a database of more than 12,000 volcanoes and 11,000 eruptions — dating from 10450 BCE to the present year. You can search the data online, and then download the results as a spreadsheet.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "volcano.si.edu",
+   "url": "https://volcano.si.edu/"
+  },
+  {
+   "name": "volcano.si.edu",
+   "url": "https://volcano.si.edu/gvp_votw.cfm"
+  },
+  {
+   "name": "volcano.si.edu",
+   "url": "https://volcano.si.edu/search_volcano.cfm"
+  },
+  {
+   "name": "volcano.si.edu",
+   "url": "https://volcano.si.edu/search_eruption.cfm"
+  }
+ ],
+ "articles": [
+  {
+   "name": "axios.com",
+   "url": "https://www.axios.com/chart-every-volcano-that-erupted-since-krakatoa-467da621-41ba-4efc-99c6-34ff3cb27709.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-06-06",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-06-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "volcano.si.edu",
+  "host": "volcano.si.edu"
+ }
+}

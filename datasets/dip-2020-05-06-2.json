@@ -1,0 +1,38 @@
+{
+ "id": "dip-2020-05-06-2",
+ "title": "COVID-19 in prisons",
+ "hook": "The Marshall Project has been tracking COVID-19 cases and deaths in US prisons. To compile that dataset, every week the publication’s reporters ask each state prison system and the federal Bureau of Prisons “for the total number of coronavirus tests administered to its staff members and prisoners, the cumulative…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/themarshallproject/COVID_prison_data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/2020/05/01/a-state-by-state-look-at-coronavirus-in-prisons"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-06",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

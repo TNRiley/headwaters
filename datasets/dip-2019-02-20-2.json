@@ -1,0 +1,57 @@
+{
+ "id": "dip-2019-02-20-2",
+ "title": "The Oscars",
+ "hook": "The Academy of Motion Picture Arts and Sciences website hosts two searchable databases related to their annual awards show: one of nominees and winners, and another of acceptance speeches. The Academy doesn’t provide direct downloads, but many folks have created structured datasets from the records.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "awardsdatabase.oscars.org",
+   "url": "http://awardsdatabase.oscars.org/"
+  },
+  {
+   "name": "aaspeechesdb.oscars.org",
+   "url": "http://aaspeechesdb.oscars.org/"
+  },
+  {
+   "name": "sites.ualberta.ca",
+   "url": "https://sites.ualberta.ca/~kashlak/"
+  },
+  {
+   "name": "sites.ualberta.ca",
+   "url": "https://sites.ualberta.ca/~kashlak/kashCodeData.html"
+  },
+  {
+   "name": "thelittledataset.com",
+   "url": "https://thelittledataset.com/about/"
+  },
+  {
+   "name": "thelittledataset.com",
+   "url": "https://thelittledataset.com/2015/02/19/id-like-to-thank-the-academy-for-making-this-data-available/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/apalbright/Oscars/blob/master/raw_data/oscars_10-14.csv"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-02-20",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-02-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "awardsdatabase.oscars.org",
+  "host": "awardsdatabase.oscars.org"
+ }
+}

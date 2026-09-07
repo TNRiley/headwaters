@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-07-24-5",
+ "title": "Australia shipwrecks",
+ "hook": "The Western Australia Museum hosts a range of datasets, including details concerning 1,600+ local shipwrecks and 30,000+ artifacts recovered from them. The shipwreck dataset lists each ship’s builder, construction materials, owner, cargo, wreck location, date wrecked, known deaths, date found, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "government",
+ "geography": "Australia",
+ "sources": [
+  {
+   "name": "museum.wa.gov.au",
+   "url": "https://data.museum.wa.gov.au/"
+  },
+  {
+   "name": "museum.wa.gov.au",
+   "url": "https://data.museum.wa.gov.au/search/type/dataset"
+  },
+  {
+   "name": "museum.wa.gov.au",
+   "url": "https://data.museum.wa.gov.au/dataset/maritime-archaeology"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/11fk5YeQ4eFOnYSBNpUdHp4TP42gJ7wY5/edit?gid=970169931#gid=970169931"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2024-07-10-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-24",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "museum.wa.gov.au",
+  "host": "museum.wa.gov.au"
+ }
+}

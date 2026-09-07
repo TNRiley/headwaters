@@ -1,0 +1,50 @@
+{
+ "id": "dip-2019-03-27-1",
+ "title": "Special investigations and charges",
+ "hook": "FiveThirtyEight has compiled a dataset of all U.S. special counsel, independent counsel, and special prosecutor investigations since 1973 — and the people charged in them. Related: FiveThirtyEight’s visual comparison of the Mueller probe to other investigations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/russia-investigation"
+  },
+  {
+   "name": "ameliatd.com",
+   "url": "http://ameliatd.com/about"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/trump-lawsuits"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.fivethirtyeight.com",
+   "url": "https://projects.fivethirtyeight.com/russia-investigation/"
+  },
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/what-trumps-legal-battles-tell-us-about-presidential-power/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-27",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

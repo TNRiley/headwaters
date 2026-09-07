@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-08-09-4",
+ "title": "A century of UK coastal flooding",
+ "hook": "Earlier this year, the researchers behind SurgeWatch.org published an updated version of their their database of UK coastal floods. They combined tidal gauge data with reports from scientific journals, newspapers, and social media to identify 329 “coastal flooding events” that occurred between 1915 to 2016.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "surgewatch.org",
+   "url": "https://www.surgewatch.org/"
+  },
+  {
+   "name": "bodc.ac.uk",
+   "url": "https://www.bodc.ac.uk/data/published_data_library/catalogue/10.5285/481720c2-35bd-6c10-e053-6c86abc06bb3/"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata2017100"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/North_Sea_flood_of_1953"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-09",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "surgewatch.org",
+  "host": "surgewatch.org"
+ }
+}

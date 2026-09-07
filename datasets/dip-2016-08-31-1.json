@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-08-31-1",
+ "title": "Family money",
+ "hook": "The Panel Study of Income Dynamics is “the longest running longitudinal household survey in the world,” according to its University of Michigan overseers. The study, which began in 1968, has interviewed more than 70,000 people, including four generations of some families.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "psidonline.isr.umich.edu",
+   "url": "http://psidonline.isr.umich.edu/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-31",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "psidonline.isr.umich.edu",
+  "host": "psidonline.isr.umich.edu"
+ }
+}

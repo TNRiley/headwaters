@@ -1,0 +1,41 @@
+{
+ "id": "dip-2015-10-28-5",
+ "title": "Porn",
+ "hook": "Sexualitics.org is on a mission: “to contribute to human sexuality understanding through a Big Data approach.” Last year, the site posted detailed metadata on 800,000 adult videos, including titles, descriptions, view counts, and tags. It powers Porngram, an only-kinda-safe-for-work charting tool.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sexualitics.org",
+   "url": "http://sexualitics.org/"
+  },
+  {
+   "name": "sexualitics.github.io",
+   "url": "http://sexualitics.github.io/"
+  },
+  {
+   "name": "porngram.sexualitics.org",
+   "url": "http://porngram.sexualitics.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-10-28",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-10-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sexualitics.org",
+  "host": "sexualitics.org"
+ }
+}

@@ -4,11 +4,15 @@
 
 Two layers, deliberately different:
 
-- **`datasets/`** — 428 specific published datasets: what they are, what is in them, who
+- **`datasets/`** — 2,371 specific published datasets: what they are, what is in them, who
   published them, and where the original data lives. Classified by subject and publisher so
   you can browse for something to work with rather than search for something you already
-  know exists. Seeded from every week of [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
-  since April 2018.
+  know exists. Drawn from two aggregations that select for very different things — every week
+  of [TidyTuesday](https://github.com/rfordatascience/tidytuesday) since April 2018 (tidy,
+  teachable, column names known) and ten years of
+  [Data Is Plural](https://www.data-is-plural.com/) (odd, specific, hard to believe it
+  exists). A dataset both of them surfaced is one record with two sightings, and the
+  **Found via** facet filters on that.
 - **`sources/`** — 40 endpoints you can query repeatedly, each described well enough to use
   from a shell, and **probed**, so the catalogue can say whether it still answers.
 

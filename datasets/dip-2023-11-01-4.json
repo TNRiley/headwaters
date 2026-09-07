@@ -1,0 +1,41 @@
+{
+ "id": "dip-2023-11-01-4",
+ "title": "Childcare inspections",
+ "hook": "“Across 41 states, one in ten licensed daycare facilities is overdue for an inspection,” according to an analysis by USAFacts, which gathered inspection-timing data for 148,000 facilities.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/data-projects/childcare-inspections"
+  },
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/posts/amberrthomas_are-states-meeting-their-childcare-inspection-activity-7120861735833518080-V-6s/"
+  },
+  {
+   "name": "ccld.dss.ca.gov",
+   "url": "https://www.ccld.dss.ca.gov/carefacilitysearch/DownloadData"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-01",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usafacts.org",
+  "host": "usafacts.org"
+ }
+}

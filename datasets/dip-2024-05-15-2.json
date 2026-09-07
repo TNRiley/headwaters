@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-05-15-2",
+ "title": "Greenhouse gas giants",
+ "hook": "Carbon Majors, run by the UK-based InfluenceMap, “is a database of historical production data from 122 of the world’s largest oil, gas, coal, and cement producers.” It attributes to these producers 1,421 metric gigatons of CO2-equivalent emissions from 1854 through 2022.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "carbonmajors.org",
+   "url": "https://carbonmajors.org/"
+  },
+  {
+   "name": "influencemap.org",
+   "url": "https://influencemap.org/"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Carbon_dioxide_equivalent"
+  },
+  {
+   "name": "carbonmajors.org",
+   "url": "https://carbonmajors.org/briefing/The-Carbon-Majors-Database-26913"
+  },
+  {
+   "name": "carbonmajors.org",
+   "url": "https://carbonmajors.org/Downloads"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-15",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CarbonMajors",
+  "host": "carbonmajors.org"
+ }
+}

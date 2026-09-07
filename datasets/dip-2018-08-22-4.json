@@ -1,0 +1,31 @@
+{
+ "id": "dip-2018-08-22-4",
+ "title": "Half a century of opinions",
+ "hook": "The University of North Carolina’s Louis Harris Data Center serves as “the national depository for publicly available survey data collected by Louis Harris and Associates, Inc.” The online depository contains more than 1,000 Harris polls, some from as early 1958.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "dataverse.unc.edu",
+   "url": "https://dataverse.unc.edu/dataverse/harris"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-22",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataverse.unc.edu",
+  "host": "dataverse.unc.edu"
+ }
+}

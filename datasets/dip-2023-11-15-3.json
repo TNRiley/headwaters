@@ -1,0 +1,61 @@
+{
+ "id": "dip-2023-11-15-3",
+ "title": "Migrant arrivals in Italy",
+ "hook": "The Dati Bene Comune campaign’s latest initiative, Liberiamoli tutti! (Let’s free them all!), aims to improve the availability of Italian government data. Its first project has been to convert the interior ministry’s statistics on migrant arrivals from PDF reports into spreadsheets.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "datibenecomune.it",
+   "url": "https://www.datibenecomune.it/about-us/"
+  },
+  {
+   "name": "datibenecomune.substack.com",
+   "url": "https://datibenecomune.substack.com/p/il-numero-zero"
+  },
+  {
+   "name": "libertaciviliimmigrazione.dlci.interno.gov.it",
+   "url": "http://www.libertaciviliimmigrazione.dlci.interno.gov.it/it/documentazione/statistica/cruscotto-statistico-giornaliero"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ondata/liberiamoli-tutti/blob/main/sbarchi-migranti/dati/README.md"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1dNlByw2cMoqGorp4zPN6OULtG_jVRCe5xpl0YdKJxFE/edit#gid=1693395128"
+  },
+  {
+   "name": "help.unhcr.org",
+   "url": "https://help.unhcr.org/italy/asylum-italy/reception/"
+  },
+  {
+   "name": "open.substack.com",
+   "url": "https://open.substack.com/pub/datibenecomune/p/il-numero-zero?selection=39d56eb6-7897-43a1-bdbd-884de1382040"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-15",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "datibenecomune.it",
+  "host": "datibenecomune.it"
+ }
+}

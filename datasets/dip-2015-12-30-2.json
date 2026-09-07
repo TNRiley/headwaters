@@ -1,0 +1,33 @@
+{
+ "id": "dip-2015-12-30-2",
+ "title": "Medicare’s priciest drugs",
+ "hook": "Last week, the Centers for Medicare &amp; Medicaid Services published a new drug-spending dataset. It focuses on medications that (a) cost the most, overall; (b) cost the most per patient; or (c) saw the largest price-hike between 2013 and 2014.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cms.gov",
+   "url": "https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Information-on-Prescription-Drugs/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-30",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Centers for Medicare & Medicaid Services",
+  "host": "cms.gov"
+ }
+}

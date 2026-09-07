@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-02-03-4",
+ "title": "Web trackers",
+ "hook": "DuckDuckGo’s Tracker Radar watches the web’s watchers. The regularly-updated dataset currently covers 36,000+ of the most common third-party domains, and provides “detailed information about their tracking behavior, including prevalence, ownership, fingerprinting behavior, cookie behavior, privacy policy,” and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "spreadprivacy.com",
+   "url": "https://spreadprivacy.com/duckduckgo-tracker-radar/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/duckduckgo/tracker-radar"
+  },
+  {
+   "name": "themarkup.org",
+   "url": "https://themarkup.org/blacklight"
+  },
+  {
+   "name": "themarkup.org",
+   "url": "https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-02-03",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-02-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "spreadprivacy.com",
+  "host": "spreadprivacy.com"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "dip-2023-03-08-4",
+ "title": "Decades of UK prices",
+ "hook": "In January 2023, the UK’s Office for National Statistics collected 139,000+ price quotes from thousands of stores and across hundreds of products, from “A4 PRINTER PAPER (500 REAM)” to “YORKSHIRE PUDDING FROZEN”.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "ons.gov.uk",
+   "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceindicescpiandretailpricesindexrpiitemindicesandpricequotes"
+  },
+  {
+   "name": "ons.gov.uk",
+   "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/adhocs/007392consumerpriceinflationpricequotes1988to1996"
+  },
+  {
+   "name": "ons.gov.uk",
+   "url": "https://www.ons.gov.uk/economy/inflationandpriceindices"
+  },
+  {
+   "name": "richarddavies.io",
+   "url": "https://richarddavies.io/about"
+  },
+  {
+   "name": "richarddavies.io",
+   "url": "https://richarddavies.io/research/prices"
+  },
+  {
+   "name": "cep.lse.ac.uk",
+   "url": "https://cep.lse.ac.uk/pubs/download/occasional/op055.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-08",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The UK Office for National Statistics",
+  "host": "ons.gov.uk"
+ }
+}

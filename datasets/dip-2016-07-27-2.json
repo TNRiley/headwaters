@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-07-27-2",
+ "title": "Public transit",
+ "hook": "Transitland and TransitFeeds both aggregate data on routes, stops, and timetables from hundreds of public transit systems — from the Bay Area’s BART, to New York’s MTA, to Milan’s ATM, to Budapest’s BKK.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "transit.land",
+   "url": "https://transit.land/"
+  },
+  {
+   "name": "transitfeeds.com",
+   "url": "https://transitfeeds.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-27",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "transit.land",
+  "host": "transit.land"
+ }
+}

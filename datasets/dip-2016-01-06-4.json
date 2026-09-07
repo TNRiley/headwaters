@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-01-06-4",
+ "title": "Refugee arrivals along the Western Balkans route",
+ "hook": "The UN’s refugee agency is keeping track of daily refugee movements through Greece, Macedonia, Serbia, and farther along into Europe. The downloadable data and interactive map cover migrations since October 2015.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "unhcr.org",
+   "url": "http://data.unhcr.org/mediterranean/country.php?id=502"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-06",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "unhcr.org",
+  "host": "unhcr.org"
+ }
+}

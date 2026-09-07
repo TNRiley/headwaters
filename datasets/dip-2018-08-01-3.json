@@ -1,0 +1,35 @@
+{
+ "id": "dip-2018-08-01-3",
+ "title": "Consumer-product chemicals",
+ "hook": "Researchers at the Environmental Protection Agency have created a new dataset of “reported and predicted information on more than 75,000 chemicals and more than 15,000 consumer products.” The Chemicals and Products Database, as they’ve named it, is an “aggregation of publicly available data on chemical-use…",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata2018125"
+  },
+  {
+   "name": "comptox.epa.gov",
+   "url": "https://comptox.epa.gov/dashboard/downloads"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-01",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "dip-2015-12-16-4",
+ "title": "Many pants on fire",
+ "hook": "You’ve probably heard of PolitiFact, the Tampa Bay Times project that fact-checks what politician say. What you might not know: PolitiFact has an API. You can use it to fetch detailed data the project’s national and state-level editions. Related: “All Politicians Lie.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "politifact.com",
+   "url": "http://www.politifact.com/"
+  },
+  {
+   "name": "politifact.com",
+   "url": "http://static.politifact.com/api/v2apidoc.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "http://www.nytimes.com/2015/12/13/opinion/campaign-stops/all-politicians-lie-some-lie-more-than-others.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-16",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "politifact.com",
+  "host": "politifact.com"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-12-13-3",
+ "title": "State supreme court justices",
+ "hook": "David A. Hughes et al., building on prior work, have calculated ideology scores (on a conservative-liberal continuum) for 1,600+ state supreme court justices from 1970 to 2019.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cambridge.org",
+   "url": "https://www.cambridge.org/core/journals/state-politics-and-policy-quarterly/article/abs/updating-pajid-scores-for-state-supreme-court-justices-19702019/7EEE00DC60CB4D0F883B7E5BECDE116F"
+  },
+  {
+   "name": "journals.uchicago.edu",
+   "url": "https://www.journals.uchicago.edu/doi/abs/10.1111/0022-3816.00018"
+  },
+  {
+   "name": "dataverse.unc.edu",
+   "url": "https://dataverse.unc.edu/dataset.xhtml?persistentId=doi:10.15139/S3/M6U77I"
+  },
+  {
+   "name": "americanlegislatures.wordpress.com",
+   "url": "https://americanlegislatures.wordpress.com/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-01-01-edition/"
+  },
+  {
+   "name": "voteview.com",
+   "url": "https://voteview.com/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2023-03-01-edition/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataverse/americanideologyproject"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2023-08-02-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-12-13",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-12-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cambridge.org",
+  "host": "cambridge.org"
+ }
+}

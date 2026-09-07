@@ -1,0 +1,39 @@
+{
+ "id": "dip-2016-08-10-4",
+ "title": "Rocks",
+ "hook": "Macrostrat.org provides data and maps on thousands of geologic formations around the world. The database currently includes 1,474 “regional columns,” 33,903 “rock units,” and 1,750,044 “geologic map polygons.” You can also explore the data through the University of Minnesota’s “Flyover Country” iOS and Android apps.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "macrostrat.org",
+   "url": "https://macrostrat.org/"
+  },
+  {
+   "name": "macrostrat.org",
+   "url": "https://macrostrat.org/burwell/"
+  },
+  {
+   "name": "fc.umn.edu",
+   "url": "http://fc.umn.edu/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-10",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "macrostrat.org",
+  "host": "macrostrat.org"
+ }
+}

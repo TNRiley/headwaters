@@ -1,0 +1,69 @@
+{
+ "id": "dip-2024-02-21-2",
+ "title": "US wetlands",
+ "hook": "The National Wetlands Inventory, maintained by the US Fish and Wildlife Service, provides interactive maps and bulk data containing “geospatially referenced information on the status, extent, characteristics and functions of wetland, riparian, deepwater, and related aquatic habitats.” With contributions from 160+…",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fws.gov",
+   "url": "https://www.fws.gov/program/national-wetlands-inventory"
+  },
+  {
+   "name": "fws.gov",
+   "url": "https://www.fws.gov/program/national-wetlands-inventory/wetlands-mapper"
+  },
+  {
+   "name": "fws.gov",
+   "url": "https://www.fws.gov/program/national-wetlands-inventory/wetlands-data"
+  },
+  {
+   "name": "fws.gov",
+   "url": "https://www.fws.gov/program/national-wetlands-inventory/wetlands-mapping"
+  },
+  {
+   "name": "fws.gov",
+   "url": "https://www.fws.gov/program/national-wetlands-inventory/data-standards"
+  },
+  {
+   "name": "simondgreenhill.github.io",
+   "url": "https://simondgreenhill.github.io/"
+  },
+  {
+   "name": "science.org",
+   "url": "https://www.science.org/doi/10.1126/science.adi3794"
+  },
+  {
+   "name": "datadryad.org",
+   "url": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.z34tmpgm7"
+  },
+  {
+   "name": "youtube.com",
+   "url": "https://www.youtube.com/watch?v=Jkhz5gVUo2w"
+  },
+  {
+   "name": "simondgreenhill.github.io",
+   "url": "https://simondgreenhill.github.io/wotus-map/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-21",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fws.gov",
+  "host": "fws.gov"
+ }
+}

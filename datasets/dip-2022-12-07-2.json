@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-12-07-2",
+ "title": "Avian flu detections",
+ "hook": "The USDA’s Animal and Plant Health Inspection Service has been tracking local cases of avian influenza detected this year in commercial and backyard flocks, as well as in wild birds and in mammals.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "aphis.usda.gov",
+   "url": "https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/animal-disease-information/avian/avian-influenza/2022-hpai"
+  },
+  {
+   "name": "aphis.usda.gov",
+   "url": "https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/animal-disease-information/avian/avian-influenza/hpai-2022/2022-hpai-commercial-backyard-flocks"
+  },
+  {
+   "name": "aphis.usda.gov",
+   "url": "https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/animal-disease-information/avian/avian-influenza/hpai-2022/2022-hpai-wild-birds"
+  },
+  {
+   "name": "aphis.usda.gov",
+   "url": "https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/animal-disease-information/avian/avian-influenza/hpai-2022/2022-hpai-mammals"
+  },
+  {
+   "name": "smithsonianmag.com",
+   "url": "https://www.smithsonianmag.com/smart-news/more-than-52-million-birds-dead-because-of-avian-flu-in-us-180981215/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-12-07",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-12-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aphis.usda.gov",
+  "host": "aphis.usda.gov"
+ }
+}

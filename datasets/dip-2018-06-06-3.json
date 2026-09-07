@@ -1,0 +1,49 @@
+{
+ "id": "dip-2018-06-06-3",
+ "title": "Retracted medical papers",
+ "hook": "PubMed, the National Library of Medicine’s search engine for biomedical and life-sciences literature, lets you search for retracted publications; just add \"retracted publication\"[PTYP] to your query. For instance, here are retracted articles that were originally published in 2016.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ncbi.nlm.nih.gov",
+   "url": "https://www.ncbi.nlm.nih.gov/pubmedhealth/PMHT0027066/"
+  },
+  {
+   "name": "ncbi.nlm.nih.gov",
+   "url": "https://www.ncbi.nlm.nih.gov/pubmed/?term=%22retracted%20publication%22[PTYP]%20AND%202016[CRDT]"
+  },
+  {
+   "name": "nsaunders.wordpress.com",
+   "url": "https://nsaunders.wordpress.com/"
+  },
+  {
+   "name": "neilfws.github.io",
+   "url": "https://neilfws.github.io/PubMed/pmretract/pmretract.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/neilfws/PubMed/tree/master/retractions"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-06-06",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-06-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ncbi.nlm.nih.gov",
+  "host": "ncbi.nlm.nih.gov"
+ }
+}

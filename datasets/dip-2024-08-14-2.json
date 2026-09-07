@@ -1,0 +1,55 @@
+{
+ "id": "dip-2024-08-14-2",
+ "title": "Recreational boating accidents",
+ "hook": "In the US, recreational boaters must notify state authorities soon after any incident involving a death, serious injury, disappearance, or substantial damage. The authorities relay those notifications to the Coast Guard, which stores them in its centralized Boating Accident Report Database.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "uscgboating.org",
+   "url": "https://uscgboating.org/recreational-boaters/accident-reporting.php"
+  },
+  {
+   "name": "dhs.gov",
+   "url": "https://www.dhs.gov/publication/dhsuscgpia-011-boating-accident-report-database-bard"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/requests/uscg-boating-accident-report-database/"
+  },
+  {
+   "name": "buttondown.com",
+   "url": "https://buttondown.com/data-liberation-project/archive/dlp-dispatch-17/"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/datasets/uscg-boating-accident-report-database/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/document/d/1lk0dnACzcj3Yo6DAjZbGKf_zFYkymor5IDwNxypnZpc/edit"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-08-14",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-08-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "uscgboating.org",
+  "host": "uscgboating.org"
+ }
+}

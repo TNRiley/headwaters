@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-11-02-2",
+ "title": "Decades of river widths",
+ "hook": "Dongmei Feng et al. have applied an algorithmic approach to calculating the widths of the world’s largest rivers over time.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "agupubs.onlinelibrary.wiley.com",
+   "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021WR031712"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/6425657#.Y2AxIILMI-Q"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41586-019-1111-9"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-07-24-edition/"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/core-science-systems/ngp/national-hydrography/national-hydrography-dataset"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-10-12-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-02",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "agupubs.onlinelibrary.wiley.com",
+  "host": "agupubs.onlinelibrary.wiley.com"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "dip-2023-11-15-1",
+ "title": "Trans rights",
+ "hook": "Myles Williamson’s Trans Rights Indicator Project “provides insight into the legal situations transgender people faced in 173 countries from 2000 to 2021.” The project’s dataset is “the only public dataset covering trans rights with wide spatial and temporal coverage (to my knowledge),” Williamson writes.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "myleswilliamson.net",
+   "url": "https://www.myleswilliamson.net/"
+  },
+  {
+   "name": "cambridge.org",
+   "url": "https://www.cambridge.org/core/journals/perspectives-on-politics/article/global-analysis-of-transgender-rights-introducing-the-trans-rights-indicator-project-trip/3C143E501E0824C8F9F0C40925965F43"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FXXLTS"
+  },
+  {
+   "name": "myleswilliamson.net",
+   "url": "https://www.myleswilliamson.net/trip-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-15",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "myleswilliamson.net",
+  "host": "myleswilliamson.net"
+ }
+}

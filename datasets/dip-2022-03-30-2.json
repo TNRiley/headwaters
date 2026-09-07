@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-03-30-2",
+ "title": "Census tract urbanization",
+ "hook": "Studies of US urbanization often examine census tracts, but those boundaries have changed over time and are relatively new in many parts of the country. To aid longitudinal analyses, Scott N. Markley et al.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/history/www/programs/geography/tracts_and_block_numbering_areas.html"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-022-01184-x"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/fzv5e/"
+  },
+  {
+   "name": "s4.ad.brown.edu",
+   "url": "https://s4.ad.brown.edu/Projects/Diversity/Researcher/Bridging.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-30",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

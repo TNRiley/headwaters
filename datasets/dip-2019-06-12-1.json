@@ -1,0 +1,49 @@
+{
+ "id": "dip-2019-06-12-1",
+ "title": "Ebola in the DRC",
+ "hook": "The Humanitarian Data Exchange has been tracking cases and deaths in the North Kivu Ebola outbreak. The numbers come from the Democratic Republic of the Congo’s health ministry and distinguish between suspected, probable, and confirmed cases; they are available at both the national level and disaggregated into the ministry’s 25 currently-affected health zones.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/ebola-cases-and-deaths-drc-north-kivu"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/d41586-019-01735-0"
+  },
+  {
+   "name": "who.int",
+   "url": "https://www.who.int/ebola/situation-reports/drc-2018/en/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cmrivers/ebola"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-05-23-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-12",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "humdata.org",
+  "host": "humdata.org"
+ }
+}

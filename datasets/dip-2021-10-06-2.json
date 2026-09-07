@@ -1,0 +1,66 @@
+{
+ "id": "dip-2021-10-06-2",
+ "title": "Stolpersteine",
+ "hook": "German artist Gunter Demnig’s Stolpersteine are concrete-and-brass “stumbling stones,” each inscribed with the name of someone killed or persecuted by the Nazi regime, placed into pavement where the person last freely lived or worked.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "reference works",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Gunter_Demnig"
+  },
+  {
+   "name": "stolpersteine.eu",
+   "url": "http://www.stolpersteine.eu/en/home/"
+  },
+  {
+   "name": "dw.com",
+   "url": "https://www.dw.com/en/germany-75000th-stolperstein-for-holocaust-victims-laid/a-51827506"
+  },
+  {
+   "name": "stolpersteine-berlin.de",
+   "url": "https://www.stolpersteine-berlin.de/en/project/koordinierungsstelle"
+  },
+  {
+   "name": "stolpersteine-berlin.de",
+   "url": "https://www.stolpersteine-berlin.de/en/finding-stolpersteine"
+  },
+  {
+   "name": "stolpersteine-hamburg.de",
+   "url": "https://www.stolpersteine-hamburg.de/en.php?MAIN_ID=7"
+  },
+  {
+   "name": "stolpersteine.app",
+   "url": "https://stolpersteine.app/en/stolpersteine-app/"
+  },
+  {
+   "name": "stolpersteine.app",
+   "url": "https://stolpersteine.app/en/stolpersteine/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/cities/2019/feb/18/stumbling-stones-a-different-vision-of-holocaust-remembrance"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-10-06",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-10-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

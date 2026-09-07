@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-05-10-5",
+ "title": "*Such* an important dataset",
+ "hook": "Grad students in Princeton’s computer science department have published a dataset they call Self-Annotated Reddit Corpus, or “SARC” for short.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nlp.cs.princeton.edu",
+   "url": "http://nlp.cs.princeton.edu/SARC/"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/1704.05579"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ef2020/SarcasmAmazonReviewsCorpus/wiki"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-10",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nlp.cs.princeton.edu",
+  "host": "nlp.cs.princeton.edu"
+ }
+}

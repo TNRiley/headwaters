@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-04-14-5",
+ "title": "Rainforest soundscapes",
+ "hook": "As part of its “efforts to better understand the ecology of forest elephant movements, and the spatial and temporal pattern of poaching,” the Elephant Listening Project has been collecting audio 24/7 from 50 locations in the Republic of the Congo and publishing the raw recordings — ”more than 1 million hours of the sounds of birds, primates, insects, frogs, you name it.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "elephantlisteningproject.org",
+   "url": "https://elephantlisteningproject.org/"
+  },
+  {
+   "name": "elephantlisteningproject.org",
+   "url": "https://elephantlisteningproject.org/arus/"
+  },
+  {
+   "name": "elephantlisteningproject.org",
+   "url": "https://elephantlisteningproject.org/congo-soundscapes-public-database/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-14",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "elephantlisteningproject.org",
+  "host": "elephantlisteningproject.org"
+ }
+}

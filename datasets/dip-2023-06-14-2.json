@@ -1,0 +1,66 @@
+{
+ "id": "dip-2023-06-14-2",
+ "title": "Climate finance",
+ "hook": "“Rich nations say they’re spending billions to fight climate change” in developing countries, notes a recent Reuters investigation, which found some of this climate finance going to “questionable” projects, “including a coal plant, a hotel and chocolate shops.” To help find those examples, Reuters teamed up with Big Local News to extract “43,844 records [from the] Fifth, Fourth, and Third Biennial reports that developed countries submitted to the U.N.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "biglocalnews.org",
+   "url": "https://biglocalnews.org/content/about/"
+  },
+  {
+   "name": "stacks.stanford.edu",
+   "url": "https://stacks.stanford.edu/file/druid:dx902xg3463/README_bln_reuters_climate_finance.pdf"
+  },
+  {
+   "name": "unfccc.int",
+   "url": "https://unfccc.int/BR5"
+  },
+  {
+   "name": "unfccc.int",
+   "url": "https://unfccc.int/BR4"
+  },
+  {
+   "name": "unfccc.int",
+   "url": "https://unfccc.int/process-and-meetings/transparency-and-reporting/reporting-and-review-under-the-convention/national-communications-and-biennial-reports-annex-i-parties/biennial-report-submissions/third-biennial-reports-annex-i"
+  },
+  {
+   "name": "purl.stanford.edu",
+   "url": "https://purl.stanford.edu/dx902xg3463"
+  },
+  {
+   "name": "biglocalnews.org",
+   "url": "https://biglocalnews.org/content/news/2023/06/01/climate-finance-story-recipe.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "reuters.com",
+   "url": "https://www.reuters.com/investigates/special-report/climate-change-finance/"
+  },
+  {
+   "name": "reuters.com",
+   "url": "https://www.reuters.com/graphics/CLIMATE-CHANGE/FINANCE/gdvzqlyjqpw/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-06-14",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-06-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "biglocalnews.org",
+  "host": "biglocalnews.org"
+ }
+}

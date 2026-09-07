@@ -1,0 +1,33 @@
+{
+ "id": "dip-2017-02-15-5",
+ "title": "Student athletes",
+ "hook": "The NCAA publishes data on its student athletes’ academic progress and graduation rates. The numbers are aggregated by school and sport — from baseball, to women’s bowling, to mixed rifle. [h/t Albert Bowden]",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "icpsr.umich.edu",
+   "url": "https://www.icpsr.umich.edu/icpsrweb/content/NCAA/data.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-02-15",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-02-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "icpsr.umich.edu",
+  "host": "icpsr.umich.edu"
+ }
+}

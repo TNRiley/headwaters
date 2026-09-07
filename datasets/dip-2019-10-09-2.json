@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-10-09-2",
+ "title": "The rules for making rules",
+ "hook": "The Parliamentary Rules Database traces “the formal rules of procedure for various parliaments over time.” Currently, the database covers two parliaments — the UK House of Commons and the Irish Dáil. The House of Commons info includes more than 137,000 “standing orders,” going all the way back to 1811.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "parlrulesdata.org",
+   "url": "https://parlrulesdata.org/"
+  },
+  {
+   "name": "parliament.uk",
+   "url": "https://www.parliament.uk/site-information/glossary/standing-orders/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-09",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "parlrulesdata.org",
+  "host": "parlrulesdata.org"
+ }
+}

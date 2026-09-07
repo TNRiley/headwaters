@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-01-17-1",
+ "title": "Three million NYC marriage licenses, reclaimed",
+ "hook": "Reclaim The Records launched in 2015 and became a 501(c)(3) non-profit last year. Its mission: To “identify important genealogical records sets that ought to be in the public domain but which are being wrongly restricted by government archives, libraries, and agencies.” The organization files freedom-of-information…",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "reclaimtherecords.org",
+   "url": "https://www.reclaimtherecords.org/"
+  },
+  {
+   "name": "reclaimtherecords.org",
+   "url": "https://www.reclaimtherecords.org/records-request/2/"
+  },
+  {
+   "name": "nycmarriageindex.com",
+   "url": "https://www.nycmarriageindex.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-17",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "reclaimtherecords.org",
+  "host": "reclaimtherecords.org"
+ }
+}

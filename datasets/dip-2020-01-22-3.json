@@ -1,0 +1,53 @@
+{
+ "id": "dip-2020-01-22-3",
+ "title": "Street sprawl",
+ "hook": "Using 46 million kilometers of data from OpenStreetMap, Christopher Barrington-Leigh and Adam Millard-Ball have published “the first systematic and globally commensurable measures of street-network sprawl based on graph-theoretic and geographic concepts.” You can explore their findings via an interactive map and also download aggregate metrics for nearly 200 cities and more than 160 countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "planet.openstreetmap.org",
+   "url": "https://planet.openstreetmap.org"
+  },
+  {
+   "name": "wellbeing.ihsp.mcgill.ca",
+   "url": "https://wellbeing.ihsp.mcgill.ca"
+  },
+  {
+   "name": "people.ucsc.edu",
+   "url": "https://people.ucsc.edu/~adammb/"
+  },
+  {
+   "name": "journals.plos.org",
+   "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223078"
+  },
+  {
+   "name": "sprawlmap.org",
+   "url": "https://sprawlmap.org/"
+  },
+  {
+   "name": "sprawl.research.mcgill.ca",
+   "url": "https://sprawl.research.mcgill.ca/publications/2020-PNAS-sprawl/website-FAQ.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-22",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "planet.openstreetmap.org",
+  "host": "planet.openstreetmap.org"
+ }
+}

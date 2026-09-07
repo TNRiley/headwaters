@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-06-19-2",
+ "title": "Discographies",
+ "hook": "Discogs, a user-contributed music database and marketplace, publishes “monthly data dumps” listing the millions of artists, labels, and releases in its system. Additional types of data (e.g., user reviews) are available through Discogs’ API. [h/t Jan Willem Tulp]",
+ "hook_source": "publisher",
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "discogs.com",
+   "url": "https://www.discogs.com/"
+  },
+  {
+   "name": "support.discogs.com",
+   "url": "https://support.discogs.com/hc/en-us/articles/360008545114-Overview-Of-How-Discogs-Is-Built"
+  },
+  {
+   "name": "discogs.com",
+   "url": "https://www.discogs.com/about"
+  },
+  {
+   "name": "discogs.com",
+   "url": "https://www.discogs.com/developers/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-19",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "discogs.com",
+  "host": "discogs.com"
+ }
+}

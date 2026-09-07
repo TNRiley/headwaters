@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-05-29-2",
+ "title": "Las Calles de las Mujeres",
+ "hook": "GeoChicas, an initiative to close the gender gap in the OpenStreetMap community, has built an interactive map and dataset that shows which streets in Latin America and Spain that are named after women (and the much larger number named after men).",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "geochicas.org",
+   "url": "https://geochicas.org/"
+  },
+  {
+   "name": "wiki.openstreetmap.org",
+   "url": "https://wiki.openstreetmap.org/wiki/GeoChicas"
+  },
+  {
+   "name": "geochicasosm.github.io",
+   "url": "https://geochicasosm.github.io/lascallesdelasmujeres/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/geochicasosm/lascallesdelasmujeres"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-29",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "geochicas.org",
+  "host": "geochicas.org"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-07-07-5",
+ "title": "Andean roadkill",
+ "hook": "For their recent paper, “Geography of roadkills within the Tropical Andes Biodiversity Hotspot,” ecologists Pablo Medrano-Vizcaíno and Santiago Espinosa surveyed three 33-kilometer road segments dozens of times in 2014.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/btp.12938"
+  },
+  {
+   "name": "scholar.google.com",
+   "url": "https://scholar.google.com/citations?user=Vv-viDsAAAAJ&hl=en"
+  },
+  {
+   "name": "datadryad.org",
+   "url": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.xwdbrv1cp"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-07-07",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-07-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Gentry et al.",
+  "host": "onlinelibrary.wiley.com"
+ }
+}

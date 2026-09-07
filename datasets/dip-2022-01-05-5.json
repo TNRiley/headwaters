@@ -1,0 +1,46 @@
+{
+ "id": "dip-2022-01-05-5",
+ "title": "Honey bees",
+ "hook": "Since the 1980s, the US Department of Agriculture has conducted an annual Bee and Honey Inquiry Survey, which generates estimates of “the number of colonies producing honey, yield per colony, honey production, average price, price by color class and value as well as honey stocks at the state and national levels.” Since 2016, it has also published annual reports that examine the gain and loss of colonies, including losses due to colony collapse disorder.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature",
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nass.usda.gov",
+   "url": "https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Bee_and_Honey/"
+  },
+  {
+   "name": "usda.library.cornell.edu",
+   "url": "https://usda.library.cornell.edu/concern/publications/hd76s004z?locale=en"
+  },
+  {
+   "name": "usda.library.cornell.edu",
+   "url": "https://usda.library.cornell.edu/concern/publications/rn301137d?locale=en"
+  },
+  {
+   "name": "ars.usda.gov",
+   "url": "https://www.ars.usda.gov/oc/br/ccd/index/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-05",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nass.usda.gov",
+  "host": "nass.usda.gov"
+ }
+}

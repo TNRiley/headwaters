@@ -1,0 +1,41 @@
+{
+ "id": "dip-2023-02-01-3",
+ "title": "Novel dialogue",
+ "hook": "Krishnapriya Vishnubhotla et al.’s Project Dialogism Novel Corpus contains every quotation from 22 novels, plus who speaks each line, who they’re addressing, the characters they mention, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2204.05836"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Priya22/project-dialogism-novel-corpus"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/document/d/1eBsX2rjdLBkmA-kWB_jHCxC1nmbzinH04WUg9PeN_2A/edit"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-01",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arxiv.org",
+  "host": "arxiv.org"
+ }
+}

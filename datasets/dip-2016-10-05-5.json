@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-10-05-5",
+ "title": "Highway traffic",
+ "hook": "FOIA enthusiast Max Galka received a month of highway traffic data from the U.S. Department of Transportation.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "metrocosm.com",
+   "url": "http://metrocosm.com/map-us-traffic/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-05",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "metrocosm.com",
+  "host": "metrocosm.com"
+ }
+}

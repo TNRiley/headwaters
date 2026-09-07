@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-12-14-5",
+ "title": "Mastodon membership",
+ "hook": "The open-source website instances.social tracks 16,000+ servers running Mastodon, the most prominent of the decentralized social networks seen as alternatives to Twitter. It collects each server’s domain, name, description, user count, status count, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/TheKinrar/instances"
+  },
+  {
+   "name": "instances.social",
+   "url": "https://instances.social/"
+  },
+  {
+   "name": "joinmastodon.org",
+   "url": "https://joinmastodon.org/"
+  },
+  {
+   "name": "simonwillison.net",
+   "url": "https://simonwillison.net/"
+  },
+  {
+   "name": "simonwillison.net",
+   "url": "https://simonwillison.net/2022/Nov/20/tracking-mastodon/"
+  },
+  {
+   "name": "observablehq.com",
+   "url": "https://observablehq.com/@simonw/mastodon-users-and-statuses-over-time"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-12-14",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-12-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

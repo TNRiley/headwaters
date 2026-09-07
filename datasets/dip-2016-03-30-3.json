@@ -1,0 +1,39 @@
+{
+ "id": "dip-2016-03-30-3",
+ "title": "Titanic passengers",
+ "hook": "Based in large part on Encyclopedia Titanica, researchers have compiled a structured dataset of 1,309 passengers on the RMS Titanic’s maiden voyage. (To get the data, download titanic3.csv on this page.) The dataset includes passengers’ names, ages, ticket fare, cabin number, and whether they survived.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "encyclopedia-titanica.org",
+   "url": "http://www.encyclopedia-titanica.org/"
+  },
+  {
+   "name": "biostat.mc.vanderbilt.edu",
+   "url": "http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.html"
+  },
+  {
+   "name": "biostat.mc.vanderbilt.edu",
+   "url": "http://biostat.mc.vanderbilt.edu/wiki/Main/DataSets"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-30",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "encyclopedia-titanica.org",
+  "host": "encyclopedia-titanica.org"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "id": "dip-2019-06-26-4",
+ "title": "UK post-graduation earnings",
+ "hook": "The United Kingdom’s Department of Education publishes data on its university graduates’ annual earnings 1, 3, 5, and 10 years after graduation, broken down by school attended, subject studied, and demographic characteristics. [h/t Tera Allas]",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/collections/statistics-higher-education-graduate-employment-and-earnings"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-26",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "www.gov.uk",
+  "host": "gov.uk"
+ }
+}

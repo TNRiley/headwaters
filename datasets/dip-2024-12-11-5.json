@@ -1,0 +1,65 @@
+{
+ "id": "dip-2024-12-11-5",
+ "title": "A long-running ultramarathon",
+ "hook": "The Comrades Marathon, first run in 1921, is considered “the oldest and largest ultramarathon in the world.” The route stretches 80+ kilometers between Durban and Pietermaritzburg, flipping annually between “up” and “down” directions.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "comrades.com",
+   "url": "https://www.comrades.com/"
+  },
+  {
+   "name": "comrades.com",
+   "url": "https://www.comrades.com/about/comrades-museum"
+  },
+  {
+   "name": "kaggle.com",
+   "url": "https://www.kaggle.com/suugaku"
+  },
+  {
+   "name": "kaggle.com",
+   "url": "https://www.kaggle.com/datasets/suugaku/comrades-marathon-results"
+  },
+  {
+   "name": "arrs.run",
+   "url": "https://arrs.run/"
+  },
+  {
+   "name": "arrs.run",
+   "url": "https://arrs.run/LongRunM.htm"
+  },
+  {
+   "name": "arrs.run",
+   "url": "https://arrs.run/LongRunUM.htm"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Antony_Unwin"
+  },
+  {
+   "name": "bookdown.org",
+   "url": "https://bookdown.org/aatcosada/GmooG-book2/secComM.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-12-11",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-12-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "comrades.com",
+  "host": "comrades.com"
+ }
+}

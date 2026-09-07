@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-03-13-2",
+ "title": "U.S. wildfire costs",
+ "hook": "Stanford University’s Big Local News project has compiled data from 100,000+ daily situation reports (known as “SIT-209”s) filed by federal firefighting authorities, detailing their efforts to suppress large wildfires.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "searchworks.stanford.edu",
+   "url": "https://searchworks.stanford.edu/view/xj043rd8767"
+  },
+  {
+   "name": "fam.nwcg.gov",
+   "url": "https://fam.nwcg.gov/fam-web/"
+  },
+  {
+   "name": "drive.google.com",
+   "url": "https://drive.google.com/file/d/1BMUcXKaLUI4kSqj0cDNO7Lhih0B_x9XU/view"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-13",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "searchworks.stanford.edu",
+  "host": "searchworks.stanford.edu"
+ }
+}

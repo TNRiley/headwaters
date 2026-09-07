@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-09-20-4",
+ "title": "DOI drones",
+ "hook": "Through a FOIA request to the US Department of the Interior, journalist Ben Welsh has obtained and published the agency’s drone roster. For each of the 850+ remote-controlled aircraft, the dataset lists the agency bureau and office, drone manufacturer, model, cost, serial number, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "muckrock.com",
+   "url": "https://www.muckrock.com/foi/united-states-of-america-10/list-of-all-department-of-interior-owned-unmanned-aircraft-systems-137451/"
+  },
+  {
+   "name": "palewi.re",
+   "url": "https://palewi.re/who-is-ben-welsh/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1Q2yLaIJWEgofIJc8XS9oAdgSrW0_zPMYF04jAI9edVM/edit"
+  },
+  {
+   "name": "muckrock.com",
+   "url": "https://www.muckrock.com/foi/united-states-of-america-10/database-of-14-cfr-part-48-registered-drones-132943/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-12-21-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-20",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "muckrock.com",
+  "host": "muckrock.com"
+ }
+}

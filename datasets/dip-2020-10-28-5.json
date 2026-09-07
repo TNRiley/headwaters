@@ -1,0 +1,53 @@
+{
+ "id": "dip-2020-10-28-5",
+ "title": "Witch trials",
+ "hook": "Some years ago, economists Peter T. Leeson and Jake Russ compiled a dataset of 10,000+ witch trials in Europe. Over the course of 550 years, the trials accused more than 43,000 people and led to 16,000 deaths. Related: Leeson and Russ’s academic paper analyzing the data (PDF).",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "economics.gmu.edu",
+   "url": "https://economics.gmu.edu/people/pleeson"
+  },
+  {
+   "name": "jakeruss.com",
+   "url": "https://www.jakeruss.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/JakeRuss/witch-trials"
+  },
+  {
+   "name": "peterleeson.com",
+   "url": "https://www.peterleeson.com/Witch_Trials.pdf"
+  },
+  {
+   "name": "shca.ed.ac.uk",
+   "url": "https://www.shca.ed.ac.uk/Research/witches/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-01-27-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-10-28",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-10-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "economics.gmu.edu",
+  "host": "economics.gmu.edu"
+ }
+}

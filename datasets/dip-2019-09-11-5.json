@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-09-11-5",
+ "title": "Bug fixes",
+ "hook": "Researchers at Brazil’s Federal University of Ceará have published a new dataset “composed of more than 70,000 bug-fix reports from 10 years of bug-fixing activity of 55 projects from the Apache Software Foundation.”",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "dl.acm.org",
+   "url": "https://dl.acm.org/citation.cfm?id=3345639"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/Replication_Package_-_PROMISE_19/8852084"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-11",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dl.acm.org",
+  "host": "dl.acm.org"
+ }
+}

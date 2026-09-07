@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-08-31-2",
+ "title": "Fatal car crashes",
+ "hook": "On Monday, the Department of Transportation released 2015 data from its Fatality Analysis Reporting System. The dataset contains detailed information about every fatal motor-vehicle crash in the U.S., aggregated from a variety of state databases, including police reports, death certificates, and licensing files.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "transportation.gov",
+   "url": "https://www.transportation.gov/fastlane/2015-traffic-fatalities-data-has-just-been-released-call-action-download-and-analyze"
+  },
+  {
+   "name": "nhtsa.gov",
+   "url": "http://www.nhtsa.gov/FARS"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-31",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "transportation.gov",
+  "host": "transportation.gov"
+ }
+}

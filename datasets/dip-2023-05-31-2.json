@@ -1,0 +1,70 @@
+{
+ "id": "dip-2023-05-31-2",
+ "title": "Local business",
+ "hook": "Despite the name, the Census Bureau’s County Business Patterns datasets cover a range of geographic units, including states, congressional districts, metro areas, counties, and ZIP codes.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/cbp.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/cbp/data/datasets.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/econ/overview/mu0600.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/cbp/technical-documentation/methodology.html#par_textimage_245304869"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/naics/"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/newsroom/press-releases/2023/2021-county-business-patterns.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/data/datasets/2021/econ/cbp/2021-cbp.html"
+  },
+  {
+   "name": "fpeckert.me",
+   "url": "https://www.fpeckert.me/"
+  },
+  {
+   "name": "fpeckert.me",
+   "url": "https://www.fpeckert.me/elmmss/"
+  },
+  {
+   "name": "fpeckert.me",
+   "url": "https://www.fpeckert.me/cbp/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-31",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

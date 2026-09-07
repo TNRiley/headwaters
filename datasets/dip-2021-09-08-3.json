@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-09-08-3",
+ "title": "India’s political parties",
+ "hook": "The Trivedi Centre for Political Data has published a dataset of “all parties that have contested national and state elections in India since 1962,” with an eye toward unifying the information across name changes.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "tcpd.ashoka.edu.in",
+   "url": "https://tcpd.ashoka.edu.in/"
+  },
+  {
+   "name": "tcpd.ashoka.edu.in",
+   "url": "https://tcpd.ashoka.edu.in/political-parties-of-india/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/tcpd/ppi/blob/main/17Aug2021TCPDPPI_1_0.pdf"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Scheduled_Castes_and_Scheduled_Tribes"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-08",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tcpd.ashoka.edu.in",
+  "host": "tcpd.ashoka.edu.in"
+ }
+}

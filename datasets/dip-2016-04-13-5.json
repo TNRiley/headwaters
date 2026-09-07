@@ -1,0 +1,38 @@
+{
+ "id": "dip-2016-04-13-5",
+ "title": "Plane papers",
+ "hook": "The Federal Aviation Administration maintains a database of all non-military aircraft registrations, which includes extensive details about each plane/helicopter/glider/blimp and their owners. Related: “Spies In The Skies.” [h/t Peter Aldhous]",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "faa.gov",
+   "url": "http://www.faa.gov/licenses_certificates/aircraft_certification/aircraft_registry/releasable_aircraft_download/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "http://www.buzzfeed.com/peteraldhous/spies-in-the-skies"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-13",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "faa.gov",
+  "host": "faa.gov"
+ }
+}

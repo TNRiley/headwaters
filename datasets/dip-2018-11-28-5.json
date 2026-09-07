@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-11-28-5",
+ "title": "Dog bites",
+ "hook": "New York City’s Department of Health publishes a dataset of 8,000+ reported instances of dogs biting humans, mostly from 2015 through 2017.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/Health/DOHMH-Dog-Bite-Data/rsgh-akpg"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-11-28",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-11-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Squirrel Census",
+  "host": "cityofnewyork.us"
+ }
+}

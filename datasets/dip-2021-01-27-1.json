@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-01-27-1",
+ "title": "Tens of millions of flights",
+ "hook": "The OpenSky Network crowdsources air traffic data, thanks to members who collect the radio signals that aircraft periodically broadcast.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "opensky-network.org",
+   "url": "https://opensky-network.org"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Automatic_Dependent_Surveillance%E2%80%93Broadcast"
+  },
+  {
+   "name": "opensky-network.org",
+   "url": "https://opensky-network.org/community/blog/item/6-opensky-covid-19-flight-dataset"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/4419082"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-27",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opensky-network.org",
+  "host": "opensky-network.org"
+ }
+}

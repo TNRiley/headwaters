@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-05-04-2",
+ "title": "The Ku Klux Klan, 1915–1940",
+ "hook": "Scholars at Virginia Commonwealth University have identified and mapped the locations of 2,000 KKK branches active in the early 20th century.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "labs.library.vcu.edu",
+   "url": "http://labs.library.vcu.edu/klan/"
+  },
+  {
+   "name": "scholarscompass.vcu.edu",
+   "url": "http://scholarscompass.vcu.edu/hist_data/1/"
+  },
+  {
+   "name": "splcenter.org",
+   "url": "https://www.splcenter.org/fighting-hate/intelligence-report/2016/active-hate-groups-united-states-2015"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-04",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "labs.library.vcu.edu",
+  "host": "labs.library.vcu.edu"
+ }
+}

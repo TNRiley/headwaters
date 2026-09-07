@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-04-10-5",
+ "title": "Bird-building collisions",
+ "hook": "To study the relationship between artificial light and “flight calling” among nocturnally-migrating species, a team of researchers examined 70,000 instances of birds colliding with buildings in Chicago. [h/t Ben Winger]",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "royalsocietypublishing.org",
+   "url": "https://royalsocietypublishing.org/doi/10.1098/rspb.2019.0364"
+  },
+  {
+   "name": "datadryad.org",
+   "url": "https://datadryad.org/resource/doi:10.5061/dryad.8rr0498"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-10",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "royalsocietypublishing.org",
+  "host": "royalsocietypublishing.org"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "dip-2018-07-18-2",
+ "title": "34,361 European migration deaths",
+ "hook": "The Amsterdam-based activist group UNITED for Intercultural Action has, since the early 1990s, been collecting information about the deaths of Europe’s refugee-seekers.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "unitedagainstracism.org",
+   "url": "http://www.unitedagainstracism.org/"
+  },
+  {
+   "name": "ondata.it",
+   "url": "http://ondata.it/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ondata/the-list"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/world/2018/jun/20/the-list-europe-migrant-bodycount"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-07-18",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-07-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "unitedagainstracism.org",
+  "host": "unitedagainstracism.org"
+ }
+}

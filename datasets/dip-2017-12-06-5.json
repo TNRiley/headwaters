@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-12-06-5",
+ "title": "One family’s spending",
+ "hook": "An anonymous married couple has decided “to be completely open about [their] finances so that people can see what an actual family’s budget looks like.” In addition to blogging about their financial habits, they’ve also published a spreadsheet of “(almost) every dollar” they spent between December 2015 and November 2017.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ourfamilyandfinances.blogspot.com",
+   "url": "https://ourfamilyandfinances.blogspot.com/p/about-us.html"
+  },
+  {
+   "name": "ourfamilyandfinances.blogspot.com",
+   "url": "https://ourfamilyandfinances.blogspot.com"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/datasets/comments/7ei2ma/2_years_of_my_spending_history/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-12-06",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-12-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ourfamilyandfinances.blogspot.com",
+  "host": "ourfamilyandfinances.blogspot.com"
+ }
+}

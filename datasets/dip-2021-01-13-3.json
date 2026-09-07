@@ -1,0 +1,53 @@
+{
+ "id": "dip-2021-01-13-3",
+ "title": "Bundestag writings",
+ "hook": "Political scientists Corinna Kroeber and Tobias Remschel have compiled a dataset of “all written communication published by the German Bundestag between 1949 and 2017,” unifying datasets released by Germany’s parliament “in a manner easily accessible to researchers applying text analysis.” For each of the 131,835 reports, requests, bills, and other documents, the dataset provides the full text, date, author information, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "corinna-kroeber.jimdofree.com",
+   "url": "https://corinna-kroeber.jimdofree.com/"
+  },
+  {
+   "name": "cambridge.org",
+   "url": "https://www.cambridge.org/core/journals/government-and-opposition/article/every-single-word-a-new-data-set-including-all-parliamentary-materials-published-in-germany/34D424C406687F7446C6F32980A4FE84"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/7EJ1KI"
+  },
+  {
+   "name": "bundestag.de",
+   "url": "https://www.bundestag.de/services/opendata"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/L4OAKN"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-29-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-13",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "corinna-kroeber.jimdofree.com",
+  "host": "corinna-kroeber.jimdofree.com"
+ }
+}

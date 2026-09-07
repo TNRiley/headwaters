@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-07-22-2",
+ "title": "COVID-related behavior",
+ "hook": "Since early April, Imperial College London and YouGov have been surveying people in 29 countries about their coronavirus-related behaviors and opinions. Topics include mask usage, self-isolation, working from home, vaccinations, and economic activity; the 230,000+ (anonymized) responses are available to download.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "imperial.ac.uk",
+   "url": "https://www.imperial.ac.uk/global-health-innovation/our-research/covid-19-response/covid-19-behaviour-tracker/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/YouGov-Data/covid-19-tracker"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-22",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "imperial.ac.uk",
+  "host": "imperial.ac.uk"
+ }
+}

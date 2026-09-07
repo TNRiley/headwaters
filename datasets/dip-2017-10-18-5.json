@@ -1,0 +1,57 @@
+{
+ "id": "dip-2017-10-18-5",
+ "title": "Get the idea?",
+ "hook": "ConceptNet “is a freely-available semantic network, designed to help computers understand the meanings of words that people use.” It defines approximately 28 million “statements,” i.e., relationships between various things.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "conceptnet.io",
+   "url": "http://conceptnet.io/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/commonsense/conceptnet5/wiki/FAQ"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/commonsense/conceptnet5/wiki/Relations"
+  },
+  {
+   "name": "conceptnet.io",
+   "url": "http://conceptnet.io/c/en/newsletter"
+  },
+  {
+   "name": "conceptnet.io",
+   "url": "http://conceptnet.io/c/en/computer"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/commonsense/conceptnet5/wiki/Downloads"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/commonsense/conceptnet5/wiki/API"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-10-18",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-10-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "conceptnet.io",
+  "host": "conceptnet.io"
+ }
+}

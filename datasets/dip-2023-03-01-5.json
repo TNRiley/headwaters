@@ -1,0 +1,39 @@
+{
+ "id": "dip-2023-03-01-5",
+ "title": "Thump, thump, coconut",
+ "hook": "“Traditionally,” in the Philippines, “coconuts are classified into their maturity levels manually,” June Anne Caladcad and Eduardo Piedad Jr. write.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340923000549"
+  },
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0168169919324767"
+  },
+  {
+   "name": "mendeley.com",
+   "url": "https://data.mendeley.com/datasets/hxh8kd3snj"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-01",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

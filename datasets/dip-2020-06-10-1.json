@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-06-10-1",
+ "title": "Black Lives Matter protests",
+ "hook": "An unnamed geospatial analyst has been mapping “every town or city I can find where a George Floyd / Black Lives Matter protest, action, or vigil has occurred since May 25” — more than 2,600 so far. The data files powering the map include each city’s name, state/region, country, coordinates, and the date it was added.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/gis/comments/gx8uoa/mapping_george_floyd_black_lives_matter_protests/"
+  },
+  {
+   "name": "creosotemaps.com",
+   "url": "https://www.creosotemaps.com/blm2020/"
+  },
+  {
+   "name": "creosotemaps.com",
+   "url": "https://www.creosotemaps.com/blm2020/json/"
+  },
+  {
+   "name": "cambridge.org",
+   "url": "https://www.cambridge.org/core/journals/perspectives-on-politics/article/black-lives-matter-evidence-that-policecaused-deaths-predict-protest-activity/BFA2E74F4BCB25C3C222807E8B1111D4/share/53d6d67c798695fc19688bd571777e433fca550d"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/L2GSK6"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-06-10",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-06-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "reddit.com",
+  "host": "reddit.com"
+ }
+}

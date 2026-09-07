@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-05-08-2",
+ "title": "Canadian candidates",
+ "hook": "University of Montreal PhD candidate Semra Sevi has compiled data on all Canadian federal candidates from 1867 to 2017. The dataset lists each candidate’s gender, occupation, incumbency status, party affiliations, birth year, and electoral results.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "Canada",
+ "sources": [
+  {
+   "name": "semrasevi.com",
+   "url": "https://semrasevi.com/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ABFNSQ"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Work_Less_Party"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-08",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "semrasevi.com",
+  "host": "semrasevi.com"
+ }
+}

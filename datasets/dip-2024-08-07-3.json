@@ -1,0 +1,46 @@
+{
+ "id": "dip-2024-08-07-3",
+ "title": "Ireland’s gender pay gaps",
+ "hook": "Ireland’s Gender Pay Gap Information Act requires certain-sized companies to report their differences pay for men versus women.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "gov.ie",
+   "url": "https://www.gov.ie/en/publication/29606-what-is-the-gender-pay-gap-information-act-2021/"
+  },
+  {
+   "name": "jenniferkeane.ie",
+   "url": "http://www.jenniferkeane.ie/"
+  },
+  {
+   "name": "paygap.ie",
+   "url": "https://paygap.ie/"
+  },
+  {
+   "name": "paygap.ie",
+   "url": "https://paygap.ie/downloads"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-08-07",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-08-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Wreck Inventory of Ireland",
+  "host": "gov.ie"
+ }
+}

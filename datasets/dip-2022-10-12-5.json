@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-10-12-5",
+ "title": "Wine economics",
+ "hook": "Researchers at the University of Adelaide’s Wine Economics Research Centre have compiled several longitudinal datasets. One, for example, quantifies the total area devoted to growing each grape variety in each country, 1960–2016.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "economics.adelaide.edu.au",
+   "url": "https://economics.adelaide.edu.au/wine-economics/"
+  },
+  {
+   "name": "economics.adelaide.edu.au",
+   "url": "https://economics.adelaide.edu.au/wine-economics/databases"
+  },
+  {
+   "name": "oiv.int",
+   "url": "https://www.oiv.int/"
+  },
+  {
+   "name": "oiv.int",
+   "url": "https://www.oiv.int/en/statistiques/recherche"
+  },
+  {
+   "name": "blog.smallmultiples.com.au",
+   "url": "https://blog.smallmultiples.com.au/2020/12/09/the-origins-and-production-of-wine-grapes/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-12",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "economics.adelaide.edu.au",
+  "host": "economics.adelaide.edu.au"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "dip-2019-07-17-3",
+ "title": "International arbitration",
+ "hook": "The PluriCourts Investment Treaty Arbitration Database (PITAD) provides “a comprehensive, regularly-updated and networked overview of all-known investment arbitration cases.” You can download the 1,400+ cases or explore them online, searching by case, arbitrator, investor, or country.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "journalism",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "pitad.org",
+   "url": "https://pitad.org/"
+  },
+  {
+   "name": "pitad.org",
+   "url": "https://pitad.org/index#crud/flat_files/list"
+  },
+  {
+   "name": "pulitzer.org",
+   "url": "https://www.pulitzer.org/finalists/chris-hamby-buzzfeed-news"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/chrishamby/super-court"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-17",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pitad.org",
+  "host": "pitad.org"
+ }
+}

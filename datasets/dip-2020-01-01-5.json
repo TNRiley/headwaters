@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-01-01-5",
+ "title": "Game show gambles",
+ "hook": "To study how people make decisions in risky situations, a team of academics analyzed contestants’ choices in 100+ episodes of Deal or No Deal that aired in the Netherlands, Germany, and the US. Their dataset is available through ICPSR (registration required) and the Wayback Machine.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "papers.ssrn.com",
+   "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=636508"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Deal_or_No_Deal"
+  },
+  {
+   "name": "openicpsr.org",
+   "url": "https://www.openicpsr.org/openicpsr/project/113232/version/V1/view"
+  },
+  {
+   "name": "web.archive.org",
+   "url": "http://web.archive.org/web/2018*/https://www.aeaweb.org/articles?id=10.1257/aer.98.1.38"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-01",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "papers.ssrn.com",
+  "host": "papers.ssrn.com"
+ }
+}

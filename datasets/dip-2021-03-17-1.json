@@ -1,0 +1,47 @@
+{
+ "id": "dip-2021-03-17-1",
+ "title": "Disasters",
+ "hook": "The Emergency Events Database (EM-DAT) contains “essential core data on the occurrence and effects of more than 21,000 [natural and technological] disasters in the world, from 1900 to present.” It focuses on disasters that have caused 10+ human deaths, affected 100+ people, sparked a state of emergency, and/or prompted a request for international assistance.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "emdat.be",
+   "url": "https://www.emdat.be/"
+  },
+  {
+   "name": "emdat.be",
+   "url": "https://www.emdat.be/explanatory-notes"
+  },
+  {
+   "name": "public.emdat.be",
+   "url": "https://public.emdat.be/"
+  },
+  {
+   "name": "sedac.ciesin.columbia.edu",
+   "url": "https://sedac.ciesin.columbia.edu/data/set/pend-gdis-1960-2018"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-021-00846-6"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-17",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "emdat.be",
+  "host": "emdat.be"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-11-10-4",
+ "title": "NFTs",
+ "hook": "A team developing open-source tools for monitoring cryptocurrency activity has built a dataset of 7 million transactions of non-fungible tokens (NFTs) on the Ethereum blockchain.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/bugout-dev/moonstream"
+  },
+  {
+   "name": "kaggle.com",
+   "url": "https://www.kaggle.com/simiotic/ethereum-nfts"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Non-fungible_token"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Ethereum"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/bugout-dev/moonstream/blob/main/datasets/nfts/papers/ethereum-nfts.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-11-10",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-11-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

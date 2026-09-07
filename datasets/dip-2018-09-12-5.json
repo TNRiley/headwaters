@@ -1,0 +1,39 @@
+{
+ "id": "dip-2018-09-12-5",
+ "title": "Breweries",
+ "hook": "Open Brewery DB is a searchable database of more than 8,000 breweries in the United States (although “future plans are to import world-wide data”). The site provides an API, which lets you query by name, location, and type — microbrewery, regional brewery, brewpub, and so on.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "openbrewerydb.org",
+   "url": "https://www.openbrewerydb.org/"
+  },
+  {
+   "name": "ttb.gov",
+   "url": "https://www.ttb.gov/beer/beer-stats.shtml"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-05-24-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-09-12",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-09-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openbrewerydb.org",
+  "host": "openbrewerydb.org"
+ }
+}

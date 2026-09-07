@@ -1,0 +1,57 @@
+{
+ "id": "dip-2021-06-23-3",
+ "title": "Medical abbreviations",
+ "hook": "Lisa Grossman Liu et al. have developed the Medical Abbreviation and Acronym Meta-Inventory, a database that maps 104,000+ medical abbreviations and acronyms to 170,000+ different meanings.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-021-00929-4"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/lisavirginia/clinical-abbreviations/tree/master/metainventory"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-021-00929-4/tables/2"
+  },
+  {
+   "name": "nlm.nih.gov",
+   "url": "https://www.nlm.nih.gov/research/umls/index.html"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/List_of_medical_abbreviations"
+  },
+  {
+   "name": "arrowsmith.psych.uic.edu",
+   "url": "http://arrowsmith.psych.uic.edu/arrowsmith_uic/adam.html"
+  },
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S1532046418302132"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-23",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

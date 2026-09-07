@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-06-07-3",
+ "title": "Severe workplace injuries",
+ "hook": "Beginning in January 2015, the Occupational Safety and Health Administration began requiring U.S. employers to report “all severe work-related injuries, defined as an amputation, in-patient hospitalization, or loss of an eye.” You can download a spreadsheet of these injuries — some 20,000 in 2015 and 2016 combined.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "osha.gov",
+   "url": "https://www.osha.gov/severeinjury/index.html"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-07-13-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-07",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "osha.gov",
+  "host": "osha.gov"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "dip-2019-05-01-3",
+ "title": "Nobel laureates’ papers",
+ "hook": "A team of researchers has compiled the publication histories of 545 Nobel laureates — 92% of the prize-winners in physics, chemistry, and physiology-or-medicine between 1900 and 2016.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6NJ5RN"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-04-17-edition"
+  }
+ ],
+ "articles": [
+  {
+   "name": "microsoft.com",
+   "url": "https://www.microsoft.com/en-us/research/project/microsoft-academic-graph/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fprojects%2Fmag%2F"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-01",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataverse.harvard.edu",
+  "host": "dataverse.harvard.edu"
+ }
+}

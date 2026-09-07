@@ -1,0 +1,57 @@
+{
+ "id": "dip-2018-08-22-3",
+ "title": "Natural disaster satellite imagery",
+ "hook": "DigitalGlobe’s open data program publishes georeferenced satellite imagery from before and after major natural disasters. The archive currently includes a couple dozen events, including recent flooding in Kerala and California’s Carr Wildfire and Mendocino Complex Fire.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "digitalglobe.com",
+   "url": "https://www.digitalglobe.com/opendata"
+  },
+  {
+   "name": "digitalglobe.com",
+   "url": "https://www.digitalglobe.com/opendata/all-events"
+  },
+  {
+   "name": "blog.digitalglobe.com",
+   "url": "http://blog.digitalglobe.com/news/open-data-for-flooding-in-kerala-state-india/"
+  },
+  {
+   "name": "blog.digitalglobe.com",
+   "url": "http://blog.digitalglobe.com/news/open-data-for-the-carr-wildfire/"
+  },
+  {
+   "name": "blog.digitalglobe.com",
+   "url": "http://blog.digitalglobe.com/news/open-data-for-the-mendocino-complex-fire/"
+  },
+  {
+   "name": "storms.ngs.noaa.gov",
+   "url": "https://storms.ngs.noaa.gov/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-09-20-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-22",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "digitalglobe.com",
+  "host": "digitalglobe.com"
+ }
+}

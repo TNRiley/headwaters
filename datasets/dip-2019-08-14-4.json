@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-08-14-4",
+ "title": "European electricity",
+ "hook": "The Open Power System Data platform has aggregated energy data from across Europe into a series of standardized datasets, including electricity consumption, power plants, and generation capacity. The project has also published an “IT philosophy,” a guide for new users, and a detailed listing of primary sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "open-power-system-data.org",
+   "url": "https://open-power-system-data.org/"
+  },
+  {
+   "name": "open-power-system-data.org",
+   "url": "https://data.open-power-system-data.org/time_series/"
+  },
+  {
+   "name": "open-power-system-data.org",
+   "url": "https://data.open-power-system-data.org/national_generation_capacity/2019-02-22"
+  },
+  {
+   "name": "open-power-system-data.org",
+   "url": "https://open-power-system-data.org/it"
+  },
+  {
+   "name": "open-power-system-data.org",
+   "url": "https://open-power-system-data.org/step-by-step"
+  },
+  {
+   "name": "open-power-system-data.org",
+   "url": "https://open-power-system-data.org/data-sources"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-14",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "open-power-system-data.org",
+  "host": "open-power-system-data.org"
+ }
+}

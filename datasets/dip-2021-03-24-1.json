@@ -1,0 +1,57 @@
+{
+ "id": "dip-2021-03-24-1",
+ "title": "Mass shootings, detailed",
+ "hook": "The Violence Project’s Mass Shooter Database contains extensive details about public mass shootings in the US and their perpetrators, weapons, and victims, with a goal of “finding pathways to prevention.” The database, funded by a National Institute of Justice grant, covers 170+ shootings between 1966 and early 2020.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "theviolenceproject.org",
+   "url": "https://www.theviolenceproject.org/"
+  },
+  {
+   "name": "theviolenceproject.org",
+   "url": "https://www.theviolenceproject.org/mass-shooter-database/"
+  },
+  {
+   "name": "theviolenceproject.org",
+   "url": "https://www.theviolenceproject.org/methodology/"
+  },
+  {
+   "name": "nij.gov",
+   "url": "https://www.nij.gov/funding/awards/pages/award-detail.aspx?award=2018-75-CX-0023"
+  },
+  {
+   "name": "gunviolencearchive.org",
+   "url": "https://www.gunviolencearchive.org/methodology"
+  },
+  {
+   "name": "motherjones.com",
+   "url": "https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2015-12-09-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-24",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "theviolenceproject.org",
+  "host": "theviolenceproject.org"
+ }
+}

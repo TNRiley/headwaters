@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-08-19-1",
+ "title": "Federal sentencing",
+ "hook": "The United States Sentencing Commission publishes annual datasets, going back to 2002, on people and organizations criminally sentenced in federal court. The files are anonymized, but contain hundreds of variables detailing the circumstances and outcomes of each decision.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ussc.gov",
+   "url": "https://www.ussc.gov/"
+  },
+  {
+   "name": "ussc.gov",
+   "url": "https://www.ussc.gov/research/datafiles/commission-datafiles"
+  },
+  {
+   "name": "kevinhayeswilson.com",
+   "url": "https://kevinhayeswilson.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/khwilson/SentencingCommissionDatasets"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-19",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ussc.gov",
+  "host": "ussc.gov"
+ }
+}

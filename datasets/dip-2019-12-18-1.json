@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-12-18-1",
+ "title": "Emissions indicators",
+ "hook": "The Climate Action Tracker is “an independent scientific analysis” that keeps tabs on 32 countries’ progress on tackling climate change. Through its data portal, you can explore the project’s dozens of indicators — such as emissions per capita and renewable energy capacity — and also download the data in bulk.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "climateactiontracker.org",
+   "url": "https://climateactiontracker.org"
+  },
+  {
+   "name": "climateactiontracker.org",
+   "url": "https://climateactiontracker.org/data-portal/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-18",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "climateactiontracker.org",
+  "host": "climateactiontracker.org"
+ }
+}

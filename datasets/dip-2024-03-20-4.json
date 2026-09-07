@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-03-20-4",
+ "title": "Agri-environmental policies",
+ "hook": "David Wuepper et al. have constructed a dataset of 6,000+ policies between 1960 and 2022 “at the intersection of agriculture and the environment, implemented not only by national entities but also by subnational and supranational entities, covering different instruments (for example, regulations, frameworks, payment programmes) and topics,” such as the US Safe Drinking Water Act, the Bavarian Forestry Law, and Tanzania’s 2009 Wildlife Conservation Act.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s43016-024-00945-8"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/records/10842614"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/sdwa"
+  },
+  {
+   "name": "fao.org",
+   "url": "https://www.fao.org/faolex/results/details/en/c/LEX-FAOC072608/"
+  },
+  {
+   "name": "fao.org",
+   "url": "https://www.fao.org/faolex/results/details/en/c/LEX-FAOC097858/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-03-20",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-03-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

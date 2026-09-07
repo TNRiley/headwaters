@@ -1,0 +1,42 @@
+{
+ "id": "dip-2020-01-22-5",
+ "title": "Backyard ice rinks",
+ "hook": "RinkWatch “asks people who love outdoor skating to help environmental scientists monitor winter weather conditions” by reporting the conditions of their backyard ice rinks. The project’s downloadable data includes more than 30,000 “skateable” / “not skateable” observations of more than 1,200 rinks since 2012.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "rinkwatch.org",
+   "url": "https://www.rinkwatch.org/"
+  },
+  {
+   "name": "rinkwatch.org",
+   "url": "https://www.rinkwatch.org/download.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2020/01/13/travel/ice-skating-Quebec.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-22",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rinkwatch.org",
+  "host": "rinkwatch.org"
+ }
+}

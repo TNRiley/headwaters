@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-04-13-2",
+ "title": "EU asylum",
+ "hook": "The European Union requires members to submit a range of asylum-related figures to Eurostat, which it then compiles into standardized datasets.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/cache/metadata/en/migr_asyapp_esms.htm"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Eurostat"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/databrowser/explore/all/popul?lang=en&subtheme=migr.migr_asy"
+  },
+  {
+   "name": "europeandatajournalism.eu",
+   "url": "https://www.europeandatajournalism.eu/eng/News/Data-news/Is-the-EU-s-asylum-system-ready-to-welcome-Ukrainian-refugees"
+  },
+  {
+   "name": "datos.civio.es",
+   "url": "https://datos.civio.es/dataset/meses-de-retraso-en-la-resolucion-de-solicitudes-de-asilo-en-la-ue/"
+  },
+  {
+   "name": "observablehq.com",
+   "url": "https://observablehq.com/@civio/682-backlog-in-asylum-applications-in-the-european-union-as"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-13",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Eurostat Energy",
+  "host": "ec.europa.eu"
+ }
+}

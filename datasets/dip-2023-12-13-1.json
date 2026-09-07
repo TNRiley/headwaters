@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-12-13-1",
+ "title": "NYC shelter counts",
+ "hook": "Every night, tens of thousands of people stay in New York City homeless shelters, which are managed by a half-dozen city agencies.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "citylimits.org",
+   "url": "https://citylimits.org/2023/07/24/as-homeless-population-booms-nyc-steps-closer-to-an-accurate-shelter-census/"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/City-Government/Local-Law-79-2022-Temporary-Housing-Assistance-Usa/jiwc-ncpi"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/Social-Services/DHS-Daily-Report/k46n-sa2m"
+  },
+  {
+   "name": "nyc.gov",
+   "url": "https://www.nyc.gov/assets/dhs/downloads/pdf/dailyreport.pdf"
+  },
+  {
+   "name": "patrickspauster.com",
+   "url": "https://patrickspauster.com/"
+  },
+  {
+   "name": "justanesta.com",
+   "url": "https://justanesta.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/anesta95/nyc_shelter_count"
+  },
+  {
+   "name": "citylimits.org",
+   "url": "https://citylimits.org/2023/12/07/tracking-nycs-record-high-homeless-shelter-population/"
+  },
+  {
+   "name": "citylimits.org",
+   "url": "https://citylimits.org/nyc-shelter-count/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-12-13",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-12-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "citylimits.org",
+  "host": "citylimits.org"
+ }
+}

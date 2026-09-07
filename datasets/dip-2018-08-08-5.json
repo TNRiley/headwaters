@@ -1,0 +1,85 @@
+{
+ "id": "dip-2018-08-08-5",
+ "title": "More street trees",
+ "hook": "London, Belfast, Vancouver, Washington (D.C.), Philadelphia, Boston, Cambridge (Mass.), Madison, Providence, San Francisco, Oakland, and Berkeley are among the many cities that publish data cataloguing the trees that line their streets. Previously: NYC’s street trees (DIP 2016.11.16).",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "london.gov.uk",
+   "url": "https://data.london.gov.uk/dataset/local-authority-maintained-trees"
+  },
+  {
+   "name": "opendatani.gov.uk",
+   "url": "https://www.opendatani.gov.uk/dataset/belfast-trees"
+  },
+  {
+   "name": "vancouver.ca",
+   "url": "https://data.vancouver.ca/datacatalogue/streetTrees.htm"
+  },
+  {
+   "name": "dcgis.maps.arcgis.com",
+   "url": "http://dcgis.maps.arcgis.com/home/item.html?id=fea6079cf9bc4310a8b6c94f8c2bf1da"
+  },
+  {
+   "name": "opendataphilly.org",
+   "url": "https://www.opendataphilly.org/dataset/philadelphia-street-tree-inventory"
+  },
+  {
+   "name": "boston.gov",
+   "url": "https://data.boston.gov/dataset/trees"
+  },
+  {
+   "name": "cambridgema.gov",
+   "url": "https://www.cambridgema.gov/GIS/gisdatadictionary/Environmental/ENVIRONMENTAL_StreetTrees"
+  },
+  {
+   "name": "data-cityofmadison.opendata.arcgis.com",
+   "url": "https://data-cityofmadison.opendata.arcgis.com/datasets/street-trees"
+  },
+  {
+   "name": "providenceri.gov",
+   "url": "https://data.providenceri.gov/Neighborhoods/Providence-Tree-Inventory/uv9w-h8i4/data"
+  },
+  {
+   "name": "sfgov.org",
+   "url": "https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq"
+  },
+  {
+   "name": "oaklandnet.com",
+   "url": "https://data.oaklandnet.com/Environmental/Oakland-Street-Trees/4jcx-enxf"
+  },
+  {
+   "name": "cityofberkeley.info",
+   "url": "https://data.cityofberkeley.info/Natural-Resources/City-Trees/9t35-jmin/data"
+  },
+  {
+   "name": "nycgovparks.org",
+   "url": "https://www.nycgovparks.org/trees/treescount"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-11-16-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-08",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "london.gov.uk",
+  "host": "london.gov.uk"
+ }
+}

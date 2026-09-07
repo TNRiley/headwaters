@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-10-07-4",
+ "title": "Even older UK economic figures",
+ "hook": "The Bank of England has considerably expanded its longitudinal dataset on the UK’s economy (DIP 2017.01.25), renaming it “a millennium of macroeconomic data.” A few indicators (such as GDP per capita) now stretch back to 1086, thanks to the Domesday Book, while several others (such as consumer price inflation) now extend to the 13th century.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "reference works",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "bankofengland.co.uk",
+   "url": "https://www.bankofengland.co.uk/statistics/research-datasets"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-01-25-edition"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Domesday_Book"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-10-07",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-10-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bankofengland.co.uk",
+  "host": "bankofengland.co.uk"
+ }
+}

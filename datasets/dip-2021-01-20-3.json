@@ -1,0 +1,61 @@
+{
+ "id": "dip-2021-01-20-3",
+ "title": "Terms of service",
+ "hook": "The Office of the French Ambassador for Digital Affairs has been tracking user-agreement documents (such as terms of service and privacy policies) published by 170+ websites, apps, and other bits of software — from Airbnb and Google Analytics to The New York Times and Zillow.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "disinfo.quaidorsay.fr",
+   "url": "https://disinfo.quaidorsay.fr/en"
+  },
+  {
+   "name": "disinfo.quaidorsay.fr",
+   "url": "https://disinfo.quaidorsay.fr/en/cgus"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ambanum/CGUs-versions/tree/master/Airbnb"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ambanum/CGUs-versions/tree/master/Google%20Analytics"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ambanum/CGUs-versions/tree/master/The%20New%20York%20Times"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ambanum/CGUs-versions/tree/master/Zillow"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ambanum/CGUs-versions/releases"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ambanum/CGUs#be-notified"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-20",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "disinfo.quaidorsay.fr",
+  "host": "disinfo.quaidorsay.fr"
+ }
+}

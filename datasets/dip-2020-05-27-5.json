@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-05-27-5",
+ "title": "Seashells",
+ "hook": "A team of researchers has built a dataset that characterizes 29,622 samples of shells from 7,894 water-dwelling species. You can search the shell images online and also download the full dataset.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-019-0230-3"
+  },
+  {
+   "name": "cis.um.edu.mo",
+   "url": "http://www.cis.um.edu.mo/research/shelldataset/"
+  },
+  {
+   "name": "springernature.figshare.com",
+   "url": "https://springernature.figshare.com/collections/A_shell_dataset_for_shell_features_extraction_and_recognition/4428335"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-27",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

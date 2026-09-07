@@ -1,0 +1,82 @@
+{
+ "id": "dip-2022-01-26-1",
+ "title": "Redistricting",
+ "hook": "US decennial redistricting is well underway, with redrawn legislative maps approved in the majority of states. FiveThirtyEight, Politico, and The Washington Post have all built graphics tracking the process and its likely effects on Congress.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ballotpedia.org",
+   "url": "https://ballotpedia.org/Redistricting"
+  },
+  {
+   "name": "redistrictingdatahub.org",
+   "url": "https://redistrictingdatahub.org/"
+  },
+  {
+   "name": "redistrictingdatahub.org",
+   "url": "https://redistrictingdatahub.org/about/about-us/#whoweare"
+  },
+  {
+   "name": "redistrictingdatahub.org",
+   "url": "https://redistrictingdatahub.org/dataset/2021-california-congressional-districts-approved-plan/"
+  },
+  {
+   "name": "wedrawthelinesca.org",
+   "url": "https://www.wedrawthelinesca.org/final_maps"
+  },
+  {
+   "name": "redistrictingdatahub.org",
+   "url": "https://redistrictingdatahub.org/data/about-our-data/"
+  },
+  {
+   "name": "redistricting.lls.edu",
+   "url": "https://redistricting.lls.edu/"
+  },
+  {
+   "name": "redistricting.lls.edu",
+   "url": "https://redistricting.lls.edu/about/my-work/"
+  },
+  {
+   "name": "redistricting.lls.edu",
+   "url": "https://redistricting.lls.edu/mapdownload/?sortby=-updated&page=1"
+  },
+  {
+   "name": "redistricting.lls.edu",
+   "url": "https://redistricting.lls.edu/national-overview/?colorby=Institution&level=Congress&cycle=2020"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.fivethirtyeight.com",
+   "url": "https://projects.fivethirtyeight.com/redistricting-2022-maps/"
+  },
+  {
+   "name": "politico.com",
+   "url": "https://www.politico.com/interactives/2022/congressional-redistricting-maps-by-state-and-district/"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/politics/interactive/redistricting-tracker-map/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-26",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ballotpedia.org",
+  "host": "ballotpedia.org"
+ }
+}

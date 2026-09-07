@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-03-02-2",
+ "title": "British diets",
+ "hook": "The UK government has published data on 27 years of food consumption. The National Food Survey datasets are based on “food diaries” recorded by a sample of British families from 1974 to 2000.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "britains-diet.labs.theodi.org",
+   "url": "http://britains-diet.labs.theodi.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-02",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "britains-diet.labs.theodi.org",
+  "host": "britains-diet.labs.theodi.org"
+ }
+}

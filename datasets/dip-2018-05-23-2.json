@@ -1,0 +1,49 @@
+{
+ "id": "dip-2018-05-23-2",
+ "title": "Public transit, curated",
+ "hook": "As a way to “lower the barrier“ for analyzing public transportation data, researchers at Finland’s Aalto University have published “a curated collection of [now more than] 25 cities' public transport networks in multiple easy-to-use formats including network edge lists, temporal network event lists, SQLite databases, GeoJSON files, and the GTFS data format.” On the project’s website, you can browse, visualize, and download each city’s data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata201889"
+  },
+  {
+   "name": "transportnetworks.cs.aalto.fi",
+   "url": "http://transportnetworks.cs.aalto.fi/"
+  },
+  {
+   "name": "transit.land",
+   "url": "https://transit.land/"
+  },
+  {
+   "name": "transitfeeds.com",
+   "url": "https://transitfeeds.com/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-07-27-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-05-23",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-05-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

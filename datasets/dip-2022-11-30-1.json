@@ -1,0 +1,65 @@
+{
+ "id": "dip-2022-11-30-1",
+ "title": "Pills",
+ "hook": "From its launch in 2009 until its retirement last year, the National Library of Medicine’s Pillbox project collected and created 8,600+ photographs of medical pills.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "web.archive.org",
+   "url": "https://web.archive.org/web/20201021105954/https://www.nlm.nih.gov/pubs/techbull/ja20/ja20_pillbox_discontinue.html"
+  },
+  {
+   "name": "web.archive.org",
+   "url": "https://web.archive.org/web/20201021105954/https://pillbox.nlm.nih.gov/index.html"
+  },
+  {
+   "name": "nlm.nih.gov",
+   "url": "https://www.nlm.nih.gov/databases/download/pill_image.html"
+  },
+  {
+   "name": "datadiscovery.nlm.nih.gov",
+   "url": "https://datadiscovery.nlm.nih.gov/Drugs-and-Chemicals/Pillbox-retired-January-28-2021-/crzr-uvwg"
+  },
+  {
+   "name": "dailymed.nlm.nih.gov",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/"
+  },
+  {
+   "name": "dailymed.nlm.nih.gov",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/spl-resources.cfm"
+  },
+  {
+   "name": "dailymed.nlm.nih.gov",
+   "url": "https://dailymed.nlm.nih.gov/dailymed/about-dailymed.cfm"
+  },
+  {
+   "name": "beautifulpublicdata.com",
+   "url": "https://www.beautifulpublicdata.com/the-pillbox-database/"
+  },
+  {
+   "name": "beautifulpublicdata.com",
+   "url": "https://www.beautifulpublicdata.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-30",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "web.archive.org",
+  "host": "web.archive.org"
+ }
+}

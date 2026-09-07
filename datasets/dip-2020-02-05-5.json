@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-02-05-5",
+ "title": "Last (but not least) names",
+ "hook": "From the US Census Bureau, you can download a dataset of all surnames that belonged to at least 100 people in 2010, and the same for 2000. Those datasets indicate the total number of people with the name, and distribution of those people by race/ethnicity.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/topics/population/genealogy/data/2010_surnames.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/topics/population/genealogy/data/2000_surnames.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/topics/population/genealogy/data/1990_census/1990_census_namefiles.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-05",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

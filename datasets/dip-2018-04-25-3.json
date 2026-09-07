@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-04-25-3",
+ "title": "Wind turbines",
+ "hook": "Lawrence Berkeley National Laboratory, the U.S. Geological Survey, and the American Wind Energy Association have partnered to publish the U.S. Wind Turbine Database.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eerscmap.usgs.gov",
+   "url": "https://eerscmap.usgs.gov/uswtdb/"
+  },
+  {
+   "name": "eerscmap.usgs.gov",
+   "url": "https://eerscmap.usgs.gov/uswtdb/data/"
+  },
+  {
+   "name": "eerscmap.usgs.gov",
+   "url": "https://eerscmap.usgs.gov/uswtdb/viewer/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-25",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "eerscmap.usgs.gov",
+  "host": "eerscmap.usgs.gov"
+ }
+}

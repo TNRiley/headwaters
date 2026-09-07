@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-08-02-4",
+ "title": "Individual library checkouts",
+ "hook": "The Seattle Public Library publishes a dataset of every checkout of every physical item (e.g., paperback books and DVDs, but not e-books) since April 2005. It currently contains more than 90 million rows. Previously: The library’s monthly checkout counts, by title (DIP 2017.03.01). [h/t David Christensen]",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "seattle.gov",
+   "url": "https://data.seattle.gov/dataset/Checkouts-by-Title-Physical-Items-/3h5r-qv5w"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-03-01-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-02",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "seattle.gov",
+  "host": "seattle.gov"
+ }
+}

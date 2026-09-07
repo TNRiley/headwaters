@@ -1,0 +1,33 @@
+{
+ "id": "dip-2021-04-07-4",
+ "title": "London’s COVID restrictions",
+ "hook": "London is providing an “experimental dataset” categorizing the various coronavirus-related restrictions that have affected the UK capital since March 2020.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "london.gov.uk",
+   "url": "https://data.london.gov.uk/dataset/covid-19-restrictions-timeseries"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-07",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "london.gov.uk",
+  "host": "london.gov.uk"
+ }
+}

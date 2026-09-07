@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-02-21-3",
+ "title": "SF overdose deaths",
+ "hook": "Last year, 813 people died from accidental drug overdoses in San Francisco, according to the latest figures from the city’s Office of the Chief Medical Examiner.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "sf.gov",
+   "url": "https://www.sf.gov/resource/2020/ocme-accidental-overdose-reports"
+  },
+  {
+   "name": "sfchronicle.com",
+   "url": "https://www.sfchronicle.com/projects/san-francisco-drug-overdose-deaths/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/sfchronicle/sf-od-tracker-data"
+  },
+  {
+   "name": "sf.gov",
+   "url": "https://www.sf.gov/data/reducing-fatal-and-non-fatal-overdoses-tenderloin"
+  },
+  {
+   "name": "sf.gov",
+   "url": "https://www.sf.gov/street-overdose-response-team"
+  },
+  {
+   "name": "link.sfchronicle.com",
+   "url": "https://link.sfchronicle.com/view/6418a59d2d2faafd080b5ee9kf7kn.2e/907eff80"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-21",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sf.gov",
+  "host": "sf.gov"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-04-07-1",
+ "title": "Post offices",
+ "hook": "Historian Cameron Blevins has released a dataset of 166,000+ post offices operating in the US between 1639 and 2000.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cameronblevins.org",
+   "url": "https://www.cameronblevins.org/"
+  },
+  {
+   "name": "cblevins.github.io",
+   "url": "https://cblevins.github.io/us-post-offices/"
+  },
+  {
+   "name": "cblevins.github.io",
+   "url": "https://cblevins.github.io/us-post-offices/data-biography/"
+  },
+  {
+   "name": "cameronblevins.org",
+   "url": "https://www.cameronblevins.org/paper-trails/"
+  },
+  {
+   "name": "gossamernetwork.com",
+   "url": "https://gossamernetwork.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-07",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cameronblevins.org",
+  "host": "cameronblevins.org"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "dip-2017-03-01-2",
+ "title": "Police officers as immigration enforcers",
+ "hook": "In an early executive order, Donald Trump instructed the Department of Homeland Security to expand its use of Section 287(g) of the Immigration and Nationality Act, which allows the federal government to deputize local law enforcement agencies in its search for undocumented immigrants.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "whitehouse.gov",
+   "url": "https://www.whitehouse.gov/the-press-office/2017/01/25/presidential-executive-order-enhancing-public-safety-interior-united"
+  },
+  {
+   "name": "uscis.gov",
+   "url": "https://www.uscis.gov/ilink/docView/SLB/HTML/SLB/0-0-0-1/0-0-0-29/0-0-0-9505.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/themarshallproject/ICE287g-removals"
+  }
+ ],
+ "articles": [
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/2017/02/20/the-opposite-of-sanctuary"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-01",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "whitehouse.gov",
+  "host": "whitehouse.gov"
+ }
+}

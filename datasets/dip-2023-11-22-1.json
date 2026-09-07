@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-11-22-1",
+ "title": "Food access",
+ "hook": "The USDA’s Food Access Research Atlas estimates how far people have to travel to buy healthy groceries. For any given Census tract, the project’s interactive map and downloadable data indicate the number of residents living within 0.5, 1, 10, and 20 miles of “the nearest supermarket, supercenter, or large grocery…",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ers.usda.gov",
+   "url": "https://www.ers.usda.gov/data-products/food-access-research-atlas/"
+  },
+  {
+   "name": "ers.usda.gov",
+   "url": "https://www.ers.usda.gov/data-products/food-access-research-atlas/go-to-the-atlas/"
+  },
+  {
+   "name": "ers.usda.gov",
+   "url": "https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Supplemental_Nutrition_Assistance_Program"
+  },
+  {
+   "name": "ers.usda.gov",
+   "url": "https://www.ers.usda.gov/amber-waves/2021/june/updated-food-access-research-atlas-now-maps-changes-in-low-income-and-low-supermarket-access-areas-in-2019/"
+  },
+  {
+   "name": "ers.usda.gov",
+   "url": "https://www.ers.usda.gov/data-products/food-access-research-atlas/documentation/"
+  },
+  {
+   "name": "fns.usda.gov",
+   "url": "https://www.fns.usda.gov/snap/retailer-locator"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-22",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "USDA",
+  "host": "ers.usda.gov"
+ }
+}

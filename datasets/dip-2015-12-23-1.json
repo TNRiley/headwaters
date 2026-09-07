@@ -1,0 +1,35 @@
+{
+ "id": "dip-2015-12-23-1",
+ "title": "How America injures itself",
+ "hook": "Every year, the U.S. Consumer Product Safety Commission tracks emergency rooms visits to approximately 100 hospitals.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cpsc.gov",
+   "url": "http://www.cpsc.gov/en/Research--Statistics/NEISS-Injury-Data/"
+  },
+  {
+   "name": "cpsc.gov",
+   "url": "http://www.cpsc.gov//Global/Neiss_prod/completemanual.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-23",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cpsc.gov",
+  "host": "cpsc.gov"
+ }
+}

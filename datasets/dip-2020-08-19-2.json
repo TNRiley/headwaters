@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-08-19-2",
+ "title": "The demographics of power",
+ "hook": "The Reflective Democracy Campaign and the Center for Technology and Civic Life have partnered to produce datasets examining the demographics of 3,000+ elected sheriffs; 2,800+ elected prosecutors; and candidates for federal, state, and local offices in 2012, 2014, 2016, and 2018. [h/t Stacy Montemayor]",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "wholeads.us",
+   "url": "https://wholeads.us/"
+  },
+  {
+   "name": "techandciviclife.org",
+   "url": "https://www.techandciviclife.org/"
+  },
+  {
+   "name": "wholeads.us",
+   "url": "https://wholeads.us/resources/for-researchers/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-19",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wholeads.us",
+  "host": "wholeads.us"
+ }
+}

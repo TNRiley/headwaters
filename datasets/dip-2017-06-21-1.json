@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-06-21-1",
+ "title": "130 million traffic stops",
+ "hook": "“Police pull over more than 50,000 drivers on a typical day, more than 20 million motorists every year. Yet the most common police interaction — the traffic stop — has not been tracked, at least not in any systematic way,” according to the Stanford Open Policing Project.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "openpolicing.stanford.edu",
+   "url": "https://openpolicing.stanford.edu/"
+  },
+  {
+   "name": "openpolicing.stanford.edu",
+   "url": "https://openpolicing.stanford.edu/data/"
+  },
+  {
+   "name": "openpolicing.stanford.edu",
+   "url": "https://openpolicing.stanford.edu/findings/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-10-28-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-21",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Stanford Open Policing Project",
+  "host": "openpolicing.stanford.edu"
+ }
+}

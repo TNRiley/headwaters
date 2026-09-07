@@ -1,0 +1,55 @@
+{
+ "id": "dip-2024-03-06-5",
+ "title": "Pinball machines",
+ "hook": "The Open Pinball Database provides a searchable inventory and API of ~2,000 pinball machines and 120+ manufacturers. Details include each machine’s name, manufacture date, mechanism type, display type, player count, and more.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "opdb.org",
+   "url": "https://opdb.org/"
+  },
+  {
+   "name": "opdb.org",
+   "url": "https://opdb.org/api"
+  },
+  {
+   "name": "opdb.org",
+   "url": "https://opdb.org/machines"
+  },
+  {
+   "name": "opdb.org",
+   "url": "https://opdb.org/manufacturers"
+  },
+  {
+   "name": "pinballmap.com",
+   "url": "https://pinballmap.com/"
+  },
+  {
+   "name": "pinballmap.com",
+   "url": "https://pinballmap.com/map"
+  },
+  {
+   "name": "pinballmap.com",
+   "url": "https://pinballmap.com/api/v1/docs"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-03-06",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-03-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opdb.org",
+  "host": "opdb.org"
+ }
+}

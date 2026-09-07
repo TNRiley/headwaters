@@ -1,0 +1,50 @@
+{
+ "id": "dip-2020-08-05-3",
+ "title": "Software supply chain attacks",
+ "hook": "Breaking Trust, a new project from the Atlantic Council, provides a dataset of 115 “software supply chain” attacks and disclosures in the past decaude.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software",
+  "economy & work"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "atlanticcouncil.org",
+   "url": "https://www.atlanticcouncil.org/in-depth-research-reports/report/breaking-trust-shades-of-crisis-across-an-insecure-software-supply-chain/"
+  },
+  {
+   "name": "atlanticcouncil.org",
+   "url": "https://www.atlanticcouncil.org/"
+  },
+  {
+   "name": "atlanticcouncil.org",
+   "url": "https://www.atlanticcouncil.org/resources/breaking-trust-the-dataset/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Stuxnet"
+  },
+  {
+   "name": "threatpost.com",
+   "url": "https://threatpost.com/500-malicious-chrome-extensions-millions/152918/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-05",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "atlanticcouncil.org",
+  "host": "atlanticcouncil.org"
+ }
+}

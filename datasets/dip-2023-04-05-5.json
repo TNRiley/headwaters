@@ -1,0 +1,43 @@
+{
+ "id": "dip-2023-04-05-5",
+ "title": "Midwestern mollusks",
+ "hook": "The Illinois Natural History Survey’s mollusk collection contains 500,000+ specimens, cataloged into 90,000+ lots, some gathered more than a century ago. “The collection is strong in freshwater mussels (Unionoida), freshwater and terrestrial snails from the Midwestern U.S.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "inhs.illinois.edu",
+   "url": "https://inhs.illinois.edu/about/about-inhs/"
+  },
+  {
+   "name": "mollusk.inhs.illinois.edu",
+   "url": "https://mollusk.inhs.illinois.edu/"
+  },
+  {
+   "name": "biocoll.inhs.illinois.edu",
+   "url": "https://biocoll.inhs.illinois.edu/portal/collections/misc/collprofiles.php?collid=49"
+  },
+  {
+   "name": "biocoll.inhs.illinois.edu",
+   "url": "https://biocoll.inhs.illinois.edu/portal/collections/misc/collprofiles.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-05",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "inhs.illinois.edu",
+  "host": "inhs.illinois.edu"
+ }
+}

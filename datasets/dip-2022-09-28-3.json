@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-09-28-3",
+ "title": "Old and New Testament locations",
+ "hook": "OpenBible.info’s Bible Geocoding project “(1) comprehensively identifies the possible modern locations of every place mentioned in the Bible as precisely as possible, (2) expresses a data-backed confidence level in each identification, and (3) links to open data to fit into a broader data ecosystem.” You can browse by book, chapter, and location, as well as download the full dataset.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "openbible.info",
+   "url": "https://www.openbible.info/"
+  },
+  {
+   "name": "openbible.info",
+   "url": "https://www.openbible.info/geo/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/openbibleinfo/Bible-Geocoding-Data"
+  },
+  {
+   "name": "openbible.info",
+   "url": "https://www.openbible.info/blog/2021/11/rethinking-the-bible-atlas/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-28",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openbible.info",
+  "host": "openbible.info"
+ }
+}

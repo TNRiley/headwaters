@@ -1,0 +1,37 @@
+{
+ "id": "dip-2024-05-01-4",
+ "title": "Openly-licensed video transcripts",
+ "hook": "The YouTube-Commons dataset, built by a French startup, contains 15 million original and auto-translated audio transcripts from 2 million Creative Commons–licensed YouTube videos, sourced from 400,000+ channels.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "huggingface.co",
+   "url": "https://huggingface.co/datasets/PleIAs/YouTube-Commons"
+  },
+  {
+   "name": "creativecommons.org",
+   "url": "https://creativecommons.org/share-your-work/cclicenses/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-01",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "huggingface.co",
+  "host": "huggingface.co"
+ }
+}

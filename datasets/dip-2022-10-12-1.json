@@ -1,0 +1,61 @@
+{
+ "id": "dip-2022-10-12-1",
+ "title": "Work-related injury counts",
+ "hook": "The US Occupational Safety and Health Administration requires many (but not all) businesses to track employees’ work-related injuries and illnesses. Larger companies and those in high-risk industries must electronically submit annual counts to the agency.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "osha.gov",
+   "url": "https://www.osha.gov/recordkeeping"
+  },
+  {
+   "name": "osha.gov",
+   "url": "https://www.osha.gov/recordkeeping/presentations/exempttable"
+  },
+  {
+   "name": "osha.gov",
+   "url": "https://www.osha.gov/recordkeeping/forms"
+  },
+  {
+   "name": "osha.gov",
+   "url": "https://www.osha.gov/injuryreporting/"
+  },
+  {
+   "name": "revealnews.org",
+   "url": "https://revealnews.org/blog/federal-judge-sides-with-reveal-ruling-injury-and-illness-data-is-public/"
+  },
+  {
+   "name": "citizen.org",
+   "url": "https://www.citizen.org/litigation/public-citizen-foundation-v-department-of-labor-osha-form-300a-records/"
+  },
+  {
+   "name": "dol.gov",
+   "url": "https://www.dol.gov/newsroom/releases/osha/osha20200904"
+  },
+  {
+   "name": "osha.gov",
+   "url": "https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-12",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "osha.gov",
+  "host": "osha.gov"
+ }
+}

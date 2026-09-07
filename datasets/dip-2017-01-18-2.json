@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-01-18-2",
+ "title": "Food stamp foods",
+ "hook": "Late last year, the USDA published a study that used “point-of-sale transaction data from a leading grocery retailer to examine the food choices” of households receiving Supplemental Nutrition Assistance Program (SNAP) benefits.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fns.usda.gov",
+   "url": "https://www.fns.usda.gov/snap/foods-typically-purchased-supplemental-nutrition-assistance-program-snap-households"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/data-is-plural/usda-snap-spending-study"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/datasets/comments/5o249x/foods_typically_purchased_by_supplemental/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-01-18",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-01-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fns.usda.gov",
+  "host": "fns.usda.gov"
+ }
+}

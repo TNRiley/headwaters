@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-05-17-5",
+ "title": "Story arcs",
+ "hook": "“The WikiPlots corpus is a collection of 112,936 story plots extracted from English language Wikipedia.” The plots describe movies, books, plays, TV series, TV episodes, video games, and other stories — essentially, any *thing that has a Wikipedia article with the word “plot” in one of its subheadings.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/markriedl/WikiPlots"
+  },
+  {
+   "name": "varianceexplained.org",
+   "url": "http://varianceexplained.org/r/tidytext-plots/"
+  },
+  {
+   "name": "varianceexplained.org",
+   "url": "http://varianceexplained.org/r/tidytext-gender-plots/"
+  },
+  {
+   "name": "varianceexplained.org",
+   "url": "http://varianceexplained.org/about/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-17",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

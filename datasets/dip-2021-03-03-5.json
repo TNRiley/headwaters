@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-03-03-5",
+ "title": "Soil",
+ "hook": "SoilGrids “uses state-of-the-art machine learning methods to map the spatial distribution of soil properties across the globe,” including organic carbon density, pH, clay content, and more. The maps use data from the World Soil Information Service, which standardizes millions of soil records.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "soilgrids.org",
+   "url": "https://soilgrids.org/"
+  },
+  {
+   "name": "isric.org",
+   "url": "https://www.isric.org/explore/wosis"
+  },
+  {
+   "name": "isric.org",
+   "url": "https://isric.org/"
+  },
+  {
+   "name": "isric.org",
+   "url": "https://isric.org/explore/soil-geographic-databases"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-03",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "soilgrids.org",
+  "host": "soilgrids.org"
+ }
+}

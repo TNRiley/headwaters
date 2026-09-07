@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-05-06-3",
+ "title": "Essential NYC construction sites",
+ "hook": "New York City’s Department of Buildings has been publishing a dataset and interactive map of construction sites deemed “essential,” and thus eligible to continue work during the coronavirus pandemic.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "www1.nyc.gov",
+   "url": "https://www1.nyc.gov/assets/buildings/html/essential-active-construction.html"
+  },
+  {
+   "name": "www1.nyc.gov",
+   "url": "https://www1.nyc.gov/site/buildings/about/essential-construction-faq.page"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-06",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "www1.nyc.gov",
+  "host": "www1.nyc.gov"
+ }
+}

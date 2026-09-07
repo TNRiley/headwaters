@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-03-18-3",
+ "title": "WFH",
+ "hook": "Stayinghome.club is compiling hundreds of coronavirus-spurred work-from-home policies, university annoucements, and event cancellation statuses. The project is collaboratively edited on GitHub, and includes instructions for how to add your company/university/event. [h/t Jackie Kazil]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "stayinghome.club",
+   "url": "https://stayinghome.club/"
+  },
+  {
+   "name": "stayinghome.club",
+   "url": "https://stayinghome.club/companies.html"
+  },
+  {
+   "name": "stayinghome.club",
+   "url": "https://stayinghome.club/universities.html"
+  },
+  {
+   "name": "stayinghome.club",
+   "url": "https://stayinghome.club/events.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/phildini/stayinghomeclub"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-18",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "stayinghome.club",
+  "host": "stayinghome.club"
+ }
+}

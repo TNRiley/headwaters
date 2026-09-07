@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-02-08-5",
+ "title": "Prognosticating groundhogs",
+ "hook": "Paul Craig’s Groundhog-Day.com calls itself “the leading data source for North America’s prognosticating groundhogs and their yearly predictions.” Its structured data lists the names, descriptions, locations, and prediction histories for 74 real and “alternative” groundhogs, the latter of which include Lucy the Lobster and Dover Doug, a human in a groundhog suit.",
+ "hook_source": "publisher",
+ "subjects": [
+  "oddities & curiosities"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "pcraig3.ca",
+   "url": "https://pcraig3.ca/"
+  },
+  {
+   "name": "groundhog-day.com",
+   "url": "https://groundhog-day.com/"
+  },
+  {
+   "name": "groundhog-day.com",
+   "url": "https://groundhog-day.com/about"
+  },
+  {
+   "name": "groundhog-day.com",
+   "url": "https://groundhog-day.com/api"
+  },
+  {
+   "name": "groundhog-day.com",
+   "url": "https://groundhog-day.com/groundhogs"
+  },
+  {
+   "name": "groundhog-day.com",
+   "url": "https://groundhog-day.com/groundhogs/lucy-the-lobster"
+  },
+  {
+   "name": "groundhog-day.com",
+   "url": "https://groundhog-day.com/groundhogs/dover-doug"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-08",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pcraig3.ca",
+  "host": "pcraig3.ca"
+ }
+}

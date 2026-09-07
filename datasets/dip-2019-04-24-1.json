@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-04-24-1",
+ "title": "Democracy",
+ "hook": "Varieties of Democracy bills itself as “a new approach to conceptualizing and measuring democracy” — one that “reflects the complexity of the concept of democracy as a system of rule that goes beyond the simple presence of elections.” The project scores countries annually on five high-level aspects of democracy, which…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "v-dem.net",
+   "url": "https://www.v-dem.net/en/"
+  },
+  {
+   "name": "v-dem.net",
+   "url": "https://www.v-dem.net/en/reference/version-9-apr-2019/"
+  },
+  {
+   "name": "v-dem.net",
+   "url": "https://www.v-dem.net/en/data/data-version-9/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-24",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "v-dem.net",
+  "host": "v-dem.net"
+ }
+}

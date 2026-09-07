@@ -1,0 +1,50 @@
+{
+ "id": "dip-2017-08-30-1",
+ "title": "Flood maps",
+ "hook": "FEMA’s Flood Map Service Center publishes geospatial files that detail the agency’s flood risk assessments — both current and historical. The maps include flood zones, levee locations, “base flood elevations,” and more. Helpful: FEMA’s technical documentation.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "msc.fema.gov",
+   "url": "https://msc.fema.gov/portal/advanceSearch"
+  },
+  {
+   "name": "fema.gov",
+   "url": "https://www.fema.gov/media-library-data/886edbc98e2229a90d0593d5e46ddac9/Flood+Insurance+Rate+Map+Database+Technical+Reference.pdf"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-04-19-edition"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/graphics/harvey"
+  },
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/houston/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-30",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "msc.fema.gov",
+  "host": "msc.fema.gov"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-09-11-4",
+ "title": "Deaths on the job",
+ "hook": "Since 1992, the US Bureau of Labor Statistics’ has collected data on work-related deaths through its Census of Fatal Occupational Injuries. The results are presented as various cross-tabulations — by industry, demographic, circumstances, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/iif/oshcfoi1.htm"
+  },
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/iif/soii-data.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-11",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BLS",
+  "host": "bls.gov"
+ }
+}

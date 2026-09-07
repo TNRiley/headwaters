@@ -1,0 +1,38 @@
+{
+ "id": "dip-2017-04-19-5",
+ "title": "Spelling self-corrections",
+ "hook": "For a 2012 academic paper, researchers captured the keystrokes of paid volunteers as they typed descriptions of images. Whenever a participant used the backspace key to correct a word, the researchers added it to a dataset of self-corrections.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "dl.acm.org",
+   "url": "http://dl.acm.org/citation.cfm?id=2390665.2390749"
+  }
+ ],
+ "articles": [
+  {
+   "name": "microsoft.com",
+   "url": "https://www.microsoft.com/en-us/download/details.aspx?id=52418"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-19",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dl.acm.org",
+  "host": "dl.acm.org"
+ }
+}

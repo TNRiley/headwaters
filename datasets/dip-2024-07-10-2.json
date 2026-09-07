@@ -1,0 +1,45 @@
+{
+ "id": "dip-2024-07-10-2",
+ "title": "Corporate AI activity",
+ "hook": "The Private-Sector AI Indicators dataset, from Georgetown University’s Emerging Technology Observatory, provides “a diverse range of indicators of AI-related activity for hundreds of companies worldwide, from startups to multinationals.” For each of the 670+ companies included, the dataset counts the number of…",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "eto.tech",
+   "url": "https://eto.tech/dataset-docs/private-sector-ai-indicators/"
+  },
+  {
+   "name": "eto.tech",
+   "url": "https://eto.tech/"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/records/12520760"
+  },
+  {
+   "name": "parat.eto.tech",
+   "url": "https://parat.eto.tech/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-10",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "eto.tech",
+  "host": "eto.tech"
+ }
+}

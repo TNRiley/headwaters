@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-06-30-1",
+ "title": "Three decades of Medicaid prescriptions",
+ "hook": "US law requires state Medicaid agencies to report the quarterly number of outpatient prescriptions, total units, and reimbursement costs for each permutation of each drug they’ve covered.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ssa.gov",
+   "url": "https://www.ssa.gov/OP_Home/ssact/title19/1927.htm"
+  },
+  {
+   "name": "medicaid.gov",
+   "url": "https://www.medicaid.gov/medicaid/prescription-drugs/medicaid-drug-rebate-program/index.html"
+  },
+  {
+   "name": "medicaid.gov",
+   "url": "https://www.medicaid.gov/medicaid/prescription-drugs/state-drug-utilization-data/index.html"
+  },
+  {
+   "name": "medicaid.gov",
+   "url": "https://data.medicaid.gov/State-Drug-Utilization/State-Drug-Utilization-Data-2020/va5y-jhsv"
+  },
+  {
+   "name": "fda.gov",
+   "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/national-drug-code-directory"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-30",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ssa.gov",
+  "host": "ssa.gov"
+ }
+}

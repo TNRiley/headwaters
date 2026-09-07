@@ -1,0 +1,39 @@
+{
+ "id": "dip-2018-02-14-3",
+ "title": "Human speech",
+ "hook": "Common Voice is a Mozilla-led project that aims “to make voice recognition technology easily accessible to everyone.” To that end, the project asks visitors to record themselves speaking specific sentences, and to validate the recordings of other users.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "voice.mozilla.org",
+   "url": "https://voice.mozilla.org/"
+  },
+  {
+   "name": "voice.mozilla.org",
+   "url": "https://voice.mozilla.org/data"
+  },
+  {
+   "name": "voice.mozilla.org",
+   "url": "https://voice.mozilla.org/faq"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-14",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "voice.mozilla.org",
+  "host": "voice.mozilla.org"
+ }
+}

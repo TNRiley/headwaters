@@ -1,0 +1,49 @@
+{
+ "id": "dip-2017-08-30-4",
+ "title": "Website logos",
+ "hook": "Favicons are the little square icons in your browser’s tabs, placed there by the websites you’ve loaded. Two recent projects attempted to collect these markers from the web’s million most-trafficked domains. One, by programmer Colin Morris, collected 360,000 favicons in July 2016.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/favicons_201708"
+  },
+  {
+   "name": "vision.ee.ethz.ch",
+   "url": "https://data.vision.ee.ethz.ch/cvl/lld/"
+  },
+  {
+   "name": "colinmorris.github.io",
+   "url": "https://colinmorris.github.io/blog/bad_flamingos"
+  },
+  {
+   "name": "quickdraw.withgoogle.com",
+   "url": "https://quickdraw.withgoogle.com/data"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-05-24-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-30",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC datasets uploaded before January 28th, 2025",
+  "host": "archive.org"
+ }
+}

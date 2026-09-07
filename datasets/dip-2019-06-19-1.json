@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-06-19-1",
+ "title": "Drug prices",
+ "hook": "The Centers for Medicare and Medicaid Services’ National Average Drug Acquisition Cost dataset indicates how much U.S. pharmacies have to pay, on average, to obtain thousands of prescription and over-the-counter drugs.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "medicaid.gov",
+   "url": "https://data.medicaid.gov/Drug-Pricing-and-Payment/NADAC-National-Average-Drug-Acquisition-Cost-/a4y5-998d"
+  },
+  {
+   "name": "medicaid.gov",
+   "url": "https://www.medicaid.gov/medicaid/prescription-drugs/pharmacy-pricing/index.html"
+  },
+  {
+   "name": "medicaid.gov",
+   "url": "https://data.medicaid.gov/Drug-Pricing-and-Payment/NADAC-Comparison/6gk3-9bxc"
+  },
+  {
+   "name": "cms.gov",
+   "url": "https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Information-on-Prescription-Drugs/MedicarePartB.html"
+  },
+  {
+   "name": "cms.gov",
+   "url": "https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Information-on-Prescription-Drugs/MedicarePartD.html"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-12-14-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-19",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "medicaid.gov",
+  "host": "medicaid.gov"
+ }
+}

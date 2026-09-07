@@ -1,0 +1,44 @@
+{
+ "id": "dip-2021-08-25-5",
+ "title": "Formula One",
+ "hook": "The Ergast Developer API provides seven decades of Formula One racing results, with details on each season, race, and result since 1950, each lap time since 1996, each pit stop since 2012, and more. In addition to querying the API, you can also explore the data online and download it in full.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ergast.com",
+   "url": "https://ergast.com/mrd/"
+  },
+  {
+   "name": "ergast.com",
+   "url": "https://ergast.com/mrd/query/"
+  },
+  {
+   "name": "ergast.com",
+   "url": "https://ergast.com/mrd/db/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/formula-one-racing/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-25",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ergast.com/mrd/db",
+  "host": "ergast.com"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "dip-2020-01-15-1",
+ "title": "Missing migrants",
+ "hook": "The Missing Migrants Project “tracks deaths of migrants, including refugees and asylum-seekers, who have gone missing along mixed migration routes worldwide.” Research for the project, an initiative of the International Organization for Migration, began after the fatal Lampedusa shipwrecks of October 2013.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "missingmigrants.iom.int",
+   "url": "https://missingmigrants.iom.int/about"
+  },
+  {
+   "name": "iom.int",
+   "url": "https://www.iom.int"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/2013_Lampedusa_migrant_shipwreck"
+  },
+  {
+   "name": "missingmigrants.iom.int",
+   "url": "https://missingmigrants.iom.int/downloads"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ondata/the-list"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-07-18-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "missingmigrants.iom.int",
+  "host": "missingmigrants.iom.int"
+ }
+}

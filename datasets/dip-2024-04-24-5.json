@@ -1,0 +1,61 @@
+{
+ "id": "dip-2024-04-24-5",
+ "title": "Three-dimensional natural history",
+ "hook": "At MorphoSource, you can “find, view, and download 3D data representing the world’s natural history, cultural heritage, and scientific collections.” The service hosts 82,000+ 3D models you can view online; roughly half can be downloaded without prior approval.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "morphosource.org",
+   "url": "https://www.morphosource.org/"
+  },
+  {
+   "name": "morphosource.org",
+   "url": "https://www.morphosource.org/catalog/media?f%5Bhuman_readable_media_type_ssim%5D%5B%5D=Mesh&locale=en"
+  },
+  {
+   "name": "morphosource.org",
+   "url": "https://www.morphosource.org/catalog/media?f%5Bhuman_readable_media_type_ssim%5D%5B%5D=Mesh&f.publication_status=Open+Download&locale=en"
+  },
+  {
+   "name": "academic.oup.com",
+   "url": "https://academic.oup.com/bioscience/article/74/3/169/7615104"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Florida_Museum_of_Natural_History"
+  },
+  {
+   "name": "floridamuseum.ufl.edu",
+   "url": "https://www.floridamuseum.ufl.edu/overt/"
+  },
+  {
+   "name": "floridamuseum.ufl.edu",
+   "url": "https://www.floridamuseum.ufl.edu/science/scientists-ct-scanned-thousands-of-natural-history-specimens-which-you-can-access-for-free/"
+  },
+  {
+   "name": "morphosource.org",
+   "url": "https://www.morphosource.org/projects/000368762"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-24",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "morphosource.org",
+  "host": "morphosource.org"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-12-08-4",
+ "title": "Pandemic-era alcohol policies",
+ "hook": "The US Alcohol Policy Information System has categorized the alcohol-related regulations that each state (and DC) has enforced during the COVID-19 pandemic, and how they’ve changed over time.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "alcoholpolicy.niaaa.nih.gov",
+   "url": "https://alcoholpolicy.niaaa.nih.gov/about-apis"
+  },
+  {
+   "name": "alcoholpolicy.niaaa.nih.gov",
+   "url": "https://alcoholpolicy.niaaa.nih.gov/resource/covid-19/98"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-08",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "alcoholpolicy.niaaa.nih.gov",
+  "host": "alcoholpolicy.niaaa.nih.gov"
+ }
+}

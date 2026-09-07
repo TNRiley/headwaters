@@ -1,0 +1,35 @@
+{
+ "id": "dip-2020-12-23-3",
+ "title": "Social scientists testifying",
+ "hook": "In a paper published this spring, Mahler et al. describe their dataset of social scientists’ appearances in US congressional hearings — more than 15,000 instances in all, at more than 10,000 hearings between 1946 and 2016.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "journals.plos.org",
+   "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230104"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/e3h98/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-23",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Cleary et al, 2016",
+  "host": "journals.plos.org"
+ }
+}

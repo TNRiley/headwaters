@@ -1,0 +1,31 @@
+{
+ "id": "dip-2016-12-07-4",
+ "title": "STEM surveys",
+ "hook": "The IPUMS Higher Ed portal provides data from three “leading surveys for studying the science and engineering (STEM) workforce in the United States.” The surveys currently cover 1993 through 2013 and include questions about educational choices, demographics, employment outcomes, and more. Requires a free account.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "highered.ipums.org",
+   "url": "https://highered.ipums.org/highered/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-12-07",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-12-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "highered.ipums.org",
+  "host": "highered.ipums.org"
+ }
+}

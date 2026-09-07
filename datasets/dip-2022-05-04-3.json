@@ -1,0 +1,43 @@
+{
+ "id": "dip-2022-05-04-3",
+ "title": "Regulatory agencies",
+ "hook": "GlobalReg, a research group at the Institut Barcelona d’Estudis Internacionals, studies “the spread of independent regulatory agencies worldwide.” Among its publications: a dataset of 799 such agencies, spanning 100+ countries and 17 sectors.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "globalreg.info",
+   "url": "https://www.globalreg.info/"
+  },
+  {
+   "name": "ibei.org",
+   "url": "https://www.ibei.org/en/the-institution_25976"
+  },
+  {
+   "name": "globalreg.info",
+   "url": "https://www.globalreg.info/who-we-are.html"
+  },
+  {
+   "name": "globalreg.info",
+   "url": "https://www.globalreg.info/institutional-features-of-regulatory-agencies.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-04",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "globalreg.info",
+  "host": "globalreg.info"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "dip-2024-02-14-1",
+ "title": "State trust lands",
+ "hook": "“State trust lands just might be one of the best-kept public secrets in America,” according to Grist, which published a data-driven investigation on the topic last week.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "grist.org",
+   "url": "https://grist.org/updates/grist-publishes-new-land-grant-investigation-with-public-data/"
+  },
+  {
+   "name": "grist.org",
+   "url": "https://grist.org/project/indigenous/land-grant-universities-indigenous-lands-fossil-fuels/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Land-grant_university"
+  },
+  {
+   "name": "hcn.org",
+   "url": "https://www.hcn.org/issues/52-4/indigenous-affairs-education-land-grab-universities/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-06-24-edition/"
+  },
+  {
+   "name": "fs.usda.gov",
+   "url": "https://data.fs.usda.gov/geodata/edw/datasets.php"
+  },
+  {
+   "name": "loc.gov",
+   "url": "https://www.loc.gov/collections/century-of-lawmaking/articles-and-essays/century-presentations/indian-land-cessions/"
+  },
+  {
+   "name": "grist.org",
+   "url": "https://grist.org/technology/how-we-investigated-land-grant-university-system/"
+  },
+  {
+   "name": "grist.org",
+   "url": "https://grist.org/indigenous/how-to-conduct-your-own-reporting-research-state-trust-lands/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-14",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "grist.org",
+  "host": "grist.org"
+ }
+}

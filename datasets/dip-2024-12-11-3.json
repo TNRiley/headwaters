@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-12-11-3",
+ "title": "Crop rotations",
+ "hook": "The Department of Agriculture’s Crop Sequence Boundaries initiative algorithmically analyzes satellite imagery to create “estimates of field boundaries, crop acreage, and crop rotations across the contiguous United States.” The results are available via an interactive map and downloads for eight-year time frames.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nass.usda.gov",
+   "url": "https://www.nass.usda.gov/Research_and_Science/Crop-Sequence-Boundaries/"
+  },
+  {
+   "name": "nass.usda.gov",
+   "url": "https://www.nass.usda.gov/Research_and_Science/Crop-Sequence-Boundaries/Viewer/index.php"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/USDA-REE-NASS/crop-sequence-boundaries"
+  },
+  {
+   "name": "nassgeodata.gmu.edu",
+   "url": "https://nassgeodata.gmu.edu/CropScape/"
+  },
+  {
+   "name": "nass.usda.gov",
+   "url": "https://www.nass.usda.gov/Research_and_Science/Cropland/SARS1a.php"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-03-06-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-12-11",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-12-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nass.usda.gov",
+  "host": "nass.usda.gov"
+ }
+}

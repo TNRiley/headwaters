@@ -1,0 +1,54 @@
+{
+ "id": "dip-2020-03-18-1",
+ "title": "COVID-19 testing in the US",
+ "hook": "The COVID Tracking Project “collects information from 50 US states, the District of Columbia, and 5 other U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "covidtracking.com",
+   "url": "https://covidtracking.com/"
+  },
+  {
+   "name": "covidtracking.com",
+   "url": "https://covidtracking.com/about-team/"
+  },
+  {
+   "name": "covidtracking.com",
+   "url": "https://covidtracking.com/data/"
+  },
+  {
+   "name": "covidtracking.com",
+   "url": "https://covidtracking.com/api/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/COVID19Tracking/covid-tracking-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theatlantic.com",
+   "url": "https://www.theatlantic.com/technology/archive/2020/03/how-understand-your-states-coronavirus-numbers/607921/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-18",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "covidtracking.com",
+  "host": "covidtracking.com"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-04-01-3",
+ "title": "Visa fees",
+ "hook": "The Global Visa Cost Dataset, published by the European University Institute’s Migration Policy Centre, “reports the cost [in 2019] of country-to-country visas for tourism, student, business, work, transit, family reunification and other motives worldwide.” The dataset’s authors describe their methodology and findings in a detailed working paper.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "migrationpolicycentre.eu",
+   "url": "http://www.migrationpolicycentre.eu/globalmobilities/dataset/"
+  },
+  {
+   "name": "migrationpolicycentre.eu",
+   "url": "http://www.migrationpolicycentre.eu/about/"
+  },
+  {
+   "name": "cadmus.eui.eu",
+   "url": "https://cadmus.eui.eu/handle/1814/66583"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-01",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "migrationpolicycentre.eu",
+  "host": "migrationpolicycentre.eu"
+ }
+}

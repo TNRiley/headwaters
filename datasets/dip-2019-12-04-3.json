@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-12-04-3",
+ "title": "Samoa’s measles outbreak",
+ "hook": "The Samoan government has been tweeting updates regarding the country’s measles crisis. Epidemiologist Chris von Csefalvay has been converting those tweets into a simple dataset that counts the number of cases and deaths (by age group) at the time of each tweet.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/2019_Samoa_measles_outbreak"
+  },
+  {
+   "name": "bitsandbugs.io",
+   "url": "https://bitsandbugs.io/chris-von-csefalvay/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/chrisvoncsefalvay/samoa-measles-2019"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-04",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "dip-2017-04-19-1",
+ "title": "UK, US, Rx",
+ "hook": "The UK’s National Health Service publishes monthly data on drugs prescribed in England through the country’s single-payer health care system.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "data.gov.uk",
+   "url": "https://data.gov.uk/dataset/prescribing-by-gp-practice-presentation-level"
+  },
+  {
+   "name": "cms.gov",
+   "url": "https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Part-D-Prescriber.html"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-08-24-edition"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/checkup/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-19",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "www.gov.uk",
+  "host": "gov.uk"
+ }
+}

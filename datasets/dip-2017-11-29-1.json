@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-11-29-1",
+ "title": "Protests and political violence in Africa and Asia",
+ "hook": "The Armed Conflict Location &amp; Event Data Project (ACLED), records the locations, dates, actors, and outcomes of “all reported political violence and protest events in over 60 developing countries in Africa and Asia.” The Africa datasets currently go back to 1997 and cover more than 50 countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "acleddata.com",
+   "url": "https://www.acleddata.com/about-acled/"
+  },
+  {
+   "name": "acleddata.com",
+   "url": "https://www.acleddata.com/data/"
+  },
+  {
+   "name": "acleddata.com",
+   "url": "https://www.acleddata.com/asia-data/"
+  },
+  {
+   "name": "acleddata.com",
+   "url": "https://www.acleddata.com/methodology/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-11-29",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-11-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "acleddata.com",
+  "host": "acleddata.com"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "dip-2020-11-18-5",
+ "title": "Yet more urban trees",
+ "hook": "DIP editions 2016.11.16 and 2018.08.08 featured datasets of trees in NYC and other cities. But wait, there's more: millions of trees in Bogotá, Paris, Vienna, Amsterdam, Helsinki, and Dublin.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-11-16-edition"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-08-08-edition"
+  },
+  {
+   "name": "especiales.datasketch.co",
+   "url": "http://especiales.datasketch.co/arboles-bogota/metodologia.html"
+  },
+  {
+   "name": "opendata.paris.fr",
+   "url": "https://opendata.paris.fr/explore/dataset/les-arbres/information/"
+  },
+  {
+   "name": "data.gv.at",
+   "url": "https://www.data.gv.at/katalog/dataset/stadt-wien_baumkatasterderstadtwien"
+  },
+  {
+   "name": "maps.amsterdam.nl",
+   "url": "https://maps.amsterdam.nl/bomen/?LANG=en"
+  },
+  {
+   "name": "hri.fi",
+   "url": "https://hri.fi/data/en_GB/dataset/helsingin-kaupungin-puurekisteri"
+  },
+  {
+   "name": "smartdublin.ie",
+   "url": "https://data.smartdublin.ie/dataset/trees"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-11-18",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-11-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tinyletter.com",
+  "host": "tinyletter.com"
+ }
+}

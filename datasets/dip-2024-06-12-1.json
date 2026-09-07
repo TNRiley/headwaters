@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-06-12-1",
+ "title": "Interest group positions",
+ "hook": "Galen Hall et al. have compiled a dataset of “over 13 million policy positions stated by tens of thousands of interest groups and individuals on bills in 17 state legislatures over the past 25 years.” The authors collected and standardized the data, which span 1997 to 2022, from lobbying and testimony disclosures.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cambridge.org",
+   "url": "https://www.cambridge.org/core/journals/state-politics-and-policy-quarterly/article/chorus-a-new-dataset-of-state-interest-group-policy-positions-in-the-united-states/6827DC9EC72301016894F265777C0078"
+  },
+  {
+   "name": "dataverse.unc.edu",
+   "url": "https://dataverse.unc.edu/dataset.xhtml?persistentId=doi:10.15139/S3/RPU1QP"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/galenphall/chorus_data/blob/main/CODEBOOK.md"
+  },
+  {
+   "name": "legiscan.com",
+   "url": "https://legiscan.com/datasets"
+  },
+  {
+   "name": "ncsl.org",
+   "url": "https://www.ncsl.org/"
+  },
+  {
+   "name": "followthemoney.org",
+   "url": "https://www.followthemoney.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-06-12",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-06-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cambridge.org",
+  "host": "cambridge.org"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-10-28-3",
+ "title": "Mining areas",
+ "hook": "A team of academics has built a dataset and map indicating the geographic extents of 6,000+ mining sites around the world. The project traces out 21,000+ polygons covering 57,000+ square kilometers, with boundaries based on experts’ visual interpretation of satellite imagery.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "doi.pangaea.de",
+   "url": "https://doi.pangaea.de/10.1594/PANGAEA.910894"
+  },
+  {
+   "name": "fineprint.global",
+   "url": "https://www.fineprint.global/visualisations/viewer/"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-020-00624-w"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-10-28",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-10-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "doi.pangaea.de",
+  "host": "doi.pangaea.de"
+ }
+}

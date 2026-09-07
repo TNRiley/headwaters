@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-03-29-4",
+ "title": "Real-time air quality, part II",
+ "hook": "After last week’s item on Berkeley Earth’s real-time air quality data, reader Olaf Veerman pointed me to OpenAQ.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "tinyletter.com",
+   "url": "http://tinyletter.com/data-is-plural/letters/data-is-plural-2017-03-22-edition"
+  },
+  {
+   "name": "berkeleyearth.org",
+   "url": "http://berkeleyearth.org/air-quality-real-time-maps-data-download/"
+  },
+  {
+   "name": "openaq.org",
+   "url": "https://openaq.org"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/openaq"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-29",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tinyletter.com",
+  "host": "tinyletter.com"
+ }
+}

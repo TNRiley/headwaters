@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-11-17-1",
+ "title": "Carbon credits",
+ "hook": "The Voluntary Registry Offsets Database, a collaboration between the Berkeley Carbon Trading Project and Carbon Direct, “contains all carbon offset projects, credit issuances, and credit retirements listed globally by four major voluntary offset project registries,” accounting for “almost all of the world’s voluntary market offsets.” Updated in September with data through early May 2021, the database covers 5,000+ projects and 1.2 billion credits issued.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "gspp.berkeley.edu",
+   "url": "https://gspp.berkeley.edu/faculty-and-impact/centers/cepp/projects/berkeley-carbon-trading-project/offsets-database"
+  },
+  {
+   "name": "gspp.berkeley.edu",
+   "url": "https://gspp.berkeley.edu/faculty-and-impact/centers/cepp/projects/berkeley-carbon-trading-project"
+  },
+  {
+   "name": "carbon-direct.com",
+   "url": "https://carbon-direct.com/"
+  },
+  {
+   "name": "carbonpricingdashboard.worldbank.org",
+   "url": "https://carbonpricingdashboard.worldbank.org/map_data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-11-17",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-11-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gspp.berkeley.edu",
+  "host": "gspp.berkeley.edu"
+ }
+}

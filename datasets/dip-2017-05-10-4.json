@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-05-10-4",
+ "title": "What do you do with a PhD in science?",
+ "hook": "The National Science Foundation’s Survey of Doctorate Recipients “is a longitudinal biennial survey conducted since 1973 that provides demographic and career history information about individuals with a research doctoral degree in a science, engineering, or health (SEH) field from a U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nsf.gov",
+   "url": "https://www.nsf.gov/statistics/srvydoctoratework/"
+  },
+  {
+   "name": "sestat.nsf.gov",
+   "url": "https://sestat.nsf.gov/datadownload/"
+  },
+  {
+   "name": "nsf.gov",
+   "url": "https://www.nsf.gov/statistics/next-releases.cfm#survey5"
+  },
+  {
+   "name": "nsf.gov",
+   "url": "https://www.nsf.gov/nsb/sei/infographic2/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-10",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nsf.gov",
+  "host": "nsf.gov"
+ }
+}

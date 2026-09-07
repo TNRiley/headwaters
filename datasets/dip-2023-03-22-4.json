@@ -1,0 +1,39 @@
+{
+ "id": "dip-2023-03-22-4",
+ "title": "Political podcasts",
+ "hook": "The Popular Political Podcast Dataset, developed by the Brookings Institution’s Valerie Wirtschafter and Chris Meserole, covers 50,000+ episodes from 100+ “prominent political podcast series” — the latter based on Apple Podcasts’ popularity rankings and its “You Might Also Like” recommendations.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "politicalpodcastproject.shinyapps.io",
+   "url": "https://politicalpodcastproject.shinyapps.io/dataset/"
+  },
+  {
+   "name": "brookings.edu",
+   "url": "https://www.brookings.edu/author/valerie-wirtschafter/"
+  },
+  {
+   "name": "brookings.edu",
+   "url": "https://www.brookings.edu/experts/chris-meserole/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-22",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "politicalpodcastproject.shinyapps.io",
+  "host": "politicalpodcastproject.shinyapps.io"
+ }
+}

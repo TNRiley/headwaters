@@ -1,0 +1,62 @@
+{
+ "id": "dip-2025-05-14-1",
+ "title": "Deportation records",
+ "hook": "The Deportation Data Project, run by a team of academics and lawyers, “collects and posts public, anonymized U.S. government immigration enforcement datasets.” These include data from border apprehensions, deportations, Title 42 expulsions, ICE arrests and detentions, ICE-operated flights, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "deportationdata.org",
+   "url": "https://deportationdata.org/"
+  },
+  {
+   "name": "deportationdata.org",
+   "url": "https://deportationdata.org/team.html"
+  },
+  {
+   "name": "deportationdata.org",
+   "url": "https://deportationdata.org/data.html"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Title_42_expulsion"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/UWCHR"
+  },
+  {
+   "name": "deportationdata.org",
+   "url": "https://deportationdata.org/foia.html"
+  },
+  {
+   "name": "deportationdata.org",
+   "url": "https://deportationdata.org/guide.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "bloomberg.com",
+   "url": "https://www.bloomberg.com/graphics/2025-trump-ice-immigrant-move-costs-taxpayers/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-05-14",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-05-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "deportationdata.org",
+  "host": "deportationdata.org"
+ }
+}

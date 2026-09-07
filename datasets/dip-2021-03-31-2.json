@@ -1,0 +1,53 @@
+{
+ "id": "dip-2021-03-31-2",
+ "title": "High-resolution population densities",
+ "hook": "“Using a mixture of machine learning techniques, high-resolution satellite imagery, and population data,” researchers at Facebook and Columbia University have “mapped hundreds of millions of structures distributed across vast areas and then used that to extrapolate the local population density.” The project, which began half a decade ago, now provides population density datasets covering much of the world.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "ai.facebook.com",
+   "url": "https://ai.facebook.com/blog/mapping-the-world-to-help-aid-workers-with-weakly-semi-supervised-learning"
+  },
+  {
+   "name": "dataforgood.fb.com",
+   "url": "https://dataforgood.fb.com/tools/population-density-maps/"
+  },
+  {
+   "name": "engineering.fb.com",
+   "url": "https://engineering.fb.com/2016/02/21/core-data/connecting-the-world-with-better-maps/"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/search?organization=facebook&q=%22high%20resolution%20population%20density%22"
+  },
+  {
+   "name": "ghslsys.jrc.ec.europa.eu",
+   "url": "https://ghslsys.jrc.ec.europa.eu/index.php"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-11-02-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-31",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ai.facebook.com",
+  "host": "ai.facebook.com"
+ }
+}

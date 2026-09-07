@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-11-16-4",
+ "title": "Impact craters",
+ "hook": "The Earth Impact Database, maintained by the University of New Brunswick’s Planetary and Space Science Centre, catalogs nearly 200 impact craters caused by meteorites that have crashed into the planet.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "passc.net",
+   "url": "http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/Index.html"
+  },
+  {
+   "name": "passc.net",
+   "url": "http://www.passc.net/AboutUs/index.html"
+  },
+  {
+   "name": "passc.net",
+   "url": "http://www.passc.net/EarthImpactDatabase/New%20website_05-2018/IntrotoImpacts.html"
+  },
+  {
+   "name": "codywinchester.com",
+   "url": "https://codywinchester.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cjwinchester/earth-impact-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-16",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "passc.net",
+  "host": "passc.net"
+ }
+}

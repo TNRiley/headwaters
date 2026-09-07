@@ -1,0 +1,55 @@
+{
+ "id": "dip-2018-12-12-2",
+ "title": "Computer vulnerabilities",
+ "hook": "Common Vulnerabilities and Exposures is a downloadable list of more than 110,000 “publicly known cybersecurity vulnerabilities.” Each vulnerability is assigned a unique identifier (e.g., CVE-2014-0160) and given a description.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "cve.mitre.org",
+   "url": "https://cve.mitre.org/"
+  },
+  {
+   "name": "cve.mitre.org",
+   "url": "https://cve.mitre.org/data/downloads/index.html"
+  },
+  {
+   "name": "cve.mitre.org",
+   "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0160"
+  },
+  {
+   "name": "nvd.nist.gov",
+   "url": "https://nvd.nist.gov/"
+  },
+  {
+   "name": "cve.mitre.org",
+   "url": "https://cve.mitre.org/about/cve_and_nvd_relationship.html"
+  },
+  {
+   "name": "nvd.nist.gov",
+   "url": "https://nvd.nist.gov/vuln/data-feeds"
+  },
+  {
+   "name": "nvd.nist.gov",
+   "url": "https://nvd.nist.gov/vuln/search"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-12-12",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-12-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cve.mitre.org",
+  "host": "cve.mitre.org"
+ }
+}

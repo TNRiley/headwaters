@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-09-19-2",
+ "title": "Home energy consumption",
+ "hook": "For many decades, the Department of Energy’s Residential Energy Consumption Survey has been asking people about their homes’ energy-related characteristics (e.g., number of bedrooms and roofing materials) and energy-consuming appliances (e.g., television size and dishwasher use).",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/consumption/residential/"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/consumption/residential/data/2015/index.php?view=microdata"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-09-19",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-09-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "U.S. Gasoline and Diesel Retail Prices",
+  "host": "eia.gov"
+ }
+}

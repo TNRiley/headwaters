@@ -1,0 +1,54 @@
+{
+ "id": "dip-2021-12-22-1",
+ "title": "Tobacco habits",
+ "hook": "Every few years since 1992, the National Cancer Institute has sponsored the Tobacco Use Supplement to the Current Population Survey, administered by the US Census Bureau.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine",
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cancercontrol.cancer.gov",
+   "url": "https://cancercontrol.cancer.gov/"
+  },
+  {
+   "name": "cancercontrol.cancer.gov",
+   "url": "https://cancercontrol.cancer.gov/brp/tcrb/tus-cps"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/cps/about/supplemental-surveys.html"
+  },
+  {
+   "name": "cancercontrol.cancer.gov",
+   "url": "https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/questionnaires-data"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "http://www.cdc.gov/brfss/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-09-14-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-22",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cancercontrol.cancer.gov",
+  "host": "cancercontrol.cancer.gov"
+ }
+}

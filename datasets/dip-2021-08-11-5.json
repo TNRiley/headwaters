@@ -1,0 +1,53 @@
+{
+ "id": "dip-2021-08-11-5",
+ "title": "Seattle street clocks",
+ "hook": "In 2004, Seattle historian Rob Ketcherside began a quest to find every public clock in the city, past and present. In 2015, he gathered his findings into a dataset that identifies each clock, owner, and piece of supporting evidence, which he continues to update.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ro-ket.com",
+   "url": "http://ro-ket.com/"
+  },
+  {
+   "name": "ba-kground.com",
+   "url": "http://ba-kground.com/clock-db-where-seattles-street-clocks-were/"
+  },
+  {
+   "name": "doi.org",
+   "url": "https://doi.org/10.6084/m9.figshare.1455478"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/dataset/Drive-In_Public_Markets/3427760"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/dataset/Seattle_Streets_Renamed_over_time/1387714"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/dataset/New_Structures_1890_Seattle/1341924"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-11",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ro-ket.com",
+  "host": "ro-ket.com"
+ }
+}

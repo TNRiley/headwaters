@@ -1,0 +1,61 @@
+{
+ "id": "dip-2023-04-26-3",
+ "title": "Kinship terms",
+ "hook": "Kinbank is a browseable and downloadable database of family-tree nomenclature for 1,000+ spoken languages, across 100+ types of relationships. Examples include ahätatum (Akkadian for one’s younger sister), yerudê (Galibi Carib for one’s husband’s brother’s wife), and ɗan’ùbā (Hausa for one’s paternal half-brother).",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "kinbank.net",
+   "url": "http://www.kinbank.net/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/kinbank/kinbank"
+  },
+  {
+   "name": "kinbank.net",
+   "url": "http://www.kinbank.net/languages/"
+  },
+  {
+   "name": "kinbank.net",
+   "url": "http://www.kinbank.net/languages/akka1240/"
+  },
+  {
+   "name": "kinbank.net",
+   "url": "http://www.kinbank.net/languages/gali1262/"
+  },
+  {
+   "name": "kinbank.net",
+   "url": "http://www.kinbank.net/languages/haus1257/"
+  },
+  {
+   "name": "excd.org",
+   "url": "https://excd.org/research-activities/kinbank/"
+  },
+  {
+   "name": "orca.cardiff.ac.uk",
+   "url": "https://orca.cardiff.ac.uk/id/eprint/157986/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-26",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "kinbank.net",
+  "host": "kinbank.net"
+ }
+}

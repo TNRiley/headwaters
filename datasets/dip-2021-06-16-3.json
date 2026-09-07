@@ -1,0 +1,35 @@
+{
+ "id": "dip-2021-06-16-3",
+ "title": "Women on high courts",
+ "hook": "Maria C. Escobar-Lemmon et al. have assembled a dataset on the representation of women in constitutional, supreme, and highest-appellate courts around the world.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "womenonhighcourts.com",
+   "url": "https://womenonhighcourts.com/researchers/"
+  },
+  {
+   "name": "womenonhighcourts.com",
+   "url": "https://womenonhighcourts.com/data/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-16",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "womenonhighcourts.com",
+  "host": "womenonhighcourts.com"
+ }
+}

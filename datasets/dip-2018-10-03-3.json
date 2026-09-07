@@ -1,0 +1,53 @@
+{
+ "id": "dip-2018-10-03-3",
+ "title": "Car traffic",
+ "hook": "The UK Department for Transport’s traffic counts calculate the average daily number of vehicles “for every junction-to-junction link on the 'A' road and motorway network in Great Britain.” Likewise, California publishes the average daily traffic, peak hourly traffic, truck traffic, and ramp traffic for each of its state highways.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "dft.gov.uk",
+   "url": "https://www.dft.gov.uk/traffic-counts/index.php"
+  },
+  {
+   "name": "dot.ca.gov",
+   "url": "http://www.dot.ca.gov/trafficops/census/"
+  },
+  {
+   "name": "metrocosm.com",
+   "url": "http://metrocosm.com/map-us-traffic/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-10-05-edition"
+  },
+  {
+   "name": "fhwa.dot.gov",
+   "url": "https://www.fhwa.dot.gov/policyinformation/hpms/fieldmanual/page01.cfm"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-04-25-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-10-03",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-10-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dft.gov.uk",
+  "host": "dft.gov.uk"
+ }
+}

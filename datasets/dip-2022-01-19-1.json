@@ -1,0 +1,65 @@
+{
+ "id": "dip-2022-01-19-1",
+ "title": "More political emails",
+ "hook": "Derek Willis, a journalism lecturer with an expertise in political data, has published a searchable, downloadable database of 100,000+ email messages received in recent years by an address he created for this purpose, and “which I routinely plug into forms I find on candidate and committee sites.” The database, which Willis plans to update weekly, lists each message’s timestamp, sender, subject line, and body.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "merrill.umd.edu",
+   "url": "https://merrill.umd.edu/directory/derek-willis"
+  },
+  {
+   "name": "createsend.com",
+   "url": "https://createsend.com/t/t-97F63A7D578A8F0B2540EF23F30FEDED"
+  },
+  {
+   "name": "political-emails.herokuapp.com",
+   "url": "https://political-emails.herokuapp.com/"
+  },
+  {
+   "name": "electionemails2020.org",
+   "url": "https://electionemails2020.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-06-23-edition/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-markup/investigation-wheres-my-email"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-03-04-edition/"
+  },
+  {
+   "name": "dcinbox.com",
+   "url": "https://www.dcinbox.com/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-03-03-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-19",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "merrill.umd.edu",
+  "host": "merrill.umd.edu"
+ }
+}

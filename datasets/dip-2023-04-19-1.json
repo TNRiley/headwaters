@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-04-19-1",
+ "title": "Municipal zoning rules",
+ "hook": "Matt Mleczko and Matthew Desmond, of Princeton’s Eviction Lab (DIP 2018.04.18), have developed a method for extracting structured information from the text of local zoning regulations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "mattmleczko.scholar.princeton.edu",
+   "url": "https://mattmleczko.scholar.princeton.edu/"
+  },
+  {
+   "name": "matthewdesmond.scholar.princeton.edu",
+   "url": "https://matthewdesmond.scholar.princeton.edu/"
+  },
+  {
+   "name": "evictionlab.org",
+   "url": "https://evictionlab.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-04-18-edition/"
+  },
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/eprint/2YGAQ9JE5S6PYXHVTBZG/full"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/mtmleczko/nzlud"
+  },
+  {
+   "name": "real-faculty.wharton.upenn.edu",
+   "url": "https://real-faculty.wharton.upenn.edu/gyourko/land-use-survey/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Secondary_suite"
+  },
+  {
+   "name": "evictionlab.org",
+   "url": "https://evictionlab.org/zoning-restrictiveness-index/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-19",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mattmleczko.scholar.princeton.edu",
+  "host": "mattmleczko.scholar.princeton.edu"
+ }
+}

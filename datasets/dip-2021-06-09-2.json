@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-06-09-2",
+ "title": "Weekly gas prices",
+ "hook": "Every Monday, the Energy Information Administration collects data “on retail prices for regular, midgrade, and premium grades of gasoline from a sample of retail gasoline outlets across the United States using Form EIA-878, Motor Gasoline Price Survey Schedule A.” The survey informs the agency’s average gas price…",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/petroleum/gasdiesel/gas_proc-methods.php"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/petroleum/gasdiesel/"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/petroleum/gasdiesel/diesel_proc-methods.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-09",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "U.S. Gasoline and Diesel Retail Prices",
+  "host": "eia.gov"
+ }
+}

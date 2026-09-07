@@ -1,0 +1,43 @@
+{
+ "id": "dip-2015-11-04-3",
+ "title": "All licensed firearm dealers since 2010",
+ "hook": "The Bureau of Alcohol, Tobacco, Firearms, and Explosives publishes a searchable and downloadable licensing database. License-holders fall into eleven categories.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "atf.gov",
+   "url": "https://data.atf.gov/Licensees/Federal-Firearms-Licensee-Listing-2010-to-2015/qg4c-kex6"
+  },
+  {
+   "name": "atf.gov",
+   "url": "https://www.atf.gov/firearms/curios-relics"
+  },
+  {
+   "name": "atf.gov",
+   "url": "https://www.atf.gov/firearms/firearms-guides-importation-verification-firearms-national-firearms-act-definitions-1"
+  },
+  {
+   "name": "atf.gov",
+   "url": "https://www.atf.gov/firearms/listing-federal-firearms-licensees-ffls-2015"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-04",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "atf.gov",
+  "host": "atf.gov"
+ }
+}

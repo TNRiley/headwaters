@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-12-19-4",
+ "title": "How much alcohol?",
+ "hook": "Open Units is a dataset detailing the total amount of alcohol in 1,000+ beer and cider offerings, “based on information made public by drinks manufacturers, distributors and retailers.” For instance, a 355-mL bottle of Sierra Nevada Pale Ale contains 20 mL of alcohol, the same as a pint of Bud Light.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "getthedata.com",
+   "url": "https://www.getthedata.com/open-units"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-12-19",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-12-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "getthedata.com",
+  "host": "getthedata.com"
+ }
+}

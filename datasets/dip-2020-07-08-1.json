@@ -1,0 +1,58 @@
+{
+ "id": "dip-2020-07-08-1",
+ "title": "The Paycheck Protection Program",
+ "hook": "On Monday, the US Treasury Department and Small Business Administration released detailed data on the financial assistance given to businesses through the government’s Paycheck Protection Program.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "home.treasury.gov",
+   "url": "https://home.treasury.gov/news/press-releases/sm1052"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Paycheck_Protection_Program"
+  },
+  {
+   "name": "home.treasury.gov",
+   "url": "https://home.treasury.gov/policy-issues/cares-act/assistance-for-small-businesses/sba-paycheck-protection-program-loan-level-data"
+  },
+  {
+   "name": "simonwillison.net",
+   "url": "https://simonwillison.net"
+  },
+  {
+   "name": "sba-loans-covid-19.datasettes.com",
+   "url": "https://sba-loans-covid-19.datasettes.com/loans_150k_plus/foia_150k_plus"
+  },
+  {
+   "name": "cnbc.com",
+   "url": "https://www.cnbc.com/2020/07/06/ppp-small-business-coroniavirus-loan-database-contains-errors.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/graphics/2020/business/sba-ppp-data/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-08",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "home.treasury.gov",
+  "host": "home.treasury.gov"
+ }
+}

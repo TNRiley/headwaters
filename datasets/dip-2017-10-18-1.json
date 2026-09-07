@@ -1,0 +1,50 @@
+{
+ "id": "dip-2017-10-18-1",
+ "title": "Puerto Rico’s recovery",
+ "hook": "Since shortly after Hurricane Maria hit Puerto Rico, the territory’s government has been publishing a dashboard of recovery statistics. The website tracks a couple dozen metrics, including the percent of homes with electricity, number of people in shelters, and the number of open hospitals.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "status.pr",
+   "url": "http://status.pr/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/majohansson/maria-puerto-rico"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/majohansson/maria-puerto-rico/blob/master/data/StatusPR.csv"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/news/politics/wp/2017/10/06/fema-buried-updates-on-puerto-rico-here-they-are/?utm_term=.85824229c3b4"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/graphics/2017/national/puerto-rico-hurricane-recovery/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-10-18",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-10-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "status.pr",
+  "host": "status.pr"
+ }
+}

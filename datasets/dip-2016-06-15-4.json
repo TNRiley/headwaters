@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-06-15-4",
+ "title": "Gone phishing",
+ "hook": "PhishTank is a clearinghouse that tracks thieves’ attempts to steal personal information and online credentials. The website also publishes bulk data on all verified phishing attempts — 44,000 and counting.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "phishtank.com",
+   "url": "https://www.phishtank.com/index.php"
+  },
+  {
+   "name": "phishtank.com",
+   "url": "https://www.phishtank.com/developer_info.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-15",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "phishtank.com",
+  "host": "phishtank.com"
+ }
+}

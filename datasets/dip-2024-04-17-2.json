@@ -1,0 +1,41 @@
+{
+ "id": "dip-2024-04-17-2",
+ "title": "Border crossings",
+ "hook": "Michael R. Kenwick et al.’s Border Crossings of the World dataset “explores state authority spatially by collecting information about infrastructure built where highways cross internationally recognized borders.” Using satellite imagery, the team’s researchers identified the locations of gates, official buildings, and split-lane inspection facilities annually from the 1990s onward.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/10.1177/00223433221145582"
+  },
+  {
+   "name": "mkenwick.com",
+   "url": "https://mkenwick.com/datameasurement/#borders"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/RRV0JZ"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-17",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "journals.sagepub.com",
+  "host": "journals.sagepub.com"
+ }
+}

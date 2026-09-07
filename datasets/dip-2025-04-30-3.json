@@ -1,0 +1,65 @@
+{
+ "id": "dip-2025-04-30-3",
+ "title": "US sewer overflow sites",
+ "hook": "“There are approximately 700 communities in the United States that have combined sewer systems and experience combined sewer overflow (CSO) discharges,” according to the EPA, whose National Combined Sewer Overflow Inventory lists 8,600+ outfalls across those communities.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/npdes/where-combined-sewer-overflow-outfalls-are-located"
+  },
+  {
+   "name": "echo.epa.gov",
+   "url": "https://echo.epa.gov/tools/data-downloads/cso-inventory-summary"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/npdes/combined-sewer-overflows-csos"
+  },
+  {
+   "name": "echo.epa.gov",
+   "url": "https://echo.epa.gov/tools/data-downloads#downloads"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/npdes"
+  },
+  {
+   "name": "echo.epa.gov",
+   "url": "https://echo.epa.gov/help/loading-tool/monitoring-data-download-help"
+  },
+  {
+   "name": "cbsnews.com",
+   "url": "https://www.cbsnews.com/news/sewage-river-creek-us-minority-community/"
+  },
+  {
+   "name": "environment.data.gov.uk",
+   "url": "https://environment.data.gov.uk/dataset/21e15f12-0df8-4bfc-b763-45226c16a8ac"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2024-05-15-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-04-30",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-04-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "epa.gov",
+  "host": "epa.gov"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-10-07-3",
+ "title": "Historical newspaper imagery",
+ "hook": "The Library of Congress’ Newspaper Navigator dataset extracts “visual content” from more than 16 million pages of newspapers from 1789 to 1963, drawn from the library’s Chronicling America project (DIP 2017.08.16).",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "news-navigator.labs.loc.gov",
+   "url": "https://news-navigator.labs.loc.gov/"
+  },
+  {
+   "name": "chroniclingamerica.loc.gov",
+   "url": "https://chroniclingamerica.loc.gov/about/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-08-16-edition"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/LibraryOfCongress/newspaper-navigator"
+  },
+  {
+   "name": "news-navigator.labs.loc.gov",
+   "url": "https://news-navigator.labs.loc.gov/search"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-10-07",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-10-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "news-navigator.labs.loc.gov",
+  "host": "news-navigator.labs.loc.gov"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-03-20-3",
+ "title": "Extrajudicial killings in Bangladesh",
+ "hook": "Between 2009 and 2022, “Bangladesh’s security forces killed at least 2,597 people in apparent extrajudicial executions, custodial torture, and by firing bullets at protesters,” according to Nazmul Ahasan’s analysis for Netra News, building on data “compiled by Bangladeshi human rights defenders and collated by the…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nazmulahasan.com",
+   "url": "https://nazmulahasan.com/"
+  },
+  {
+   "name": "interactive.netra.news",
+   "url": "https://interactive.netra.news/extrajudicial-killings-bangladesh/"
+  },
+  {
+   "name": "cpjp.org.au",
+   "url": "https://www.cpjp.org.au/resources/bangladesh"
+  },
+  {
+   "name": "interactive.netra.news",
+   "url": "https://interactive.netra.news/extrajudicial-killings-bangladesh/data.json"
+  },
+  {
+   "name": "sigmaawards.org",
+   "url": "https://www.sigmaawards.org/meet-the-winners-of-the-sigmas-2024-for-data-journalism/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-03-20",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-03-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nazmulahasan.com",
+  "host": "nazmulahasan.com"
+ }
+}

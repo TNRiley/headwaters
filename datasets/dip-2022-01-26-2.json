@@ -1,0 +1,46 @@
+{
+ "id": "dip-2022-01-26-2",
+ "title": "SARS-CoV-2 in local sewage",
+ "hook": "Biobot Analytics, a wastewater epidemiology company, has been partnering with local governments to monitor sewage for traces of coronavirus.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "biobot.io",
+   "url": "https://biobot.io/"
+  },
+  {
+   "name": "biobot.io",
+   "url": "https://biobot.io/data/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/biobotanalytics/covid19-wastewater-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2022/01/19/health/covid-omicron-wastewater-sewage.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-26",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "biobot.io",
+  "host": "biobot.io"
+ }
+}

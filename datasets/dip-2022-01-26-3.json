@@ -1,0 +1,61 @@
+{
+ "id": "dip-2022-01-26-3",
+ "title": "Collective bargaining",
+ "hook": "The US Federal Mediation and Conciliation Service’s stated mission “is to preserve and promote labor-management peace and cooperation.” It also publishes spreadsheets of data submitted through its Form F-7, which employers and unions must file when they can’t agree on modifying or ending a collectively bargained contract.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Federal_Mediation_and_Conciliation_Service_(United_States)"
+  },
+  {
+   "name": "fmcs.gov",
+   "url": "https://www.fmcs.gov/aboutus/"
+  },
+  {
+   "name": "fmcs.gov",
+   "url": "https://www.fmcs.gov/resources/documents-and-data/#tab-d3d7f5344cef9bab4d3"
+  },
+  {
+   "name": "fmcs.gov",
+   "url": "https://www.fmcs.gov/resources/forms-applications/notice-of-bargaining-f-7/"
+  },
+  {
+   "name": "nlrb.gov",
+   "url": "https://www.nlrb.gov/reports/graphs-data/recent-election-results"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-05-05-edition/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/labordata/nlrb-voluntary-recognitions"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-09-22-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-26",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

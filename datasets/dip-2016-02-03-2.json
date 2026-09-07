@@ -1,0 +1,50 @@
+{
+ "id": "dip-2016-02-03-2",
+ "title": "Famous people on Wikipedia",
+ "hook": "Last month, a group of researchers introduced Pantheon 1.0, “a manually verified dataset of globally famous biographies.” It starts with 11,341 Wikipedia biography pages in 25 languages, and adds birthplace, birthdate, gender, occupations, and page views. You can download the data or explore it online.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "http://www.nature.com/articles/sdata201575"
+  },
+  {
+   "name": "pantheon.media.mit.edu",
+   "url": "http://pantheon.media.mit.edu/about/datasets"
+  },
+  {
+   "name": "pantheon.media.mit.edu",
+   "url": "http://pantheon.media.mit.edu/rankings/cities/all/all/-4000/2010/H15"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/bdilday/wikipedia_people"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "http://www.buzzfeed.com/josephbernstein/why-the-hell-is-corbin-bleu-such-a-huge-deal-on-wikipedia"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-03",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

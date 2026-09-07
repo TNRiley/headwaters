@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-02-19-4",
+ "title": "Farm households",
+ "hook": "The Rural Household Multiple Indicator Survey (RHoMIS) “collects information on 758 variables covering household demographics, farm area, crops grown and their production, livestock holdings” and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-020-0388-8"
+  },
+  {
+   "name": "ilri.org",
+   "url": "https://www.ilri.org"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/9M6EHS"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-19",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

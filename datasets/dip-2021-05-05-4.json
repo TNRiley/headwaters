@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-05-05-4",
+ "title": "Federal Reserve Bank directors",
+ "hook": "To examine diversity in the US Federal Reserve System, a team led by central bank–watchers Peter Conti-Brown and Kaleb Nygaard has compiled a biographical dataset of the nearly 2,000 people who have served as directors of the system’s twelve Reserve Banks between 1914 and 2019.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "federalreserve.gov",
+   "url": "https://www.federalreserve.gov/aboutthefed.htm"
+  },
+  {
+   "name": "lgst.wharton.upenn.edu",
+   "url": "https://lgst.wharton.upenn.edu/profile/petercb/"
+  },
+  {
+   "name": "kalebnygaard.com",
+   "url": "https://kalebnygaard.com/"
+  },
+  {
+   "name": "brookings.edu",
+   "url": "https://www.brookings.edu/research/diversity-within-the-federal-reserve-system/"
+  },
+  {
+   "name": "federalreserve.gov",
+   "url": "https://www.federalreserve.gov/aboutthefed/federal-reserve-system.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-05-05",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-05-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "federalreserve.gov",
+  "host": "federalreserve.gov"
+ }
+}

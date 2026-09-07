@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-09-11-4",
+ "title": "Italian tax-to-charity allocations",
+ "hook": "Italy’s “five per thousand” program allows taxpayers to allocate 0.5% of their income tax to certain nonprofits, research institutions, and other social-benefit organizations. The country’s Ministry of Economy and Finance has published information about 2022’s beneficiaries, but initially did so only via PDFs.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "agenziaentrate.gov.it",
+   "url": "https://www.agenziaentrate.gov.it/portale/elenco-complessivo-degli-enti-ammessi-in-una-o-piu-categorie-di-beneficiari"
+  },
+  {
+   "name": "web.archive.org",
+   "url": "https://web.archive.org/web/20240605153105/https://www.agenziaentrate.gov.it/portale/elenco-complessivo-degli-enti-ammessi-in-una-o-piu-categorie-di-beneficiari"
+  },
+  {
+   "name": "datibenecomune.substack.com",
+   "url": "https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-4"
+  },
+  {
+   "name": "datibenecomune.substack.com",
+   "url": "https://datibenecomune.substack.com/p/il-numero-zero"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ondata/liberiamoli-tutti/tree/main/cinque_per_mille/dati"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-11",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "agenziaentrate.gov.it",
+  "host": "agenziaentrate.gov.it"
+ }
+}

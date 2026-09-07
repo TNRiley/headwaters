@@ -1,0 +1,49 @@
+{
+ "id": "dip-2016-06-08-1",
+ "title": "Nuclear accidents",
+ "hook": "Researchers in Europe have published a database of 216 nuclear energy accidents — a compendium they say is “twice the size of the previous best data set.” For each accident, the database contains the date, location, description, and four measurements of severity: its ratings on the International Nuclear Event Scale and on the Nuclear Accident Magnitude Scale, the number of fatalities, and total monetary cost.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "innovwiki.ethz.ch",
+   "url": "https://innovwiki.ethz.ch/index.php/Nuclear_events_database"
+  },
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "http://onlinelibrary.wiley.com/doi/10.1111/risa.12587/full"
+  },
+  {
+   "name": "www-ns.iaea.org",
+   "url": "http://www-ns.iaea.org/tech-areas/emergency/ines.asp"
+  },
+  {
+   "name": "davidsmythe.org",
+   "url": "http://www.davidsmythe.org/nuclear/accidents.htm"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Monju_Nuclear_Power_Plant"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-08",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "innovwiki.ethz.ch",
+  "host": "innovwiki.ethz.ch"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "dip-2022-03-30-3",
+ "title": "Local digital news",
+ "hook": "Project Oasis, which aims to “map and showcase the growing number of locally focused digital news publications in the U.S. and Canada,” has collected data on 700+ such organizations.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "projectnewsoasis.com",
+   "url": "https://www.projectnewsoasis.com/"
+  },
+  {
+   "name": "projectnewsoasis.com",
+   "url": "https://www.projectnewsoasis.com/publications"
+  },
+  {
+   "name": "sembramedia.org",
+   "url": "https://www.sembramedia.org/projectoasis/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-30",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Project Oasis",
+  "host": "projectnewsoasis.com"
+ }
+}

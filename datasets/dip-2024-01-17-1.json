@@ -1,0 +1,65 @@
+{
+ "id": "dip-2024-01-17-1",
+ "title": "RSV",
+ "hook": "The US CDC’s Respiratory Syncytial Virus Hospitalization Surveillance Network collects data on hospital admissions due to lab-confirmed RSV at acute-care facilities in 58 counties, across 12 states.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/rsv/research/rsv-net/index.html"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/rsv/index.html"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/rsv/research/rsv-net/dashboard.html"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://data.cdc.gov/Public-Health-Surveillance/Weekly-Rates-of-Laboratory-Confirmed-RSV-Hospitali/29hc-w46k/about_data"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/surveillance/resp-net/dashboard.html"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/flu/weekly/influenza-hospitalization-surveillance.htm"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/coronavirus/2019-ncov/covid-data/covid-net/purpose-methods.html"
+  },
+  {
+   "name": "erviss.org",
+   "url": "https://erviss.org/"
+  },
+  {
+   "name": "ecdc.europa.eu",
+   "url": "https://www.ecdc.europa.eu/en/news-events/ecdc-and-who-launch-new-surveillance-tool-respiratory-viruses-improve-early-detection"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-01-17",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-01-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

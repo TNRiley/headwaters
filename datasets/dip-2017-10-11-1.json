@@ -1,0 +1,61 @@
+{
+ "id": "dip-2017-10-11-1",
+ "title": "Wildfires",
+ "hook": "“Monitoring Trends in Burn Severity (MTBS) is an interagency program whose goal is to consistently map the burn severity and extent of large fires across all lands of the United States”; the most recent release contains more than 20,000 fires from 1984 to 2015. You can explore the data online, or download it in bulk.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "mtbs.gov",
+   "url": "https://www.mtbs.gov/project-overview"
+  },
+  {
+   "name": "mtbs.gov",
+   "url": "https://www.mtbs.gov/articles/announcement/data-release-may-1-2017"
+  },
+  {
+   "name": "mtbs.gov",
+   "url": "https://www.mtbs.gov/viewer/index.html"
+  },
+  {
+   "name": "mtbs.gov",
+   "url": "https://www.mtbs.gov/direct-download"
+  },
+  {
+   "name": "geomac.gov",
+   "url": "https://www.geomac.gov/"
+  },
+  {
+   "name": "ospo.noaa.gov",
+   "url": "http://www.ospo.noaa.gov/Products/land/hms.html"
+  },
+  {
+   "name": "earthdata.nasa.gov",
+   "url": "https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/active-fire-data"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-07-20-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-10-11",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-10-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mtbs.gov",
+  "host": "mtbs.gov"
+ }
+}

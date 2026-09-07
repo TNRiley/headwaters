@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-05-12-4",
+ "title": "European cross-border rail",
+ "hook": "Drawing from company websites and communications with government railway agencies, OBC Transeuropa’s Gianluca De Feo and Lorenzo Ferrari have identified 271 passenger train routes that cross Europe’s national borders.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "balcanicaucaso.org",
+   "url": "https://www.balcanicaucaso.org/eng/About-us"
+  },
+  {
+   "name": "europeandatajournalism.eu",
+   "url": "https://www.europeandatajournalism.eu/eng/News/Data-news/More-and-more-trains-crossing-European-borders"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/12deGLMuX3u-mUaHGlLT0-TXIGZnQ-NILCt6NRA4s0pU/edit"
+  },
+  {
+   "name": "balcanicaucaso.org",
+   "url": "https://www.balcanicaucaso.org/eng/Areas/Europe/Four-ways-of-looking-at-European-cross-border-rail-links-209800"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-05-12",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-05-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "balcanicaucaso.org",
+  "host": "balcanicaucaso.org"
+ }
+}

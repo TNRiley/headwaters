@@ -1,0 +1,33 @@
+{
+ "id": "dip-2020-12-09-2",
+ "title": "Pandemic travel restrictions",
+ "hook": "The UN World Food Program has been tracking countries’ and airlines’ travel restrictions during the COVID-19 pandemic, based on official communications, media reports, and other sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/covid-19-global-travel-restrictions-and-airline-information"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-09",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "humdata.org",
+  "host": "humdata.org"
+ }
+}

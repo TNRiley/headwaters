@@ -1,0 +1,41 @@
+{
+ "id": "dip-2023-03-01-2",
+ "title": "EPA-regulated facilities",
+ "hook": "The US Environmental Protection Agency’s Facility Registry System “provides Internet access to a single source of comprehensive information about facilities, sites or places subject to environmental regulations or of environmental interest.” It includes each entity’s name, type, location, industry, regulatory programs, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/frs"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/datasets/epa-risk-management-program-database/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2023-02-22-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-01",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "epa.gov",
+  "host": "epa.gov"
+ }
+}

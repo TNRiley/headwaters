@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-09-07-3",
+ "title": "Night lights",
+ "hook": "Earlier this summer, a group researchers published a “new world atlas of artificial night sky brightness,” also known as light pollution. You can download a KMZ version of their atlas and view it in Google Earth.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "advances.sciencemag.org",
+   "url": "http://advances.sciencemag.org/content/2/6/e1600377.full"
+  },
+  {
+   "name": "pmd.gfz-potsdam.de",
+   "url": "http://pmd.gfz-potsdam.de/contact/showshort.php?id=escidoc:1541893&contactform"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-07",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "advances.sciencemag.org",
+  "host": "advances.sciencemag.org"
+ }
+}

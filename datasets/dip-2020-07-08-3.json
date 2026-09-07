@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-07-08-3",
+ "title": "Programmer surveys",
+ "hook": "For the past decade, programming Q&A site StackOverflow has run an annual survey, asking developers about the languages they use, their workplaces, learning goals, salaries, and more. The site provides anonymized, respondent-level data for each survey, including the 2020 edition, which received 64,000+ responses.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "stackoverflow.com",
+   "url": "https://stackoverflow.com"
+  },
+  {
+   "name": "insights.stackoverflow.com",
+   "url": "https://insights.stackoverflow.com/survey/"
+  },
+  {
+   "name": "freecodecamp.org",
+   "url": "https://www.freecodecamp.org"
+  },
+  {
+   "name": "freecodecamp.org",
+   "url": "https://www.freecodecamp.org/news/the-2018-new-coder-survey-31-000-people-told-us-how-theyre-learning-to-code-and-getting-dev-jobs-e10feb9ed419/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/freeCodeCamp?q=new-coder-survey"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-08",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "stackoverflow.com",
+  "host": "stackoverflow.com"
+ }
+}

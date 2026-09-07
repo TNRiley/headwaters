@@ -1,0 +1,61 @@
+{
+ "id": "dip-2021-12-01-1",
+ "title": "Language from 100 million academic articles",
+ "hook": "The General Index, a new project from Carl Malamud’s Public Resource, contains detailed linguistic data derived from 107,233,728 academic journal articles. The index’s main table contains all one-to-five-word sequences found in each article, and their frequencies — more than 355 billion “n-grams” in total.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/GeneralIndex"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Carl_Malamud"
+  },
+  {
+   "name": "public.resource.org",
+   "url": "https://public.resource.org/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/N-gram"
+  },
+  {
+   "name": "pypi.org",
+   "url": "https://pypi.org/project/yake/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Digital_object_identifier"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/d41586-019-02142-1"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/d41586-021-02895-8"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-01",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC datasets uploaded before January 28th, 2025",
+  "host": "archive.org"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "dip-2019-02-20-4",
+ "title": "Electronic search warrants",
+ "hook": "Thanks to a 2015 state bill, when California law enforcement agencies obtain search warrants for digital communications (or are granted access to such information in an emergency), they must notify the people whose information they targeted.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "lawfareblog.com",
+   "url": "https://www.lawfareblog.com/so-whats-california-electronic-communications-privacy-act"
+  },
+  {
+   "name": "openjustice.doj.ca.gov",
+   "url": "https://openjustice.doj.ca.gov/data"
+  },
+  {
+   "name": "desertsun.com",
+   "url": "https://www.desertsun.com/story/news/crime_courts/2019/01/10/san-bernardino-county-sheriffs-department-searches-electronic-property-up/2542376002/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-02-20",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-02-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lawfareblog.com",
+  "host": "lawfareblog.com"
+ }
+}

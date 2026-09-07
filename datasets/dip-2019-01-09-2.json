@@ -1,0 +1,39 @@
+{
+ "id": "dip-2019-01-09-2",
+ "title": "Sound effects",
+ "hook": "Last spring, the BBC published an archive of 16,000+ sound effects, licensed ”for personal, educational or research purposes.” Each audio file is accompanied by a description, categorization, and its length.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "journalism",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "bbcsfx.acropolis.org.uk",
+   "url": "http://bbcsfx.acropolis.org.uk/"
+  },
+  {
+   "name": "bbcsfx.acropolis.org.uk",
+   "url": "http://bbcsfx.acropolis.org.uk/assets/BBCSoundEffects.csv"
+  },
+  {
+   "name": "bbcsfx.acropolis.org.uk",
+   "url": "http://bbcsfx.acropolis.org.uk/?q=hilariously"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-09",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bbcsfx.acropolis.org.uk",
+  "host": "bbcsfx.acropolis.org.uk"
+ }
+}

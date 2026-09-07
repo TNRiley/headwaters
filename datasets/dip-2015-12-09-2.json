@@ -1,0 +1,52 @@
+{
+ "id": "dip-2015-12-09-2",
+ "title": "More data (and discussion) on mass shootings",
+ "hook": "Last week, Data Is Plural highlighted ShootingTracker.com, a source for data on shootings that wounded at least four people. Other resources include the Gun Violence Archive and Mother Jones’ detailed database of mass shootings since 1982.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-12-02-edition"
+  },
+  {
+   "name": "shootingtracker.com",
+   "url": "http://shootingtracker.com/wiki/Main_Page"
+  },
+  {
+   "name": "gunviolencearchive.org",
+   "url": "http://www.gunviolencearchive.org/methodology"
+  },
+  {
+   "name": "motherjones.com",
+   "url": "http://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "http://www.nytimes.com/2015/12/04/opinion/how-many-mass-shootings-are-there-really.html"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/news/wonk/wp/2015/12/03/what-makes-a-mass-shooting-in-america/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-09",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tinyletter.com",
+  "host": "tinyletter.com"
+ }
+}

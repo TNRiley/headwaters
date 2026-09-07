@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-04-20-4",
+ "title": "Where clouds congregate, and when",
+ "hook": "Researchers have analyzed 15 years of satellite imagery to create a nearly-global dataset of seasonal cloud coverage. The data — available at a kilometer-square resolution — could help scientists monitor and predict changes in ecosystems. [h/t Grant Smith + Joanna Klein]",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "earthenv.org",
+   "url": "http://www.earthenv.org/cloud.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-20",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "earthenv.org",
+  "host": "earthenv.org"
+ }
+}

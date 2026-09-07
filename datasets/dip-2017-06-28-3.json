@@ -1,0 +1,53 @@
+{
+ "id": "dip-2017-06-28-3",
+ "title": "Real estate inventories",
+ "hook": "The National Association of Realtors publishes monthly real estate inventory data “at the national level, the 500 largest metropolitan areas, the 1,000 largest counties, and over 15,000 zip codes.” The data, based on the realtors’ multiple listing services, goes back five years and “tracks key market metrics including…",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "research.realtor.com",
+   "url": "http://research.realtor.com/data/inventory-trends/"
+  },
+  {
+   "name": "realtor.com",
+   "url": "http://www.realtor.com/advice/buy/what-is-the-mls-multiple-listing-service/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-06-22-edition"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-02-08-edition"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-12-30-edition"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-03-15-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-28",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "research.realtor.com",
+  "host": "research.realtor.com"
+ }
+}

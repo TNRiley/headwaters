@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-06-19-3",
+ "title": "Plant extinctions",
+ "hook": "“Most people can name a mammal or bird that has become extinct in recent centuries, but few can name a recently extinct plant.” That’s from a new academic paper that presents “a comprehensive, global analysis of modern extinction in plants.” The paper itself is paywalled, but the dataset — of 571 extinct seed plants, plus other species that have been rediscovered or reclassified — is available to download.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41559-019-0906-2"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/d41586-019-01810-6"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-19",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

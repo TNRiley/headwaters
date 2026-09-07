@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-09-07-4",
+ "title": "Battles and sieges",
+ "hook": "Charles Miller and K. Shuvo Bakar’s Historical Conflict Event Dataset covers 8,800+ military clashes spanning thousands of years, from Egypt’s capture of Megiddo c. 1468 BC to the 2003 invasion of Iraq.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/10.1177/00220027221119085"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6ZFC0V"
+  },
+  {
+   "name": "britannica.com",
+   "url": "https://www.britannica.com/place/Megiddo"
+  },
+  {
+   "name": "issueoutcomes.com.au",
+   "url": "https://www.issueoutcomes.com.au/about.html"
+  },
+  {
+   "name": "openlibrary.org",
+   "url": "https://openlibrary.org/works/OL9393993W/Dictionary_of_Battles_and_Sieges"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/file.xhtml?fileId=6434093&version=1.0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-07",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "journals.sagepub.com",
+  "host": "journals.sagepub.com"
+ }
+}

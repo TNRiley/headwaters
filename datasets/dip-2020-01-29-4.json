@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-01-29-4",
+ "title": "Darknet market survival",
+ "hook": "The researcher who goes by “Gwern” maintains a dataset of more than 80 darknet marketplaces founded between 2011 and 2015.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "gwern.net",
+   "url": "https://www.gwern.net/Links"
+  },
+  {
+   "name": "gwern.net",
+   "url": "https://www.gwern.net/DNM-survival"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-29",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gwern.net",
+  "host": "gwern.net"
+ }
+}

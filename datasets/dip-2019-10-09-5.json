@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-10-09-5",
+ "title": "Walter White and company",
+ "hook": "Web developer Tim Biles has created an unofficial Breaking Bad API. It provides structured data on every character, episode, and death in the TV series, plus selected quotations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "timbilestim.netlify.com",
+   "url": "https://timbilestim.netlify.com"
+  },
+  {
+   "name": "breakingbadapi.com",
+   "url": "https://breakingbadapi.com/documentation"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-09",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "timbilestim.netlify.com",
+  "host": "timbilestim.netlify.com"
+ }
+}

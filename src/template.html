@@ -211,6 +211,10 @@
     return 'other / per-record';
   }
 
+  // Readable names for the aggregations that surface datasets.
+  var AGG = {'tidytuesday':'TidyTuesday', 'data-is-plural':'Data Is Plural',
+             'aws-open-data-registry':'AWS Open Data'};
+
   // ---- modes ---------------------------------------------------------------
   var MODES = {
     datasets: {
@@ -219,6 +223,11 @@
         {key:'provider', label:'Published by',  get:function(d){ return d.provider ? [d.provider.name] : []; }, cap:12},
         {key:'ptype',    label:'Kind of publisher', get:function(d){ return d.provider_type?[d.provider_type]:[]; }},
         {key:'where',    label:'About where',   get:function(d){ return d.geography?[d.geography]:['unspecified']; }},
+        // How a dataset was found is worth filtering on: the two aggregations select for
+        // very different things, and a dataset both of them surfaced is independently
+        // interesting twice. Multi-valued on purpose -- a record can carry several sightings.
+        {key:'agg',      label:'Found via',     get:function(d){
+            return d.found_in.map(function(f){ return AGG[f.aggregation] || f.aggregation; }); }},
         {key:'year',     label:'Surfaced',      get:function(d){ return d.found_in.map(function(f){return String(f.year);}); }, cap:12},
         {key:'cols',     label:'Detail',        get:function(d){
             return [(d.tables||[]).some(function(t){return (t.columns||[]).length;}) ? 'column names known' : 'files only']; }}

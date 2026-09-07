@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-07-03-4",
+ "title": "Hurricane forecast accuracy",
+ "hook": "The National Hurricane Center says it “receives frequent inquiries on the accuracy and skill of its forecasts and of the computer models available to it.” To help answer those questions, the agency publishes a series of regularly-updated verification reports, as well as a database quantifying its forecast errors.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nhc.noaa.gov",
+   "url": "https://www.nhc.noaa.gov/"
+  },
+  {
+   "name": "nhc.noaa.gov",
+   "url": "https://www.nhc.noaa.gov/verification/index.shtml"
+  },
+  {
+   "name": "nhc.noaa.gov",
+   "url": "https://www.nhc.noaa.gov/verification/verify7.shtml"
+  },
+  {
+   "name": "nhc.noaa.gov",
+   "url": "https://www.nhc.noaa.gov/verification/verify2.shtml"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/preprints/socarxiv/sqtjr"
+  },
+  {
+   "name": "renatomolinah.com",
+   "url": "https://renatomolinah.com/"
+  },
+  {
+   "name": "ivanrudik.com",
+   "url": "https://ivanrudik.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-03",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nhc.noaa.gov",
+  "host": "nhc.noaa.gov"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-05-10-4",
+ "title": "Grammatical phenomena",
+ "hook": "Grambank, the result of a collaboration involving 100+ linguists, examines a range of grammatical phenomena, “from word order to verbal tense, nominal plurals, and many other well-studied comparative linguistic variables.” The project’s dataset, available to download and explore online, spans 195 such features across 2,400+ languages and dialects.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "grambank.clld.org",
+   "url": "https://grambank.clld.org/"
+  },
+  {
+   "name": "mpg.de",
+   "url": "https://www.mpg.de/20186271/0418-evan-grambank-shows-the-diversity-of-the-world-s-languages-150495-x"
+  },
+  {
+   "name": "grambank.clld.org",
+   "url": "https://grambank.clld.org/contributors"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/grambank/grambank"
+  },
+  {
+   "name": "grambank.clld.org",
+   "url": "https://grambank.clld.org/parameters"
+  },
+  {
+   "name": "grambank.clld.org",
+   "url": "https://grambank.clld.org/languages"
+  },
+  {
+   "name": "grambank.clld.org",
+   "url": "https://grambank.clld.org/parameters/GB030#2/21.0/152.1"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-10",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "grambank.clld.org",
+  "host": "grambank.clld.org"
+ }
+}

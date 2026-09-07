@@ -1,0 +1,41 @@
+{
+ "id": "dip-2024-02-28-2",
+ "title": "Federal laws since 1789",
+ "hook": "Political scientist and “recovering lawyer” Brian Libgober has compiled a “comprehensive dataset of U.S. federal laws,” covering 49,000+ legislative enactments from 1789 to 2022.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "brianlibgober.com",
+   "url": "https://brianlibgober.com/"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/qa289"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-023-02758-z"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-28",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "brianlibgober.com",
+  "host": "brianlibgober.com"
+ }
+}

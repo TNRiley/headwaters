@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-08-14-4",
+ "title": "Real-time UK voter registrations",
+ "hook": "The UK government’s voter registration statistics dashboard updates hundreds of times per day. It provides downloadable data on the number of online applications in each five-minute interval in the past 24 hours and daily counts broken down by online vs. paper applications, age group, elector type, and nation.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "registertovote.service.gov.uk",
+   "url": "https://www.registertovote.service.gov.uk/performance"
+  },
+  {
+   "name": "registertovote.service.gov.uk",
+   "url": "https://www.registertovote.service.gov.uk/performance/live_usage"
+  },
+  {
+   "name": "registertovote.service.gov.uk",
+   "url": "https://www.registertovote.service.gov.uk/performance/applications_breakdown"
+  },
+  {
+   "name": "registertovote.service.gov.uk",
+   "url": "https://www.registertovote.service.gov.uk/performance/applications_by_age_group"
+  },
+  {
+   "name": "registertovote.service.gov.uk",
+   "url": "https://www.registertovote.service.gov.uk/performance/applications_by_type"
+  },
+  {
+   "name": "registertovote.service.gov.uk",
+   "url": "https://www.registertovote.service.gov.uk/performance/applications_by_nation"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-08-14",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-08-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "registertovote.service.gov.uk",
+  "host": "registertovote.service.gov.uk"
+ }
+}

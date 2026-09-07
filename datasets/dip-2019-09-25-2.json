@@ -1,0 +1,35 @@
+{
+ "id": "dip-2019-09-25-2",
+ "title": "India, geo-linked",
+ "hook": "The Socioeconomic High-resolution Rural-Urban Geographic Platform for India is “an open access repository currently comprising dozens of datasets covering India’s 500,000 villages and 8,000 towns.” To make the datasets work well together, the project uses a common set of IDs for each town, village, and constituency.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "devdatalab.org",
+   "url": "http://www.devdatalab.org/shrug"
+  },
+  {
+   "name": "devdatalab.org",
+   "url": "http://www.devdatalab.org/shrug_download/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-25",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "devdatalab.org",
+  "host": "devdatalab.org"
+ }
+}

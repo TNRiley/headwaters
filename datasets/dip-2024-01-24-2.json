@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-01-24-2",
+ "title": "Historical fishing intensity",
+ "hook": "Yannick Rousseau et al. have generated a series of datasets estimating annual fishing effort from 1950 to 2017 by country, year, gear type, vessel length, sector (industrial, artisanal motorized, and artisanal unmotorized), and category of species targeted.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-023-02824-6"
+  },
+  {
+   "name": "metadata.imas.utas.edu.au",
+   "url": "https://metadata.imas.utas.edu.au/geonetwork/srv/eng/catalog.search#/metadata/1241a51d-c8c2-4432-aa68-3d2bae142794"
+  },
+  {
+   "name": "ecomarres.com",
+   "url": "https://ecomarres.com/?page_id=24"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata201739"
+  },
+  {
+   "name": "globalfishingwatch.org",
+   "url": "https://globalfishingwatch.org/"
+  },
+  {
+   "name": "globalfishingwatch.org",
+   "url": "https://globalfishingwatch.org/dataset-and-code-fishing-effort/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-01-13-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-01-24",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-01-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

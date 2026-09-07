@@ -1,0 +1,53 @@
+{
+ "id": "dip-2021-09-22-1",
+ "title": "K-12 learning arrangements",
+ "hook": "The COVID-19 School Data Hub, which launched last week, is “a central database for educators, researchers, and policymakers to understand how the COVID-19 pandemic shaped students’ modes of learning in 2020-21.” The project’s team, led by economist Emily Oster, has gathered data on learning models (in-person, virtual, or hybrid) used by public schools and districts at various points in time, their masking policies, and reported COVID-19 cases.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "covidschooldatahub.com",
+   "url": "https://www.covidschooldatahub.com"
+  },
+  {
+   "name": "emilyoster.substack.com",
+   "url": "https://emilyoster.substack.com/p/special-edition-today-covid-19-school"
+  },
+  {
+   "name": "emilyoster.net",
+   "url": "https://emilyoster.net/"
+  },
+  {
+   "name": "covidschooldatahub.com",
+   "url": "https://www.covidschooldatahub.com/for_researchers"
+  },
+  {
+   "name": "covidschooldatahub.com",
+   "url": "https://www.covidschooldatahub.com/explore_by_state"
+  },
+  {
+   "name": "covidschooldatahub.com",
+   "url": "https://www.covidschooldatahub.com/methods"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-22",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "covidschooldatahub.com",
+  "host": "covidschooldatahub.com"
+ }
+}

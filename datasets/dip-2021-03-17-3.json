@@ -1,0 +1,33 @@
+{
+ "id": "dip-2021-03-17-3",
+ "title": "Brazil’s vaccination registry",
+ "hook": "Brazil’s health ministry is publishing granular data from its COVID-19 vaccination registry, with data on more than 12 million doses administered so far.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "opendatasus.saude.gov.br",
+   "url": "https://opendatasus.saude.gov.br/en/dataset/covid-19-vacinacao"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-17",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opendatasus.saude.gov.br",
+  "host": "opendatasus.saude.gov.br"
+ }
+}

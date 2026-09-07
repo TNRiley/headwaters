@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-02-09-3",
+ "title": "National climate funds",
+ "hook": "Boston University’s Rishikesh Ram Bhandary has constructed an inventory of national funds for financing action on climate change. The dataset, which you can download or browse interactively, currently covers 46 funds in 39 developing countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "bu.edu",
+   "url": "https://www.bu.edu/gdp/profile/rishikesh-ram-bhandary/"
+  },
+  {
+   "name": "tandfonline.com",
+   "url": "https://www.tandfonline.com/doi/full/10.1080/14693062.2022.2027223"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/dataset/National_climate_funds_a_new_dataset_on_national_financing_vehicles_for_climate_change/18865640"
+  },
+  {
+   "name": "bu.edu",
+   "url": "https://www.bu.edu/gdp/national-climate-funds-tracker/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-02-09",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-02-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bu.edu",
+  "host": "bu.edu"
+ }
+}

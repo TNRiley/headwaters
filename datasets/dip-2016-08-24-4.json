@@ -1,0 +1,38 @@
+{
+ "id": "dip-2016-08-24-4",
+ "title": "New York racehorse deaths and injuries",
+ "hook": "New York State tracks every time a horse has been injured or died at a state race track since March 2009. The dataset, which is updated often, also includes a few other types of incidents, such as when a rider falls or horse loses badly. Related: “Horses’ Deaths at Aqueduct Prompt New Rules.” [h/t Mark Secada]",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ny.gov",
+   "url": "https://data.ny.gov/Government-Finance/Equine-Death-and-Breakdown/q6ts-kwhk"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "http://www.nytimes.com/2015/01/18/sports/horses-deaths-at-aqueduct-prompt-new-rules.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-24",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "MTA Permanent Art Catalog",
+  "host": "ny.gov"
+ }
+}

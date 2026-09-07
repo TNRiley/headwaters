@@ -1,0 +1,53 @@
+{
+ "id": "dip-2023-01-11-3",
+ "title": "European Parliamentarians",
+ "hook": "Political scientist Eugenio Salvati has created a dataset of all European Parliament members who’ve held office for at least one month since 1979, the EU legislative body’s first year of direct elections.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "researchgate.net",
+   "url": "https://www.researchgate.net/profile/Eugenio-Salvati"
+  },
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/10.1177/14789299221135239"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/V2FJEF"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Political_groups_of_the_European_Parliament"
+  },
+  {
+   "name": "lobbyfacts.eu",
+   "url": "https://www.lobbyfacts.eu/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2017-08-02-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-11",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "researchgate.net",
+  "host": "researchgate.net"
+ }
+}

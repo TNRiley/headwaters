@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-04-18-2",
+ "title": "Executive orders",
+ "hook": "The U.S. Office of the Federal Register publishes structured data on every presidential executive order since 1994. For each of the 886 entries, the dataset provides the order’s title, the date it was signed, the president who signed it, and where to find it in the Federal Register. [h/t u/cavedave]",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "federalregister.gov",
+   "url": "https://www.federalregister.gov/executive-orders"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-18",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "federalregister.gov",
+  "host": "federalregister.gov"
+ }
+}

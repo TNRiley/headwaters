@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-03-13-5",
+ "title": "Zoo animal lifespans",
+ "hook": "Researchers based at Chicago’s Lincoln Park Zoo have published “life expectancy estimates for hundreds of vertebrate species based on carefully vetted studbook data from North American zoos and aquariums.” Their dataset includes “sex-specific median life expectancies as well as sample size and 95% confidence limits…",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata201919"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/AZA_MLE_Jul2018_csv/7539968"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-13",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

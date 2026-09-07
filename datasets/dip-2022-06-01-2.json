@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-06-01-2",
+ "title": "Congress, consolidated",
+ "hook": "CongressData, published last month by political scientists at the Institute for Public Policy and Social Research, “compiles information about all US congressional districts,” the legislators representing them, and those legislators’ policymaking behavior (such as committee memberships and number of bills sponsored).",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "congress.ippsr.msu.edu",
+   "url": "https://congress.ippsr.msu.edu/congress/"
+  },
+  {
+   "name": "ippsr.msu.edu",
+   "url": "https://ippsr.msu.edu/about-ippsr"
+  },
+  {
+   "name": "githubusercontent.com",
+   "url": "https://raw.githubusercontent.com/IPPSR/congressData/main/congress_codebook_1.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-01",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "congress.ippsr.msu.edu",
+  "host": "congress.ippsr.msu.edu"
+ }
+}

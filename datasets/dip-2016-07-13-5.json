@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-07-13-5",
+ "title": "Catch ‘em all",
+ "hook": "Pokéapi is an API “detailing everything about the Pokémon main game series,” including every character, evolution, battle skill, and more. The data is also available as a series of CSVs. Currently, however, the dataset doesn’t include details from the so-hot-right-now Pokémon Go game.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "pokeapi.co",
+   "url": "https://pokeapi.co/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/phalt/pokeapi/tree/master/data/v2/csv"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-13",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pokeapi.co",
+  "host": "pokeapi.co"
+ }
+}

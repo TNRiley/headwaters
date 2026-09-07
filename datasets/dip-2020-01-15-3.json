@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-01-15-3",
+ "title": "Microorganisms",
+ "hook": "The Microbe Directory is an attempt to profile more than 7,000 bacteria, viruses, archaea, and other microorganisms. The directory can be downloaded in bulk and describes the microbes’ optimal temperature, optimal pH, Gram stain, pathogenicity, antimicrobial resistance, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "microbe.directory",
+   "url": "https://microbe.directory/"
+  },
+  {
+   "name": "microbe.directory",
+   "url": "https://microbe.directory/developers"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/microbe-directory/microbe-directory"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "microbe.directory",
+  "host": "microbe.directory"
+ }
+}

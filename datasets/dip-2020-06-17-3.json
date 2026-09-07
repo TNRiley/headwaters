@@ -1,0 +1,53 @@
+{
+ "id": "dip-2020-06-17-3",
+ "title": "The Green Books",
+ "hook": "The New York Public Library has digitized more than 20 volumes of the Green Book — a series of travelers’ guides, published from the 1930s to 1960s by US postal worker Victor Green, that listed hotels, restaurants, gas stations, and other establishments where Black visitors would be safe and welcome.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "digitalcollections.nypl.org",
+   "url": "https://digitalcollections.nypl.org/collections/the-green-book#/?tab=about"
+  },
+  {
+   "name": "nypl.org",
+   "url": "https://www.nypl.org/blog/2015/03/24/schomburg-treasures-green-book"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/NYPL-publicdomain/greenbooks"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/NYPL-publicdomain/greenbooks/tree/master/geojson"
+  },
+  {
+   "name": "digital.library.sc.edu",
+   "url": "https://digital.library.sc.edu/collections/the-negro-travelers-green-book-1956/"
+  },
+  {
+   "name": "publicdomain.nypl.org",
+   "url": "https://publicdomain.nypl.org/greenbook-map/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-06-17",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-06-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "digitalcollections.nypl.org",
+  "host": "digitalcollections.nypl.org"
+ }
+}

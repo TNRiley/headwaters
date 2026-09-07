@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-02-07-4",
+ "title": "Space X-rays",
+ "hook": "eROSITA is a wide-field X-ray telescope “capable of delivering deep, sharp images over very large areas of the sky,” helping researchers “to study the large-scale structure of the universe.” The telescope launched into orbit in 2019 as a collaboration between Russia and Germany, with data rights split between the countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "erosita.mpe.mpg.de",
+   "url": "https://erosita.mpe.mpg.de/"
+  },
+  {
+   "name": "aanda.org",
+   "url": "https://www.aanda.org/articles/aa/full_html/2021/03/aa39313-20/aa39313-20.html"
+  },
+  {
+   "name": "mpe.mpg.de",
+   "url": "https://www.mpe.mpg.de/7856215/news20220303"
+  },
+  {
+   "name": "mpe.mpg.de",
+   "url": "https://www.mpe.mpg.de/7989698/news20240131"
+  },
+  {
+   "name": "erosita.mpe.mpg.de",
+   "url": "https://erosita.mpe.mpg.de/dr1/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-07",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "erosita.mpe.mpg.de",
+  "host": "erosita.mpe.mpg.de"
+ }
+}

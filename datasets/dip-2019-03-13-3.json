@@ -1,0 +1,42 @@
+{
+ "id": "dip-2019-03-13-3",
+ "title": "Democratic endorsements",
+ "hook": "FiveThirtyEight is tracking who’s endorsing whom to be the Democrats’ 2020 presidential nominee. The site has published a methodology describing its approach, plus the underlying data, which includes each endorser’s name, state, relevant position, and other details. (According to the site’s formula, Sens.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/endorsements"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.fivethirtyeight.com",
+   "url": "https://projects.fivethirtyeight.com/2020-endorsements/democratic-primary/"
+  },
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/methodology/how-our-presidential-endorsement-tracker-works/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-13",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

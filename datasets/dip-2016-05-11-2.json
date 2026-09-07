@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-05-11-2",
+ "title": "Potentially habitable planets",
+ "hook": "Since 2009, NASA’s Kepler spacecraft has been looking for Earth-like exoplanets — i.e., planets outside our solar system. Through the NASA Exoplanet Archive, you can explore, filter, and download databases of “candidate” and “confirmed” exoplanets, including Kepler’s discoveries. [h/t David Kipping]",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "kepler.nasa.gov",
+   "url": "http://kepler.nasa.gov/"
+  },
+  {
+   "name": "exoplanetarchive.ipac.caltech.edu",
+   "url": "http://exoplanetarchive.ipac.caltech.edu/docs/intro.html"
+  },
+  {
+   "name": "exoplanetarchive.ipac.caltech.edu",
+   "url": "http://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-11",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "kepler.nasa.gov",
+  "host": "kepler.nasa.gov"
+ }
+}

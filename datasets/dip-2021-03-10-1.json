@@ -1,0 +1,61 @@
+{
+ "id": "dip-2021-03-10-1",
+ "title": "Coronavirus variants",
+ "hook": "Outbreak.info’s mutation situation reports track the prevalence of new strains of SARS-CoV-2, the virus that sparked the COVID-19 pandemic. For each “lineage,” the reports provide data on the geography, timing, and number of sequenced viral samples that bear the strain’s signature.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "outbreak.info",
+   "url": "https://outbreak.info"
+  },
+  {
+   "name": "outbreak.info",
+   "url": "https://outbreak.info/situation-reports"
+  },
+  {
+   "name": "gisaid.org",
+   "url": "https://www.gisaid.org/collaborations/enabled-by-hcov-19-data-from-gisaid/"
+  },
+  {
+   "name": "gisaid.org",
+   "url": "https://www.gisaid.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-03-11-edition/"
+  },
+  {
+   "name": "gisaid.org",
+   "url": "https://www.gisaid.org/hcov19-variants/"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant-cases.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/USATODAY/covid-variants/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-10",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "outbreak.info",
+  "host": "outbreak.info"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-03-17-4",
+ "title": "Probable news quotations",
+ "hook": "Quotebank is “an open corpus of 178 million quotations attributed to the speakers who uttered them, extracted from 162 million English news articles published between 2008 and 2020.” Its authors used machine learning to identify the quotes and speakers, “correctly [attributing] 86.9% of quotations in our experiments.” The five most-quoted people: Barack Obama, Donald Trump, Mitt Romney, Hillary Clinton, and Narendra Modi.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/4277311"
+  },
+  {
+   "name": "dl.acm.org",
+   "url": "https://dl.acm.org/doi/10.1145/3437963.3441760"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-17",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "zenodo.org",
+  "host": "zenodo.org"
+ }
+}

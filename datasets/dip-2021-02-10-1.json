@@ -1,0 +1,38 @@
+{
+ "id": "dip-2021-02-10-1",
+ "title": "Hyperlocal Biden/Trump results",
+ "hook": "To create their “Extremely Detailed Map of the 2020 Election,” journalists at The Upshot have gathered and standardized the ballot results for more than 100,000 precincts in dozens of states so far — representing nearly two-thirds of all votes cast.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/TheUpshot/presidential-precinct-map-2020"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2021/upshot/2020-election-map.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-02-10",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-02-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

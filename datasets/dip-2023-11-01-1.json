@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-11-01-1",
+ "title": "Opioid settlements",
+ "hook": "OpioidSettlementTracker.com, run by lawyer Christine Minhee, asks: “Will opioid settlements be spent in ways that bolster the public health response to drug use?” Minhee has compiled a series of spreadsheets to help answer that question.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "opioidsettlementtracker.com",
+   "url": "https://www.opioidsettlementtracker.com/"
+  },
+  {
+   "name": "opioidsettlementtracker.com",
+   "url": "https://www.opioidsettlementtracker.com/about"
+  },
+  {
+   "name": "opioidsettlementtracker.com",
+   "url": "https://www.opioidsettlementtracker.com/globalsettlementtracker/#statuses"
+  },
+  {
+   "name": "opioidsettlementtracker.com",
+   "url": "https://www.opioidsettlementtracker.com/settlementspending#plans"
+  },
+  {
+   "name": "opioidsettlementtracker.com",
+   "url": "https://www.opioidsettlementtracker.com/publicreporting/#promises"
+  },
+  {
+   "name": "kffhealthnews.org",
+   "url": "https://kffhealthnews.org/news/article/opioid-drugmakers-settlement-funds-50-billion-dollars-khn-investigation-payback/"
+  },
+  {
+   "name": "kffhealthnews.org",
+   "url": "https://kffhealthnews.org/opioid-settlements/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-01",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opioidsettlementtracker.com",
+  "host": "opioidsettlementtracker.com"
+ }
+}

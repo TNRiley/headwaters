@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-06-10-5",
+ "title": "Tech’s BLM statements",
+ "hook": "The Plug, a news site that focuses on the Black innovation economy, has been assembling a dataset of statements made by tech companies on racial justice, Black Lives Matter, and George Floyd.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "tpinsights.com",
+   "url": "https://tpinsights.com/"
+  },
+  {
+   "name": "tpinsights.com",
+   "url": "https://tpinsights.com/2020/05/31/twilio-box-spotify-and-other-tech-ceos-speak-out-against-racism-and-police-brutality-others-stay-silent/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1OZx-_tm3PPyx6-ZJAST1xxOJRfn7KfYDjDT6JedrTfs/edit#gid=0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-06-10",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-06-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tpinsights.com",
+  "host": "tpinsights.com"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "dip-2019-05-01-2",
+ "title": "Decertified police officers",
+ "hook": "USA Today has collaborated with more than 100 of its affiliated newsrooms and the Invisible Institute to gather police disciplinary records “from thousands of state agencies, prosecutors and local police departments” around the country, creating “the biggest collection of police misconduct records” ever assembled.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usatoday.com",
+   "url": "https://www.usatoday.com/in-depth/news/investigations/2019/04/24/usa-today-revealing-misconduct-records-police-cops/3223984002/"
+  },
+  {
+   "name": "usatoday.com",
+   "url": "https://www.usatoday.com/in-depth/news/investigations/2019/04/24/biggest-collection-police-accountability-records-ever-assembled/2299127002/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/kendalltaggart/secret-nypd-files-hundreds-of-officers-committed-serious"
+  },
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/kendalltaggart/nypd-police-misconduct-database"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-01",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usatoday.com",
+  "host": "usatoday.com"
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "dip-2024-11-13-4",
+ "title": "Waves",
+ "hook": "The Coastal Data Information Program, launched in the 1970s by a research group at the Scripps Institution of Oceanography, “is an extensive network for monitoring waves and beaches along the coastlines of the United States.” The program provides a map of its stations, a table of recent observations, a catalog of real-time and historical wave measurements, and an extreme wave tracker.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdip.ucsd.edu",
+   "url": "https://cdip.ucsd.edu/"
+  },
+  {
+   "name": "cdip.ucsd.edu",
+   "url": "https://cdip.ucsd.edu/m/about/"
+  },
+  {
+   "name": "cdip.ucsd.edu",
+   "url": "https://cdip.ucsd.edu/m/deployment/station_view/"
+  },
+  {
+   "name": "cdip.ucsd.edu",
+   "url": "https://cdip.ucsd.edu/m/stn_table/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/document/d/1Uz_xIAVD2M6WeqQQ_x7ycoM3iKENO38S4Bmn6SasHtY/edit"
+  },
+  {
+   "name": "cdip.ucsd.edu",
+   "url": "https://cdip.ucsd.edu/m/extreme/"
+  },
+  {
+   "name": "journals.ametsoc.org",
+   "url": "https://journals.ametsoc.org/view/journals/atot/38/7/JTECH-D-20-0185.1.xml"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-11-13",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-11-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cdip.ucsd.edu",
+  "host": "cdip.ucsd.edu"
+ }
+}

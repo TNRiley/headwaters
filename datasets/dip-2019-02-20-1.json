@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-02-20-1",
+ "title": "Power plants",
+ "hook": "The Global Power Plant Database, published by the World Resources Institute, “is a comprehensive, open source database of power plants around the world” and contains “information on plant capacity, generation, ownership, and fuel type.” The current edition, released in June 2018, covers 28,600+ power plants in 164 countries — including more than 1,000 each in Brazil, Canada, China, Great Britain, France, and the United States.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "datasets.wri.org",
+   "url": "http://datasets.wri.org/dataset/globalpowerplantdatabase"
+  },
+  {
+   "name": "wri.org",
+   "url": "https://www.wri.org/our-work"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/electricity/data/eia923/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-02-10-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-02-20",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-02-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "datasets.wri.org",
+  "host": "datasets.wri.org"
+ }
+}

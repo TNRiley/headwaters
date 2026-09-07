@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-12-06-2",
+ "title": "Financial consumer complaints",
+ "hook": "The Consumer Financial Protection Bureau’s consumer complaint database can be searched online, accessed via an API, and downloaded in bulk.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "consumerfinance.gov",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/"
+  },
+  {
+   "name": "consumerfinance.gov",
+   "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/?from=0&searchField=all&searchText=&size=25&sort=created_date_desc"
+  },
+  {
+   "name": "socrata.com",
+   "url": "https://dev.socrata.com/foundry/data.consumerfinance.gov/jhzv-w97w"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-12-06",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-12-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "consumerfinance.gov",
+  "host": "consumerfinance.gov"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "dip-2020-01-22-4",
+ "title": "Cannabis tests",
+ "hook": "Despite US adults increasingly gaining state-legal access to cannabis, “no universal standards for laboratory testing protocols currently exist,” write Nick Jikomes and Michael Zoorob, in a March 2018 article for Scientific Reports.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "michaelzoorob.com",
+   "url": "https://michaelzoorob.com/about/"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41598-018-22755-2"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/E8TQSD"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-22",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "michaelzoorob.com",
+  "host": "michaelzoorob.com"
+ }
+}

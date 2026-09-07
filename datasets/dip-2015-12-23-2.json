@@ -1,0 +1,41 @@
+{
+ "id": "dip-2015-12-23-2",
+ "title": "Farm to data-table",
+ "hook": "The USDA’s 2012 Census of Agriculture — the most recent vintage available — tallies agricultural activity at the national, state, and county levels. You can download detailed data from the agency’s Quick Stats tool.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "agcensus.usda.gov",
+   "url": "http://www.agcensus.usda.gov/Publications/2012/"
+  },
+  {
+   "name": "quickstats.nass.usda.gov",
+   "url": "http://quickstats.nass.usda.gov/?source_desc=CENSUS"
+  },
+  {
+   "name": "agcensus.usda.gov",
+   "url": "http://www.agcensus.usda.gov/Publications/2012/Full_Report/Volume_1,_Chapter_2_US_State_Level/st99_2_035_035.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-23",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "agcensus.usda.gov",
+  "host": "agcensus.usda.gov"
+ }
+}

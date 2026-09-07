@@ -1,0 +1,53 @@
+{
+ "id": "dip-2025-01-29-4",
+ "title": "Grocery ingredients",
+ "hook": "To compile GroceryDB, Babak Ravandi et al. scraped data about 50,000+ food products available on the websites of Walmart, Target, and Whole Foods.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/Barabasi-Lab/GroceryDB/"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s43016-024-01095-7"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Barabasi-Lab/GroceryDB/tree/main/data"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41467-023-37457-1"
+  },
+  {
+   "name": "truefood.tech",
+   "url": "https://www.truefood.tech/"
+  },
+  {
+   "name": "truefood.tech",
+   "url": "https://www.truefood.tech/about?store=all"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-01-29",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-01-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

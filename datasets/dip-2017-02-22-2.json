@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-02-22-2",
+ "title": "Nearby stars and potential exoplanets",
+ "hook": "Last week, a team of researchers released a dataset containing “60,949 Doppler velocity measurements covering 1,624 stars taken over 20 years” from the Keck Observatory in Hawaii. The authors have already used the dataset to identify more than 100 exoplanets — i.e., planets outside our solar system.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "home.dtm.ciw.edu",
+   "url": "http://home.dtm.ciw.edu/ebps/data/"
+  },
+  {
+   "name": "news.mit.edu",
+   "url": "http://news.mit.edu/2017/dataset-nearby-stars-available-public-exoplanets-0213"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-05-11-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-02-22",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-02-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "home.dtm.ciw.edu",
+  "host": "home.dtm.ciw.edu"
+ }
+}

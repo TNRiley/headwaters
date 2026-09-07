@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-11-23-2",
+ "title": "Radioactive waste",
+ "hook": "Through its Nuclear Fuel Data Survey, the US Energy Information Administration “collects data on spent nuclear fuel from all utilities that operate commercial nuclear reactors and from all others that possess irradiated fuel from commercial nuclear reactors.” The agency’s latest release, published last year with data through 2017, includes several basic tables.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/Survey/#gc-859"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/nuclear/spent_fuel/"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=47796"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/nuclear/spent_fuel/ussnftab3.php"
+  },
+  {
+   "name": "nrc.gov",
+   "url": "https://www.nrc.gov/reading-rm/basic-ref/glossary/fuel-assembly-fuel-bundle-fuel-element.html"
+  },
+  {
+   "name": "cen.acs.org",
+   "url": "https://cen.acs.org/environment/pollution/nuclear-waste-pilesscientists-seek-best/98/i12"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-23",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "U.S. Gasoline and Diesel Retail Prices",
+  "host": "eia.gov"
+ }
+}

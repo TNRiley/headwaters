@@ -1,0 +1,31 @@
+{
+ "id": "dip-2019-06-12-5",
+ "title": "National parks",
+ "hook": "The U.S. Department of the Interior publishes data describing the boundaries of all 420 units of the National Park System. In addition to the 61 officially-designated national parks, the boundaries include the country’s national preserves, national seashores, and 30 other types of special places.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "irma.nps.gov",
+   "url": "https://irma.nps.gov/DataStore/Reference/Profile/2225713"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-12",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "NPSpecies",
+  "host": "irma.nps.gov"
+ }
+}

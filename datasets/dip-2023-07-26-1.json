@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-07-26-1",
+ "title": "Natural resources revenue",
+ "hook": "To extract minerals, coal, oil, or gas from US federal land, Native American land, or the Outer Continental Shelf, companies must pay various royalties, rents, and bonuses to the Office of Natural Resources Revenue, which then distributes those payments — amounting to billions of dollars per year — to the federal government, local governments, tribes, and individuals.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "boem.gov",
+   "url": "https://www.boem.gov/environment/outer-continental-shelf"
+  },
+  {
+   "name": "onrr.gov",
+   "url": "https://onrr.gov/about"
+  },
+  {
+   "name": "revenuedata.doi.gov",
+   "url": "https://revenuedata.doi.gov/"
+  },
+  {
+   "name": "revenuedata.doi.gov",
+   "url": "https://revenuedata.doi.gov/downloads"
+  },
+  {
+   "name": "revenuedata.doi.gov",
+   "url": "https://revenuedata.doi.gov/query-data"
+  },
+  {
+   "name": "revenuedata.doi.gov",
+   "url": "https://revenuedata.doi.gov/explore"
+  },
+  {
+   "name": "blm.gov",
+   "url": "https://www.blm.gov/about"
+  },
+  {
+   "name": "blm.gov",
+   "url": "https://www.blm.gov/programs-energy-and-minerals-oil-and-gas-oil-and-gas-statistics"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/articles/how-much-oil-and-gas-comes-from-federal-territory/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-07-26",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-07-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "boem.gov",
+  "host": "boem.gov"
+ }
+}

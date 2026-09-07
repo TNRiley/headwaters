@@ -1,0 +1,49 @@
+{
+ "id": "dip-2016-09-07-2",
+ "title": "Radio rights",
+ "hook": "The Federal Communications Commission decides who can use the nation’s airwaves and how. To date, they’ve issued millions of licenses, including nearly 200,000 last year for broadcast, personal use, law enforcement, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "reboot.fcc.gov",
+   "url": "http://reboot.fcc.gov/blog?entryId=752037"
+  },
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/licensing-databases/licensing"
+  },
+  {
+   "name": "reboot.fcc.gov",
+   "url": "http://reboot.fcc.gov/license-view/"
+  },
+  {
+   "name": "reboot.fcc.gov",
+   "url": "http://reboot.fcc.gov/license-view/search-results.html"
+  },
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/general/license-view-api"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-07",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "reboot.fcc.gov",
+  "host": "reboot.fcc.gov"
+ }
+}

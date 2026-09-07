@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-12-19-5",
+ "title": "A lot of insect eggs",
+ "hook": "A team of evolutionary biologists has compiled a dataset describing the size and shape of eggs laid by more than 6,700 insect species. You can explore and download the underlying data, which is based on measurements from 1,756 published sources. [h/t Cassandra Extavour]",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "biorxiv.org",
+   "url": "https://www.biorxiv.org/content/early/2018/11/19/471953"
+  },
+  {
+   "name": "shchurch.github.io",
+   "url": "https://shchurch.github.io/dataviz/index.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/shchurch/insect_egg_database_viz/tree/master/data"
+  },
+  {
+   "name": "biorxiv.org",
+   "url": "https://www.biorxiv.org/content/biorxiv/suppl/2018/11/19/471953.DC1/471953-1.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-12-19",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-12-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "biorxiv.org",
+  "host": "biorxiv.org"
+ }
+}

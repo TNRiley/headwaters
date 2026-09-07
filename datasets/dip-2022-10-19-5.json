@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-10-19-5",
+ "title": "Cattle brands",
+ "hook": "Kansas ranchers must register their cattle-branding symbols with the state’s agriculture department. For decades, the department published books listing all the registered brands, indexed using a custom coding system. Mason Youngblood et al.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Livestock_branding"
+  },
+  {
+   "name": "cdm16884.contentdm.oclc.org",
+   "url": "https://cdm16884.contentdm.oclc.org/digital/search/searchterm/A53-8-B817-part/order/dated/ad/asc"
+  },
+  {
+   "name": "psyarxiv.com",
+   "url": "https://psyarxiv.com/h5t7b/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/masonyoungblood/cattle_brand_data"
+  },
+  {
+   "name": "govtech.com",
+   "url": "https://www.govtech.com/computing/kansas-moves-cattle-brand-registration-to-the-cloud.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-19",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

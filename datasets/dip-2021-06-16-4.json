@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-06-16-4",
+ "title": "Word origins",
+ "hook": "Gerard de Melo’s Etymological Wordnet provides structured data on the relationship of words to one another, mostly mined from their semi-structured descriptions on Wiktionary as of 2013. The dataset includes hundreds of thousands of word-origin associations, among other connections.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "gerard.demelo.org",
+   "url": "http://gerard.demelo.org/"
+  },
+  {
+   "name": "etym.org",
+   "url": "http://etym.org/"
+  },
+  {
+   "name": "wiktionary.org",
+   "url": "https://www.wiktionary.org/"
+  },
+  {
+   "name": "danielde.dev",
+   "url": "https://www.danielde.dev/blog/surprising-shared-word-etymologies/"
+  },
+  {
+   "name": "danielde.dev",
+   "url": "https://www.danielde.dev/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-16",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gerard.demelo.org",
+  "host": "gerard.demelo.org"
+ }
+}

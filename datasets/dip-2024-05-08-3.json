@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-05-08-3",
+ "title": "Global entrepreneurship",
+ "hook": "The Global Entrepreneurship Monitor, active since 1999, considers itself “the world’s foremost study of entrepreneurship.” A collaboration between Babson College and the London Business School, the project publishes national and response-level data from two main surveys.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "reference works",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "gemconsortium.org",
+   "url": "https://www.gemconsortium.org/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Babson_College"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/London_Business_School"
+  },
+  {
+   "name": "gemconsortium.org",
+   "url": "https://www.gemconsortium.org/data"
+  },
+  {
+   "name": "gemconsortium.org",
+   "url": "https://www.gemconsortium.org/data/sets?id=aps"
+  },
+  {
+   "name": "gemconsortium.org",
+   "url": "https://www.gemconsortium.org/data/sets?id=nes"
+  },
+  {
+   "name": "gemconsortium.org",
+   "url": "https://www.gemconsortium.org/wiki/1154"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-08",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gemconsortium.org",
+  "host": "gemconsortium.org"
+ }
+}

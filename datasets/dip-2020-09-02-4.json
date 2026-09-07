@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-09-02-4",
+ "title": "Papal visits",
+ "hook": "For their “Pacem in Terris: Are Papal Visits Good News for Human Rights?” working paper, economists Marek Endrich and Jerg Gutmann have compiled “the first global dataset on papal travels outside of Italy.” For each country-year combination between 1964 and 2017, the dataset indicates whether the Pope visited, who he was, and the country’s “latent human rights” score for that year.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "econpapers.repec.org",
+   "url": "https://econpapers.repec.org/paper/zbwilewps/37.htm"
+  },
+  {
+   "name": "jura.uni-hamburg.de",
+   "url": "https://www.jura.uni-hamburg.de/die-fakultaet/personenverzeichnis/endrich-marek.html"
+  },
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/site/jerggutmann/home"
+  },
+  {
+   "name": "drive.google.com",
+   "url": "https://drive.google.com/file/d/1Lr3qQvtReCAbke6DksuX5IoGMqwjbN_r/view"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataverse/HumanRightsScores"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-09-02",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-09-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "econpapers.repec.org",
+  "host": "econpapers.repec.org"
+ }
+}

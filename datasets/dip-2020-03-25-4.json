@@ -1,0 +1,50 @@
+{
+ "id": "dip-2020-03-25-4",
+ "title": "Prisoners, polled",
+ "hook": "The Marshall Project and Slate have partnered to conduct a survey of incarcerated people’s political views. They’ve received more than 8,000 responses so far, and have made the (anonymized) data available to download.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "slate.com",
+   "url": "https://slate.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/themarshallproject/incarcerated_survey"
+  }
+ ],
+ "articles": [
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/"
+  },
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/2020/03/11/how-we-pulled-off-a-groundbreaking-political-survey-behind-bars"
+  },
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/2020/03/11/what-do-we-really-know-about-the-politics-of-people-behind-bars"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-25",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "slate.com",
+  "host": "slate.com"
+ }
+}

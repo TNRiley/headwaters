@@ -1,0 +1,45 @@
+{
+ "id": "dip-2025-05-21-1",
+ "title": "Unemployment insurance",
+ "hook": "The US Department of Labor’s Office of Unemployment Insurance publishes dozens of datasets collected through its coordination of state-administered programs.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "oui.doleta.gov",
+   "url": "https://oui.doleta.gov/unemploy/index.asp"
+  },
+  {
+   "name": "oui.doleta.gov",
+   "url": "https://oui.doleta.gov/unemploy/DataDownloads.asp"
+  },
+  {
+   "name": "oui.doleta.gov",
+   "url": "https://oui.doleta.gov/unemploy/chartbook.asp"
+  },
+  {
+   "name": "oui.doleta.gov",
+   "url": "https://oui.doleta.gov/unemploy/DataDashboard.asp"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-05-21",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-05-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "oui.doleta.gov",
+  "host": "oui.doleta.gov"
+ }
+}

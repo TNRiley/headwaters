@@ -1,0 +1,62 @@
+{
+ "id": "dip-2017-05-24-5",
+ "title": "🎶 Two thousand cans of craft beer on the wall 🎶",
+ "hook": "The website CraftCans.com publishes a database of 2,000+ canned beers. For each beer, the database lists its name, style, brewery, size, alcohol level, and bitterness.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink",
+  "art & culture"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "craftcans.com",
+   "url": "http://www.craftcans.com/"
+  },
+  {
+   "name": "craftcans.com",
+   "url": "http://craftcans.com/db.php?search=all&sort=beerid&ord=desc&view=text"
+  },
+  {
+   "name": "jeannicholashould.com",
+   "url": "http://www.jeannicholashould.com/python-web-scraping-tutorial-for-craft-beers.html"
+  },
+  {
+   "name": "gist.github.com",
+   "url": "https://gist.github.com/jsvine/c537ac9509e7d0ed713cced4992faf39"
+  },
+  {
+   "name": "jeannicholashould.com",
+   "url": "http://www.jeannicholashould.com/profiling-a-dataset-of-craft-beers.html"
+  },
+  {
+   "name": "ratebeer.com",
+   "url": "https://www.ratebeer.com/json/ratebeerapi.asp"
+  },
+  {
+   "name": "pudding.cool",
+   "url": "https://pudding.cool/2017/04/beer/"
+  },
+  {
+   "name": "ttb.gov",
+   "url": "https://www.ttb.gov/beer/beer-stats.shtml"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-24",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "craftcans.com",
+  "host": "craftcans.com"
+ }
+}

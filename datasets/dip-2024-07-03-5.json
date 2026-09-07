@@ -1,0 +1,37 @@
+{
+ "id": "dip-2024-07-03-5",
+ "title": "UK film stats",
+ "hook": "The British Film Institute publishes a variety of statistical reports, including spreadsheets of weekend box office figures.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "bfi.org.uk",
+   "url": "https://www.bfi.org.uk/industry-data-insights"
+  },
+  {
+   "name": "bfi.org.uk",
+   "url": "https://www.bfi.org.uk/industry-data-insights/weekend-box-office-figures"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-03",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bfi.org.uk",
+  "host": "bfi.org.uk"
+ }
+}

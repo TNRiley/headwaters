@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-01-01-4",
+ "title": "California university history",
+ "hook": "The UC ClioMetric History Project is digitizing decades of administrative records from the University of California and other schools in the state (such as USC and Stanford). So far, they’ve uploaded data on more than 750,000 student enrollments, tens of thousands of faculty members, and 800,000 courses.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "uccliometric.org",
+   "url": "https://uccliometric.org"
+  },
+  {
+   "name": "uccliometric.org",
+   "url": "https://uccliometric.org/students/"
+  },
+  {
+   "name": "uccliometric.org",
+   "url": "https://uccliometric.org/faculty/"
+  },
+  {
+   "name": "uccliometric.org",
+   "url": "https://uccliometric.org/courses/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-01",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "uccliometric.org",
+  "host": "uccliometric.org"
+ }
+}

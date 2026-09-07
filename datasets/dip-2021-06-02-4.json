@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-06-02-4",
+ "title": "Lobbying in Britain",
+ "hook": "Open Access UK is a database of 70,000+ meetings between lobbyists and government ministers going back to 2012.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "openaccess.transparency.org.uk",
+   "url": "https://openaccess.transparency.org.uk/"
+  },
+  {
+   "name": "openaccess.transparency.org.uk",
+   "url": "https://openaccess.transparency.org.uk/about.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-02",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openaccess.transparency.org.uk",
+  "host": "openaccess.transparency.org.uk"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-05-26-5",
+ "title": "The coins in 22,500 French wallets",
+ "hook": "Between 2002 and 2011, the Euro Spatial Diffusion Observatory convinced 22,500 people in France to open their wallets and count the 300,000+ Euro coins in them. The researchers also conducted smaller surveys in Germany and Belgium.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340921003656"
+  },
+  {
+   "name": "mendeley.com",
+   "url": "https://data.mendeley.com/datasets/f257j67ym6"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-05-26",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-05-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

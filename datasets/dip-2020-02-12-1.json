@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-02-12-1",
+ "title": "Banking crises",
+ "hook": "Luc Laeven and Fabián Valencia — economists at the European Central Bank and the International Monetary Fund, respectively — have built and maintain a dataset of systemic banking crises, like those that rippled across the globe in 2008.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/site/laevenl/home"
+  },
+  {
+   "name": "imf.org",
+   "url": "https://www.imf.org/external/np/cv/AuthorCV.aspx?AuthID=179"
+  },
+  {
+   "name": "imf.org",
+   "url": "https://www.imf.org/en/Publications/WP/Issues/2018/09/14/Systemic-Banking-Crises-Revisited-46232"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-12",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sites.google.com",
+  "host": "sites.google.com"
+ }
+}

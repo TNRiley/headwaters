@@ -1,0 +1,62 @@
+{
+ "id": "dip-2022-09-14-1",
+ "title": "Congress gets an official API",
+ "hook": "The United States’ legislative branch now has an official API, the Library of Congress announced last week. It provides structured data on legislators, bills, bill summaries, amendments, committee reports, appointee nominations, international treaties, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "congress.gov",
+   "url": "https://api.congress.gov/"
+  },
+  {
+   "name": "blogs.loc.gov",
+   "url": "https://blogs.loc.gov/law/2022/09/introducing-the-congress-gov-api/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/LibraryOfCongress/api.congress.gov/"
+  },
+  {
+   "name": "congress.gov",
+   "url": "https://api.congress.gov/sign-up/"
+  },
+  {
+   "name": "congressionaldata.org",
+   "url": "https://congressionaldata.org/library-of-congress-launches-congress-gov-api/"
+  },
+  {
+   "name": "govinfo.gov",
+   "url": "https://www.govinfo.gov/bulkdata"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-08-26-edition/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/api-docs/congress-api/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-14",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "congress.gov",
+  "host": "congress.gov"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-06-05-4",
+ "title": "Language learning",
+ "hook": "In an study published last year (preprint PDF here), three Boston-area professors analyzed data from more than 600,000 people who took an online English grammar quiz.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S0010027718300994"
+  },
+  {
+   "name": "l3atbc-public.s3.amazonaws.com",
+   "url": "http://l3atbc-public.s3.amazonaws.com/pub_pdfs/JK_Hartshorne_JB_Tenenbaum_S_Pinker_2018.pdf"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/pyb8s/"
+  },
+  {
+   "name": "web.archive.org",
+   "url": "http://web.archive.org/web/20180217125721/http://archive.gameswithwords.org/WhichEnglish/"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/pyb8s/wiki/home/"
+  },
+  {
+   "name": "medium.com",
+   "url": "https://medium.com/@chacon/mit-scientists-prove-adults-learn-language-to-fluency-nearly-as-well-as-children-1de888d1d45f"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-05",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

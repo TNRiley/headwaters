@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-10-26-3",
+ "title": "Boston’s first women voters",
+ "hook": "The City of Boston’s Mary Eliza Project has been compiling a dataset of women who registered to vote in 1920, the year the 19th Amendment granted them that right.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "boston.gov",
+   "url": "https://www.boston.gov/departments/archives-and-records-management/mary-eliza-project-boston-women-voters-1920"
+  },
+  {
+   "name": "boston.gov",
+   "url": "https://data.boston.gov/dataset/1920-women-s-voter-register"
+  },
+  {
+   "name": "boston.gov",
+   "url": "https://www.boston.gov/news/mary-eliza-project-ward-8-voter-records-now-available"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-26",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "boston.gov",
+  "host": "boston.gov"
+ }
+}

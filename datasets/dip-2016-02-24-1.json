@@ -1,0 +1,53 @@
+{
+ "id": "dip-2016-02-24-1",
+ "title": "Supremely useful data",
+ "hook": "The Supreme Court Database is exactly what it sounds like — and definitively so. The most recent release covers all SCOTUS cases from 1946 through 2014.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "supremecourtdatabase.org",
+   "url": "http://supremecourtdatabase.org/index.php"
+  },
+  {
+   "name": "supremecourtdatabase.org",
+   "url": "http://supremecourtdatabase.org/data.php"
+  },
+  {
+   "name": "supremecourtdatabase.org",
+   "url": "http://supremecourtdatabase.org/documentation.php?var=caseSource"
+  },
+  {
+   "name": "supremecourtdatabase.org",
+   "url": "http://supremecourtdatabase.org/documentation.php?var=jurisdiction"
+  },
+  {
+   "name": "supremecourtdatabase.org",
+   "url": "http://supremecourtdatabase.org/documentation.php?var=lawType"
+  },
+  {
+   "name": "supremecourtdatabase.org",
+   "url": "http://supremecourtdatabase.org/documentation.php?var=vote"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-24",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "supremecourtdatabase.org",
+  "host": "supremecourtdatabase.org"
+ }
+}

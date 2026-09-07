@@ -1,0 +1,50 @@
+{
+ "id": "dip-2022-06-22-2",
+ "title": "Ukraine air raid alerts",
+ "hook": "Volodymyr Agafonkin, a Kyiv-based software engineer, has been scraping and charting the emergency notifications published through Air Alert Ukraine, a Telegram channel. The notifications serve as a digital counterpart to the sirens that warn residents of potentially-imminent Russian air attacks.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "agafonkin.com",
+   "url": "https://agafonkin.com/"
+  },
+  {
+   "name": "observablehq.com",
+   "url": "https://observablehq.com/@mourner/sirens"
+  },
+  {
+   "name": "t.me",
+   "url": "https://t.me/air_alert_ua"
+  }
+ ],
+ "articles": [
+  {
+   "name": "s2.washingtonpost.com",
+   "url": "https://s2.washingtonpost.com/camp-rw/?s=62addaedcfe8a21601b1353a"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/newsletters/how-to-read-this-chart/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-22",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "agafonkin.com",
+  "host": "agafonkin.com"
+ }
+}

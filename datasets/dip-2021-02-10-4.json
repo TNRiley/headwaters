@@ -1,0 +1,33 @@
+{
+ "id": "dip-2021-02-10-4",
+ "title": "Public-sector employment",
+ "hook": "The World Bank’s Worldwide Bureaucracy Indicators “is a unique new cross-national dataset on public sector employment and wages” in 130+ countries between 2000 and 2018, based on censuses and household surveys.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "datacatalog.worldbank.org",
+   "url": "https://datacatalog.worldbank.org/dataset/worldwide-bureaucracy-indicators"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-02-10",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-02-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "World Bank Data Catalog",
+  "host": "datacatalog.worldbank.org"
+ }
+}

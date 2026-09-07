@@ -1,0 +1,62 @@
+{
+ "id": "dip-2025-01-29-1",
+ "title": "Hyperlocal Trump/Harris results",
+ "hook": "Earlier this month, colleagues at The New York Times published “An Extremely Detailed Map of the 2024 Election” and made the underlying data available to download.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/nytimes/presidential-precinct-map-2024"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/TheUpshot/presidential-precinct-map-2020"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-02-10-edition/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/K7760H"
+  },
+  {
+   "name": "election.lab.ufl.edu",
+   "url": "https://election.lab.ufl.edu/precinct-data/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2025/us/elections/2024-election-map-precinct-results.html"
+  },
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2025/01/15/us/elections/2024-election-map-data.html"
+  },
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2021/upshot/2020-election-map.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-01-29",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-01-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

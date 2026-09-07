@@ -1,0 +1,77 @@
+{
+ "id": "dip-2024-11-13-1",
+ "title": "Tariffs",
+ "hook": "The United States International Trade Commission maintains annual datasets of US import tariffs going back to 1997. The datasets include each impacted product’s eight-digit Harmonized Tariff Schedule code, a brief description, the duty rate, rate type, effective and ending dates, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usitc.gov",
+   "url": "https://www.usitc.gov/"
+  },
+  {
+   "name": "dataweb.usitc.gov",
+   "url": "https://dataweb.usitc.gov/tariff/annual"
+  },
+  {
+   "name": "hts.usitc.gov",
+   "url": "https://hts.usitc.gov/"
+  },
+  {
+   "name": "dataweb.usitc.gov",
+   "url": "https://dataweb.usitc.gov/assets/content/annual-tariffs/td-fields.pdf"
+  },
+  {
+   "name": "dataweb.usitc.gov",
+   "url": "https://dataweb.usitc.gov/tariff/database"
+  },
+  {
+   "name": "dataweb.usitc.gov",
+   "url": "https://dataweb.usitc.gov/tariff/rates-future"
+  },
+  {
+   "name": "wto.org",
+   "url": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm"
+  },
+  {
+   "name": "rtais.wto.org",
+   "url": "https://rtais.wto.org/UI/PublicMaintainRTAHome.aspx"
+  },
+  {
+   "name": "ptadb.wto.org",
+   "url": "https://ptadb.wto.org/"
+  },
+  {
+   "name": "globaltradealert.org",
+   "url": "https://www.globaltradealert.org/data_extraction"
+  },
+  {
+   "name": "globaltradealert.org",
+   "url": "https://www.globaltradealert.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-01-19-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-11-13",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-11-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usitc.gov",
+  "host": "usitc.gov"
+ }
+}

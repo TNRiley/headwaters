@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-04-05-5",
+ "title": "Avian invasions",
+ "hook": "In peer-reviewed paper published last week, a trio of University College London researchers describe their Global Avian Invasions Atlas.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "http://www.nature.com/articles/sdata201741"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/Data_from_The_Global_Avian_Invasions_Atlas_-_A_database_of_alien_bird_distributions_worldwide/4234850"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-05",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

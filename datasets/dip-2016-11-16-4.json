@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-11-16-4",
+ "title": "The most important entries on Wikipedia",
+ "hook": "Germany-based researcher Andreas Thalhammer has applied PageRank — the algorithm at the heart of Google’s origin story — to the world of Wikipedia. The result: the DBpedia PageRank dataset, which estimates the importance of each page based on the other pages that link to it.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/PageRank"
+  },
+  {
+   "name": "people.aifb.kit.edu",
+   "url": "http://people.aifb.kit.edu/ath/#DBpedia_PageRank"
+  },
+  {
+   "name": "dbpedia.org",
+   "url": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&qtxt=PREFIX+rdf%3A%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+vrank%3A%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0D%0APREFIX+dbo%3A%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0A%0D%0ASELECT+%3Fs+%3Fv+%0D%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E+%0D%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E+%0D%0AWHERE+{%0D%0A%3Fs+rdf%3Atype+dbo%3AUniversity.%0D%0A%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv.%0D%0A}%0D%0AORDER+BY+DESC%28%3Fv%29+LIMIT+50%0D%0A&format=text%2Fhtml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on"
+  },
+  {
+   "name": "dbpedia.org",
+   "url": "http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&query=PREFIX+rdf%3A%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+vrank%3A%3Chttp%3A%2F%2Fpurl.org%2Fvoc%2Fvrank%23%3E%0D%0APREFIX+dbo%3A%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0A%0D%0ASELECT+%3Fs+%3Fv+%0D%0AFROM+%3Chttp%3A%2F%2Fdbpedia.org%3E+%0D%0AFROM+%3Chttp%3A%2F%2Fpeople.aifb.kit.edu%2Fath%2F%23DBpedia_PageRank%3E+%0D%0AWHERE+%7B%0D%0A%3Fs+rdf%3Atype+dbo%3APhilosopher.%0D%0A%3Fs+vrank%3AhasRank%2Fvrank%3ArankValue+%3Fv.%0D%0A%7D%0D%0AORDER+BY+DESC%28%3Fv%29+LIMIT+50%0D%0A&format=text%2Fhtml&CXML_redir_for_subjs=121&CXML_redir_for_hrefs=&timeout=30000&debug=on"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-11-16",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-11-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

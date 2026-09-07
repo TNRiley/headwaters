@@ -1,0 +1,42 @@
+{
+ "id": "dip-2019-03-06-5",
+ "title": "Bird eggs",
+ "hook": "A few years ago, a team of scientists examined the shapes of 49,000 bird eggs belonging to 1,400 different species. You can download their calculations of each species’ average egg length, asymmetry, and ellipticity, which formed the basis of a graphics-forward article in Science Magazine. [h/t Sophie Warnes]",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature",
+  "food & drink"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "science.sciencemag.org",
+   "url": "http://science.sciencemag.org/content/356/6344/1249"
+  },
+  {
+   "name": "science.sciencemag.org",
+   "url": "http://science.sciencemag.org/content/suppl/2017/06/21/356.6344.1249.DC1"
+  },
+  {
+   "name": "vis.sciencemag.org",
+   "url": "https://vis.sciencemag.org/eggs/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-06",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "science.sciencemag.org",
+  "host": "science.sciencemag.org"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-07-22-3",
+ "title": "Mexican migration to the US",
+ "hook": "The Mexican Migration Project “was created in 1982 by an interdisciplinary team of researchers to further our understanding of the complex process of Mexican migration to the United States.” Since then, the project — co-directed by professors at the University of Guadalajara and Princeton University — has interviewed more than 176,000 people from 170 communities in Mexico, some who migrated and others who did not.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "mmp.opr.princeton.edu",
+   "url": "https://mmp.opr.princeton.edu/"
+  },
+  {
+   "name": "mmp.opr.princeton.edu",
+   "url": "https://mmp.opr.princeton.edu/databases/dataoverview-en.aspx"
+  },
+  {
+   "name": "mmp.opr.princeton.edu",
+   "url": "https://mmp.opr.princeton.edu/research/maps-en.aspx"
+  },
+  {
+   "name": "mmp.opr.princeton.edu",
+   "url": "https://mmp.opr.princeton.edu/databases/instructions-en.aspx"
+  },
+  {
+   "name": "mmp.opr.princeton.edu",
+   "url": "https://mmp.opr.princeton.edu/databases/codebooks-en.aspx"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-22",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mmp.opr.princeton.edu",
+  "host": "mmp.opr.princeton.edu"
+ }
+}

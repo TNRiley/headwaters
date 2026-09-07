@@ -1,0 +1,54 @@
+{
+ "id": "dip-2021-08-18-2",
+ "title": "Louisiana deaths behind bars",
+ "hook": "Incarceration Transparency, a project undertaken by law students and faculty at Loyola University New Orleans, has compiled data on more than 830 deaths in Louisiana jails, prisons, and juvenile detention centers, primarily between 2015 and 2019, based on 130+ public records requests.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "incarcerationtransparency.org",
+   "url": "https://www.incarcerationtransparency.org/"
+  },
+  {
+   "name": "incarcerationtransparency.org",
+   "url": "https://www.incarcerationtransparency.org/?page_id=1425"
+  },
+  {
+   "name": "incarcerationtransparency.org",
+   "url": "https://www.incarcerationtransparency.org/?page_id=3837"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-10-21-edition/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "newyorker.com",
+   "url": "https://www.newyorker.com/magazine/2021/08/23/a-fight-to-expose-the-hidden-human-costs-of-incarceration"
+  },
+  {
+   "name": "reuters.com",
+   "url": "https://www.reuters.com/investigates/special-report/usa-jails-graphic/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-18",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "incarcerationtransparency.org",
+  "host": "incarcerationtransparency.org"
+ }
+}

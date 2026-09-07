@@ -1,0 +1,35 @@
+{
+ "id": "dip-2019-10-16-4",
+ "title": "Dating",
+ "hook": "Stanford’s How Couples Meet and Stay Together study, which receives funding from both the university and the National Science Foundation, has been asking American adults about dating since 2009. A new-and-updated version of the survey includes questions related to dating apps. [h/t u/morningshower]",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "stanford.edu",
+   "url": "https://data.stanford.edu/hcmst"
+  },
+  {
+   "name": "stanford.edu",
+   "url": "https://data.stanford.edu/hcmst2017"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-16",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "stanford.edu",
+  "host": "stanford.edu"
+ }
+}

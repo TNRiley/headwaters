@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-08-24-2",
+ "title": "One billion Australian healthcare claims",
+ "hook": "Australia’s Department of Health has recently released an enormous dataset of Medicare and subsidized-prescription claims.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "Australia",
+ "sources": [
+  {
+   "name": "data.gov.au",
+   "url": "https://data.gov.au/dataset/a8e3c0bc-44ac-4e9a-8b3c-b779438ddb10"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-24",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "data.gov.au",
+  "host": "gov.au"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-03-23-2",
+ "title": "Political apologies",
+ "hook": "The Political Apologies Database, part of a broader research project on the theme, is “an inventory of political apologies offered by states or state representatives to a collective for human rights violations that happened in the recent or distant past.” The current version describes 300+ apologies offered between…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "politicalapologies.com",
+   "url": "https://www.politicalapologies.com/?page_id=74"
+  },
+  {
+   "name": "politicalapologies.com",
+   "url": "https://www.politicalapologies.com/"
+  },
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/10.1177/00223433211024696"
+  },
+  {
+   "name": "politicalapologies.com",
+   "url": "https://www.politicalapologies.com/?page_id=234"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-23",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "politicalapologies.com",
+  "host": "politicalapologies.com"
+ }
+}

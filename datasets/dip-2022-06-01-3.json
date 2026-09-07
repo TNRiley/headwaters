@@ -1,0 +1,61 @@
+{
+ "id": "dip-2022-06-01-3",
+ "title": "Wind and solar power",
+ "hook": "The Global Energy Monitor’s Global Wind Power Tracker is “a worldwide dataset of utility-scale wind facilities,” focusing on those with planned or installed capacities of at least 10 megawatts. It provides each facility’s name, location, status, capacity, installation type, owner, and other details.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "globalenergymonitor.org",
+   "url": "https://globalenergymonitor.org/about/our-story/"
+  },
+  {
+   "name": "globalenergymonitor.org",
+   "url": "https://globalenergymonitor.org/projects/global-wind-power-tracker/"
+  },
+  {
+   "name": "globalenergymonitor.org",
+   "url": "https://globalenergymonitor.org/press-release/new-trackers-showing-country-by-country-build-out-of-utility-scale-solar-and-wind/"
+  },
+  {
+   "name": "globalenergymonitor.org",
+   "url": "https://globalenergymonitor.org/projects/global-solar-power-tracker/"
+  },
+  {
+   "name": "globalenergymonitor.org",
+   "url": "https://globalenergymonitor.org/projects/"
+  },
+  {
+   "name": "globalenergymonitor.org",
+   "url": "https://globalenergymonitor.org/projects/global-coal-tracker/"
+  },
+  {
+   "name": "globalenergymonitor.org",
+   "url": "https://globalenergymonitor.org/projects/global-steel-plant-tracker/"
+  },
+  {
+   "name": "globalenergymonitor.org",
+   "url": "https://globalenergymonitor.org/projects/global-oil-gas-extraction-tracker/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-01",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "globalenergymonitor.org",
+  "host": "globalenergymonitor.org"
+ }
+}

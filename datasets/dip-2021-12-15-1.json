@@ -1,0 +1,65 @@
+{
+ "id": "dip-2021-12-15-1",
+ "title": "Faster-turnaround mortality data",
+ "hook": "Last week, the CDC began publishing provisional US mortality statistics for 2018 to the near-present. The data are based on death certificates and can be queried by location, timing, demographics, and causes of death.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "wonder.cdc.gov",
+   "url": "https://wonder.cdc.gov/mcd-icd10-provisional.html"
+  },
+  {
+   "name": "wonder.cdc.gov",
+   "url": "https://wonder.cdc.gov/wonder/help/mcd-provisional.html"
+  },
+  {
+   "name": "wonder.cdc.gov",
+   "url": "https://wonder.cdc.gov/mcd.html"
+  },
+  {
+   "name": "coviddatadispatch.com",
+   "url": "https://coviddatadispatch.com/2021/12/12/new-cdc-mortality-data-real-time-public-health-surveillance-at-a-highly-granular-level/"
+  },
+  {
+   "name": "coviddatadispatch.com",
+   "url": "https://coviddatadispatch.com/"
+  },
+  {
+   "name": "betsyladyzhets.com",
+   "url": "https://betsyladyzhets.com/"
+  },
+  {
+   "name": "muckrock.com",
+   "url": "https://www.muckrock.com/news/archives/2021/dec/09/the-cdc-just-released-new-data-on-deaths-in-the-us/"
+  },
+  {
+   "name": "documentingcovid19.io",
+   "url": "https://documentingcovid19.io/about"
+  },
+  {
+   "name": "us02web.zoom.us",
+   "url": "https://us02web.zoom.us/webinar/register/WN_PxEsCSn9SeqkFn-xQu37DA"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-15",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wonder.cdc.gov",
+  "host": "wonder.cdc.gov"
+ }
+}

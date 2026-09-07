@@ -1,0 +1,58 @@
+{
+ "id": "dip-2019-12-18-3",
+ "title": "Duterte’s drug war deaths",
+ "hook": "In the Philippines’ drug war, President Rodrigo Duterte has given police broad permission to kill suspected drug dealers.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Philippine_Drug_War"
+  },
+  {
+   "name": "documentcloud.org",
+   "url": "https://www.documentcloud.org/documents/6133399-Data-Sources-June04.html"
+  },
+  {
+   "name": "data.world",
+   "url": "https://data.world/stabile-center/ph-drug-war"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/HRDAG/PH-drug-related-killings/tree/master/import/input"
+  },
+  {
+   "name": "hrdag.org",
+   "url": "https://hrdag.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/HRDAG/PH-drug-related-killings"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theatlantic.com",
+   "url": "https://www.theatlantic.com/international/archive/2019/08/philippines-dead-rodrigo-duterte-drug-war/595978/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-18",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

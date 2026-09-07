@@ -1,0 +1,39 @@
+{
+ "id": "dip-2023-05-17-5",
+ "title": "Collective nouns",
+ "hook": "Daniel E. Meyers has consulted dozens of sources to compile The Collective Noun Catalog, which presents an inundation of 7,300+ such constructs, such as a pulse of cardiologists and a warren of wombats.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sites.miamioh.edu",
+   "url": "https://sites.miamioh.edu/meyersde/"
+  },
+  {
+   "name": "sites.miamioh.edu",
+   "url": "https://sites.miamioh.edu/meyersde/the-collective-noun-catalog/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1xCYrcJYhZVHNaF2J5oIgiFsROF--ZDzl68VFS8HzNUQ/edit"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-17",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sites.miamioh.edu",
+  "host": "sites.miamioh.edu"
+ }
+}

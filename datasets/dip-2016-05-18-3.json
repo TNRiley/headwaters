@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-05-18-3",
+ "title": "Immigrants, internationally",
+ "hook": "The United Nations publishes estimates of the number of foreign-born residents living in every country. The figures cover 1990 to 2015, at five-year intervals. The Vatican (100% foreign-born) and the United Arab Emirates (88%) had the highest proportion of immigrant residents in 2015; the U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "un.org",
+   "url": "http://www.un.org/en/development/desa/population/migration/data/estimates2/estimates15.shtml"
+  },
+  {
+   "name": "wrapsnet.org",
+   "url": "http://www.wrapsnet.org/Reports/InteractiveReporting/tabid/393/Default.aspx"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-11-25-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-18",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "un.org",
+  "host": "un.org"
+ }
+}

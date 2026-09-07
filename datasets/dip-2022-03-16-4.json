@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-03-16-4",
+ "title": "ISS photo locations",
+ "hook": "In 2013, Nathan Bergey crawled NASA’s website of International Space Station imagery, creating a dataset that listed the mission, roll, frame, latitude, and longitude of each of the million-plus photographs ever taken from the habitable satellite.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "natronics.org",
+   "url": "https://natronics.org/"
+  },
+  {
+   "name": "eol.jsc.nasa.gov",
+   "url": "https://eol.jsc.nasa.gov/"
+  },
+  {
+   "name": "natronics.github.io",
+   "url": "https://natronics.github.io/ISS-photo-locations/"
+  },
+  {
+   "name": "eol.jsc.nasa.gov",
+   "url": "https://eol.jsc.nasa.gov/SearchPhotos/"
+  },
+  {
+   "name": "eol.jsc.nasa.gov",
+   "url": "https://eol.jsc.nasa.gov/SearchPhotos/ShowQueryResults-Lightcycle.pl?results=Latest_ISS_Imagery"
+  },
+  {
+   "name": "issearthserv.jsc.nasa.gov",
+   "url": "https://issearthserv.jsc.nasa.gov/i4.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-16",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "natronics.org",
+  "host": "natronics.org"
+ }
+}

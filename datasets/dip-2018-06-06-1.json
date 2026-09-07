@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-06-06-1",
+ "title": "Global gas and oil infrastructure",
+ "hook": "The Department of Energy’s National Energy Technology Laboratory has published what it says is the “first-ever database inventory of oil and natural gas infrastructure information from the top hydrocarbon-producing and consuming countries in the world.” The database contains tons of geospatial information and “identifies more than 4.8 million individual features like wells, pipelines, and ports from more than 380 datasets in 194 countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "energy.gov",
+   "url": "https://www.energy.gov/fe/articles/netl-led-team-creates-first-ever-international-database-use-preventing-natural-gas"
+  },
+  {
+   "name": "edx.netl.doe.gov",
+   "url": "https://edx.netl.doe.gov/dataset/global-oil-gas-features-database"
+  },
+  {
+   "name": "edx.netl.doe.gov",
+   "url": "https://edx.netl.doe.gov/dataset/development-of-an-open-global-oil-and-gas-infrastructure-inventory-and-geodatabase"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-06-06",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-06-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "energy.gov",
+  "host": "energy.gov"
+ }
+}

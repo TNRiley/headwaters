@@ -1,0 +1,41 @@
+{
+ "id": "dip-2023-09-06-2",
+ "title": "Doctors in practice",
+ "hook": "The Physician and Physician Practice Research Database, published by the US government’s Agency for Healthcare Research and Quality, harmonizes data on medical practices from 13 participating states.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ahrq.gov",
+   "url": "https://www.ahrq.gov/data/innovations/3p-rd.html"
+  },
+  {
+   "name": "ahrq.gov",
+   "url": "https://www.ahrq.gov/"
+  },
+  {
+   "name": "cms.gov",
+   "url": "https://www.cms.gov/Regulations-and-Guidance/Administrative-Simplification/NationalProvIdentStand"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-06",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ahrq.gov",
+  "host": "ahrq.gov"
+ }
+}

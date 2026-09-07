@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-10-05-5",
+ "title": "A decade of tasks",
+ "hook": "Between April 2009 and February 2019, software engineer Renzo Borgatti set 17,000+ daily tasks for himself. He completed slightly less than half of them. He labeled them with tags such as “@meeting”, “@talk”, and “@clojure”. He estimated how many “pomodoros” each would take, and how many they really did.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Pomodoro_Technique"
+  },
+  {
+   "name": "shape-of-code.com",
+   "url": "https://shape-of-code.com/"
+  },
+  {
+   "name": "shape-of-code.com",
+   "url": "https://shape-of-code.com/2019/12/15/the-renzo-pomodoro-dataset/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Derek-Jones/renzo-pomodoro"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Derek-Jones/SiP_dataset"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-04-24-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-05",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

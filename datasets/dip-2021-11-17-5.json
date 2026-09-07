@@ -1,0 +1,57 @@
+{
+ "id": "dip-2021-11-17-5",
+ "title": "Werner’s Nomenclature of Colours",
+ "hook": "Data artist Nicholas Rougeux has digitally recreated Scottish painter Patrick Syme’s 1821 guidebook to German mineralogist Abraham Werner’s color system. For each of the 110 colors, such as Saffron Yellow and Veinous Blood Red, a corresponding spreadsheet contains its name, hex code, description, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "c82.net",
+   "url": "https://www.c82.net/"
+  },
+  {
+   "name": "c82.net",
+   "url": "https://www.c82.net/werner/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Patrick_Syme"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/gri_c00033125012743312"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Abraham_Gottlob_Werner"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Werner%27s_Nomenclature_of_Colours"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/10w7UebIDqN6ChEpBwLDQmAgVZZhLtKvnrLeNnBjJmsc/edit"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-11-17",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-11-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "c82.net",
+  "host": "c82.net"
+ }
+}

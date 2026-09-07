@@ -1,0 +1,49 @@
+{
+ "id": "dip-2018-01-03-1",
+ "title": "Taxes filed",
+ "hook": "The IRS publishes a ton of tax statistics. One of the most interesting portions: data aggregated from individual income tax returns (i.e., Form 1040s), which the IRS provides at the state, county, and ZIP code level.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "irs.gov",
+   "url": "https://www.irs.gov/statistics"
+  },
+  {
+   "name": "irs.gov",
+   "url": "https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-return-form-1040-statistics"
+  },
+  {
+   "name": "irs.gov",
+   "url": "https://www.irs.gov/statistics/soi-tax-stats-historic-table-2"
+  },
+  {
+   "name": "irs.gov",
+   "url": "https://www.irs.gov/statistics/soi-tax-stats-county-data"
+  },
+  {
+   "name": "irs.gov",
+   "url": "https://www.irs.gov/statistics/soi-tax-stats-individual-income-tax-statistics-zip-code-data-soi"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-03",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "irs.gov",
+  "host": "irs.gov"
+ }
+}

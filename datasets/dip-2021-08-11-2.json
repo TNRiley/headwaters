@@ -1,0 +1,53 @@
+{
+ "id": "dip-2021-08-11-2",
+ "title": "Eviction laws",
+ "hook": "The Legal Services Corporation, a nonprofit that Congress has directed to study local eviction procedures and their effects, has partnered with Temple University to compile a database of eviction laws in all US states and territories, and in a sample of 30 cities.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "lsc.gov",
+   "url": "https://www.lsc.gov/about-lsc/who-we-are"
+  },
+  {
+   "name": "lsc.gov",
+   "url": "https://www.lsc.gov/initiatives/effect-state-local-laws-evictions"
+  },
+  {
+   "name": "lsc.gov",
+   "url": "https://www.lsc.gov/initiatives/effect-state-local-laws-evictions/lsc-eviction-laws-database"
+  },
+  {
+   "name": "evictionlab.org",
+   "url": "https://evictionlab.org/map/"
+  },
+  {
+   "name": "evictionlab.org",
+   "url": "https://evictionlab.org/about/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-04-18-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-11",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lsc.gov",
+  "host": "lsc.gov"
+ }
+}

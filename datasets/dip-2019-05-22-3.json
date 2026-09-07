@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-05-22-3",
+ "title": "The Supreme Court of Canada’s interveners",
+ "hook": "At Canada’s highest court, “interveners” are the rough equivalent of amicus brief filers in U.S. Supreme Court cases. Sancho McCann, a student at the University of British Columbia’s law school, has created a dataset of the past ten years of interveners and has analyzed it.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "Canada",
+ "sources": [
+  {
+   "name": "sanchom.github.io",
+   "url": "https://sanchom.github.io/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/sanchom/scc_stats"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1zNUIDaw4Fd8H_zr-dZsIs8Si_8QlqPY6nIQGR8UzoVY/edit#gid=716506492"
+  },
+  {
+   "name": "sanchom.github.io",
+   "url": "https://sanchom.github.io/interveners-2009-2018.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-22",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sanchom.github.io",
+  "host": "sanchom.github.io"
+ }
+}

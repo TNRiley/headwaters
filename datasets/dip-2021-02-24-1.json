@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-02-24-1",
+ "title": "Indian court cases",
+ "hook": "The Development Data Lab has gathered data on 81.2 million court cases in India’s lower judiciary between 2010 and 2018, drawn from the country’s e-Courts platform. It’s “the largest open-access dataset on judicial proceedings in the world,” says project coauthor Aditi Bhowmick.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "devdatalab.org",
+   "url": "http://www.devdatalab.org/"
+  },
+  {
+   "name": "devdatalab.org",
+   "url": "http://www.devdatalab.org/judicial-bias-data"
+  },
+  {
+   "name": "districts.ecourts.gov.in",
+   "url": "https://districts.ecourts.gov.in/"
+  },
+  {
+   "name": "devdatalab.medium.com",
+   "url": "https://devdatalab.medium.com/big-data-for-justice-f53e0e14c9c9"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-02-24",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-02-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "devdatalab.org",
+  "host": "devdatalab.org"
+ }
+}

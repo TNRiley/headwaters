@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-10-20-3",
+ "title": "A decade of news articles",
+ "hook": "For their analysis of investigative publishing trends, Eray Turkel et al. gathered nearly 6 million articles published by 50 outlets (mostly local newspapers) in the 2010s, drawn from the pay-to-access NewsBank service.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "gsb.stanford.edu",
+   "url": "https://www.gsb.stanford.edu/insights/what-analysis-6-million-articles-reveals-about-state-us-newspapers"
+  },
+  {
+   "name": "pnas.org",
+   "url": "https://www.pnas.org/content/118/30/e2105155118"
+  },
+  {
+   "name": "newsbank.com",
+   "url": "https://www.newsbank.com/about-newsbank"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HSZ2QL"
+  },
+  {
+   "name": "rally.mozilla.org",
+   "url": "https://rally.mozilla.org/current-studies/beyond-the-paywall/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-10-20",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-10-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gsb.stanford.edu",
+  "host": "gsb.stanford.edu"
+ }
+}

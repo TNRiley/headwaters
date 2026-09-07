@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-09-13-5",
+ "title": "It wood be hard to ignore this dataset",
+ "hook": "The “robust and curated” Global Wood Density Database contains more than 16,000 entries, culled from scientific literature, websites, and unpublished scholarship. The densest so far is a Caesalpinia sclerocarpa from Mexico, weighing in at 1.39 grams per cubic centimeter.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "wooddensity.univ-tlse3.fr",
+   "url": "http://wooddensity.univ-tlse3.fr/"
+  },
+  {
+   "name": "datadryad.org",
+   "url": "http://datadryad.org/handle/10255/dryad.235"
+  },
+  {
+   "name": "desertmuseum.org",
+   "url": "https://www.desertmuseum.org/programs/alamos_trees_caescl.php"
+  },
+  {
+   "name": "try-db.org",
+   "url": "https://www.try-db.org/TryWeb/Database.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-09-13",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-09-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wooddensity.univ-tlse3.fr",
+  "host": "wooddensity.univ-tlse3.fr"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "id": "dip-2016-04-27-3",
+ "title": "Flight delays",
+ "hook": "The Bureau of Transportation Statistics requires the nation’s largest airlines to report scheduled and actual timing data for every domestic flight. The corresponding database includes information about delays, cancellations, and diversions, among other fields — and goes back to 1987.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "transtats.bts.gov",
+   "url": "http://www.transtats.bts.gov/DatabaseInfo.asp?DB_ID=120&DB_Name=Airline%20On-Time%20Performance%20Data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.fivethirtyeight.com",
+   "url": "http://projects.fivethirtyeight.com/flights/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-27",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "transtats.bts.gov",
+  "host": "transtats.bts.gov"
+ }
+}

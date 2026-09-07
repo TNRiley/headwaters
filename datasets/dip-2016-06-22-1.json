@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-06-22-1",
+ "title": "Nonprofit IRS filings — at long last",
+ "hook": "Last week, the Internal Revenue Service released a huge dataset of nonprofits’ annual Form 990 filings, which provide details on program expenses, salaries, and more. More than 60% of Form 990s are filed digitally, according to the IRS.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "irs.gov",
+   "url": "https://www.irs.gov/uac/newsroom/irs-makes-electronically-filed-form-990-data-available-in-new-format"
+  },
+  {
+   "name": "aws.amazon.com",
+   "url": "https://aws.amazon.com/public-data-sets/irs-990/"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/IRS990-efile"
+  },
+  {
+   "name": "gist.github.com",
+   "url": "https://gist.github.com/licyeus/95b99d6feb423ebea604b5f3e2cdf590"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-22",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "irs.gov",
+  "host": "irs.gov"
+ }
+}

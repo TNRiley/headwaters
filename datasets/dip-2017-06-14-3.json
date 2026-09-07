@@ -1,0 +1,43 @@
+{
+ "id": "dip-2017-06-14-3",
+ "title": "Business owners",
+ "hook": "The Census Bureau’s Survey of Business Owners and Self-Employed Persons “provides the only comprehensive, regularly collected source of information on selected economic and demographic characteristics for businesses and business owners by gender, ethnicity, race, and veteran status.” The most recent data comes from 2012.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/sbo/about.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/sbo/data.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "https://www.buzzfeed.com/coralewis/in-5-years-new-york-lost-30-of-its-black-owned-businesses"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-14",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

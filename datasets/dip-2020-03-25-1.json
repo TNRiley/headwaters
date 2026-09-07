@@ -1,0 +1,69 @@
+{
+ "id": "dip-2020-03-25-1",
+ "title": "COVID-19 cases, continued",
+ "hook": "The European Centre for Disease Prevention and Control has been publishing a COVID-19 dashboard and daily-updated data files tracking country-level cases and deaths.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "ecdc.europa.eu",
+   "url": "https://www.ecdc.europa.eu/"
+  },
+  {
+   "name": "qap.ecdc.europa.eu",
+   "url": "https://qap.ecdc.europa.eu/public/extensions/COVID-19/COVID-19.html"
+  },
+  {
+   "name": "ecdc.europa.eu",
+   "url": "https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide"
+  },
+  {
+   "name": "ourworldindata.org",
+   "url": "https://ourworldindata.org/"
+  },
+  {
+   "name": "ourworldindata.org",
+   "url": "https://ourworldindata.org/coronavirus-source-data"
+  },
+  {
+   "name": "who.int",
+   "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports"
+  },
+  {
+   "name": "ourworldindata.org",
+   "url": "https://ourworldindata.org/coronavirus"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-03-11-edition"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-25",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ecdc.europa.eu",
+  "host": "ecdc.europa.eu"
+ }
+}

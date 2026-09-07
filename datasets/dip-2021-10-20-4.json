@@ -1,0 +1,65 @@
+{
+ "id": "dip-2021-10-20-4",
+ "title": "More parliamentary speech",
+ "hook": "PhD candidate Daniel Braby’s parlCymru and parlScot provide the text of 5 and 20+ years of spoken contributions to the Welsh and Scottish parliaments, respectively, plus speaker and circumstance metadata.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VILSR8"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EQ9WBE"
+  },
+  {
+   "name": "dekoder.org",
+   "url": "https://www.dekoder.org/"
+  },
+  {
+   "name": "danilamorkovkin.blog",
+   "url": "https://danilamorkovkin.blog/"
+  },
+  {
+   "name": "discuss-data.net",
+   "url": "https://www.discuss-data.net/dataset/fb52dac2-66e3-47a3-86c5-b2a3dadf41bf/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/State_Duma"
+  },
+  {
+   "name": "duma.dekoder.org",
+   "url": "https://duma.dekoder.org/de"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/L4OAKN"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-04-29-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-10-20",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-10-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataverse.harvard.edu",
+  "host": "dataverse.harvard.edu"
+ }
+}

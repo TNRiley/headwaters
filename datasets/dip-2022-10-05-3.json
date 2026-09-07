@@ -1,0 +1,46 @@
+{
+ "id": "dip-2022-10-05-3",
+ "title": "Wildfire smoke pollution",
+ "hook": "Marissa L. Childs et al. have developed a “machine learning model of daily wildfire-driven PM2.5 concentrations using a combination of ground, satellite, and reanalysis data sources that are easy to update.” (PM2.5 refers to particulate matter 2.5 micrometers in diameter or smaller.) The researchers then used that model to generate daily smoke PM2.5 estimates for each county, Census tract, and 10-kilometer-grid tile in the contiguous US, for 2006–2020.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "pubs.acs.org",
+   "url": "https://pubs.acs.org/doi/10.1021/acs.est.2c02934"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/pm-pollution/particulate-matter-pm-basics"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/echolab-stanford/daily-10km-smokePM"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2022/09/22/climate/wildfire-smoke-pollution.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-05",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pubs.acs.org",
+  "host": "pubs.acs.org"
+ }
+}

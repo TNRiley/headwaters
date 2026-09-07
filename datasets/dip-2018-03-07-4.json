@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-03-07-4",
+ "title": "The Gray Lady of 19th century Havana",
+ "hook": "The University of Miami Libraries has digitized 53,000+ pages of La Gaceta de La Habana, “the paper of record during the Spanish colonial occupation of Cuba in the nineteenth century.” The digitized editions span 33 of the years between 1849 and 1897. Previously: Historical U.S. newspapers (DIP 2017.08.16).",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/UMiamiLibraries/collections-as-data/tree/master/LaGaceta"
+  },
+  {
+   "name": "merrick.library.miami.edu",
+   "url": "http://merrick.library.miami.edu/cubanHeritage/cubanlaw/lagaceta.php"
+  },
+  {
+   "name": "chroniclingamerica.loc.gov",
+   "url": "https://chroniclingamerica.loc.gov/about/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-08-16-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-03-07",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-03-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

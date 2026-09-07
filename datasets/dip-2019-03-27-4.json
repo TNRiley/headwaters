@@ -1,0 +1,33 @@
+{
+ "id": "dip-2019-03-27-4",
+ "title": "Antarctic infrastructure",
+ "hook": "University of Tasmania Ph.D. candidate Shaun T. Brooks has created a geospatial dataset of “all buildings and disturbance detected across Antarctica, manually digitised from Google Earth images.” The dataset includes research stations, lighthouses, weather stations, historic sites, and more. [h/t Jasmine Lee]",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "aad.gov.au",
+   "url": "https://data.aad.gov.au/metadata/records/AAS_5134_Antarctic_Disturbance_Footprint"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-27",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aad.gov.au",
+  "host": "aad.gov.au"
+ }
+}

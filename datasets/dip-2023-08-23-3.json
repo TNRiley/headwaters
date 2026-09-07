@@ -1,0 +1,61 @@
+{
+ "id": "dip-2023-08-23-3",
+ "title": "Katherine Dunham",
+ "hook": "Dunham’s Data, a project led by Kate Elswit and Harmony Bench, “explores the kinds of questions and problems that make the analysis and visualization of data meaningful for dance history, through the case study of 20th century African American choreographer Katherine Dunham” (1909–2006).",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "dunhamsdata.org",
+   "url": "https://dunhamsdata.org/"
+  },
+  {
+   "name": "kateelswit.org",
+   "url": "https://www.kateelswit.org/"
+  },
+  {
+   "name": "dance.osu.edu",
+   "url": "https://dance.osu.edu/people/bench.9"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Katherine_Dunham"
+  },
+  {
+   "name": "dunhamsdata.org",
+   "url": "https://dunhamsdata.org/portfolio/datasets"
+  },
+  {
+   "name": "dunhamsdata.org",
+   "url": "https://dunhamsdata.org/index.php/portfolio/essays"
+  },
+  {
+   "name": "dunhamsdata.org",
+   "url": "https://dunhamsdata.org/index.php/portfolio/visualizations"
+  },
+  {
+   "name": "dunhamsdata.org",
+   "url": "https://dunhamsdata.org/blog/code-tutorial-release"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-08-23",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-08-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dunhamsdata.org",
+  "host": "dunhamsdata.org"
+ }
+}

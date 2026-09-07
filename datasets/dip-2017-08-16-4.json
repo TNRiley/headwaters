@@ -1,0 +1,33 @@
+{
+ "id": "dip-2017-08-16-4",
+ "title": "The U.S. petroleum supply and exports",
+ "hook": "The Energy Information Administration’s Petroleum Supply Monthly contains detailed data about how the United States obtains crude oil and petroleum products, and where that supply goes. In May, for instance, the U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/petroleum/supply/monthly/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-16",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "U.S. Gasoline and Diesel Retail Prices",
+  "host": "eia.gov"
+ }
+}

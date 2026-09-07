@@ -1,0 +1,39 @@
+{
+ "id": "dip-2019-11-27-5",
+ "title": "Medieval monasteries",
+ "hook": "Economists Serra Boranbay-Akan and Carmine Guerriero have built a dataset describing the locations and operating years of more than 3,000 Cistercian and Franciscan monasteries in 90 European regions between the years 1000 and 1600.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "qatar.cmu.edu",
+   "url": "https://www.qatar.cmu.edu/directory/serra-boranbay-akan/"
+  },
+  {
+   "name": "unibo.it",
+   "url": "https://www.unibo.it/sitoweb/c.guerriero/en"
+  },
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340919310868"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-11-27",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-11-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "qatar.cmu.edu",
+  "host": "qatar.cmu.edu"
+ }
+}

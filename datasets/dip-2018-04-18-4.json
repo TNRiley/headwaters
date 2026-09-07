@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-04-18-4",
+ "title": "Academic parental leave policies",
+ "hook": "Researchers at the University of Colorado at Boulder and the Santa Fe Institute have compiled a dataset of 200+ universities’ parental leave policies.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "aaronclauset.github.io",
+   "url": "https://aaronclauset.github.io/parental-leave/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-18",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aaronclauset.github.io",
+  "host": "aaronclauset.github.io"
+ }
+}

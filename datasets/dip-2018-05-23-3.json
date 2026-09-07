@@ -1,0 +1,31 @@
+{
+ "id": "dip-2018-05-23-3",
+ "title": "Political resistance campaigns",
+ "hook": "The Nonviolent and Violent Campaigns and Outcomes (NAVCO) Data Project, based at the University of Denver, “catalogues major nonviolent and violent resistance campaigns around the globe from 1900-2013.” The project’s initial dataset explored the general characteristics of hundreds of campaigns; follow-up datasets have examined the annual activity and tactics of smaller subsets.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "du.edu",
+   "url": "https://www.du.edu/korbel/sie/research/chenow_navco_data.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-05-23",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-05-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "du.edu",
+  "host": "du.edu"
+ }
+}

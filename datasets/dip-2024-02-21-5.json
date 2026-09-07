@@ -1,0 +1,45 @@
+{
+ "id": "dip-2024-02-21-5",
+ "title": "Scott’s SMS spam",
+ "hook": "In late September 2022, Scott Lee Chua began preserving every SMS he received, motivated by the recent passage of the Philippine SIM Registration Act.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "scottleechua.com",
+   "url": "https://scottleechua.com/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/SIM_Registration_Act"
+  },
+  {
+   "name": "spamofthetimes.com",
+   "url": "https://spamofthetimes.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/scottleechua/data/tree/main/spam-and-marketing-sms"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-21",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "scottleechua.com",
+  "host": "scottleechua.com"
+ }
+}

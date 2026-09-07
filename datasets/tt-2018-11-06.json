@@ -45,7 +45,7 @@
  ],
  "added": "2026-09-06",
  "provider": {
-  "name": "usgs.gov",
+  "name": "eerscmap.usgs.gov",
   "host": "eerscmap.usgs.gov"
  },
  "questions_source": "curator"

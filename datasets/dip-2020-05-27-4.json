@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-05-27-4",
+ "title": "Interwar literary lending",
+ "hook": "From 1919 to 1941, Sylvia Beach ran Shakespeare and Company, the legendary Paris bookstore. It featured a lending library, whose members included writers such as Gertrude Stein, James Joyce, Simone de Beauvoir, and Ernest Hemingway.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Shakespeare_and_Company_(bookstore)"
+  },
+  {
+   "name": "shakespeareandco.princeton.edu",
+   "url": "https://shakespeareandco.princeton.edu/"
+  },
+  {
+   "name": "shakespeareandco.princeton.edu",
+   "url": "https://shakespeareandco.princeton.edu/sources/"
+  },
+  {
+   "name": "shakespeareandco.princeton.edu",
+   "url": "https://shakespeareandco.princeton.edu/members/"
+  },
+  {
+   "name": "shakespeareandco.princeton.edu",
+   "url": "https://shakespeareandco.princeton.edu/about/data/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-27",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

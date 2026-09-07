@@ -1,0 +1,33 @@
+{
+ "id": "dip-2020-04-29-4",
+ "title": "US retail",
+ "hook": "Since the 1950s, the US Census Bureau has conducted monthly surveys of retail and food-services industries. The results — which estimate sales and inventory numbers by subsector — are available as machine-readable data going back to 1992. The next release is scheduled for May 15. [h/t Giuseppe Sollazzo]",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/retail/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-29",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-04-24-5",
+ "title": "Hunger Games survival",
+ "hook": "“In a Cox proportional hazards model, which covariates are associated with the odds (or hazard ratios) being ever in your favor?” To find out, Brett Keller created spreadsheet of all 24 tributes in the 74th Hunger Games, including the districts from which they hailed, their ages, and how many days they survived.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "bdkeller.com",
+   "url": "http://www.bdkeller.com/writing/hunger-games-survival-analysis"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1qXSvoXJxKeX2mjjCVFloM1ZwrefiTtZNgrssgfbWoTI/edit#gid=0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-24",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bdkeller.com",
+  "host": "bdkeller.com"
+ }
+}

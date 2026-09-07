@@ -1,0 +1,46 @@
+{
+ "id": "dip-2021-10-13-5",
+ "title": "Bird food",
+ "hook": "Allen H. Hurlbert et al.’s Avian Diet Database contains “73,075 quantitative diet data records for 759 primarily North American bird species, providing standardized information not just on the diet itself, but on the context for that diet information including the year, season, location, and habitat type of each study.” You can explore it online, download it, and access it as an R package.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature",
+  "food & drink"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-021-01049-9"
+  },
+  {
+   "name": "aviandiet.unc.edu",
+   "url": "https://aviandiet.unc.edu/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/hurlbertlab/dietdatabase"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ahhurlbert/aviandietdb"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-10-13",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-10-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

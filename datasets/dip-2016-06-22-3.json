@@ -1,0 +1,50 @@
+{
+ "id": "dip-2016-06-22-3",
+ "title": "Bull vs. man",
+ "hook": "Next month, thousands of adrenaline junkies will gather in Pamplona for the city’s annual Running of the Bulls. The San Fermin festival, which organizes the spectacle, publishes injury data on its website.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sanfermin.com",
+   "url": "http://www.sanfermin.com/index.php/en/encierro/como-correr/cuanta-gente-corre-en-el-encierro-de-sanfermin"
+  },
+  {
+   "name": "sanfermin.com",
+   "url": "http://www.sanfermin.com/index.php/en/encierro/que-es"
+  },
+  {
+   "name": "sanfermin.com",
+   "url": "http://www.sanfermin.com/index.php/en/encierro/buscador/buscador-encierros"
+  },
+  {
+   "name": "sanfermin.com",
+   "url": "http://www.sanfermin.com/old/encierrometro/buscador_encierros.php?lang=eng&buscar=1"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "http://fivethirtyeight.com/datalab/your-chances-of-being-gored-by-a-bull-in-pamplona-are-getting-higher/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-22",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sanfermin.com",
+  "host": "sanfermin.com"
+ }
+}

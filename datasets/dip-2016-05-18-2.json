@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-05-18-2",
+ "title": "Fossils",
+ "hook": "The Paleobiology Database, run by a non-profit group of researchers, has aggregated data on more than a million fossils from all around the world. You can access the dataset — organized by species, era, and location — via an interactive map, download form, or API.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "paleobiodb.org",
+   "url": "https://paleobiodb.org"
+  },
+  {
+   "name": "paleobiodb.org",
+   "url": "https://paleobiodb.org/navigator/"
+  },
+  {
+   "name": "paleobiodb.org",
+   "url": "https://paleobiodb.org/cgi-bin/bridge.pl?a=displayDownloadGenerator"
+  },
+  {
+   "name": "paleobiodb.org",
+   "url": "https://paleobiodb.org/data1.2/occs/list_doc.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-18",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "paleobiodb.org",
+  "host": "paleobiodb.org"
+ }
+}

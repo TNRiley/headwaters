@@ -1,0 +1,43 @@
+{
+ "id": "dip-2020-03-18-5",
+ "title": "Speed dating",
+ "hook": "Between 2002 and 2004, professors Ray Fisman and Sheena Iyengar ran a series of speed dating events for Columbia University graduate students, while collecting detailed data on the participants and results.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "www8.gsb.columbia.edu",
+   "url": "https://www8.gsb.columbia.edu/cbs-directory/detail/ss957"
+  },
+  {
+   "name": "statmodeling.stat.columbia.edu",
+   "url": "https://statmodeling.stat.columbia.edu/2008/01/21/the_speeddating_1/"
+  },
+  {
+   "name": "drkeithmcnulty.com",
+   "url": "https://drkeithmcnulty.com/"
+  },
+  {
+   "name": "drkeithmcnulty.com",
+   "url": "https://drkeithmcnulty.com/2020/02/14/what-matters-in-speed-dating/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-18",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "www8.gsb.columbia.edu",
+  "host": "www8.gsb.columbia.edu"
+ }
+}

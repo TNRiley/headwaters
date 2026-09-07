@@ -1,0 +1,46 @@
+{
+ "id": "dip-2020-02-26-2",
+ "title": "Tech workers, united",
+ "hook": "The Collective Actions In Tech project database aims to document every instance of tech-industry workers banding together to raise awareness of a shared cause.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "collectiveactions.tech",
+   "url": "https://collectiveactions.tech"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/collective-action/tech/blob/master/CONTRIBUTING.md"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/collective-action/tech"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/commentisfree/2019/dec/22/tech-worker-activism-2019-what-we-learned"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-26",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "collectiveactions.tech",
+  "host": "collectiveactions.tech"
+ }
+}

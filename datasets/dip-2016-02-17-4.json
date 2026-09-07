@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-02-17-4",
+ "title": "Hundreds of thousands of chess games",
+ "hook": "Portable Game Notation, a file format used to describe chess matches, was invented in 1993. Since then, enthusiasts have created PGN files for virtually all top players’ games and every high-level tournament at sites such as PGN Mentor and Chess DB. [h/t Seth Kadish]",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Portable_Game_Notation"
+  },
+  {
+   "name": "pgnmentor.com",
+   "url": "http://www.pgnmentor.com/files.html#events"
+  },
+  {
+   "name": "chess-db.com",
+   "url": "http://chess-db.com/public/grandmasters.jsp"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-17",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

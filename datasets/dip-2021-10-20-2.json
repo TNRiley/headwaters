@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-10-20-2",
+ "title": "Wildlife death and illness reports",
+ "hook": "WHISPers, hosted by the USGS National Wildlife Health Center, is a “repository for sharing basic information about historic and ongoing wildlife mortality (death) and/or morbidity (illness) events,” with contributions from “hundreds of natural resource managers and stakeholders across the U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "whispers.usgs.gov",
+   "url": "https://whispers.usgs.gov/home"
+  },
+  {
+   "name": "whispers.usgs.gov",
+   "url": "https://whispers.usgs.gov/event/201296"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-10-20",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-10-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "whispers.usgs.gov",
+  "host": "whispers.usgs.gov"
+ }
+}

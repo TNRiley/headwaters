@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-01-03-4",
+ "title": "Building permits",
+ "hook": "The Census Bureau’s Building Permits Survey collects data from thousands of municipalities every month. For each municipality, metro area, and state, the datasets provide the number of permits issued for new residential housing, number housing units authorized, and total estimated value of the new construction.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/construction/bps/definitions/"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/construction/bps/how_the_data_are_collected/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-06-22-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-03",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

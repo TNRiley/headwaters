@@ -1,0 +1,37 @@
+{
+ "id": "dip-2015-10-28-1",
+ "title": "Data-shaming the robocallers",
+ "hook": "If you can’t beat ‘em, post spreadsheets about ‘em. Earlier this month, the Federal Communications Commission started publishing a dataset of complaints against telemarketers and robocalls. The FCC says the file will be updated weekly.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "consumercomplaints.fcc.gov",
+   "url": "https://consumercomplaints.fcc.gov/hc/en-us/articles/205239443-Data-on-Unwanted-Calls"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/shalecraig/telemarketing"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-10-28",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-10-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "consumercomplaints.fcc.gov",
+  "host": "consumercomplaints.fcc.gov"
+ }
+}

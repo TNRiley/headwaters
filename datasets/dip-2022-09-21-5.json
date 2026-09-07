@@ -1,0 +1,61 @@
+{
+ "id": "dip-2022-09-21-5",
+ "title": "Atari emails",
+ "hook": "A couple of decades ago, Jed Margolin posted a cache of electronic mail messages from his time as a video game hardware engineer at Atari (and Atari Games, a successor company).",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "jmargolin.com",
+   "url": "https://www.jmargolin.com/"
+  },
+  {
+   "name": "jmargolin.com",
+   "url": "https://www.jmargolin.com/vmail/vmail.htm"
+  },
+  {
+   "name": "atariemailarchive.org",
+   "url": "https://atariemailarchive.org/"
+  },
+  {
+   "name": "atariemailarchive.org",
+   "url": "https://atariemailarchive.org/all-threads"
+  },
+  {
+   "name": "atariemailarchive.org",
+   "url": "https://atariemailarchive.org/categories"
+  },
+  {
+   "name": "atariemailarchive.org",
+   "url": "https://atariemailarchive.org/top-threads"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/voberoi/atariemailarchive-data"
+  },
+  {
+   "name": "vikramoberoi.com",
+   "url": "https://vikramoberoi.com/how-i-made-atariemailarchive-org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-21",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "jmargolin.com",
+  "host": "jmargolin.com"
+ }
+}

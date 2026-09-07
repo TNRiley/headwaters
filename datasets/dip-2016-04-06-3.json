@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-04-06-3",
+ "title": "Tech’s water cooler",
+ "hook": "Hacker News’ official API provides data describing every submission, comment, and user on the community-driven website. You can also analyze the full dataset via Google’s recently-relaunched BigQuery Public Datasets program. [h/t Michael Gardiner]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/HackerNews/API"
+  },
+  {
+   "name": "cloud.google.com",
+   "url": "https://cloud.google.com/bigquery/public-data/hacker-news"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-06",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "dip-2021-09-29-1",
+ "title": "State vaccine mandates",
+ "hook": "The Immunization Action Coalition is a not-for-profit organization that “works to increase immunization rates and prevent disease by creating and distributing educational materials for healthcare professionals and the public.” Its resources include a series of HTML tables that categorize states’ school and childcare immunization mandates for more than a dozen diseases, such as hepatitis A, polio, and rotavirus.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "immunize.org",
+   "url": "https://www.immunize.org/aboutus/"
+  },
+  {
+   "name": "immunize.org",
+   "url": "https://www.immunize.org/laws/"
+  },
+  {
+   "name": "immunize.org",
+   "url": "https://www.immunize.org/laws/hepa.asp"
+  },
+  {
+   "name": "immunize.org",
+   "url": "https://www.immunize.org/laws/polio.asp"
+  },
+  {
+   "name": "immunize.org",
+   "url": "https://www.immunize.org/laws/rotavirus.asp"
+  },
+  {
+   "name": "kff.org",
+   "url": "https://www.kff.org/about-us/"
+  },
+  {
+   "name": "kff.org",
+   "url": "https://www.kff.org/report-section/state-covid-19-data-and-policy-actions-policy-actions/#vaccines"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-29",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "immunize.org",
+  "host": "immunize.org"
+ }
+}

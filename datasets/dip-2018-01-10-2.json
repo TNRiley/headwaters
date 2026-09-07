@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-01-10-2",
+ "title": "Local health metrics",
+ "hook": "The CDC’s 500 Cities Project provides “city and census tract-level data, obtained using small area estimation methods, for 27 chronic disease measures for the 500 largest American cities.” The metrics range from cancer prevalence to binge drinking to dental health to undersleeping.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/500cities/index.htm"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/500cities/about.htm"
+  },
+  {
+   "name": "chronicdata.cdc.gov",
+   "url": "https://chronicdata.cdc.gov/500-Cities/500-Cities-Local-Data-for-Better-Health-2017-relea/6vp6-wxuq"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-10",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "dip-2024-11-13-2",
+ "title": "Climate summit attendees",
+ "hook": "Daria Blinova et al. have built a dataset of 310,000+ attendees of United Nations climate summits. The data, largely compiled from PDFs of attendance rosters, include each attendee’s year and meeting attended, name, job title, affiliation, delegation, delegation type (party, observer state, intergovernmental organization, NGO), gender, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-024-03978-7"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/bagozzib/UNFCCC-Attendance-Data"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/United_Nations_Climate_Change_Conference"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2024/11/13/climate/cop-climate-summit-attendance.html"
+  },
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/by/mira-rojanasakul"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-11-13",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-11-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

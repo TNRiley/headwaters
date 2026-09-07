@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-05-25-3",
+ "title": "European election results",
+ "hook": "Dominik Schraff et al. have built EU-NED, a dataset that harmonizes European election results at a subnational level, providing party vote totals for 31 countries’ NUTS 2 and NUTS 3 geographic units.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/full/10.1177/13540688221083553"
+  },
+  {
+   "name": "eu-ned.com",
+   "url": "https://eu-ned.com/"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/web/nuts/background"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IQRYP5"
+  },
+  {
+   "name": "partyfacts.herokuapp.com",
+   "url": "https://partyfacts.herokuapp.com/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-01-16-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-25",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "journals.sagepub.com",
+  "host": "journals.sagepub.com"
+ }
+}

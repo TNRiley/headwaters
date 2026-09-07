@@ -1,0 +1,69 @@
+{
+ "id": "dip-2020-02-26-1",
+ "title": "Government contracts, standardized",
+ "hook": "The Open Contracting Data Standard is a “free, non-proprietary open data standard” that makes it “easier to share, compare and analyze” the contracts that governments award to bidders.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "open-contracting.org",
+   "url": "https://www.open-contracting.org/data-standard/"
+  },
+  {
+   "name": "open-contracting.org",
+   "url": "https://www.open-contracting.org/impact-stories/"
+  },
+  {
+   "name": "open-contracting.org",
+   "url": "https://www.open-contracting.org/worldwide/"
+  },
+  {
+   "name": "standard.open-contracting.org",
+   "url": "https://standard.open-contracting.org/latest/en/"
+  },
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/publications/open-contracting"
+  },
+  {
+   "name": "buyandsell.gc.ca",
+   "url": "https://buyandsell.gc.ca/procurement-data/open-contracting-data-standard-pilot/about-the-ocds-pilot"
+  },
+  {
+   "name": "colombiacompra.gov.co",
+   "url": "https://www.colombiacompra.gov.co/transparencia/gestion-documental/datos-abiertos"
+  },
+  {
+   "name": "ppip.gov.np",
+   "url": "http://ppip.gov.np"
+  },
+  {
+   "name": "gpp.ppda.go.ug",
+   "url": "https://gpp.ppda.go.ug"
+  },
+  {
+   "name": "ageops.net",
+   "url": "https://ageops.net/en/home"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-26",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "open-contracting.org",
+  "host": "open-contracting.org"
+ }
+}

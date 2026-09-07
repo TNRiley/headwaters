@@ -1,0 +1,47 @@
+{
+ "id": "dip-2018-08-01-1",
+ "title": "The death penalty",
+ "hook": "Law professor Brandon L. Garrett has led an effort to compile data on every death sentence in the U.S. since the early 1990s.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "brandonlgarrett.com",
+   "url": "http://www.brandonlgarrett.com/"
+  },
+  {
+   "name": "endofitsrope.com",
+   "url": "http://endofitsrope.com/using-the-database/"
+  },
+  {
+   "name": "endofitsrope.com",
+   "url": "http://endofitsrope.com/data-and-documents/"
+  },
+  {
+   "name": "endofitsrope.com",
+   "url": "http://endofitsrope.com/database/"
+  },
+  {
+   "name": "endofitsrope.com",
+   "url": "http://endofitsrope.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-01",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "brandonlgarrett.com",
+  "host": "brandonlgarrett.com"
+ }
+}

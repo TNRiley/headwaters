@@ -1,0 +1,46 @@
+{
+ "id": "dip-2016-11-16-1",
+ "title": "Hate crimes in the United States",
+ "hook": "Since the 1990s, the FBI has collected data on hate crimes from local law enforcement agencies. On Monday, the bureau released data for 2015, reporting “5,850 criminal incidents and 6,885 related offenses, as being motivated by bias toward race, ethnicity, ancestry, religion, sexual orientation, disability, gender, and gender identity.” Those numbers are based on reports from 14,997 participating agencies.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fbi.gov",
+   "url": "https://www.fbi.gov/news/pressrel/press-releases/fbi-releases-2015-hate-crime-statistics"
+  },
+  {
+   "name": "ucr.fbi.gov",
+   "url": "https://ucr.fbi.gov/hate-crime/2015/topic-pages/jurisdiction_final"
+  },
+  {
+   "name": "icpsr.umich.edu",
+   "url": "https://www.icpsr.umich.edu/icpsrweb/NACJD/series/57/studies?searchIn=TITLE&archive=NACJD&q=%22Hate+Crime+Data%22&sortBy=7"
+  }
+ ],
+ "articles": [
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/hate-crimes-are-up-but-the-government-isnt-keeping-good-track-of-them"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-11-16",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-11-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fbi.gov",
+  "host": "fbi.gov"
+ }
+}

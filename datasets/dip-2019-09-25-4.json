@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-09-25-4",
+ "title": "Kiwi and Canadian building outlines",
+ "hook": "Microsoft has released a dataset describing the geometric footprints of 12 million buildings in Canada, as detected by a neural network analyzing satellite imagery.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "government",
+ "geography": "Canada",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/Microsoft/CanadianBuildingFootprints"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-07-18-edition"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Microsoft/USBuildingFootprints"
+  },
+  {
+   "name": "medium.com",
+   "url": "https://medium.com/on-location/an-open-building-outlines-dataset-for-new-zealand-eef8b558ef7a"
+  },
+  {
+   "name": "linz.govt.nz",
+   "url": "https://www.linz.govt.nz/land/maps/aerial-imagery-and-orthophotography"
+  },
+  {
+   "name": "nz-buildings.readthedocs.io",
+   "url": "https://nz-buildings.readthedocs.io/en/latest/introduction.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-25",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

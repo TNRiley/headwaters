@@ -1,0 +1,77 @@
+{
+ "id": "dip-2025-07-16-5",
+ "title": "Subway art",
+ "hook": "The Metropolitan Transportation Authority’s Permanent Art Program commissions public artworks for New York City Transit, Metro-North Railroad, Long Island Rail Road, and even one of its tunnels.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "mta.info",
+   "url": "https://www.mta.info/agency/arts-design/permanent-art"
+  },
+  {
+   "name": "mta.info",
+   "url": "https://www.mta.info/agency/arts-design/collection/brooklyn-battery-tunnel-clock"
+  },
+  {
+   "name": "ny.gov",
+   "url": "https://data.ny.gov/Transportation/MTA-Permanent-Art-Catalog-Beginning-1980/4y8j-9pkd/about_data"
+  },
+  {
+   "name": "mta.info",
+   "url": "https://www.mta.info/agency/arts-design/collection/stationary-figures"
+  },
+  {
+   "name": "new.mta.info",
+   "url": "https://new.mta.info/agency/arts-design/collection/q-is-for-queens"
+  },
+  {
+   "name": "mta.info",
+   "url": "https://www.mta.info/agency/arts-design/collection/life-underground"
+  },
+  {
+   "name": "mta.info",
+   "url": "https://www.mta.info/agency/arts-design/collection/clark-street-passage"
+  },
+  {
+   "name": "mta.info",
+   "url": "https://www.mta.info/agency/arts-design/collection/times-square-mural"
+  },
+  {
+   "name": "mta.info",
+   "url": "https://www.mta.info/agency/arts-design/collection/il7-square"
+  },
+  {
+   "name": "stephanie-dang.com",
+   "url": "https://www.stephanie-dang.com/"
+  },
+  {
+   "name": "stephanie-dang.com",
+   "url": "https://www.stephanie-dang.com/work/artofftherails"
+  },
+  {
+   "name": "mta.info",
+   "url": "https://www.mta.info/article/celebrating-2024-mta-open-data-challenge"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-07-16",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-07-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mta.info",
+  "host": "mta.info"
+ }
+}

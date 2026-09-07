@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-09-11-3",
+ "title": "London bike infrastructure",
+ "hook": "Transport for London has launched its Cycling Infrastructure Database, which “contains the location of more than 240,000 pieces of cycling infrastructure in London, including places to park and the location of cycle lanes.” The new information can be found among the agency’s broader collection of cycling data; look for the “CyclingInfrastructure” folder.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "tfl-newsroom.prgloo.com",
+   "url": "https://tfl-newsroom.prgloo.com/news/tfl-press-release-worlds-largest-cycling-database-set-to-make-cycling-in-the-capital-easier"
+  },
+  {
+   "name": "cycling.data.tfl.gov.uk",
+   "url": "https://cycling.data.tfl.gov.uk/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-11",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tfl-newsroom.prgloo.com",
+  "host": "tfl-newsroom.prgloo.com"
+ }
+}

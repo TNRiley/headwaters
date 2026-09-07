@@ -1,0 +1,40 @@
+{
+ "id": "dip-2017-08-30-5",
+ "title": "Game of Thrones characters, judged",
+ "hook": "Earlier this month, The New York Times asked readers to rate 50 of the show’s most recognizable characters along two dimensions: good ↔ evil, and ugly ↔ beautiful. They’ve received 190,000+ submissions. The results are accessible as two JSON files: one for the averages and another for the distributions.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "int.nyt.com",
+   "url": "https://int.nyt.com/newsgraphics/2017/2017-07-17-got-matrix/mean.json"
+  },
+  {
+   "name": "int.nyt.com",
+   "url": "https://int.nyt.com/newsgraphics/2017/2017-07-17-got-matrix/contours.json"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2017/08/09/upshot/game-of-thrones-chart.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-30",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "int.nyt.com",
+  "host": "int.nyt.com"
+ }
+}

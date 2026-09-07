@@ -1,0 +1,33 @@
+{
+ "id": "dip-2017-08-30-3",
+ "title": "Home price indices",
+ "hook": "The Federal Reserve Bank of St. Louis publishes S&amp;P/Case-Shiller Home Price Index data, which measures changes in average home prices over time. The monthly-updated datasets — copyrighted, but free to download — are available at a national and metro-area level, and go back several decades.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fred.stlouisfed.org",
+   "url": "https://fred.stlouisfed.org/release?rid=199"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-30",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fred.stlouisfed.org",
+  "host": "fred.stlouisfed.org"
+ }
+}

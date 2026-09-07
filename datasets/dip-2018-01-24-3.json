@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-01-24-3",
+ "title": "How long does it take to get to the nearest city?",
+ "hook": "A team led by researchers at the University of Oxford’s Malaria Atlas Project have estimated the time it would take (as of 2015) to get from any square kilometer in the world to the nearest city of 50,000+ people.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "map.ox.ac.uk",
+   "url": "https://map.ox.ac.uk/research-project/accessibility_to_cities/"
+  },
+  {
+   "name": "forobs.jrc.ec.europa.eu",
+   "url": "http://forobs.jrc.ec.europa.eu/products/gam/index.php"
+  },
+  {
+   "name": "roadlessforest.eu",
+   "url": "https://roadlessforest.eu/map.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-24",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "map.ox.ac.uk",
+  "host": "map.ox.ac.uk"
+ }
+}

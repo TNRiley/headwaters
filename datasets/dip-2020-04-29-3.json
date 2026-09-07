@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-04-29-3",
+ "title": "Mobility indicators",
+ "hook": "Tech companies have repurposed some of the data they collect from you into explorable, downloadable datasets that estimate the degree to which movement patterns have (or haven’t) changed in recent months.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "apple.com",
+   "url": "https://www.apple.com/covid19/mobility"
+  },
+  {
+   "name": "google.com",
+   "url": "https://www.google.com/covid19/mobility/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/descarteslabs/DL-COVID-19"
+  },
+  {
+   "name": "kieranhealy.org",
+   "url": "https://kieranhealy.org/about/"
+  },
+  {
+   "name": "kieranhealy.org",
+   "url": "https://kieranhealy.org/blog/archives/2020/04/23/apples-covid-mobility-data/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-29",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "apple.com",
+  "host": "apple.com"
+ }
+}

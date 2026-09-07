@@ -1,0 +1,47 @@
+{
+ "id": "dip-2025-05-14-5",
+ "title": "What the nose knows",
+ "hook": "Antonie Louise Bierling et al. have published a dataset of “descriptions, evaluative ratings, and qualitative labels for 74 chemically diverse mono-molecular odors, rated by a large sample of young adults.” Another paper by Bierling et al.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-025-04644-2"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/records/14727277"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-025-04630-8"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/rpzjk/"
+  },
+  {
+   "name": "pyrfume.org",
+   "url": "https://pyrfume.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-05-14",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-05-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

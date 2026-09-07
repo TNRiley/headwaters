@@ -1,0 +1,39 @@
+{
+ "id": "dip-2019-08-14-3",
+ "title": "Black tech conferences",
+ "hook": "ThePLUG, a news site that reports on the black innovation economy, has been collecting data on conferences for black tech professionals. The dataset currently contains 33 events in more than a dozen cities, and lists their costs, year started, contact information, sponsors, and more. [h/t Sherrell Dorsey]",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "tpinsights.com",
+   "url": "https://tpinsights.com/"
+  },
+  {
+   "name": "tpinsights.com",
+   "url": "https://tpinsights.com/2018/09/28/black-tech-conferences-offer-a-lifeline-in-a-predominantly-white-industry/"
+  },
+  {
+   "name": "airtable.com",
+   "url": "https://airtable.com/shr5YDyyXCC2HQF6E"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-14",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tpinsights.com",
+  "host": "tpinsights.com"
+ }
+}

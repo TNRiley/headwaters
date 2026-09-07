@@ -1,0 +1,45 @@
+{
+ "id": "dip-2024-05-22-2",
+ "title": "Amazon purchases",
+ "hook": "The MIT Media Lab’s Alex Berke et al. have compiled “a first-of-its-kind dataset containing detailed purchase histories from 5027 U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/MIT_Media_Lab"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-024-03329-6"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2404.13172"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YGLYDY"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-22",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-04-04-4",
+ "title": "Russian presidential voting",
+ "hook": "Software engineer Michael Penkov has scraped the official, polling station–level results for Russia’s recent presidential election, and made the data available as a single JSON file.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "michael.penkov.id.au",
+   "url": "http://michael.penkov.id.au/about/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/mpenkov/prezident2018"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/mpenkov/prezident2018/blob/master/scrapyproject/results.json.gz"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/mpenkov/prezident2018/blob/master/Introduction.ipynb"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-04",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "michael.penkov.id.au",
+  "host": "michael.penkov.id.au"
+ }
+}

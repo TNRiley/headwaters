@@ -1,0 +1,41 @@
+{
+ "id": "dip-2015-12-16-3",
+ "title": "College coaching salaries",
+ "hook": "Last week, USA Today released its annual accounting of assistant — yes, assistant — college football coaches’ salaries. At $1.6 million per annum, Auburn’s Will Muschamp leads the pack. More than 371 assistants have salaries of $250,000+. The release complements the publication’s database of head-coaching salaries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "sports.usatoday.com",
+   "url": "http://sports.usatoday.com/ncaa/salaries/football/assistant"
+  },
+  {
+   "name": "sports.usatoday.com",
+   "url": "http://sports.usatoday.com/ncaa/salaries/football/coach"
+  },
+  {
+   "name": "deadspin.com",
+   "url": "http://deadspin.com/infographic-is-your-states-highest-paid-employee-a-co-489635228"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-16",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sports.usatoday.com",
+  "host": "sports.usatoday.com"
+ }
+}

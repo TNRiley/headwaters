@@ -1,0 +1,73 @@
+{
+ "id": "dip-2018-01-10-1",
+ "title": "Offshore drilling",
+ "hook": "The Bureau of Ocean Energy Management and the Bureau of Safety and Environmental Enforcement — two of the agencies that replaced the troubled U.S. Minerals Management Service in the wake of the Deepwater Horizon spill — publish a few dozen bulk datasets related to their oversight of offshore drilling operations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "boem.gov",
+   "url": "https://www.boem.gov/"
+  },
+  {
+   "name": "bsee.gov",
+   "url": "https://www.bsee.gov/"
+  },
+  {
+   "name": "data.bsee.gov",
+   "url": "https://www.data.bsee.gov/Main/RawData.aspx"
+  },
+  {
+   "name": "data.bsee.gov",
+   "url": "https://www.data.bsee.gov/Leasing/LeaseOwner/Default.aspx"
+  },
+  {
+   "name": "data.bsee.gov",
+   "url": "https://www.data.bsee.gov/Production/ProductionData/Default.aspx"
+  },
+  {
+   "name": "data.bsee.gov",
+   "url": "https://www.data.bsee.gov/Company/CompanyDetail/Default.aspx"
+  },
+  {
+   "name": "data.bsee.gov",
+   "url": "https://www.data.bsee.gov/Pipeline/PipelinePermits/Default.aspx"
+  },
+  {
+   "name": "data.bsee.gov",
+   "url": "https://www.data.bsee.gov/Pipeline/PipelineLocation/Default.aspx"
+  },
+  {
+   "name": "data.bsee.gov",
+   "url": "https://www.data.bsee.gov/Other/DataTables/IncidentInvestigations.aspx"
+  },
+  {
+   "name": "data.bsee.gov",
+   "url": "https://www.data.bsee.gov/Platform/PlatformStructures/Default.aspx"
+  },
+  {
+   "name": "investigations.debtwire.com",
+   "url": "http://investigations.debtwire.com/american-idle-decommissioning-costs-sink-offshore-drillers-into-latest-crisis/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-10",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "boem.gov",
+  "host": "boem.gov"
+ }
+}

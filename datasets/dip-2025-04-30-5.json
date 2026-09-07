@@ -1,0 +1,53 @@
+{
+ "id": "dip-2025-04-30-5",
+ "title": "Canoe marathons",
+ "hook": "Paddle UK’s Marathon Racing Committee promotes endurance canoe and kayak competitions that range “from a couple of miles or kilometres to the ultimate challenge of the 125-mile Devizes to Westminster Canoe Race.” The organization publishes race results online, which data scientist Andrew Collier has collected into…",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "paddleuk.org.uk",
+   "url": "https://paddleuk.org.uk/"
+  },
+  {
+   "name": "canoemarathon.org.uk",
+   "url": "https://canoemarathon.org.uk/governance/marathon-racing-committee/"
+  },
+  {
+   "name": "canoemarathon.org.uk",
+   "url": "https://canoemarathon.org.uk/what-is-canoe-marathon/"
+  },
+  {
+   "name": "entries.canoemarathon.org.uk",
+   "url": "https://entries.canoemarathon.org.uk/results"
+  },
+  {
+   "name": "datawookie.dev",
+   "url": "https://datawookie.dev/"
+  },
+  {
+   "name": "datawookie.gitlab.io",
+   "url": "https://datawookie.gitlab.io/british-canoeing-results/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-04-30",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-04-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "paddleuk.org.uk",
+  "host": "paddleuk.org.uk"
+ }
+}

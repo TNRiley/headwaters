@@ -1,0 +1,63 @@
+{
+ "id": "dip-2021-06-02-1",
+ "title": "Lynching victims",
+ "hook": "In the 1880s–1910s, the Chicago Tribune, Tuskegee University, and the NAACP each began collecting data on lynchings in the US. In the 1990s, sociologists Stewart Tolnay and E.M.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "soc.washington.edu",
+   "url": "https://soc.washington.edu/people/stewart-tolnay"
+  },
+  {
+   "name": "sociology.uga.edu",
+   "url": "https://sociology.uga.edu/directory/people/e-m-beck"
+  },
+  {
+   "name": "people.uncw.edu",
+   "url": "http://people.uncw.edu/hinese/HAL/HAL%20Web%20Page.htm"
+  },
+  {
+   "name": "lynching.csde.washington.edu",
+   "url": "http://lynching.csde.washington.edu/#/about"
+  },
+  {
+   "name": "charlieseguin.com",
+   "url": "http://www.charlieseguin.com/"
+  },
+  {
+   "name": "rigby.netlify.app",
+   "url": "https://rigby.netlify.app/"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/kr8yc/"
+  },
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/full/10.1177/2378023119841780"
+  },
+  {
+   "name": "davidrigbysociology.com",
+   "url": "http://davidrigbysociology.com/lynching_dot_map"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-02",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "soc.washington.edu",
+  "host": "soc.washington.edu"
+ }
+}

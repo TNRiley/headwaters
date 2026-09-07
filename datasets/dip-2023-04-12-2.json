@@ -1,0 +1,73 @@
+{
+ "id": "dip-2023-04-12-2",
+ "title": "Sanctions enforcement",
+ "hook": "Political scientists Bryan R. Early and Keith A. Preble have assembled a dataset of the US Office of Foreign Assets Control’s sanctions-related penalties, settlements, and findings of violation since 2003. To do so, they combed through the agency’s mostly-PDF-based archive of these enforcement actions.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/site/bryanrearly/home"
+  },
+  {
+   "name": "poliscikeith.com",
+   "url": "https://poliscikeith.com/"
+  },
+  {
+   "name": "tandfonline.com",
+   "url": "https://www.tandfonline.com/doi/full/10.1080/09636412.2020.1722850"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TIFRTT"
+  },
+  {
+   "name": "ofac.treasury.gov",
+   "url": "https://ofac.treasury.gov/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/file.xhtml?fileId=6988628&version=5.1"
+  },
+  {
+   "name": "ofac.treasury.gov",
+   "url": "https://ofac.treasury.gov/civil-penalties-and-enforcement-information"
+  },
+  {
+   "name": "ofac.treasury.gov",
+   "url": "https://ofac.treasury.gov/other-ofac-sanctions-lists"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-02-21-edition/"
+  },
+  {
+   "name": "opensanctions.org",
+   "url": "https://opensanctions.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-09-08-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-12",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sites.google.com",
+  "host": "sites.google.com"
+ }
+}

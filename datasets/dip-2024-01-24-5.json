@@ -1,0 +1,43 @@
+{
+ "id": "dip-2024-01-24-5",
+ "title": "Human heights",
+ "hook": "Economic historians Jörg Baten and Matthias Blum have assembled a dataset on average male heights by decade and country. The estimates, derived from hundreds of scholarly and statistical sources, stretch back several centuries and span 140+ countries.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "other",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "uni-tuebingen.de",
+   "url": "https://uni-tuebingen.de/en/fakultaeten/wirtschafts-und-sozialwissenschaftliche-fakultaet/faecher/fachbereich-wirtschaftswissenschaft/wirtschaftswissenschaft/lehrstuehle/economics/economic-history/chair/prof-dr-joerg-baten/"
+  },
+  {
+   "name": "qub.ac.uk",
+   "url": "https://www.qub.ac.uk/schools/queens-business-school/people/academic-staff/AllAcademicStaffProfiles/Blum.html"
+  },
+  {
+   "name": "clio-infra.eu",
+   "url": "https://clio-infra.eu/Indicators/Height.html"
+  },
+  {
+   "name": "uni-tuebingen.de",
+   "url": "https://uni-tuebingen.de/en/fakultaeten/wirtschafts-und-sozialwissenschaftliche-fakultaet/faecher/fachbereich-wirtschaftswissenschaft/wirtschaftswissenschaft/lehrstuehle/volkswirtschaftslehre/wirtschaftsgeschichte/forschung/data-hub-height/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-01-24",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-01-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "uni-tuebingen.de",
+  "host": "uni-tuebingen.de"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-12-15-5",
+ "title": "1 million Bandcamp sales",
+ "hook": "Components’ Andrew Thompson has published a dataset of 1,000,000 sales on the music platform Bandcamp during a few weeks in late 2020. For each sale, it includes the item’s description, price, and type; the buyer’s country; a timestamp; and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "components.one",
+   "url": "https://components.one/"
+  },
+  {
+   "name": "components.one",
+   "url": "https://components.one/datasets/bandcamp-sales"
+  },
+  {
+   "name": "bandcamp.com",
+   "url": "https://bandcamp.com/"
+  },
+  {
+   "name": "components.one",
+   "url": "https://components.one/posts/bandcamp-the-chaos-bazaar"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-15",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "components.one",
+  "host": "components.one"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-08-11-3",
+ "title": "Targeted mass killings",
+ "hook": "The Atrocity Forecasting Project has constructed (and recently updated) a dataset of targeted mass killings, which it defines as “the direct killing of noncombatant members of a group by an organized armed force or collective with the intent of destroying the group, or intimidating the group by creating a perception…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "politicsir.cass.anu.edu.au",
+   "url": "https://politicsir.cass.anu.edu.au/research/projects/atrocity-forecasting"
+  },
+  {
+   "name": "politicsir.cass.anu.edu.au",
+   "url": "https://politicsir.cass.anu.edu.au/about-targeted-mass-killing-dataset"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-11",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "politicsir.cass.anu.edu.au",
+  "host": "politicsir.cass.anu.edu.au"
+ }
+}

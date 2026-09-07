@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-01-20-2",
+ "title": "The transatlantic slave trade",
+ "hook": "Slate Magazine’s “The Atlantic Slave Trade in Two Minutes” — recently named a multimedia finalist for the American Society of Magazine Editors’ annual awards — tracks 20,528 transatlantic voyages over 315 years.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "slate.com",
+   "url": "http://www.slate.com/articles/life/the_history_of_american_slavery/2015/06/animated_interactive_of_the_history_of_the_atlantic_slave_trade.html"
+  },
+  {
+   "name": "slavevoyages.org",
+   "url": "http://slavevoyages.org/"
+  },
+  {
+   "name": "slavevoyages.org",
+   "url": "http://slavevoyages.org/voyage/search"
+  },
+  {
+   "name": "slavevoyages.org",
+   "url": "http://slavevoyages.org/voyage/download"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-20",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "slate.com",
+  "host": "slate.com"
+ }
+}

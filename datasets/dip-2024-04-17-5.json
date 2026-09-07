@@ -1,0 +1,41 @@
+{
+ "id": "dip-2024-04-17-5",
+ "title": "Aerial obstacles",
+ "hook": "The Federal Aviation Administration’s Obstacles Team “investigates and evaluates existing obstacles that may be hazardous to safe flight navigation,” such as tall buildings, windmills, water tanks, utility poles, amusement parks, monuments, blimps, and other structures.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/air_traffic/flight_info/aeronav/obst_data/"
+  },
+  {
+   "name": "clui.org",
+   "url": "https://clui.org/projects/lighter-air-exploring-landscape-helium/tethered-aerostats-usa/cudjoe-key-tars"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/air_traffic/flight_info/aeronav/digital_products/DailyDOF/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-17",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "faa.gov",
+  "host": "faa.gov"
+ }
+}

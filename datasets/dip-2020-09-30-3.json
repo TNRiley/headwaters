@@ -1,0 +1,43 @@
+{
+ "id": "dip-2020-09-30-3",
+ "title": "Wind",
+ "hook": "The Global Wind Atlas aims “to help policymakers, planners, and investors identify high-wind areas for wind power generation virtually anywhere in the world.” The internationally-funded project provides a range of global and country-specific datasets, including wind speeds at various heights, as well as a description of its methodology and an FAQ.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "globalwindatlas.info",
+   "url": "https://globalwindatlas.info/"
+  },
+  {
+   "name": "globalwindatlas.info",
+   "url": "https://globalwindatlas.info/downloads/gis-files"
+  },
+  {
+   "name": "globalwindatlas.info",
+   "url": "https://globalwindatlas.info/about/method"
+  },
+  {
+   "name": "globalwindatlas.info",
+   "url": "https://globalwindatlas.info/about/faq"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-09-30",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-09-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "globalwindatlas.info",
+  "host": "globalwindatlas.info"
+ }
+}

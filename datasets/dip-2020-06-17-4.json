@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-06-17-4",
+ "title": "Sentences for measuring bias",
+ "hook": "StereoSet aims to measure biases toward stereotypes — as they relate to profession, gender, race, and religion — in statistical language models, using a dataset containing thousands of sentences, each with several variations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "stereoset.mit.edu",
+   "url": "https://stereoset.mit.edu/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/moinnadeem/StereoSet"
+  },
+  {
+   "name": "stereoset.mit.edu",
+   "url": "https://stereoset.mit.edu/explore/dev/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-06-17",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-06-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "stereoset.mit.edu",
+  "host": "stereoset.mit.edu"
+ }
+}

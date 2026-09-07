@@ -1,0 +1,53 @@
+{
+ "id": "dip-2016-05-18-5",
+ "title": "Musical metadata",
+ "hook": "The MusicBrainz database contains metadata on more than one million artists, 16 million recordings, 900,000 pieces of cover art. You can download the data in bulk or query it via an API. Previously: The smaller-but-more-detailed Million Song Dataset, featured Feb. 10. [h/t Geoff Boeing]",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "musicbrainz.org",
+   "url": "https://musicbrainz.org/"
+  },
+  {
+   "name": "musicbrainz.org",
+   "url": "https://musicbrainz.org/statistics"
+  },
+  {
+   "name": "musicbrainz.org",
+   "url": "https://musicbrainz.org/doc/MusicBrainz_Database/Download"
+  },
+  {
+   "name": "musicbrainz.org",
+   "url": "http://musicbrainz.org/doc/Development/XML_Web_Service/Version_2"
+  },
+  {
+   "name": "labrosa.ee.columbia.edu",
+   "url": "http://labrosa.ee.columbia.edu/millionsong/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-02-10-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-18",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "musicbrainz.org",
+  "host": "musicbrainz.org"
+ }
+}

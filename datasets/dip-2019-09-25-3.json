@@ -1,0 +1,39 @@
+{
+ "id": "dip-2019-09-25-3",
+ "title": "Colonies",
+ "hook": "Political science professor Jack Paine has compiled a dataset of 144 territories colonized by Britain, France, Portugal, Spain, the Netherlands, Belgium, Italy, the United States, Australia, South Africa, and New Zealand during the 16th through 20th centuries.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "jackpaine.com",
+   "url": "http://www.jackpaine.com/"
+  },
+  {
+   "name": "cambridge.org",
+   "url": "https://www.cambridge.org/core/journals/world-politics/article/democratic-contradictions-in-european-settler-colonies/5B39382138A2D57175F6BE2A2ABF1CB4"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LU8IDT"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-25",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "jackpaine.com",
+  "host": "jackpaine.com"
+ }
+}

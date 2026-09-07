@@ -1,0 +1,53 @@
+{
+ "id": "dip-2023-12-20-1",
+ "title": "Dengue",
+ "hook": "OpenDengue, a new project based at the London School of Hygiene & Tropical Medicine, “aims to build and maintain a database of dengue case counts for every dengue-affected country worldwide since 1990 or earlier.” (According to a 2013 study cited by the WHO, the virus causes an estimated 96 million symptomatic…",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "opendengue.org",
+   "url": "https://opendengue.org/"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/nature12060"
+  },
+  {
+   "name": "who.int",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+  },
+  {
+   "name": "opendengue.org",
+   "url": "https://opendengue.org/overview.html"
+  },
+  {
+   "name": "opendengue.org",
+   "url": "https://opendengue.org/contribute.html"
+  },
+  {
+   "name": "opendengue.org",
+   "url": "https://opendengue.org/data.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-12-20",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-12-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opendengue.org",
+  "host": "opendengue.org"
+ }
+}

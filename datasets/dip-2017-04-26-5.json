@@ -1,0 +1,35 @@
+{
+ "id": "dip-2017-04-26-5",
+ "title": "This must be the r/place",
+ "hook": "For April Fools, Reddit launched a million-pixel canvas called “r/place.” Users could place a single-pixel tile, in one of 16 colors, anywhere on the canvas — but only every five minutes.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/place/"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/redditdata/comments/6640ru/place_datasets_april_fools_2017/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-26",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "reddit.com",
+  "host": "reddit.com"
+ }
+}

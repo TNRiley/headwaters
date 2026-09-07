@@ -1,0 +1,65 @@
+{
+ "id": "dip-2024-02-28-1",
+ "title": "Climate funding",
+ "hook": "To develop its “Global Landscape of Climate Finance 2023” report, the Climate Policy Initiative gathered data on grants, loans, equity and other types of “primary financing in real economy sectors that reduce greenhouse gas emissions and build climate resilience.” The report, published in November, identified ~$1.3 trillion in such financing globally in 2021–2022.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "climatepolicyinitiative.org",
+   "url": "https://www.climatepolicyinitiative.org/publication/global-landscape-of-climate-finance-2023/"
+  },
+  {
+   "name": "climatepolicyinitiative.org",
+   "url": "https://www.climatepolicyinitiative.org/"
+  },
+  {
+   "name": "climatepolicyinitiative.org",
+   "url": "https://www.climatepolicyinitiative.org/resources/publications/"
+  },
+  {
+   "name": "climatepolicyinitiative.org",
+   "url": "https://www.climatepolicyinitiative.org/publication/global-landscape-of-climate-finance-a-decade-of-data/"
+  },
+  {
+   "name": "climatepolicyinitiative.org",
+   "url": "https://www.climatepolicyinitiative.org/publication/updated-view-on-the-global-landscape-of-climate-finance-2019/"
+  },
+  {
+   "name": "tandfonline.com",
+   "url": "https://www.tandfonline.com/doi/full/10.1080/14693062.2022.2027223"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-02-09-edition/"
+  },
+  {
+   "name": "purl.stanford.edu",
+   "url": "https://purl.stanford.edu/dx902xg3463"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2023-06-14-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-28",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "climatepolicyinitiative.org",
+  "host": "climatepolicyinitiative.org"
+ }
+}

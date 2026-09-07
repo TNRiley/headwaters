@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-07-15-4",
+ "title": "Case citations",
+ "hook": "The Caselaw Access Project (DIP 2018.11.07) has begun publishing a citation graph, a dataset listing the previous cases that each court decision cites. The latest release covers 43 million citations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "case.law",
+   "url": "https://case.law/about/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-11-07-edition"
+  },
+  {
+   "name": "case.law",
+   "url": "https://case.law/download/citation_graph/"
+  },
+  {
+   "name": "case.law",
+   "url": "https://case.law/download/citation_graph/2020-05-08/"
+  },
+  {
+   "name": "case.law",
+   "url": "https://case.law/exhibits/cite-grid"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "case.law",
+  "host": "case.law"
+ }
+}

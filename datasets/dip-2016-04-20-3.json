@@ -1,0 +1,49 @@
+{
+ "id": "dip-2016-04-20-3",
+ "title": "Cricket",
+ "hook": "Baseball season is in full-swing, basketball and hockey playoffs have begun, and the NFL draft is nigh. No better time to highlight some cricket data! Cricsheet.org has gathered ball-by-ball data on more than 2,700 matches played since the mid-2000s. Looking for historical data?",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cricsheet.org",
+   "url": "http://cricsheet.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/dwillis/toss-up"
+  },
+  {
+   "name": "espncricinfo.com",
+   "url": "http://www.espncricinfo.com/matches/engine/match/535000.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/dwillis/python-espncricinfo"
+  },
+  {
+   "name": "espncricinfo.com",
+   "url": "http://www.espncricinfo.com/blogs/content/story/997931.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-20",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cricsheet.org",
+  "host": "cricsheet.org"
+ }
+}

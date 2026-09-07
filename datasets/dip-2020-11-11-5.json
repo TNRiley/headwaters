@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-11-11-5",
+ "title": "The opera",
+ "hook": "Operabase has gathered information about more than 500,000 opera performances staged since 1996. The website doesn’t provide direct downloads but you can access a dataset on six full seasons of stagings, covering thousands of runs in hundreds of cities, thanks to a “data donation” to support Alexander N.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "operabase.com",
+   "url": "https://www.operabase.com/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/8LUFN8"
+  },
+  {
+   "name": "ideas.repec.org",
+   "url": "https://ideas.repec.org/e/pcu83.html"
+  },
+  {
+   "name": "wipo.int",
+   "url": "https://www.wipo.int/publications/en/details.jsp?id=4521"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-11-11",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-11-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "operabase.com",
+  "host": "operabase.com"
+ }
+}

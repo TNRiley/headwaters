@@ -1,0 +1,62 @@
+{
+ "id": "dip-2022-01-05-1",
+ "title": "Civil asset forfeiture",
+ "hook": "“Most states and the federal government have laws allowing police and prosecutors to seize and permanently keep Americans’ cash, cars, homes and other property suspected of being involved in a crime — without regard to the owners’ guilt or innocence,” the nonprofit law firm Institute for Justice writes in its third edition of Policing for Profit, published in 2020.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ij.org",
+   "url": "https://ij.org/about-us/"
+  },
+  {
+   "name": "ij.org",
+   "url": "https://ij.org/report/policing-for-profit-3/"
+  },
+  {
+   "name": "ij.org",
+   "url": "https://ij.org/report/policing-for-profit-3/policing-for-profit-data/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Civil_forfeiture_in_the_United_States"
+  },
+  {
+   "name": "justice.gov",
+   "url": "https://www.justice.gov/jmd/major-information-systems-consolidated-asset-tracking-system"
+  },
+  {
+   "name": "justice.gov",
+   "url": "https://www.justice.gov/afp/freedom-information-act"
+  },
+  {
+   "name": "thewhyaxis.substack.com",
+   "url": "https://thewhyaxis.substack.com/p/cops-still-take-more-stuff-from-people"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/sf/investigative/2014/09/06/stop-and-seize/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-05",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ij.org",
+  "host": "ij.org"
+ }
+}

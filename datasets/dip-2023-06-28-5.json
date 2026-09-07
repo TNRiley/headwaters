@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-06-28-5",
+ "title": "Swedish air traffic control",
+ "hook": "Jens Nilsson and Jonas Unger’s Swedish Civil Air Traffic Control dataset contains 13 non-contiguous weeks of “flight plans, clearances from air traffic control, surveillance data and trajectory prediction data,” corresponding to 167,000+ scheduled commercial flights in 2017.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "liu.se",
+   "url": "https://liu.se/en/employee/jenni29"
+  },
+  {
+   "name": "liu.se",
+   "url": "https://liu.se/en/employee/jonun48"
+  },
+  {
+   "name": "mendeley.com",
+   "url": "https://data.mendeley.com/datasets/8yn985bwz5/1"
+  },
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340923003591"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-06-28",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-06-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "liu.se",
+  "host": "liu.se"
+ }
+}

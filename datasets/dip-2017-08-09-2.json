@@ -1,0 +1,38 @@
+{
+ "id": "dip-2017-08-09-2",
+ "title": "Interstate commodity flows",
+ "hook": "The federally funded Freight Analysis Framework “integrates data from a variety of sources to create a comprehensive picture of freight movement among states and major metropolitan areas by all modes of transportation.” For each year between 2012 and 2015, the database “provides estimates for tonnage (in thousand…",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "faf.ornl.gov",
+   "url": "http://faf.ornl.gov/fafweb/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "axios.com",
+   "url": "https://www.axios.com/the-flow-of-goods-2463665414.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-09",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "faf.ornl.gov",
+  "host": "faf.ornl.gov"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "dip-2018-10-31-4",
+ "title": "Coal cleanup funds",
+ "hook": "What happens when coal mines shut down? Money for their cleanup is supposed to be ensured by a system of bonds.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "climatechangenews.com",
+   "url": "http://www.climatechangenews.com/2018/03/15/investigated-coal-industrys-clean-funds/"
+  },
+  {
+   "name": "climatechangenews.com",
+   "url": "http://www.climatechangenews.com/2018/03/14/us-coal-hasnt-set-aside-enough-money-clean-mines/"
+  },
+  {
+   "name": "climatechangenews.com",
+   "url": "http://www.climatechangenews.com/2018/03/15/us-coal-mines-clean-up-bonds-database/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-10-31",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-10-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "climatechangenews.com",
+  "host": "climatechangenews.com"
+ }
+}

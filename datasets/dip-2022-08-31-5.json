@@ -1,0 +1,61 @@
+{
+ "id": "dip-2022-08-31-5",
+ "title": "Fern phylogenetics",
+ "hook": "Joel H. Nitta et al.’s Fern Tree of Life uses “a mostly automated, reproducible, open pipeline” to convert fern DNA sequences from the National Institutes of Health’s GenBank into an interactive, browsable, and downloadable evolutionary tree.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "biorxiv.org",
+   "url": "https://www.biorxiv.org/content/10.1101/2022.03.31.486640v3.full"
+  },
+  {
+   "name": "fernphy.github.io",
+   "url": "https://fernphy.github.io/"
+  },
+  {
+   "name": "ncbi.nlm.nih.gov",
+   "url": "https://www.ncbi.nlm.nih.gov/genbank/"
+  },
+  {
+   "name": "fernphy.github.io",
+   "url": "https://fernphy.github.io/viewer.html"
+  },
+  {
+   "name": "fernphy.shinyapps.io",
+   "url": "https://fernphy.shinyapps.io/ftol_explorer/"
+  },
+  {
+   "name": "fernphy.github.io",
+   "url": "https://fernphy.github.io/downloads.html"
+  },
+  {
+   "name": "inaturalist.org",
+   "url": "https://www.inaturalist.org/taxa/1405236-Abacopteris-aspera"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Zealandia_vieillardii"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-31",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "biorxiv.org",
+  "host": "biorxiv.org"
+ }
+}

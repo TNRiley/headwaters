@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-09-21-2",
+ "title": "Biodiversity trends",
+ "hook": "Maria Dornelas et al.’s BioTIME project has collected and standardized data from hundreds of studies examining ecological communities over time. You can browse and search the studies by year, taxa, species, and biome.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1111/geb.12729"
+  },
+  {
+   "name": "biotime.st-andrews.ac.uk",
+   "url": "https://biotime.st-andrews.ac.uk/"
+  },
+  {
+   "name": "biotime.st-andrews.ac.uk",
+   "url": "https://biotime.st-andrews.ac.uk/download.php"
+  },
+  {
+   "name": "biotime.st-andrews.ac.uk",
+   "url": "https://biotime.st-andrews.ac.uk/downloadFull.php"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/preprints/socarxiv/qy76a/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-21",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Gentry et al.",
+  "host": "onlinelibrary.wiley.com"
+ }
+}

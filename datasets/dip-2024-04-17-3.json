@@ -1,0 +1,61 @@
+{
+ "id": "dip-2024-04-17-3",
+ "title": "Earthquakes felt",
+ "hook": "The US Geological Survey’s Did You Feel It? initiative allows members of the public to report their ground-shaking experiences.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "earthquake.usgs.gov",
+   "url": "https://earthquake.usgs.gov/data/dyfi/"
+  },
+  {
+   "name": "earthquake.usgs.gov",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tellus"
+  },
+  {
+   "name": "earthquake.usgs.gov",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ma74/executive"
+  },
+  {
+   "name": "youtube.com",
+   "url": "https://www.youtube.com/watch?v=ixkww7puZ_I"
+  },
+  {
+   "name": "earthquake.usgs.gov",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ma74/dyfi/intensity"
+  },
+  {
+   "name": "earthquake.usgs.gov",
+   "url": "https://earthquake.usgs.gov/data/dyfi/background.php"
+  },
+  {
+   "name": "usgs.maps.arcgis.com",
+   "url": "https://usgs.maps.arcgis.com/apps/webappviewer/index.html?id=9310990e7ce84e3b8567109616b0944d"
+  },
+  {
+   "name": "earthquake.usgs.gov",
+   "url": "https://earthquake.usgs.gov/earthquakes/map/?extent=-88.15623,-155.39063&extent=88.14489,515.39063&range=search&timeZone=utc&search=%7B%22name%22:%22Search%20Results%22,%22params%22:%7B%22starttime%22:%222024-01-01%2000:00:00%22,%22endtime%22:%222024-12-31%2023:59:59%22,%22minfelt%22:1000,%22orderby%22:%22time%22%7D%7D"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-17",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "earthquake.usgs.gov",
+  "host": "earthquake.usgs.gov"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "id": "dip-2015-11-18-3",
+ "title": "America’s exonerees",
+ "hook": "The National Registry of Exonerations contains “every known exoneration in the United States since 1989—cases in which a person was wrongly convicted of a crime and later cleared of all the charges based on new evidence of innocence.” For each of the 1,702 cases, the registry includes details about the exoneree, the crime, and the factors — such as new DNA evidence — that contributed to the exoneration.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "law.umich.edu",
+   "url": "http://www.law.umich.edu/special/exoneration/Pages/about.aspx"
+  },
+  {
+   "name": "law.umich.edu",
+   "url": "http://www.law.umich.edu/special/exoneration/Pages/detaillist.aspx"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-18",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "law.umich.edu",
+  "host": "law.umich.edu"
+ }
+}

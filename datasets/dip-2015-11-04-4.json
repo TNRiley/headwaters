@@ -1,0 +1,49 @@
+{
+ "id": "dip-2015-11-04-4",
+ "title": "One thousand ways to say “dog",
+ "hook": "Trans-New Guinea is the world’s third-largest language family. But it’s also among the poorest-studied. TransNewGuinea.org, an online database launched in 2013, is trying to change that.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "transnewguinea.org",
+   "url": "http://transnewguinea.org/"
+  },
+  {
+   "name": "transnewguinea.org",
+   "url": "http://transnewguinea.org/language/"
+  },
+  {
+   "name": "transnewguinea.org",
+   "url": "http://transnewguinea.org/word/dog"
+  },
+  {
+   "name": "transnewguinea.org",
+   "url": "http://transnewguinea.org/api/v1/?format=json"
+  },
+  {
+   "name": "journals.plos.org",
+   "url": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0141563"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-04",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "transnewguinea.org",
+  "host": "transnewguinea.org"
+ }
+}

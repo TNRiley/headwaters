@@ -1,0 +1,53 @@
+{
+ "id": "dip-2016-03-02-1",
+ "title": "American infrastructure",
+ "hook": "Last week, the Department of Homeland Security published more than 250 infrastructure-related datasets, which had previously been marked as \"For Official Use Only.\" The release covers a wide range of topics, including datasets on educational facilities, hurricane evacuation routes, poultry slaughterhouses, and sports venues.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "hifld-dhs-gii.opendata.arcgis.com",
+   "url": "https://hifld-dhs-gii.opendata.arcgis.com"
+  },
+  {
+   "name": "blogs.esri.com",
+   "url": "https://blogs.esri.com/esri/esri-insider/2016/02/24/open-data-for-economic-resiliency/"
+  },
+  {
+   "name": "hifld-dhs-gii.opendata.arcgis.com",
+   "url": "https://hifld-dhs-gii.opendata.arcgis.com/datasets?group_id=1b542a2d4fda47aea7e52cbc4fe9fd65"
+  },
+  {
+   "name": "hifld-dhs-gii.opendata.arcgis.com",
+   "url": "https://hifld-dhs-gii.opendata.arcgis.com/datasets/0eab4e109ce2412882db595aa4555759_0"
+  },
+  {
+   "name": "hifld-dhs-gii.opendata.arcgis.com",
+   "url": "https://hifld-dhs-gii.opendata.arcgis.com/datasets/b6b9cc72fb58476d92056d5c7ed25f8b_0"
+  },
+  {
+   "name": "hifld-dhs-gii.opendata.arcgis.com",
+   "url": "https://hifld-dhs-gii.opendata.arcgis.com/datasets/85d3d0fc64924edbbd7c62e319d8a791_0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-02",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "hifld-dhs-gii.opendata.arcgis.com",
+  "host": "hifld-dhs-gii.opendata.arcgis.com"
+ }
+}

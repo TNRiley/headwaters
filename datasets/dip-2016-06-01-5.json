@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-06-01-5",
+ "title": "The LEGO-verse",
+ "hook": "BrickLink is a website for buying and selling LEGOs. It also happens to publish a (nearly?) complete inventory of every LEGO set and piece produced since 1949. Related: LEGO sets have become increasingly violent, according to a recent study. [h/t Lindsey Cook]",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "bricklink.com",
+   "url": "https://www.bricklink.com"
+  },
+  {
+   "name": "bricklink.com",
+   "url": "https://www.bricklink.com/catalogDownload.asp"
+  },
+  {
+   "name": "bartneck.de",
+   "url": "http://www.bartneck.de/publications/2016/legoViolence/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-01",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bricklink.com",
+  "host": "bricklink.com"
+ }
+}

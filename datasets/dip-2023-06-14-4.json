@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-06-14-4",
+ "title": "Ad-targeting labels",
+ "hook": "The Markup has obtained, analyzed, and published a spreadsheet of 650,000+ ad-targetable “audience segments” (described by labels such as “Depression Propensity - Reach Tier 2”) and their data suppliers.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "themarkup.org",
+   "url": "https://themarkup.org/"
+  },
+  {
+   "name": "themarkup.org",
+   "url": "https://themarkup.org/privacy/2023/06/08/from-heavy-purchasers-of-pregnancy-tests-to-the-depression-prone-we-found-650000-ways-advertisers-label-you"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-markup/xandr-audience-segments"
+  },
+  {
+   "name": "wolfie.crackedlabs.org",
+   "url": "https://wolfie.crackedlabs.org/en"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-06-14",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-06-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "themarkup.org",
+  "host": "themarkup.org"
+ }
+}

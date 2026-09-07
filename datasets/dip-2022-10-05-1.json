@@ -1,0 +1,65 @@
+{
+ "id": "dip-2022-10-05-1",
+ "title": "Grid emissions",
+ "hook": "Ember, an “energy think tank that uses data-driven insights to shift the world from coal to clean electricity,” has begun compiling annual and monthly statistics on electricity demand, generation, and estimated greenhouse gas emissions by country, standardized from national and international sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "ember-climate.org",
+   "url": "https://ember-climate.org/"
+  },
+  {
+   "name": "ember-climate.org",
+   "url": "https://ember-climate.org/data-catalogue/yearly-electricity-data/"
+  },
+  {
+   "name": "ember-climate.org",
+   "url": "https://ember-climate.org/data-catalogue/monthly-electricity-data/"
+  },
+  {
+   "name": "ember-climate.org",
+   "url": "https://ember-climate.org/data/data-explorer/"
+  },
+  {
+   "name": "singularity.energy",
+   "url": "https://singularity.energy/"
+  },
+  {
+   "name": "singularity.energy",
+   "url": "https://singularity.energy/open-grid-emissions"
+  },
+  {
+   "name": "medium.com",
+   "url": "https://medium.com/singularity-energy/validating-real-time-electricity-emissions-rates-with-an-hourly-historical-benchmark-a9990a2c9049"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=27152"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/collections/energy"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-05",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ember-climate.org",
+  "host": "ember-climate.org"
+ }
+}

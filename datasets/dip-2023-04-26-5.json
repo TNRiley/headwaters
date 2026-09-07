@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-04-26-5",
+ "title": "The Morrow Plots",
+ "hook": "The University of Illinois’ Morrow Plots, established in 1876, “are the oldest experimental crop field in America and the second oldest in the world.” An interdisciplinary team has compiled, cleaned, and standardized the experiment’s archival records (such as this notebook).",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "aces.illinois.edu",
+   "url": "https://aces.illinois.edu/research/history/morrow-plots"
+  },
+  {
+   "name": "aces.illinois.edu",
+   "url": "https://aces.illinois.edu/news/oldest-us-agricultural-plots-go-digital-130-years-data-now-online"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/SandiCal/morrow-plots-public"
+  },
+  {
+   "name": "digital.library.illinois.edu",
+   "url": "https://digital.library.illinois.edu/collections/259e2e70-3ed0-0138-717e-02d0d7bfd6e4-3"
+  },
+  {
+   "name": "databank.illinois.edu",
+   "url": "https://databank.illinois.edu/datasets/IDB-7865141"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-26",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aces.illinois.edu",
+  "host": "aces.illinois.edu"
+ }
+}

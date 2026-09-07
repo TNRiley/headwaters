@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-12-01-3",
+ "title": "Banking-crisis interventions",
+ "hook": "Economists Andrew Metrick and Paul Schmelzing have compiled a database of 800+ banking crises spanning the years 1257 to 2019, plus 1,800+ government attempts to mitigate them. For each crisis, the database provides the starting year, relevant country or region, a brief description, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "faculty.som.yale.edu",
+   "url": "https://faculty.som.yale.edu/andrewmetrick/"
+  },
+  {
+   "name": "pfschmelzing.me",
+   "url": "https://www.pfschmelzing.me/"
+  },
+  {
+   "name": "som.yale.edu",
+   "url": "https://som.yale.edu/faculty-research-centers/centers-initiatives/program-on-financial-stability/metrick-schmelzing-paper-and-database"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-01",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "faculty.som.yale.edu",
+  "host": "faculty.som.yale.edu"
+ }
+}

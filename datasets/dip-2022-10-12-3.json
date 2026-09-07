@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-10-12-3",
+ "title": "Rebel leaders",
+ "hook": "Benjamin Acosta et al.’s Rebel Organization Leaders Database “provides a wide range of biographical information on all top rebel, insurgent, and terrorist leaders who were active in civil wars between 1980 and 2011.” It includes each leader’s name, gender, education, religion, languages spoken, number of children, years in role, country fought against, cause of death, and much more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "rebelleaders.org",
+   "url": "https://www.rebelleaders.org/publications-research"
+  },
+  {
+   "name": "rebelleaders.org",
+   "url": "https://www.rebelleaders.org/"
+  },
+  {
+   "name": "rebelleaders.org",
+   "url": "https://www.rebelleaders.org/download"
+  },
+  {
+   "name": "rebelleaders.org",
+   "url": "https://www.rebelleaders.org/leader-profile-examples"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-12",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rebelleaders.org",
+  "host": "rebelleaders.org"
+ }
+}

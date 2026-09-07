@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-07-27-5",
+ "title": "Bigfoot sightings",
+ "hook": "The Bigfoot Field Researchers Organization dubs itself “the only scientific research organization exploring the bigfoot/sasquatch mystery.” The BFRO collects and vets sighting reports, and publishes them online.",
+ "hook_source": "publisher",
+ "subjects": [
+  "oddities & curiosities"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "bfro.net",
+   "url": "http://www.bfro.net/"
+  },
+  {
+   "name": "bfro.net",
+   "url": "http://www.bfro.net/news/google_earth.asp"
+  },
+  {
+   "name": "bfro.net",
+   "url": "http://www.bfro.net/app/AllReportsKMZ.aspx"
+  },
+  {
+   "name": "joshuastevens.net",
+   "url": "http://www.joshuastevens.net/visualization/squatch-watch-92-years-of-bigfoot-sightings-in-us-and-canada/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-27",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bfro.net",
+  "host": "bfro.net"
+ }
+}

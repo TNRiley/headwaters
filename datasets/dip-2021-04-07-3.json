@@ -1,0 +1,47 @@
+{
+ "id": "dip-2021-04-07-3",
+ "title": "Working hours",
+ "hook": "For an article initially published in 2013 and since updated, Our World in Data has examined historical trends in the number of hours that people work.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "intergovernmental",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "ourworldindata.org",
+   "url": "https://ourworldindata.org/working-hours"
+  },
+  {
+   "name": "personal.lse.ac.uk",
+   "url": "https://personal.lse.ac.uk/minns/Huberman_Minns_EEH_2007.pdf"
+  },
+  {
+   "name": "rug.nl",
+   "url": "https://www.rug.nl/ggdc/productivity/pwt/"
+  },
+  {
+   "name": "conference-board.org",
+   "url": "https://conference-board.org/data/economydatabase"
+  },
+  {
+   "name": "stats.oecd.org",
+   "url": "https://stats.oecd.org/Index.aspx?DataSetCode=ANHRS"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-07",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Our World in Data",
+  "host": "ourworldindata.org"
+ }
+}

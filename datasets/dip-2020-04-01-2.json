@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-04-01-2",
+ "title": "Official coronavirus interventions, continued",
+ "hook": "The Oxford COVID-19 Government Response Tracker “aims to track and compare government responses to the coronavirus outbreak worldwide rigorously and consistently.” The project posts daily information concerning 11 kinds of responses, ranging from travel bans to investment in vaccines, and is based on data “collected…",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "bsg.ox.ac.uk",
+   "url": "https://www.bsg.ox.ac.uk/research/research-projects/oxford-covid-19-government-response-tracker"
+  },
+  {
+   "name": "en.unesco.org",
+   "url": "https://en.unesco.org/covid19/educationresponse"
+  },
+  {
+   "name": "kff.org",
+   "url": "https://www.kff.org/health-costs/issue-brief/state-data-and-policy-actions-to-address-coronavirus/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-01",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bsg.ox.ac.uk",
+  "host": "bsg.ox.ac.uk"
+ }
+}

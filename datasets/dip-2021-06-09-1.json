@@ -1,0 +1,44 @@
+{
+ "id": "dip-2021-06-09-1",
+ "title": "US vaccinations over time",
+ "hook": "The CDC has begun publishing daily-historical data on vaccination progress in the US, going back to mid-December 2020.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdc.gov",
+   "url": "https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-County/8xkx-amqh"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://data.cdc.gov/Vaccinations/COVID-19-Vaccination-Demographics-in-the-United-St/km4m-vcsb"
+  },
+  {
+   "name": "peteraldhous.com",
+   "url": "https://www.peteraldhous.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/peteraldhous/covid-vaccine-tracker"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-09",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

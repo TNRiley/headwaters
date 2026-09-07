@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-06-12-2",
+ "title": "ICE solitary confinement",
+ "hook": "The International Consortium of Investigative Journalists and partners have obtained records that detail 8,000+ instances, between 2012 and 2017, in which U.S. Immigration and Customs Enforcement detention centers placed detainees in solitary confinement.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "icij.org",
+   "url": "https://www.icij.org/investigations/solitary-voices/about-the-solitary-voices-investigation/"
+  },
+  {
+   "name": "icij.org",
+   "url": "https://www.icij.org/investigations/solitary-voices/thousands-of-immigrants-suffer-in-us-solitary-confinement/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-12",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "icij.org",
+  "host": "icij.org"
+ }
+}

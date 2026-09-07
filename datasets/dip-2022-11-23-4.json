@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-11-23-4",
+ "title": "Semiconductor logistics",
+ "hook": "The Emerging Technology Observatory, a new initiative based at Georgetown University, aims to provide a “public platform for high-quality, actionable data resources on the global emerging technology landscape.” Their Advanced Semiconductor Supply Chain Dataset, which you can download and explore online, contains…",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "eto.tech",
+   "url": "https://eto.tech/"
+  },
+  {
+   "name": "eto.tech",
+   "url": "https://eto.tech/blog/introducing-emerging-technology-observatory/"
+  },
+  {
+   "name": "eto.tech",
+   "url": "https://eto.tech/dataset-docs/chipexplorer/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/georgetown-cset/eto-supply-chain/tree/main/data"
+  },
+  {
+   "name": "chipexplorer.eto.tech",
+   "url": "https://chipexplorer.eto.tech/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-23",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "eto.tech",
+  "host": "eto.tech"
+ }
+}

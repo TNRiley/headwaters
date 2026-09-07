@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-07-13-4",
+ "title": "Workplace safety",
+ "hook": "The U.S. Occupational Safety and Health Administration (OSHA) conducted 86,000 workplace inspections last year. The agency makes its inspection results — including investigations of fatal accidents and severe injuries — available in bulk and via an API.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ogesdw.dol.gov",
+   "url": "http://ogesdw.dol.gov/views/data_summary.php"
+  },
+  {
+   "name": "developer.dol.gov",
+   "url": "http://developer.dol.gov/health-and-safety/dol-osha-enforcement"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-13",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ogesdw.dol.gov",
+  "host": "ogesdw.dol.gov"
+ }
+}

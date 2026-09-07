@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-03-10-4",
+ "title": "Parliamentary election designs",
+ "hook": "The Electoral System Design Database describes the way in which lower-house parliamentarians are chosen, covering 1,300+ such elections in 217 countries and territories since 1991.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "idea.int",
+   "url": "https://www.idea.int/data-tools/data/electoral-system-design"
+  },
+  {
+   "name": "idea.int",
+   "url": "https://www.idea.int/publications/catalogue/electoral-system-design-database-codebook?lang=en"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-10",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "idea.int",
+  "host": "idea.int"
+ }
+}

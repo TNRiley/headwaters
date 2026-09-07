@@ -1,0 +1,33 @@
+{
+ "id": "dip-2020-04-15-3",
+ "title": "Privacy policies",
+ "hook": "Researchers at Imperial College London and Oxford have compiled a dataset of more than 4,000 privacy policies published on major US companies’ websites.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/ansgarw/privacy"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

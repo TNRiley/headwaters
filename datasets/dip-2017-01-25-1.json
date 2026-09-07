@@ -1,0 +1,46 @@
+{
+ "id": "dip-2017-01-25-1",
+ "title": "Colleges and economic mobility",
+ "hook": "A team of economists studying “the equality of opportunity” has published new research identifying which colleges “help the most children climb the income ladder.” For their analysis, the researchers combined federal tax records and data from the Department of Education.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "equality-of-opportunity.org",
+   "url": "http://www.equality-of-opportunity.org/team/"
+  },
+  {
+   "name": "equality-of-opportunity.org",
+   "url": "http://www.equality-of-opportunity.org/college/"
+  },
+  {
+   "name": "equality-of-opportunity.org",
+   "url": "http://www.equality-of-opportunity.org/data/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2017/01/18/upshot/some-colleges-have-more-students-from-the-top-1-percent-than-the-bottom-60.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-01-25",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-01-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "equality-of-opportunity.org",
+  "host": "equality-of-opportunity.org"
+ }
+}

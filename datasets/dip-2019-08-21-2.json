@@ -1,0 +1,43 @@
+{
+ "id": "dip-2019-08-21-2",
+ "title": "Historical terrorist groups",
+ "hook": "Joshua Tschantret, a political science Ph.D. candidate at the University of Iowa, has compiled a dataset of 260+ terrorist groups formed between 1860 and 1969.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "jtschantret.com",
+   "url": "https://jtschantret.com/"
+  },
+  {
+   "name": "jtschantret.com",
+   "url": "https://jtschantret.com/data/"
+  },
+  {
+   "name": "jtschantret.files.wordpress.com",
+   "url": "https://jtschantret.files.wordpress.com/2019/08/the-old-terrorism-a-dataset-1860-1969.pdf"
+  },
+  {
+   "name": "jtschantret.files.wordpress.com",
+   "url": "https://jtschantret.files.wordpress.com/2019/08/online-appendix.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-21",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "jtschantret.com",
+  "host": "jtschantret.com"
+ }
+}

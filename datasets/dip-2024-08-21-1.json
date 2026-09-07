@@ -1,0 +1,38 @@
+{
+ "id": "dip-2024-08-21-1",
+ "title": "H-1B lotteries",
+ "hook": "A recent Bloomberg News investigation into the US government’s annual H-1B lottery, a key step in allocating the country’s skilled-worker visas, finds that “thousands of companies got an unfair advantage by helping themselves to extra lottery tickets.” To reach those conclusions, the team “obtained data on all H-1B…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/BloombergGraphics/2024-h1b-immigration-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "bloomberg.com",
+   "url": "https://www.bloomberg.com/graphics/2024-staffing-firms-game-h1b-visa-lottery-system/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-08-21",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-08-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

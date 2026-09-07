@@ -1,0 +1,37 @@
+{
+ "id": "dip-2023-01-25-3",
+ "title": "Overdose-related “Good Samaritan” laws",
+ "hook": "Shane W. Reader et al. have compiled data on US state laws that “prevent or mitigate criminal consequences for activities pertaining to controlled substances for persons who call 911 to report a drug overdose.” Their dataset spans April 2007 to June 2022 and covers all 50 states, plus DC.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0955395922003127"
+  },
+  {
+   "name": "mendeley.com",
+   "url": "https://data.mendeley.com/datasets/r65b6hrdhm/2"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-25",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

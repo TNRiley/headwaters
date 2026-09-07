@@ -1,0 +1,61 @@
+{
+ "id": "dip-2021-12-22-3",
+ "title": "COVID-19 in European prisons",
+ "hook": "A collaboration coordinated by Deutsche Welle and the European Data Journalism Network has gathered data on the pandemic’s impact on prisoners and prison staff in dozens of European countries, including the number of COVID-19 tests, cases, and deaths over time.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "journalism",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "dw.com",
+   "url": "https://www.dw.com/en/data/t-43091100"
+  },
+  {
+   "name": "europeandatajournalism.eu",
+   "url": "https://www.europeandatajournalism.eu/eng/News/Data-news/How-Europe-s-prisons-have-fared-in-the-Covid-19-pandemic"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/dw-data/covid-prisons"
+  },
+  {
+   "name": "dw.com",
+   "url": "https://www.dw.com/en/covid-how-europes-prisons-have-fared-in-the-pandemic/a-60006262"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/themarshallproject/COVID_prison_data"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-05-06-edition/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/nytimes/covid-19-data/tree/master/prisons"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-04-21-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-22",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dw.com",
+  "host": "dw.com"
+ }
+}

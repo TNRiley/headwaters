@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-11-10-2",
+ "title": "Campsite reservations",
+ "hook": "The US government’s Recreation Information Database “represents an authoritative source of information and services for millions of visitors to federal lands, historic sites, museums, and other attractions/resources.” It provides bulk data and an API describing recreational areas, campgrounds, campsites, permit entrances, scheduled tours, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ridb.recreation.gov",
+   "url": "https://ridb.recreation.gov/"
+  },
+  {
+   "name": "ridb.recreation.gov",
+   "url": "https://ridb.recreation.gov/download"
+  },
+  {
+   "name": "ridb.recreation.gov",
+   "url": "https://ridb.recreation.gov/docs"
+  },
+  {
+   "name": "westernpriorities.org",
+   "url": "https://westernpriorities.org/the-camping-crunch/"
+  },
+  {
+   "name": "westernpriorities.org",
+   "url": "https://westernpriorities.org/the-camping-crunch-data-and-methodology/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-11-10",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-11-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ridb.recreation.gov",
+  "host": "ridb.recreation.gov"
+ }
+}

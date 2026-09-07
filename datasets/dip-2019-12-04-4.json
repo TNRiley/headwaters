@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-12-04-4",
+ "title": "Science PhD candidates",
+ "hook": "Last month, Nature released findings and response data from its fifth survey of science graduate students. The questionnaire covered demographics, motivations, ambitions, satisfaction, mental health, and other topics. More than 6,000 students participated, including 1,000+ each living in Europe, the Americas, and Asia.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/d41586-019-03459-7"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/s/74a5ea79d76ad66a8af8"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/d41586-019-03489-1"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-04",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

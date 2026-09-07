@@ -1,0 +1,42 @@
+{
+ "id": "dip-2017-12-13-5",
+ "title": "Secure seeds",
+ "hook": "In far northern Norway, the Svalbard Global Seed Vault safekeeps hundreds of millions of seeds, helping to back up the world’s biodiversity. Data on the vault’s deposits, which often contain hundreds of seeds apiece, are available to search and to download. [h/t Enigma Public]",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "seedvault.no",
+   "url": "http://www.seedvault.no/"
+  },
+  {
+   "name": "nordgen.org",
+   "url": "https://www.nordgen.org/sgsv/index.php"
+  }
+ ],
+ "articles": [
+  {
+   "name": "economist.com",
+   "url": "http://www.economist.com/node/21549931"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-12-13",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-12-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "seedvault.no",
+  "host": "seedvault.no"
+ }
+}

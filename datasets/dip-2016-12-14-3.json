@@ -1,0 +1,48 @@
+{
+ "id": "dip-2016-12-14-3",
+ "title": "Water world",
+ "hook": "The European Commission and Google engineers have mapped surface water – including lakes, rivers, reservoirs, oceans, and more – on every 30-meter-by-30-meter square on Earth between 1984 and 2015.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "http://www.nature.com/nature/journal/vaop/ncurrent/full/nature20584.html"
+  },
+  {
+   "name": "landsat.usgs.gov",
+   "url": "https://landsat.usgs.gov/"
+  },
+  {
+   "name": "global-surface-water.appspot.com",
+   "url": "https://global-surface-water.appspot.com/download"
+  },
+  {
+   "name": "global-surface-water.appspot.com",
+   "url": "https://global-surface-water.appspot.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "http://www.nytimes.com/interactive/2016/12/09/science/mapping-three-decades-of-global-water-change.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-12-14",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-12-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-02-10-4",
+ "title": "More political ads",
+ "hook": "The Internet Archive’s Political TV Ad Archive uses audio fingerprinting to identify the campaign ads playing in key primary states. You can search the database, watch the ads, and download the data. The data file contains information about each ad’s sponsor, pro/con-ness, TV network, and time of airing.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "politicaladarchive.org",
+   "url": "http://politicaladarchive.org/"
+  },
+  {
+   "name": "politicaladarchive.org",
+   "url": "http://politicaladarchive.org/data/"
+  },
+  {
+   "name": "politicaladsleuth.com",
+   "url": "http://politicaladsleuth.com/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "http://tinyletter.com/data-is-plural/letters/data-is-plural-2016-01-20-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-10",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "politicaladarchive.org",
+  "host": "politicaladarchive.org"
+ }
+}

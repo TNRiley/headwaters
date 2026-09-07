@@ -1,0 +1,77 @@
+{
+ "id": "dip-2018-09-26-2",
+ "title": "Local lobbying",
+ "hook": "Some cities — including San Francisco, Los Angeles, and Austin — provide downloadable databases of lobbyists who’ve officially registered to influence their administrations. Chicago has gone one step further, publishing data on lobbyists’ compensation, expenditures, gifts, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "sfethics.org",
+   "url": "https://sfethics.org/disclosures/lobbyist-disclosure"
+  },
+  {
+   "name": "lacity.org",
+   "url": "https://data.lacity.org/A-Well-Run-City/Registered-City-Lobbyists/j4zm-9kqu"
+  },
+  {
+   "name": "austintexas.gov",
+   "url": "https://data.austintexas.gov/City-Government/Lobbyists-Master-List-of-Lobbyists-Oracle-View-/96z6-upac"
+  },
+  {
+   "name": "digital.cityofchicago.org",
+   "url": "https://digital.cityofchicago.org/index.php/improved-lobbyist-data/"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Ethics/Lobbyist-Data-Compensation/dw2f-w78u"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Ethics/Lobbyist-Data-Expenditures-Large/xika-473c"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Ethics/Lobbyist-Data-Gifts/5d79-9xqr"
+  },
+  {
+   "name": "disclosures.house.gov",
+   "url": "http://disclosures.house.gov/ld/ldsearch.aspx"
+  },
+  {
+   "name": "senate.gov",
+   "url": "https://www.senate.gov/legislative/Public_Disclosure/LDA_reports.htm"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "http://ec.europa.eu/transparencyregister/public/homePage.do?redir=false&locale=en"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-05-31-edition"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-08-02-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-09-26",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-09-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sfethics.org",
+  "host": "sfethics.org"
+ }
+}

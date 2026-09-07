@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-08-10-1",
+ "title": "Young adult migration",
+ "hook": "Researchers at Harvard University and the Census Bureau have linked federal tax filings, Census records, and other government data to track the migration patterns of young US residents.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "migrationpatterns.org",
+   "url": "https://migrationpatterns.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-01-19-edition/"
+  },
+  {
+   "name": "source.opennews.org",
+   "url": "https://source.opennews.org/articles/story-recipe-census-migration-data-young-adults/"
+  },
+  {
+   "name": "bjones.net",
+   "url": "https://bjones.net/"
+  },
+  {
+   "name": "ericdschmid.com",
+   "url": "https://www.ericdschmid.com/"
+  },
+  {
+   "name": "news.stlpublicradio.org",
+   "url": "https://news.stlpublicradio.org/economy-business/2022-07-25/new-census-bureau-study-confirms-what-we-already-knew-st-louisans-dont-move-away"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-10",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "migrationpatterns.org",
+  "host": "migrationpatterns.org"
+ }
+}

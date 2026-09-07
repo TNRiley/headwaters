@@ -1,0 +1,97 @@
+{
+ "id": "dip-2023-11-22-2",
+ "title": "Strategic ecology",
+ "hook": "The National Ecological Observatory Network operates 81 study sites across the US, strategically selected to represent a diversity of “vegetation, landforms, and ecosystem dynamics.” Examples include Caribou Creek in Alaska, Lyndon B. Johnson National Grassland in Texas, and Guanica Forest in Puerto Rico.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "neonscience.org",
+   "url": "https://www.neonscience.org/"
+  },
+  {
+   "name": "neonscience.org",
+   "url": "https://www.neonscience.org/field-sites/explore-field-sites"
+  },
+  {
+   "name": "neonscience.org",
+   "url": "https://www.neonscience.org/field-sites/about-field-sites"
+  },
+  {
+   "name": "neonscience.org",
+   "url": "https://www.neonscience.org/field-sites/cari"
+  },
+  {
+   "name": "neonscience.org",
+   "url": "https://www.neonscience.org/field-sites/clbj"
+  },
+  {
+   "name": "neonscience.org",
+   "url": "https://www.neonscience.org/field-sites/guan"
+  },
+  {
+   "name": "neonscience.org",
+   "url": "https://www.neonscience.org/data"
+  },
+  {
+   "name": "neonscience.org",
+   "url": "https://data.neonscience.org/data-products/explore"
+  },
+  {
+   "name": "neonscience.org",
+   "url": "https://data.neonscience.org/data-api/"
+  },
+  {
+   "name": "neonscience.org",
+   "url": "https://data.neonscience.org/data-products/DP3.30024.001"
+  },
+  {
+   "name": "neonscience.org",
+   "url": "https://data.neonscience.org/data-products/DP1.10010.001"
+  },
+  {
+   "name": "neonscience.org",
+   "url": "https://data.neonscience.org/data-products/DP1.10081.001"
+  },
+  {
+   "name": "neonscience.org",
+   "url": "https://data.neonscience.org/data-products/DP1.20105.001"
+  },
+  {
+   "name": "biorxiv.org",
+   "url": "https://www.biorxiv.org/content/10.1101/2023.10.25.563626v1"
+  },
+  {
+   "name": "jabberwocky.weecology.org",
+   "url": "https://jabberwocky.weecology.org/2023/11/13/data-on-100-million-individual-trees-in-the-national-ecological-observatory-network/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/weecology/DeepTreeAttention/tree/species_release"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/records/10067302"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-22",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "neonscience.org",
+  "host": "neonscience.org"
+ }
+}

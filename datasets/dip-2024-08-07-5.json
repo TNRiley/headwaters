@@ -1,0 +1,41 @@
+{
+ "id": "dip-2024-08-07-5",
+ "title": "Art auction sales",
+ "hook": "Kangsan Lee et al. have compiled a dataset of “34,200 auction sales records, including images, artists’ attributes, and market information, encompassing 590 living contemporary artists spanning 17 years (1996 to 2012) across 23 countries.” It includes the artist’s name, nationality, and birth year; the artwork’s name, year, medium, and dimensions; the auction date, house, initial estimates, and final sale price; and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41598-024-60957-z"
+  },
+  {
+   "name": "springernature.figshare.com",
+   "url": "https://springernature.figshare.com/articles/dataset/Buying_a_Work_of_Art_or_an_Artist_Exploring_the_Impact_of_Visual_and_Social_Features_on_Art_Prices/24746268"
+  },
+  {
+   "name": "blouinartsalesindex.com",
+   "url": "https://www.blouinartsalesindex.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-08-07",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-08-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

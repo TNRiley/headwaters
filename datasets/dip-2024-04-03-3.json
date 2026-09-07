@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-04-03-3",
+ "title": "Candid animals",
+ "hook": "The Labeled Information Library of Alexandria data repository is “intended as a resource for both machine learning (ML) researchers and those that want to harness ML for biology and conservation.” Its datasets include millions of images, mostly captured by motion-triggered cameras.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "lila.science",
+   "url": "https://lila.science/"
+  },
+  {
+   "name": "lila.science",
+   "url": "https://lila.science/datasets"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Camera_trap"
+  },
+  {
+   "name": "lila.science",
+   "url": "https://lila.science/datasets/nacti"
+  },
+  {
+   "name": "besjournals.onlinelibrary.wiley.com",
+   "url": "https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13120"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-03",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lila.science",
+  "host": "lila.science"
+ }
+}

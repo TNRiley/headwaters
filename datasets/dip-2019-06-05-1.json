@@ -1,0 +1,51 @@
+{
+ "id": "dip-2019-06-05-1",
+ "title": "Freedom lawsuits in early America",
+ "hook": "O Say Can You See, a project partially funded by the National Endowment of the Humanities, “documents the challenge to slavery and the quest for freedom in early Washington, D.C., by collecting, digitizing, making accessible, and analyzing freedom suits filed between 1800 and 1862, as well as tracing the…",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "earlywashingtondc.org",
+   "url": "http://earlywashingtondc.org/"
+  },
+  {
+   "name": "earlywashingtondc.org",
+   "url": "http://earlywashingtondc.org/about/data"
+  },
+  {
+   "name": "earlywashingtondc.org",
+   "url": "http://earlywashingtondc.org/about"
+  },
+  {
+   "name": "earlywashingtondc.org",
+   "url": "http://earlywashingtondc.org/cases"
+  },
+  {
+   "name": "earlywashingtondc.org",
+   "url": "http://earlywashingtondc.org/people"
+  },
+  {
+   "name": "earlywashingtondc.org",
+   "url": "http://earlywashingtondc.org/families"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-05",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "earlywashingtondc.org",
+  "host": "earlywashingtondc.org"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2015-11-25-4",
+ "title": "The most popular government web pages",
+ "hook": "The U.S. government has one very large Google Analytics account, and has begun sharing traffic data with the public. Not every federal website is accounted for, but more than 4,000 are. Over the past 90 days, they’ve racked up approximately 1.5 billion visits. The most popular page at the time of this writing?",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "analytics.usa.gov",
+   "url": "https://analytics.usa.gov/"
+  },
+  {
+   "name": "weather.gov",
+   "url": "http://www.weather.gov/"
+  },
+  {
+   "name": "18f.gsa.gov",
+   "url": "https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-25",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "analytics.usa.gov",
+  "host": "analytics.usa.gov"
+ }
+}

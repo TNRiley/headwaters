@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-03-22-1",
+ "title": "Real-time air quality",
+ "hook": "The team at Berkeley Earth has released the data files behind their real-time global air quality map. The map and data track measurements of pollution particles smaller than 2.5 microns in diameter.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "berkeleyearth.org",
+   "url": "http://berkeleyearth.org/about/"
+  },
+  {
+   "name": "berkeleyearth.org",
+   "url": "http://berkeleyearth.org/air-quality-real-time-maps-data-download/"
+  },
+  {
+   "name": "berkeleyearth.org",
+   "url": "http://berkeleyearth.org/air-quality-real-time-map/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-06-15-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-22",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "berkeleyearth.org",
+  "host": "berkeleyearth.org"
+ }
+}

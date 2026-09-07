@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-12-11-3",
+ "title": "Spelling fixes",
+ "hook": "The GitHub Typo Corpus contains structured data on misspellings, bad grammar, and the ways they've been corrected.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/mhagiwara/github-typo-corpus"
+  },
+  {
+   "name": "masatohagiwara.net",
+   "url": "http://masatohagiwara.net/"
+  },
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/view/masatomita/"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/1911.12893"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-11",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

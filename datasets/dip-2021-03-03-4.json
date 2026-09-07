@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-03-03-4",
+ "title": "Illegal cheetah commerce",
+ "hook": "A team of conservationists has compiled a decade of data on illegal cheetah sales and ownership, drawing from “over 300 sources, including direct communications with field informants, veterinarians, and cheetah owners,” court records, social media, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340921001323"
+  },
+  {
+   "name": "mendeley.com",
+   "url": "https://data.mendeley.com/datasets/84k92j4n3y"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-03",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

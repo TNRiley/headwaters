@@ -1,0 +1,65 @@
+{
+ "id": "dip-2021-07-14-4",
+ "title": "NBER working papers",
+ "hook": "Since 1973, the National Bureau of Economic Research’s 1,500+ affiliated researchers have published 29,000+ (pre-peer review) articles through the organization’s working papers series. It provides structured information about each paper, using a template from the RePEc project.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nber.org",
+   "url": "https://www.nber.org/"
+  },
+  {
+   "name": "nber.org",
+   "url": "https://www.nber.org/about-nber"
+  },
+  {
+   "name": "nber.org",
+   "url": "https://www.nber.org/papers"
+  },
+  {
+   "name": "www2.nber.org",
+   "url": "https://www2.nber.org/RePEc/nbr/nberwo/"
+  },
+  {
+   "name": "ideas.repec.org",
+   "url": "https://ideas.repec.org/t/papertemplate.html"
+  },
+  {
+   "name": "repec.org",
+   "url": "http://repec.org/"
+  },
+  {
+   "name": "bldavies.com",
+   "url": "https://bldavies.com/"
+  },
+  {
+   "name": "bldavies.com",
+   "url": "https://bldavies.com/blog/introducing-nberwp/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/bldavies/nberwp"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-07-14",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-07-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nber.org",
+  "host": "nber.org"
+ }
+}

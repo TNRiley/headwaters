@@ -1,0 +1,65 @@
+{
+ "id": "dip-2020-07-01-4",
+ "title": "Subway accessibility",
+ "hook": "To better understand accessibility issues in the NYC subway, the Two Sigma Data Clinic has constructed a series of datasets and diagrams describing each station’s elevator connections — from the street to the station, and between various points and platforms within it.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "medium.com",
+   "url": "https://medium.com/dataclinic/open-tools-to-analyze-accessibility-within-the-nyc-subway-system-383fb111b4ad"
+  },
+  {
+   "name": "dataclinic.twosigma.com",
+   "url": "https://dataclinic.twosigma.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/tsdataclinic/mta"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/tsdataclinic/mta/tree/master/data/processed/stationgraph"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/tsdataclinic/mta/tree/master/figures/elevator_maps"
+  },
+  {
+   "name": "advisory.mtanyct.info",
+   "url": "http://advisory.mtanyct.info/eedevwebsvc/allequipments.aspx"
+  },
+  {
+   "name": "web.mta.info",
+   "url": "http://web.mta.info/developers/turnstile.html"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Daily-Totals/5neh-572f"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-02-08-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-01",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "medium.com",
+  "host": "medium.com"
+ }
+}

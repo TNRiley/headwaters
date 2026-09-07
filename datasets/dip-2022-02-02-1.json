@@ -1,0 +1,54 @@
+{
+ "id": "dip-2022-02-02-1",
+ "title": "Abortion facility distances",
+ "hook": "Caitlin Knowles Myers, an economist with a focus on reproductive policy, has compiled a dataset that calculates — for every county in the contiguous US, every month between January 2009 and June 2021 — the distance you would have to travel to the nearest abortion facility.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cmyers.middcreate.net",
+   "url": "https://cmyers.middcreate.net/"
+  },
+  {
+   "name": "cmyers.middcreate.net",
+   "url": "https://cmyers.middcreate.net/scholarship/"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/8dg7r/"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/tj4ud/"
+  },
+  {
+   "name": "iza.org",
+   "url": "https://www.iza.org/publications/dp/14556"
+  }
+ ],
+ "articles": [
+  {
+   "name": "axios.com",
+   "url": "https://www.axios.com/distance-abortion-roe-supreme-court-texas-17ae0d8c-7882-408c-b6f9-bf6ece0f22a2.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-02-02",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-02-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cmyers.middcreate.net",
+  "host": "cmyers.middcreate.net"
+ }
+}

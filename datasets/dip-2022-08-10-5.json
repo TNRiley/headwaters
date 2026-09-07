@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-08-10-5",
+ "title": "Tea, Earl Grey, hot",
+ "hook": "Combing the full transcripts of Star Trek: The Next Generation, Benett Axtell and Cosmin Munteanu found more than 1,000 lines of dialogue between the show’s characters and the starship Enterprise’s computer.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "academic",
+ "geography": "Canada",
+ "sources": [
+  {
+   "name": "imdb.com",
+   "url": "https://www.imdb.com/title/tt0092455/"
+  },
+  {
+   "name": "cs.toronto.edu",
+   "url": "https://www.cs.toronto.edu/~baxtell/"
+  },
+  {
+   "name": "cs.utoronto.ca",
+   "url": "https://www.cs.utoronto.ca/~mcosmin/"
+  },
+  {
+   "name": "speechinteraction.org",
+   "url": "https://www.speechinteraction.org/TNG/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-10",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "IMDb",
+  "host": "imdb.com"
+ }
+}

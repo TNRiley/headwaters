@@ -1,0 +1,46 @@
+{
+ "id": "dip-2024-01-24-4",
+ "title": "Seine water quality",
+ "hook": "Ahead of the 2024 Summer Olympics, Paris has been trying to decontaminate the Seine river to swimmable levels. But the city’s efforts appear to be falling short, according to government water testing data obtained, published, and analyzed by Mathieu Lehot-Couette, a reporter at Franceinfo.fr.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "francetvinfo.fr",
+   "url": "https://www.francetvinfo.fr/les-jeux-olympiques/paris-2024/enquete-franceinfo-paris-2024-pollution-trop-elevee-normes-non-respectees-ce-que-revelent-les-analyses-de-la-qualite-de-l-eau-de-la-seine_6173826.html"
+  },
+  {
+   "name": "francetvinfo.fr",
+   "url": "https://www.francetvinfo.fr/les-jeux-olympiques/paris-2024-on-vous-explique-comment-franceinfo-a-analyse-les-donnees-sur-la-qualite-de-l-eau-de-la-seine_6252078.html"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Enterococcus"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/environment/2023/oct/08/can-paris-clean-seine-for-next-year-2024-olympics"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-01-24",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-01-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "francetvinfo.fr",
+  "host": "francetvinfo.fr"
+ }
+}

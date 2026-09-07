@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-12-23-4",
+ "title": "Permafrost",
+ "hook": "The European Space Agency has released new longitudinal data on the Northern Hemisphere’s permafrost — ground that remains 0°C/32°F or colder for at least two years.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "other",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "esa.int",
+   "url": "https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/Long-term_permafrost_record_details_Arctic_thaw"
+  },
+  {
+   "name": "catalogue.ceda.ac.uk",
+   "url": "https://catalogue.ceda.ac.uk/uuid/1f88068e86304b0fbd34456115b6606f"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-23",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "esa.int",
+  "host": "esa.int"
+ }
+}

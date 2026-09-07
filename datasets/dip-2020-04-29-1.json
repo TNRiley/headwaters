@@ -1,0 +1,39 @@
+{
+ "id": "dip-2020-04-29-1",
+ "title": "Six million parliamentary speeches",
+ "hook": "ParlSpeech V2 contains 6.3 million parliamentary speeches from nine countries: Austria, the Czech Republic, Germany, Denmark, the Netherlands, New Zealand, Spain, Sweden, and the United Kingdom.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/L4OAKN"
+  },
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/site/christianrauh/"
+  },
+  {
+   "name": "personal.lse.ac.uk",
+   "url": "http://personal.lse.ac.uk/hix/HixNouryRolandEPdata.HTM"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-29",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataverse.harvard.edu",
+  "host": "dataverse.harvard.edu"
+ }
+}

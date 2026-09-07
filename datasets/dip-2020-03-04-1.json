@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-03-04-1",
+ "title": "Climate policies",
+ "hook": "The Climate Policy Database, a project of the NewClimate Institute, has collected data on more than 3,800 regulations, subsidies, and other policies related to climate change mitigation.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "climatepolicydatabase.org",
+   "url": "http://climatepolicydatabase.org/"
+  },
+  {
+   "name": "newclimate.org",
+   "url": "https://newclimate.org/about-newclimate/"
+  },
+  {
+   "name": "climatepolicydatabase.org",
+   "url": "http://climatepolicydatabase.org/index.php/Download_policies"
+  },
+  {
+   "name": "climatepolicydatabase.org",
+   "url": "http://climatepolicydatabase.org/index.php/Special:BrowsePolicy"
+  },
+  {
+   "name": "climatepolicydatabase.org",
+   "url": "http://climatepolicydatabase.org/index.php?title=About_the_database"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-04",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "climatepolicydatabase.org",
+  "host": "climatepolicydatabase.org"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "id": "dip-2017-04-26-1",
+ "title": "National park visitors",
+ "hook": "The U.S. National Park Service publishes a ton of data about visitors to its parks, historic sites, memorials, preserves, and more. Among them: Visitors per park (annually since 1904, and monthly since 1979), overnight stays by type of lodging (tents, RVs, backcountry, etc.), and traffic.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "irma.nps.gov",
+   "url": "https://irma.nps.gov/Stats/Reports/National"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/the-national-parks-have-never-been-more-popular/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-26",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "NPSpecies",
+  "host": "irma.nps.gov"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "dip-2024-09-18-1",
+ "title": "Landslides",
+ "hook": "The US Geological Survey has released a new map of landslide susceptibility, indicating the specific areas of the country (at 90-meter resolution) that are at greatest risk of slides. The map and county-level metrics are also available as structured data. To calculate the susceptibilities, Benjamin B. Mirus et al.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/tools/us-landslide-inventory-and-susceptibility-map"
+  },
+  {
+   "name": "usgs.maps.arcgis.com",
+   "url": "https://usgs.maps.arcgis.com/apps/webappviewer/index.html?id=ae120962f459434b8c904b456c82669d"
+  },
+  {
+   "name": "sciencebase.gov",
+   "url": "https://www.sciencebase.gov/catalog/item/65ccea5bd34ef4b119cb3bac"
+  },
+  {
+   "name": "agupubs.onlinelibrary.wiley.com",
+   "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024AV001214"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/3d-elevation-program"
+  },
+  {
+   "name": "sciencebase.gov",
+   "url": "https://www.sciencebase.gov/catalog/item/61f326dfd34e622189b93308"
+  },
+  {
+   "name": "idahogeology.org",
+   "url": "https://www.idahogeology.org/product/DD-10"
+  },
+  {
+   "name": "maine.gov",
+   "url": "https://www.maine.gov/dacf/mgs/hazards/landslides/inland/index.shtml"
+  },
+  {
+   "name": "dmr.nd.gov",
+   "url": "https://www.dmr.nd.gov/ndgs/landslides/"
+  },
+  {
+   "name": "gsa.confex.com",
+   "url": "https://gsa.confex.com/gsa/2021AM/webprogram/Paper370833.html"
+  },
+  {
+   "name": "wvu.maps.arcgis.com",
+   "url": "https://wvu.maps.arcgis.com/apps/webappviewer/index.html?id=cb01c47cfa884309b4f38dcd7542f805"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-18",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usgs.gov",
+  "host": "usgs.gov"
+ }
+}

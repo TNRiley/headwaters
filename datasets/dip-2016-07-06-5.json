@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-07-06-5",
+ "title": "You shouldn’t point lasers at airplanes",
+ "hook": "And yet, people do... by the thousands. In 2005, the Federal Aviation Administration created a system for pilots to report “laser events,” which it says can temporarily blind crewmembers. The administration has published five years of data from the reporting system.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "faa.gov",
+   "url": "http://www.faa.gov/news/press_releases/news_story.cfm?newsId=12765"
+  },
+  {
+   "name": "faa.gov",
+   "url": "http://www.faa.gov/about/initiatives/lasers/laws/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-06",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "faa.gov",
+  "host": "faa.gov"
+ }
+}

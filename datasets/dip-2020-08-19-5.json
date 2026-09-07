@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-08-19-5",
+ "title": "Bees",
+ "hook": "The US Geological Survey’s Native Bee Inventory and Monitoring Lab keeps tabs on the country’s bee species, including through a dataset of more than 400,000 observations of “native and non-native bees, wasps and other insects.” (Free registration required.) Related: The lab also publishes “The Very Handy Manual: How to Catch and Identify Bees and Manage a Collection,” plus thousands of high-resolution photos.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/centers/pwrc/science/native-bee-inventory-and-monitoring-lab"
+  },
+  {
+   "name": "gbif.org",
+   "url": "https://www.gbif.org/dataset/f519367d-6b9d-411c-b319-99424741e7de"
+  },
+  {
+   "name": "prd-wret.s3-us-west-2.amazonaws.com",
+   "url": "https://prd-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/The%20Very%20Handy%20Manual%20-%202015.pdf"
+  },
+  {
+   "name": "flickr.com",
+   "url": "https://www.flickr.com/photos/usgsbiml"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-19",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usgs.gov",
+  "host": "usgs.gov"
+ }
+}

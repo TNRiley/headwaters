@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-06-08-1",
+ "title": "Six decades of House primaries",
+ "hook": "In 2014, Stephen Pettigrew, Karen Owen, and Emily Wanless published a dataset of all Democratic and Republican primary election results for the US House of Representatives between 1956 and 2010.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "stephenpettigrew.com",
+   "url": "https://www.stephenpettigrew.com/"
+  },
+  {
+   "name": "westga.edu",
+   "url": "https://www.westga.edu/profile.php?emp_id=91943"
+  },
+  {
+   "name": "augie.edu",
+   "url": "https://www.augie.edu/academics/majors-and-programs/government-and-international-affairs/political-science/faculty"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/26448"
+  },
+  {
+   "name": "michaelgmiller.com",
+   "url": "https://www.michaelgmiller.com/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CXVMSY"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-08",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "stephenpettigrew.com",
+  "host": "stephenpettigrew.com"
+ }
+}

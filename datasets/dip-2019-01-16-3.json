@@ -1,0 +1,63 @@
+{
+ "id": "dip-2019-01-16-3",
+ "title": "Political party data, linked",
+ "hook": "Party Facts is a “collaborative data collection” that links various political-party datasets together. The project has two main tables.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "partyfacts.herokuapp.com",
+   "url": "https://partyfacts.herokuapp.com/"
+  },
+  {
+   "name": "partyfacts.herokuapp.com",
+   "url": "https://partyfacts.herokuapp.com/download/"
+  },
+  {
+   "name": "partyfacts.herokuapp.com",
+   "url": "https://partyfacts.herokuapp.com/data/"
+  },
+  {
+   "name": "parlgov.org",
+   "url": "http://www.parlgov.org/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-09-19-edition"
+  },
+  {
+   "name": "manifesto-project.wzb.eu",
+   "url": "https://manifesto-project.wzb.eu/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-06-21-edition"
+  },
+  {
+   "name": "electiondataarchive.org",
+   "url": "http://www.electiondataarchive.org/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-09-28-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-16",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "partyfacts.herokuapp.com",
+  "host": "partyfacts.herokuapp.com"
+ }
+}

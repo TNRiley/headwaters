@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-03-23-5",
+ "title": "Born-digital artworks",
+ "hook": "In 1999, the new-media-art nonprofit Rhizome launched ArtBase, “an archive of born-digital artworks.” Last year, it relaunched the project as a linked data resource, allowing you run complex and detailed queries across the collection’s 2,200+ entries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "rhizome.org",
+   "url": "https://rhizome.org/"
+  },
+  {
+   "name": "artbase.rhizome.org",
+   "url": "https://artbase.rhizome.org/"
+  },
+  {
+   "name": "rhizome.org",
+   "url": "https://rhizome.org/editorial/2021/apr/26/the-artbase-relaunches-welcome-to-linked-open-data/"
+  },
+  {
+   "name": "artbase.rhizome.org",
+   "url": "https://artbase.rhizome.org/wiki/About#Linked_Open_Data"
+  },
+  {
+   "name": "artbase.rhizome.org",
+   "url": "https://artbase.rhizome.org/wiki/Query"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-23",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rhizome.org",
+  "host": "rhizome.org"
+ }
+}

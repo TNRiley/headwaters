@@ -1,0 +1,37 @@
+{
+ "id": "dip-2022-08-03-2",
+ "title": "European cropland",
+ "hook": "Maja Schneider et al.’s EuroCrops project combines “all publicly available self-declared crop reporting datasets from countries of the European Union.” So far, that universe corresponds to the entirety or parts of 16 countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2106.08151"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/maja601/EuroCrops"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-03",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arxiv.org",
+  "host": "arxiv.org"
+ }
+}

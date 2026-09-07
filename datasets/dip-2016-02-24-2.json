@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-02-24-2",
+ "title": "Armed conflict",
+ "hook": "The Uppsala Conflict Data Program maintains several large, interconnected datasets describing decades of war, genocide, and other armed hostilities. Looking for a slightly less depressing experience? Try the UCDP’s dataset of 216 peace agreements signed between 1975 and 2011. [h/t Tony Gray]",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "pcr.uu.se",
+   "url": "http://www.pcr.uu.se/research/ucdp/program_overview/"
+  },
+  {
+   "name": "pcr.uu.se",
+   "url": "http://www.pcr.uu.se/research/ucdp/datasets/"
+  },
+  {
+   "name": "pcr.uu.se",
+   "url": "http://www.pcr.uu.se/research/ucdp/datasets/ucdp_peace_agreement_dataset/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-24",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pcr.uu.se",
+  "host": "pcr.uu.se"
+ }
+}

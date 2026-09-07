@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-08-14-1",
+ "title": "The Freedman’s Bank",
+ "hook": "The Freedman’s Savings and Trust Company was chartered by Congress in 1865, toward the end of the Civil War, to provide banking services to formerly enslaved Americans.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Freedman%27s_Savings_Bank"
+  },
+  {
+   "name": "malcolmwardlaw.info",
+   "url": "https://www.malcolmwardlaw.info/"
+  },
+  {
+   "name": "virginiatraweek.com",
+   "url": "https://www.virginiatraweek.com/"
+  },
+  {
+   "name": "freedmansbank.uga.edu",
+   "url": "https://freedmansbank.uga.edu/"
+  },
+  {
+   "name": "freedmansbank.uga.edu",
+   "url": "https://freedmansbank.uga.edu/project/passbooks/"
+  },
+  {
+   "name": "freedmansbank.uga.edu",
+   "url": "https://freedmansbank.uga.edu/project/dividendrecord/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-08-14",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-08-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

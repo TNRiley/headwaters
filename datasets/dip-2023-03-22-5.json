@@ -1,0 +1,71 @@
+{
+ "id": "dip-2023-03-22-5",
+ "title": "Stop signs",
+ "hook": "The City of Los Angeles publishes the location and orientation of 50,000+ local stop signs (plus a few yield signs). Other cities offering similar datasets include Houston, San Francisco, Detroit, Topeka, Menlo Park, and London, Ontario.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "geohub.lacity.org",
+   "url": "https://geohub.lacity.org/datasets/lahub::stop-and-yield-signs/about"
+  },
+  {
+   "name": "geohub.houstontx.gov",
+   "url": "https://geohub.houstontx.gov/datasets/625faeaffe924a0c968f216bf3c321fc_1/about"
+  },
+  {
+   "name": "sfgov.org",
+   "url": "https://data.sfgov.org/Transportation/Stop-Signs/4542-gpa3"
+  },
+  {
+   "name": "detroitmi.gov",
+   "url": "https://data.detroitmi.gov/datasets/detroitmi::traffic-sign-locations/about"
+  },
+  {
+   "name": "topeka.org",
+   "url": "https://data.topeka.org/datasets/Topeka::topeka-stop-signs/about"
+  },
+  {
+   "name": "menlopark.org",
+   "url": "https://data.menlopark.org/datasets/MenloPark::stop-signs/about"
+  },
+  {
+   "name": "opendata.london.ca",
+   "url": "https://opendata.london.ca/datasets/51b53a163cf64681a057c397208637d6_5/about"
+  },
+  {
+   "name": "openstreetmap.org",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "wiki.openstreetmap.org",
+   "url": "https://wiki.openstreetmap.org/wiki/Downloading_data"
+  },
+  {
+   "name": "wiki.openstreetmap.org",
+   "url": "https://wiki.openstreetmap.org/wiki/Tag:highway%3Dstop"
+  },
+  {
+   "name": "taginfo.openstreetmap.org",
+   "url": "https://taginfo.openstreetmap.org/tags/highway%3Dstop#map"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-22",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "geohub.lacity.org",
+  "host": "geohub.lacity.org"
+ }
+}

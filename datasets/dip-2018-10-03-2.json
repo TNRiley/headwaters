@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-10-03-2",
+ "title": "European electoral polling",
+ "hook": "PollOfPolls.eu aggregates political polls from 30 European countries. The Vienna-based initiative has, for instance, collected and standardized more than 1,000 individual polls on British parliament since 2014, and 60 on the Bavarian state elections. You can download each set of standardized data as either JSON or CSV.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "pollofpolls.eu",
+   "url": "https://pollofpolls.eu/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-10-03",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-10-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pollofpolls.eu",
+  "host": "pollofpolls.eu"
+ }
+}

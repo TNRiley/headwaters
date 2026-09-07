@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-08-24-3",
+ "title": "Legislative limits on teaching",
+ "hook": "A PEN America report released last week examines recent developments in “educational gag orders,” which it defines as “state legislative efforts to restrict teaching about topics such as race, gender, American history, and LGBTQ+ identities in K–12 and higher education.” The study follows an initial report published…",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "pen.org",
+   "url": "https://pen.org/report/Americas-censored-classrooms/"
+  },
+  {
+   "name": "pen.org",
+   "url": "https://pen.org/report/educational-gag-orders/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1Tj5WQVBmB6SQg-zP_M8uZsQQGH09TxmBY73v23zpyr0/edit#gid=1505554870"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-24",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pen.org",
+  "host": "pen.org"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "dip-2021-03-03-1",
+ "title": "Police misconduct settlements",
+ "hook": "Reporters at FiveThirtyEight and The Marshall Project filed freedom-of-information requests to 50 US cities, asking for data on all civil lawsuits against their police departments/officers “that resulted in a monetary legal settlement” in 2010–2019 — including incident and settlement dates, plaintiff and defendant names, allegation descriptions, amounts awarded, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/police-settlements"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/police-misconduct-costs-cities-millions-every-year-but-thats-where-the-accountability-ends/"
+  },
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/2021/02/22/police-misconduct-costs-cities-millions-every-year-but-that-s-where-the-accountability-ends"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-03",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

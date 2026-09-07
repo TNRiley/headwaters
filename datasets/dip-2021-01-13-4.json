@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-01-13-4",
+ "title": "Innovation licensing",
+ "hook": "Government agencies often commercialize their innovations through “technology transfer” programs, which strike collaboration and licensing agreements with outside parties.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "federallabs.org",
+   "url": "https://federallabs.org/learning-center/what-is-t2"
+  },
+  {
+   "name": "technology.nasa.gov",
+   "url": "https://technology.nasa.gov/api/"
+  },
+  {
+   "name": "ott.nih.gov",
+   "url": "https://www.ott.nih.gov/nih-ott-api"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-13",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "federallabs.org",
+  "host": "federallabs.org"
+ }
+}

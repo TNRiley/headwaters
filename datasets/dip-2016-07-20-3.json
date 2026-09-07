@@ -1,0 +1,61 @@
+{
+ "id": "dip-2016-07-20-3",
+ "title": "🔥 🔥 🔥",
+ "hook": "The National Fire Incident Reporting System (NFIRS) is “the world’s largest, national, annual database of fire incident information,” containing about 1 million fires per year, including wildfires, structure fires, vehicle fires, and more. NFIRS data from 2013 (and prior years) are available online from FEMA.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "usfa.fema.gov",
+   "url": "https://www.usfa.fema.gov/data/nfirs/"
+  },
+  {
+   "name": "fema.gov",
+   "url": "https://www.fema.gov/media-library/assets/documents/112009"
+  },
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/pulse/nfirs-2014-available-dov-chelst"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/dnchelst/NFIRS"
+  },
+  {
+   "name": "usfa.fema.gov",
+   "url": "https://www.usfa.fema.gov/data/statistics/order_download_data.html"
+  },
+  {
+   "name": "apps.usfa.fema.gov",
+   "url": "https://apps.usfa.fema.gov/census-download/main/download"
+  },
+  {
+   "name": "apps.usfa.fema.gov",
+   "url": "https://apps.usfa.fema.gov/firefighter-fatalities/"
+  },
+  {
+   "name": "rmgsc.cr.usgs.gov",
+   "url": "http://rmgsc.cr.usgs.gov/outgoing/GeoMAC/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-20",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usfa.fema.gov",
+  "host": "usfa.fema.gov"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-02-14-1",
+ "title": "Nepal, post-earthquake",
+ "hook": "In April 2015, the Ghorkha Earthquake killed more than 8,000 people in Nepal, and destroyed hundreds of thousands of homes.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "kathmandulivinglabs.org",
+   "url": "http://www.kathmandulivinglabs.org/"
+  },
+  {
+   "name": "admin.myrepublica.com",
+   "url": "http://admin.myrepublica.com/the-week/story/43132/banking-on-data.html"
+  },
+  {
+   "name": "opendata.klldev.org",
+   "url": "https://opendata.klldev.org/#/about"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-14",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "kathmandulivinglabs.org",
+  "host": "kathmandulivinglabs.org"
+ }
+}

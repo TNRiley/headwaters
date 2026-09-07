@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-07-07-4",
+ "title": "Vertebrates’ viruses",
+ "hook": "VIRION is “an open atlas of the vertebrate virome” that launched in May. It represents the associations between 9,000+ viruses and 3,700+ host species, drawing from a range of sources, including USAID’s PREDICT project and the GloBI project, which organizes data about inter-species interactions. [h/t Timothée Poisot]",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "viralemergence.org",
+   "url": "https://www.viralemergence.org/virion"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/viralemergence/virion#how-we-built-virion"
+  },
+  {
+   "name": "healthmap.org",
+   "url": "https://healthmap.org/predict/"
+  },
+  {
+   "name": "globalbioticinteractions.org",
+   "url": "https://www.globalbioticinteractions.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-07-07",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-07-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "viralemergence.org",
+  "host": "viralemergence.org"
+ }
+}

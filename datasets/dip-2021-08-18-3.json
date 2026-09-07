@@ -1,0 +1,56 @@
+{
+ "id": "dip-2021-08-18-3",
+ "title": "A/B headline tests",
+ "hook": "The Upworthy Research Archive describes 32,000+ headline-testing experiments conducted in 2013–15 by Upworthy, the online publication that popularized a once-ubiquitous style of headline.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-021-00934-7"
+  },
+  {
+   "name": "upworthy.com",
+   "url": "https://www.upworthy.com/"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/jd64p/"
+  },
+  {
+   "name": "natematias.medium.com",
+   "url": "https://natematias.medium.com/announcing-the-upworthy-research-archive-c9b11087ddeb"
+  },
+  {
+   "name": "upworthy.natematias.com",
+   "url": "https://upworthy.natematias.com/"
+  },
+  {
+   "name": "upworthy.natematias.com",
+   "url": "https://upworthy.natematias.com/about-the-archive"
+  }
+ ],
+ "articles": [
+  {
+   "name": "npr.org",
+   "url": "https://www.npr.org/sections/alltechconsidered/2017/06/20/533529538/upworthy-was-one-of-the-hottest-sites-ever-you-wont-believe-what-happened-next"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-18",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

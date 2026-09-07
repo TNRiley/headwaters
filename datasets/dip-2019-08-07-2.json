@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-08-07-2",
+ "title": "Federal judges",
+ "hook": "The government-run Federal Judicial Center publishes a daily-updated “biographical directory” of all judges who’ve served on federal courts — the Supreme Court, appellate courts, district courts, the bygone circuit courts, plus a few others.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fjc.gov",
+   "url": "https://www.fjc.gov/history/judges/biographical-directory-article-iii-federal-judges-export"
+  },
+  {
+   "name": "artsandsciences.sc.edu",
+   "url": "http://artsandsciences.sc.edu/poli/juri/index.htm"
+  },
+  {
+   "name": "artsandsciences.sc.edu",
+   "url": "http://artsandsciences.sc.edu/poli/juri/attributes.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-07",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fjc.gov",
+  "host": "fjc.gov"
+ }
+}

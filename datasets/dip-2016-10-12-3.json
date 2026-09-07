@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-10-12-3",
+ "title": "Performances and exhibitions",
+ "hook": "The New York Philharmonic’s performance history dataset contains “all known concerts” — more than 20,000 of ‘em — played by the Philharmonic and the groups with which it has merged (e.g., the New York Symphony).",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/nyphilarchive/PerformanceHistory/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/MuseumofModernArt/exhibitions"
+  },
+  {
+   "name": "moma.org",
+   "url": "http://www.moma.org/calendar/exhibitions/1767"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-12",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

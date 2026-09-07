@@ -1,0 +1,35 @@
+{
+ "id": "dip-2020-07-01-5",
+ "title": "Humans using computers",
+ "hook": "BEHACOM is a dataset that details minute-by-minute usage statistics for 12 Spanish and Italian men “interacting for fifty-five consecutive days with their personal computers in their own way and without restrictions.”",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340920306612"
+  },
+  {
+   "name": "mendeley.com",
+   "url": "https://data.mendeley.com/datasets/cg4br62535/2"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-01",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

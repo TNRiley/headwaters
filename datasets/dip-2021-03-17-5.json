@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-03-17-5",
+ "title": "Early British millionaires",
+ "hook": "Business historian Peter Scott has reconstructed a dataset of Britain’s “inter-war super-rich.” Scott started with an official (but mostly nameless) list of 438 “millionaires” (which tax authorities defined as people with annual incomes above £50,000) from 1928/29, and then cross-referenced the entries with other sources to identify 291 men and 28 women who fit the criteria.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "henley.ac.uk",
+   "url": "https://www.henley.ac.uk/people/professor-peter-scott"
+  },
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1111/ehr.13025"
+  },
+  {
+   "name": "ehs.org.uk",
+   "url": "https://ehs.org.uk/britains-inter-war-super-rich-the-1928-9-millionaire-list-2/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-17",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "henley.ac.uk",
+  "host": "henley.ac.uk"
+ }
+}

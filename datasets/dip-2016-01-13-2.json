@@ -1,0 +1,31 @@
+{
+ "id": "dip-2016-01-13-2",
+ "title": "Shifting global borders",
+ "hook": "What did the world’s political boundaries look like in 1945? The lines between Swedish counties in 1968? The U.S. states in 1865? Thenmap, an open-source API and mapping tool, answers these questions and more. [h/t Carlos Matallín]",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "thenmap.net",
+   "url": "http://www.thenmap.net/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-13",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "thenmap.net",
+  "host": "thenmap.net"
+ }
+}

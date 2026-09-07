@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-10-31-3",
+ "title": "Electric utilities",
+ "hook": "The U.S. Energy Information Administration uses Form EIA-861 to collect annual data from thousands of electric utilities about their sales, revenue, peak loads, customer counts, energy efficiency savings, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/electricity/data/eia861/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-10-31",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-10-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "U.S. Gasoline and Diesel Retail Prices",
+  "host": "eia.gov"
+ }
+}

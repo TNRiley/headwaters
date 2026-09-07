@@ -1,0 +1,33 @@
+{
+ "id": "dip-2015-10-21-4",
+ "title": "How often do Wikipedia editors edit?",
+ "hook": "The Wikimedia Foundation has published a dataset enumerating monthly revision counts for every editor, across all of its wikis. The foundation is asking for help investigating a few perplexing trends.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "blog.wikimedia.org",
+   "url": "https://blog.wikimedia.org/2015/09/25/wikipedia-editor-numbers/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-10-21",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-10-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "blog.wikimedia.org",
+  "host": "blog.wikimedia.org"
+ }
+}

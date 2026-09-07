@@ -1,0 +1,42 @@
+{
+ "id": "dip-2015-11-25-2",
+ "title": "Refugees in America",
+ "hook": "The Department of State publishes demographic reports on refugee arrivals since 2002. The data includes country of origin, resettlement city and state, religion, age, gender, and more. Related: At BuzzFeed, I used the data to chart the past decade of refugee arrivals. Also related: The UN’s refugee data portal.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "wrapsnet.org",
+   "url": "http://www.wrapsnet.org/Reports/InteractiveReporting/tabid/393/Default.aspx"
+  },
+  {
+   "name": "popstats.unhcr.org",
+   "url": "http://popstats.unhcr.org/en/overview"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "http://www.buzzfeed.com/jsvine/where-us-refugees-come-from-and-go-in-charts"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-25",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wrapsnet.org",
+  "host": "wrapsnet.org"
+ }
+}

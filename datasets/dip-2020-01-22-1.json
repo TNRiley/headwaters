@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-01-22-1",
+ "title": "China’s projects abroad",
+ "hook": "The AidData research lab at the College of William & Mary has published several datasets on China’s international soft-power efforts, including the first-ever dataset of government-financed development projects abroad (covering 3,485 projects between 2000 and 2014) and a structured dataset of diplomacy efforts in 25 Asia/Pacific countries between 2000 and 2016.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "aiddata.org",
+   "url": "https://www.aiddata.org/about"
+  },
+  {
+   "name": "aiddata.org",
+   "url": "https://www.aiddata.org/blog/aiddata-releases-first-ever-global-dataset-on-chinas-development-spending-spree"
+  },
+  {
+   "name": "aiddata.org",
+   "url": "https://www.aiddata.org/data/geocoded-chinese-global-official-finance-dataset"
+  },
+  {
+   "name": "aiddata.org",
+   "url": "https://www.aiddata.org/data/chinas-public-diplomacy-dashboard-dataset-version-1-0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-22",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aiddata.org",
+  "host": "aiddata.org"
+ }
+}

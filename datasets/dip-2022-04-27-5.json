@@ -1,0 +1,55 @@
+{
+ "id": "dip-2022-04-27-5",
+ "title": "The meta-Dataverse",
+ "hook": "The Dataverse project is an open-source platform for data sharing. (This newsletter has linked to dozens of Dataverse-hosted datasets, mostly on the original Harvard Dataverse.) It offers an API for fetching metadata on each known installation and the datasets within them, which project member Julian Gautier has been using to assemble and update bulk snapshots.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "dataverse.org",
+   "url": "https://dataverse.org/"
+  },
+  {
+   "name": "dataverse.org",
+   "url": "https://dataverse.org/about"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/"
+  },
+  {
+   "name": "guides.dataverse.org",
+   "url": "https://guides.dataverse.org/en/latest/api/index.html"
+  },
+  {
+   "name": "dataverse.org",
+   "url": "https://dataverse.org/metrics"
+  },
+  {
+   "name": "scholar.harvard.edu",
+   "url": "https://scholar.harvard.edu/juliangautier/home"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DCDKZQ"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-27",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataverse.org",
+  "host": "dataverse.org"
+ }
+}

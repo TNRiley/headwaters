@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-06-28-1",
+ "title": "Rape kit backlogs",
+ "hook": "The actual number of unanalyzed sexual assault kits in the United States is unknown. But last year “at least 25,000 untested rape kits sat in law enforcement agencies and crime labs across the country,” according to rape kit backlog data compiled by USAFacts, based on responses by 30 states and DC to public records requests.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nij.ojp.gov",
+   "url": "https://nij.ojp.gov/topics/articles/untested-evidence-sexual-assault-cases"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/articles/how-many-rape-kits-are-awaiting-testing-in-the-us-see-the-data-by-state/"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/articles/detailed-methodology-rape-kit-backlog-data/"
+  },
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/in/elizabethbkim/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/elizabethbkim/rape-kits-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-06-28",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-06-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nij.ojp.gov",
+  "host": "nij.ojp.gov"
+ }
+}

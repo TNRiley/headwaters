@@ -1,0 +1,43 @@
+{
+ "id": "dip-2016-05-11-1",
+ "title": "Secret offshore companies",
+ "hook": "On Monday, the International Consortium of Investigative Journalists released data on 210,000 companies, trusts, and funds named in the massive Panama Papers leak. The database is searchable online and downloadable as several CSV files. The dataset includes companies’ officers, registered addresses, and middlemen.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "panamapapers.icij.org",
+   "url": "https://panamapapers.icij.org/blog/20160509-offshore-database-release.html"
+  },
+  {
+   "name": "offshoreleaks.icij.org",
+   "url": "https://offshoreleaks.icij.org/"
+  },
+  {
+   "name": "offshoreleaks.icij.org",
+   "url": "https://offshoreleaks.icij.org/pages/database"
+  },
+  {
+   "name": "icij.org",
+   "url": "https://www.icij.org/offshore"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-11",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "panamapapers.icij.org",
+  "host": "panamapapers.icij.org"
+ }
+}

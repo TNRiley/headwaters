@@ -1,0 +1,46 @@
+{
+ "id": "dip-2017-03-15-4",
+ "title": "Chicago traffic camera violations",
+ "hook": "The Windy City publishes two datasets on traffic violations. One tallies the daily number of speeding violations in each Children’s Safety Zone; the other, red-light violations at each camera-surveilled intersection. Both go back to July 2014. The city also publishes a spreadsheet of city-towed vehicles.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4/"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Transportation/Red-Light-Camera-Violations/spqx-js37"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Transportation/Towed-Vehicles/ygr5-vcbg"
+  }
+ ],
+ "articles": [
+  {
+   "name": "chicagotribune.com",
+   "url": "http://www.chicagotribune.com/news/watchdog/redlight/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-15",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cityofchicago.org",
+  "host": "cityofchicago.org"
+ }
+}

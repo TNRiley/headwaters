@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-10-07-5",
+ "title": "A lifetime of first kisses",
+ "hook": "The Kiss List explores artist Galen Beebe’s 48 first kisses. Reconstructed from “memories and journals,” and developed with her partner John West, the dataset and visualization present “a set of facts that show who, what, where, when, and why I kissed how I did.”",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "beebe-west.com",
+   "url": "http://beebe-west.com/viz/kiss-list/"
+  },
+  {
+   "name": "galenbeebe.com",
+   "url": "https://www.galenbeebe.com/"
+  },
+  {
+   "name": "beebe-west.com",
+   "url": "http://beebe-west.com/john/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jswest/kiss-list-refresh/blob/master/public/data.json.js"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-10-07",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-10-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "beebe-west.com",
+  "host": "beebe-west.com"
+ }
+}

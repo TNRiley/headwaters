@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-08-05-4",
+ "title": "Animals with SARS-CoV-2",
+ "hook": "The USDA has been publishing basic information about animals that its National Veterinary Services Laboratories have confirmed contracted the novel coronvirus.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "aphis.usda.gov",
+   "url": "https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/sa_one_health/sars-cov-2-animals-us"
+  },
+  {
+   "name": "aphis.usda.gov",
+   "url": "https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/lab-info-services/sa_about_nvsl/ct_about_nvsl"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-05",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aphis.usda.gov",
+  "host": "aphis.usda.gov"
+ }
+}

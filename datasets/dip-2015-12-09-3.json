@@ -1,0 +1,45 @@
+{
+ "id": "dip-2015-12-09-3",
+ "title": "Firearm background checks",
+ "hook": "Gun dealers use the FBI’s National Instant Criminal Background Check System to determine whether someone is allowed to buy a firearm. There isn’t a one-to-one correlation between these background checks and gun sales, but they’re said to be the best available proxy.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fbi.gov",
+   "url": "https://www.fbi.gov/about-us/cjis/nics"
+  },
+  {
+   "name": "thetrace.org",
+   "url": "http://www.thetrace.org/2015/11/black-friday-gun-sales-background-checks/"
+  },
+  {
+   "name": "fbi.gov",
+   "url": "https://www.fbi.gov/about-us/cjis/nics/reports/nics_firearm_checks_-_month_year_by_state_type.pdf"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/BuzzFeedNews/nics-firearm-background-checks"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-09",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fbi.gov",
+  "host": "fbi.gov"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "dip-2025-05-21-2",
+ "title": "FiveThirtyEight’s public data",
+ "hook": "ABC News shut down FiveThirtyEight earlier this year. Datasets built and collected by the publication were featured often in this newsletter.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "journalism",
+ "geography": "",
+ "sources": [
+  {
+   "name": "niemanlab.org",
+   "url": "https://www.niemanlab.org/2025/03/fivethirtyeight-is-shutting-down-as-part-of-broader-cuts-at-abc-and-disney/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/FiveThirtyEight"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/cabinet-turnover"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/puerto-rico-media"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/comma-survey"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/steak-survey"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/bechdel"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/scrabble-games"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/tag/data-is-plural/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-05-21",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-05-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "niemanlab.org",
+  "host": "niemanlab.org"
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "id": "dip-2023-12-13-2",
+ "title": "US solar facilities",
+ "hook": "The United States Large-Scale Solar Photovoltaic Database, released last month, maps and describes 3,600+ solar power facilities with capacities of at least 1 megawatt.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eerscmap.usgs.gov",
+   "url": "https://eerscmap.usgs.gov/uspvdb/"
+  },
+  {
+   "name": "eerscmap.usgs.gov",
+   "url": "https://eerscmap.usgs.gov/uspvdb/viewer/"
+  },
+  {
+   "name": "eerscmap.usgs.gov",
+   "url": "https://eerscmap.usgs.gov/uspvdb/data/"
+  },
+  {
+   "name": "eerscmap.usgs.gov",
+   "url": "https://eerscmap.usgs.gov/uspvdb/api-doc/"
+  },
+  {
+   "name": "eerscmap.usgs.gov",
+   "url": "https://eerscmap.usgs.gov/uspvdb/assets/data/uspvdbApiNotebook.html"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/electricity/data/eia860/"
+  },
+  {
+   "name": "ilsolarmap.com",
+   "url": "https://ilsolarmap.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/chihacknight/il-solar-map/tree/main/data/v2/final"
+  },
+  {
+   "name": "ilsolarmap.com",
+   "url": "https://ilsolarmap.com/about.html"
+  },
+  {
+   "name": "chihacknight.org",
+   "url": "https://chihacknight.org/about"
+  },
+  {
+   "name": "globalenergymonitor.org",
+   "url": "https://globalenergymonitor.org/about/our-story/"
+  },
+  {
+   "name": "globalenergymonitor.org",
+   "url": "https://globalenergymonitor.org/projects/global-solar-power-tracker/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-06-01-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-12-13",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-12-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "eerscmap.usgs.gov",
+  "host": "eerscmap.usgs.gov"
+ }
+}

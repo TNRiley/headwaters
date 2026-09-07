@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-09-25-5",
+ "title": "UK noise pollution",
+ "hook": "In 2012, the British government collected noise-level data from across the country and throughout London, including average daytime and nighttime loudness. [h/t Giuseppe Sollazzo] [Update, 2019-09-25: Data collected in 2017 can be found here: https://www.gov.uk/government/publications/strategic-noise-mapping-2019]",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/publications/open-data-strategic-noise-mapping"
+  },
+  {
+   "name": "london.gov.uk",
+   "url": "https://data.london.gov.uk/dataset/noise-pollution-in-london"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-25",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "www.gov.uk",
+  "host": "gov.uk"
+ }
+}

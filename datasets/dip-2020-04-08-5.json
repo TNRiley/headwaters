@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-04-08-5",
+ "title": "A lot of domain names",
+ "hook": "Software engineer Bohdan Turkynewych has compiled a dataset of more than 50 million domain names, discovered by crawling the web and processing 86 terabytes of internet traffic. Related: French registry Afnic publishes a full list of all registered .fr domains. [h/t Javier Sáenz]",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/in/bohdanturkynewych"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/tb0hdan/domains"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Association_fran%C3%A7aise_pour_le_nommage_Internet_en_coop%C3%A9ration"
+  },
+  {
+   "name": "opendata.afnic.fr",
+   "url": "http://opendata.afnic.fr/en/products-and-services/services/opendata-en.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-08",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "linkedin.com",
+  "host": "linkedin.com"
+ }
+}

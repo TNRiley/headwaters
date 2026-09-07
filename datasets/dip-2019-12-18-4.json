@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-12-18-4",
+ "title": "Think tank citations",
+ "hook": "Andrew Thompson scoured three years of articles from nine publications — Axios, BuzzFeed News, The Economist, The Hill, The New York Times, Politico, Vice News, Vox, and The Wall Street Journal — for mentions of any organization in Wikipedia’s list of US think tanks.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "andrewsthompson.co",
+   "url": "http://andrewsthompson.co/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/List_of_think_tanks_in_the_United_States"
+  },
+  {
+   "name": "components.one",
+   "url": "https://components.one/datasets/think-tank-mentions-in-nine-publications-2016-2018/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-18",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "andrewsthompson.co",
+  "host": "andrewsthompson.co"
+ }
+}

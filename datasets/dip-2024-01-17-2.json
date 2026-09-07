@@ -1,0 +1,39 @@
+{
+ "id": "dip-2024-01-17-2",
+ "title": "Subnational economic output",
+ "hook": "Leonie Wenz et al.’s Database of Sub-national Economic Output (DOSE) provides “harmonised data on reported economic output from 1,661 sub-national regions across 83 countries from 1960 to 2020.” Those regions include, for instance, Turkey’s 81 provinces, Japan’s 47 prefectures, and Kenya’s 47 counties.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-023-02323-8"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/records/7573249"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-023-02323-8/tables/1"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-01-17",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-01-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

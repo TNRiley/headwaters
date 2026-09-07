@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-02-09-2",
+ "title": "Erasmus exchanges",
+ "hook": "The European Union publishes data on the movement of students, staff, and trainees through its Erasmus+ exchange program. The most recent dataset covers academic years 2014–15 through 2019–20, detailing the international transfer of millions of participants.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "europa.eu",
+   "url": "https://data.europa.eu/data/datasets?locale=en&catalog=eac&query=erasmus&page=1&sort=issued%2Bdesc,%20relevance%2Bdesc,%20title.en%2Basc"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Erasmus_Programme"
+  },
+  {
+   "name": "europa.eu",
+   "url": "https://data.europa.eu/data/datasets/erasmus-mobility-statistics-2014-2019-v2?locale=en"
+  },
+  {
+   "name": "elconfidencial.com",
+   "url": "https://www.elconfidencial.com/mundo/europa/2021-12-28/erasmus-dos-velocidades-programa-ue-desigualdad_3348913/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-02-09",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-02-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "europa.eu",
+  "host": "europa.eu"
+ }
+}

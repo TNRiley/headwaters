@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-02-08-2",
+ "title": "Foreign direct investment",
+ "hook": "Among its many activities, the Bureau of Economic Analysis collects data on US-owned businesses’ direct investments abroad and those by foreign-owned businesses in the US. The agency provides statistics based on that data, aggregated by industry and country.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "bea.gov",
+   "url": "https://www.bea.gov/"
+  },
+  {
+   "name": "bea.gov",
+   "url": "https://www.bea.gov/surveys/diasurv"
+  },
+  {
+   "name": "bea.gov",
+   "url": "https://www.bea.gov/surveys/fdiusurv"
+  },
+  {
+   "name": "bea.gov",
+   "url": "https://www.bea.gov/itable/direct-investment-multinational-enterprises"
+  },
+  {
+   "name": "bea.gov",
+   "url": "https://www.bea.gov/international/direct-investment-and-multinational-enterprises-comprehensive-data"
+  },
+  {
+   "name": "apps.bea.gov",
+   "url": "https://apps.bea.gov/iTable/?ReqID=2&step=1"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/articles/why-are-us-companies-investing-more-abroad/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-08",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BEA",
+  "host": "bea.gov"
+ }
+}

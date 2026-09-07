@@ -1,0 +1,49 @@
+{
+ "id": "dip-2018-04-04-3",
+ "title": "North Korea negotiations and provocations",
+ "hook": "The Center for Strategic and International Studies’ Beyond Parallel project publishes several databases related to North Korean international relations — including 200+ negotiations between the U.S. and DPRK since 1990, and several hundred military provocations since 1958.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "beyondparallel.csis.org",
+   "url": "https://beyondparallel.csis.org/about/"
+  },
+  {
+   "name": "beyondparallel.csis.org",
+   "url": "https://beyondparallel.csis.org/databases/"
+  },
+  {
+   "name": "thedailyviz.com",
+   "url": "http://thedailyviz.com/tag/provocations/"
+  },
+  {
+   "name": "nti.org",
+   "url": "http://www.nti.org/analysis/articles/cns-north-korea-missile-test-database/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-05-17-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-04",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "beyondparallel.csis.org",
+  "host": "beyondparallel.csis.org"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-05-04-1",
+ "title": "Wastewater treatment plants",
+ "hook": "The HydroWASTE dataset, developed by McGill University geographers and engineers, describes 58,000+ wastewater treatment plants around the world and links them to downstream river networks.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/dataset/HydroWASTE_version_1_0/14847786/1"
+  },
+  {
+   "name": "essd.copernicus.org",
+   "url": "https://essd.copernicus.org/articles/14/559/2022/"
+  },
+  {
+   "name": "hydrosheds.org",
+   "url": "https://www.hydrosheds.org/hydroatlas"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-04",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "figshare.com",
+  "host": "figshare.com"
+ }
+}

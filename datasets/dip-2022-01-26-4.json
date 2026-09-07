@@ -1,0 +1,42 @@
+{
+ "id": "dip-2022-01-26-4",
+ "title": "European gas storage",
+ "hook": "The industry group Gas Infrastructure Europe publishes data on daily fuel storage levels at its members’ facilities. For each facility, and aggregated to the provider and country level, the data indicate the amount of fuel in storage, the percent capacity that represents, fuel added and withdrawn, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "gie.eu",
+   "url": "https://www.gie.eu/"
+  },
+  {
+   "name": "agsi.gie.eu",
+   "url": "https://agsi.gie.eu/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "bloomberg.com",
+   "url": "https://www.bloomberg.com/opinion/articles/2022-01-13/gazprom-tweets-about-european-gas-shortages-it-may-be-creating"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-26",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gie.eu",
+  "host": "gie.eu"
+ }
+}

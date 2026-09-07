@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-01-18-2",
+ "title": "Money in UK politics",
+ "hook": "The Westminster Accounts, a recent collaboration between Sky News and Tortoise Media, examines the flow of money through UK politics.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "news.sky.com",
+   "url": "https://news.sky.com/story/the-westminster-accounts-12786091"
+  },
+  {
+   "name": "tortoisemedia.com",
+   "url": "https://www.tortoisemedia.com/2023/01/08/letting-the-light-in/"
+  },
+  {
+   "name": "parliament.uk",
+   "url": "https://www.parliament.uk/mps-lords-and-offices/standards-and-financial-interests/parliamentary-commissioner-for-standards/registers-of-interests/register-of-members-financial-interests/"
+  },
+  {
+   "name": "search.electoralcommission.org.uk",
+   "url": "http://search.electoralcommission.org.uk/English/Search/Donations"
+  },
+  {
+   "name": "parliament.uk",
+   "url": "https://www.parliament.uk/mps-lords-and-offices/standards-and-financial-interests/parliamentary-commissioner-for-standards/registers-of-interests/register-of-all-party-party-parliamentary-groups/"
+  },
+  {
+   "name": "tortoisemedia.com",
+   "url": "https://www.tortoisemedia.com/westminster-accounts-explore/"
+  },
+  {
+   "name": "news.sky.com",
+   "url": "https://news.sky.com/story/westminster-accounts-search-for-your-mp-or-enter-your-full-postcode-12771627"
+  },
+  {
+   "name": "til.simonwillison.net",
+   "url": "https://til.simonwillison.net/shot-scraper/scraping-flourish"
+  },
+  {
+   "name": "tortoisemedia.com",
+   "url": "https://www.tortoisemedia.com/2023/01/08/the-westminster-accounts-methodology/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-18",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "news.sky.com",
+  "host": "news.sky.com"
+ }
+}

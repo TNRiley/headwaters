@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-08-03-4",
+ "title": "Measuring up",
+ "hook": "A group of public health researchers have estimated the average height of adults in 200 countries over the course of a century. Their calculations are based on a re-analysis of 1,472 previous studies, which collectively measured nearly 19 million participants.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "elifesciences.org",
+   "url": "https://elifesciences.org/content/5/e13410"
+  },
+  {
+   "name": "ncdrisc.org",
+   "url": "http://www.ncdrisc.org/d-height.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-03",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "elifesciences.org",
+  "host": "elifesciences.org"
+ }
+}

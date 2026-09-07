@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-08-03-5",
+ "title": "Diplomatic gifts",
+ "hook": "Federal employees are not supposed to accept major gifts from foreign governments. But exceptions occur, such as “when it appears that to refuse the gift would likely cause offense or embarrassment,” and agencies must annually report those exceptions in the Federal Register.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "law.cornell.edu",
+   "url": "https://www.law.cornell.edu/uscode/text/5/7342"
+  },
+  {
+   "name": "alexcookson.com",
+   "url": "https://www.alexcookson.com/about/"
+  },
+  {
+   "name": "alexcookson.com",
+   "url": "https://www.alexcookson.com/post/what-can-we-learn-from-diplomatic-gifts/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/tacookson/data/tree/master/us-government-gifts"
+  },
+  {
+   "name": "disclosures-clerk.house.gov",
+   "url": "https://disclosures-clerk.house.gov/PublicDisclosure/GiftTravelFilings"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-04-27-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-03",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "law.cornell.edu",
+  "host": "law.cornell.edu"
+ }
+}

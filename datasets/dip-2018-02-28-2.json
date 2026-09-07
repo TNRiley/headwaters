@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-02-28-2",
+ "title": "Historical battles",
+ "hook": "Political scientist Jeffrey Arnold has converted the U.S. Army Concepts Analysis Agency (CAA) Database of Battles from a series of Lotus 1-2-3 worksheets into tidier, easier-to-use CSV files. The dataset includes details of 660 battles — associated with several dozen wars — between 1600 and the mid/late-1900s.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "jrnold.me",
+   "url": "http://www.jrnold.me/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jrnold/CDB90/blob/master/src-data/M000121/README.TXT"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jrnold/CDB90"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-28",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "jrnold.me",
+  "host": "jrnold.me"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "dip-2021-11-17-2",
+ "title": "Foodborne pathogens",
+ "hook": "In an explainer article accompanying a recent food-safety investigation, ProPublica reporter Irena Hwang describes using her training in bioinformatics to analyze salmonella DNA data collected by the National Center for Biotechnology Information’s Pathogen Detection initiative, which aggregates genomic sequences from…",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ncbi.nlm.nih.gov",
+   "url": "https://www.ncbi.nlm.nih.gov/"
+  },
+  {
+   "name": "ncbi.nlm.nih.gov",
+   "url": "https://www.ncbi.nlm.nih.gov/pathogens/"
+  },
+  {
+   "name": "ncbi.nlm.nih.gov",
+   "url": "https://www.ncbi.nlm.nih.gov/pathogens/faq/"
+  },
+  {
+   "name": "ncbi.nlm.nih.gov",
+   "url": "https://www.ncbi.nlm.nih.gov/pathogens/pathogens_help/#data-retrieval"
+  },
+  {
+   "name": "ncbi.nlm.nih.gov",
+   "url": "https://www.ncbi.nlm.nih.gov/pathogens/organisms/"
+  },
+  {
+   "name": "fsis.usda.gov",
+   "url": "https://www.fsis.usda.gov/science-data/data-sets-visualizations/laboratory-sampling-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/how-propublica-used-genomic-sequencing-data-to-track-an-ongoing-salmonella-outbreak"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/salmonella-chicken-usda-food-safety"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/people/irena-hwang"
+  },
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/chicken/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-11-17",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-11-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ncbi.nlm.nih.gov",
+  "host": "ncbi.nlm.nih.gov"
+ }
+}

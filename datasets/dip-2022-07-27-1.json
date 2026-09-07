@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-07-27-1",
+ "title": "Wildfires around the world",
+ "hook": "The Global Wildfire Information System, expanding on the work of European Forest Fire Information System, uses satellite data to provide weekly and annual estimates of the number of fires and area burned in 200+ countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "gwis.jrc.ec.europa.eu",
+   "url": "https://gwis.jrc.ec.europa.eu/"
+  },
+  {
+   "name": "effis.jrc.ec.europa.eu",
+   "url": "https://effis.jrc.ec.europa.eu/"
+  },
+  {
+   "name": "gwis.jrc.ec.europa.eu",
+   "url": "https://gwis.jrc.ec.europa.eu/apps/gwis.statistics/"
+  },
+  {
+   "name": "gwis.jrc.ec.europa.eu",
+   "url": "https://gwis.jrc.ec.europa.eu/apps/country.profile/downloads"
+  },
+  {
+   "name": "gwis.jrc.ec.europa.eu",
+   "url": "https://gwis.jrc.ec.europa.eu/applications/data-and-services"
+  },
+  {
+   "name": "eldiario.es",
+   "url": "https://www.eldiario.es/sociedad/peor-ano-superficie-quemada-30-anos-evolucionan-incendios-activos-espana-julio-26_1_9189252.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-27",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gwis.jrc.ec.europa.eu",
+  "host": "gwis.jrc.ec.europa.eu"
+ }
+}

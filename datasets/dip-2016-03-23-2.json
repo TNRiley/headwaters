@@ -1,0 +1,50 @@
+{
+ "id": "dip-2016-03-23-2",
+ "title": "British property sales",
+ "hook": "The UK’s Price Paid Data contains virtually all of the country’s residential property sales, with only a few exceptions. (Sales forced under court order are excluded, for example.) Each row includes the sale price, address, property type, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/collections/price-paid-data"
+  },
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/guidance/about-the-price-paid-data"
+  },
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads"
+  },
+  {
+   "name": "landregistry.data.gov.uk",
+   "url": "http://landregistry.data.gov.uk/app/ppd"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "http://www.theguardian.com/society/ng-interactive/2015/sep/02/unaffordable-country-where-can-you-afford-to-buy-a-house"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-23",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "www.gov.uk",
+  "host": "gov.uk"
+ }
+}

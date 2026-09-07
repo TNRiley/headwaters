@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-04-03-2",
+ "title": "European Parliament activity",
+ "hook": "Parltrack keeps tabs on 4,000+ active and prior members of the European Parliament, 23,000+ policy dossiers, 39,000+ votes, and much more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "parltrack.org",
+   "url": "https://parltrack.org/"
+  },
+  {
+   "name": "parltrack.org",
+   "url": "https://parltrack.org/mep/118859/Roberta%20METSOLA#/dossiers"
+  },
+  {
+   "name": "parltrack.org",
+   "url": "https://parltrack.org/mep/125106/Johan%20VAN%20OVERTVELDT#/committees"
+  },
+  {
+   "name": "parltrack.org",
+   "url": "https://parltrack.org/mep/96864/David%20Maria%20SASSOLI#/activities"
+  },
+  {
+   "name": "parltrack.eu",
+   "url": "https://parltrack.eu/dumps"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-03",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "parltrack.org",
+  "host": "parltrack.org"
+ }
+}

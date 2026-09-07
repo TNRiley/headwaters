@@ -1,0 +1,69 @@
+{
+ "id": "dip-2022-07-06-3",
+ "title": "European air traffic",
+ "hook": "Eurocontrol, the main organization coordinating Europe’s air traffic management, publishes an “aviation intelligence portal” with a range of industry metrics, including traffic reports that count the daily number of flights by country, by airport, and by operator.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "eurocontrol.int",
+   "url": "https://www.eurocontrol.int/about-us"
+  },
+  {
+   "name": "ansperformance.eu",
+   "url": "https://ansperformance.eu/"
+  },
+  {
+   "name": "ansperformance.eu",
+   "url": "https://ansperformance.eu/traffic/"
+  },
+  {
+   "name": "eurocontrol.int",
+   "url": "https://www.eurocontrol.int/Economics/DailyTrafficVariation-States.html"
+  },
+  {
+   "name": "eurocontrol.int",
+   "url": "https://www.eurocontrol.int/Economics/DailyTrafficVariation-Airports.html"
+  },
+  {
+   "name": "eurocontrol.int",
+   "url": "https://www.eurocontrol.int/Economics/DailyTrafficVariation-AOs.html"
+  },
+  {
+   "name": "ansperformance.eu",
+   "url": "https://ansperformance.eu/data/"
+  },
+  {
+   "name": "ansperformance.eu",
+   "url": "https://ansperformance.eu/reference/dataset/airport-traffic/"
+  },
+  {
+   "name": "ansperformance.eu",
+   "url": "https://ansperformance.eu/reference/dataset/horizontal-flight-efficiency/"
+  },
+  {
+   "name": "ansperformance.eu",
+   "url": "https://ansperformance.eu/reference/dataset/emissions/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-06",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "eurocontrol.int",
+  "host": "eurocontrol.int"
+ }
+}

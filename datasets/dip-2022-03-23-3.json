@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-03-23-3",
+ "title": "Border changes",
+ "hook": "The CShapes 2.0 dataset “maps the borders and capitals of independent states and dependent territories from 1886 to 2019,” and includes the specific dates of each change. It’s available in a range of formats and as an interactive graphic. Read more: Guy Schvitz et al.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "icr.ethz.ch",
+   "url": "https://icr.ethz.ch/data/cshapes/"
+  },
+  {
+   "name": "cshapes.ethz.ch",
+   "url": "https://cshapes.ethz.ch/"
+  },
+  {
+   "name": "icr.ethz.ch",
+   "url": "https://icr.ethz.ch/publications/cshapes-2/"
+  },
+  {
+   "name": "svmiller.com",
+   "url": "http://svmiller.com/"
+  },
+  {
+   "name": "correlatesofwar.org",
+   "url": "https://correlatesofwar.org/data-sets/territorial-change"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-23",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "icr.ethz.ch",
+  "host": "icr.ethz.ch"
+ }
+}

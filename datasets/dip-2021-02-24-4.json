@@ -1,0 +1,57 @@
+{
+ "id": "dip-2021-02-24-4",
+ "title": "Spanish pardons",
+ "hook": "To build El Indultómetro/The Pardonometer, the Civio Foundation has “collected, scraped and classified all the information contained in the [Official State Gazette] on pardons granted in Spain since 1996.” You can browse the 10,000+ pardons and commutations online or download the dataset, which describes the initial charges, form of relief, relevant dates, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "civio.es",
+   "url": "https://civio.es/el-indultometro/buscador-de-indultos/"
+  },
+  {
+   "name": "civio.es",
+   "url": "https://civio.es/en/pardonometer/pardons-searcher/"
+  },
+  {
+   "name": "civio.es",
+   "url": "https://civio.es/en/about-us/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Bolet%C3%ADn_Oficial_del_Estado"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/civio/elindultometro/blob/master/data/indultos.csv"
+  },
+  {
+   "name": "civio.es",
+   "url": "https://civio.es/el-indultometro/metodologia/"
+  },
+  {
+   "name": "civio.es",
+   "url": "https://civio.es/el-indultometro/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-02-24",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-02-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "civio.es",
+  "host": "civio.es"
+ }
+}

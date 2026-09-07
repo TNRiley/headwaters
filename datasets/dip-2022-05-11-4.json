@@ -1,0 +1,37 @@
+{
+ "id": "dip-2022-05-11-4",
+ "title": "Mask-wearing on NYC transit",
+ "hook": "Since June 2020, New York’s Metropolitan Transportation Authority has surveyed mask usage in a sample of subways and at its busiest bus stops.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "new.mta.info",
+   "url": "https://new.mta.info/safety-and-security/nyct-mask-compliance"
+  },
+  {
+   "name": "ny.gov",
+   "url": "https://data.ny.gov/Transportation/MTA-Subway-and-Bus-Mask-Compliance-Statistics-Begi/ijxr-nffj"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-11",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "new.mta.info",
+  "host": "new.mta.info"
+ }
+}

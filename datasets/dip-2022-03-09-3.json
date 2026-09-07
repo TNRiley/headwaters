@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-03-09-3",
+ "title": "Foreign ministry statements",
+ "hook": "The FOCUSdata project, led by New Jersey City University’s National Security Studies Department, has compiled English-language statements and articles from the foreign ministries and state media in Russia, North Korea, China, and Iran.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "focusdataproject.com",
+   "url": "https://focusdataproject.com/"
+  },
+  {
+   "name": "njcu.edu",
+   "url": "https://www.njcu.edu/academics/schools-colleges/college-professional-studies/departments/professional-security-studies"
+  },
+  {
+   "name": "academic.oup.com",
+   "url": "https://academic.oup.com/fpa/article/18/2/orac002/6527272"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataverse/focusdataproject"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-09",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "focusdataproject.com",
+  "host": "focusdataproject.com"
+ }
+}

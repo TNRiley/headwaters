@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-08-12-3",
+ "title": "International banking statistics",
+ "hook": "The Bank for International Settlements, established in 1930 and run by a group of central banks, publishes a range of statistical datasets “designed to inform analysis of financial stability, international monetary spillovers and global liquidity.” The datasets are available to explore online and to download; they cover exchange rates, cross-border liabilities, consumer prices, debt service ratios, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "bis.org",
+   "url": "https://www.bis.org/about/index.htm"
+  },
+  {
+   "name": "bis.org",
+   "url": "https://www.bis.org/about/member_cb.htm"
+  },
+  {
+   "name": "bis.org",
+   "url": "https://www.bis.org/statistics/index.htm"
+  },
+  {
+   "name": "stats.bis.org",
+   "url": "https://stats.bis.org/statx/toc/LBS.html"
+  },
+  {
+   "name": "bis.org",
+   "url": "https://www.bis.org/statistics/full_data_sets.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-12",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bis.org",
+  "host": "bis.org"
+ }
+}

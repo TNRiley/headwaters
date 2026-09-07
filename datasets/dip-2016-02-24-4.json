@@ -1,0 +1,50 @@
+{
+ "id": "dip-2016-02-24-4",
+ "title": "Cruise ship inspections",
+ "hook": "The CDC publishes a searchable database of its cruise ship sanitation inspections — but doesn’t provide an option to download the data. Last week, an open-data enthusiast scraped the database and posted CSVs of specific deficiencies and overall inspection scores since 1990.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "wwwn.cdc.gov",
+   "url": "http://wwwn.cdc.gov/InspectionQueryTool/InspectionSearch.aspx"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/marks"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/marks/cdc-cruise-ship-inspections"
+  },
+  {
+   "name": "wwwn.cdc.gov",
+   "url": "http://wwwn.cdc.gov/InspectionQueryTool/InspectionDetailReport.aspx?ColI=MTMzMDc2-8Ref6xawqHU%3d"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/cruises/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-24",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wwwn.cdc.gov",
+  "host": "wwwn.cdc.gov"
+ }
+}

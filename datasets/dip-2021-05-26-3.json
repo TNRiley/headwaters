@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-05-26-3",
+ "title": "Political institutions",
+ "hook": "The Inter-American Development Bank’s Database of Political Institutions 2020 provides structured information on 180+ countries’ national governments and elections going back to 1975.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "iadb.org",
+   "url": "https://www.iadb.org/en"
+  },
+  {
+   "name": "iadb.org",
+   "url": "https://www.iadb.org/en/research-and-data/dpi2020"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-05-26",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-05-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "iadb.org",
+  "host": "iadb.org"
+ }
+}

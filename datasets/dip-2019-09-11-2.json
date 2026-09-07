@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-09-11-2",
+ "title": "City street speeds and travel times",
+ "hook": "Uber Movement, from the titular ride-hailing company, “shares anonymized data aggregated from over ten billion trips to help urban planning around the world.” Online, you can explore street speeds and estimated travel times for dozens of cities.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "movement.uber.com",
+   "url": "https://movement.uber.com/"
+  },
+  {
+   "name": "npmjs.com",
+   "url": "https://www.npmjs.com/package/movement-data-toolkit"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-11",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "movement.uber.com",
+  "host": "movement.uber.com"
+ }
+}

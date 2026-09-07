@@ -1,0 +1,43 @@
+{
+ "id": "dip-2021-11-17-4",
+ "title": "Mineral production",
+ "hook": "The US Geological Survey’s National Minerals Information Center keeps tabs on “minerals and materials essential to the U.S. economy, the national security, and protection of the environment.” Its published datasets include annual statistics on mineral production by state, by country, and by commodity. [h/t Brian C.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/centers/nmic"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/centers/nmic/state-minerals-statistics-and-information"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/centers/nmic/international-minerals-statistics-and-information"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/centers/nmic/commodity-statistics-and-information"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-11-17",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-11-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usgs.gov",
+  "host": "usgs.gov"
+ }
+}

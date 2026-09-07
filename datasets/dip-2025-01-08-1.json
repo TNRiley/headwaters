@@ -1,0 +1,62 @@
+{
+ "id": "dip-2025-01-08-1",
+ "title": "Overdose demographics",
+ "hook": "Since mid-2024, reporters at the Baltimore Banner have been publishing a series examining the city’s overdose crisis — reporting supported by The New York Times’ Local Investigations Fellowship and Stanford’s Big Local News.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "thebaltimorebanner.com",
+   "url": "https://www.thebaltimorebanner.com/specials/overdose-crisis/"
+  },
+  {
+   "name": "nytco.com",
+   "url": "https://www.nytco.com/careers/local-investigations-fellowship/"
+  },
+  {
+   "name": "biglocalnews.org",
+   "url": "https://biglocalnews.org/content/about/"
+  },
+  {
+   "name": "thebaltimorebanner.com",
+   "url": "https://www.thebaltimorebanner.com/banner-pr/new-york-times-big-local-news-opioid-crisis-partnership-2ONBVC5UHVATDAW6GKG5V55WZE/"
+  },
+  {
+   "name": "biglocalnews.org",
+   "url": "https://biglocalnews.org/content/news/2024/12/20/overdose-cohorts.html"
+  },
+  {
+   "name": "purl.stanford.edu",
+   "url": "https://purl.stanford.edu/cx567kr8730"
+  },
+  {
+   "name": "stacks.stanford.edu",
+   "url": "https://stacks.stanford.edu/file/druid:cx567kr8730/Senior_Overdoses_Project_README.pdf"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2024/12/20/upshot/black-men-overdose-deaths.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-01-08",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-01-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "thebaltimorebanner.com",
+  "host": "thebaltimorebanner.com"
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "dip-2017-05-17-3",
+ "title": "Rising seas",
+ "hook": "How might rising sea levels affect coastal flooding? A new-ish NOAA Technical Report, published in January, combines historical data on global sea levels with “regional factors contributing to sea level change for the entire U.S.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "noaa.gov",
+   "url": "http://www.noaa.gov/media-release/new-regional-sea-level-scenarios-help-communities-prepare-for-risks"
+  },
+  {
+   "name": "sealevel.nasa.gov",
+   "url": "https://sealevel.nasa.gov/understanding-sea-level/key-indicators/global-mean-sea-level"
+  },
+  {
+   "name": "scenarios.globalchange.gov",
+   "url": "https://scenarios.globalchange.gov/sea-level-rise"
+  },
+  {
+   "name": "coast.noaa.gov",
+   "url": "https://coast.noaa.gov/slr/"
+  },
+  {
+   "name": "climatecentral.org",
+   "url": "http://www.climatecentral.org/news/extreme-sea-level-rise-stakes-for-america-21387"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-03-23-edition"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-09-14-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-17",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "noaa.gov",
+  "host": "noaa.gov"
+ }
+}

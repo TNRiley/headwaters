@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-09-21-1",
+ "title": "Labor turnover",
+ "hook": "The US Bureau of Labor Statistics’ monthly Job Openings and Labor Turnover Survey estimates the number of jobs that people quit, how many people were fired or laid off, the number of new hires, and the current number of open positions.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/jlt/"
+  },
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/opub/hom/jlt/data.htm"
+  },
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/jlt/data.htm"
+  },
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/jlt/jltdef.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-21",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BLS",
+  "host": "bls.gov"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-06-08-3",
+ "title": "Hong Kong political prisoners",
+ "hook": "The Hong Kong Democracy Council, a US-based advocacy group, last month published the first version of its Hong Kong Political Prisoners Database, which contains information about 1,000+ protesters, opposition leaders, and national security law defendants incarcerated since the city’s pro-democracy mass protests in mid-2019.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "reference works",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "hkdc.us",
+   "url": "https://hkdc.us/about/"
+  },
+  {
+   "name": "hkdc.us",
+   "url": "https://hkdc.us/political-prisoners-latest-update/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Hong_Kong_national_security_law"
+  },
+  {
+   "name": "hkdc.us",
+   "url": "https://hkdc.us/political-prisoners-research-report/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-08",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "hkdc.us",
+  "host": "hkdc.us"
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "id": "dip-2022-06-29-1",
+ "title": "State abortion laws",
+ "hook": "The Guttmacher Institute, a “research and policy organization committed to advancing sexual and reproductive health and rights,” maintains a table summarizing each US state’s abortion laws.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "guttmacher.org",
+   "url": "https://www.guttmacher.org/about"
+  },
+  {
+   "name": "guttmacher.org",
+   "url": "https://www.guttmacher.org/state-policy/explore/overview-abortion-laws"
+  },
+  {
+   "name": "guttmacher.org",
+   "url": "https://www.guttmacher.org/united-states/abortion/state-policies-abortion"
+  },
+  {
+   "name": "guttmacher.org",
+   "url": "https://www.guttmacher.org/state-policy/explore/abortion-policy-absence-roe"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/kthnf/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-10-28-edition/"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/5k7fp/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-04-14-edition/"
+  },
+  {
+   "name": "abortion-policies.srhr.org",
+   "url": "https://abortion-policies.srhr.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-10-13-edition/"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/8dg7r/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-02-02-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-29",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "guttmacher.org",
+  "host": "guttmacher.org"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-04-18-5",
+ "title": "Miscellany",
+ "hook": "The University of Florida’s Larry Winner has collected hundreds of “miscellaneous” datasets, many from niche academic studies.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "users.stat.ufl.edu",
+   "url": "http://users.stat.ufl.edu/~winner/"
+  },
+  {
+   "name": "users.stat.ufl.edu",
+   "url": "http://users.stat.ufl.edu/~winner/datasets.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-18",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "users.stat.ufl.edu",
+  "host": "users.stat.ufl.edu"
+ }
+}

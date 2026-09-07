@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-02-08-5",
+ "title": "Life expectancies",
+ "hook": "The World Health Organization publishes life expectancy estimates for 194 countries, for each year between 2000 and 2015. Related: “One Dataset, Visualized 25 Ways.” Previously: American life expectancies by city (April 13, 2016).",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "who.int",
+   "url": "http://www.who.int/gho/mortality_burden_disease/life_tables/situation_trends/en/"
+  },
+  {
+   "name": "flowingdata.com",
+   "url": "http://flowingdata.com/2017/01/24/one-dataset-visualized-25-ways/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-04-13-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-02-08",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-02-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "who.int",
+  "host": "who.int"
+ }
+}

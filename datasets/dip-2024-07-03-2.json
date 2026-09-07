@@ -1,0 +1,73 @@
+{
+ "id": "dip-2024-07-03-2",
+ "title": "Death penalty status by country",
+ "hook": "The Comparative Death Penalty Database, compiled by Carsten Anckar and Thomas Denk, tracks the status of capital punishment in 206 independent countries annually from 1800 to 2022.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LI3WYK"
+  },
+  {
+   "name": "link.springer.com",
+   "url": "https://link.springer.com/article/10.1057/s41304-024-00491-8"
+  },
+  {
+   "name": "research.abo.fi",
+   "url": "https://research.abo.fi/en/persons/carsten-anckar"
+  },
+  {
+   "name": "oru.se",
+   "url": "https://www.oru.se/english/employee/thomas_denk"
+  },
+  {
+   "name": "deathpenaltyinfo.org",
+   "url": "https://deathpenaltyinfo.org/"
+  },
+  {
+   "name": "deathpenaltyinfo.org",
+   "url": "https://deathpenaltyinfo.org/database/executions"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-05-15-edition/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/theintercept/the-condemned-data"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-12-11-edition/"
+  },
+  {
+   "name": "endofitsrope.com",
+   "url": "https://endofitsrope.com/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-08-01-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-03",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataverse.harvard.edu",
+  "host": "dataverse.harvard.edu"
+ }
+}

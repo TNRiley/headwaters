@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-09-30-2",
+ "title": "Centuries of federal debt",
+ "hook": "The US Treasury’s “Debt to the Penny” dataset reports the total amount of outstanding public debt issued by the federal government — updated daily and going back to April 1, 1993. As of Monday, that number was $26,811,409,726,497.33. Another of the Treasury’s datasets provides annual debt figures going back to 1789.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fiscaldata.treasury.gov",
+   "url": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny"
+  },
+  {
+   "name": "fiscaldata.treasury.gov",
+   "url": "https://fiscaldata.treasury.gov/datasets/"
+  },
+  {
+   "name": "fiscaldata.treasury.gov",
+   "url": "https://fiscaldata.treasury.gov/datasets/historical-debt-outstanding/historical-debt-outstanding"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-09-30",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-09-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fiscaldata.treasury.gov",
+  "host": "fiscaldata.treasury.gov"
+ }
+}

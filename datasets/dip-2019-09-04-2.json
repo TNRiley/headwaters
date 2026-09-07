@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-09-04-2",
+ "title": "CAR refugees",
+ "hook": "The Central African Republic’s ongoing civil war has pressed more than 600,000 people to flee the country. The violence has also internally displaced another 600,000 people, a phenomenon that the UN's Humanitarian Data Exchange has been tracking.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "cfr.org",
+   "url": "https://www.cfr.org/interactive/global-conflict-tracker/conflict/violence-central-african-republic"
+  },
+  {
+   "name": "data2.unhcr.org",
+   "url": "https://data2.unhcr.org/en/situations/car"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/car-baseline-assessment-data-iom-dtm"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/car-shapefile-idp-sites"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/car-roads-and-paths-shapefile"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/visualization/a-journey-of-600km-car/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-04",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cfr.org",
+  "host": "cfr.org"
+ }
+}

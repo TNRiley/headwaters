@@ -1,0 +1,62 @@
+{
+ "id": "dip-2022-11-16-1",
+ "title": "Big emitters",
+ "hook": "Climate TRACE, a nonprofit coalition launched in 2020, uses satellite imagery, sector-specific datasets, and other sources to estimate greenhouse gas emissions in detail.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "climatetrace.org",
+   "url": "https://climatetrace.org/"
+  },
+  {
+   "name": "climatetrace.org",
+   "url": "https://climatetrace.org/our-story"
+  },
+  {
+   "name": "climatetrace.org",
+   "url": "https://climatetrace.org/public/upload/files/62f50cfb415f6.pdf?v=1667641844"
+  },
+  {
+   "name": "climatetrace.org",
+   "url": "https://climatetrace.org/news/more-than-70000-of-the-highest-emitting-greenhouse-gas"
+  },
+  {
+   "name": "climatetrace.org",
+   "url": "https://climatetrace.org/downloads"
+  },
+  {
+   "name": "climatetrace.org",
+   "url": "https://climatetrace.org/inventory"
+  },
+  {
+   "name": "climatetrace.org",
+   "url": "https://climatetrace.org/map"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2022/11/09/climate/climate-change-emissions-satellites.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-16",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "climatetrace.org",
+  "host": "climatetrace.org"
+ }
+}

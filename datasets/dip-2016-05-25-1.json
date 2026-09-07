@@ -1,0 +1,73 @@
+{
+ "id": "dip-2016-05-25-1",
+ "title": "Ain’t no mountain high, ain’t no valley low",
+ "hook": "Governments around the world have used “LiDAR” — a laser-powered surveying technology — to build impressively precise elevation maps. In many cases, they’ve also released these topographic datasets to the public. The U.S., for instance, publishes gobs of LiDAR data through the Interagency Elevation Inventory.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Lidar"
+  },
+  {
+   "name": "coast.noaa.gov",
+   "url": "https://coast.noaa.gov/inventory/"
+  },
+  {
+   "name": "environmentagency.blog.gov.uk",
+   "url": "https://environmentagency.blog.gov.uk/2015/09/18/laser-surveys-light-up-open-data/"
+  },
+  {
+   "name": "pnoa.ign.es",
+   "url": "http://pnoa.ign.es/presentacion"
+  },
+  {
+   "name": "maanmittauslaitos.fi",
+   "url": "http://www.maanmittauslaitos.fi/en/professionals/topographic-data/remote-sensing/laser-scanning"
+  },
+  {
+   "name": "evode.arso.gov.si",
+   "url": "http://evode.arso.gov.si/indexd022.html?q=node/12"
+  },
+  {
+   "name": "rapidlasso.com",
+   "url": "http://rapidlasso.com/2014/05/15/lasmoons-asger-s-petersen/"
+  },
+  {
+   "name": "swisstopo.admin.ch",
+   "url": "http://www.swisstopo.admin.ch/internet/swisstopo/en/home/products/height.html"
+  },
+  {
+   "name": "ahn.nl",
+   "url": "http://www.ahn.nl/index.html"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/City-Government/1-foot-Digital-Elevation-Model-DEM-/dpc8-z3jc"
+  },
+  {
+   "name": "aeracode.org",
+   "url": "http://www.aeracode.org/2016/5/16/hello-london-rising/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-25",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

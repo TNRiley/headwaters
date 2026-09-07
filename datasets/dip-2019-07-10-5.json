@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-07-10-5",
+ "title": "Ballparks",
+ "hook": "James Fee has compiled a dataset of more than 400 baseball stadiums from more than 40 leagues around the world; each stadium’s information includes its name, team(s), league(s), and geographic coordinates.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "spatiallyadjusted.com",
+   "url": "http://spatiallyadjusted.com/about/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cageyjames/GeoJSON-Ballparks/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-10",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "spatiallyadjusted.com",
+  "host": "spatiallyadjusted.com"
+ }
+}

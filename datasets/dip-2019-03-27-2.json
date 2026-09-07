@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-03-27-2",
+ "title": "Spring firsts",
+ "hook": "Phenology (literally: “the science of appearance”) is the location-and-species-specific study of recurring plant and animal phenomena, such as the annual arrivals and departures of migratory birds.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "usanpn.org",
+   "url": "https://www.usanpn.org/home"
+  },
+  {
+   "name": "usanpn.org",
+   "url": "https://www.usanpn.org/data/quality"
+  },
+  {
+   "name": "usanpn.org",
+   "url": "https://www.usanpn.org/data"
+  },
+  {
+   "name": "usanpn.org",
+   "url": "https://www.usanpn.org/data/observational"
+  },
+  {
+   "name": "atmenv.envi.osakafu-u.ac.jp",
+   "url": "http://atmenv.envi.osakafu-u.ac.jp/aono/kyophenotemp4/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-04-05-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-27",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usanpn.org",
+  "host": "usanpn.org"
+ }
+}

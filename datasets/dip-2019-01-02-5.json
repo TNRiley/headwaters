@@ -1,0 +1,39 @@
+{
+ "id": "dip-2019-01-02-5",
+ "title": "A highly-measured beach",
+ "hook": "The Narrabeen-Collaroy Beach Survey Program has been measuring a major stretch of the Sydney shore every month since April 1976. You can explore the data online and (free registration required) download it. [h/t Robbi Bishop-Taylor + Mitchell Harley]",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "Australia",
+ "sources": [
+  {
+   "name": "narrabeen.wrl.unsw.edu.au",
+   "url": "http://narrabeen.wrl.unsw.edu.au/"
+  },
+  {
+   "name": "narrabeen.wrl.unsw.edu.au",
+   "url": "http://narrabeen.wrl.unsw.edu.au/explore_data/"
+  },
+  {
+   "name": "narrabeen.wrl.unsw.edu.au",
+   "url": "http://narrabeen.wrl.unsw.edu.au/download/narrabeen/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-02",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "narrabeen.wrl.unsw.edu.au",
+  "host": "narrabeen.wrl.unsw.edu.au"
+ }
+}

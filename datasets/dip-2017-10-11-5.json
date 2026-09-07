@@ -1,0 +1,33 @@
+{
+ "id": "dip-2017-10-11-5",
+ "title": "Humans in motion",
+ "hook": "Carnegie Mellon’s Motion Capture Database provides data files and videos representing humans performing various activities: shaking hands, drinking soda, exchanging “angry hand gestures,” doing cartwheels, mopping floors, laughing, chicken-dancing, and oh-so-much more. [h/t John Emerson]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "mocap.cs.cmu.edu",
+   "url": "http://mocap.cs.cmu.edu/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-10-11",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-10-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mocap.cs.cmu.edu",
+  "host": "mocap.cs.cmu.edu"
+ }
+}

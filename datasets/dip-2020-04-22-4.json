@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-04-22-4",
+ "title": "NYC sidewalks, narrow and broad",
+ "hook": "Urban planner Meli Harvey has taken New York City’s official dataset of sidewalks and dissected its geometries to map the width of each segment of walkable pavement. [h/t Dan Brady]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "meliharvey.com",
+   "url": "http://meliharvey.com/"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/City-Government/Sidewalk/vfx9-tbb6"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/meliharvey/sidewalkwidths-nyc"
+  },
+  {
+   "name": "sidewalkwidths.nyc",
+   "url": "http://www.sidewalkwidths.nyc/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-22",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "meliharvey.com",
+  "host": "meliharvey.com"
+ }
+}

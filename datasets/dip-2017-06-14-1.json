@@ -1,0 +1,65 @@
+{
+ "id": "dip-2017-06-14-1",
+ "title": "Supreme Court transcripts",
+ "hook": "Oyez.org bills itself as, among other things, “a complete and authoritative source for all of the [Supreme] Court’s audio since the installation of a recording system in October 1955.” The site has an API and releases all its material — including timestamped transcripts of oral arguments — under a Creative Commons license.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "oyez.org",
+   "url": "https://www.oyez.org/"
+  },
+  {
+   "name": "oyez.org",
+   "url": "https://www.oyez.org/about"
+  },
+  {
+   "name": "oyez.org",
+   "url": "https://www.oyez.org/license"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/walkerdb/supreme_court_transcripts/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/free-law-coalition/oyez-scotus"
+  },
+  {
+   "name": "youtube.com",
+   "url": "https://www.youtube.com/c/PuppyJusticeAutomated"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ALSchwalm/PuppyJusticeAutomated"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-04-13-edition"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-02-23-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-14",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "oyez.org",
+  "host": "oyez.org"
+ }
+}

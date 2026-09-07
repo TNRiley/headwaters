@@ -1,0 +1,35 @@
+{
+ "id": "dip-2020-05-13-5",
+ "title": "Millions of Iowa liquor purchases",
+ "hook": "Iowa’s Alcoholic Beverages Division publishes itemized data on all liquor sales by grocery/liquor/convenience-type stores since January 2002 — more than 18 million purchases in all. For each purchase, the dataset includes the specific kind, amount, and cost of the liquor, plus the date and location of the sale.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "iowa.gov",
+   "url": "https://data.iowa.gov/Sales-Distribution/Iowa-Liquor-Sales/m3tr-qhgy"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-08-07-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-13",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "iowa.gov",
+  "host": "iowa.gov"
+ }
+}

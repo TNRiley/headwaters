@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-12-27-3",
+ "title": "A better mammography database",
+ "hook": "The Digital Database for Screening Mammography was first released two decades ago, in 1997. It contains data and images from 2,620 mammographies — a mix of normal, benign, and malignant cases.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "marathon.csee.usf.edu",
+   "url": "http://marathon.csee.usf.edu/Mammography/Database.html"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata2017177"
+  },
+  {
+   "name": "wiki.cancerimagingarchive.net",
+   "url": "https://wiki.cancerimagingarchive.net/display/Public/CBIS-DDSM#9a3e6931566743438ac1bb86921a522d"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-12-27",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-12-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "marathon.csee.usf.edu",
+  "host": "marathon.csee.usf.edu"
+ }
+}

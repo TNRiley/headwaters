@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-08-28-3",
+ "title": "Congressional whip counts",
+ "hook": "Government professor C. Lawrence Evans’ dataset of US House \"whip counts\" describes more than 650 of the informal polls conducted by party leadership — covering 1955–86 for Democrats and 1975–80 for Republicans, on topics as varied as dairy prices, Alaskan statehood, voting rights, and Vietnam.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "wmpeople.wm.edu",
+   "url": "https://wmpeople.wm.edu/site/page/clevan/home"
+  },
+  {
+   "name": "wmpeople.wm.edu",
+   "url": "https://wmpeople.wm.edu/site/page/clevan/congressionalwhipcountdatabase"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-28",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wmpeople.wm.edu",
+  "host": "wmpeople.wm.edu"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-04-05-2",
+ "title": "European buildings",
+ "hook": "EUBUCCO is a “database of individual building footprints for 200+ million buildings across the 27 European Union countries and Switzerland, together with three main attributes – building type, height and construction year – included for respectively 45%, 74%, 24% of the buildings.” The researchers, who describe their methodology in a recent paper, collected and standardized the information from 50 open government datasets and OpenStreetMap.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "eubucco.com",
+   "url": "https://eubucco.com/"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-023-02040-2"
+  },
+  {
+   "name": "eubucco.com",
+   "url": "https://eubucco.com/data/map"
+  },
+  {
+   "name": "eubucco.com",
+   "url": "https://eubucco.com/data/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ai4up/eubucco"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-05",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "eubucco.com",
+  "host": "eubucco.com"
+ }
+}

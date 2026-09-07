@@ -1,0 +1,35 @@
+{
+ "id": "dip-2016-07-27-4",
+ "title": "Walrus hangouts",
+ "hook": "The Pacific walrus (Odobenus rosmarus divergens) accounts for the vast majority of walruses on the planet. When they’re not swimming, Pacific walruses like to rest at places called “haulouts.” A new dataset and study include details on 150 current and historic haulouts, the largest of which has been reported to attract more than 100,000 walruses.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "alaska.usgs.gov",
+   "url": "http://alaska.usgs.gov/products/data.php?dataid=74"
+  },
+  {
+   "name": "ibpn.ru",
+   "url": "http://www.ibpn.ru/en/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-27",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "alaska.usgs.gov",
+  "host": "alaska.usgs.gov"
+ }
+}

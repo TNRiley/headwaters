@@ -1,0 +1,50 @@
+{
+ "id": "dip-2019-11-20-3",
+ "title": "Financial well-being",
+ "hook": "Since the mid-1980s, the US Census Bureau has periodically conducted its Survey of Income and Program Participation and provided anonymized, respondent-level data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/sipp/"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/sipp/data/datasets.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/sipp/about/sipp-content-information.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/BuzzFeedNews/2019-11-sipp"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/venessawong/millennials-parents-stereotypes-boomers-data"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-11-20",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-11-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

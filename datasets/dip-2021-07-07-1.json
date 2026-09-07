@@ -1,0 +1,51 @@
+{
+ "id": "dip-2021-07-07-1",
+ "title": "Water politics",
+ "hook": "Oregon State University’s International Water Events Database summarizes 7,000+ episodes from 1948 to 2008 that “concern water as a scarce or consumable resource or as a quantity to be managed,” categorizing their intensities and indicating the basins and countries involved.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "transboundarywaters.science.oregonstate.edu",
+   "url": "https://transboundarywaters.science.oregonstate.edu/content/international-water-event-database"
+  },
+  {
+   "name": "pacinst.org",
+   "url": "https://pacinst.org/"
+  },
+  {
+   "name": "worldwater.org",
+   "url": "https://www.worldwater.org/water-conflict/"
+  },
+  {
+   "name": "prio.org",
+   "url": "https://www.prio.org/Publications/Publication/?x=5118"
+  },
+  {
+   "name": "ifi.u-tokyo.ac.jp",
+   "url": "https://ifi.u-tokyo.ac.jp/en/wp-content/uploads/2021/05/sdgs_wp_2020_wada_en.pdf"
+  },
+  {
+   "name": "gdeltproject.org",
+   "url": "https://www.gdeltproject.org/data.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-07-07",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-07-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "transboundarywaters.science.oregonstate.edu",
+  "host": "transboundarywaters.science.oregonstate.edu"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2025-01-29-5",
+ "title": "A royal regatta",
+ "hook": "The Henley Royal Regatta, a multi-day rowing competition, has been held on the River Thames nearly every year since 1839. Dominic Goymour has scraped the event’s online results into a dataset covering 7,500+ outcomes since 1999.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "hrr.co.uk",
+   "url": "https://www.hrr.co.uk/"
+  },
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/in/dominic-goymour-gradiema-b660981ab/"
+  },
+  {
+   "name": "hrr.co.uk",
+   "url": "https://www.hrr.co.uk/results"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/domigmr/henley"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-01-29",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-01-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "hrr.co.uk",
+  "host": "hrr.co.uk"
+ }
+}

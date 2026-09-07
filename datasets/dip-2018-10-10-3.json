@@ -1,0 +1,47 @@
+{
+ "id": "dip-2018-10-10-3",
+ "title": "Public holidays",
+ "hook": "Nager.Date calculates the timing — past, present, and future — of public holidays for more than 90 countries. The holidays can be browsed online, accessed via an API, or downloaded as CSVs (one per country per year). Now you know: Today is Cuba’s Día de la Independencia and Suriname’s Day of the Maroons.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "date.nager.at",
+   "url": "https://date.nager.at/"
+  },
+  {
+   "name": "date.nager.at",
+   "url": "https://date.nager.at/Home/Countries"
+  },
+  {
+   "name": "date.nager.at",
+   "url": "https://date.nager.at/Home/Api"
+  },
+  {
+   "name": "date.nager.at",
+   "url": "https://date.nager.at/PublicHoliday/Country/CU/2018"
+  },
+  {
+   "name": "date.nager.at",
+   "url": "https://date.nager.at/PublicHoliday/Country/SR/2018"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-10-10",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-10-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "date.nager.at",
+  "host": "date.nager.at"
+ }
+}

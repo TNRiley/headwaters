@@ -1,0 +1,33 @@
+{
+ "id": "dip-2023-08-02-3",
+ "title": "COVID-19 in deer",
+ "hook": "Aijing Feng et al. “collected 8,830 respiratory samples from free-ranging white-tailed deer across Washington, D.C.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41467-023-39782-x"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-08-02",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-08-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

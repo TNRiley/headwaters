@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-03-13-1",
+ "title": "Humanitarian emergency mapping",
+ "hook": "The United Nations Satellite Centre (UNOSAT) provides a range of services to UN agencies and the general public, including downloadable maps, data, and analyses produced “in response to humanitarian emergencies related to disasters, complex emergencies and conflict situations.” Those currently available include assessments of flood impacts in Libya, landslides in the Republic of the Congo, and building damage in the Gaza Strip.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "unosat.org",
+   "url": "https://unosat.org/"
+  },
+  {
+   "name": "unosat.org",
+   "url": "https://unosat.org/services/"
+  },
+  {
+   "name": "unosat.org",
+   "url": "https://unosat.org/products/"
+  },
+  {
+   "name": "unosat.org",
+   "url": "https://unosat.org/products/3800"
+  },
+  {
+   "name": "unosat.org",
+   "url": "https://unosat.org/products/3798"
+  },
+  {
+   "name": "unosat.org",
+   "url": "https://unosat.org/products/3793"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/organization/unosat"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-03-13",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-03-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "unosat.org",
+  "host": "unosat.org"
+ }
+}

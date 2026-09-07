@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-10-26-2",
+ "title": "Internet service offers",
+ "hook": "For an investigation into speed disparities in internet service offers, published last week at The Markup, reporters Leon Yin and Aaron Sankin examined more than 1 million address-specific offers across dozens of US cities.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "themarkup.org",
+   "url": "https://themarkup.org/still-loading/2022/10/19/dollars-to-megabits-you-may-be-paying-400-times-as-much-as-your-neighbor-for-internet-service"
+  },
+  {
+   "name": "themarkup.org",
+   "url": "https://themarkup.org/show-your-work/2022/10/19/how-we-uncovered-disparities-in-internet-deals"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-markup/investigation-isp"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-26",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "themarkup.org",
+  "host": "themarkup.org"
+ }
+}

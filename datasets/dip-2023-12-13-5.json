@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-12-13-5",
+ "title": "Finland transport",
+ "hook": "The Finnish Transport and Communications Agency’s public datasets span a range of topics, including the radio spectrum, mobile networks, cybersecurity, registered vehicles, ships, aircraft, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "tieto.traficom.fi",
+   "url": "https://tieto.traficom.fi/en/"
+  },
+  {
+   "name": "tieto.traficom.fi",
+   "url": "https://tieto.traficom.fi/en/datatraficom/open-data"
+  },
+  {
+   "name": "trafi2.stat.fi",
+   "url": "https://trafi2.stat.fi/PXWeb/pxweb/en/TraFi/"
+  },
+  {
+   "name": "tieto.traficom.fi",
+   "url": "https://tieto.traficom.fi/en/statistics/statistics-inspections"
+  },
+  {
+   "name": "tieto.traficom.fi",
+   "url": "https://tieto.traficom.fi/en/statistics/statistics-driving-and-theory-tests"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-12-13",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-12-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tieto.traficom.fi",
+  "host": "tieto.traficom.fi"
+ }
+}

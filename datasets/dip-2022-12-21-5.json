@@ -1,0 +1,51 @@
+{
+ "id": "dip-2022-12-21-5",
+ "title": "Ski trails",
+ "hook": "Contributors to skimap.org have posted 16,000+ maps of ski trails across the world. You can programmatically access the (mostly image-based) maps as well as data on individual regions and ski areas.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "skimap.org",
+   "url": "https://skimap.org/"
+  },
+  {
+   "name": "skimap.org",
+   "url": "https://skimap.org/Regions/view"
+  },
+  {
+   "name": "skimap.org",
+   "url": "https://skimap.org/pages/Developers"
+  },
+  {
+   "name": "openskimap.org",
+   "url": "https://openskimap.org/"
+  },
+  {
+   "name": "openstreetmap.org",
+   "url": "https://www.openstreetmap.org/about"
+  },
+  {
+   "name": "openskimap.org",
+   "url": "https://openskimap.org/?about"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-12-21",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-12-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "skimap.org",
+  "host": "skimap.org"
+ }
+}

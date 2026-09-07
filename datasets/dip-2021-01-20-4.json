@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-01-20-4",
+ "title": "India’s coal mines",
+ "hook": "Thanks to India’s Right to Information Act, energy researcher Sandeep Pai has compiled a dataset of the country’s 459 operational coal mines. It includes each mine’s name, location (state, district, latitude, longitude), ownership, production tonnage, and more. Related: Pai’s introductory Twitter thread.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "iopscience.iop.org",
+   "url": "https://iopscience.iop.org/article/10.1088/2633-1357/abdbbb"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TDEK8O"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-20",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "iopscience.iop.org",
+  "host": "iopscience.iop.org"
+ }
+}

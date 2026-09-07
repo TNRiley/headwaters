@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-08-23-2",
+ "title": "Who really controls UK companies?",
+ "hook": "Last year, the British government began requiring companies to identify all the people who exert power over them.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/news/people-with-significant-control-companies-house-register-goes-live"
+  },
+  {
+   "name": "companieshouse.gov.uk",
+   "url": "http://download.companieshouse.gov.uk/en_pscdata.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-23",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "www.gov.uk",
+  "host": "gov.uk"
+ }
+}

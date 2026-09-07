@@ -1,0 +1,65 @@
+{
+ "id": "dip-2022-03-09-2",
+ "title": "International crises",
+ "hook": "The International Crisis Behavior Project, initiated in 1975, collects detailed data about interstate military-security crises such as the Mukden Incident, Cuban Missile Crisis, and Russia’s 2014 invasion of Crimea.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "sites.duke.edu",
+   "url": "https://sites.duke.edu/icbdata/"
+  },
+  {
+   "name": "sites.duke.edu",
+   "url": "https://sites.duke.edu/icbdata/project-info/"
+  },
+  {
+   "name": "icb.umd.edu",
+   "url": "http://www.icb.umd.edu/dataviewer/?crisno=39"
+  },
+  {
+   "name": "icb.umd.edu",
+   "url": "http://www.icb.umd.edu/dataviewer/?crisno=196"
+  },
+  {
+   "name": "icb.umd.edu",
+   "url": "http://www.icb.umd.edu/dataviewer/?crisno=471"
+  },
+  {
+   "name": "sites.duke.edu",
+   "url": "https://sites.duke.edu/icbdata/data-collections/"
+  },
+  {
+   "name": "icb.umd.edu",
+   "url": "http://www.icb.umd.edu/dataviewer/"
+  },
+  {
+   "name": "crisisevents.org",
+   "url": "https://www.crisisevents.org/"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2202.07081"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-09",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sites.duke.edu",
+  "host": "sites.duke.edu"
+ }
+}

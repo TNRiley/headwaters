@@ -1,0 +1,61 @@
+{
+ "id": "dip-2023-06-07-2",
+ "title": "Commercial space launches",
+ "hook": "The Federal Aviation Administration regulates the United States’ commercial space transportation industry. The agency publishes HTML tables listing operator licenses, permits for experimental operations, licensed launches, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/space"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/data_research/commercial_space_data/"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/data_research/commercial_space_data/licenses/"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/data_research/commercial_space_data/launches/?type=Permitted"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/data_research/commercial_space_data/launches/"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/sites/faa.gov/files/images/ast/AST-Spaceport-Map_Sept2022.jpg"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/space/spaceports_by_state"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/space/office_spaceports"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-06-07",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-06-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "faa.gov",
+  "host": "faa.gov"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "dip-2023-04-12-1",
+ "title": "Jail rosters",
+ "hook": "The NYU Public Safety Lab’s Jail Data Initiative has built a fleet of web scrapers to gather and process daily roster data from 1,000+ US city and county jails.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "publicsafetylab.org",
+   "url": "https://publicsafetylab.org/"
+  },
+  {
+   "name": "jaildatainitiative.org",
+   "url": "https://jaildatainitiative.org/"
+  },
+  {
+   "name": "jaildatainitiative.org",
+   "url": "https://jaildatainitiative.org/documentation/architecture"
+  },
+  {
+   "name": "jaildatainitiative.org",
+   "url": "https://jaildatainitiative.org/documentation/scrapers"
+  },
+  {
+   "name": "jaildatainitiative.org",
+   "url": "https://jaildatainitiative.org/documentation/about"
+  },
+  {
+   "name": "jaildatainitiative.org",
+   "url": "https://jaildatainitiative.org/dashboards/population"
+  },
+  {
+   "name": "jaildatainitiative.org",
+   "url": "https://jaildatainitiative.org/profile"
+  },
+  {
+   "name": "jaildatainitiative.org",
+   "url": "https://jaildatainitiative.org/dua"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-12",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "publicsafetylab.org",
+  "host": "publicsafetylab.org"
+ }
+}

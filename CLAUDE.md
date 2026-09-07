@@ -9,8 +9,10 @@ Two catalogues that answer different questions.
 
 **`datasets/<id>.json` — what data exists.** One file per published dataset: what it is, the
 curator's own pitch, the files in it with their column names, who published it upstream, and
-which aggregation surfaced it. 428 records, seeded from every TidyTuesday week since 2018.
-This is the browsing layer — "is there anything good on X?"
+which aggregation surfaced it. 2,371 records from two aggregations — every TidyTuesday week
+since 2018, and ten years of Data Is Plural — with 30 datasets that both of them surfaced
+held as **one record with two `found_in` entries**, never two records. This is the browsing
+layer — "is there anything good on X?"
 
 **`sources/<id>.json` — how to get data.** One file per queryable endpoint. Each answers the questions you actually have
 when you want to use something: what is in it, what licence, what auth, what the rate limit
@@ -140,11 +142,19 @@ and when the title genuinely misleads, add to `OVERRIDES` **with the reason as a
 Re-running with `--force` recomputes everything including overrides; without it, existing
 values are left alone.
 
-Adding a second aggregation (Data Is Plural is the obvious next one) means a new
-`src/fetch_<name>.py` writing the same record shape with its own `id` prefix and `found_in`
-entry. A dataset that appears in two aggregations should be **one record with two `found_in`
-entries**, not two records — that is the whole point of catalogueing by dataset rather than
-by week.
+Adding a third aggregation means a new `src/fetch_<name>.py` writing the same record shape
+with its own `id` prefix and `found_in` entry — `src/fetch_dip.py` is the worked example.
+A dataset that appears in two aggregations must be **one record with two `found_in` entries**,
+not two records; that is the whole point of catalogueing by dataset rather than by week.
+
+**Read `Matcher` in `src/fetch_dip.py` before writing that merge logic**, because both
+tempting shortcuts are wrong and neither fails loudly. Matching on any link merged five
+unrelated entries that each happened to mention `gdeltproject.org`. Dropping the query string
+from a URL merged a 2015 newsletter entry into TidyTuesday's bird bath dataset, because every
+PLOS article is `journals.plos.org/plosone/article?id=…` and without the query they are all
+the same string. Identity is the entry's **first** link, query intact, and a bare homepage
+identifies nothing. A false merge destroys two real records and leaves nothing behind to
+notice it.
 
 ## Extend the source layer
 

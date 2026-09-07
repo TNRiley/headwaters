@@ -1,0 +1,41 @@
+{
+ "id": "dip-2024-03-06-3",
+ "title": "Price-fixing cartels",
+ "hook": "Industrial economist John M. Connor has constructed the Private International Cartels dataset, “which the author believes to be the largest collection of legal-economic information on contemporary price-fixing cartels.” It spans three decades (1990–2019) and covers 1,500+ suspected or convicted cartels, including…",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "concurrences.com",
+   "url": "https://www.concurrences.com/en/auteur/John-M-Connor"
+  },
+  {
+   "name": "papers.ssrn.com",
+   "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3682189"
+  },
+  {
+   "name": "purr.purdue.edu",
+   "url": "https://purr.purdue.edu/publications/2732/2"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-03-06",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-03-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "concurrences.com",
+  "host": "concurrences.com"
+ }
+}

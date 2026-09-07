@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-05-15-4",
+ "title": "Social animals",
+ "hook": "A team of biologists has compiled and standardized data on 790+ animal social networks, covering more than 45 species on six continents.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-019-0056-z"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/bansallab/asnr"
+  },
+  {
+   "name": "bansallab.github.io",
+   "url": "https://bansallab.github.io/asnr/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-15",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2018-04-04-1",
+ "title": "The Western hemisphere",
+ "hook": "The GOES-16 satellite was launched into orbit in November 2016, and it’s been collecting near-realtime images and data ever since.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/GOES-16"
+  },
+  {
+   "name": "goes-r.gov",
+   "url": "https://www.goes-r.gov/spacesegment/abi.html"
+  },
+  {
+   "name": "goes-r.gov",
+   "url": "https://www.goes-r.gov/multimedia/dataAndImageryImages.html"
+  },
+  {
+   "name": "edc.occ-data.org",
+   "url": "http://edc.occ-data.org/goes16/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jmuyskens/nicar18-data-blitz-goes-16"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-04",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

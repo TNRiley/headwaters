@@ -1,0 +1,49 @@
+{
+ "id": "dip-2025-05-21-3",
+ "title": "Corporate contracts",
+ "hook": "Peter Adelson and Julian Nyarko’s Material Contracts Corpus contains “over one million contracts filed by public companies with the U.S. Securities and Exchange Commission (SEC) between 2000 and 2023,” which the authors collected from the SEC’s EDGAR filings database.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2504.02864"
+  },
+  {
+   "name": "mcc.law.stanford.edu",
+   "url": "https://mcc.law.stanford.edu/"
+  },
+  {
+   "name": "sec.gov",
+   "url": "https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data"
+  },
+  {
+   "name": "mcc.law.stanford.edu",
+   "url": "https://mcc.law.stanford.edu/download/contracts/"
+  },
+  {
+   "name": "mcc.law.stanford.edu",
+   "url": "https://mcc.law.stanford.edu/search/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-05-21",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-05-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arxiv.org",
+  "host": "arxiv.org"
+ }
+}

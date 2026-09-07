@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-08-24-5",
+ "title": "Bryan’s whistle-stop tour",
+ "hook": "In 1896, Democratic Party presidential candidate William Jennings Bryan took four key campaign trips via rail, giving speeches in hundreds of cities along the way.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "railroads.unl.edu",
+   "url": "https://railroads.unl.edu/views/item/bryan_speech"
+  },
+  {
+   "name": "railroads.unl.edu",
+   "url": "https://railroads.unl.edu/"
+  },
+  {
+   "name": "railroads.unl.edu",
+   "url": "https://railroads.unl.edu/topics/bryanTriplog1896.php?trip=all"
+  },
+  {
+   "name": "broadstreet.blog",
+   "url": "https://broadstreet.blog/2022/07/15/do-local-campaign-visits-by-a-populist-politician-matter-in-elections/"
+  },
+  {
+   "name": "johannesbuggle.com",
+   "url": "http://www.johannesbuggle.com/"
+  },
+  {
+   "name": "stephanosvlachos.com",
+   "url": "http://www.stephanosvlachos.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-24",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "railroads.unl.edu",
+  "host": "railroads.unl.edu"
+ }
+}

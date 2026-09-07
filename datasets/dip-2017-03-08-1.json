@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-03-08-1",
+ "title": "The federal checkbook",
+ "hook": "From Treasury.io: “Every day at 4pm, the United States Treasury publishes data tables summarizing the cash spending, deposits, and borrowing of the federal government.” Those data tables “catalog all the money taken in that day from taxes, the programs, and how much debt the government took out.” On Monday, for instance, the government spent $481 million on the Postal Service.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "treasury.io",
+   "url": "http://treasury.io/"
+  },
+  {
+   "name": "fms.treas.gov",
+   "url": "https://www.fms.treas.gov/fmsweb/viewDTSFiles?dir=w&fname=17030600.txt"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/csvsoundsystem/federal-treasury-api"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/csvsoundsystem/federal-treasury-api/wiki/Treasury.io-Data-Dictionary"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-08",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "treasury.io",
+  "host": "treasury.io"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2023-12-20-4",
+ "title": "Finance ministers",
+ "hook": "Brenna Armstrong et al. have compiled a dataset of 2,900+ people who served as a national finance minister or equivalent position between 1972 and 2017.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "cambridge.org",
+   "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/financial-crises-and-the-selection-and-survival-of-women-finance-ministers/BE5E829CA0838FAEF05B7B7C15E22B32"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IAEUVB"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-12-20",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-12-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cambridge.org",
+  "host": "cambridge.org"
+ }
+}

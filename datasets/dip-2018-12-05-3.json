@@ -1,0 +1,39 @@
+{
+ "id": "dip-2018-12-05-3",
+ "title": "UK grants",
+ "hook": "The British nonprofit 360Giving helps grantmakers “to publish their grants data in an open, standardised way and helps people to understand and use the data.” Through its GrantNav platform, you can search across more than 300,000 grants — totalling more than £25 billion — given by scores of funders to nearly 180,000 recipients.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "threesixtygiving.org",
+   "url": "http://www.threesixtygiving.org/"
+  },
+  {
+   "name": "grantnav.threesixtygiving.org",
+   "url": "http://grantnav.threesixtygiving.org/"
+  },
+  {
+   "name": "grantnav.threesixtygiving.org",
+   "url": "http://grantnav.threesixtygiving.org/datasets/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-12-05",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-12-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "threesixtygiving.org",
+  "host": "threesixtygiving.org"
+ }
+}

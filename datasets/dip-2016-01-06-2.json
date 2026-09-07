@@ -1,0 +1,53 @@
+{
+ "id": "dip-2016-01-06-2",
+ "title": "The World Atlas of Language Structures",
+ "hook": "This database compares the phonological, grammatical, and lexical properties of hundreds of languages. One dataset looks at languages’ counting systems.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "reference works",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "wals.info",
+   "url": "http://wals.info/feature"
+  },
+  {
+   "name": "wals.info",
+   "url": "http://wals.info/feature/131A#2/21.3/132.2"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Vigesimal"
+  },
+  {
+   "name": "wals.info",
+   "url": "http://wals.info/feature/13A#2/19.3/152.9"
+  },
+  {
+   "name": "wals.info",
+   "url": "http://wals.info/feature/138A#2/25.5/143.8"
+  },
+  {
+   "name": "wals.info",
+   "url": "http://wals.info/feature/130A#2/14.9/153.6"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-06",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wals.info",
+  "host": "wals.info"
+ }
+}

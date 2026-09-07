@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-04-10-3",
+ "title": "Work-injury laws",
+ "hook": "Nate Breznau and Felix Lanver’s Global Work-Injury Policy Database tracks the history of work-injury laws (also known as workers’ compensation laws) in 186 “independent nation states.” For each, the database lists the year of its first such law, the year a law first provided insurance for work-related injuries, the type of program it established, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/site/nbreznau/"
+  },
+  {
+   "name": "socium.uni-bremen.de",
+   "url": "https://www.socium.uni-bremen.de/about-the-socium/members/felix-lanver/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IVKYIE"
+  },
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijsw.12418"
+  },
+  {
+   "name": "su.se",
+   "url": "https://www.su.se/social-policy-indicators-database/data?open-collapse-boxes=ccbd-socialinsuranceentitlementsdatasetsied"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-10",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sites.google.com",
+  "host": "sites.google.com"
+ }
+}

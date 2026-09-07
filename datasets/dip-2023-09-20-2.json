@@ -1,0 +1,41 @@
+{
+ "id": "dip-2023-09-20-2",
+ "title": "Net migration estimates",
+ "hook": "Using national and subnational data on birth rates, death rates, and population counts, Venla Niva et al. have constructed a dataset of estimated net migration for each part of the world, each year between 2000 and 2019.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41562-023-01689-4"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/7997134"
+  },
+  {
+   "name": "wdrg.aalto.fi",
+   "url": "https://wdrg.aalto.fi/global-net-migration-explorer/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-20",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

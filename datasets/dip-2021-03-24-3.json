@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-03-24-3",
+ "title": "Infrastructure spending",
+ "hook": "Researchers from the US Bureau of Economic Analysis have constructed a dataset of government investment in basic, social, and digital infrastructure from 1947 to 2017, using data from the agency’s National Economic Accounts.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "bea.gov",
+   "url": "https://www.bea.gov/research/papers/2020/measuring-infrastructure-bureau-economic-analysis-national-economic-accounts"
+  },
+  {
+   "name": "bea.gov",
+   "url": "https://www.bea.gov/data/economic-accounts/national"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-24",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BEA",
+  "host": "bea.gov"
+ }
+}

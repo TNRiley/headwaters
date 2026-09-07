@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-12-02-4",
+ "title": "Jefferson’s weather",
+ "hook": "From July 1776 to June 1826, Thomas Jefferson recorded thousands of nearly-daily weather observations — temperatures, precipitations, humidities, wind speeds — at Monticello, Paris, Milan, and scores of other locations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "jefferson-weather-records.org",
+   "url": "https://jefferson-weather-records.org/node/40574"
+  },
+  {
+   "name": "jefferson-weather-records.org",
+   "url": "https://jefferson-weather-records.org/node/41011"
+  },
+  {
+   "name": "jefferson-weather-records.org",
+   "url": "https://jefferson-weather-records.org/node/40566"
+  },
+  {
+   "name": "jefferson-weather-records.org",
+   "url": "https://jefferson-weather-records.org/node/40568"
+  },
+  {
+   "name": "jefferson-weather-records.org",
+   "url": "https://jefferson-weather-records.org/node/41009"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-02",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "jefferson-weather-records.org",
+  "host": "jefferson-weather-records.org"
+ }
+}

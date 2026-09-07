@@ -1,0 +1,33 @@
+{
+ "id": "dip-2015-12-23-5",
+ "title": "The emjoiverse",
+ "hook": "The Unicode Consortium publishes a big ol’ HTML table of every emoji, how they look in various contexts, and when they entered the canon. The “Christmas tree” emoji occupies code point U+1F384, and was introduced in 2010. (“Menorah with nine branches” arrived in 2015.) [h/t Ben Collins]",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "unicode.org",
+   "url": "http://unicode.org/emoji/charts/full-emoji-list.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-23",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "unicode.org",
+  "host": "unicode.org"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "dip-2021-11-10-1",
+ "title": "Toxic pollution",
+ "hook": "Last week, ProPublica published what it’s calling “the most detailed map of cancer-causing industrial air pollution in the U.S.,” along with an investigation based on the map’s revelations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/rsei"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/rsei/ways-get-rsei-results"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/toxics-release-inventory-tri-program"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/toxics-release-inventory-tri-program/find-understand-and-use-tri"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/toxics-release-inventory-tri-program/tri-threshold-screening-tool"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/toxmap/"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/toxmap-poison-in-the-air"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/how-we-created-the-most-detailed-map-ever-of-cancer-causing-industrial-air-pollution"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-11-10",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-11-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "epa.gov",
+  "host": "epa.gov"
+ }
+}

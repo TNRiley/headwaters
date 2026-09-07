@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-07-03-4",
+ "title": "Mangroves",
+ "hook": "Global Mangrove Watch uses satellite data to track the global extent of those coastal intertidal forests; the project’s seven snapshots span 1996 to 2016. Note: To download the data, you’ll need to provide a few details and agree to certain terms and conditions. [h/t Dan Friess]",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "eorc.jaxa.jp",
+   "url": "https://www.eorc.jaxa.jp/ALOS/en/kyoto/mangrovewatch.htm"
+  },
+  {
+   "name": "oceanservice.noaa.gov",
+   "url": "https://oceanservice.noaa.gov/facts/mangroves.html"
+  },
+  {
+   "name": "unep-wcmc.org",
+   "url": "http://data.unep-wcmc.org/datasets/45"
+  },
+  {
+   "name": "unep-wcmc.org",
+   "url": "https://www.unep-wcmc.org/policies/general-data-license-excluding-wdpa#data_policy"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-03",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "eorc.jaxa.jp",
+  "host": "eorc.jaxa.jp"
+ }
+}

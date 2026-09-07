@@ -1,0 +1,53 @@
+{
+ "id": "dip-2020-12-02-1",
+ "title": "Student loans",
+ "hook": "The US Department of Education publishes a range of aggregate datasets on federal student loans, including the amounts outstanding ($1.5+ trillion overall, from 43 million students), volumes of financial aid requested and awarded (by student demographic and by school), default rates, and forgiveness.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "studentaid.gov",
+   "url": "https://studentaid.gov/data-center/student"
+  },
+  {
+   "name": "studentaid.gov",
+   "url": "https://studentaid.gov/data-center/student/portfolio"
+  },
+  {
+   "name": "studentaid.gov",
+   "url": "https://studentaid.gov/data-center/student/application-volume"
+  },
+  {
+   "name": "studentaid.gov",
+   "url": "https://studentaid.gov/data-center/student/title-iv"
+  },
+  {
+   "name": "studentaid.gov",
+   "url": "https://studentaid.gov/data-center/student/default"
+  },
+  {
+   "name": "studentaid.gov",
+   "url": "https://studentaid.gov/data-center/student/loan-forgiveness"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-02",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "studentaid.gov",
+  "host": "studentaid.gov"
+ }
+}

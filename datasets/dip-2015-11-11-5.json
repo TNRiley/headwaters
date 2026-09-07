@@ -1,0 +1,41 @@
+{
+ "id": "dip-2015-11-11-5",
+ "title": "Deadly Prussian horses",
+ "hook": "For his 1898 book, The Law of Small Numbers, statistician Ladislaus Bortkiewicz tabulated the number of Prussian cavalrymen killed by horse kicks each year between 1875 and 1894.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Ladislaus_Bortkiewicz"
+  },
+  {
+   "name": "math.uah.edu",
+   "url": "http://www.math.uah.edu/stat/data/HorseKicks.html"
+  },
+  {
+   "name": "mindyourdecisions.com",
+   "url": "http://mindyourdecisions.com/blog/2013/06/21/what-do-deaths-from-horse-kicks-have-to-do-with-statistics/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-11",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

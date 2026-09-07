@@ -1,0 +1,39 @@
+{
+ "id": "dip-2019-12-18-2",
+ "title": "MENA public opinion",
+ "hook": "The Arab Barometer has “been conducting high quality and reliable public opinion surveys in the Middle East and North Africa since 2006,” and bills itself as “the largest repository of publicly available data on the views of men and women in the MENA region.” You can download raw survey data or explore it through the Barometer’s online analysis tool.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "arabbarometer.org",
+   "url": "https://www.arabbarometer.org/about/"
+  },
+  {
+   "name": "arabbarometer.org",
+   "url": "https://www.arabbarometer.org/survey-data/data-downloads/"
+  },
+  {
+   "name": "arabbarometer.org",
+   "url": "https://www.arabbarometer.org/survey-data/data-analysis-tool/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-18",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arabbarometer.org",
+  "host": "arabbarometer.org"
+ }
+}

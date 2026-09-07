@@ -1,0 +1,53 @@
+{
+ "id": "dip-2017-01-25-4",
+ "title": "European trees",
+ "hook": "EU-Forest is a new dataset that, according to its authors, “extends by almost one order of magnitude the publicly available information on European tree species distribution.” The new project merges and harmonizes data from 21 national forest surveys and two related databases.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/collections/A_high-resolution_pan-European_tree_occurrence_dataset/3288407"
+  },
+  {
+   "name": "nature.com",
+   "url": "http://www.nature.com/articles/sdata2016123"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/Tree_occurrences_at_species_level/3497885"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/Occurrences_location_shapefile/3497891"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-12-23-edition"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "http://tinyletter.com/data-is-plural/letters/data-is-plural-2016-11-16-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-01-25",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-01-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "figshare.com",
+  "host": "figshare.com"
+ }
+}

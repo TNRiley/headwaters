@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-10-05-4",
+ "title": "Federal audits",
+ "hook": "Nonprofits, state/local governments, and other noncommercial entities expending $750,000+ of federal funds in a year are required to undergo a standardized audit of their financials and compliance.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "facweb.census.gov",
+   "url": "https://facweb.census.gov/Resources.aspx"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Single_Audit"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/fac.html"
+  },
+  {
+   "name": "facdissem.census.gov",
+   "url": "https://facdissem.census.gov/PublicDataDownloads.aspx"
+  },
+  {
+   "name": "facdissem.census.gov",
+   "url": "https://facdissem.census.gov/Main.aspx"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-05",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "facweb.census.gov",
+  "host": "facweb.census.gov"
+ }
+}

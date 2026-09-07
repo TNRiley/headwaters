@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-07-31-2",
+ "title": "Talk radio transcripts",
+ "hook": "A team of researchers at the MIT Media Lab has built a corpus of machine-generated transcriptions from 284,000 hours of talk radio.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/1907.07073"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/social-machines/RadioTalk"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-31",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arxiv.org",
+  "host": "arxiv.org"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "dip-2023-11-15-2",
+ "title": "Home schooling",
+ "hook": "The Washington Post has gathered data on home-school enrollment figures in dozens of US states and 6,700+ school districts over the past six academic years.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/washingtonpost/data_home_schooling"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/washingtonpost/data_home_schooling/blob/main/home_school_data_dictionary.csv"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/pr/2023/11/09/tracking-home-schooling-an-expansive-data-set-exclusively-washington-post/"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/education/interactive/2023/homeschooling-growth-data-by-district/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-15",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

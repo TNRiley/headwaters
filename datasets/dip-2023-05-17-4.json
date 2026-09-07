@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-05-17-4",
+ "title": "Weighted, inflation-adjusted exchange rates",
+ "hook": "A country’s real effective exchange rate is its average exchange rate with its trading partners, weighted by trade volume and adjusted for inflation. Economist Zsolt Darvas maintains a dataset that estimates these rates for 178 countries and the eurozone, by month and year.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "investopedia.com",
+   "url": "https://www.investopedia.com/terms/r/reer.asp"
+  },
+  {
+   "name": "bruegel.org",
+   "url": "https://www.bruegel.org/people/zsolt-darvas"
+  },
+  {
+   "name": "bruegel.org",
+   "url": "https://www.bruegel.org/publications/datasets/real-effective-exchange-rates-for-178-countries-a-new-database"
+  },
+  {
+   "name": "bruegel.org",
+   "url": "https://www.bruegel.org/working-paper/timely-measurement-real-effective-exchange-rates"
+  },
+  {
+   "name": "bruegel.org",
+   "url": "https://www.bruegel.org/working-paper/real-effective-exchange-rates-178-countries-new-database"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-17",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "investopedia.com",
+  "host": "investopedia.com"
+ }
+}

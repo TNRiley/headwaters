@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-03-09-1",
+ "title": "Refugees fleeing Ukraine",
+ "hook": "The UN’s refugee agency last week launched a data portal tracking the arrival of refugees from Ukraine in other countries. The daily-updated maps, charts, and structured data provide counts and estimates of arrivals by date, by receiving country, and overall.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "unhcr.org",
+   "url": "https://www.unhcr.org/news/announc/2022/3/621f5e334/launch-unhcr-data-portal-ukraine-refugee-situation.html"
+  },
+  {
+   "name": "data2.unhcr.org",
+   "url": "https://data2.unhcr.org/en/situations/ukraine"
+  },
+  {
+   "name": "unhcr.org",
+   "url": "https://www.unhcr.org/refugee-statistics-uat/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-09",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "unhcr.org",
+  "host": "unhcr.org"
+ }
+}

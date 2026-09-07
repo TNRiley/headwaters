@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-10-05-2",
+ "title": "Educational attainment",
+ "hook": "Researchers at the Vienna-based Wittgenstein Centre for Demography and Global Human Capital have developed a dataset of historical and projected education levels for 171 countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "wittgensteincentre.org",
+   "url": "http://www.wittgensteincentre.org/en/index.htm"
+  },
+  {
+   "name": "cambridge.org",
+   "url": "https://www.cambridge.org/core/journals/journal-of-demographic-economics/article/a-harmonized-dataset-on-global-educational-attainment-between-1970-and-2060-an-analytical-window-into-recent-trends-and-future-prospects-in-human-capital-development/D5540E2C23E4CB89AF08ECD9379B38FD"
+  },
+  {
+   "name": "oeaw.ac.at",
+   "url": "http://www.oeaw.ac.at/fileadmin/subsites/Institute/VID/dataexplorer/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-05",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wittgensteincentre.org",
+  "host": "wittgensteincentre.org"
+ }
+}

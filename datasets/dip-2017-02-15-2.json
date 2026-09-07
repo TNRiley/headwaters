@@ -1,0 +1,57 @@
+{
+ "id": "dip-2017-02-15-2",
+ "title": "Museum-worthy images",
+ "hook": "Last week, the Metropolitan Museum of Art made 375,000 images free to use, remix, and share under a Creative Commons Zero license.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "metmuseum.org",
+   "url": "http://www.metmuseum.org/blogs/digital-underground/2017/open-access-at-the-met"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/metmuseum/openaccess"
+  },
+  {
+   "name": "metmuseum.org",
+   "url": "http://www.metmuseum.org/art/collection#!?perPage=20&showOnly=withImage%7Copenaccess&sortBy=Relevance&sortOrder=asc&offset=0&pageSize=0"
+  },
+  {
+   "name": "images.nga.gov",
+   "url": "https://images.nga.gov/en/page/show_home_page.html"
+  },
+  {
+   "name": "search.getty.edu",
+   "url": "http://search.getty.edu/gateway/search?q=&cat=highlight&f=%22Open+Content+Images%22&rows=10&srt=a&dir=s&pg=1"
+  },
+  {
+   "name": "rijksmuseum.nl",
+   "url": "https://www.rijksmuseum.nl/en/api"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-11-04-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-02-15",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-02-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "metmuseum.org",
+  "host": "metmuseum.org"
+ }
+}

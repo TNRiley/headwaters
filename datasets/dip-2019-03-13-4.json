@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-03-13-4",
+ "title": "50,000 therapists",
+ "hook": "The magazine Psychology Today hosts paid listings for therapists, who advertise their services to prospective patients. Andrew Thompson has created a dataset of the 50,000+ U.S. listings (as of October 2018), with each therapist’s name, city, specialties, and subject areas.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "psychologytoday.com",
+   "url": "https://www.psychologytoday.com/us/therapists"
+  },
+  {
+   "name": "andrewsthompson.co",
+   "url": "http://andrewsthompson.co/"
+  },
+  {
+   "name": "components.one",
+   "url": "https://components.one/datasets/therapists-by-metropolitan-regions/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-13",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "psychologytoday.com",
+  "host": "psychologytoday.com"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "dip-2018-04-25-4",
+ "title": "A decade of New York Times front-page stories",
+ "hook": "For her 2013 book, Making the News: Politics, the Media, and Agenda Setting, UC Davis professor Amber E. Boydstun oversaw the compilation of a dataset of every front-page article in the New York Times from 1996 to 2006.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "press.uchicago.edu",
+   "url": "http://press.uchicago.edu/ucp/books/book/chicago/M/bo16382220.html"
+  },
+  {
+   "name": "amber-boydstun.com",
+   "url": "http://www.amber-boydstun.com/supplementary-information-for-making-the-news.html"
+  },
+  {
+   "name": "amber-boydstun.com",
+   "url": "http://www.amber-boydstun.com/uploads/1/0/6/5/106535199/nyt_front_page_policy_agendas_codebook.pdf"
+  },
+  {
+   "name": "comparativeagendas.net",
+   "url": "https://www.comparativeagendas.net/pages/About"
+  },
+  {
+   "name": "comparativeagendas.net",
+   "url": "https://www.comparativeagendas.net/datasets_codebooks"
+  }
+ ],
+ "articles": [
+  {
+   "name": "developer.nytimes.com",
+   "url": "https://developer.nytimes.com/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-25",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "press.uchicago.edu",
+  "host": "press.uchicago.edu"
+ }
+}

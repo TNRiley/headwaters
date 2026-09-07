@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-11-28-3",
+ "title": "International labor treaties",
+ "hook": "Bilateral labor agreements regulate the migration of workers between two countries, and the Bilateral Labor Agreements Dataset aims to catalog as many of these treaties as it can.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "law.uchicago.edu",
+   "url": "https://www.law.uchicago.edu/bilateral-labor-agreements-dataset"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-11-28",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-11-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "law.uchicago.edu",
+  "host": "law.uchicago.edu"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2015-11-18-4",
+ "title": "Health data, unprotected",
+ "hook": "Under the HITECH Act of 2009, companies must notify the government of any data breach involving the HIPAA-protected health data of 500 or more people. Summaries of those reports are available at the Department of Health and Human Services’s Breach Portal, which currently contains more than 1,300 incidents.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "hhs.gov",
+   "url": "http://www.hhs.gov/ocr/privacy/hipaa/understanding/summary/"
+  },
+  {
+   "name": "ocrportal.hhs.gov",
+   "url": "https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf"
+  },
+  {
+   "name": "jama.jamanetwork.com",
+   "url": "http://jama.jamanetwork.com/article.aspx?articleid=2247135"
+  },
+  {
+   "name": "noahveltman.com",
+   "url": "http://noahveltman.com/acronyms/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-18",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "hhs.gov",
+  "host": "hhs.gov"
+ }
+}

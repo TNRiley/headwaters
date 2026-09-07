@@ -1,0 +1,50 @@
+{
+ "id": "dip-2018-09-19-3",
+ "title": "Open-access scholarship",
+ "hook": "Unpaywall has collected data on millions of open-access scholarly articles, plus many more paywalled articles. You can download the full dataset, or submit specific Digital Object Identifiers to the website’s API or online form.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education",
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "unpaywall.org",
+   "url": "http://unpaywall.org/"
+  },
+  {
+   "name": "unpaywall.org",
+   "url": "http://unpaywall.org/products/snapshot"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Digital_object_identifier"
+  },
+  {
+   "name": "unpaywall.org",
+   "url": "http://unpaywall.org/products/api"
+  },
+  {
+   "name": "unpaywall.org",
+   "url": "http://unpaywall.org/products/simple-query-tool"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-09-19",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-09-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "unpaywall.org",
+  "host": "unpaywall.org"
+ }
+}

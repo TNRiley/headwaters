@@ -1,0 +1,69 @@
+{
+ "id": "dip-2024-01-31-3",
+ "title": "Study abroad",
+ "hook": "Open Doors, an Institute of International Education initiative funded by the State Department, “is the only long-standing, comprehensive information resource on international students and scholars in the United States and on U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "opendoorsdata.org",
+   "url": "https://opendoorsdata.org/"
+  },
+  {
+   "name": "iie.org",
+   "url": "https://www.iie.org/"
+  },
+  {
+   "name": "opendoorsdata.org",
+   "url": "https://opendoorsdata.org/about/"
+  },
+  {
+   "name": "opendoorsdata.org",
+   "url": "https://opendoorsdata.org/annual-release/"
+  },
+  {
+   "name": "opendoorsdata.org",
+   "url": "https://opendoorsdata.org/annual-release/international-students/"
+  },
+  {
+   "name": "opendoorsdata.org",
+   "url": "https://opendoorsdata.org/annual-release/u-s-study-abroad/"
+  },
+  {
+   "name": "travel.state.gov",
+   "url": "https://travel.state.gov/content/travel/en/legal/visa-law0/visa-statistics/nonimmigrant-visa-statistics.html"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/articles/how-many-student-immigrants-come-to-the-us-and-what-countries-do-they-come-from/"
+  },
+  {
+   "name": "europa.eu",
+   "url": "https://data.europa.eu/data/datasets?locale=en&catalog=eac&query=erasmus&page=1&sort=issued+desc,%20relevance+desc,%20title.en+asc"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-02-09-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-01-31",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-01-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opendoorsdata.org",
+  "host": "opendoorsdata.org"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "id": "dip-2021-12-15-4",
+ "title": "Country leaders’ birthplaces",
+ "hook": "Axel Dreher et al.’s Political Leaders’ Affiliation Database lists the birthplaces and ethnicities of 1,109 leaders of 177 countries between 1989 and 2020. The birthplaces are described at several levels of administrative detail and are ascribed a latitude, longitude, and an indication of those coordinates’ precision.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "axel-dreher.de",
+   "url": "http://www.axel-dreher.de/Spouses.pdf"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FYUS575"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-15",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "axel-dreher.de",
+  "host": "axel-dreher.de"
+ }
+}

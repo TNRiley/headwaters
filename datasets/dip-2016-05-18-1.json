@@ -1,0 +1,53 @@
+{
+ "id": "dip-2016-05-18-1",
+ "title": "Drug safety",
+ "hook": "To help monitor drug safety, the FDA collects “adverse event” reports submitted by patients, doctors, and manufacturers. You can download the (anonymized) reports from the FDA directly, but that dataset includes duplicate cases, and sometimes calls the same drug by different names.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "fda.gov",
+   "url": "http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Surveillance/AdverseDrugEffects/default.htm"
+  },
+  {
+   "name": "fda.gov",
+   "url": "http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/Surveillance/AdverseDrugEffects/ucm082193.htm"
+  },
+  {
+   "name": "nature.com",
+   "url": "http://www.nature.com/articles/sdata201626"
+  },
+  {
+   "name": "datadryad.org",
+   "url": "http://datadryad.org/resource/doi:10.5061/dryad.8q0s4"
+  },
+  {
+   "name": "sideeffects.embl.de",
+   "url": "http://sideeffects.embl.de/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-11-11-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-18",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fda.gov",
+  "host": "fda.gov"
+ }
+}

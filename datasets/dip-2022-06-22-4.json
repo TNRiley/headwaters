@@ -1,0 +1,46 @@
+{
+ "id": "dip-2022-06-22-4",
+ "title": "Inclusive crossword names",
+ "hook": "In a post for The New York Times’ Gameplay section, psychology professor Erica Hsiung Wojcik describes her motivations for creating the Expanded Crossword Name Database, “a free and regularly updated list of names, places and things that represent groups, identities and people often excluded from crossword grids,”…",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/view/expandedcrosswordnamedatabase/home"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1fc6thrwFTPKwP0PlBTvzKjfiGlnM37JXLPaR8_In3fw/edit#gid=578940851"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2022/03/15/crosswords/wojcik-diverse-crossword-puzzles.html"
+  },
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2022/02/18/crosswords/introducing-gameplay.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-22",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sites.google.com",
+  "host": "sites.google.com"
+ }
+}

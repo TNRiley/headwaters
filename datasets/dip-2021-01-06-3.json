@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-01-06-3",
+ "title": "More college sports financing",
+ "hook": "The College Athletics Financial Information Database, run by the privately-funded Knight Commission on Intercollegiate Athletics, details the annual sources of revenue (such as ticket sales) and expenses (such as coaches’ compensation) for hundreds of schools, based on information self-reported to the NCAA and federal government.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cafidatabase.knightcommission.org",
+   "url": "http://cafidatabase.knightcommission.org"
+  },
+  {
+   "name": "knightcommission.org",
+   "url": "https://www.knightcommission.org"
+  },
+  {
+   "name": "cafidatabase.knightcommission.org",
+   "url": "http://cafidatabase.knightcommission.org/about-the-data"
+  },
+  {
+   "name": "sports.usatoday.com",
+   "url": "https://sports.usatoday.com/2020/07/05/methodology-for-2019-ncaa-athletic-department-revenue-database/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-06",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cafidatabase.knightcommission.org",
+  "host": "cafidatabase.knightcommission.org"
+ }
+}

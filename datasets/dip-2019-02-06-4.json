@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-02-06-4",
+ "title": "DC taxi rides",
+ "hook": "The District of Columbia’s taxi trip data covers 2015–17 and includes each trip’s pickup and dropoff location, mileage, total fare, tip amount, and other details. Previously: Chicago and NYC taxi rides (DIP 2016.12.07). [h/t Richard Sigman]",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "opendata.dc.gov",
+   "url": "http://opendata.dc.gov/datasets?q=taxicabs"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Transportation/Taxi-Trips-Dashboard/spcw-brbq"
+  },
+  {
+   "name": "toddwschneider.com",
+   "url": "http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-12-07-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-02-06",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-02-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opendata.dc.gov",
+  "host": "opendata.dc.gov"
+ }
+}

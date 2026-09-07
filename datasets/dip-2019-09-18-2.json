@@ -1,0 +1,39 @@
+{
+ "id": "dip-2019-09-18-2",
+ "title": "State immigration laws",
+ "hook": "Political science professor Jamie Monogan has compiled a dataset of more than 2,700 immigration laws passed by US state legislatures from 2005 to 2016. The dataset summarizes the laws and also categorizes them by subject, scope, and whether they appear to be welcoming or hostile to immigrants.[h/t Jason Anastasopoulos]",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "spia.uga.edu",
+   "url": "https://spia.uga.edu/faculty-member/jamie-monogan/"
+  },
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/psj.12359"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/F8YTX2"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-18",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "spia.uga.edu",
+  "host": "spia.uga.edu"
+ }
+}

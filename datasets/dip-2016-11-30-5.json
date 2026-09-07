@@ -1,0 +1,43 @@
+{
+ "id": "dip-2016-11-30-5",
+ "title": "I’ll take “Datasets” for $200",
+ "hook": "A few years ago, Reddit user trexmatt uploaded 216,930 Jeopardy! trivia-tidbits, scraped from j-archive.com, “the nearly comprehensive online Jeopardy! archive maintained by obsessive fans.” Each entry lists the question, answer, category, value, round, show number, and show air-date.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/user/trexmatt/"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/datasets/comments/1uyd0t/200000_jeopardy_questions_in_a_json_file/"
+  },
+  {
+   "name": "j-archive.com",
+   "url": "http://www.j-archive.com/"
+  },
+  {
+   "name": "slate.com",
+   "url": "http://www.slate.com/articles/arts/culturebox/2011/02/this_fanmaintained_episode_database_helps_contestants_prepare_for_jeopardy.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-11-30",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-11-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "reddit.com",
+  "host": "reddit.com"
+ }
+}

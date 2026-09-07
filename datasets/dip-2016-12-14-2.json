@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-12-14-2",
+ "title": "Breached accounts",
+ "hook": "Troy Hunt runs HaveIBeenPwned.com, a service that lets you see whether your email address has been included in any major data breaches. Last week, Hunt published an anonymized dataset based on the breaches he’s collected.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "haveibeenpwned.com",
+   "url": "https://haveibeenpwned.com/"
+  },
+  {
+   "name": "troyhunt.com",
+   "url": "https://www.troyhunt.com/heres-1-4-billion-records-from-have-i-been-pwned-for-you-to-analyse/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/data-is-plural/haveibeenpwned-account-combinations"
+  },
+  {
+   "name": "haveibeenpwned.com",
+   "url": "https://haveibeenpwned.com/PwnedWebsites"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-12-14",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-12-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "haveibeenpwned.com",
+  "host": "haveibeenpwned.com"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "dip-2020-02-05-1",
+ "title": "Credibly accused clergy",
+ "hook": "Reporters at ProPublica have assembled the first-ever nationwide database of US Catholic clergy “credibly accused” of sexual abuse, based on nearly 180 official lists released by dioceses and religious orders.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Grand_jury_investigation_of_Catholic_Church_sexual_abuse_in_Pennsylvania"
+  }
+ ],
+ "articles": [
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/we-assembled-the-only-nationwide-database-of-priests-deemed-credibly-accused-of-abuse-heres-how"
+  },
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/credibly-accused/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-05",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

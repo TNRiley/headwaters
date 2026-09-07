@@ -1,0 +1,47 @@
+{
+ "id": "dip-2024-07-10-5",
+ "title": "Ancient shipwrecks",
+ "hook": "The Summary Geodatabase of Shipwrecks 1500BCE-1500CE merges two catalogs of ancient wrecks: one from the Oxford Roman Economy Project and one from Harvard’s Mapping Past Societies project.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/11fk5YeQ4eFOnYSBNpUdHp4TP42gJ7wY5/edit?gid=970169931#gid=970169931"
+  },
+  {
+   "name": "oxrep.classics.ox.ac.uk",
+   "url": "https://oxrep.classics.ox.ac.uk/databases/shipwrecks_database/"
+  },
+  {
+   "name": "darmc.harvard.edu",
+   "url": "https://darmc.harvard.edu/data-availability"
+  },
+  {
+   "name": "doi.org",
+   "url": "https://doi.org/10.2307/300882"
+  },
+  {
+   "name": "discovery.ucl.ac.uk",
+   "url": "https://discovery.ucl.ac.uk/id/eprint/1349806/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-10",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "google.com",
+  "host": "google.com"
+ }
+}

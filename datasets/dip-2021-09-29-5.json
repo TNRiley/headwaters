@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-09-29-5",
+ "title": "Dancing",
+ "hook": "The AIST Dance Video Database, from Japan’s National Institute of Advanced Industrial Science and Technology, “is a shared database containing original street dance videos with copyright-cleared dance music.” It forms the basis of Google Research’s AIST++ Dance Motion Dataset, which provides detailed annotations of 10 million images from the videos, plus “1,408 sequences of 3D human dance motion,” some of which explore online.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "other",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "aistdancedb.ongaaccel.jp",
+   "url": "https://aistdancedb.ongaaccel.jp/"
+  },
+  {
+   "name": "aist.go.jp",
+   "url": "https://www.aist.go.jp/aist_e/about_aist/"
+  },
+  {
+   "name": "google.github.io",
+   "url": "https://google.github.io/aistplusplus_dataset/factsfigures.html"
+  },
+  {
+   "name": "google.github.io",
+   "url": "https://google.github.io/aistplusplus_dataset/index.html"
+  },
+  {
+   "name": "google.github.io",
+   "url": "https://google.github.io/aistplusplus_dataset/visualizer/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-29",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aistdancedb.ongaaccel.jp",
+  "host": "aistdancedb.ongaaccel.jp"
+ }
+}

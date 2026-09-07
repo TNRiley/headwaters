@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-04-28-5",
+ "title": "Le Tour",
+ "hook": "On its official website, the Tour de France lists riders’ results in its famed bicycle race since 1903. The site doesn’t provide downloads, but applied mathematician Thomas Camminady has scraped it to build a CSV file containing each finisher’s rank, time, team, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "letour.fr",
+   "url": "https://www.letour.fr/en/history"
+  },
+  {
+   "name": "camminady.org",
+   "url": "https://www.camminady.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/camminady/LeTourDataSet"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-28",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "letour.fr",
+  "host": "letour.fr"
+ }
+}

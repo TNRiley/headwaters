@@ -1,0 +1,39 @@
+{
+ "id": "dip-2018-11-07-4",
+ "title": "To swerve or not to swerve",
+ "hook": "A recent study revealed the results of “the Moral Machine, an online experimental platform designed to explore the moral dilemmas faced by autonomous vehicles.” The experiment asked participants to decide whether a self-driving car — faced with two deadly options — should stay on course (killing one group of pedestrians) or swerve (killing another).",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41586-018-0637-6"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/3hvt2/?view_only=4bb49492edee4a8eb1758552a362a2cf"
+  },
+  {
+   "name": "technologyreview.com",
+   "url": "https://www.technologyreview.com/s/612341/a-global-ethics-study-aims-to-help-ai-solve-the-self-driving-trolley-problem/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-11-07",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-11-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

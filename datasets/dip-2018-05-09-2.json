@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-05-09-2",
+ "title": "Medical examiner reports",
+ "hook": "Cook County, Illinois, publishes data on all deaths reported to its medical examiner — 20,000+ deaths since August 2014, and updated daily.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "datacatalog.cookcountyil.gov",
+   "url": "https://datacatalog.cookcountyil.gov/Public-Safety/Medical-Examiner-Case-Archive/cjeq-bs86"
+  },
+  {
+   "name": "ct.gov",
+   "url": "https://data.ct.gov/Health-and-Human-Services/Accidental-Drug-Related-Deaths-2012-2017/rybz-nyjw"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/write-this-way/dallas-co-autopsies"
+  },
+  {
+   "name": "data.world",
+   "url": "https://data.world/stevestirling/n-j-medical-examiner-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-05-09",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-05-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "datacatalog.cookcountyil.gov",
+  "host": "datacatalog.cookcountyil.gov"
+ }
+}

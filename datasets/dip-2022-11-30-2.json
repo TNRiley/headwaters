@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-11-30-2",
+ "title": "Per-pupil spending",
+ "hook": "The National Education Resource Database on Schools (“NERD$”) describes itself as the “first-ever national dataset of public K-12 spending by school.” Its researchers, based at Georgetown University, aggregate and standardize the expenditure disclosures that the Every Student Succeeds Act requires states to publish.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "edunomicslab.org",
+   "url": "https://edunomicslab.org/nerds/"
+  },
+  {
+   "name": "edunomicslab.org",
+   "url": "https://edunomicslab.org/2018/03/28/interstate-financial-reporting/"
+  },
+  {
+   "name": "ed.gov",
+   "url": "https://www.ed.gov/ESSA/"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/articles/how-much-money-do-states-spend-on-education/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-30",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "edunomicslab.org",
+  "host": "edunomicslab.org"
+ }
+}

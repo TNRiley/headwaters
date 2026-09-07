@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-12-20-3",
+ "title": "Antarctic ice sheets",
+ "hook": "The Scientific Committee on Antarctic Research’s Bedmap Data Portal provides access to “ice bed, surface and thickness point data from all Antarctic geophysical campaigns since the 1950s.” In an accompanying paper, Alice C. Frémand et al.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "scar.org",
+   "url": "https://scar.org/"
+  },
+  {
+   "name": "bedmap.scar.org",
+   "url": "https://bedmap.scar.org/"
+  },
+  {
+   "name": "essd.copernicus.org",
+   "url": "https://essd.copernicus.org/articles/15/2695/2023/essd-15-2695-2023.html"
+  },
+  {
+   "name": "essd.copernicus.org",
+   "url": "https://essd.copernicus.org/articles/15/2695/2023/#section5"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/FAIR_data"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-023-02152-9"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2023-05-31-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-12-20",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-12-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "scar.org",
+  "host": "scar.org"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-01-01-1",
+ "title": "Global water quality",
+ "hook": "The UN’s GEMStat project provides “scientifically-sound data” on freshwater quality around the world. The data portal lets visitors explore and download water-sample results from thousands of stations in more than 80 countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "gemstat.org",
+   "url": "https://gemstat.org"
+  },
+  {
+   "name": "gemstat.org",
+   "url": "https://gemstat.org/data/data-portal/"
+  },
+  {
+   "name": "gemstat.bafg.de",
+   "url": "https://gemstat.bafg.de/applications/public.html?publicuser=PublicUser"
+  },
+  {
+   "name": "gemstat.org",
+   "url": "https://gemstat.org/custom-data-request/"
+  },
+  {
+   "name": "openknowledge.worldbank.org",
+   "url": "https://openknowledge.worldbank.org/handle/10986/32245"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-01",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gemstat.org",
+  "host": "gemstat.org"
+ }
+}

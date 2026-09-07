@@ -1,0 +1,42 @@
+{
+ "id": "dip-2017-06-07-2",
+ "title": "Trump’s pre-presidency flights",
+ "hook": "Before Donald Trump began flying on Air Force One, he rode a fleet of private aircraft. Reporters at Bloomberg used the Freedom of Information Act to obtain flight records for three major components of that fleet — a ”Boeing 757 with gold-plated seatbelt buckles, known as Trump Force One during the campaign; a Cessna 750 Citation X jet; and a Sikorsky helicopter”.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/BloombergGraphics/2017-trump-flight-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "bloomberg.com",
+   "url": "https://www.bloomberg.com/news/features/2017-06-01/this-is-where-trump-traveled-before-becoming-president"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/news/politics/wp/2017/06/06/trumps-campaign-planes-alone-had-the-carbon-footprint-of-500-americans-for-a-year/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-07",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

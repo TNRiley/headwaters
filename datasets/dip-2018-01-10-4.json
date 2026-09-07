@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-01-10-4",
+ "title": "Snow depth",
+ "hook": "The National Water and Climate Center maintains a series of interactive snow maps. Their snow depth map is based on data from nearly one thousand monitoring stations around the country — mostly in western states, but also a handful in the Southwest, Northeast, and Midwest.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "wcc.nrcs.usda.gov",
+   "url": "https://www.wcc.nrcs.usda.gov/"
+  },
+  {
+   "name": "wcc.nrcs.usda.gov",
+   "url": "https://www.wcc.nrcs.usda.gov/snow/snow_map.html"
+  },
+  {
+   "name": "wcc.nrcs.usda.gov",
+   "url": "https://www.wcc.nrcs.usda.gov/webmap/#version=80.1&elements=W,R&networks=!&states=!&counties=!&hucs=&minElevation=&maxElevation=&elementSelectType=all&activeOnly=true&activeForecastPointsOnly=false&hucLabels=false&hucParameterLabels=false&stationLabels=&overlays=&hucOverlays=&mode=data&openSections=dataElement,parameter,date,basin,elements,location,networks&controlsOpen=true&popup=&popupMulti=&base=esriNgwm&displayType=station&basinType=6&dataElement=SNWD&parameter=OBS&frequency=DAILY&duration=I&customDuration=&dayPart=E&year=2018&month=1&day=7&monthPart=E&forecastPubMonth=1&forecastPubDay=1&forecastExceedance=50&seqColor=1&divColor=3&scaleType=D&scaleMin=&scaleMax=&referencePeriodType=POR&referenceBegin=1981&referenceEnd=2010&minimumYears=20&hucAssociations=true&lat=51.51&lon=-100.11&zoom=4.0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-10",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wcc.nrcs.usda.gov",
+  "host": "wcc.nrcs.usda.gov"
+ }
+}

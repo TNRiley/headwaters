@@ -1,0 +1,38 @@
+{
+ "id": "dip-2017-03-22-4",
+ "title": "Construction spending",
+ "hook": "The Census’ Value of Construction Put in Place Survey “provides monthly estimates of the total dollar value of construction work done in the U.S.” For instance, construction spending in 2016 totaled approximately $1.1 trillion, $89 billion of which went to education-related construction.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/construction/c30/c30index.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/construction/c30/historical_data.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-22",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

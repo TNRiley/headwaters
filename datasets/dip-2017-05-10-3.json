@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-05-10-3",
+ "title": "Three million grocery orders",
+ "hook": "Groceries-on-demand startup Instacart has released a dataset containing 3 million orders from 200,000 (anonymized) users. “For each user, we provide between 4 and 100 of their orders, with the sequence of products purchased in each order,” the company’s head of data science writes.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "instacart.com",
+   "url": "https://www.instacart.com/datasets/grocery-shopping-2017"
+  },
+  {
+   "name": "tech.instacart.com",
+   "url": "https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2"
+  },
+  {
+   "name": "gist.github.com",
+   "url": "https://gist.github.com/jeremystan/c3b39d947d9b88b3ccff3147dbcf6c6b"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-10",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "instacart.com",
+  "host": "instacart.com"
+ }
+}

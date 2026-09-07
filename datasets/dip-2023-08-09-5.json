@@ -1,0 +1,55 @@
+{
+ "id": "dip-2023-08-09-5",
+ "title": "Winning numbers",
+ "hook": "New York State’s Gaming Commission publishes various lottery-related datasets, including the winning numbers for many national and state lotteries, such as Powerball (since 2010), Mega Millions (since 2002), and Pick 10 (since 1987).",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ny.gov",
+   "url": "https://data.ny.gov/browse?limitTo=datasets&tags=new+york+lottery&sortBy=most_accessed&utf8=%E2%9C%93"
+  },
+  {
+   "name": "ny.gov",
+   "url": "https://data.ny.gov/Government-Finance/Lottery-Powerball-Winning-Numbers-Beginning-2010/d6yy-54nr"
+  },
+  {
+   "name": "ny.gov",
+   "url": "https://data.ny.gov/Government-Finance/Lottery-Mega-Millions-Winning-Numbers-Beginning-20/5xaw-6ayf"
+  },
+  {
+   "name": "ny.gov",
+   "url": "https://data.ny.gov/Government-Finance/Lottery-Pick-10-Winning-Numbers-Beginning-1987/bycu-cw7c"
+  },
+  {
+   "name": "coloradolottery.com",
+   "url": "https://www.coloradolottery.com/en/player-tools/winning-history/"
+  },
+  {
+   "name": "zachseward.com",
+   "url": "https://www.zachseward.com/the-jackpot-is-a-lie/"
+  },
+  {
+   "name": "zachseward.com",
+   "url": "https://www.zachseward.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-08-09",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-08-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "MTA Permanent Art Catalog",
+  "host": "ny.gov"
+ }
+}

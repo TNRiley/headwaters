@@ -1,0 +1,56 @@
+{
+ "id": "dip-2017-11-08-1",
+ "title": "Gun origins",
+ "hook": "The Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) helps trace guns — such as those recovered at crime scenes by law enforcement agencies — back to their original manufacturers, wholesale distributors, dealers, and purchasers. Each year, ATF publishes a range of datasets based on these gun traces.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "atf.gov",
+   "url": "https://www.atf.gov/firearms/national-tracing-center"
+  },
+  {
+   "name": "atf.gov",
+   "url": "https://www.atf.gov/resource-center/data-statistics"
+  },
+  {
+   "name": "atf.gov",
+   "url": "https://www.atf.gov/resource-center/firearms-trace-data-2016"
+  },
+  {
+   "name": "thetrace.org",
+   "url": "https://www.thetrace.org/2016/07/how-a-gun-trace-works-atf-ffl/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-12-09-edition"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/gun-laws-stop-at-state-lines-but-guns-dont/"
+  },
+  {
+   "name": "buzzfeed.com",
+   "url": "https://www.buzzfeed.com/peteraldhous/gun-sales-after-vegas-shooting"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-11-08",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-11-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "atf.gov",
+  "host": "atf.gov"
+ }
+}

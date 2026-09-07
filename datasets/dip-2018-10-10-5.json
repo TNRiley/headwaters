@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-10-10-5",
+ "title": "Parking meters in the five boroughs",
+ "hook": "New York City provides the latitude, longitude, ID number, and current status — active, inactive, retired, planned, and removed — of more than 14,700 parking meters. [h/t Zack Quaintance]",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/Transportation/Parking-Meters-GPS-Coordinates-and-Status/5jsj-cq4s"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-10-10",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-10-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Squirrel Census",
+  "host": "cityofnewyork.us"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "id": "dip-2016-01-27-5",
+ "title": "The Survey of Scottish Witchcraft",
+ "hook": "The University of Edinburgh hosts an incredibly detailed, and deeply documented database of more than 3,000 accused witches in Scotland. The mania reached its quantitative peak in 1662, when, according to the database, 402 people were accused of witchcraft. [h/t Felix Haass]",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "other",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "shca.ed.ac.uk",
+   "url": "http://www.shca.ed.ac.uk/Research/witches/"
+  },
+  {
+   "name": "webdb.ucs.ed.ac.uk",
+   "url": "http://webdb.ucs.ed.ac.uk/witches/index.cfm?fuseaction=home.graph2"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-27",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "shca.ed.ac.uk",
+  "host": "shca.ed.ac.uk"
+ }
+}

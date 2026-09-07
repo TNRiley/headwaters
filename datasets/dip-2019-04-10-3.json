@@ -1,0 +1,42 @@
+{
+ "id": "dip-2019-04-10-3",
+ "title": "FiveThirtyEight checks its work",
+ "hook": "From Nate Silver: “we’ve been publishing forecasts for more than a decade now, and although we’ve sometimes tried to do an after-action report following a big election or sporting event, this is the first time we’ve studied all of our forecast models in a comprehensive way.” You can now explore and download thousands of FiveThirtyEight’s predictions about sports and politics (and their outcomes).",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "journalism",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/checking-our-work-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/when-we-say-70-percent-it-really-means-70-percent/"
+  },
+  {
+   "name": "projects.fivethirtyeight.com",
+   "url": "https://projects.fivethirtyeight.com/checking-our-work/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-10",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

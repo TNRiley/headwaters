@@ -1,0 +1,51 @@
+{
+ "id": "dip-2023-11-22-5",
+ "title": "Moon dents",
+ "hook": "The Lunar Crater Database, compiled by Stuart Robbins, provides the location and dimensions of 1.3 million lunar impact craters.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "astrogeology.usgs.gov",
+   "url": "https://astrogeology.usgs.gov/search/map/Moon/Research/Craters/lunar_crater_database_robbins_2018"
+  },
+  {
+   "name": "agupubs.onlinelibrary.wiley.com",
+   "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018JE005592"
+  },
+  {
+   "name": "lpi.usra.edu",
+   "url": "https://www.lpi.usra.edu/scientific-databases/"
+  },
+  {
+   "name": "lpi.usra.edu",
+   "url": "https://www.lpi.usra.edu/about/"
+  },
+  {
+   "name": "astrogeology.usgs.gov",
+   "url": "https://astrogeology.usgs.gov/search/map/Moon/Geology/Unified_Geologic_Map_of_the_Moon_GIS_v2"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-12-08-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-22",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "astrogeology.usgs.gov",
+  "host": "astrogeology.usgs.gov"
+ }
+}

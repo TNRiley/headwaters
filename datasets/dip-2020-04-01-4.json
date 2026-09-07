@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-04-01-4",
+ "title": "IPhone search warrants",
+ "hook": "In light of ongoing debates over encryption, tech publication Motherboard “collected and analyzed over 500 iPhone search warrants and related documents filed throughout 2019 to build a database of cases in which law enforcement attempted to get information from an iPhone.” The database, published last month, includes court-docket information, the requesting agency, the suspected crimes, phone models, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "vice.com",
+   "url": "https://www.vice.com/en_us/article/pkeeay/apple-dmca-take-down-tweet-containing-an-iphone-encryption-key"
+  },
+  {
+   "name": "drive.google.com",
+   "url": "https://drive.google.com/drive/folders/1l20Kgp77tG7BBDnblx8vH_VWevuCbPkg?usp=sharing"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1Xmh1QEXYJmVPFlqAdEIVGemvbkoZmk_WyAPGC4eY-eE/edit?usp=sharing"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-01",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "vice.com",
+  "host": "vice.com"
+ }
+}

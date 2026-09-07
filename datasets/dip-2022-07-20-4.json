@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-07-20-4",
+ "title": "Digital trade provisions",
+ "hook": "Mira Burri et al.’s TAPED dataset, which “seeks to comprehensively trace developments in the area of digital trade governance,” categorizes 100+ relevant aspects of 300+ preferential trade agreements signed since 2000.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "digitaltradelaw.ch",
+   "url": "https://digitaltradelaw.ch/taped/"
+  },
+  {
+   "name": "unilu.ch",
+   "url": "https://www.unilu.ch/en/faculties/faculty-of-law/professorships/burri-mira/research/taped/"
+  },
+  {
+   "name": "mediawiki.middlebury.edu",
+   "url": "https://mediawiki.middlebury.edu/IPE/Preferential_Trade_Agreement"
+  },
+  {
+   "name": "dfat.gov.au",
+   "url": "https://www.dfat.gov.au/trade/agreements/in-force/pafta/Pages/peru-australia-fta"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-20",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "digitaltradelaw.ch",
+  "host": "digitaltradelaw.ch"
+ }
+}

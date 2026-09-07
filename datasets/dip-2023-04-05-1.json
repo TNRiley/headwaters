@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-04-05-1",
+ "title": "Treasury transactions",
+ "hook": "The US Treasury’s Daily Treasury Statement dataset paints a near-real-time picture of the federal government’s purse. The eight tables provide data on “operating cash balance, deposits and withdrawals of cash, public debt transactions, federal tax deposits, income tax refunds issued,” and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fiscaldata.treasury.gov",
+   "url": "https://fiscaldata.treasury.gov/datasets/daily-treasury-statement/operating-cash-balance"
+  },
+  {
+   "name": "fiscaldata.treasury.gov",
+   "url": "https://fiscaldata.treasury.gov/api-documentation/"
+  },
+  {
+   "name": "qz.com",
+   "url": "https://qz.com/can-a-billionaire-die-without-anyone-noticing-1850268606"
+  },
+  {
+   "name": "timfernholz.com",
+   "url": "https://timfernholz.com/about"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-05",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fiscaldata.treasury.gov",
+  "host": "fiscaldata.treasury.gov"
+ }
+}

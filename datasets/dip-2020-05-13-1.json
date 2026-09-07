@@ -1,0 +1,33 @@
+{
+ "id": "dip-2020-05-13-1",
+ "title": "Employee protections",
+ "hook": "The UN International Labour Organization’s Employment Protection Legislation Database tracks “legal information on the regulation of temporary contracts and employment termination at the initiative of the employer,” on a national-regulatory level.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "eplex.ilo.org",
+   "url": "https://eplex.ilo.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-13",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "eplex.ilo.org",
+  "host": "eplex.ilo.org"
+ }
+}

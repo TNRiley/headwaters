@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-04-27-4",
+ "title": "Congressional junkets",
+ "hook": "The U.S. House of Representatives requires all staff to reveal all “gift travel” — i.e., “free” trips that the government didn’t pay for. The Office of the Clerk compiles those filings into a database containing each trip’s dates and sponsors.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "clerk.house.gov",
+   "url": "http://clerk.house.gov/public_disc/giftTravel.aspx"
+  },
+  {
+   "name": "senate.gov",
+   "url": "http://www.senate.gov/pagelayout/legislative/g_three_sections_with_teasers/lobbyingdisc.htm#lobbyingdisc=grt"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-27",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "clerk.house.gov",
+  "host": "clerk.house.gov"
+ }
+}

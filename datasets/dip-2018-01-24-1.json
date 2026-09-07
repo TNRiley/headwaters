@@ -1,0 +1,61 @@
+{
+ "id": "dip-2018-01-24-1",
+ "title": "Global trade dynamics",
+ "hook": "The Atlas of Economic Complexity has collected decades of import/export data from the United Nations Comtrade database, and then applied “a unique method to clean the data to account for inconsistent reporting practices.” You can download the raw data, learn more about the cleaning process in the FAQ, explore current…",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "atlas.cid.harvard.edu",
+   "url": "http://atlas.cid.harvard.edu/"
+  },
+  {
+   "name": "comtrade.un.org",
+   "url": "https://comtrade.un.org/"
+  },
+  {
+   "name": "intl-atlas-downloads.s3.amazonaws.com",
+   "url": "https://intl-atlas-downloads.s3.amazonaws.com/index.html"
+  },
+  {
+   "name": "atlas.cid.harvard.edu",
+   "url": "http://atlas.cid.harvard.edu/learn/faq"
+  },
+  {
+   "name": "atlas.cid.harvard.edu",
+   "url": "http://atlas.cid.harvard.edu/explore/"
+  },
+  {
+   "name": "atlas.cid.harvard.edu",
+   "url": "http://atlas.cid.harvard.edu/rankings/"
+  },
+  {
+   "name": "complejidad.datos.gob.mx",
+   "url": "http://complejidad.datos.gob.mx/"
+  },
+  {
+   "name": "datlascolombia.com",
+   "url": "http://datlascolombia.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-24",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "atlas.cid.harvard.edu",
+  "host": "atlas.cid.harvard.edu"
+ }
+}

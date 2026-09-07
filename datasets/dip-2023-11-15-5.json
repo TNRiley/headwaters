@@ -1,0 +1,53 @@
+{
+ "id": "dip-2023-11-15-5",
+ "title": "Coffee tasting",
+ "hook": "Last month, British YouTuber (and former World Barista Champion) James Hoffman virtually hosted the Great American Coffee Taste Test, during which thousands of people simultaneously blind-tasted the same four coffees.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "youtube.com",
+   "url": "https://www.youtube.com/channel/UCMb0O2CdPBNi-QqPk5T3gsQ"
+  },
+  {
+   "name": "jameshoffmann.co.uk",
+   "url": "https://www.jameshoffmann.co.uk/work#/coffee-competitions/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/James_Hoffmann"
+  },
+  {
+   "name": "youtube.com",
+   "url": "https://www.youtube.com/watch?v=1fN_z4-EcOU"
+  },
+  {
+   "name": "youtube.com",
+   "url": "https://www.youtube.com/watch?v=bMOOQfeloH0"
+  },
+  {
+   "name": "bit.ly",
+   "url": "https://bit.ly/gacttCSV+"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-15",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Jelle's Marble Runs",
+  "host": "youtube.com"
+ }
+}

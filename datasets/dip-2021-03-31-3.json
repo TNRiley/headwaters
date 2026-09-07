@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-03-31-3",
+ "title": "Electoral gender quotas",
+ "hook": "Many countries apply gender quotas to their parliamentary elections, typically by reserving a certain number of seats for women or by regulating political parties’ candidate lists. In other instances, parties have instituted voluntary quotas.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "idea.int",
+   "url": "https://www.idea.int/data-tools/data/gender-quotas/quotas"
+  },
+  {
+   "name": "idea.int",
+   "url": "https://www.idea.int/data-tools/data/gender-quotas"
+  },
+  {
+   "name": "idea.int",
+   "url": "https://www.idea.int/data-tools/data/gender-quotas/database"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-31",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "idea.int",
+  "host": "idea.int"
+ }
+}

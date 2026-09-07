@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-01-27-1",
+ "title": "Airplane confidential",
+ "hook": "NASA collects aviation safety reports from pilots, technicians, flight attendants, and other personnel. The (anonymized) published data contains text narratives, as well as details about flight conditions and other safety factors.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "asrs.arc.nasa.gov",
+   "url": "http://asrs.arc.nasa.gov/index.html"
+  },
+  {
+   "name": "asrs.arc.nasa.gov",
+   "url": "http://asrs.arc.nasa.gov/search/database.html"
+  },
+  {
+   "name": "asrs.arc.nasa.gov",
+   "url": "http://asrs.arc.nasa.gov/search/requesting.html"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/download/asrs-extracted.tar"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-27",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "asrs.arc.nasa.gov",
+  "host": "asrs.arc.nasa.gov"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "dip-2018-05-23-5",
+ "title": "What Wikipedians cite",
+ "hook": "The Wikimedia Foundation has published a dataset listing each clearly-cited source (e.g., a book with an ISBN, a scholarly article with a DOI, etc.) on each page of each of Wikipedia’s 298 languages editions — 15,693,732 source-page combinations in all.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "medium.com",
+   "url": "https://medium.com/freely-sharing-the-sum-of-all-knowledge/what-are-the-ten-most-cited-sources-on-wikipedia-lets-ask-the-data-34071478785a"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/Wikipedia_Scholarly_Article_Citations/1299540"
+  }
+ ],
+ "articles": [
+  {
+   "name": "wired.com",
+   "url": "https://www.wired.com/story/wikipedia-most-cited-authors-no-idea/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-05-23",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-05-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "medium.com",
+  "host": "medium.com"
+ }
+}

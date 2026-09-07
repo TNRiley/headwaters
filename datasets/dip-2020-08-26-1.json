@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-08-26-1",
+ "title": "Protests around the world",
+ "hook": "The Mass Mobilization Project is “an effort to understand citizen movements against governments, what citizens want when they demonstrate against governments, and how governments respond to citizens.” The project’s dataset covers more than 14,000 protests in more than 160 countries between 1990 and early 2017.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "massmobilization.github.io",
+   "url": "https://massmobilization.github.io/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataverse/MMdata"
+  },
+  {
+   "name": "scholar.google.com",
+   "url": "https://scholar.google.com/citations?user=miiCGvgAAAAJ&hl=en"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Patrick_M._Regan"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Political_Instability_Task_Force"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-26",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "massmobilization.github.io",
+  "host": "massmobilization.github.io"
+ }
+}

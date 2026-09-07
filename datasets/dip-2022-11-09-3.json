@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-11-09-3",
+ "title": "Still’s freedom-seekers",
+ "hook": "William Still, a Philadelphia-based abolitionist and key leader of the Underground Railroad, kept records of the freedom-seekers he helped to escape the South, details of which he recounted in his 1872 magnum opus. In the early 2000s, the late James A.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "stillfamily.library.temple.edu",
+   "url": "http://stillfamily.library.temple.edu/stillfamily/exhibits/show/william-still"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/undergroundrailr00stil/page/n7/mode/2up"
+  },
+  {
+   "name": "web.archive.org",
+   "url": "http://web.archive.org/web/20160420195346/http://guides.temple.edu/c.php?g=77805&p=515005"
+  },
+  {
+   "name": "historylive.net",
+   "url": "https://www.historylive.net/"
+  },
+  {
+   "name": "undpress.nd.edu",
+   "url": "https://undpress.nd.edu/9780268200367/william-still/"
+  },
+  {
+   "name": "pastexplore.wordpress.com",
+   "url": "https://pastexplore.wordpress.com/about/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1kwiUt3mO9ke96lgV9IoE9D3aq29MVgMC/edit"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-09",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "stillfamily.library.temple.edu",
+  "host": "stillfamily.library.temple.edu"
+ }
+}

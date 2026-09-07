@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-01-06-5",
+ "title": "The position of Michael Jackson’s white glove in all 10,060 frames of “Billie Jean",
+ "hook": "Crowdsourced from his 1983 “Motown 25” performance. [h/t Nadja Popovich]",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "whiteglovetracking.com",
+   "url": "http://whiteglovetracking.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-06",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "whiteglovetracking.com",
+  "host": "whiteglovetracking.com"
+ }
+}

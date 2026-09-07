@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-04-17-1",
+ "title": "Medical device safety",
+ "hook": "The International Consortium of Investigative Journalists, along with media partners in dozens of countries, has been compiling a cross-border database of medical-device safety alerts. The alerts include recalls as well as less-urgent notifications published by health authorities and manufacturers.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "icij.org",
+   "url": "https://www.icij.org/investigations/implant-files/about-the-implant-files-investigation/"
+  },
+  {
+   "name": "medicaldevices.icij.org",
+   "url": "https://medicaldevices.icij.org/"
+  },
+  {
+   "name": "medicaldevices.icij.org",
+   "url": "https://medicaldevices.icij.org/p/download"
+  },
+  {
+   "name": "icij.org",
+   "url": "https://www.icij.org/investigations/implant-files/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-17",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "icij.org",
+  "host": "icij.org"
+ }
+}

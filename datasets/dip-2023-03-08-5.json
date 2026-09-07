@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-03-08-5",
+ "title": "Shows cut short",
+ "hook": "IsItCutShort.com provides a searchable list of television shows that were canceled (e.g., Knight Rider), ended on a cliffhanger (The Sopranos), or both (Rubicon). The database provides each series’s title, cliffhanger and cancellation status, IMDB identifier, and occasional extra notes.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "isitcutshort.com",
+   "url": "https://www.isitcutshort.com/"
+  },
+  {
+   "name": "imdb.com",
+   "url": "https://www.imdb.com/title/tt0083437/"
+  },
+  {
+   "name": "imdb.com",
+   "url": "https://www.imdb.com/title/tt0141842/"
+  },
+  {
+   "name": "imdb.com",
+   "url": "https://www.imdb.com/title/tt1389371/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/xdpirate/isitcutshort.com"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-08",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "isitcutshort.com",
+  "host": "isitcutshort.com"
+ }
+}

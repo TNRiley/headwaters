@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-09-12-1",
+ "title": "Power outages",
+ "hook": "Utility companies are required to report major power outages and other “electric disturbance events” to the Department of Energy within a business day (or, depending on the type of event, sooner) of the incident. The federal agency then aggregates the reports annual summary datasets.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "oe.netl.doe.gov",
+   "url": "https://www.oe.netl.doe.gov/oe417.aspx"
+  },
+  {
+   "name": "oe.netl.doe.gov",
+   "url": "https://www.oe.netl.doe.gov/OE417_annual_summary.aspx"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-09-12",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-09-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "oe.netl.doe.gov",
+  "host": "oe.netl.doe.gov"
+ }
+}

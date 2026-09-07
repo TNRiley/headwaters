@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-07-15-5",
+ "title": "Old British lighthouses",
+ "hook": "The Historical Light Aids to Navigation dataset “shows the development of historical lighthouses, lightships, harbour lights and beacons in England and Wales for several benchmark years between 1514-1911,” drawn from navigational charts, government publications, and other sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "reshare.ukdataservice.ac.uk",
+   "url": "https://reshare.ukdataservice.ac.uk/854172/"
+  },
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340920308854"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "reshare.ukdataservice.ac.uk",
+  "host": "reshare.ukdataservice.ac.uk"
+ }
+}

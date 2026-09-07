@@ -1,0 +1,42 @@
+{
+ "id": "dip-2020-12-16-2",
+ "title": "More PPP details",
+ "hook": "Thanks to a FOIA lawsuit by a group of news organizations, the US Small Business Administration has released additional data about the financial assistance distributed through its Paycheck Protection Program.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-07-08-edition"
+  },
+  {
+   "name": "sba.app.box.com",
+   "url": "https://sba.app.box.com/s/5myd1nxutoq8wxecx2562baruz774si6"
+  }
+ ],
+ "articles": [
+  {
+   "name": "wsj.com",
+   "url": "https://www.wsj.com/articles/sba-releases-detailed-information-on-more-small-business-borrowers-under-ppp-pandemic-relief-effort-11606874820"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-16",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tinyletter.com",
+  "host": "tinyletter.com"
+ }
+}

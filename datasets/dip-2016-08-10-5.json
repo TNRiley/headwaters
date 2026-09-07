@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-08-10-5",
+ "title": "Heartbeats",
+ "hook": "PhysioNet has published sound and data files for more than 3,000 heart recordings (a.k.a. phonocardiograms). The files support PhysioNet’s 2016 contest, which seeks algorithms that can detect abnormal heart sounds. [h/t Joe Isaacson]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "physionet.org",
+   "url": "http://physionet.org/physiobank/database/challenge/2016/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Phonocardiogram"
+  },
+  {
+   "name": "physionet.org",
+   "url": "http://physionet.org/challenge/2016/#introduction"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-10",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "physionet.org",
+  "host": "physionet.org"
+ }
+}

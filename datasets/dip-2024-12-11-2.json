@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-12-11-2",
+ "title": "Food safety alerts",
+ "hook": "Data journalist Adrian Nesta is building a automated pipeline to collect and standardize data on food safety recalls and alerts from two US federal agencies — the FDA and the USDA.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "justanesta.com",
+   "url": "https://justanesta.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/anesta95/food_safety_recalls"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/anesta95/food_safety_recalls?tab=readme-ov-file#data-details"
+  },
+  {
+   "name": "fda.gov",
+   "url": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+  },
+  {
+   "name": "fsis.usda.gov",
+   "url": "https://www.fsis.usda.gov/recalls"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/anesta95/food_safety_recalls/blob/main/clean_data/food_safety_recalls.json"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-12-11",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-12-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "justanesta.com",
+  "host": "justanesta.com"
+ }
+}

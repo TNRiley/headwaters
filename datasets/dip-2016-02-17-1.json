@@ -1,0 +1,42 @@
+{
+ "id": "dip-2016-02-17-1",
+ "title": "The kids are alright",
+ "hook": "Every two years since 1991, the CDC has conducted the Youth Risk Behavior Survey, which asks high school students questions about drug use, sex, eating habits, and more. The results are available at the national, state, and district level. Results from the 2015 survey will be published in June, the CDC says.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdc.gov",
+   "url": "http://www.cdc.gov/healthyyouth/data/yrbs/overview.htm"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "http://www.cdc.gov/healthyyouth/data/yrbs/data.htm"
+  }
+ ],
+ "articles": [
+  {
+   "name": "vox.com",
+   "url": "http://www.vox.com/a/teens"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-17",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

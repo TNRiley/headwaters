@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-03-16-5",
+ "title": "Software sunsets",
+ "hook": "The website endoflife.date tracks “end of life” dates and “support lifecycles” for roughly 100 software products — languages, frameworks, operating systems, and more. It indicates, for example, that Python 3.10 appeared in October 2021 and will lose security support in October 2026.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "endoflife.date",
+   "url": "https://endoflife.date/"
+  },
+  {
+   "name": "endoflife.date",
+   "url": "https://endoflife.date/python"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/endoflife-date/endoflife.date/tree/master/products"
+  },
+  {
+   "name": "endoflife.date",
+   "url": "https://endoflife.date/docs/api"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-16",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "endoflife.date",
+  "host": "endoflife.date"
+ }
+}

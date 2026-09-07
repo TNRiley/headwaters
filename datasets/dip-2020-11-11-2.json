@@ -1,0 +1,57 @@
+{
+ "id": "dip-2020-11-11-2",
+ "title": "USPS performance",
+ "hook": "As part of Jones v. United States Postal Service, a federal lawsuit filed in August, USPS must submit weekly performance reports that indicate, at a national and district level, the percentage of mail that was processed (though not necessarily delivered) on time.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "courtlistener.com",
+   "url": "https://www.courtlistener.com/docket/17449832/jones-v-united-states-postal-service/"
+  },
+  {
+   "name": "savethepostoffice.com",
+   "url": "https://www.savethepostoffice.com/"
+  },
+  {
+   "name": "savethepostoffice.com",
+   "url": "https://www.savethepostoffice.com/about/"
+  },
+  {
+   "name": "savethepostoffice.com",
+   "url": "https://www.savethepostoffice.com/updates-on-the-service-performance-reports/"
+  },
+  {
+   "name": "drive.google.com",
+   "url": "https://drive.google.com/drive/folders/1WIiUIu0PP_5D1j8R_-T7IN7kVWk9lvuj"
+  },
+  {
+   "name": "themail.substack.com",
+   "url": "https://themail.substack.com/p/crunch-time"
+  },
+  {
+   "name": "themail.substack.com",
+   "url": "https://themail.substack.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-11-11",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-11-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "courtlistener.com",
+  "host": "courtlistener.com"
+ }
+}

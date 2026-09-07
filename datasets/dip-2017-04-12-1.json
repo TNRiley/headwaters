@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-04-12-1",
+ "title": "Plum presidential appointments",
+ "hook": "Every four years, Congress publishes United States Government Policy and Supporting Positions, better known as the Plum Book.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "gpo.gov",
+   "url": "https://www.gpo.gov/fdsys/pkg/GPO-PLUMBOOK-2016/content-detail.html"
+  },
+  {
+   "name": "senate.gov",
+   "url": "https://www.senate.gov/legislative/nominations.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-12",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gpo.gov",
+  "host": "gpo.gov"
+ }
+}

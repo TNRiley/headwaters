@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-02-01-1",
+ "title": "Women’s well-being",
+ "hook": "Camille Belmin et al.’s LivWell dataset presents “a set of key indicators on women’s socio-economic status, health and well-being, access to basic services and demographic outcomes” in 447 regions of 52 countries from 1990 to 2019.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-022-01824-2"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/7277104"
+  },
+  {
+   "name": "dhsprogram.com",
+   "url": "https://dhsprogram.com/data/"
+  },
+  {
+   "name": "dhsprogram.com",
+   "url": "https://dhsprogram.com/"
+  },
+  {
+   "name": "dhsprogram.com",
+   "url": "https://dhsprogram.com/Who-We-Are/About-Us.cfm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-01",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

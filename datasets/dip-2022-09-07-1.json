@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-09-07-1",
+ "title": "LGBTQ+ rights",
+ "hook": "Equaldex tracks LGBTQ+ rights around the world, categorizing the liberties and restrictions that relate to more than a dozen issues, such as same-sex marriage, blood donation, military service, employment discrimination, and the right to change one’s legal gender.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "equaldex.com",
+   "url": "https://www.equaldex.com/"
+  },
+  {
+   "name": "equaldex.com",
+   "url": "https://www.equaldex.com/help"
+  },
+  {
+   "name": "equaldex.stoplight.io",
+   "url": "https://equaldex.stoplight.io/docs/equaldex/YXBpOjE1NjI0OTIw-equaldex-json-api"
+  },
+  {
+   "name": "equaldex.stoplight.io",
+   "url": "https://equaldex.stoplight.io/docs/equaldex/b3A6MTU2MjQ5MjE-get-lgtbq-rights-by-region-id"
+  },
+  {
+   "name": "equaldex.com",
+   "url": "https://www.equaldex.com/timeline"
+  },
+  {
+   "name": "equaldex.com",
+   "url": "https://www.equaldex.com/surveys"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-07",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "equaldex.com",
+  "host": "equaldex.com"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-06-29-5",
+ "title": "Dendrochronology",
+ "hook": "The Vernacular Architecture Group’s Dendrochronology Database “provides the tree-ring dates for over 4500 buildings in the United Kingdom, ranging from cathedrals to cottages and barns.” Each entry lists a date range, dating method, location, building type, and descriptive notes.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "vag.org.uk",
+   "url": "https://www.vag.org.uk/"
+  },
+  {
+   "name": "archaeologydataservice.ac.uk",
+   "url": "https://archaeologydataservice.ac.uk/archives/view/vag_dendro/index.cfm"
+  },
+  {
+   "name": "archaeologydataservice.ac.uk",
+   "url": "https://archaeologydataservice.ac.uk/archives/view/vag_dendro/overview.cfm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-29",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "vag.org.uk",
+  "host": "vag.org.uk"
+ }
+}

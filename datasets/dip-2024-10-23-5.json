@@ -1,0 +1,45 @@
+{
+ "id": "dip-2024-10-23-5",
+ "title": "Synths",
+ "hook": "Iftah Gabbai is building a dataset of “hardware synthesizers, samplers, and drum machines” produced since 1896, “compiled through a mix of automated and manual processes, combined with extensive research.” For each of the 2,300+ devices identified, the dataset indicates its name, brand, release year, years in…",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "linktr.ee",
+   "url": "https://linktr.ee/iftah.gabbai"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/iftah-og/Synthesizers-1896-2024"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/iftah-og/Synthesizers-1896-2024/blob/main/Synths_1896_2024_EDA.ipynb"
+  },
+  {
+   "name": "youtube.com",
+   "url": "https://www.youtube.com/watch?v=Omj405hkOt0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-10-23",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-10-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "linktr.ee",
+  "host": "linktr.ee"
+ }
+}

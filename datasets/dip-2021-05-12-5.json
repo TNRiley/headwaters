@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-05-12-5",
+ "title": "Edward Estlin Cummings",
+ "hook": "The e.e. cummings free poetry archive, launched last week by journalist Ben Welsh, “aims to republish all of the author’s work as it gradually enters the public domain.” So far, it includes more than 100 poems, available to read online and as data files that include each poem’s collection, title, first line, and full text.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "cummings.ee",
+   "url": "https://cummings.ee/"
+  },
+  {
+   "name": "palewi.re",
+   "url": "https://palewi.re/posts/2021/05/02/ee-cummings-archive/"
+  },
+  {
+   "name": "palewi.re",
+   "url": "https://palewi.re/who-is-ben-welsh/"
+  },
+  {
+   "name": "cummings.ee",
+   "url": "https://cummings.ee/downloads/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-05-12",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-05-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cummings.ee",
+  "host": "cummings.ee"
+ }
+}

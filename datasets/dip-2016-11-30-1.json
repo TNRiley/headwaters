@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-11-30-1",
+ "title": "What kills us",
+ "hook": "The CDC’s Underlying Cause of Death database provides county-level mortality statistics based on death certificates of U.S. residents for each year from 1999 to 2014. The tool lets you group the data by geography, demographics, place of death (e.g., inpatient hospital, hospice, home, etc.), and other variables.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "wonder.cdc.gov",
+   "url": "https://wonder.cdc.gov/ucd-icd10.html"
+  },
+  {
+   "name": "wonder.cdc.gov",
+   "url": "https://wonder.cdc.gov/wonder/help/ucd.html"
+  },
+  {
+   "name": "wonder.cdc.gov",
+   "url": "https://wonder.cdc.gov/mortSQL.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-11-30",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-11-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wonder.cdc.gov",
+  "host": "wonder.cdc.gov"
+ }
+}

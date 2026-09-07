@@ -1,0 +1,53 @@
+{
+ "id": "dip-2021-04-21-2",
+ "title": "The web, crawled",
+ "hook": "The nonprofit Common Crawl is “dedicated to providing a copy of the internet to internet researchers, companies and individuals at no cost for the purpose of research and analysis.” Over the past decade, it has gathered and shared petabytes of data from its roughly-monthly web crawls.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "commoncrawl.org",
+   "url": "https://commoncrawl.org/"
+  },
+  {
+   "name": "commoncrawl.org",
+   "url": "https://commoncrawl.org/the-data/get-started/"
+  },
+  {
+   "name": "commoncrawl.org",
+   "url": "https://commoncrawl.org/2021/03/february-march-2021-crawl-archive-now-available/"
+  },
+  {
+   "name": "webdatacommons.org",
+   "url": "http://webdatacommons.org/"
+  },
+  {
+   "name": "webdatacommons.org",
+   "url": "http://webdatacommons.org/structureddata/schemaorgtables/"
+  },
+  {
+   "name": "schema.org",
+   "url": "https://schema.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-21",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "commoncrawl.org",
+  "host": "commoncrawl.org"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-04-17-2",
+ "title": "SCOTUS confirmation transcripts",
+ "hook": "The R Street Institute has converted the last five decades of successful Supreme Court confirmation hearings into a spreadsheet, with one row for each statement, question, and answer. The 15 transcripts begin with William Rehnquist’s 1971 hearing and end with Neil Gorsuch’s in 2017.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "rstreet.org",
+   "url": "https://www.rstreet.org/about-r-street/"
+  },
+  {
+   "name": "rstreet.org",
+   "url": "https://www.rstreet.org/2019/04/04/supreme-court-confirmation-hearing-transcripts-as-data/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-17",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rstreet.org",
+  "host": "rstreet.org"
+ }
+}

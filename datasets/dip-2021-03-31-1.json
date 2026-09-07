@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-03-31-1",
+ "title": "US coronavirus case details",
+ "hook": "Last week, the US CDC began publishing a new, geographically-specific COVID-19 “case surveillance” dataset. Each of the 22 million rows represents a (de-identified) coronavirus case, accounting for roughly 70% of the country’s current official case count.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdc.gov",
+   "url": "https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/CDCgov/covid_case_privacy_review"
+  },
+  {
+   "name": "coviddatadispatch.com",
+   "url": "https://coviddatadispatch.com/2021/03/28/new-more-local-data-from-the-cdc/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-31",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

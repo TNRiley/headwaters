@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-06-29-4",
+ "title": "Bay Area rents",
+ "hook": "In 2018, economist Kate Pennington used the Wayback Machine to collect data on two decades of Craigslist posts advertising housing in the San Francisco Bay Area. The results span 200,000+ listings between 2000 and 2018, from which Pennington extracted each post’s date, price, bedroom count, location, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "katepennington.org",
+   "url": "https://www.katepennington.org/"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/web/"
+  },
+  {
+   "name": "katepennington.org",
+   "url": "https://www.katepennington.org/clmethod"
+  },
+  {
+   "name": "katepennington.org",
+   "url": "https://www.katepennington.org/data"
+  },
+  {
+   "name": "sfrb.org",
+   "url": "https://sfrb.org/san-francisco-housing-study-databook"
+  },
+  {
+   "name": "experimental-geography.blogspot.com",
+   "url": "https://experimental-geography.blogspot.com/2016/05/employment-construction-and-cost-of-san.html"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-05-25-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-29",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Kate Pennington",
+  "host": "katepennington.org"
+ }
+}

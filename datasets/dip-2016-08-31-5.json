@@ -1,0 +1,58 @@
+{
+ "id": "dip-2016-08-31-5",
+ "title": "Tennis time",
+ "hook": "The 2016 U.S. Open began on Monday. It’s as good an occasion as any to highlight the work of. TennisAbstract.com’s Jeff Sackmann, who has published decades of match results and historical rankings from the men’s ATP and women’s WTA tours. Related: How FiveThirtyEight is using the data to forecast this year’s U.S. Open.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "tennisabstract.com",
+   "url": "http://www.tennisabstract.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/JeffSackmann"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/JeffSackmann/tennis_atp"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/JeffSackmann/tennis_wta"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/popovichN/grand-slam-prize-money"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "http://fivethirtyeight.com/features/how-were-forecasting-the-2016-us-open/"
+  },
+  {
+   "name": "buzzfeed.com",
+   "url": "https://www.buzzfeed.com/heidiblake/the-tennis-racket"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-31",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tennisabstract.com",
+  "host": "tennisabstract.com"
+ }
+}

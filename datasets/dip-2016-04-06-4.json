@@ -1,0 +1,42 @@
+{
+ "id": "dip-2016-04-06-4",
+ "title": "John Snow’s data",
+ "hook": "When physician John Snow constructed his now-famous dot-map of London’s Broad Street cholera outbreak in the 1850s, the leading geospatial technologies were ink and paper. Academic Robin Wilson has adapted the data for the computer age, converting Snow’s map into several modern GIS formats.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak#John_Snow_investigation"
+  },
+  {
+   "name": "blog.rtwilson.com",
+   "url": "http://blog.rtwilson.com/john-snows-cholera-data-in-more-formats/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/nerds/item/infographics-in-the-time-of-cholera"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-06",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "id": "dip-2019-05-29-1",
+ "title": "Education data, unified",
+ "hook": "“Every year, the federal government releases large amounts of data on US schools, districts, and colleges. But this information is scattered across multiple datasets, and changes in data structure make it hard to measure change.” The Urban Institute’s Education Data Explorer aims to fix that by pulling together the…",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "educationdata.urban.org",
+   "url": "https://educationdata.urban.org/data-explorer/about/"
+  },
+  {
+   "name": "urban.org",
+   "url": "https://www.urban.org/"
+  },
+  {
+   "name": "educationdata.urban.org",
+   "url": "https://educationdata.urban.org/data-explorer/"
+  },
+  {
+   "name": "nces.ed.gov",
+   "url": "https://nces.ed.gov/ccd/"
+  },
+  {
+   "name": "ocrdata.ed.gov",
+   "url": "https://ocrdata.ed.gov/"
+  },
+  {
+   "name": "nces.ed.gov",
+   "url": "https://nces.ed.gov/ipeds/"
+  },
+  {
+   "name": "collegescorecard.ed.gov",
+   "url": "https://collegescorecard.ed.gov/"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/saipe.html"
+  },
+  {
+   "name": "educationdata.urban.org",
+   "url": "https://educationdata.urban.org/documentation/"
+  },
+  {
+   "name": "educationdata.urban.org",
+   "url": "https://educationdata.urban.org/documentation/schools.html"
+  },
+  {
+   "name": "educationdata.urban.org",
+   "url": "https://educationdata.urban.org/documentation/school-districts.html"
+  },
+  {
+   "name": "educationdata.urban.org",
+   "url": "https://educationdata.urban.org/documentation/colleges.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-29",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "educationdata.urban.org",
+  "host": "educationdata.urban.org"
+ }
+}

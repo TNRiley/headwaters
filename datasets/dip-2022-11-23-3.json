@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-11-23-3",
+ "title": "Songs of the world",
+ "hook": "In a paper published this month, researchers describe the Global Jukebox — an interactive map and compilation of datasets focused on traditional songs from around the world. The project traces its history back to initial prototypes in the 1980s by Alan Lomax, a musicologist who collected many of the recordings.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "journals.plos.org",
+   "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0275469"
+  },
+  {
+   "name": "theglobaljukebox.org",
+   "url": "https://theglobaljukebox.org/"
+  },
+  {
+   "name": "culturalequity.org",
+   "url": "https://www.culturalequity.org/alan-lomax/about-alan"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/theglobaljukebox/cantometrics"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/theglobaljukebox"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/theglobaljukebox/instruments"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/theglobaljukebox/minutage"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-23",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Cleary et al, 2016",
+  "host": "journals.plos.org"
+ }
+}

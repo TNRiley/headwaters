@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-12-09-1",
+ "title": "COVID-19 hospital capacity",
+ "hook": "On Monday, the Department of Health and Human Services released a dataset on coronavirus-related capacity at thousands of US hospitals — information the agency previously only published as state-level metrics.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "hhs.gov",
+   "url": "https://www.hhs.gov/about/news/2020/12/07/hhs-publishes-covid-19-hospital-facility-level-data.html"
+  },
+  {
+   "name": "healthdata.gov",
+   "url": "https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-facility"
+  },
+  {
+   "name": "healthdata.gov",
+   "url": "https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state"
+  },
+  {
+   "name": "healthdata.gov",
+   "url": "https://healthdata.gov/hhs-publishes-covid-19-hospital-facility-level-data"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/CareSet/COVID_Hospital_PUF"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-09",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "hhs.gov",
+  "host": "hhs.gov"
+ }
+}

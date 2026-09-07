@@ -1,0 +1,45 @@
+{
+ "id": "dip-2024-05-08-2",
+ "title": "Emergency room visits",
+ "hook": "The CDC’s National Hospital Ambulatory Medical Care Survey, conducted annually since 1992, is based on patient records from a strategic sample of emergency department visits in “noninstitutional general and short-stay hospitals”.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/nchs/ahcd/about_ahcd.htm"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/nchs/ahcd/datasets_documentation_related.htm"
+  },
+  {
+   "name": "andrewpwheeler.com",
+   "url": "https://andrewpwheeler.com/2024/03/30/grabbing-the-nhamcs-emergency-room-data-in-python/"
+  },
+  {
+   "name": "andrewpwheeler.com",
+   "url": "https://andrewpwheeler.com/about/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-08",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

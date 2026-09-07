@@ -1,0 +1,65 @@
+{
+ "id": "dip-2016-05-18-4",
+ "title": "Tens of millions of parking tickets",
+ "hook": "I Quant NY author Ben Wellington recently discovered that New York City had been “ticketing legally parked cars for millions of dollars a year.” To reach that finding, Wellington analyzed three years of parking tickets, amounting to more than 30 million summonses.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "iquantny.tumblr.com",
+   "url": "http://iquantny.tumblr.com/"
+  },
+  {
+   "name": "iquantny.tumblr.com",
+   "url": "http://iquantny.tumblr.com/post/144197004989/the-nypd-was-systematically-ticketing-legally"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2014-August-/jt7v-77mi"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/dataset/Parking-Violations-Issued-Fiscal-Year-2015/c284-tqph"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/City-Government/Parking-Violations-Issued-Fiscal-Year-2016/kiv2-tbus"
+  },
+  {
+   "name": "opendataphilly.org",
+   "url": "https://www.opendataphilly.org/dataset/parking-violations"
+  },
+  {
+   "name": "www1.toronto.ca",
+   "url": "http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=ca20256c54ea4310VgnVCM1000003dd60f89RCRD"
+  },
+  {
+   "name": "baltimorecity.gov",
+   "url": "https://data.baltimorecity.gov/Transportation/Parking-Citations/n4ma-fj3m"
+  },
+  {
+   "name": "seattle.gov",
+   "url": "https://data.seattle.gov/Public-Safety/Parking-Violations-All/q2m9-8vqf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-18",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "iquantny.tumblr.com",
+  "host": "iquantny.tumblr.com"
+ }
+}

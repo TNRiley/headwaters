@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-04-12-3",
+ "title": "Border surveillance",
+ "hook": "The Electronic Frontier Foundation has constructed a map and dataset of 340+ Customs and Border Protection surveillance towers along the US-Mexico border.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eff.org",
+   "url": "https://www.eff.org/about"
+  },
+  {
+   "name": "eff.org",
+   "url": "https://www.eff.org/deeplinks/2023/03/cbp-expanding-its-surveillance-tower-program-us-mexico-border-and-were-mapping-it"
+  },
+  {
+   "name": "eff.org",
+   "url": "https://www.eff.org/document/us-mexico-border-surveillance-data"
+  },
+  {
+   "name": "eff.org",
+   "url": "https://www.eff.org/pages/automated-license-plate-readers-alpr"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-12",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "eff.org",
+  "host": "eff.org"
+ }
+}

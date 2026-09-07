@@ -1,0 +1,54 @@
+{
+ "id": "dip-2024-09-11-1",
+ "title": "Health and nutrition",
+ "hook": "Since 1999, CDC has been continuously fielding its National Health and Nutrition Examination Survey, interviewing and testing approximately 5,000 people in 15 different counties each year.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink",
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/nchs/nhanes/about_nhanes.htm"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/nchs/nhanes/index.htm"
+  },
+  {
+   "name": "wwwn.cdc.gov",
+   "url": "https://wwwn.cdc.gov/nchs/nhanes/default.aspx"
+  },
+  {
+   "name": "publichealth.jmir.org",
+   "url": "https://publichealth.jmir.org/2024/1/e53330"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/records/10382740"
+  },
+  {
+   "name": "rstudio-connect.hpc.mssm.edu",
+   "url": "https://rstudio-connect.hpc.mssm.edu/POND/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-11",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

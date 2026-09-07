@@ -1,0 +1,33 @@
+{
+ "id": "dip-2017-03-01-3",
+ "title": "Vehicle specs",
+ "hook": "The National Highway Traffic Safety Administration provides an impressively rich API detailing every manufacturer, make, and model in its database.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "vpic.nhtsa.dot.gov",
+   "url": "https://vpic.nhtsa.dot.gov/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-01",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "vpic.nhtsa.dot.gov",
+  "host": "vpic.nhtsa.dot.gov"
+ }
+}

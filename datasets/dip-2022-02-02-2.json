@@ -1,0 +1,37 @@
+{
+ "id": "dip-2022-02-02-2",
+ "title": "Chinese technology companies abroad",
+ "hook": "Mapping China’s Tech Giants, a project relaunched by the Australian Strategic Policy Institute last year, examines the overseas expansion of 27 major Chinese technology companies, from Alibaba to ZTE. The project’s dataset includes 3,900+ entries, each describing and locating an operation or connection abroad.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "chinatechmap.aspi.org.au",
+   "url": "https://chinatechmap.aspi.org.au/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Australian_Strategic_Policy_Institute"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-02-02",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-02-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "chinatechmap.aspi.org.au",
+  "host": "chinatechmap.aspi.org.au"
+ }
+}

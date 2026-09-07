@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-08-08-1",
+ "title": "Militarized disputes",
+ "hook": "The Militarized Interstate Dispute datasets provide details about more than 2,200 instances between 1816 and 2010 where a government “threatened, displayed, or used force against another” — including each dispute’s timing, participants, death count, result, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "cow.dss.ucdavis.edu",
+   "url": "http://cow.dss.ucdavis.edu/data-sets/MIDs"
+  },
+  {
+   "name": "correlatesofwar.org",
+   "url": "http://correlatesofwar.org/data-sets/MIDLOC"
+  },
+  {
+   "name": "cow.dss.ucdavis.edu",
+   "url": "http://cow.dss.ucdavis.edu/"
+  },
+  {
+   "name": "cow.dss.ucdavis.edu",
+   "url": "http://cow.dss.ucdavis.edu/history"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-08",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cow.dss.ucdavis.edu",
+  "host": "cow.dss.ucdavis.edu"
+ }
+}

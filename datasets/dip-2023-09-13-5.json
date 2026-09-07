@@ -1,0 +1,61 @@
+{
+ "id": "dip-2023-09-13-5",
+ "title": "License plate designs",
+ "hook": "Beautiful Public Data’s Jon Keegan scraped the websites of every US state’s (and DC’s) motor vehicle agency to assemble a dataset of 8,291 license plate designs. The dataset provides each design’s name, state, and image. Read more: Keegan’s exploration of the data, which includes a searchable table.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "beautifulpublicdata.com",
+   "url": "https://www.beautifulpublicdata.com/"
+  },
+  {
+   "name": "jonkeegan.com",
+   "url": "https://jonkeegan.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jonkeegan/us-license-plates"
+  },
+  {
+   "name": "beautifulpublicdata.com",
+   "url": "https://www.beautifulpublicdata.com/all-of-the-license-plates-in-the-united-states/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/veltman/ca-license-plates"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-01-29-edition/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/datanews/license-plates"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2015-10-21-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-13",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "beautifulpublicdata.com",
+  "host": "beautifulpublicdata.com"
+ }
+}

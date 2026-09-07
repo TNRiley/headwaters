@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-11-02-4",
+ "title": "The weight of the web",
+ "hook": "Researchers at the HTTP Archive, a project of the Internet Archive, “periodically crawl the top sites on the web and record detailed information about fetched resources, used web platform APIs and features, and execution traces of each page.” They make the raw data available via Google BigQuery, and also publish aggregate data tracking metrics such as loading speed and page weight (measured in kilobytes transferred).",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "httparchive.org",
+   "url": "https://httparchive.org/"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/HTTPArchive/httparchive.org/blob/main/docs/gettingstarted_bigquery.md"
+  },
+  {
+   "name": "httparchive.org",
+   "url": "https://httparchive.org/reports"
+  },
+  {
+   "name": "httparchive.org",
+   "url": "https://httparchive.org/reports/loading-speed"
+  },
+  {
+   "name": "httparchive.org",
+   "url": "https://httparchive.org/reports/page-weight"
+  },
+  {
+   "name": "blog.datawrapper.de",
+   "url": "https://blog.datawrapper.de/why-web-pages-can-have-a-size-problem/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-02",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "httparchive.org",
+  "host": "httparchive.org"
+ }
+}

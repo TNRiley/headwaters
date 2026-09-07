@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-01-12-5",
+ "title": "Chocolate bar reviews",
+ "hook": "The Manhattan Chocolate Society’s Brady Brelinski has reviewed 2,500+ bars of craft chocolate since 2006, and compiles his findings into a copy-paste-able table that lists each bar’s manufacturer, bean origin, percent cocoa, ingredients, review notes, and numerical rating.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "flavorsofcacao.com",
+   "url": "http://flavorsofcacao.com/mcs_index.html"
+  },
+  {
+   "name": "flavorsofcacao.com",
+   "url": "http://flavorsofcacao.com/contact.html"
+  },
+  {
+   "name": "flavorsofcacao.com",
+   "url": "http://flavorsofcacao.com/review_guide.html"
+  },
+  {
+   "name": "flavorsofcacao.com",
+   "url": "http://flavorsofcacao.com/chocolate_database.html"
+  },
+  {
+   "name": "flavorsofcacao.com",
+   "url": "http://flavorsofcacao.com/usa_craft_makers.html"
+  },
+  {
+   "name": "flavorsofcacao.com",
+   "url": "http://flavorsofcacao.com/canadian_craft_makers.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-12",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Flavors of Cacao",
+  "host": "flavorsofcacao.com"
+ }
+}

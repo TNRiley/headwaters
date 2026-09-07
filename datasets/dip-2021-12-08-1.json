@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-12-08-1",
+ "title": "Citizenship laws",
+ "hook": "The Global Citizenship Observatory’s new Citizenship Law Dataset “outlines, in a systematic way, 28 ways in which citizenship can be acquired and 15 ways in which citizenship can be lost.” Launched last week and building on the observatory’s previous work, it covers the laws in effect in 190 countries in January 2020.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "globalcit.eu",
+   "url": "https://globalcit.eu/"
+  },
+  {
+   "name": "globalcit.eu",
+   "url": "https://globalcit.eu/databases/globalcit-citizenship-law-dataset/"
+  },
+  {
+   "name": "globalcit.eu",
+   "url": "https://globalcit.eu/a-new-globalcit-citizenship-law-dataset-what-why-and-how/"
+  },
+  {
+   "name": "macimide.maastrichtuniversity.nl",
+   "url": "https://macimide.maastrichtuniversity.nl/dual-cit-database/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-01-09-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-08",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "globalcit.eu",
+  "host": "globalcit.eu"
+ }
+}

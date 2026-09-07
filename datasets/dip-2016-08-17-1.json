@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-08-17-1",
+ "title": "Beaches",
+ "hook": "The U.S. Environmental Protection Agency’s BEACON system contains data on more than 5,000 public beaches. For each state’s most “significant” beaches, BEACON’s downloadable reports include data on water quality, pollution advisories, closures, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "watersgeo.epa.gov",
+   "url": "https://watersgeo.epa.gov/beacon2/reports.html"
+  },
+  {
+   "name": "fs.fed.us",
+   "url": "http://www.fs.fed.us/visit/destination/oregon-dunes-national-recreation-area-%E2%80%93-south-jetty-area"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-17",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "watersgeo.epa.gov",
+  "host": "watersgeo.epa.gov"
+ }
+}

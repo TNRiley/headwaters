@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-09-14-2",
+ "title": "Voter ID laws",
+ "hook": "As part of his PhD research, Tom Barton has constructed a dataset of voter identification requirements around the world.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "pure.royalholloway.ac.uk",
+   "url": "https://pure.royalholloway.ac.uk/portal/en/persons/thomas-barton(8a862a25-f335-4c52-9986-6c094b613b55).html"
+  },
+  {
+   "name": "tandfonline.com",
+   "url": "https://www.tandfonline.com/doi/full/10.1080/00344893.2022.2113117"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/RU2F9A"
+  },
+  {
+   "name": "ncsl.org",
+   "url": "https://www.ncsl.org/research/elections-and-campaigns/voter-id.aspx"
+  },
+  {
+   "name": "tracker.votingrightslab.org",
+   "url": "https://tracker.votingrightslab.org/pending/search"
+  },
+  {
+   "name": "votingrightslab.org",
+   "url": "https://votingrightslab.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-07-20-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-14",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pure.royalholloway.ac.uk",
+  "host": "pure.royalholloway.ac.uk"
+ }
+}

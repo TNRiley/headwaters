@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-02-15-1",
+ "title": "Volunteer weather reports",
+ "hook": "The National Weather Service’s Cooperative Observer Program (COOP) is a 127-year-old network of volunteer weather observers. “More than 8,700 volunteers take observations on farms, in urban and suburban areas, National Parks, seashores, and mountaintops,” according to the NWS. Want to become a volunteer?",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nws.noaa.gov",
+   "url": "http://www.nws.noaa.gov/om/coop/"
+  },
+  {
+   "name": "nws.noaa.gov",
+   "url": "http://www.nws.noaa.gov/om/coop/what-is-coop.html"
+  },
+  {
+   "name": "nws.noaa.gov",
+   "url": "http://www.nws.noaa.gov/om/coop/become.htm"
+  },
+  {
+   "name": "mesonet.agron.iastate.edu",
+   "url": "https://mesonet.agron.iastate.edu/COOP/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-02-15",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-02-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nws.noaa.gov",
+  "host": "nws.noaa.gov"
+ }
+}

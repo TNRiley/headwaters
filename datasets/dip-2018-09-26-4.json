@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-09-26-4",
+ "title": "Social assistance programs",
+ "hook": "The Social Assistance, Politics and Institutions database, developed at an United Nations University research center, “provides a synthesis of longitudinal and harmonized comparable information on social assistance programmes in developing countries, covering the period 2000-2015.” For each program, such as Brazil’s “Bolsa Familia,” the database describes its basic characteristics, budget and financing, and population coverage.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "wider.unu.edu",
+   "url": "https://www.wider.unu.edu/project/sapi-social-assistance-politics-and-institutions-database"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-09-26",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-09-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wider.unu.edu",
+  "host": "wider.unu.edu"
+ }
+}

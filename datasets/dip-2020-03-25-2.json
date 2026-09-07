@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-03-25-2",
+ "title": "Official coronavirus interventions",
+ "hook": "ACAPS, a humanitarian analysis nonprofit, is cataloguing government measures implemented in response to the pandemic. The measures range from quarantine policies (the most common) to electronic surveillance and the lockdown of refugee camps.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "",
+ "sources": [
+  {
+   "name": "acaps.org",
+   "url": "https://www.acaps.org/who-we-are/in-short"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/acaps-covid19-government-measures-dataset"
+  },
+  {
+   "name": "rexdouglass.com",
+   "url": "https://rexdouglass.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/rexdouglass/TIGR"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/rexdouglass/TIGR/blob/master/data_out/TIGR_version1_latest.tsv"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-25",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "acaps.org",
+  "host": "acaps.org"
+ }
+}

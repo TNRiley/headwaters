@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-03-08-4",
+ "title": "Speaking roles in 2016’s blockbusters",
+ "hook": "Researcher Amber Thomas has parsed the transcripts of last year’s 10 highest grossing films. The resulting data files indicate each character’s number of turns speaking, number of words spoken, and gender. Previously: Dialogue from 2,000 movies, by gender (April 13, 2016).",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "proquestionasker.github.io",
+   "url": "https://proquestionasker.github.io/"
+  },
+  {
+   "name": "proquestionasker.github.io",
+   "url": "https://proquestionasker.github.io/projects/MovieDialogue/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ProQuestionAsker/2016MovieDialogue"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-04-13-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-08",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "proquestionasker.github.io",
+  "host": "proquestionasker.github.io"
+ }
+}

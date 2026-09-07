@@ -1,0 +1,56 @@
+{
+ "id": "dip-2019-05-15-1",
+ "title": "U.S. executions",
+ "hook": "The Death Penalty Information Center maintains a database of all executions in the United States since 1976.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "deathpenaltyinfo.org",
+   "url": "https://deathpenaltyinfo.org/"
+  },
+  {
+   "name": "deathpenaltyinfo.org",
+   "url": "https://deathpenaltyinfo.org/views-executions"
+  },
+  {
+   "name": "endofitsrope.com",
+   "url": "https://endofitsrope.com/using-the-database/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-08-01-edition"
+  },
+  {
+   "name": "selectstarsql.com",
+   "url": "https://selectstarsql.com/frontmatter.html#dataset"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-03-06-edition"
+  }
+ ],
+ "articles": [
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/next-to-die"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-15",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "deathpenaltyinfo.org",
+  "host": "deathpenaltyinfo.org"
+ }
+}

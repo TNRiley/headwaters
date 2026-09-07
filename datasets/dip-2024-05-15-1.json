@@ -1,0 +1,54 @@
+{
+ "id": "dip-2024-05-15-1",
+ "title": "Unaccompanied migrant children",
+ "hook": "The New York Times’ Hannah Dreier was awarded a Pulitzer Prize last week for a “series of stories revealing the stunning reach of migrant child labor across the United States—and the corporate and governmental failures that perpetuate it.” That reporting, Dreier has noted, was partly driven by data she obtained from the Department of Health and Human Services via a FOIA request and lawsuit.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "hannahdreier.com",
+   "url": "https://www.hannahdreier.com/"
+  },
+  {
+   "name": "pulitzer.org",
+   "url": "https://www.pulitzer.org/winners/hannah-dreier-new-york-times"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/nytimes/hhs-child-migrant-data"
+  },
+  {
+   "name": "journalistsresource.org",
+   "url": "https://journalistsresource.org/media/migrant-children-labor-abuse-goldmith/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2023/03/03/insider/searching-for-the-faces-of-child-migrant-labor.html"
+  },
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2023/12/28/us/migrants-children-data.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-15",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "hannahdreier.com",
+  "host": "hannahdreier.com"
+ }
+}

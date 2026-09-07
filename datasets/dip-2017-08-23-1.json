@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-08-23-1",
+ "title": "A century of malarial mosquitoes",
+ "hook": "A team of researchers has compiled “the largest ever geo-coded database of anophelines in Africa.” (Anophelines are the only kind of mosquito that transmits malaria.) The database covers 1898 to 2016 and includes more than 13,400 observations of mosquitoes in specific locations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "wellcomeopenresearch.org",
+   "url": "https://wellcomeopenresearch.org/articles/2-57/"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/malaria/about/biology/mosquitoes/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NQ6CUN"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-23",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wellcomeopenresearch.org",
+  "host": "wellcomeopenresearch.org"
+ }
+}

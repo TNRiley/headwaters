@@ -1,0 +1,61 @@
+{
+ "id": "dip-2021-08-25-3",
+ "title": "Africa building outlines",
+ "hook": "Open Buildings, a project led by Google Research’s Ghana office, has published a dataset of 516 million building footprints in Africa, estimated from satellite imagery. The dataset, which you can explore online and download as CSVs, spans roughly 64% of the continent.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "academic",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "sites.research.google",
+   "url": "https://sites.research.google/open-buildings/"
+  },
+  {
+   "name": "ai.googleblog.com",
+   "url": "https://ai.googleblog.com/2021/07/mapping-africas-buildings-with.html"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2107.12283"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Microsoft/USBuildingFootprints"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-07-18-edition/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Microsoft/CanadianBuildingFootprints"
+  },
+  {
+   "name": "medium.com",
+   "url": "https://medium.com/on-location/an-open-building-outlines-dataset-for-new-zealand-eef8b558ef7a"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-09-25-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-25",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sites.research.google",
+  "host": "sites.research.google"
+ }
+}

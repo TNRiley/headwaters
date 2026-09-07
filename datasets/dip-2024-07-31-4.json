@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-07-31-4",
+ "title": "People surveyed since 1979",
+ "hook": "The Bureau of Labor Statistics’ NLSY79 survey has interviewed the same people dozens of times since 1979. It began with a “nationally representative sample of 12,686 young men and women”; more than four decades later, 6,000+ interviewees are still responding to the project’s biennial inquiries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/nls/nlsy79.htm"
+  },
+  {
+   "name": "nlsinfo.org",
+   "url": "https://www.nlsinfo.org/content/cohorts/nlsy79/intro-to-the-sample/retention-reasons-noninterview"
+  },
+  {
+   "name": "nlsinfo.org",
+   "url": "https://www.nlsinfo.org/content/cohorts/nlsy79/topical-guide"
+  },
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/nls/getting-started/accessing-data.htm"
+  },
+  {
+   "name": "nlsinfo.org",
+   "url": "https://www.nlsinfo.org/investigator/pages/home"
+  },
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/nls/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-31",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BLS",
+  "host": "bls.gov"
+ }
+}

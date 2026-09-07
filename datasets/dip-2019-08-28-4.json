@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-08-28-4",
+ "title": "German federal judges",
+ "hook": "Legal scholar and open-data enthusiast Hanjo Hamann has digitized seventy years of rosters from Germany’s seven federal courts, extracted structured data about the judges, and linked them to their Wikidata IDs. Related: Hamann’s detailed description of the dataest’s historical context and its construction.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "coll.mpg.de",
+   "url": "https://www.coll.mpg.de/hanjo-hamann"
+  },
+  {
+   "name": "richter-im-internet.de",
+   "url": "http://www.richter-im-internet.de"
+  },
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/jels.12230"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-28",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "coll.mpg.de",
+  "host": "coll.mpg.de"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-02-26-5",
+ "title": "Cockatoo Island prisoners",
+ "hook": "Historical criminologist Katherine Roscoe has transcribed archival records to create a detailed dataset of more than 2,500 people imprisoned between 1847 and 1869 at Cockatoo Island Prison — “Sydney’s most notorious 19th century prison,” now a UNESCO World Heritage Site.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "reference works",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "liverpool.ac.uk",
+   "url": "https://www.liverpool.ac.uk/sociology-social-policy-and-criminology/staff/katherine-roscoe/"
+  },
+  {
+   "name": "cockatooconvicts.wordpress.com",
+   "url": "https://cockatooconvicts.wordpress.com"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Cockatoo_Island_(New_South_Wales)"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-26",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "liverpool.ac.uk",
+  "host": "liverpool.ac.uk"
+ }
+}

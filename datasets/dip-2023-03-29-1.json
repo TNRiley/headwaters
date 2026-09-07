@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-03-29-1",
+ "title": "Local public meetings",
+ "hook": "LocalView, developed by Soubhik Barari and Tyler Simko, “is the largest dataset of local government public meetings — the central policy-making process in American local government — as they are captured on video.” In a recent paper, the authors describe how they built the dataset, which is based on 130,000+ YouTube-hosted videos of such meetings in 1,000+ US cities and counties, covering the years 2006 to 2022.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "localview.net",
+   "url": "https://localview.net/"
+  },
+  {
+   "name": "soubhikbarari.com",
+   "url": "https://soubhikbarari.com/"
+  },
+  {
+   "name": "tylersimko.com",
+   "url": "https://tylersimko.com/"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-023-02044-y"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NJTBEM"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-29",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "localview.net",
+  "host": "localview.net"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "dip-2021-10-13-1",
+ "title": "Abortion policies",
+ "hook": "The World Health Organization’s Global Abortion Policies Database is “designed to strengthen global efforts to eliminate unsafe abortion by producing an interactive open-access database and repository of current abortion laws, policies, and national standards and guidelines.” The project uses an extensive questionnaire to categorize dozens of regulatory factors for each country; the findings can be queried online, or downloaded as a spreadsheet.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "abortion-policies.srhr.org",
+   "url": "https://abortion-policies.srhr.org/"
+  },
+  {
+   "name": "abortion-policies.srhr.org",
+   "url": "https://abortion-policies.srhr.org/documents/data/questionnaire.pdf"
+  },
+  {
+   "name": "abortion-policies.srhr.org",
+   "url": "https://abortion-policies.srhr.org/countries/"
+  },
+  {
+   "name": "abortion-policies.srhr.org",
+   "url": "https://abortion-policies.srhr.org/documents/data/survey.xlsx"
+  },
+  {
+   "name": "maps.reproductiverights.org",
+   "url": "https://maps.reproductiverights.org/worldabortionlaws"
+  },
+  {
+   "name": "maps.reproductiverights.org",
+   "url": "https://maps.reproductiverights.org/ajax/wal-map"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/world/interactive/2021/us-abortion-laws-worldwide/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-10-13",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-10-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "abortion-policies.srhr.org",
+  "host": "abortion-policies.srhr.org"
+ }
+}

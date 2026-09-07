@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-03-08-5",
+ "title": "Pictures of food",
+ "hook": "A trio of European researchers has published a dataset containing 101,000 photos of food — 1,000 images each from 101 food categories, all downloaded from foodspotting.com. The categories include apple pie, escargots, onion rings, paella, bibimbap, prime rib, and more. [h/t Reddit user cavedave]",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "company",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "vision.ee.ethz.ch",
+   "url": "https://www.vision.ee.ethz.ch/datasets_extra/food-101/"
+  },
+  {
+   "name": "foodspotting.com",
+   "url": "https://www.foodspotting.com"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-08",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "vision.ee.ethz.ch",
+  "host": "vision.ee.ethz.ch"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-04-13-4",
+ "title": "Brazilian news outlets",
+ "hook": "Atlas da Notícia (⎘English homepage) aims to catalog Brazil’s print, online, television, and radio news outlets.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "atlas.jor.br",
+   "url": "https://www.atlas.jor.br/"
+  },
+  {
+   "name": "atlas.jor.br",
+   "url": "https://www.atlas.jor.br/en/"
+  },
+  {
+   "name": "projor.org.br",
+   "url": "https://www.projor.org.br/en"
+  },
+  {
+   "name": "voltdata.info",
+   "url": "https://voltdata.info/en/"
+  },
+  {
+   "name": "atlas.jor.br",
+   "url": "https://www.atlas.jor.br/dados/app/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-13",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "atlas.jor.br",
+  "host": "atlas.jor.br"
+ }
+}

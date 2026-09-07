@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-04-10-1",
+ "title": "Opioid settlement payouts",
+ "hook": "KFF Health News has been following the slew of legal settlements by companies accused of exacerbating the opioid crisis.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "kffhealthnews.org",
+   "url": "https://kffhealthnews.org/opioid-settlements/"
+  },
+  {
+   "name": "kffhealthnews.org",
+   "url": "https://kffhealthnews.org/news/article/opioid-settlement-payouts-state-county-city-tracker/"
+  },
+  {
+   "name": "kffhealthnews.org",
+   "url": "https://kffhealthnews.org/download-the-data-opioid-settlement-payouts/"
+  },
+  {
+   "name": "nationalopioidofficialsettlement.com",
+   "url": "https://www.nationalopioidofficialsettlement.com/Home/StateAllocationAmounts"
+  },
+  {
+   "name": "kff-org.zoom.us",
+   "url": "https://kff-org.zoom.us/meeting/register/tZErduqrqjosHNRXNTNnY6jfmiPTUamwtkRo%20/#/registration"
+  },
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:7183116733463855104/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-10",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "kffhealthnews.org",
+  "host": "kffhealthnews.org"
+ }
+}

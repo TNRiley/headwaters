@@ -1,0 +1,49 @@
+{
+ "id": "dip-2019-11-13-4",
+ "title": "Food flows",
+ "hook": "A team of researchers has developed a statistical model to estimate the flow of food commodities between every pair of US counties in 2012.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "iopscience.iop.org",
+   "url": "https://iopscience.iop.org/article/10.1088/1748-9326/ab29ae"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/cfs.html"
+  },
+  {
+   "name": "faf.ornl.gov",
+   "url": "https://faf.ornl.gov/fafweb/"
+  },
+  {
+   "name": "nass.usda.gov",
+   "url": "https://www.nass.usda.gov/AgCensus/"
+  },
+  {
+   "name": "theconversation.com",
+   "url": "https://theconversation.com/we-mapped-how-food-gets-from-farms-to-your-home-125475"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-11-13",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-11-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "iopscience.iop.org",
+  "host": "iopscience.iop.org"
+ }
+}

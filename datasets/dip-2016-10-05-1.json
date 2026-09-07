@@ -1,0 +1,53 @@
+{
+ "id": "dip-2016-10-05-1",
+ "title": "Global foreign aid",
+ "hook": "AidData, an organization based at the College of William &amp; Mary, has compiled a dataset of more than 1.5 million foreign aid projects between 1947 and 2013. Together, the dataset accounts for more than $7 trillion in commitments from 96 donors such as the U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "aiddata.org",
+   "url": "http://aiddata.org/about-aiddatas-work"
+  },
+  {
+   "name": "aiddata.org",
+   "url": "http://aiddata.org/country-level-research-datasets"
+  },
+  {
+   "name": "aiddata.org",
+   "url": "http://aiddata.org/subnational-geospatial-research-datasets"
+  },
+  {
+   "name": "aiddata.org",
+   "url": "http://aiddata.org/data-user-guide"
+  },
+  {
+   "name": "beta.foreignassistance.gov",
+   "url": "http://beta.foreignassistance.gov/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-01-13-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-05",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aiddata.org",
+  "host": "aiddata.org"
+ }
+}

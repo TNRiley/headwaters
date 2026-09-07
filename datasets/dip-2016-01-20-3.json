@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-01-20-3",
+ "title": "Campaign ad purchases",
+ "hook": "The FCC requires broadcasters to keep records of “all requests for broadcast time made by or on behalf of a candidate for public office.” With the help of volunteers, Political Ad Sleuth gathers those records and enters them into a searchable, downloadable database.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "law.cornell.edu",
+   "url": "https://www.law.cornell.edu/cfr/text/47/73.1943"
+  },
+  {
+   "name": "politicaladsleuth.com",
+   "url": "http://politicaladsleuth.com/"
+  },
+  {
+   "name": "politicaladsleuth.com",
+   "url": "http://politicaladsleuth.com/political-files/most-recent/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-20",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "law.cornell.edu",
+  "host": "law.cornell.edu"
+ }
+}

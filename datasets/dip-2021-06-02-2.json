@@ -1,0 +1,57 @@
+{
+ "id": "dip-2021-06-02-2",
+ "title": "Gun-dealer violations",
+ "hook": "“The Bureau of Alcohol, Tobacco, Firearms and Explosives inspects thousands of licensed gun dealers and manufacturers each year, but what happens in those investigations is rarely revealed to the public.” So reporters at The Trace and USA Today compiled a database of nearly 2,000 ATF inspections between July 2015 and June 2017 with violations, based on PDFs obtained through a FOIA lawsuit by the Brady gun control group.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "projects.thetrace.org",
+   "url": "https://projects.thetrace.org/inspections/methodology/"
+  },
+  {
+   "name": "projects.thetrace.org",
+   "url": "https://projects.thetrace.org/inspections/"
+  },
+  {
+   "name": "courtlistener.com",
+   "url": "https://www.courtlistener.com/docket/6170066/brady-center-to-prevent-gun-violence-v-us-department-of-justice/"
+  },
+  {
+   "name": "bradyunited.org",
+   "url": "https://www.bradyunited.org/"
+  },
+  {
+   "name": "thetrace.org",
+   "url": "https://www.thetrace.org/2021/05/atf-inspection-records-gun-stores-guide/"
+  },
+  {
+   "name": "thetrace.org",
+   "url": "https://www.thetrace.org/2021/05/atf-inspection-report-gun-store-ffl-violation/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2015-11-04-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-02",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "projects.thetrace.org",
+  "host": "projects.thetrace.org"
+ }
+}

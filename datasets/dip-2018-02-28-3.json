@@ -1,0 +1,49 @@
+{
+ "id": "dip-2018-02-28-3",
+ "title": "American radiation",
+ "hook": "The Environmental Protection Agency’s RadNet system “monitors the nation's air, precipitation and drinking water for radiation.” The radiation measurements, collected from 130+ stations in all 50 states plus the District of Columbia and Puerto Rico, are available on a “near-real-time” basis.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/radnet"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/radnet/near-real-time-and-laboratory-data-state"
+  },
+  {
+   "name": "xkcd.com",
+   "url": "https://xkcd.com/radiation/"
+  },
+  {
+   "name": "blog.safecast.org",
+   "url": "https://blog.safecast.org/about/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-02-03-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-28",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "epa.gov",
+  "host": "epa.gov"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "id": "dip-2020-03-11-1",
+ "title": "More coronavirus data",
+ "hook": "Last month, DIP featured coronavirus case counts mapped by researchers at Johns Hopkins. Since then, efforts to collect and publish COVID-19 data have grown, including: the Johns Hopkins team has moved its data repository to GitHub ... the Open COVID-19 Data Curation Group has expanded its data on individual cases ...",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine",
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-02-05-edition"
+  },
+  {
+   "name": "gisanddata.maps.arcgis.com",
+   "url": "https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/CSSEGISandData/COVID-19"
+  },
+  {
+   "name": "thelancet.com",
+   "url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30119-5/fulltext"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/beoutbreakprepared/nCoV2019"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/pcm-dpc/COVID-19"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/parksw3/COVID19-Korea"
+  },
+  {
+   "name": "gisaid.org",
+   "url": "https://www.gisaid.org/"
+  },
+  {
+   "name": "gisaid.org",
+   "url": "https://www.gisaid.org/epiflu-applications/next-hcov-19-app/"
+  },
+  {
+   "name": "coronavirustechhandbook.com",
+   "url": "https://coronavirustechhandbook.com/"
+  },
+  {
+   "name": "peteraldhous.com",
+   "url": "https://www.peteraldhous.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/peteraldhous/coronavirus-updating-charts-maps-us-states"
+  },
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/peteraldhous/coronavirus-updating-charts-maps-us-states"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-11",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tinyletter.com",
+  "host": "tinyletter.com"
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "id": "dip-2024-09-18-4",
+ "title": "Art words",
+ "hook": "The Getty Vocabularies, published by the Getty Research Institute, “contain structured terminology for art, architecture, decorative arts, archival materials, visual surrogates, art conservation, and bibliographic materials.” They provide definitions, relationships, translations, and disambiguations for a broad range of terms and entities.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "getty.edu",
+   "url": "https://www.getty.edu/research/tools/vocabularies/index.html"
+  },
+  {
+   "name": "getty.edu",
+   "url": "https://www.getty.edu/research/tools/vocabularies/faq.html"
+  },
+  {
+   "name": "getty.edu",
+   "url": "https://www.getty.edu/research/"
+  },
+  {
+   "name": "getty.edu",
+   "url": "https://www.getty.edu/research/tools/vocabularies/aat/index.html"
+  },
+  {
+   "name": "getty.edu",
+   "url": "https://www.getty.edu/vow/AATFullDisplay?find=lithography&logic=AND&note=&english=N&prev_page=1&subjectid=300053271"
+  },
+  {
+   "name": "getty.edu",
+   "url": "https://www.getty.edu/research/tools/vocabularies/ulan/index.html"
+  },
+  {
+   "name": "getty.edu",
+   "url": "https://www.getty.edu/research/tools/vocabularies/cona/index.html"
+  },
+  {
+   "name": "getty.edu",
+   "url": "https://www.getty.edu/research/tools/vocabularies/tgn/index.html"
+  },
+  {
+   "name": "getty.edu",
+   "url": "https://www.getty.edu/research/tools/vocabularies/obtain/index.html"
+  },
+  {
+   "name": "getty.edu",
+   "url": "https://www.getty.edu/research/tools/vocabularies/obtain/download.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-18",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "getty.edu",
+  "host": "getty.edu"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "dip-2015-10-28-2",
+ "title": "The demographics of traffic stops",
+ "hook": "This weekend, the New York Times published a front-page article on “the disproportionate risk of driving while black.” Among other findings: “officers were more likely to conduct [searches] when the driver was black, even though they consistently found drugs, guns or other contraband more often if the driver was white.” The investigation drew on several statewide traffic-stop datasets that track the race and gender of stopped drivers.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ctrp3.ctdata.org",
+   "url": "http://ctrp3.ctdata.org/"
+  },
+  {
+   "name": "trafficstops.ncdoj.gov",
+   "url": "http://trafficstops.ncdoj.gov/Default.aspx?pageid=2"
+  },
+  {
+   "name": "ago.mo.gov",
+   "url": "https://www.ago.mo.gov/home/vehicle-stops-report"
+  },
+  {
+   "name": "ncc.nebraska.gov",
+   "url": "http://www.ncc.nebraska.gov/statistics/trafficstops/"
+  },
+  {
+   "name": "goccp.maryland.gov",
+   "url": "http://www.goccp.maryland.gov/msac/law-enforcement.php"
+  },
+  {
+   "name": "idot.illinois.gov",
+   "url": "http://www.idot.illinois.gov/transportation-system/local-transportation-partners/law-enforcement/illinois-traffic-stop-study"
+  },
+  {
+   "name": "ri.gov",
+   "url": "http://www.ri.gov/press/view/23152"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "http://www.nytimes.com/2015/10/25/us/racial-disparity-traffic-stops-driving-black.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-10-28",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-10-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ctrp3.ctdata.org",
+  "host": "ctrp3.ctdata.org"
+ }
+}

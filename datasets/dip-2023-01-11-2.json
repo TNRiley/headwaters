@@ -1,0 +1,61 @@
+{
+ "id": "dip-2023-01-11-2",
+ "title": "Small-business loans",
+ "hook": "The US Small Business Administration publishes loan-level data from two of its major lending programs, known as 7(a) and 504, going back to the early 1990s.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "sba.gov",
+   "url": "https://data.sba.gov/dataset/7-a-504-foia"
+  },
+  {
+   "name": "sba.gov",
+   "url": "https://www.sba.gov/funding-programs/loans/7a-loans"
+  },
+  {
+   "name": "sba.gov",
+   "url": "https://www.sba.gov/funding-programs/loans/504-loans"
+  },
+  {
+   "name": "blackwealthdata.org",
+   "url": "https://blackwealthdata.org/"
+  },
+  {
+   "name": "blackwealthdata.org",
+   "url": "https://blackwealthdata.org/explore/business"
+  },
+  {
+   "name": "sba.gov",
+   "url": "https://www.sba.gov/funding-programs/loans/covid-19-relief-options/paycheck-protection-program/ppp-data"
+  },
+  {
+   "name": "sba.gov",
+   "url": "https://www.sba.gov/funding-programs/loans/covid-19-relief-options/paycheck-protection-program"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-07-08-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-11",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sba.gov",
+  "host": "sba.gov"
+ }
+}

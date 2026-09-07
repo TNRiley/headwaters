@@ -1,0 +1,70 @@
+{
+ "id": "dip-2020-10-07-2",
+ "title": "Xinjiang internment camps",
+ "hook": "In August, BuzzFeed News published a two-part investigation into China’s “vast new infrastructure” for imprisoning Muslim minorities in its Xinjiang region. The reporters used a novel methodology to of hundreds of detention facilities: examining the gaps in Baidu Maps’ satellite imagery.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/critocrito/xinjiang-camps-data"
+  },
+  {
+   "name": "aspi.org.au",
+   "url": "https://www.aspi.org.au/"
+  },
+  {
+   "name": "xjdp.aspi.org.au",
+   "url": "https://xjdp.aspi.org.au/"
+  },
+  {
+   "name": "xjdp.aspi.org.au",
+   "url": "https://xjdp.aspi.org.au/data/?tab=datasets"
+  },
+  {
+   "name": "xjdp.aspi.org.au",
+   "url": "https://xjdp.aspi.org.au/explainers/exploring-xinjiangs-detention-facilities/"
+  },
+  {
+   "name": "xjdp.aspi.org.au",
+   "url": "https://xjdp.aspi.org.au/explainers/cultural-erasure/"
+  },
+  {
+   "name": "aspi.org.au",
+   "url": "https://www.aspi.org.au/report/mapping-xinjiangs-re-education-camps"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/meghara/china-new-internment-camps-xinjiang-uighurs-muslims"
+  },
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/alison_killing/satellite-images-investigation-xinjiang-detention-camps"
+  },
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/world/2020/sep/24/china-has-built-380-internment-camps-in-xinjiang-study-finds"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-10-07",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-10-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

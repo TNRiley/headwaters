@@ -1,0 +1,53 @@
+{
+ "id": "dip-2021-06-09-5",
+ "title": "Mathematical proofs",
+ "hook": "ProofWiki is “an online compendium of mathematical proofs,” with 21,000+ of them and counting. (It also provides lists of notable mathematicians and a page of jokes.) Sean Welleck et al.’s NaturalProofs dataset contains a processed version of the website’s XML dump, plus data derived from other proof-containing resources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "proofwiki.org",
+   "url": "https://proofwiki.org/wiki/Main_Page"
+  },
+  {
+   "name": "proofwiki.org",
+   "url": "https://proofwiki.org/wiki/Mathematician:Mathematicians"
+  },
+  {
+   "name": "proofwiki.org",
+   "url": "https://proofwiki.org/wiki/ProofWiki:Jokes"
+  },
+  {
+   "name": "wellecks.github.io",
+   "url": "https://wellecks.github.io/naturalproofs/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/wellecks/naturalproofs"
+  },
+  {
+   "name": "proofwiki.org",
+   "url": "https://proofwiki.org/wiki/User:Afirou/website_dump"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-09",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "proofwiki.org",
+  "host": "proofwiki.org"
+ }
+}

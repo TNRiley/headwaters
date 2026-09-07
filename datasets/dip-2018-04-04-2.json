@@ -1,0 +1,47 @@
+{
+ "id": "dip-2018-04-04-2",
+ "title": "Gender pay gaps in Great Britain",
+ "hook": "The UK government has begun requiring all companies with at least 250 employees in Great Britain (i.e., England, Scotland, and Wales) to report the pay differences between their male and female workers. Today is the official deadline to submit the reports; as of last night, more than 8,800 employers had done so.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/guidance/gender-pay-gap-reporting-overview"
+  },
+  {
+   "name": "gender-pay-gap.service.gov.uk",
+   "url": "https://gender-pay-gap.service.gov.uk/Viewing/search-results"
+  },
+  {
+   "name": "gender-pay-gap.service.gov.uk",
+   "url": "https://gender-pay-gap.service.gov.uk/Viewing/download"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/society/equal-pay"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-04",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "www.gov.uk",
+  "host": "gov.uk"
+ }
+}

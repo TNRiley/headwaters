@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-03-15-4",
+ "title": "Irrigation by county and crop",
+ "hook": "P. J. Ruess et al. have developed annual, county-level estimates of irrigation water use for 20 crop groups between 2008 and 2020. The calculations draw on water use data from the US Geological Survey, as well as high-resolution data on crop locations, climate, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "agupubs.onlinelibrary.wiley.com",
+   "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022WR032804"
+  },
+  {
+   "name": "databank.illinois.edu",
+   "url": "https://databank.illinois.edu/datasets/IDB-4607538"
+  },
+  {
+   "name": "water.usgs.gov",
+   "url": "https://water.usgs.gov/watuse/data/index.html"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/special-topics/water-science-school/science/groundwater-decline-and-depletion"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-15",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "agupubs.onlinelibrary.wiley.com",
+  "host": "agupubs.onlinelibrary.wiley.com"
+ }
+}

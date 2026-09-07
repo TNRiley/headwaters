@@ -1,0 +1,49 @@
+{
+ "id": "dip-2025-04-30-4",
+ "title": "Previously unmapped waterways",
+ "hook": "WaterNet Global Waterways is “a new global dataset that predicts the locations of waterways around the world” using an AI model trained on satellite imagery and elevation data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "source.coop",
+   "url": "https://source.coop/repositories/fika/waternet/description"
+  },
+  {
+   "name": "medium.com",
+   "url": "https://medium.com/fika-blog/waternet-ai-powered-global-water-mapping-triples-known-waterways-bc3095783661"
+  },
+  {
+   "name": "bridgestoprosperity.org",
+   "url": "https://bridgestoprosperity.org/"
+  },
+  {
+   "name": "betterplanetlab.com",
+   "url": "https://betterplanetlab.com/"
+  },
+  {
+   "name": "apps.fikamap.com",
+   "url": "https://apps.fikamap.com/waternet"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-04-30",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-04-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "source.coop",
+  "host": "source.coop"
+ }
+}

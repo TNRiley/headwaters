@@ -1,0 +1,53 @@
+{
+ "id": "dip-2021-08-18-5",
+ "title": "Shows within shows",
+ "hook": "Nestflix, a new website by designer/developer Lynn Fisher, catalogs more than 400 fictional films and TV shows that appear within actual films and TV shows. For instance: 30 Rock’s The Rural Juror and Home Alone’s Angels with Filthy Souls.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nestflix.fun",
+   "url": "https://nestflix.fun/"
+  },
+  {
+   "name": "lynnandtonic.com",
+   "url": "https://lynnandtonic.com/"
+  },
+  {
+   "name": "nestflix.fun",
+   "url": "https://nestflix.fun/the-rural-juror/"
+  },
+  {
+   "name": "nestflix.fun",
+   "url": "https://nestflix.fun/angels-with-filthy-souls/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/lynnandtonic/nestflix.fun"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/lynnandtonic/nestflix.fun/tree/main/src/data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-18",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nestflix.fun",
+  "host": "nestflix.fun"
+ }
+}

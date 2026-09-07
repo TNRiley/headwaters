@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-11-07-5",
+ "title": "All things Star Trek",
+ "hook": "STAPI bills itself as “the first public Star Trek API.” It provides access to structured data not only about the fictional universe (e.g., 6,364 characters, 1,215 spacecraft, and 155 conflicts) but also its intersection with reality (e.g., 5,302 performers, 731 television episodes, 76 soundtracks).",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "stapi.co",
+   "url": "http://stapi.co/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-11-07",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-11-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "stapi.co",
+  "host": "stapi.co"
+ }
+}

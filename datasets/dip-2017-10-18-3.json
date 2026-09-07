@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-10-18-3",
+ "title": "Patents and trademarks",
+ "hook": "The U.S. Patent and Trademark Office publishes a huge amount of bulk data, including detailed XML files that contain information about millions of patent/trademark applications, assignments, trials, and appeals.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "bulkdata.uspto.gov",
+   "url": "https://bulkdata.uspto.gov/"
+  },
+  {
+   "name": "uspto.gov",
+   "url": "https://www.uspto.gov/learning-and-resources/ip-policy/economic-research/research-datasets"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-10-18",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-10-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bulkdata.uspto.gov",
+  "host": "bulkdata.uspto.gov"
+ }
+}

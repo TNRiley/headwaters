@@ -1,0 +1,46 @@
+{
+ "id": "dip-2017-03-22-2",
+ "title": "Previous federal budget proposals",
+ "hook": "To accompany its 2016 and 2017 budget proposals, the Obama administration published machine-readable copies on GitHub. Each proposal’s data are divided into three CSV files: for budget authority, outlays, and receipts. The accompanying user guide explains the data sources and structure.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/WhiteHouse/budgetdata/tree/2017"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/WhiteHouse/budgetdata/blob/2017/USER_GUIDE.md"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/WhiteHouse/budgetdata/blob/2017/data/receipts.csv"
+  },
+  {
+   "name": "uscg.mil",
+   "url": "https://www.uscg.mil/npfc/About_NPFC/osltf.asp"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-22",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

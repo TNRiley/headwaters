@@ -1,0 +1,50 @@
+{
+ "id": "dip-2021-12-22-4",
+ "title": "California water wells",
+ "hook": "Domestic wells in the San Joaquin Valley “are drying up at an alarming pace” amid “a frenzy of new well construction and heavy agricultural pumping,” according to a Los Angeles Times article last week.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/datadesk/groundwater-analysis"
+  },
+  {
+   "name": "cnra.ca.gov",
+   "url": "https://data.cnra.ca.gov/dataset/well-completion-reports"
+  },
+  {
+   "name": "cnra.ca.gov",
+   "url": "https://data.cnra.ca.gov/dataset/periodic-groundwater-level-measurements"
+  },
+  {
+   "name": "ca.gov",
+   "url": "https://data.ca.gov/dataset/household-water-supply-shortage-reporting-system-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "latimes.com",
+   "url": "https://www.latimes.com/projects/california-farms-water-wells-drought/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-22",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "dip-2018-02-07-2",
+ "title": "Terrorism incidents",
+ "hook": "The Global Terrorism Database, run by a University of Maryland–based consortium, is an “open-source database” of more than 170,000 terrorist events. The database, which currently covers 1970 through 2016, is well-documented and includes information about about the attackers, locations, weapons, victims, and more.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "start.umd.edu",
+   "url": "http://www.start.umd.edu/gtd/"
+  },
+  {
+   "name": "start.umd.edu",
+   "url": "https://www.start.umd.edu/gtd/using-gtd/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-05-24-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-07",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "start.umd.edu",
+  "host": "start.umd.edu"
+ }
+}

@@ -47,6 +47,12 @@
    "year": 2021,
    "week": 50,
    "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-12-07"
+  },
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-11-03",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-11-03/"
   }
  ],
  "added": "2026-09-06",

@@ -1,0 +1,50 @@
+{
+ "id": "dip-2024-06-12-5",
+ "title": "Sudoku solves",
+ "hook": "In the spirit of introspection, Sudoku enthusiast Vivek Rao has conducted a detailed analysis of his cell-by-cell performance on 100 puzzles from the New York Times’ daily offerings. The underlying data, collected via a custom browser extension that Rao built, indicates the order and timing of every cell he filled.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Sudoku"
+  },
+  {
+   "name": "vivrao9.github.io",
+   "url": "https://vivrao9.github.io/"
+  },
+  {
+   "name": "vivrao9.github.io",
+   "url": "https://vivrao9.github.io/nyt-sudoku/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/vivrao9/nyt-sudoku/blob/master/data-collection/doks_performance.csv"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/puzzles/sudoku"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-06-12",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-06-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

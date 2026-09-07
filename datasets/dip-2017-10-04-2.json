@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-10-04-2",
+ "title": "Chest x-rays",
+ "hook": "Last week, the National Institutes of Health released a dataset containing more than 100,000 anonymized chest x-rays, from 30,000 patients, “including many with advanced lung disease.” For each image, the associated metadata includes the patient’s age, gender, and diagnosis labels.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nih.gov",
+   "url": "https://www.nih.gov/news-events/news-releases/nih-clinical-center-provides-one-largest-publicly-available-chest-x-ray-datasets-scientific-community"
+  },
+  {
+   "name": "nihcc.app.box.com",
+   "url": "https://nihcc.app.box.com/v/ChestXray-NIHCC"
+  },
+  {
+   "name": "nihcc.app.box.com",
+   "url": "https://nihcc.app.box.com/v/ChestXray-NIHCC/file/220660789610"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/beamandrew/medical-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-10-04",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-10-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nih.gov",
+  "host": "nih.gov"
+ }
+}

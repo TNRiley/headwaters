@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-01-01-3",
+ "title": "Copyright complaints",
+ "hook": "Google has received millions of requests from copyright holders to delist billions of URLs from its search results. The company’s transparency reports include a section where you can explore and download data about these requests.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "transparencyreport.google.com",
+   "url": "https://transparencyreport.google.com"
+  },
+  {
+   "name": "transparencyreport.google.com",
+   "url": "https://transparencyreport.google.com/copyright/overview"
+  },
+  {
+   "name": "lumendatabase.org",
+   "url": "https://www.lumendatabase.org"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-01",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "transparencyreport.google.com",
+  "host": "transparencyreport.google.com"
+ }
+}

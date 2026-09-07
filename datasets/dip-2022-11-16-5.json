@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-11-16-5",
+ "title": "Tinned fish",
+ "hook": "Rainbow Tomatoes Garden is a farm in East Greenville, Pennsylvania, that also happens to run an online store selling “the largest selection of tinned seafood in the world.” Curator-owner Dan Waber publishes a spreadsheet of the store’s 630+ offerings, listing each product’s name, type of seafood, brand, country of origin, tin size, and price; whether it’s organic, certified kosher, smoked, boneless, and/or skinless; and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "rainbowtomatoesgarden.com",
+   "url": "https://rainbowtomatoesgarden.com/"
+  },
+  {
+   "name": "rainbowtomatoesgarden.com",
+   "url": "https://rainbowtomatoesgarden.com/index.php/product-category/conservas/"
+  },
+  {
+   "name": "rainbowtomatoesgarden.com",
+   "url": "https://rainbowtomatoesgarden.com/index.php/product/ten-tins-to-try-and-why-by-dan-waber/"
+  },
+  {
+   "name": "phillygrub.blog",
+   "url": "https://phillygrub.blog/2022/06/18/tomatoes-and-tinned-fish/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1zjfwXVsGPfWw4ag3EHkT6ismDZhj8dlFwwahD7SG7gQ/edit"
+  },
+  {
+   "name": "rainbowtomatoesgarden.com",
+   "url": "https://rainbowtomatoesgarden.com/index.php/choosing-a-tin/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-16",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rainbowtomatoesgarden.com",
+  "host": "rainbowtomatoesgarden.com"
+ }
+}

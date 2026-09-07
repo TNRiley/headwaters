@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-01-10-5",
+ "title": "San Diego burritos",
+ "hook": "Scott Cole is a neuroscience PhD student at UC San Diego who, in his spare time, is leading a project to rate the region’s burritos on a 10-dimensional scale.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "srcole.github.io",
+   "url": "https://srcole.github.io/about/"
+  },
+  {
+   "name": "srcole.github.io",
+   "url": "https://srcole.github.io/100burritos/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-10",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "srcole.github.io",
+  "host": "srcole.github.io"
+ }
+}

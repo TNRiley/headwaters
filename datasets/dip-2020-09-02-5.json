@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-09-02-5",
+ "title": "The Bible",
+ "hook": "Tim Morgan’s bible-api.com “provides a JSON API for grabbing bible verses and passages.” You can choose verses from six translations in five languages, and can download both the underlying code and the data. [h/t Oto Brglez]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "timmorgan.dev",
+   "url": "https://timmorgan.dev/"
+  },
+  {
+   "name": "bible-api.com",
+   "url": "https://bible-api.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/seven1m/bible_api"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/seven1m/open-bibles"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-09-02",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-09-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "timmorgan.dev",
+  "host": "timmorgan.dev"
+ }
+}

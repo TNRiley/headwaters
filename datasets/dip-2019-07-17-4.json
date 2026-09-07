@@ -1,0 +1,49 @@
+{
+ "id": "dip-2019-07-17-4",
+ "title": "Foreign lobbyists",
+ "hook": "The United States’ Foreign Agents Registration Act requires lobbyists who represent foreign governments to file paperwork with the Department of Justice.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "justice.gov",
+   "url": "https://www.justice.gov/nsd-fara"
+  },
+  {
+   "name": "efile.fara.gov",
+   "url": "https://efile.fara.gov/ords/f?p=1381:1:12056132996267:::::"
+  },
+  {
+   "name": "efile.fara.gov",
+   "url": "https://efile.fara.gov/ords/f?p=1235:10"
+  },
+  {
+   "name": "efile.fara.gov",
+   "url": "https://efile.fara.gov/ords/f?p=107:1::::::"
+  },
+  {
+   "name": "efile.fara.gov",
+   "url": "https://efile.fara.gov/ords/f?p=API:BULKDATA"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-17",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "justice.gov",
+  "host": "justice.gov"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2024-10-09-3",
+ "title": "Fuel forecasts",
+ "hook": "The US Energy Information Administration’s monthly Short-Term Energy Outlook provides forecasts and recent trends of energy supply, consumption, prices, and inventory. It covers a range of commodities and electricity sources, such as crude oil, coal, natural gas, gasoline, renewables, and nuclear.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/outlooks/steo/"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=63384"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/outlooks/steo/data/browser/#/?v=11"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/outlooks/steo/data.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-10-09",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-10-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "U.S. Gasoline and Diesel Retail Prices",
+  "host": "eia.gov"
+ }
+}

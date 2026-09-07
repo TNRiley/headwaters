@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-07-10-4",
+ "title": "US coral reefs",
+ "hook": "The National Coral Reef Monitoring Program collects scientific and socioeconomic/attitude survey data related to the coral reefs offshore of the continental United States, Hawaii, and US territories. It provides the data through public visualizations as well as download tools and raw files.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "coris.noaa.gov",
+   "url": "https://www.coris.noaa.gov/monitoring/"
+  },
+  {
+   "name": "ncrmp-visualization-tool-noaa.hub.arcgis.com",
+   "url": "https://ncrmp-visualization-tool-noaa.hub.arcgis.com/"
+  },
+  {
+   "name": "ncrmp.coralreef.noaa.gov",
+   "url": "https://ncrmp.coralreef.noaa.gov/pages/Data%20Download"
+  },
+  {
+   "name": "coris.noaa.gov",
+   "url": "https://www.coris.noaa.gov/monitoring/data_atlantic.html"
+  },
+  {
+   "name": "coris.noaa.gov",
+   "url": "https://www.coris.noaa.gov/monitoring/data_pacific.html"
+  },
+  {
+   "name": "ncrmp.coralreef.noaa.gov",
+   "url": "https://ncrmp.coralreef.noaa.gov/pages/ncrmp-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-10",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "coris.noaa.gov",
+  "host": "coris.noaa.gov"
+ }
+}

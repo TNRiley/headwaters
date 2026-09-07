@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-05-18-4",
+ "title": "Europe prison populations",
+ "hook": "The Council of Europe publishes annual statistical reports on prison populations and facilities, based on surveys sent to its member states. The council publishes most of the data only in the report PDFs, but does provide HTML tables of country-level inmate counts and facility capacity from 2018 to 2022.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "reference works",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Council_of_Europe"
+  },
+  {
+   "name": "wp.unil.ch",
+   "url": "https://wp.unil.ch/space/space-i/annual-reports/"
+  },
+  {
+   "name": "wp.unil.ch",
+   "url": "https://wp.unil.ch/space/space-i/prison-stock-on-1-january/"
+  },
+  {
+   "name": "wp.unil.ch",
+   "url": "https://wp.unil.ch/space/space-i/prison-stock-on-1-january/prison-stock-on-1-january-2018/"
+  },
+  {
+   "name": "wp.unil.ch",
+   "url": "https://wp.unil.ch/space/space-i/prison-stock-on-1-january/prison-stock-on-1st-january-2022/"
+  },
+  {
+   "name": "civio.es",
+   "url": "https://civio.es/2022/05/10/use-and-abuse-of-preventive-detention-in-the-european-union/"
+  },
+  {
+   "name": "datos.civio.es",
+   "url": "https://datos.civio.es/dataset/porcentaje-de-personas-en-prision-provisional-en-2020/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-18",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

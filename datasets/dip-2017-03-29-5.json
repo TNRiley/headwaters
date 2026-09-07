@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-03-29-5",
+ "title": "100 million domain names",
+ "hook": "The anonymously-published DNS Census 2013 “is an attempt to provide a public dataset of registered domains and DNS records” — essentially the Internet’s phone book.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "dnscensus2013.neocities.org",
+   "url": "https://dnscensus2013.neocities.org/"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/DNSCensus2013"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/download/DNSCensus2013/2nd-level-domains/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-29",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dnscensus2013.neocities.org",
+  "host": "dnscensus2013.neocities.org"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2023-01-18-3",
+ "title": "Brazilian biodiversity",
+ "hook": "Flora e Funga do Brasil, a project led by the Rio de Janeiro Botanical Garden Research Institute, aims to collect “morphological descriptions, identification keys and illustrations for all species of plants, algae and fungi known to the country.” With the help of hundreds of scientists, the project currently covers 50,000+ species.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "floradobrasil.jbrj.gov.br",
+   "url": "https://floradobrasil.jbrj.gov.br/reflora/listaBrasil/ConsultaPublicaUC/ConsultaPublicaUC.do#CondicaoTaxonCP"
+  },
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1002/tax.12640"
+  },
+  {
+   "name": "ipt.jbrj.gov.br",
+   "url": "https://ipt.jbrj.gov.br/jbrj/resource?r=lista_especies_flora_brasil"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-18",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "floradobrasil.jbrj.gov.br",
+  "host": "floradobrasil.jbrj.gov.br"
+ }
+}

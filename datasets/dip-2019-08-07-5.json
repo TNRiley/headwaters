@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-08-07-5",
+ "title": "State liquor prices",
+ "hook": "About a third of US states hold a monopoly on the local sale of hard liquor. Some of them — including Virginia, Alabama, Michigan, Utah, and North Carolina — let you download their price lists as spreadsheets. [h/t Christopher Ingraham]",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Alcoholic_beverage_control_state"
+  },
+  {
+   "name": "abc.virginia.gov",
+   "url": "https://www.abc.virginia.gov/products/products-faqs/product-downloads"
+  },
+  {
+   "name": "alabcboard.gov",
+   "url": "https://alabcboard.gov/QPL"
+  },
+  {
+   "name": "michigan.gov",
+   "url": "https://www.michigan.gov/lara/0,4601,7-154-89334_10570_14173---,00.html"
+  },
+  {
+   "name": "webapps2.abc.utah.gov",
+   "url": "https://webapps2.abc.utah.gov/Production/OnlinePriceList/DisplayDivCategory.aspx"
+  },
+  {
+   "name": "abc.nc.gov",
+   "url": "https://abc.nc.gov/Pricing/PriceList"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-07",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

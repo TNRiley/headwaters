@@ -1,0 +1,35 @@
+{
+ "id": "dip-2019-08-28-1",
+ "title": "Multinational corporations",
+ "hook": "The OECD’s ADIMA database tracks multinational corporations — Walmart, Toyota, Nestle, etc. — and their subsidiaries. It currently includes economic statistics about each of the world’s 100 largest multinationals, the names and locations of 26,000 subsidiaries, and information about nearly 20,000 of their websites.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "oecd.org",
+   "url": "http://www.oecd.org/sdd/its/measuring-multinational-enterprises.htm"
+  },
+  {
+   "name": "oecd.org",
+   "url": "http://www.oecd.org/sdd/its/statistical-insights-the-adima-database-on-multinational-enterprises.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-28",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "oecd.org",
+  "host": "oecd.org"
+ }
+}

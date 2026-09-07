@@ -1,0 +1,41 @@
+{
+ "id": "dip-2025-02-26-4",
+ "title": "Argentine treaties",
+ "hook": "Javier I. Santander, a career diplomat, has built a dataset of 8,200+ bilateral treaties signed by Argentina from 1810 and 2023. It lists each treaty’s title, status, date signed, and counterpart country.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "jisantander.com",
+   "url": "https://jisantander.com/"
+  },
+  {
+   "name": "jisantander.com",
+   "url": "https://jisantander.com/ressources/bilaterals/"
+  },
+  {
+   "name": "tratados.cancilleria.gob.ar",
+   "url": "https://tratados.cancilleria.gob.ar/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-02-26",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-02-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "jisantander.com",
+  "host": "jisantander.com"
+ }
+}

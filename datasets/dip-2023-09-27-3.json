@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-09-27-3",
+ "title": "Europopulism",
+ "hook": "The PopuList, constructed by Matthijs Rooduijn et al., “offers academics and journalists an overview of populist, far-left and far-right parties in Europe from 1989 until 2022.” Version 3.0 of the dataset, released last month, lists each party’s country, local/English names, presence in parliament, and identifiers in the Party Facts (DIP 2019.01.16) and ParlGov (DIP 2018.09.19) databases.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "popu-list.org",
+   "url": "https://popu-list.org/"
+  },
+  {
+   "name": "cambridge.org",
+   "url": "https://www.cambridge.org/core/journals/british-journal-of-political-science/article/populist-a-database-of-populist-farleft-and-farright-parties-using-expertinformed-qualitative-comparative-classification-eiqcc/EBF60489A0E1E3D91A6FE066C7ABA2CA"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/2ewkq/"
+  },
+  {
+   "name": "partyfacts.herokuapp.com",
+   "url": "https://partyfacts.herokuapp.com/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-01-16-edition/"
+  },
+  {
+   "name": "parlgov.org",
+   "url": "https://www.parlgov.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-09-19-edition/"
+  },
+  {
+   "name": "popu-list.org",
+   "url": "https://popu-list.org/about/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Euroscepticism"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-27",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "popu-list.org",
+  "host": "popu-list.org"
+ }
+}

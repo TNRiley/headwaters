@@ -1,0 +1,43 @@
+{
+ "id": "dip-2023-05-31-5",
+ "title": "NYC sidewalk scaffolding",
+ "hook": "New York City’s Department of Buildings publishes a map and dataset of active permits for “sidewalk sheds,” the ubiquitous, temporary structures (often colloquially called scaffolding) meant to shield pedestrians from falling debris.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nyc.gov",
+   "url": "https://www.nyc.gov/assets/buildings/html/sidewalk-shed-map.html"
+  },
+  {
+   "name": "nyc.gov",
+   "url": "https://www.nyc.gov/site/buildings/safety/sidewalk-sheds.page"
+  },
+  {
+   "name": "observablehq.com",
+   "url": "https://observablehq.com/@betanyc/what-are-sidewalk-sheds"
+  },
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/in/zhi-keng-he-870072156"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-31",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nyc.gov",
+  "host": "nyc.gov"
+ }
+}

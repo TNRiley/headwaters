@@ -1,0 +1,46 @@
+{
+ "id": "dip-2016-06-01-4",
+ "title": "Speling chellange",
+ "hook": "The Scripps National Spelling Bee publishes the competition’s results online, but not in any analysis-friendly format. Thankfully, statistician Christopher Long has scraped and spreadsheet-ified the Scripps results going back to 1996 – including last week’s finals.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "spellingbee.com",
+   "url": "http://spellingbee.com/public/results/2016/round_results"
+  },
+  {
+   "name": "angrystatistician.blogspot.com",
+   "url": "http://angrystatistician.blogspot.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/octonion/spelling"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "http://fivethirtyeight.com/features/where-do-spelling-bee-words-come-from/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-01",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "spellingbee.com",
+  "host": "spellingbee.com"
+ }
+}

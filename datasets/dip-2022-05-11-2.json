@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-05-11-2",
+ "title": "LGBTQI+ elected officials",
+ "hook": "The Queer Politics at Princeton research program has assembled an international map and database of 1,000+ officials elected since the 1970s “who publicly identify as lesbian, gay, bisexual, pansexual, transgender, non-binary, gender-non-conforming, queer or intersex.” The project focuses on candidates elected to national, state, and mayoral offices.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "queerpolitics.princeton.edu",
+   "url": "https://queerpolitics.princeton.edu/"
+  },
+  {
+   "name": "princeton.edu",
+   "url": "https://www.princeton.edu/news/2022/04/25/new-scholarly-database-publicly-identifying-lgbtqi-elected-officials-across-globe"
+  },
+  {
+   "name": "queerpolitics.princeton.edu",
+   "url": "https://queerpolitics.princeton.edu/data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-11",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "queerpolitics.princeton.edu",
+  "host": "queerpolitics.princeton.edu"
+ }
+}

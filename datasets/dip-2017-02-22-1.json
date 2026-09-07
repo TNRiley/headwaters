@@ -1,0 +1,35 @@
+{
+ "id": "dip-2017-02-22-1",
+ "title": "Subsidized housing",
+ "hook": "Earlier this month, the Department of Housing and Urban Development released its “Picture of Subsidized Households” report for 2016.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "huduser.gov",
+   "url": "https://www.huduser.gov/portal/datasets/assthsg.html"
+  },
+  {
+   "name": "huduser.gov",
+   "url": "https://www.huduser.gov/portal/datasets/pictures/dictionary_2016.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-02-22",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-02-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "huduser.gov",
+  "host": "huduser.gov"
+ }
+}

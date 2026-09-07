@@ -1,0 +1,42 @@
+{
+ "id": "dip-2021-04-14-2",
+ "title": "Central banks vs. the pandemic",
+ "hook": "Researchers at the Bank for International Settlements (DIP 2020.08.12) have compiled a dataset of central banks’ policy responses to the coronavirus pandemic.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "health & medicine"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "bis.org",
+   "url": "https://www.bis.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-08-12-edition/"
+  },
+  {
+   "name": "bis.org",
+   "url": "https://www.bis.org/publ/work934.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-14",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bis.org",
+  "host": "bis.org"
+ }
+}

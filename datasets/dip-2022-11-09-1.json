@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-11-09-1",
+ "title": "Income patterns",
+ "hook": "The Global Repository of Income Dynamics is a new “open-access international database that provides a wealth of micro statistics on income inequality and income dynamics.” It was constructed by an international team of economists using longitudinal administrative data and “designed from ground up with a focus on…",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "reference works",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "grid-database.org",
+   "url": "https://www.grid-database.org/"
+  },
+  {
+   "name": "grid-database.org",
+   "url": "https://www.grid-database.org/documentation"
+  },
+  {
+   "name": "grid-database.org",
+   "url": "https://www.grid-database.org/team"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Kurtosis"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-09",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "grid-database.org",
+  "host": "grid-database.org"
+ }
+}

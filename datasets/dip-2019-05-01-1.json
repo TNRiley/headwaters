@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-05-01-1",
+ "title": "State-owned oil companies",
+ "hook": "The browseable and downloadable National Oil Company Database, a project of the Natural Resource Governance Institute, pulls together official data on nearly 100 metrics concerning 71 oil/gas companies owned by 61 countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nationaloilcompanydata.org",
+   "url": "https://www.nationaloilcompanydata.org/"
+  },
+  {
+   "name": "resourcegovernance.org",
+   "url": "https://resourcegovernance.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-01",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nationaloilcompanydata.org",
+  "host": "nationaloilcompanydata.org"
+ }
+}

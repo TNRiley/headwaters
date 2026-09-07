@@ -1,0 +1,37 @@
+{
+ "id": "dip-2022-03-30-5",
+ "title": "Teenagers on TV",
+ "hook": "In search of “a better understanding of the age differences between teen characters in TV shows and the actors who portray them,” Amber Thomas last year manually compiled data on 240+ characters in 33 series that premiered between 2000 and 2021.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "amber.rbind.io",
+   "url": "https://amber.rbind.io/"
+  },
+  {
+   "name": "data.world",
+   "url": "https://data.world/amberthomas/age-of-characters-and-actors-in-teen-tv-shows"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-30",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "amber.rbind.io",
+  "host": "amber.rbind.io"
+ }
+}

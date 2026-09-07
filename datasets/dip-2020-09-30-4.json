@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-09-30-4",
+ "title": "Cross-border friendliness",
+ "hook": "The Social Connectedness Index, a collaboration between Facebook and academic researchers, quantifies “the intensity of connectedness between locations” by measuring the frequency of Facebook-friendships linking their residents.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "dataforgood.fb.com",
+   "url": "https://dataforgood.fb.com/tools/social-connectedness-index/"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/social-connectedness-index"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-09-30",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-09-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataforgood.fb.com",
+  "host": "dataforgood.fb.com"
+ }
+}

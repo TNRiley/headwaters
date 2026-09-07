@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-09-04-4",
+ "title": "Drama",
+ "hook": "The Drama Corpora Project has collected and processed more than 800 plays in German, Greek, Spanish, Russian, Latin, and English. For each play, the project provides a structured-data version of the text, a network diagram, speech distribution metrics, plus several other files and features. [h/t Lynn Cherny]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "dracor.org",
+   "url": "https://dracor.org/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Text_Encoding_Initiative"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-04",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dracor.org",
+  "host": "dracor.org"
+ }
+}

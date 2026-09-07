@@ -1,0 +1,35 @@
+{
+ "id": "dip-2021-04-07-5",
+ "title": "Fishing the Great Lakes",
+ "hook": "The Great Lakes Fishery Commission, whose founding was spurred by an invasion of sea lampreys, publishes several datasets relevant to the famous North American basin.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "glfc.org",
+   "url": "http://www.glfc.org/about.php"
+  },
+  {
+   "name": "glfc.org",
+   "url": "http://www.glfc.org/great-lakes-databases.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-07",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Great Lakes Database",
+  "host": "glfc.org"
+ }
+}

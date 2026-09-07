@@ -1,0 +1,53 @@
+{
+ "id": "dip-2021-12-15-2",
+ "title": "Zero-day exploits",
+ "hook": "Researchers at Google’s Project Zero study “zero-day” vulnerabilities — software flaws discovered by hackers before they can be fixed.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "googleprojectzero.blogspot.com",
+   "url": "https://googleprojectzero.blogspot.com/p/about-project-zero.html"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Zero-day_(computing)"
+  },
+  {
+   "name": "googleprojectzero.blogspot.com",
+   "url": "https://googleprojectzero.blogspot.com/p/0day.html"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/view#gid=0"
+  },
+  {
+   "name": "cve.mitre.org",
+   "url": "https://cve.mitre.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-12-12-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-15",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "googleprojectzero.blogspot.com",
+  "host": "googleprojectzero.blogspot.com"
+ }
+}

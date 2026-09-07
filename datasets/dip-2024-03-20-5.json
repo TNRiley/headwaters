@@ -1,0 +1,93 @@
+{
+ "id": "dip-2024-03-20-5",
+ "title": "Aviation waypoints",
+ "hook": "For his recent exploration of the FAA’s aviation maps, Beautiful Public Data’s Jon Keegan has turned the agency’s list of 67,000+ navigation waypoints into a downloadable dataset. “Often these waypoint names will reflect the culture, food or sports teams of the city they are near,” Keegan writes.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "beautifulpublicdata.com",
+   "url": "https://www.beautifulpublicdata.com/faa-aviation-maps/"
+  },
+  {
+   "name": "beautifulpublicdata.com",
+   "url": "https://www.beautifulpublicdata.com/"
+  },
+  {
+   "name": "threads.net",
+   "url": "https://www.threads.net/@jonkeeganstories"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/air_traffic/flight_info/aeronav/aero_data/loc_id_search/fixes_waypoints/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jonkeegan/faa-navigation-waypoints"
+  },
+  {
+   "name": "nfdc.faa.gov",
+   "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&selectName=ME&keyword=LBSTA"
+  },
+  {
+   "name": "nfdc.faa.gov",
+   "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&selectName=MA&keyword=WHALE"
+  },
+  {
+   "name": "nfdc.faa.gov",
+   "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&selectName=MA&keyword=BOSOX"
+  },
+  {
+   "name": "nfdc.faa.gov",
+   "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&selectName=MA&keyword=BRUWN"
+  },
+  {
+   "name": "nfdc.faa.gov",
+   "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&selectName=MA&keyword=CELTS"
+  },
+  {
+   "name": "nfdc.faa.gov",
+   "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&selectName=MA&keyword=PATSS"
+  },
+  {
+   "name": "nfdc.faa.gov",
+   "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&selectName=MA&keyword=FENWY"
+  },
+  {
+   "name": "nfdc.faa.gov",
+   "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&selectName=MA&keyword=ORRRR"
+  },
+  {
+   "name": "nfdc.faa.gov",
+   "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&selectName=MA&keyword=BORQE"
+  },
+  {
+   "name": "nfdc.faa.gov",
+   "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&selectName=MA&keyword=WITCH"
+  },
+  {
+   "name": "nfdc.faa.gov",
+   "url": "https://nfdc.faa.gov/nfdcApps/services/ajv5/fix_search.jsp?selectType=state&selectName=MA&keyword=PLGRM"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-03-20",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-03-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "beautifulpublicdata.com",
+  "host": "beautifulpublicdata.com"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "dip-2019-07-17-1",
+ "title": "Four decades of wildlife trade",
+ "hook": "The CITES Trade Database, named after the Convention on International Trade in Endangered Species of Wild Fauna and Flora, contains information about more than 20 million shipments of wildlife (e.g., live tapirs, sturgeon eggs, wolf skulls) and wildlife products (e.g., venus flytrap extract) since 1975.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "animals & nature"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "trade.cites.org",
+   "url": "https://trade.cites.org/"
+  },
+  {
+   "name": "unep-wcmc.org",
+   "url": "https://www.unep-wcmc.org/"
+  },
+  {
+   "name": "ropensci.github.io",
+   "url": "https://ropensci.github.io/citesdb/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-17",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "trade.cites.org",
+  "host": "trade.cites.org"
+ }
+}

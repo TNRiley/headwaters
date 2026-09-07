@@ -1,0 +1,58 @@
+{
+ "id": "dip-2019-12-04-1",
+ "title": "Income inequality around the world, over time",
+ "hook": "Political scientist Frederick Solt’s Standardized World Income Inequality Database provides annual Gini coefficients for 196 countries and territories. For many, the calculations go back to the 1960s.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "fsolt.org",
+   "url": "https://fsolt.org/"
+  },
+  {
+   "name": "fsolt.org",
+   "url": "https://fsolt.org/swiid/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Gini_coefficient"
+  },
+  {
+   "name": "fsolt.org",
+   "url": "https://fsolt.org/swiid/swiid_source/"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/preprints/socarxiv/mwnje/"
+  },
+  {
+   "name": "wider.unu.edu",
+   "url": "https://www.wider.unu.edu/project/wiid-world-income-inequality-database"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-06-01-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-04",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fsolt.org",
+  "host": "fsolt.org"
+ }
+}

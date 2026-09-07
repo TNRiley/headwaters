@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-05-29-5",
+ "title": "From !!! to The Zutons",
+ "hook": "Duncan Geere’s 00s Indie Band Database quantifies 130+ acts from the early-millennium’s indie music scenes. In addition to basic facts, the database also includes several subjective scales: “Guitars to Synths,” “Artsy to Populist,” “Loudness,” and “Coolness.”",
+ "hook_source": "publisher",
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "duncangeere.com",
+   "url": "https://www.duncangeere.com/"
+  },
+  {
+   "name": "duncangeere.com",
+   "url": "https://www.duncangeere.com/00sindiebanddatabase/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-29",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "duncangeere.com",
+  "host": "duncangeere.com"
+ }
+}

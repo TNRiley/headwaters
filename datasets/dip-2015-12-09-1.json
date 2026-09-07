@@ -1,0 +1,37 @@
+{
+ "id": "dip-2015-12-09-1",
+ "title": "The 2015 Global Open Data Index, released last night",
+ "hook": "Open Knowledge International has just published its latest survey of openly available government data. This year’s audit includes 112 countries and territories, up from 97 last year.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "index.okfn.org",
+   "url": "http://index.okfn.org/place/"
+  },
+  {
+   "name": "index.okfn.org",
+   "url": "http://index.okfn.org/methodology/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-09",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "index.okfn.org",
+  "host": "index.okfn.org"
+ }
+}

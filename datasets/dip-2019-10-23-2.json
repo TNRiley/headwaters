@@ -1,0 +1,33 @@
+{
+ "id": "dip-2019-10-23-2",
+ "title": "Euro-bank speeches",
+ "hook": "European Central Bank has begun publishing a spreadsheet of all executive board members’ speeches since the late 1990s. The dataset contains each speech’s date, speaker(s), title, subtitle, and text; the ECB says it will be updated every two months. [h/t Volker Nitsch + Peter Tillmann]",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "ecb.europa.eu",
+   "url": "https://www.ecb.europa.eu/press/key/html/downloads.en.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-23",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ecb.europa.eu",
+  "host": "ecb.europa.eu"
+ }
+}

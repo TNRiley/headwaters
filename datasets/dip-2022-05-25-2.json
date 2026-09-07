@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-05-25-2",
+ "title": "Infrastructure permitting",
+ "hook": "The US government’s Federal Infrastructure Permitting Dashboard tracks the “environmental review and authorization processes for large or complex infrastructure projects,” particularly those funded by the Department of Transportation and those participating in a voluntary review-coordination effort known as FAST-41.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "permits.performance.gov",
+   "url": "https://www.permits.performance.gov/"
+  },
+  {
+   "name": "permits.performance.gov",
+   "url": "https://www.permits.performance.gov/about"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/sustainability/fast-41-coordination"
+  },
+  {
+   "name": "permits.performance.gov",
+   "url": "https://data.permits.performance.gov/Permitting-Project/Permitting-Dashboard-Full-Dataset/mcm3-xbid"
+  },
+  {
+   "name": "permits.performance.gov",
+   "url": "https://www.permits.performance.gov/projects"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-25",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "permits.performance.gov",
+  "host": "permits.performance.gov"
+ }
+}

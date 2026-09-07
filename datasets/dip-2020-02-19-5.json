@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-02-19-5",
+ "title": "Pinball",
+ "hook": "The crowdsourced website pinballmap.com provides data on more than 25,500 pinball machines at more than 7,400 locations in the US, UK, Canada, Australia, Finland, and Japan. The website’s API lets you access the underlying data, including the specific machines available at each location.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "pinballmap.com",
+   "url": "https://pinballmap.com"
+  },
+  {
+   "name": "pinballmap.com",
+   "url": "https://pinballmap.com/api/v1/docs"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-19",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pinballmap.com",
+  "host": "pinballmap.com"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "dip-2021-07-07-2",
+ "title": "Government regulations",
+ "hook": "QuantGov, an open-source project of the free-market-oriented Mercatus Center, “solves the problem of quantifying large amounts of policy text for research and comprehension by using machine learning and natural language processing.” Its RegData initiative applies this approach to government regulations over time — quantifying their length and linguistic complexity and trying to identify their relevant NAICS-classified industries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "quantgov.org",
+   "url": "https://www.quantgov.org/about"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/quantgov"
+  },
+  {
+   "name": "mercatus.org",
+   "url": "https://www.mercatus.org/"
+  },
+  {
+   "name": "quantgov.org",
+   "url": "https://www.quantgov.org/history"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/naics/"
+  },
+  {
+   "name": "quantgov.org",
+   "url": "https://www.quantgov.org/download-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-07-07",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-07-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "quantgov.org",
+  "host": "quantgov.org"
+ }
+}

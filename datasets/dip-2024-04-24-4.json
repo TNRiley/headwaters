@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-04-24-4",
+ "title": "Food-system indicators",
+ "hook": "The Food Systems Countdown Initiative produces “annual publications to measure, assess, and track the performance of global food systems toward 2030 and the conclusion of the Sustainable Development Goals.” As part of that work, its Food Systems Dashboard incorporates 275 metrics from dozens of sources about countries’ food availability, affordability, supply chains, safety, and related topics.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "foodcountdown.org",
+   "url": "https://www.foodcountdown.org/"
+  },
+  {
+   "name": "foodsystemsdashboard.org",
+   "url": "https://www.foodsystemsdashboard.org/"
+  },
+  {
+   "name": "foodsystemsdashboard.org",
+   "url": "https://www.foodsystemsdashboard.org/information/data-sources-and-methodology"
+  },
+  {
+   "name": "foodsystemsdashboard.org",
+   "url": "https://www.foodsystemsdashboard.org/indicators/food-environments/food-availability/average-protein-supply-3-year-average/map"
+  },
+  {
+   "name": "foodsystemsdashboard.org",
+   "url": "https://www.foodsystemsdashboard.org/indicators/food-environments/vendor-properties/supermarkets-per-100000-population/map"
+  },
+  {
+   "name": "foodsystemsdashboard.org",
+   "url": "https://www.foodsystemsdashboard.org/indicators/food-supply-chains/processing-and-packaging/mandatory-removal-of-trans-fats-in-food-products/map"
+  },
+  {
+   "name": "foodsystemsdashboard.org",
+   "url": "https://www.foodsystemsdashboard.org/indicators/food-environments/food-safety/percent-who-believe-the-government-does-a-good-job-ensuring-food-safety/map"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-24",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "foodcountdown.org",
+  "host": "foodcountdown.org"
+ }
+}

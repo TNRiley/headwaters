@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-10-11-5",
+ "title": "Dog genomes",
+ "hook": "The Dog10K project aims “to coordinate the global effort on genome sequencing in dogs and build a comprehensive resource for the canine community.” In a recent Genome Biology article, the team shared data and findings from 1987 individual animals — “1611 dogs (321 breeds), 309 village dogs, 63 wolves, and four coyotes.” The records include raw sequence data and variation analysis results.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "dog10kgenomes.org",
+   "url": "http://www.dog10kgenomes.org/dog10k/index.html"
+  },
+  {
+   "name": "genomebiology.biomedcentral.com",
+   "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03023-7"
+  },
+  {
+   "name": "dog10kgenomes.org",
+   "url": "http://www.dog10kgenomes.org/dog10k/consortium.html"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/8084059"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-10-11",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-10-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dog10kgenomes.org",
+  "host": "dog10kgenomes.org"
+ }
+}

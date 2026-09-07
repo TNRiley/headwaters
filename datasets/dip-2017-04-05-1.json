@@ -1,0 +1,52 @@
+{
+ "id": "dip-2017-04-05-1",
+ "title": "3D NYC",
+ "hook": "In 2014, the NYC Department of Information Technology &amp; Telecommunications conducted a massive aerial survey of the city. Then, they converted the images and data they collected into a three-dimensional model of every building in all five boroughs.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "www1.nyc.gov",
+   "url": "http://www1.nyc.gov/site/doitt/initiatives/3d-building.page"
+  },
+  {
+   "name": "businesslocationcenter.de",
+   "url": "http://www.businesslocationcenter.de/en/downloadportal"
+  },
+  {
+   "name": "overheid.nl",
+   "url": "https://data.overheid.nl/data/dataset/3d-model-den-haag/resource/2191118b-5ccc-436b-a5f8-eca12f8f8281"
+  },
+  {
+   "name": "grandlyon.com",
+   "url": "https://data.grandlyon.com/search/?Q=maquettes+textur%25C3%25A9es"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-05-25-edition"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2016/12/21/upshot/Mapping-the-Shadows-of-New-York-City.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-05",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "www1.nyc.gov",
+  "host": "www1.nyc.gov"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-11-30-4",
+ "title": "Indonesia earthquake intensities",
+ "hook": "Gempa Nusantara, a database compiled by Stacey S. Martin et al., uses historical documents to catalog 7,300+ “macroseismic effects” of 1,200 earthquakes near Indonesia during a four-century span, from 1546 to 1950.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/7point1/GempaNusantara"
+  },
+  {
+   "name": "doi.org",
+   "url": "https://doi.org/10.1785/0120220047"
+  },
+  {
+   "name": "gfz-potsdam.de",
+   "url": "https://www.gfz-potsdam.de/en/section/seismic-hazard-and-risk-dynamics/data-products-services/ems-98-european-macroseismic-scale/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/European_macroseismic_scale"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-30",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

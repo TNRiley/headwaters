@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-12-19-3",
+ "title": "Philly property transactions",
+ "hook": "Philadelphia’s Department of Records has begun publishing a dataset of all real estate transfers recorded since late 1999. The 3.7 million records include deeds, mortgages, condo declarations, and a few other types of documents.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "opendataphilly.org",
+   "url": "https://www.opendataphilly.org/dataset/real-estate-transfers"
+  },
+  {
+   "name": "phila.gov",
+   "url": "https://data.phila.gov/visualizations/real-estate-transfers"
+  },
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/collections/price-paid-data"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-03-23-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-12-19",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-12-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Open Data Philly",
+  "host": "opendataphilly.org"
+ }
+}

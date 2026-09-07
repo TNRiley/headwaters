@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-08-17-2",
+ "title": "Consumer finances",
+ "hook": "Every three years since 1983, the US Federal Reserve has conducted its Survey of Consumer Finances, which asks a sample of families detailed questions about their income, savings, assets, pensions, loans, credit lines, demographics, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "federalreserve.gov",
+   "url": "https://www.federalreserve.gov/econres/aboutscf.htm"
+  },
+  {
+   "name": "federalreserve.gov",
+   "url": "https://www.federalreserve.gov/econres/scfindex.htm"
+  },
+  {
+   "name": "federalreserve.gov",
+   "url": "https://www.federalreserve.gov/publications/2020-bulletin-changes-in-us-family-finances-from-2016-to-2019.htm"
+  },
+  {
+   "name": "minneapolisfed.org",
+   "url": "https://www.minneapolisfed.org/research/institute-working-papers/income-and-wealth-inequality-in-america-1949-2016"
+  },
+  {
+   "name": "moritzschularick.com",
+   "url": "https://www.moritzschularick.com/academic/datasets-and-codes/"
+  },
+  {
+   "name": "economics.princeton.edu",
+   "url": "https://economics.princeton.edu/working-papers/wealth-of-two-nations-the-u-s-racial-wealth-gap-1860-2020/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-17",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "federalreserve.gov",
+  "host": "federalreserve.gov"
+ }
+}

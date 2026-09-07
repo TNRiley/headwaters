@@ -1,0 +1,61 @@
+{
+ "id": "dip-2024-01-31-4",
+ "title": "Dot-gov metadata",
+ "hook": "Father-son duo Luke and Elias Fretwell are grading government websites’ metadata. Starting with a dataset of 1,300+ federal domains maintained by the Cybersecurity and Infrastructure Security Agency, the Fretwells have tested whether each homepage’s source code includes a <title> tag, certain Open Graph markers, and…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "governing.com",
+   "url": "https://www.governing.com/policy/a-young-civic-hacker-explores-the-possibilities-of-public-data"
+  },
+  {
+   "name": "gov-metadata.civichackingagency.org",
+   "url": "https://gov-metadata.civichackingagency.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cisagov/dotgov-data"
+  },
+  {
+   "name": "cisa.gov",
+   "url": "https://www.cisa.gov/"
+  },
+  {
+   "name": "ogp.me",
+   "url": "https://ogp.me/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/civichackingagency/gov-metadata?tab=readme-ov-file#metadata"
+  },
+  {
+   "name": "govfresh.com",
+   "url": "https://govfresh.com/thoughts/metadata-open-graph-government-websites"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/civichackingagency/gov-metadata/blob/main/data.csv"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-01-31",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-01-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "governing.com",
+  "host": "governing.com"
+ }
+}

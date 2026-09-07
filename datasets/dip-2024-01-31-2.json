@@ -1,0 +1,41 @@
+{
+ "id": "dip-2024-01-31-2",
+ "title": "Military surplus",
+ "hook": "Through its Excess Defense Articles program, the US military offers free and reduced-price equipment to foreign governments. The Department of Defense publishes a spreadsheet of the program’s authorizations and transfers, last updated in mid–2020 and going back to 2010.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "reference works",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "everycrsreport.com",
+   "url": "https://www.everycrsreport.com/reports/RS20428.html"
+  },
+  {
+   "name": "dsca.mil",
+   "url": "https://www.dsca.mil/programs/excess-defense-articles-eda"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/M1_Abrams"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-01-31",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-01-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "everycrsreport.com",
+  "host": "everycrsreport.com"
+ }
+}

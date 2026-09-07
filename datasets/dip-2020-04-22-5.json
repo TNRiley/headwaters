@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-04-22-5",
+ "title": "Crowdsourced moral judgements",
+ "hook": "Data scientist Elle O’Brien recently described how she built and cleaned a dataset of the moral dilemmas posted to r/AmItheAsshole, “a semi-structured online forum that’s the internet’s closest approximation of a judicial system.” For each of the 97,628 posts collected, the dataset includes the title, body, date, number of Reddit upvotes, and number of comments — plus the community’s verdict.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "elle-obrien.com",
+   "url": "https://www.elle-obrien.com/"
+  },
+  {
+   "name": "dvc.org",
+   "url": "https://dvc.org/blog/a-public-reddit-dataset"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/iterative/aita_dataset"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/AmItheAsshole/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-22",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "elle-obrien.com",
+  "host": "elle-obrien.com"
+ }
+}

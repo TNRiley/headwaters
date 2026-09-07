@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-03-09-5",
+ "title": "Medieval prices",
+ "hook": "The Medieval and Early Modern Data Bank, an effort that dates back to the 1980s, contains six datasets relating to currency exchanges, prices, wages, and textile production in Europe “circa 800-1815 C.E.” The records, which have been compiled from prior publications (such as a statistical compendium of grain sales in Cologne), can be queried online or downloaded in bulk.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "memdb.libraries.rutgers.edu",
+   "url": "https://memdb.libraries.rutgers.edu/"
+  },
+  {
+   "name": "memdb.libraries.rutgers.edu",
+   "url": "https://memdb.libraries.rutgers.edu/metz-prices"
+  },
+  {
+   "name": "search.gesis.org",
+   "url": "https://search.gesis.org/research_data/ZA8150"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-09",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "memdb.libraries.rutgers.edu",
+  "host": "memdb.libraries.rutgers.edu"
+ }
+}

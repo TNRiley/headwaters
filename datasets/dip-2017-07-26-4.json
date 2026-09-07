@@ -1,0 +1,50 @@
+{
+ "id": "dip-2017-07-26-4",
+ "title": "The Enron emails",
+ "hook": "During the course of its Enron investigation, the Federal Energy Regulatory Commission obtained the emails of approximately 150 (mostly high-ranking) Enron staff. You can find versions of the dataset — cleaned, deduplicated, and restructured in various ways — hosted by Carnegie Mellon, UC Berkeley, and Duke Law.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ferc.gov",
+   "url": "https://www.ferc.gov/industries/electric/indus-act/wec/enron/info-release.asp"
+  },
+  {
+   "name": "cs.cmu.edu",
+   "url": "https://www.cs.cmu.edu/~./enron/"
+  },
+  {
+   "name": "bailando.sims.berkeley.edu",
+   "url": "http://bailando.sims.berkeley.edu/enron_email.html"
+  },
+  {
+   "name": "edrm.net",
+   "url": "http://www.edrm.net/resources/data-sets/edrm-enron-email-data-set/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "newyorker.com",
+   "url": "http://www.newyorker.com/magazine/2017/07/24/what-the-enron-e-mails-say-about-us"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-07-26",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-07-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ferc.gov",
+  "host": "ferc.gov"
+ }
+}

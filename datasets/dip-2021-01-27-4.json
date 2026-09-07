@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-01-27-4",
+ "title": "Euro-polling",
+ "hook": "The European Opinion Polls as Open Data repository collects the results of party-preference polls in 34 countries. For each poll, it lists the polling firm and commissioners, when the fieldwork began and ended, its scope and sample size, and the topline numbers for each party.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/filipvanlaenen/eopaod"
+  },
+  {
+   "name": "medium.com",
+   "url": "https://medium.com/grensesnittet/how-simple-things-quickly-become-complicated-in-software-development-9cf52233226d"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-27",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-12-01-4",
+ "title": "Europe’s primary forests",
+ "hook": "Francesco Maria Sabatini et al. have combined information from dozens of sources to develop “the most comprehensive dataset” of Europe’s “primary forests” — those “where the signs of human impacts, if any, are strongly blurred due to decades without forest management.” The dataset, which includes 18,411 patches across 33 countries, describes their names, locations, level of “naturalness,” dominant tree species, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-021-00988-7"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-021-00988-7/tables/4"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/dataset/European_Primary_Forest_Database/13194095/2"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata2016123"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2017-01-25-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-01",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

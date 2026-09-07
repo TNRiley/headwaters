@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-06-17-1",
+ "title": "Confederate monuments",
+ "hook": "For several years, the Southern Poverty Law Center’s “Whose Heritage?” project has been gathering and mapping information on “public symbols of the Confederacy,” such as monuments, place names, official holidays, commemorative license plates, and municipal seals.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "splcenter.org",
+   "url": "https://www.splcenter.org/"
+  },
+  {
+   "name": "splcenter.org",
+   "url": "https://www.splcenter.org/data-projects/whose-heritage"
+  },
+  {
+   "name": "splcenter.org",
+   "url": "https://www.splcenter.org/20190201/whose-heritage-public-symbols-confederacy"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/17ps4aqRyaIfpu7KdGsy2HRZaaQiXUfLrpUbaR9yS51E/edit"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-06-17",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-06-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "splcenter.org",
+  "host": "splcenter.org"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-06-15-5",
+ "title": "Gone fishing",
+ "hook": "The National Oceanic and Atmospheric Administration’s Fisheries Statistics Division provides data on seafood caught by U.S. commercial fisheries, sliceable by month, species, and fishing gear.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "st.nmfs.noaa.gov",
+   "url": "https://www.st.nmfs.noaa.gov/commercial-fisheries/commercial-landings/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-15",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "st.nmfs.noaa.gov",
+  "host": "st.nmfs.noaa.gov"
+ }
+}

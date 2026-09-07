@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-02-21-2",
+ "title": "U.S. Treasury sanctions",
+ "hook": "Through its Office of Foreign Assets Control, the Treasury publishes several datasets that describe the people and companies subject to U.S. economic sanctions. The two main listings are the Specially Designated Nationals and Blocked Persons (“SDN”) and the Consolidated Sanctions List.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "treasury.gov",
+   "url": "https://www.treasury.gov/resource-center/sanctions/Pages/default.aspx"
+  },
+  {
+   "name": "treasury.gov",
+   "url": "https://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/Other-OFAC-Sanctions-Lists.aspx"
+  },
+  {
+   "name": "treasury.gov",
+   "url": "https://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/consolidated.aspx"
+  },
+  {
+   "name": "labs.enigma.com",
+   "url": "https://labs.enigma.com/sanctions-tracker/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-21",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "treasury.gov",
+  "host": "treasury.gov"
+ }
+}

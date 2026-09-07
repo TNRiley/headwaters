@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-06-08-5",
+ "title": "Billboard hits and lyrics",
+ "hook": "Statistics grad student Kaylin Walker scraped 50 years of Billboard’s “Year-End Hot 100” rankings and those songs’ lyrics. Related: Walker’s analysis and methodology. [h/t Melissa Bierly]",
+ "hook_source": "publisher",
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/walkerkq/musiclyrics"
+  },
+  {
+   "name": "kaylinwalker.com",
+   "url": "http://kaylinwalker.com/50-years-of-pop-music/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-08",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

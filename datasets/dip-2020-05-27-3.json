@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-05-27-3",
+ "title": "Ranked-choice votes",
+ "hook": "The website ranked.vote, built by quantitative analyst Paul Butler, standardizes and visualizes the detailed results of a few dozen elections — in Maine, San Francisco, Santa Fe, and Burlington — that have used ranked-choice voting, where voters can list their preferred candidates in sequential order.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ranked.vote",
+   "url": "https://ranked.vote/"
+  },
+  {
+   "name": "paulbutler.org",
+   "url": "https://paulbutler.org/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Ranked_voting"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-27",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ranked.vote",
+  "host": "ranked.vote"
+ }
+}

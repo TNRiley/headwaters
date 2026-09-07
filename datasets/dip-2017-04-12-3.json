@@ -1,0 +1,61 @@
+{
+ "id": "dip-2017-04-12-3",
+ "title": "Pirated papers",
+ "hook": "Sci-Hub, which describes itself as “the first pirate website in the world to provide mass and public access to tens of millions of research papers,” recently released a list of the 62,835,101 academic papers it has collected. That dataset identifies each paper only by its DOI — a short, unique ID.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "sci-hub.cc",
+   "url": "https://sci-hub.cc/"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/List_of_DOIs_of_papers_collected_by_SciHub/4765477"
+  },
+  {
+   "name": "apastyle.org",
+   "url": "http://www.apastyle.org/learn/faqs/what-is-doi.aspx"
+  },
+  {
+   "name": "ruleofthirds.de",
+   "url": "http://ruleofthirds.de/"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/472493"
+  },
+  {
+   "name": "datadryad.org",
+   "url": "http://datadryad.org/resource/doi:10.5061/dryad.q447c"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-05-04-edition"
+  },
+  {
+   "name": "biorxiv.org",
+   "url": "http://biorxiv.org/content/early/2017/04/10/124495"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-12",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sci-hub.cc",
+  "host": "sci-hub.cc"
+ }
+}

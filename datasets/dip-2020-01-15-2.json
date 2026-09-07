@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-01-15-2",
+ "title": "Global antitrust",
+ "hook": "The Comparative Competition Law project classifies the legal provisions and enforcement of antitrust laws around the world, over time. The project is run by law professors Anu Bradford and Adam Chilton, and features several datasets and detailed codebooks.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "comparativecompetitionlaw.org",
+   "url": "https://comparativecompetitionlaw.org"
+  },
+  {
+   "name": "law.columbia.edu",
+   "url": "https://www.law.columbia.edu/faculty/anu-bradford"
+  },
+  {
+   "name": "adamchilton.org",
+   "url": "http://www.adamchilton.org"
+  },
+  {
+   "name": "comparativecompetitionlaw.org",
+   "url": "http://comparativecompetitionlaw.org/data/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "comparativecompetitionlaw.org",
+  "host": "comparativecompetitionlaw.org"
+ }
+}

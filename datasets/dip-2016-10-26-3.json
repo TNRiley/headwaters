@@ -1,0 +1,51 @@
+{
+ "id": "dip-2016-10-26-3",
+ "title": "Cities and culture",
+ "hook": "The World Cities Culture Forum, a convening of 32 major cities on six continents, has assembled a series of mini-datasets on 70+ “cultural indicators”.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "worldcitiescultureforum.com",
+   "url": "http://www.worldcitiescultureforum.com/"
+  },
+  {
+   "name": "worldcitiescultureforum.com",
+   "url": "http://www.worldcitiescultureforum.com/data"
+  },
+  {
+   "name": "worldcitiescultureforum.com",
+   "url": "http://www.worldcitiescultureforum.com/data/art-galleries"
+  },
+  {
+   "name": "worldcitiescultureforum.com",
+   "url": "http://www.worldcitiescultureforum.com/data/number-of-international-tourists-per-year"
+  },
+  {
+   "name": "worldcitiescultureforum.com",
+   "url": "http://www.worldcitiescultureforum.com/data/total-value-of-cinema-ticket-sales-per-year-ppp"
+  },
+  {
+   "name": "worldcitiescultureforum.com",
+   "url": "http://www.worldcitiescultureforum.com/data/number-of-comedy-clubs"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-26",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "worldcitiescultureforum.com",
+  "host": "worldcitiescultureforum.com"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-05-26-2",
+ "title": "Job flows",
+ "hook": "The US Census Bureau’s Longitudinal Employer-Household Dynamics initiative partners with state governments to examine employment and economic mobility at “detailed levels of geography and industry and for different demographic groups.” Its downloadable and interactive datasets include quarterly job-flow metrics, which track workers’ movement between sectors, states, and metro areas; an experimental study of Army veterans’ employment outcomes; and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "lehd.ces.census.gov",
+   "url": "https://lehd.ces.census.gov/"
+  },
+  {
+   "name": "lehd.ces.census.gov",
+   "url": "https://lehd.ces.census.gov/state_partners/"
+  },
+  {
+   "name": "lehd.ces.census.gov",
+   "url": "https://lehd.ces.census.gov/data/"
+  },
+  {
+   "name": "lehd.ces.census.gov",
+   "url": "https://lehd.ces.census.gov/data/veo_experimental.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-05-26",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-05-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lehd.ces.census.gov",
+  "host": "lehd.ces.census.gov"
+ }
+}

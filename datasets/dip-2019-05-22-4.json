@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-05-22-4",
+ "title": "Primates",
+ "hook": "A team of researchers at the Universidad Nacional Autónoma de México have aggregated the observations of 1,216 studies into a database describing 504 primate species. The traits in the database include body mass, habitat, type of diet, conservation status, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/National_Autonomous_University_of_Mexico"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-019-0059-9"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/2600338"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-22",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

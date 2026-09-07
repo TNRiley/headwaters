@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-05-05-1",
+ "title": "Historical land use",
+ "hook": "The History Database of the Global Environment, a project of the Netherlands Environmental Assessment Agency, provides land use estimates that span 12,000 years — from 10,000 BCE to the near-present.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "themasites.pbl.nl",
+   "url": "https://themasites.pbl.nl/tridion/en/themasites/hyde/index.html"
+  },
+  {
+   "name": "themasites.pbl.nl",
+   "url": "https://themasites.pbl.nl/tridion/en/themasites/hyde/landusedata/landcover/index-2.html"
+  },
+  {
+   "name": "themasites.pbl.nl",
+   "url": "https://themasites.pbl.nl/tridion/en/themasites/hyde/download/index-2.html"
+  },
+  {
+   "name": "easy.dans.knaw.nl",
+   "url": "https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:74467"
+  },
+  {
+   "name": "clio-infra.eu",
+   "url": "https://clio-infra.eu/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-05-05",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-05-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "themasites.pbl.nl",
+  "host": "themasites.pbl.nl"
+ }
+}

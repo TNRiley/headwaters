@@ -1,0 +1,49 @@
+{
+ "id": "dip-2019-01-02-2",
+ "title": "Hourly pedestrians",
+ "hook": "Melbourne, Australia, has placed dozens of pedestrian-counting sensors across the city, and publishes a dataset of the hourly observations going back to 2009.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "melbourne.vic.gov.au",
+   "url": "https://data.melbourne.vic.gov.au/Transport-Movement/Pedestrian-volume-updated-monthly-/b2ak-trbp"
+  },
+  {
+   "name": "mapio.net",
+   "url": "https://mapio.net/pic/p-36548659/"
+  },
+  {
+   "name": "pedestrian.melbourne.vic.gov.au",
+   "url": "http://www.pedestrian.melbourne.vic.gov.au/"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/Transportation/Brooklyn-Bridge-Automated-Pedestrian-Counts-Demons/6fi9-q3ta"
+  },
+  {
+   "name": "somervillema.gov",
+   "url": "https://data.somervillema.gov/dataset/Bicycle-Pedestrian-Counts/qu9x-4xq5"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-02",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "melbourne.vic.gov.au",
+  "host": "melbourne.vic.gov.au"
+ }
+}

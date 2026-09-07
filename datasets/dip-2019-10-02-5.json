@@ -1,0 +1,33 @@
+{
+ "id": "dip-2019-10-02-5",
+ "title": "Designer data",
+ "hook": "Nearly 10,000 people took the American Institute of Graphic Arts’ “Design Census” earlier this year. The (non-scientific but detailed) results are out, and the raw data are (prominently) available to download. [h/t Robin Sloan]",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "designcensus.org",
+   "url": "https://designcensus.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-02",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "designcensus.org",
+  "host": "designcensus.org"
+ }
+}

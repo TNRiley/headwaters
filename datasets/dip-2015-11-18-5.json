@@ -1,0 +1,37 @@
+{
+ "id": "dip-2015-11-18-5",
+ "title": "Britain’s booze",
+ "hook": "What contains 34,052 bottles and is worth an estimated £3 million? The United Kingdom’s official wine cellar, which provides libations for the government’s guests and hosts — and a dram of data for the public. Between April 2014 and March 2015, the cellar’s clients consumed more than 5,500 bottles of wine and liquor.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/collections/government-wine-cellar"
+  },
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/publications/annual-statement-on-the-government-wine-cellar-for-the-financial-year-2014-to-2015"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-18",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "www.gov.uk",
+  "host": "gov.uk"
+ }
+}

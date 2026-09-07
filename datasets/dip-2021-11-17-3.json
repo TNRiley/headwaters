@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-11-17-3",
+ "title": "Violence against environmental defenders",
+ "hook": "Tierra de Resistentes is a “crossborder journalistic effort to investigate episodes of violence against leaders and communities in Latin America who have devoted their lives to defending the environment.” The collaboration’s database details 2,400+ such attacks, mostly focusing on the years 2009–2019.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "tierraderesistentes.com",
+   "url": "https://tierraderesistentes.com/en/"
+  },
+  {
+   "name": "tierraderesistentes.com",
+   "url": "https://tierraderesistentes.com/es/datos/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-11-17",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-11-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tierraderesistentes.com",
+  "host": "tierraderesistentes.com"
+ }
+}

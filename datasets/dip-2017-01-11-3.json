@@ -1,0 +1,31 @@
+{
+ "id": "dip-2017-01-11-3",
+ "title": "Four wars’ bombing missions",
+ "hook": "Years ago, Lt. Col. Jenns Robertson began entering information into “a simple Excel spreadsheet that eventually matured into the largest compilation of releasable U.S.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "data.mil",
+   "url": "https://www.data.mil/s/v2/data-stories-an-overview-of-thor/a100cd16-c2a7-453b-8ea6-45947c1bbc51/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-01-11",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-01-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "data.mil",
+  "host": "data.mil"
+ }
+}

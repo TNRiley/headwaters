@@ -1,0 +1,66 @@
+{
+ "id": "dip-2020-06-10-2",
+ "title": "Police violence at the BLM protests",
+ "hook": "Several groups are collecting examples of disproportionate police responses to the protests against police brutality. One such collection, spurred by criminal defense attorney T.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "watchwatch.org",
+   "url": "https://watchwatch.org/"
+  },
+  {
+   "name": "time.com",
+   "url": "https://time.com/5849839/police-brutality-george-floyd-protests-spreadsheet/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1YmZeSxpz52qT-10tkCjWOwOGkQqle7Wd1P7ZM1wMW0E/edit"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/2020PB/police-brutality"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/2020PoliceBrutality/"
+  },
+  {
+   "name": "846policebrutality.com",
+   "url": "https://846policebrutality.com/"
+  },
+  {
+   "name": "bellingcat.com",
+   "url": "https://www.bellingcat.com/news/americas/2020/06/05/visualizing-police-violence-against-journalists-at-protests-across-the-us/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1F7Q-XoCoHzb_cX28ARCL4BMsuxp3EpkouUDJ2cRSjOQ/edit"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/media/2020/jun/05/im-getting-shot-attacks-on-journalists-surge-in-us-protests"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-06-10",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-06-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "watchwatch.org",
+  "host": "watchwatch.org"
+ }
+}

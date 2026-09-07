@@ -1,0 +1,65 @@
+{
+ "id": "dip-2025-01-08-5",
+ "title": "ISS telemetry",
+ "hook": "The International Space Station beams home a wide range of measurements: cabin temperature, solar array angles, spacesuit power supply, wastewater tank capacity, oxygen production rate, and much more. NASA, in collaboration with Lightstreamer, provides a feed of these measurements.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/International_Space_Station"
+  },
+  {
+   "name": "blog.lightstreamer.com",
+   "url": "https://blog.lightstreamer.com/2014/02/how-nasa-is-using-lightstreamer.html"
+  },
+  {
+   "name": "ntrs.nasa.gov",
+   "url": "https://ntrs.nasa.gov/citations/20130013825"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Lightstreamer/Lightstreamer-example-ISSLive-client-javascript"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ISS-Mimic/Mimic"
+  },
+  {
+   "name": "iss-mimic.github.io",
+   "url": "https://iss-mimic.github.io/Mimic/"
+  },
+  {
+   "name": "iss-mimic.github.io",
+   "url": "https://iss-mimic.github.io/Mimic/dashboard.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ISS-Mimic/Mimic/issues/213#issuecomment-761708613"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ISS-Mimic/Mimic/blob/main/Telemetry/ISS_Public_Telemetry.xlsx"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-01-08",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-01-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

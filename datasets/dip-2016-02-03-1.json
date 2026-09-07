@@ -1,0 +1,31 @@
+{
+ "id": "dip-2016-02-03-1",
+ "title": "Angry travelers",
+ "hook": "The Transportation Security Administration publishes spreadsheets of legal claims against the agency, including the location, circumstances, and outcome of each claim. The most expensive settlement on record appears to involve a vehicle-related personal injury in July 2004, for which the TSA paid $125,000.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "dhs.gov",
+   "url": "http://www.dhs.gov/tsa-claims-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-03",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dhs.gov",
+  "host": "dhs.gov"
+ }
+}

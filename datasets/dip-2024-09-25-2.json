@@ -1,0 +1,85 @@
+{
+ "id": "dip-2024-09-25-2",
+ "title": "Open-source weather APIs",
+ "hook": "Open-Meteo, an open-source project built on data from national weather services, offers a range of weather and climate APIs that are free for non-commercial use.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "open-meteo.com",
+   "url": "https://open-meteo.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/open-meteo/open-meteo"
+  },
+  {
+   "name": "open-meteo.com",
+   "url": "https://open-meteo.com/en/about"
+  },
+  {
+   "name": "open-meteo.com",
+   "url": "https://open-meteo.com/en/features#available-apis"
+  },
+  {
+   "name": "open-meteo.com",
+   "url": "https://open-meteo.com/en/pricing"
+  },
+  {
+   "name": "open-meteo.com",
+   "url": "https://open-meteo.com/en/docs/"
+  },
+  {
+   "name": "open-meteo.com",
+   "url": "https://open-meteo.com/en/docs/historical-weather-api"
+  },
+  {
+   "name": "open-meteo.com",
+   "url": "https://open-meteo.com/en/docs/climate-api"
+  },
+  {
+   "name": "open-meteo.com",
+   "url": "https://open-meteo.com/en/docs/marine-weather-api"
+  },
+  {
+   "name": "open-meteo.com",
+   "url": "https://open-meteo.com/en/docs/air-quality-api"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/open-meteo/open-data"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/open-meteo/open-meteo/blob/main/docs/getting-started.md"
+  },
+  {
+   "name": "yotka.org",
+   "url": "https://yotka.org/"
+  },
+  {
+   "name": "yotka.org",
+   "url": "https://yotka.org/meteo-hist"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-25",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "open-meteo.com",
+  "host": "open-meteo.com"
+ }
+}

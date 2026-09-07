@@ -1,0 +1,94 @@
+{
+ "id": "dip-2022-03-16-1",
+ "title": "European energy imports/exports",
+ "hook": "The EU’s Eurostat office publishes a range of statistical datasets on energy usage and economics, including annual imports and exports of petroleum, natural gas, and coal between European countries and their trading partners.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Eurostat"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&subtheme=nrg&display=list&sort=category&extractionId=NRG_TI_SFF__custom_2293925"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&subtheme=nrg.nrg_quant.nrg_quanta.nrg_t.nrg_ti&display=list&sort=category&extractionId=NRG_TI_SFF__custom_2293925"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&subtheme=nrg.nrg_quant.nrg_quanta.nrg_t.nrg_te&display=list&sort=category&extractionId=NRG_TI_SFF__custom_2293925"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/petroleum/data.php#imports"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/naturalgas/data.php#imports"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/coal/data.php#imports"
+  },
+  {
+   "name": "newstatesman.com",
+   "url": "https://www.newstatesman.com/chart-of-the-day/2022/02/how-europe-is-dependent-on-russian-gas"
+  },
+  {
+   "name": "agsi.gie.eu",
+   "url": "https://agsi.gie.eu/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-01-26-edition/"
+  },
+  {
+   "name": "nationaloilcompanydata.org",
+   "url": "https://www.nationaloilcompanydata.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-05-01-edition/"
+  },
+  {
+   "name": "edx.netl.doe.gov",
+   "url": "https://edx.netl.doe.gov/dataset/global-oil-gas-features-database"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-06-06-edition/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2022/02/25/business/economy/russia-europe-sanctions-gas-oil.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-16",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

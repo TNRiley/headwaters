@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-03-11-4",
+ "title": "Bicycle racers",
+ "hook": "Applied mathematics PhD student Thomas Camminady has built a spreadsheet of all Tour de France riders since 1903 (including name, team, time taken, and final ranking), based on the competition’s official results page.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "camminady.org",
+   "url": "https://camminady.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/camminady/LeTourDataSet/"
+  },
+  {
+   "name": "letour.fr",
+   "url": "https://www.letour.fr/en/history"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-11",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "camminady.org",
+  "host": "camminady.org"
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "id": "dip-2023-01-25-1",
+ "title": "More recalls",
+ "hook": "DIP 2023.01.11 featured vehicle recall data from the National Highway Traffic Safety Administration. Other US federal agencies publishing recall data include the Food and Drug Administration, whose dataset contains 81,000+ entries related to food, drugs, medical devices, and related products going back to 2012; the…",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2023-01-11-edition/"
+  },
+  {
+   "name": "nhtsa.gov",
+   "url": "https://www.nhtsa.gov/recalls"
+  },
+  {
+   "name": "datadashboard.fda.gov",
+   "url": "https://datadashboard.fda.gov/ora/cd/recalls.htm"
+  },
+  {
+   "name": "cpsc.gov",
+   "url": "https://www.cpsc.gov/Recalls"
+  },
+  {
+   "name": "uscgboating.org",
+   "url": "https://uscgboating.org/content/recalls.php"
+  },
+  {
+   "name": "m-nolan.github.io",
+   "url": "https://m-nolan.github.io/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/m-nolan/USCG_Boat_Recalls"
+  },
+  {
+   "name": "open.canada.ca",
+   "url": "https://open.canada.ca/data/en/dataset/1ec92326-47ef-4110-b7ca-959fab03f96d"
+  },
+  {
+   "name": "check-vehicle-recalls.service.gov.uk",
+   "url": "https://www.check-vehicle-recalls.service.gov.uk/recall-type/vehicle/make"
+  },
+  {
+   "name": "medicaldevices.icij.org",
+   "url": "https://medicaldevices.icij.org/p/about"
+  },
+  {
+   "name": "medicaldevices.icij.org",
+   "url": "https://medicaldevices.icij.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-04-17-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-25",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "MuseWeb by way of Data Is Plural",
+  "host": "data-is-plural.com"
+ }
+}

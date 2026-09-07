@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-03-29-5",
+ "title": "Milan drinking fountains",
+ "hook": "Milan’s government publishes a dataset of 600+ local vedovelle, the distinctive (green, cast iron, dragon-headed) drinking fountains that dot the city. The dataset provides each fountain’s coordinates, municipal zone, and neighborhood.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "dati.comune.milano.it",
+   "url": "https://dati.comune.milano.it/it/dataset/ds502_fontanelle-nel-comune-di-milano"
+  },
+  {
+   "name": "memorialdrinkingfountains.wordpress.com",
+   "url": "https://memorialdrinkingfountains.wordpress.com/2019/03/30/vedovelle-fountains/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Municipalities_of_Milan"
+  },
+  {
+   "name": "ilpost.it",
+   "url": "https://www.ilpost.it/2022/06/27/fontanelle-vedovelle-milano/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-29",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dati.comune.milano.it",
+  "host": "dati.comune.milano.it"
+ }
+}

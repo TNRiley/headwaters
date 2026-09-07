@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-08-22-5",
+ "title": "Jeans pockets",
+ "hook": "Jan Diehm and Amber Thomas measured the pockets of 80 pairs of jeans — four pairs each from 20 brands, half marketed to men and the other half to women.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "pudding.cool",
+   "url": "https://pudding.cool/2018/08/pockets/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-pudding/data/tree/master/pockets"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-22",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pudding.cool",
+  "host": "pudding.cool"
+ }
+}

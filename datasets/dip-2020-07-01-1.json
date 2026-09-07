@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-07-01-1",
+ "title": "The coronavirus economy",
+ "hook": "Opportunity Insights’ Economic Tracker “combines anonymized data from leading private companies – from credit card processors to payroll firms – to provide a real-time picture of indicators such as employment rates, consumer spending, and job postings across counties, industries, and income groups.” Small business revenue, for instance, appears to be down about 55% in Boston, compared to the beginning of the year.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "tracktherecovery.org",
+   "url": "https://tracktherecovery.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Opportunitylab/EconomicTracker"
+  },
+  {
+   "name": "opportunityinsights.org",
+   "url": "https://opportunityinsights.org/data/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-06-12-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-01",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tracktherecovery.org",
+  "host": "tracktherecovery.org"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "dip-2021-11-03-1",
+ "title": "Internet shutdowns",
+ "hook": "A coalition organized by Access Now, a nonprofit that “defends and extends the digital rights of users at risk around the world,” has been gathering data on intentional internet shutdowns.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "accessnow.org",
+   "url": "https://www.accessnow.org/keepiton-faq/"
+  },
+  {
+   "name": "accessnow.org",
+   "url": "https://www.accessnow.org/about-us/"
+  },
+  {
+   "name": "accessnow.org",
+   "url": "https://www.accessnow.org/keepiton/"
+  },
+  {
+   "name": "internetshutdowns.in",
+   "url": "https://internetshutdowns.in/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "economist.com",
+   "url": "https://www.economist.com/graphic-detail/2021/10/15/internet-shutdowns-have-become-a-weapon-of-repressive-regimes"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-11-03",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-11-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "accessnow.org",
+  "host": "accessnow.org"
+ }
+}

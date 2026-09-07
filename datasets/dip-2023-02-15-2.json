@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-02-15-2",
+ "title": "Humanitarian groups",
+ "hook": "“Based on clear and reproducible criteria,” Clara Egger and Doris Schopper have compiled the Humanitarian Organizations Dataset, which describes 2,500+ groups active in the sector.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "claramarieegger.wordpress.com",
+   "url": "https://claramarieegger.wordpress.com/"
+  },
+  {
+   "name": "ge2p2.org",
+   "url": "http://www.ge2p2.org/people/2018/10/12/doris-schopper-md-dph"
+  },
+  {
+   "name": "academic.oup.com",
+   "url": "https://academic.oup.com/isq/article/66/2/sqac009/6564592"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/52GFWC"
+  },
+  {
+   "name": "humanitarianencyclopedia.org",
+   "url": "https://humanitarianencyclopedia.org/community/organizations"
+  },
+  {
+   "name": "humanitarianoutcomes.org",
+   "url": "https://www.humanitarianoutcomes.org/projects/gdho"
+  },
+  {
+   "name": "humanitarianoutcomes.org",
+   "url": "https://www.humanitarianoutcomes.org/about"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-15",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "claramarieegger.wordpress.com",
+  "host": "claramarieegger.wordpress.com"
+ }
+}

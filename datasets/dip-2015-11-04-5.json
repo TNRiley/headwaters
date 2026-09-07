@@ -1,0 +1,37 @@
+{
+ "id": "dip-2015-11-04-5",
+ "title": "When planes attack",
+ "hook": "Last May, a Gulfstream G150 taking off from Houston’s Ellington Airport struck an armadillo. The animal’s remains were collected, but were not sent to the Smithsonian Institution for identification.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "wildlife.faa.gov",
+   "url": "http://wildlife.faa.gov/database.aspx"
+  },
+  {
+   "name": "faa.gov",
+   "url": "http://www.faa.gov/airports/airport_safety/wildlife/smithsonian/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-04",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FAA",
+  "host": "wildlife.faa.gov"
+ }
+}

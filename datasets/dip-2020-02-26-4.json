@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-02-26-4",
+ "title": "EU laws",
+ "hook": "The CEPS EurLex dataset contains more than 142,000 European Union regulations, directives, and official decisions — ”almost the entire corpus of the EU’s legally binding acts passed between 1952 - 2019.” The dataset contains two dozen variables, including dates, subject matter, authors, various links, and the full text of most laws.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0EGYWY"
+  },
+  {
+   "name": "eur-lex.europa.eu",
+   "url": "https://eur-lex.europa.eu"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-26",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataverse.harvard.edu",
+  "host": "dataverse.harvard.edu"
+ }
+}

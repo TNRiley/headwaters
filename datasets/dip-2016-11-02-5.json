@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-11-02-5",
+ "title": "The dangerous dogs of Austin, Texas",
+ "hook": "The city publishes a spreadsheet — last updated in May — of local dogs who’ve officially been “declared dangerous.” (“They have attacked in the past. The owner is required to provide $100,000 in financial responsibility.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "austintexas.gov",
+   "url": "https://data.austintexas.gov/Public-Safety/Declared-Dangerous-Dogs/ykw4-j3aj"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-11-02",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-11-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "austintexas.gov",
+  "host": "austintexas.gov"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-06-14-4",
+ "title": "Antibiotic resistance",
+ "hook": ". ResistoMap is an interactive visualization of antibiotic drug resistance, based on more than 1,500 bacteria genome samples from people’s intestinal tracts. The data behind the visualization is available to download.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "resistomap.rcpcm.org",
+   "url": "http://resistomap.rcpcm.org/"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/s/081a528b7ad55725a2ae"
+  },
+  {
+   "name": "card.mcmaster.ca",
+   "url": "https://card.mcmaster.ca/"
+  },
+  {
+   "name": "bacmet.biomedicine.gu.se",
+   "url": "http://bacmet.biomedicine.gu.se/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-14",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "resistomap.rcpcm.org",
+  "host": "resistomap.rcpcm.org"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2019-10-02-1",
+ "title": "Wealth, asset, and debt distributions",
+ "hook": "The Federal Reserve’s Enhanced Financial Accounts datasets are supplements to the central bank’s more-aggregated Financial Accounts of the United States statistics. Among them: wealth, asset, and debt distributions by percentile and demographic.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "federalreserve.gov",
+   "url": "https://www.federalreserve.gov/releases/efa/enhanced-financial-accounts.htm"
+  },
+  {
+   "name": "federalreserve.gov",
+   "url": "https://www.federalreserve.gov/releases/Z1/"
+  },
+  {
+   "name": "federalreserve.gov",
+   "url": "https://www.federalreserve.gov/releases/efa/efa-distributional-financial-accounts.htm"
+  },
+  {
+   "name": "federalreserve.gov",
+   "url": "https://www.federalreserve.gov/releases/efa/efa-project-section-529-college-plans.htm"
+  },
+  {
+   "name": "federalreserve.gov",
+   "url": "https://www.federalreserve.gov/releases/efa/efa-project-consolidated-balance-sheet.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-02",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "federalreserve.gov",
+  "host": "federalreserve.gov"
+ }
+}

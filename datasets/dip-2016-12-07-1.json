@@ -1,0 +1,46 @@
+{
+ "id": "dip-2016-12-07-1",
+ "title": "Pipelines",
+ "hook": "The U.S. Energy Information Administration publishes a bunch of geographic data, including shapefiles mapping the country’s crude oil, petroleum product, hydrocarbon gas liquid, and natural gas pipelines.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/maps/layer_info-m.php"
+  },
+  {
+   "name": "phmsa.dot.gov",
+   "url": "http://www.phmsa.dot.gov/pipeline/library/data-stats/flagged-data-files"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/graphics/national/maps-of-american-infrastrucure/"
+  },
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/pipelines/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-12-07",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-12-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "U.S. Gasoline and Diesel Retail Prices",
+  "host": "eia.gov"
+ }
+}

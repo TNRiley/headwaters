@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-01-13-1",
+ "title": "Religion in America",
+ "hook": "The 2010 Religious Congregations and Membership Study counts, for more than 200 religious groups, the number of congregations and adherents in each U.S. state and county. In total, the study reported more than 344,000 congregations and more than 150 million adherents — nearly half of the 2010 U.S. population.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "thearda.com",
+   "url": "http://www.thearda.com/rcms2010/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-13",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "thearda.com",
+  "host": "thearda.com"
+ }
+}

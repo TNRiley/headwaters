@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-12-16-3",
+ "title": "More on travel/immigration bans",
+ "hook": "The COVID Border Accountability Project is tracking countries’ pandemic-related travel and immigration restrictions, on a weekly basis.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "covidborderaccountability.org",
+   "url": "https://covidborderaccountability.org"
+  },
+  {
+   "name": "covidborderaccountability.org",
+   "url": "https://covidborderaccountability.org/about.html"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/U6DJAC"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/covid-19-global-travel-restrictions-and-airline-information"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-12-09-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-16",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "covidborderaccountability.org",
+  "host": "covidborderaccountability.org"
+ }
+}

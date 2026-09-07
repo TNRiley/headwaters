@@ -1,0 +1,37 @@
+{
+ "id": "dip-2023-11-01-5",
+ "title": "Two Zurich buses",
+ "hook": "Fabio Widmer et al.’s ZTBus dataset provides detailed data from 1,409 “driving missions” of two electric public transit buses in Zurich, Switzerland. Each mission typically represents a full day’s operation.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-023-02600-6"
+  },
+  {
+   "name": "research-collection.ethz.ch",
+   "url": "https://www.research-collection.ethz.ch/handle/20.500.11850/626723"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-01",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "dip-2017-03-15-2",
+ "title": "Sounds of YouTube",
+ "hook": "Last week, a research team at Google published AudioSet, a dataset of “2,084,320 human-labeled 10-second sound clips drawn from YouTube videos.” The clips have been classified into hundreds of categories, including “plucked string instrument,” “computer keyboard,” “chuckle, chortle,” “snoring,” and “fowl.” [h/t Suman…",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "research.google.com",
+   "url": "https://research.google.com/audioset/"
+  },
+  {
+   "name": "research.google.com",
+   "url": "https://research.google.com/audioset/dataset/plucked_string_instrument.html"
+  },
+  {
+   "name": "research.google.com",
+   "url": "https://research.google.com/audioset/dataset/computer_keyboard.html"
+  },
+  {
+   "name": "research.google.com",
+   "url": "https://research.google.com/audioset//dataset/chuckle_chortle.html"
+  },
+  {
+   "name": "research.google.com",
+   "url": "https://research.google.com/audioset/dataset/snoring.html"
+  },
+  {
+   "name": "research.google.com",
+   "url": "https://research.google.com/audioset/dataset/fowl.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-15",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "research.google.com",
+  "host": "research.google.com"
+ }
+}

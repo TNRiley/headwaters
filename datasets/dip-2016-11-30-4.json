@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-11-30-4",
+ "title": "Five years of Facebook posts from 15 news sites",
+ "hook": "Data analyst Patrick Martinchek has published a dataset of all Facebook posts from “15 of the top mainstream media sources” — a group that includes The New York Times, The Wall Street Journal, NPR, Fox News, and other familiar sources — from January 2012 through Nov. 8, 2016.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "facebook.com",
+   "url": "https://www.facebook.com/Patrick.Martinchek"
+  },
+  {
+   "name": "data.world",
+   "url": "https://data.world/martinchek/2012-2016-facebook-posts"
+  },
+  {
+   "name": "shift.newco.co",
+   "url": "https://shift.newco.co/what-i-discovered-about-trump-and-clinton-from-analyzing-4-million-facebook-posts-922a4381fd2f"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-11-30",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-11-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "facebook.com",
+  "host": "facebook.com"
+ }
+}

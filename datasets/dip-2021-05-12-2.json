@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-05-12-2",
+ "title": "Law schools",
+ "hook": "To receive accreditation from the American Bar Association, law schools must submit a range of data-points about tuition, financial aid, student demographics, class sizes, employment outcomes, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "americanbar.org",
+   "url": "https://www.americanbar.org/groups/legal_education/accreditation/"
+  },
+  {
+   "name": "abarequireddisclosures.org",
+   "url": "http://www.abarequireddisclosures.org/Disclosure509.aspx"
+  },
+  {
+   "name": "gothamist.com",
+   "url": "https://gothamist.com/news/there-are-only-two-black-male-prosecutors-all-long-island"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-05-12",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-05-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "americanbar.org",
+  "host": "americanbar.org"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "dip-2020-04-15-5",
+ "title": "Animal Crossing",
+ "hook": "VillagerDB is an online and downloadable database of thousands of the characters, accessories, tools, and other items in Animal Crossing: New Horizons — the Sims-like game that’s breaking sales records and saving my colleague’s marriage. [h/t Justin]",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "villagerdb.com",
+   "url": "https://villagerdb.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jefflomacy/villagerdb/tree/master/data"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Animal_Crossing:_New_Horizons"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theverge.com",
+   "url": "https://www.theverge.com/2020/3/26/21195022/animal-crossing-switch-sales-japan-famitsu"
+  },
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/scaachikoul/animal-crossing-quarantine-distraction"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "villagerdb.com",
+  "host": "villagerdb.com"
+ }
+}

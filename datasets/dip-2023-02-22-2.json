@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-02-22-2",
+ "title": "Animal Welfare Act inspections",
+ "hook": "The USDA’s Animal and Plant Health Inspection Service checks whether animal dealers, exhibitors, research facilities, and transporters are complying with the care standards set by the Animal Welfare Act. The agency provides public access to the inspection reports but no bulk data on them.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "aphis.usda.gov",
+   "url": "https://www.aphis.usda.gov/aphis/home/"
+  },
+  {
+   "name": "aphis.usda.gov",
+   "url": "https://www.aphis.usda.gov/aphis/ourfocus/animalwelfare/awa/ct_awa_program_information"
+  },
+  {
+   "name": "efile.aphis.usda.gov",
+   "url": "https://efile.aphis.usda.gov/PublicSearchTool/s/inspection-reports"
+  },
+  {
+   "name": "biglocalnews.org",
+   "url": "https://biglocalnews.org/content/news/2023/02/21/usda-animal-inspection-database.html"
+  },
+  {
+   "name": "biglocalnews.org",
+   "url": "https://biglocalnews.org/content/about/"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/"
+  },
+  {
+   "name": "palewi.re",
+   "url": "https://palewi.re/who-is-ben-welsh/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/data-liberation-project/aphis-inspection-reports/blob/main/METHODOLOGY.md"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/data-liberation-project/aphis-inspection-reports"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-22",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aphis.usda.gov",
+  "host": "aphis.usda.gov"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2024-12-04-2",
+ "title": "Education policies around the world",
+ "hook": "Adrián del Río et al. “introduce a global dataset on education policies and systems across modern history,” with “measures on compulsory education, ideological guidance and content of education, governmental intervention and level of education centralization, and teacher training.” The dataset covers 157 countries annually from 1789 to 2020.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/10.1177/00104140241252075"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MNM5Q5"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-12-04",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-12-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "journals.sagepub.com",
+  "host": "journals.sagepub.com"
+ }
+}

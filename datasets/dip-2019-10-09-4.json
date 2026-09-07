@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-10-09-4",
+ "title": "Web encryption",
+ "hook": "Programmer Lee Butterman has built a dataset of the SSL encyryption connections associated with 350 million web domains. For each connection, the dataset indicates the SSL certificate’s issuer, cryptographic algorithms used, and other details. [h/t Jason Norwood-Young]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "leebutterman.com",
+   "url": "https://www.leebutterman.com/"
+  },
+  {
+   "name": "leebutterman.com",
+   "url": "https://www.leebutterman.com/2019/08/01/handshaking-the-web-dataset-of-350-million-ssl-connections.html"
+  },
+  {
+   "name": "leebutterman.com",
+   "url": "https://www.leebutterman.com/2019/08/05/analyzing-hundreds-of-millions-of-ssl-connections.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-09",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "leebutterman.com",
+  "host": "leebutterman.com"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "dip-2016-07-06-2",
+ "title": "Nursing homes",
+ "hook": "Last month, German investigative nonprofit Correctiv published a searchable database of 13,000 nursing homes in the country. The data are based on government inspections, and the reporters have published the raw and processed data on GitHub.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "correctiv.org",
+   "url": "https://correctiv.org/en/investigations/nursing-homes/guide/"
+  },
+  {
+   "name": "correctiv.org",
+   "url": "https://correctiv.org/en/investigations/nursing-homes/articles/2016/06/09/nursing-homes-what-we-know-what-we-do-not-know/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/correctiv/pflege-notebook"
+  },
+  {
+   "name": "medicare.gov",
+   "url": "https://data.medicare.gov/data/nursing-home-compare"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.propublica.org",
+   "url": "http://projects.propublica.org/nursing-homes/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-06",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "correctiv.org",
+  "host": "correctiv.org"
+ }
+}

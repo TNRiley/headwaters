@@ -1,0 +1,52 @@
+{
+ "id": "dip-2021-01-20-1",
+ "title": "US demonstrations and political violence",
+ "hook": "US Crisis Monitor “provides the public with real-time data and analysis on political violence and demonstrations around the country, establishing an evidence base from which to identify risks, hotspots, and available resources to empower local communities in times of crisis.” The project, launched last summer as a…",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "acleddata.com",
+   "url": "https://acleddata.com/special-projects/us-crisis-monitor/"
+  },
+  {
+   "name": "acleddata.com",
+   "url": "https://acleddata.com/2020/07/09/introducing-the-us-crisis-monitor/"
+  },
+  {
+   "name": "acleddata.com",
+   "url": "https://www.acleddata.com/about-acled/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-11-29-edition"
+  },
+  {
+   "name": "bridgingdivides.princeton.edu",
+   "url": "https://bridgingdivides.princeton.edu/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/the-polices-tepid-response-to-the-capitol-breach-wasnt-an-aberration/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-20",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "acleddata.com",
+  "host": "acleddata.com"
+ }
+}

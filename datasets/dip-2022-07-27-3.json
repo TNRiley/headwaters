@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-07-27-3",
+ "title": "Monkeypox strains",
+ "hook": "Nextstrain, “an open-source project to harness the scientific and public health potential of pathogen genome data,” has begun analyzing genetic sequences from hundreds of monkeypox virus samples, the vast majority from infections in the past few months.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nextstrain.org",
+   "url": "https://nextstrain.org/"
+  },
+  {
+   "name": "nextstrain.org",
+   "url": "https://nextstrain.org/monkeypox/hmpxv1"
+  },
+  {
+   "name": "ncbi.nlm.nih.gov",
+   "url": "https://www.ncbi.nlm.nih.gov/labs/virus/vssi/#/virus?SeqType_s=Nucleotide&VirusLineage_ss=Monkeypox%20virus,%20taxid:10244"
+  },
+  {
+   "name": "outbreak.info",
+   "url": "https://outbreak.info/situation-reports"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-03-10-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-27",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nextstrain.org",
+  "host": "nextstrain.org"
+ }
+}

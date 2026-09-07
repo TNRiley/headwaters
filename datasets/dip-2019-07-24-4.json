@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-07-24-4",
+ "title": "Drought conditions",
+ "hook": "The Standardised Precipitation-Evapotranspiration Index is a metric, calculated from climatic data, that “can be used for determining the onset, duration and magnitude of drought conditions with respect to normal conditions.” The project, based at the Spanish National Research Council, provides both a “near real-time” global drought monitor and a historical database.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "spei.csic.es",
+   "url": "http://spei.csic.es/index.html"
+  },
+  {
+   "name": "spei.csic.es",
+   "url": "http://spei.csic.es/map/maps.html"
+  },
+  {
+   "name": "spei.csic.es",
+   "url": "http://spei.csic.es/database.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-24",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "spei.csic.es",
+  "host": "spei.csic.es"
+ }
+}

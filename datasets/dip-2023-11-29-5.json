@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-11-29-5",
+ "title": "Romance book covers",
+ "hook": "“What does a happily ever after look like?” asks Alice Liang, whose visual essay in The Pudding examines the covers of 1,400+ books featured in Publishers Weekly’s announcements for the genre.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "aliceyliang.com",
+   "url": "https://aliceyliang.com/"
+  },
+  {
+   "name": "pudding.cool",
+   "url": "https://pudding.cool/2023/10/romance-covers/"
+  },
+  {
+   "name": "observablehq.com",
+   "url": "https://observablehq.com/@aliceyliang/what-does-a-happily-ever-after-look-like-extension"
+  },
+  {
+   "name": "publishersweekly.com",
+   "url": "https://www.publishersweekly.com/pw/by-topic/new-titles/index.html"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1Rxz5IFE16bA9pPAY5_B5LhitvPDIlYrlMwp7fmszwOA/edit#gid=0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-29",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aliceyliang.com",
+  "host": "aliceyliang.com"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "dip-2024-01-31-5",
+ "title": "Taylor’s colors",
+ "hook": "Last year, Reddit user swiftdata1989 published a spreadsheet and visualization of the colors mentioned in Taylor Swift’s albums. Each spreadsheet row lists the album, song, specific color (e.g., “scarlet”), closest generic color (e.g., red), number of times mentioned, and clarifying notes.",
+ "hook_source": "publisher",
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/user/swiftdata1989/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1tweEvxe5UtIMhLldGFGxkW-AGIDwkSvwkWCUZhABqjk/edit#gid=0"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/dataisbeautiful/comments/12u0ncx/oc_every_time_a_color_is_mentioned_on_a_taylor/"
+  },
+  {
+   "name": "www1.icsi.berkeley.edu",
+   "url": "https://www1.icsi.berkeley.edu/wcs/data.html"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2017-08-23-edition/"
+  },
+  {
+   "name": "c82.net",
+   "url": "https://www.c82.net/werner/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-11-17-edition/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jwilber/Bob_Ross_Paintings"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-12-09-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-01-31",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-01-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "reddit.com",
+  "host": "reddit.com"
+ }
+}

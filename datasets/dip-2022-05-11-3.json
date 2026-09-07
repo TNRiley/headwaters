@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-05-11-3",
+ "title": "Tornadoes",
+ "hook": "Although the primary mission of the National Weather Service’s Storm Prediction Center is forward-looking, the center also provides historical maps, charts, and datasets.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "spc.noaa.gov",
+   "url": "https://www.spc.noaa.gov/misc/aboutus.html"
+  },
+  {
+   "name": "spc.noaa.gov",
+   "url": "https://www.spc.noaa.gov/"
+  },
+  {
+   "name": "spc.noaa.gov",
+   "url": "https://www.spc.noaa.gov/wcm/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-11",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "NOAA's National Weather Service Storm Prediction Center Seve",
+  "host": "spc.noaa.gov"
+ }
+}

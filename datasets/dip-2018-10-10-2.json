@@ -1,0 +1,53 @@
+{
+ "id": "dip-2018-10-10-2",
+ "title": "English health indicators",
+ "hook": "England’s public health department generates quantitative “profiles” of the country’s well-being. The metrics include rates of HPV vaccination, dementia, exercise, diabetes, and much more. The results can be downloaded directly, and also accessed via an API. [h/t Sharon Machlis]",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "fingertips.phe.org.uk",
+   "url": "https://fingertips.phe.org.uk/"
+  },
+  {
+   "name": "fingertips.phe.org.uk",
+   "url": "https://fingertips.phe.org.uk/profile/child-health-profiles/data#page/1/gid/1938133237"
+  },
+  {
+   "name": "fingertips.phe.org.uk",
+   "url": "https://fingertips.phe.org.uk/profile-group/mental-health/profile/dementia/data#page/0"
+  },
+  {
+   "name": "fingertips.phe.org.uk",
+   "url": "https://fingertips.phe.org.uk/profile/physical-activity/data#page/0"
+  },
+  {
+   "name": "fingertips.phe.org.uk",
+   "url": "https://fingertips.phe.org.uk/profile/diabetes-ft/data#page/0"
+  },
+  {
+   "name": "fingertips.phe.org.uk",
+   "url": "https://fingertips.phe.org.uk/api"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-10-10",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-10-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fingertips.phe.org.uk",
+  "host": "fingertips.phe.org.uk"
+ }
+}

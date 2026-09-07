@@ -1,0 +1,54 @@
+{
+ "id": "dip-2023-10-25-2",
+ "title": "Runway incursions",
+ "hook": "The Federal Aviation Administration maintains a database of runway incursions, which it defines as “any occurrence at an aerodrome involving the incorrect presence of an aircraft, vehicle, or person on the protected area of a surface designated for the landing and take-off of aircraft.” It currently contains 30,000+…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "asias.faa.gov",
+   "url": "https://www.asias.faa.gov/apex/f?p=100:28:::NO:::"
+  },
+  {
+   "name": "asias.faa.gov",
+   "url": "https://www.asias.faa.gov/apex/f?p=100:32:::NO::P32_REGION_VAR:3"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2023/08/21/business/airline-safety-close-calls.html?unlocked_article_code=1.5Ew.J67z.HKYk1WsCZ6Pg"
+  },
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2023/10/11/business/air-traffic-control-austin-airport-fedex-southwest.html?unlocked_article_code=1.5Ew.O4gS.lkIKxyZn1K2P"
+  },
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/by/sydney-ember"
+  },
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/by/emily-steel"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-10-25",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-10-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "asias.faa.gov",
+  "host": "asias.faa.gov"
+ }
+}

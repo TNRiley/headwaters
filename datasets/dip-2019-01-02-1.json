@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-01-02-1",
+ "title": "Local incarceration, 1970–2015",
+ "hook": "The Vera Institute of Justice’s recently-expanded Incarceration Trends project combines data from a range of government reports — such as the Census of Jails and the National Corrections Reporting Program — into a single, longitudinal, well-documented dataset.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "vera.org",
+   "url": "https://www.vera.org/blog/expanding-our-knowledge-on-local-incarceration-trends"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/vera-institute/incarceration_trends"
+  },
+  {
+   "name": "trends.vera.org",
+   "url": "http://trends.vera.org/incarceration-rates"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-02",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "vera.org",
+  "host": "vera.org"
+ }
+}

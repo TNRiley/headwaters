@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-01-24-4",
+ "title": "Duke’s Greeks",
+ "hook": "Using a range of public sources, The Duke Chronicle collected data on all 1,739 students listed in the Class of 2018’s “Freshman Picture Book” — including their hometowns, details about their high schools, whether they won a merit scholarship, and whether they play on a sports team — in order to analyze “trends…",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "dukechronicle.com",
+   "url": "http://www.dukechronicle.com/article/2018/01/editors-note-regarding-recent-article-on-greek-life"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Chrissymbeck/Greek-Life-Demographics"
+  },
+  {
+   "name": "dukechronicle.com",
+   "url": "http://www.dukechronicle.com/article/2018/01/is-greek-life-at-duke-as-homogenous-as-you-think"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-24",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dukechronicle.com",
+  "host": "dukechronicle.com"
+ }
+}

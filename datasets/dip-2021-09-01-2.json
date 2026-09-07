@@ -1,0 +1,43 @@
+{
+ "id": "dip-2021-09-01-2",
+ "title": "Fact-checks",
+ "hook": "ClaimReview is an open standard for adding structured information to fact-check articles, such as the specific claim reviewed, where it appeared, the fact-checking organization, and the reviewer’s rating.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "claimreviewproject.com",
+   "url": "https://www.claimreviewproject.com/"
+  },
+  {
+   "name": "schema.org",
+   "url": "https://schema.org/ClaimReview"
+  },
+  {
+   "name": "datacommons.org",
+   "url": "https://datacommons.org/"
+  },
+  {
+   "name": "datacommons.org",
+   "url": "https://www.datacommons.org/factcheck/download"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-01",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "claimreviewproject.com",
+  "host": "claimreviewproject.com"
+ }
+}

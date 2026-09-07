@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-10-12-2",
+ "title": "US hydrography",
+ "hook": "The National Hydrography Dataset, maintained by the US Geological Survey, “represents the water drainage network of the United States with features such as rivers, streams, canals, lakes, ponds, coastline, dams, and streamgages.” You can download the NHD geospatial files by hydrologic unit or state, or for the entire nation.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/core-science-systems/ngp/national-hydrography/national-hydrography-dataset"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/national-hydrography/access-national-hydrography-products"
+  },
+  {
+   "name": "water.usgs.gov",
+   "url": "https://water.usgs.gov/GIS/huc.html"
+  },
+  {
+   "name": "sciencebase.gov",
+   "url": "https://www.sciencebase.gov/catalog/item/5e8d2b5982cee42d13466001"
+  },
+  {
+   "name": "worldwaterfalldatabase.com",
+   "url": "https://www.worldwaterfalldatabase.com/about"
+  },
+  {
+   "name": "worldwaterfalldatabase.com",
+   "url": "https://www.worldwaterfalldatabase.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-12",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usgs.gov",
+  "host": "usgs.gov"
+ }
+}

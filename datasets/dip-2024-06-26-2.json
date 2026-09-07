@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-06-26-2",
+ "title": "Internet politics",
+ "hook": "The Digital Society Project, founded in 2018 as a collaboration with the Varieties of Democracy initiative (DIP 2019.04.24), “aims to answer some of the most important questions surrounding interactions between the internet and politics.” To do so, they conduct surveys of experts and ask them questions such as: “How…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "digitalsocietyproject.org",
+   "url": "https://digitalsocietyproject.org/"
+  },
+  {
+   "name": "v-dem.net",
+   "url": "https://www.v-dem.net/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-04-24-edition/"
+  },
+  {
+   "name": "digitalsocietyproject.org",
+   "url": "https://digitalsocietyproject.org/wp-content/uploads/2024/03/DSP-Codebook-v6.pdf"
+  },
+  {
+   "name": "digitalsocietyproject.org",
+   "url": "https://digitalsocietyproject.org/data/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-06-26",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-06-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "digitalsocietyproject.org",
+  "host": "digitalsocietyproject.org"
+ }
+}

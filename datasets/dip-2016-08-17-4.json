@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-08-17-4",
+ "title": "Relative living standards",
+ "hook": "The Penn World Table contains GDP estimates, normalized for purchasing power, for 182 countries. These “real GDP” estimates — based on a combination of price surveys and national accounts data — stretch back at least to 1960, and many to 1950.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "reference works",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "rug.nl",
+   "url": "http://www.rug.nl/research/ggdc/data/pwt/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/National_accounts"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-17",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rug.nl",
+  "host": "rug.nl"
+ }
+}

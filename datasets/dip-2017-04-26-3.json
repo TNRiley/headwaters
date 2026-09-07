@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-04-26-3",
+ "title": "Women’s empowerment in India",
+ "hook": "For each of India’s 36 states and Union Territories, the country’s latest National Family Health Survey includes 114 metrics, such as the percentages of “households using iodized salt” and “men who have comprehensive knowledge of HIV/AIDS.” Unfortunately, the government publishes the reports only as PDFs.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "rchiips.org",
+   "url": "http://rchiips.org/nfhs/factsheet_NFHS-4.shtml"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/HindustanTimesLabs/women-empowerment-index"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/179onU4jvFPqhLlM-7ZJu5xv0LQLOsQq-TrMJNFQkSjI/edit#gid=1937549234"
+  },
+  {
+   "name": "hindustantimes.com",
+   "url": "http://www.hindustantimes.com/interactives/women-empowerment-index/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-26",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rchiips.org",
+  "host": "rchiips.org"
+ }
+}

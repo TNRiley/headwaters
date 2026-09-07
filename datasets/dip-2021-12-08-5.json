@@ -1,0 +1,35 @@
+{
+ "id": "dip-2021-12-08-5",
+ "title": "A map of our moon",
+ "hook": "A USGS astrogeology lab has built a 1:5,000,000-scale map of Earth’s moon, the “chief purpose” of which is “to summarize the current state of lunar geologic knowledge.” It marks thousands of geologic boundaries, plus “surface features” such as crater rims, “fissures, grabens, scarps, mare wrinkle ridges” and more.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/centers/astrogeology-science-center/science/mrctr-gis-lab?qt-science_center_objects=0#qt-science_center_objects"
+  },
+  {
+   "name": "astrogeology.usgs.gov",
+   "url": "https://astrogeology.usgs.gov/search/map/Moon/Geology/Unified_Geologic_Map_of_the_Moon_GIS_v2"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-08",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usgs.gov",
+  "host": "usgs.gov"
+ }
+}

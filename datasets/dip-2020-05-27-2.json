@@ -1,0 +1,58 @@
+{
+ "id": "dip-2020-05-27-2",
+ "title": "More excess mortality data",
+ "hook": "Last week’s newsletter featured the data and code that The Economist is using to estimate excess deaths due to COVID-19. Also last week: The New York Times began publishing the data behind its similar-but-different estimates.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "tinyletter.com",
+   "url": "http://tinyletter.com/data-is-plural/letters/data-is-plural-2020-05-20-edition"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/TheEconomist/covid-19-excess-deaths-tracker"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/nytimes/covid-19-data/tree/master/excess-deaths"
+  },
+  {
+   "name": "mortality.org",
+   "url": "https://www.mortality.org/"
+  },
+  {
+   "name": "mortality.org",
+   "url": "https://www.mortality.org/Public/STMF_DOC/STMFNote.pdf"
+  }
+ ],
+ "articles": [
+  {
+   "name": "economist.com",
+   "url": "https://www.economist.com/graphic-detail/2020/04/16/tracking-covid-19-excess-deaths-across-countries"
+  },
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2020/04/21/world/coronavirus-missing-deaths.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-27",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tinyletter.com",
+  "host": "tinyletter.com"
+ }
+}

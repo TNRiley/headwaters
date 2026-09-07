@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-04-14-1",
+ "title": "Global abortion rates",
+ "hook": "The Guttmacher Institute’s new Global Abortion Incidence Dataset gathers annual abortion statistics for more than 100 countries — for as many years between 1990 and 2018 as possible.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/5k7fp/"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/kthnf/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-10-28-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-14",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "osf.io",
+  "host": "osf.io"
+ }
+}

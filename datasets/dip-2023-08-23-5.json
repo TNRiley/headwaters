@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-08-23-5",
+ "title": "Scotland’s Common Good",
+ "hook": "Scotland’s Common Good Act, passed in 1491, creates a legal distinction for historical property owned by local authorities — often land and buildings, but also “moveable assets” such as paintings, chains of office, and furniture.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "legislation.gov.uk",
+   "url": "https://www.legislation.gov.uk/aosp/1491/19/introduction"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Livery_collar"
+  },
+  {
+   "name": "commongood.scot",
+   "url": "https://commongood.scot/"
+  },
+  {
+   "name": "commongood.scot",
+   "url": "https://commongood.scot/launching-commongood-scot/"
+  },
+  {
+   "name": "theferret.scot",
+   "url": "https://theferret.scot/about-us/"
+  },
+  {
+   "name": "commongood.scot",
+   "url": "https://commongood.scot/search/"
+  },
+  {
+   "name": "commongood.scot",
+   "url": "https://commongood.scot/map/"
+  },
+  {
+   "name": "commongood.scot",
+   "url": "https://commongood.scot/data/"
+  },
+  {
+   "name": "commongood.scot",
+   "url": "https://commongood.scot/faqs-common-good-funds/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-08-23",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-08-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "legislation.gov.uk",
+  "host": "legislation.gov.uk"
+ }
+}

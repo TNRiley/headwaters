@@ -1,0 +1,33 @@
+{
+ "id": "dip-2019-08-28-5",
+ "title": "Movie shots",
+ "hook": "James E. Cutting, a Cornell University psychology professor, has compiled several datasets on the structure of popular films, including one that indicates the length of each shot in 220 movies from 1915 to 2015. [h/t Igor Schwarzmann + Noah Brier]",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "people.psych.cornell.edu",
+   "url": "http://people.psych.cornell.edu/~jec7/data.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-28",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "people.psych.cornell.edu",
+  "host": "people.psych.cornell.edu"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "dip-2024-09-11-2",
+ "title": "Monthly crime trends",
+ "hook": "The Real-Time Crime Index, launched last week by a team of crime-data analysts, presents a “sample of reported crime data from hundreds of law enforcement agencies nationwide which mimics national crime trends with as little lag and the most accuracy possible.” Framed as a supplement to the FBI’s slow-to-update…",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "realtimecrimeindex.com",
+   "url": "https://realtimecrimeindex.com/"
+  },
+  {
+   "name": "jasher.substack.com",
+   "url": "https://jasher.substack.com/p/the-real-time-crime-index-is-live"
+  },
+  {
+   "name": "ahdatalytics.com",
+   "url": "https://www.ahdatalytics.com/about-us/"
+  },
+  {
+   "name": "realtimecrimeindex.com",
+   "url": "https://realtimecrimeindex.com/how-does-this-work/"
+  },
+  {
+   "name": "ucr.fbi.gov",
+   "url": "https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/topic-pages/offense-definitions"
+  },
+  {
+   "name": "realtimecrimeindex.com",
+   "url": "https://realtimecrimeindex.com/data/"
+  },
+  {
+   "name": "ah-datalytics.github.io",
+   "url": "https://ah-datalytics.github.io/rtci/list/list.html"
+  },
+  {
+   "name": "jasher.substack.com",
+   "url": "https://jasher.substack.com/p/the-real-time-crime-index-shows-declining"
+  },
+  {
+   "name": "jasher.substack.com",
+   "url": "https://jasher.substack.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-11",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "realtimecrimeindex.com",
+  "host": "realtimecrimeindex.com"
+ }
+}

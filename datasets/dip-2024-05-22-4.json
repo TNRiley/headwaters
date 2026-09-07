@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-05-22-4",
+ "title": "Satellite-aided rescues",
+ "hook": "NOAA’s Search and Rescue Satellite-Aided Tracking (SARSAT) program is part of an international collaboration to locate distress beacons activated (manually or automatically) by mariners, aviators, and wilderness explorers.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "noaa.gov",
+   "url": "https://www.noaa.gov/"
+  },
+  {
+   "name": "sarsat.noaa.gov",
+   "url": "https://www.sarsat.noaa.gov/"
+  },
+  {
+   "name": "sarsat.noaa.gov",
+   "url": "https://www.sarsat.noaa.gov/cospas-sarsat-system-overview/"
+  },
+  {
+   "name": "sarsat.noaa.gov",
+   "url": "https://www.sarsat.noaa.gov/emergency-406-beacons/"
+  },
+  {
+   "name": "sarsat.noaa.gov",
+   "url": "https://www.sarsat.noaa.gov/sarsat-us-rescues/"
+  },
+  {
+   "name": "arcgis.com",
+   "url": "https://www.arcgis.com/home/item.html?id=9383e21a28f24135912aeecb0d2524bd"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/data-is-plural/sarsat-historical-rescues"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-22",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "noaa.gov",
+  "host": "noaa.gov"
+ }
+}

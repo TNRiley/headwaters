@@ -1,0 +1,38 @@
+{
+ "id": "dip-2018-09-12-2",
+ "title": "Deaths in Puerto Rico",
+ "hook": "Last month, Puerto Rico’s government began publishing a dataset of all deaths registered in the U.S. territory from January 2017, updated weekly.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "other",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "datos.estadisticas.pr",
+   "url": "https://datos.estadisticas.pr/dataset/defunciones"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/nidhiprakash/puerto-rico-hurricane-funeral-assistance-fema"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-09-12",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-09-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "datos.estadisticas.pr",
+  "host": "datos.estadisticas.pr"
+ }
+}

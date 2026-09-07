@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-12-05-4",
+ "title": "Subtitle word frequencies",
+ "hook": "SUBTLEXus is a dataset of word frequencies in American English, derived from the subtitles for 8,388 films. The dataset, which covers more than 74,000 words, includes each word’s total frequency, the number of films in which the word appeared, and several other metrics.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "other",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ugent.be",
+   "url": "https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexus/overview.htm"
+  },
+  {
+   "name": "ugent.be",
+   "url": "https://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexch/overview.htm"
+  },
+  {
+   "name": "crr.ugent.be",
+   "url": "http://crr.ugent.be/programs-data/subtitle-frequencies/subtlex-nl"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-12-05",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-12-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ugent.be",
+  "host": "ugent.be"
+ }
+}

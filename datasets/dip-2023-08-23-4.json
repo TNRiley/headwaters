@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-08-23-4",
+ "title": "Singaporean wages",
+ "hook": "Singapore’s Ministry of Manpower released its 2022 wage tables last month. The tables list the 25th, 50th, and 75th percentiles of basic and gross wages for more than 300 occupations by industry, plus median wages by worker sex, by worker age, and by establishment size.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "stats.mom.gov.sg",
+   "url": "https://stats.mom.gov.sg/Pages/Occupational-Wages-Tables2022.aspx"
+  },
+  {
+   "name": "straitstimes.com",
+   "url": "https://www.straitstimes.com/multimedia/graphics/2023/07/salary-guide-2023/index.html"
+  },
+  {
+   "name": "josesho.com",
+   "url": "https://www.josesho.com/"
+  },
+  {
+   "name": "observablehq.com",
+   "url": "https://observablehq.com/@josesho/singapore-gender-wage-gap-2022"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-08-23",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-08-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "stats.mom.gov.sg",
+  "host": "stats.mom.gov.sg"
+ }
+}

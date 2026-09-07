@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-09-07-5",
+ "title": "The federal fleet",
+ "hook": "The U.S. General Services Administration publishes an annual dataset about vehicles owned and leased by the federal government. The spreadsheets — which contain details on total inventories, cost, usage, and fuel consumption — go back to fiscal year 2011.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "gsa.gov",
+   "url": "http://www.gsa.gov/portal/content/102943"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-07",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gsa.gov",
+  "host": "gsa.gov"
+ }
+}

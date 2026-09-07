@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-02-07-1",
+ "title": "Hollywood’s romantic age gaps",
+ "hook": "Lynn Fisher’s Hollywood Age Gap collects data on silver screen love interests — more than 880 so far, from more than 630 movies — and then calculates the difference in those actors’ ages. The largest gap so far is the 52-year age difference in Harold and Maude.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "lynnandtonic.com",
+   "url": "https://lynnandtonic.com/"
+  },
+  {
+   "name": "hollywoodagegap.com",
+   "url": "https://hollywoodagegap.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/lynnandtonic/hollywood-age-gap"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-07",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lynnandtonic.com",
+  "host": "lynnandtonic.com"
+ }
+}

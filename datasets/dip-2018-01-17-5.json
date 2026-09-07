@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-01-17-5",
+ "title": "The Ghibliverse",
+ "hook": "The unofficial Studio Ghibli API contains structured information about the famed Japanese animation studio’s films (e.g., Princess Mononoke and Spirited Away), plus the characters, locations, and vehicles featured in them. You can also download a single file containing all the data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "ghibliapi.herokuapp.com",
+   "url": "https://ghibliapi.herokuapp.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/janaipakos/ghibliapi/blob/master/data.json"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-17",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ghibliapi.herokuapp.com",
+  "host": "ghibliapi.herokuapp.com"
+ }
+}

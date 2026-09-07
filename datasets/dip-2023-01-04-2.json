@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-01-04-2",
+ "title": "Severe weather warnings",
+ "hook": "Among its many services, the Iowa Environmental Mesonet provides a range of National Weather Service data interfaces and downloads, including current and historical severe weather warnings, watches, and advisories.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "mesonet.agron.iastate.edu",
+   "url": "https://mesonet.agron.iastate.edu/"
+  },
+  {
+   "name": "mesonet.agron.iastate.edu",
+   "url": "https://mesonet.agron.iastate.edu/nws/"
+  },
+  {
+   "name": "mesonet.agron.iastate.edu",
+   "url": "https://mesonet.agron.iastate.edu/request/gis/watchwarn.phtml"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/akrherz/pyIEM/blob/d7afb8de354775e922cb8ce3d8f865871e78f179/src/pyiem/nws/vtec.py#L43"
+  },
+  {
+   "name": "mesonet.agron.iastate.edu",
+   "url": "https://mesonet.agron.iastate.edu/info/datasets/vtec.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-04",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mesonet.agron.iastate.edu",
+  "host": "mesonet.agron.iastate.edu"
+ }
+}

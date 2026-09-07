@@ -1,0 +1,85 @@
+{
+ "id": "dip-2022-09-14-5",
+ "title": "Space weather",
+ "hook": "NOAA’s Space Weather Prediction Center keeps tabs on a variety of phenomena, such as coronal mass ejections, geomagnetic storms, and solar flares. The agency’s reports and datasets include three-day forecasts, sunspot predictions, solar wind observations, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "spaceweather.gov",
+   "url": "https://www.spaceweather.gov/"
+  },
+  {
+   "name": "spaceweather.gov",
+   "url": "https://www.spaceweather.gov/phenomena"
+  },
+  {
+   "name": "spaceweather.gov",
+   "url": "https://www.spaceweather.gov/phenomena/coronal-mass-ejections"
+  },
+  {
+   "name": "spaceweather.gov",
+   "url": "https://www.spaceweather.gov/phenomena/geomagnetic-storms"
+  },
+  {
+   "name": "spaceweather.gov",
+   "url": "https://www.spaceweather.gov/phenomena/solar-flares-radio-blackouts"
+  },
+  {
+   "name": "spaceweather.gov",
+   "url": "https://www.spaceweather.gov/products-and-data"
+  },
+  {
+   "name": "spaceweather.gov",
+   "url": "https://www.spaceweather.gov/products/3-day-forecast"
+  },
+  {
+   "name": "spaceweather.gov",
+   "url": "https://www.spaceweather.gov/products/predicted-sunspot-number-and-radio-flux"
+  },
+  {
+   "name": "spaceweather.gov",
+   "url": "https://www.spaceweather.gov/products/real-time-solar-wind"
+  },
+  {
+   "name": "spaceweather.gov",
+   "url": "https://www.spaceweather.gov/content/data-access"
+  },
+  {
+   "name": "spaceweather.gov",
+   "url": "https://www.spaceweather.gov/dashboards"
+  },
+  {
+   "name": "spaceweather.gov",
+   "url": "https://www.spaceweather.gov/communities/aviation-community-dashboard"
+  },
+  {
+   "name": "spaceweather.gov",
+   "url": "https://www.spaceweather.gov/communities/emergency-management"
+  },
+  {
+   "name": "spaceweather.gov",
+   "url": "https://www.spaceweather.gov/communities/space-weather-enthusiasts-dashboard"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-14",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "spaceweather.gov",
+  "host": "spaceweather.gov"
+ }
+}

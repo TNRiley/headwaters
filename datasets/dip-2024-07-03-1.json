@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-07-03-1",
+ "title": "Historical newswire articles",
+ "hook": "Emily Silcock et al. have created Newswire, a dataset of 2.7 million newswire articles published in the US between 1878 and 1977.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2406.09490"
+  },
+  {
+   "name": "huggingface.co",
+   "url": "https://huggingface.co/datasets/dell-research-harvard/newswire"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2308.12477"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2023-09-13-edition/"
+  },
+  {
+   "name": "huggingface.co",
+   "url": "https://huggingface.co/datasets/dell-research-harvard/AmericanStories"
+  },
+  {
+   "name": "dell-research-harvard.github.io",
+   "url": "https://dell-research-harvard.github.io/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-03",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arxiv.org",
+  "host": "arxiv.org"
+ }
+}

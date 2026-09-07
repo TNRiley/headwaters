@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-07-10-1",
+ "title": "Flood insurance",
+ "hook": "Last month, the US Federal Emergency Management Agency released two major datasets from its National Flood Insurance Program: more than 47 million insurance policies and more than 2 million insurance claims. The latter includes details on each claim’s property, flood zone, amount paid, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fema.gov",
+   "url": "https://www.fema.gov/news-release/2019/06/11/fema-publishes-nfip-claims-and-policy-data"
+  },
+  {
+   "name": "fema.gov",
+   "url": "https://www.fema.gov/national-flood-insurance-program"
+  },
+  {
+   "name": "fema.gov",
+   "url": "https://www.fema.gov/media-library/assets/documents/180376"
+  },
+  {
+   "name": "fema.gov",
+   "url": "https://www.fema.gov/media-library/assets/documents/180374"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-10",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fema.gov",
+  "host": "fema.gov"
+ }
+}

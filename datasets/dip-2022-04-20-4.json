@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-04-20-4",
+ "title": "Open source security",
+ "hook": "GitHub recently open-sourced its database of open source–related security advisories. Now the public can download its full contents and contribute additions and improvements.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.blog",
+   "url": "https://github.blog/2022-02-22-github-advisory-database-now-open-to-community-contributions/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/advisories"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/github/advisory-database"
+  },
+  {
+   "name": "ossf.github.io",
+   "url": "https://ossf.github.io/osv-schema/"
+  },
+  {
+   "name": "security.googleblog.com",
+   "url": "https://security.googleblog.com/2021/06/announcing-unified-vulnerability-schema.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ossf/osv-schema#open-source-vulnerability-schema"
+  },
+  {
+   "name": "osv.dev",
+   "url": "https://osv.dev/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-20",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.blog",
+  "host": "github.blog"
+ }
+}

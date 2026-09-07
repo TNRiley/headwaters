@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-08-05-2",
+ "title": "Values and beliefs",
+ "hook": "The World Values Survey, first fielded in 1981, “is the largest non-commercial, cross-national, time series investigation of human beliefs and values ever executed, currently including interviews with almost 400,000 respondents.” Last month, the project began releasing data from its seventh wave of interviews, conducted in 77 countries and covering hundreds of questions about religion, migration, stereotypes, trust, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "worldvaluessurvey.org",
+   "url": "http://www.worldvaluessurvey.org/WVSContents.jsp"
+  },
+  {
+   "name": "worldvaluessurvey.org",
+   "url": "http://www.worldvaluessurvey.org/WVSEventsShow.jsp?ID=413"
+  },
+  {
+   "name": "worldvaluessurvey.org",
+   "url": "http://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-05",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "worldvaluessurvey.org",
+  "host": "worldvaluessurvey.org"
+ }
+}

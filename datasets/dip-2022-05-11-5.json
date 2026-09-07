@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-05-11-5",
+ "title": "Milwaukee house styles",
+ "hook": "Milwaukee’s Master Property File, first assembled in 1975, “contains more than 90 elements of data describing each of the approximately 160,000 properties in the city.” The elements include each home’s city-assessed architectural style — Tudor, for instance, or Cape Cod, or bungalow.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "milwaukee.gov",
+   "url": "https://data.milwaukee.gov/dataset/mprop"
+  },
+  {
+   "name": "jsonline.com",
+   "url": "https://www.jsonline.com/in-depth/news/local/2022/03/31/milwaukee-home-styles-architecture-reveal-citys-history-bungalows-craftsman-duplex/6835671001/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jdjohn215/milwaukee-house-styles"
+  },
+  {
+   "name": "johndjohnson.info",
+   "url": "https://johndjohnson.info/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-11",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "milwaukee.gov",
+  "host": "milwaukee.gov"
+ }
+}

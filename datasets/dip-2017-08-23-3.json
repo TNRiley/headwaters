@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-08-23-3",
+ "title": "Carbon-conscious energy policies",
+ "hook": "The Database of State Incentives for Renewables &amp; Efficiency, “is the most comprehensive source of information on incentives and policies that support renewables and energy efficiency in the United States.” The database, which was founded in 1995 and is funded by the Department of Energy, includes tax rebates, solar energy buybacks, building standards, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "dsireusa.org",
+   "url": "http://www.dsireusa.org/"
+  },
+  {
+   "name": "dsireusa.org",
+   "url": "http://www.dsireusa.org/resources/data-and-tools/"
+  },
+  {
+   "name": "programs.dsireusa.org",
+   "url": "http://programs.dsireusa.org/system/program"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-23",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dsireusa.org",
+  "host": "dsireusa.org"
+ }
+}

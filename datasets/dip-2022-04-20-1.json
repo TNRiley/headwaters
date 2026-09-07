@@ -1,0 +1,77 @@
+{
+ "id": "dip-2022-04-20-1",
+ "title": "Rare diseases",
+ "hook": "Orphanet, established in 1997 by the French National Institute for Health and Medical Research, “aims to provide high-quality information on rare diseases,” defined as those affecting no more than 1 in 2,000 people in Europe. You can search the diseases, relevant drugs, patient organizations, and other resources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "orpha.net",
+   "url": "https://www.orpha.net/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Inserm"
+  },
+  {
+   "name": "orpha.net",
+   "url": "https://www.orpha.net/consor/cgi-bin/Disease_Search_List.php?lng=EN"
+  },
+  {
+   "name": "orpha.net",
+   "url": "https://www.orpha.net/consor/cgi-bin/Disease.php?lng=EN"
+  },
+  {
+   "name": "orpha.net",
+   "url": "https://www.orpha.net/consor/cgi-bin/Drugs.php?lng=EN"
+  },
+  {
+   "name": "orpha.net",
+   "url": "https://www.orpha.net/consor/cgi-bin/SupportGroup.php?lng=EN"
+  },
+  {
+   "name": "orphadata.org",
+   "url": "http://www.orphadata.org"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Orphanet/Orphadata_aggregated"
+  },
+  {
+   "name": "orphadata.com",
+   "url": "https://api.orphadata.com/"
+  },
+  {
+   "name": "orphadata.org",
+   "url": "http://www.orphadata.org/cgi-bin/epidemio.html"
+  },
+  {
+   "name": "ebi.ac.uk",
+   "url": "https://www.ebi.ac.uk/about"
+  },
+  {
+   "name": "ebi.ac.uk",
+   "url": "https://www.ebi.ac.uk/ols/ontologies/ordo"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-20",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "orpha.net",
+  "host": "orpha.net"
+ }
+}

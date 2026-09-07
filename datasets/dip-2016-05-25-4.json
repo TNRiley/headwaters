@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-05-25-4",
+ "title": "American soccer salaries",
+ "hook": "The Major League Soccer Players Union publishes salary data going back to 2007, and released 2016’s figures last week. (At $7.17 million in total compensation, Orlando City’s Kaká ranks as the league’s highest-paid player.) The MLSPU publishes the data as PDFs; I’ve converted those PDFs into CSVs for you.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "mlsplayers.org",
+   "url": "https://www.mlsplayers.org/salary_info.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/data-is-plural/mls-salaries"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-25",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mlsplayers.org",
+  "host": "mlsplayers.org"
+ }
+}

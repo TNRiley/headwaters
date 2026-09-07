@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-10-26-4",
+ "title": "Euro-area securities",
+ "hook": "The European Central Bank collects detailed records concerning the financial instruments issued and held by organizations and individuals under its jurisdiction.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "ecb.europa.eu",
+   "url": "https://www.ecb.europa.eu/stats/financial_markets_and_interest_rates/securities/html/index.en.html"
+  },
+  {
+   "name": "sdw.ecb.europa.eu",
+   "url": "https://sdw.ecb.europa.eu/browseSelection.do?node=9700835"
+  },
+  {
+   "name": "sdw.ecb.europa.eu",
+   "url": "https://sdw.ecb.europa.eu/browseExplanation.do?node=9700835"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-26",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ecb.europa.eu",
+  "host": "ecb.europa.eu"
+ }
+}

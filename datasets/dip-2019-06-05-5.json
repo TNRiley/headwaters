@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-06-05-5",
+ "title": "Thirsty appliances",
+ "hook": "“The BLOND dataset was collected at a typical office building in Germany, with the main occupants being academic institutes and their researchers.” BLOND’s several dozen terabytes of data provide “long-term continuous measurements of voltage and current waveforms” for 74 appliances in office over several months, including a bunch of computers, a printer, paper shredder, space heater, and an electric toothbrush.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata201848"
+  },
+  {
+   "name": "mediatum.ub.tum.de",
+   "url": "https://mediatum.ub.tum.de/1375836"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata201848/tables/2"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-05",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

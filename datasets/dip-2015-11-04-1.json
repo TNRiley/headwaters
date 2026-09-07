@@ -1,0 +1,41 @@
+{
+ "id": "dip-2015-11-04-1",
+ "title": "Maternity leave policies at hundreds of American companies",
+ "hook": "The 600+ entries in this searchable, sortable database range from 3M to Amazon to Zynga, and list both paid and unpaid leave. The database, run by the women-in-the-workplace website FairyGodBoss.com, culls from published policies and employee tips. An introductory blog post provides more information.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fairygodboss.com",
+   "url": "https://fairygodboss.com/maternity-leave-resource-center"
+  },
+  {
+   "name": "fairygodboss.com",
+   "url": "https://www.fairygodboss.com/"
+  },
+  {
+   "name": "blog.fairygodboss.com",
+   "url": "http://blog.fairygodboss.com/2015/10/21/our-maternity-leave-database-is-here/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-04",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fairygodboss.com",
+  "host": "fairygodboss.com"
+ }
+}

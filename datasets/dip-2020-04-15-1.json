@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-04-15-1",
+ "title": "COVID-19 testing around the world",
+ "hook": "Nearly every country publishes the number of residents who’ve tested positive for COVID-19. Far fewer post data on the total number of people tested (or tests performed).",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "ourworldindata.org",
+   "url": "https://ourworldindata.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/owid/covid-19-data/tree/master/public/data/testing"
+  },
+  {
+   "name": "ourworldindata.org",
+   "url": "https://ourworldindata.org/covid-testing"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Our World in Data",
+  "host": "ourworldindata.org"
+ }
+}

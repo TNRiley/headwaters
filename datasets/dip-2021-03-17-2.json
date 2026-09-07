@@ -1,0 +1,46 @@
+{
+ "id": "dip-2021-03-17-2",
+ "title": "Nursing-home staffing",
+ "hook": "The US Centers for Medicare & Medicaid Services requires nursing homes to submit detailed payroll information, which the agency converts into public-use files that summarize daily staffing levels at each facility.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cms.gov",
+   "url": "https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/NursingHomeQualityInits/Staffing-Data-Submission-PBJ"
+  },
+  {
+   "name": "cms.gov",
+   "url": "https://data.cms.gov/browse?q=daily+nurse+staffing"
+  },
+  {
+   "name": "cms.gov",
+   "url": "https://data.cms.gov/Special-Programs-Initiatives-Long-Term-Care-Facili/PBJ-Public-Use-Files-Data-Documentation/ygny-gzks"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2021/03/13/business/nursing-homes-ratings-medicare-covid.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-17",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Centers for Medicare & Medicaid Services",
+  "host": "cms.gov"
+ }
+}

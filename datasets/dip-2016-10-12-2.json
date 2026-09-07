@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-10-12-2",
+ "title": "Forest cover",
+ "hook": "The World Bank keeps statistics on total forest coverage per country and worldwide. (Between 1990 and 2015, that worldwide total declined from 41.3 million to 40.0 million square kilometers.) More than 98% of all land area in Suriname was forest in 2015, according to a related dataset — the highest proportion of any country.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "worldbank.org",
+   "url": "http://data.worldbank.org/indicator/AG.LND.FRST.K2"
+  },
+  {
+   "name": "worldbank.org",
+   "url": "http://data.worldbank.org/indicator/AG.LND.FRST.ZS?year_high_desc=true"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-12",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "worldbank.org",
+  "host": "worldbank.org"
+ }
+}

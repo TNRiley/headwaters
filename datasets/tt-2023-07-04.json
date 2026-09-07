@@ -63,6 +63,12 @@
    "year": 2023,
    "week": 27,
    "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-07-04"
+  },
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-01",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-01/"
   }
  ],
  "added": "2026-09-06",

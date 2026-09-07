@@ -1,0 +1,61 @@
+{
+ "id": "dip-2024-09-18-5",
+ "title": "Messi’s moves",
+ "hook": "StatsBomb, a soccer/football-data company, publishes a subset of its detailed, in-play data for free. Among the offerings: Every touch, pass, dribble, and shot from Lionel Messi’s 17 seasons playing for Barcelona in La Liga. Related: Carlos Menezes’s tool for visualizing StatsBomb event data files.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "statsbomb.com",
+   "url": "https://statsbomb.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/statsbomb/open-data"
+  },
+  {
+   "name": "statsbomb.com",
+   "url": "https://statsbomb.com/what-we-do/hub/free-data/"
+  },
+  {
+   "name": "statsbomb.com",
+   "url": "https://statsbomb.com/news/statsbomb-release-free-messi-data-all-seasons-from-2004-05-2020-21-now-available/"
+  },
+  {
+   "name": "carlos-menezes.com",
+   "url": "https://www.carlos-menezes.com/"
+  },
+  {
+   "name": "statsbomb-3d-viz.vercel.app",
+   "url": "https://statsbomb-3d-viz.vercel.app/"
+  },
+  {
+   "name": "ryanohanlon.com",
+   "url": "https://www.ryanohanlon.com/net-gains-out-october-18"
+  },
+  {
+   "name": "ryanohanlon.com",
+   "url": "https://www.ryanohanlon.com/bio-contact"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-18",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "statsbomb.com",
+  "host": "statsbomb.com"
+ }
+}

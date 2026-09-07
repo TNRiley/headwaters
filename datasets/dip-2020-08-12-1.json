@@ -1,0 +1,57 @@
+{
+ "id": "dip-2020-08-12-1",
+ "title": "Coronavirus humanitarian funding",
+ "hook": "The Centre for Disaster Protection and Development Initiatives have been jointly compiling data on the billions of dollars of humanitarian and development aid that the IMF, World Bank, and other agencies have allocated in response to the COVID-19 pandemic.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "disasterprotection.org",
+   "url": "https://www.disasterprotection.org/"
+  },
+  {
+   "name": "devinit.org",
+   "url": "https://devinit.org/"
+  },
+  {
+   "name": "disasterprotection.org",
+   "url": "https://www.disasterprotection.org/funding-covid-19-response"
+  },
+  {
+   "name": "disasterprotection.org",
+   "url": "https://www.disasterprotection.org/latest-news/funding-covid-19-response-tracking-global-humanitarian-and-development-flows-to-meet-crisis-needs"
+  },
+  {
+   "name": "pfbi.unocha.org",
+   "url": "https://pfbi.unocha.org/COVID19/"
+  },
+  {
+   "name": "centre.humdata.org",
+   "url": "https://centre.humdata.org/covid-19-map-explorer-whats-included-and-how-we-built-it/"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/visualization/covid19-humanitarian-operations/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-12",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "disasterprotection.org",
+  "host": "disasterprotection.org"
+ }
+}

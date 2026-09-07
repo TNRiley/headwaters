@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-12-29-5",
+ "title": "Root traits",
+ "hook": "Oak Ridge National Laboratory’s Fine-Root Ecology Database categorizes the root characteristics of 4,500+ plant species, as observed and published in scientific literature. The hundreds of types of traits relate to vessel density, root angles, lifespan, macronutrients, microbial symbionts, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "roots.ornl.gov",
+   "url": "https://roots.ornl.gov/"
+  },
+  {
+   "name": "roots.ornl.gov",
+   "url": "https://roots.ornl.gov/traits/map"
+  },
+  {
+   "name": "roots.ornl.gov",
+   "url": "https://roots.ornl.gov/plant-species"
+  },
+  {
+   "name": "roots.ornl.gov",
+   "url": "https://roots.ornl.gov/data-sources"
+  },
+  {
+   "name": "roots.ornl.gov",
+   "url": "https://roots.ornl.gov/data-inventory"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-29",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "roots.ornl.gov",
+  "host": "roots.ornl.gov"
+ }
+}

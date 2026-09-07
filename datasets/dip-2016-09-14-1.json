@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-09-14-1",
+ "title": "Minimum wages",
+ "hook": "Researchers at the Washington Center for Equitable Growth have compiled a dataset of current and historical minimum wages in America.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "equitablegrowth.org",
+   "url": "http://equitablegrowth.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/equitablegrowth/VZ_historicalminwage/releases"
+  },
+  {
+   "name": "bls.gov",
+   "url": "http://data.bls.gov/cgi-bin/cpicalc.pl?cost1=2&year1=1974&year2=2016"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-14",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "equitablegrowth.org",
+  "host": "equitablegrowth.org"
+ }
+}

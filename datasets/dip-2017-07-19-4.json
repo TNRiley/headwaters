@@ -1,0 +1,33 @@
+{
+ "id": "dip-2017-07-19-4",
+ "title": "Global economic forecasts",
+ "hook": "The International Monetary Fund’s World Economic Outlook Database contains the fund’s projections for future “national accounts, inflation, unemployment rates, balance of payments, fiscal indicators, trade for countries and country groups” and commodity prices.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "imf.org",
+   "url": "https://www.imf.org/external/pubs/ft/weo/2017/01/weodata/index.aspx"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-07-19",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-07-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "imf.org",
+  "host": "imf.org"
+ }
+}

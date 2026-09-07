@@ -1,0 +1,33 @@
+{
+ "id": "dip-2019-07-10-3",
+ "title": "North American ecoregions",
+ "hook": "In order to develop its maps of North American ecoregions, the US Environmental Protection Agency consulted with other federal agencies and state agencies, plus the governments of Canada and Mexico.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/eco-research/ecoregions"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-10",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "epa.gov",
+  "host": "epa.gov"
+ }
+}

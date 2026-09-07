@@ -1,0 +1,41 @@
+{
+ "id": "dip-2023-06-07-5",
+ "title": "Ransomware negotiations",
+ "hook": "Negotiations between ransomware victims and their attackers “are usually not shared widely, limiting the understanding of the process,” writes journalist Valéry Marchive, whose repository of chat transcripts “aims at changing that, in a respectful manner for the victims of cyberattacks: chats are anonymized as long as…",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Ransomware"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Casualtek"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Casualtek/Ransomchats"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-06-07",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-06-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-04-06-5",
+ "title": "Jon Snow data",
+ "hook": "An API Of Ice And Fire lets you fetch data about every book, character, and house in Game of Thrones — including allegiances, family trees, and dates of death. You can also download the data in bulk.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "anapioficeandfire.com",
+   "url": "https://anapioficeandfire.com/"
+  },
+  {
+   "name": "anapioficeandfire.com",
+   "url": "https://anapioficeandfire.com/Documentation"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/joakimskoog/AnApiOfIceAndFire/tree/master/AnApiOfIceAndFire.Data.Feeder/Data"
+  },
+  {
+   "name": "macalester.edu",
+   "url": "http://www.macalester.edu/~abeverid/thrones.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-06",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "anapioficeandfire.com",
+  "host": "anapioficeandfire.com"
+ }
+}

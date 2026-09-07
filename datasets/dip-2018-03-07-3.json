@@ -1,0 +1,61 @@
+{
+ "id": "dip-2018-03-07-3",
+ "title": "More brain scans",
+ "hook": "Last year, the Stanford Center for Reproducible Neuroscience launched OpenNeuro, “a free and open platform for analyzing and sharing neuroimaging data.” (It’s the successor to the center’s earlier initiative, OpenfMRI.) You can, for instance, download scans of brains that were watching a particular episode of The Twilight Zone.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "reproducibility.stanford.edu",
+   "url": "http://reproducibility.stanford.edu/about-us/"
+  },
+  {
+   "name": "openneuro.org",
+   "url": "https://openneuro.org/faq"
+  },
+  {
+   "name": "reproducibility.stanford.edu",
+   "url": "http://reproducibility.stanford.edu/openfmri-becomes-openneuro/"
+  },
+  {
+   "name": "openfmri.org",
+   "url": "https://openfmri.org/"
+  },
+  {
+   "name": "openneuro.org",
+   "url": "https://openneuro.org/datasets/ds001145/versions/00001"
+  },
+  {
+   "name": "bids.neuroimaging.io",
+   "url": "http://bids.neuroimaging.io/"
+  },
+  {
+   "name": "oasis-brains.org",
+   "url": "http://www.oasis-brains.org/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-08-16-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-03-07",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-03-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "reproducibility.stanford.edu",
+  "host": "reproducibility.stanford.edu"
+ }
+}

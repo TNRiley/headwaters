@@ -1,0 +1,50 @@
+{
+ "id": "dip-2016-05-11-4",
+ "title": "Obesity over time",
+ "hook": "An international network of researchers who study noncommunicable diseases estimates the annual prevalence of obesity and diabetes for approximately 200 countries and territories around the world. The data currently covers 1975–2014 and is based, on 2,000+ surveys, according to the group.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "ncdrisc.org",
+   "url": "http://www.ncdrisc.org/"
+  },
+  {
+   "name": "ncdrisc.org",
+   "url": "http://www.ncdrisc.org/d-adiposity.html"
+  },
+  {
+   "name": "ncdrisc.org",
+   "url": "http://www.ncdrisc.org/d-diabetes.html"
+  },
+  {
+   "name": "ncdrisc.org",
+   "url": "http://www.ncdrisc.org/about-us.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "bloomberg.com",
+   "url": "http://www.bloomberg.com/graphics/2016-global-obesity/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-11",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ncdrisc.org",
+  "host": "ncdrisc.org"
+ }
+}

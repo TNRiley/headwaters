@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-09-25-1",
+ "title": "District court decisions",
+ "hook": "The Carp-Manning U.S. District Court Database provides “data on 110,000+ decisions by federal district court judges handed down from 1927 to 2012.” It includes details of each case (such as the issue area and jurisdiction), each judge (year appointed, gender, race, and political party), and whether the decision was “liberal” or “conservative.” Previously: Federal judges’ data-biographies (DIP 2019.08.07).",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "umassd.edu",
+   "url": "https://www.umassd.edu/cas/polisci/resources/us-district-court-database/"
+  },
+  {
+   "name": "fjc.gov",
+   "url": "https://www.fjc.gov/history/judges/biographical-directory-article-iii-federal-judges-export"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-08-07-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-25",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "umassd.edu",
+  "host": "umassd.edu"
+ }
+}

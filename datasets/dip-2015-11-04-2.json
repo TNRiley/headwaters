@@ -1,0 +1,61 @@
+{
+ "id": "dip-2015-11-04-2",
+ "title": "MoMA, mo’ data",
+ "hook": "This July, the Museum of Modern Art published a dataset containing 120,000 artworks from its catalog, joining the UK’s Tate, the Smithsonian’s Cooper Hewitt, and other forward-thinking museums. The MoMA data contains the names of the artwork and artist, the dates created and acquired, and the medium — but no images.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/MuseumofModernArt/collection"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/tategallery/collection"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cooperhewitt/collection"
+  },
+  {
+   "name": "penn.museum",
+   "url": "http://www.penn.museum/collections/data.php"
+  },
+  {
+   "name": "rijksmuseum.nl",
+   "url": "https://www.rijksmuseum.nl/en/api"
+  },
+  {
+   "name": "brooklynmuseum.org",
+   "url": "https://www.brooklynmuseum.org/opencollection/api/"
+  },
+  {
+   "name": "medium.com",
+   "url": "https://medium.com/@blprnt/a-sort-of-joy-1d9d5ff02ac9"
+  },
+  {
+   "name": "imls.gov",
+   "url": "https://www.imls.gov/research-evaluation/data-collection/museum-universe-data-file"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-04",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

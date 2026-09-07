@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-08-14-2",
+ "title": "Airports and runways",
+ "hook": "OurAirports, a community-assisted project that began in 2007, provides bulk data detailing 55,000+ airports and 41,000+ runways, plus listings of airport radio frequencies and global navigation aids. In addition to standard airports, the records include 23 balloonports, 1,000+ seaplane bases, and 11,000+ heliports.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "ourairports.com",
+   "url": "http://ourairports.com/"
+  },
+  {
+   "name": "ourairports.com",
+   "url": "http://ourairports.com/data/"
+  },
+  {
+   "name": "towardsdatascience.com",
+   "url": "https://towardsdatascience.com/trails-of-wind-39967f07a67f"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-14",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ourairports.com",
+  "host": "ourairports.com"
+ }
+}

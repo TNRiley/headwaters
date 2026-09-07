@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-10-23-3",
+ "title": "Biomedical citations",
+ "hook": "The National Institutes of Health’s new Open Citation Collection brings together 420 million academic citations in biomedical literature. The data — the most comprehensive available for biomedicine — now underpins the NIH’s iCite platform, where you can explore citation statistics online.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "journals.plos.org",
+   "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000385"
+  },
+  {
+   "name": "icite.od.nih.gov",
+   "url": "https://icite.od.nih.gov/"
+  },
+  {
+   "name": "doi.org",
+   "url": "https://doi.org/10.35092/yhjc.c.4586573"
+  },
+  {
+   "name": "icite.od.nih.gov",
+   "url": "https://icite.od.nih.gov/api"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-23",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Cleary et al, 2016",
+  "host": "journals.plos.org"
+ }
+}

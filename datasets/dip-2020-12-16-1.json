@@ -1,0 +1,77 @@
+{
+ "id": "dip-2020-12-16-1",
+ "title": "People of slavery",
+ "hook": "Recently launched, Enslaved.org allows the public to “explore or reconstruct the lives of individuals who were enslaved, owned slaves, or participated in the historical trade.” Its interactive database contains 600,000+ records, with plans to expand.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "smithsonianmag.com",
+   "url": "https://www.smithsonianmag.com/history/sweeping-new-digital-database-emphasizes-enslaved-peoples-individuality-180976513/"
+  },
+  {
+   "name": "enslaved.org",
+   "url": "https://enslaved.org/"
+  },
+  {
+   "name": "enslaved.org",
+   "url": "https://enslaved.org/about"
+  },
+  {
+   "name": "jsdp.enslaved.org",
+   "url": "https://jsdp.enslaved.org/"
+  },
+  {
+   "name": "jsdp.enslaved.org",
+   "url": "https://jsdp.enslaved.org/fullIssue/volume1-issue1"
+  },
+  {
+   "name": "slavebiographies.org",
+   "url": "http://slavebiographies.org/databases.php"
+  },
+  {
+   "name": "enslaved.org",
+   "url": "https://enslaved.org/projectHistory"
+  },
+  {
+   "name": "slavebiographies.org",
+   "url": "http://slavebiographies.org/about.php"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataverse/jsdp"
+  },
+  {
+   "name": "jsdp.enslaved.org",
+   "url": "https://jsdp.enslaved.org/fullDataArticle/volume1-issue1-louisiana-slave-database"
+  },
+  {
+   "name": "jsdp.enslaved.org",
+   "url": "https://jsdp.enslaved.org/fullDataArticle/volume1-issue1-free-blacks-database"
+  },
+  {
+   "name": "jsdp.enslaved.org",
+   "url": "https://jsdp.enslaved.org/fullDataArticle/volume1-issue1-maranhao-inventories-slave-database"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-16",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "smithsonianmag.com",
+  "host": "smithsonianmag.com"
+ }
+}

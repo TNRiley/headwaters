@@ -1,0 +1,54 @@
+{
+ "id": "dip-2017-11-29-3",
+ "title": "(Some) White House visitor logs",
+ "hook": "ProPublica has published a searchable and downloadable dataset of visitor logs and meeting calendars from five White House agencies: the Office of Management and Budget, the Office of the U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "whitehouse.gov",
+   "url": "https://www.whitehouse.gov/administration/eop"
+  },
+  {
+   "name": "obamawhitehouse.archives.gov",
+   "url": "https://obamawhitehouse.archives.gov/goodgovernment/tools/visitor-records"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/graphics/wh-complex"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/datastore/dataset/trump-administration-white-house-complex-visitor-records"
+  },
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/graphics/wh-complex#methodology"
+  },
+  {
+   "name": "politico.com",
+   "url": "https://www.politico.com/interactives/databases/trump-white-house-visitor-logs-and-records/index.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-11-29",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-11-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "whitehouse.gov",
+  "host": "whitehouse.gov"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-12-23-5",
+ "title": "Who washes meat?",
+ "hook": "YouTuber (and former public radio reporter) Adam Ragusea recently asked his viewers to answer a detailed survey about whether (and why, and how) they wash meat before cooking it. He received more than 13,000 responses. He then made a video about what he found and published a spreadsheet of the anonymized answers.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "youtube.com",
+   "url": "https://www.youtube.com/user/aragusea/about"
+  },
+  {
+   "name": "youtube.com",
+   "url": "https://www.youtube.com/watch?v=90Nd_vh3yk8"
+  },
+  {
+   "name": "drive.google.com",
+   "url": "https://drive.google.com/file/d/1eygYpBJQGFd4wHH8iYsLoy3PR8PmHN0O/view"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-23",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Jelle's Marble Runs",
+  "host": "youtube.com"
+ }
+}

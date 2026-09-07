@@ -1,0 +1,35 @@
+{
+ "id": "dip-2023-12-06-5",
+ "title": "Many coin flips",
+ "hook": "“Many people have flipped coins but few have stopped to ponder the statistical and physical intricacies of the process,” write František Bartoš et al., introducing an experiment in which “a group of 48 people (i.e., all but three of the co-authors) tossed coins of 46 different currencies × denominations and obtained a total number of 350,757 coin flips.” The authors have published the raw results, images of each coin, and videos of the flips.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2310.04153"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/pxu6r/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-12-06",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-12-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arxiv.org",
+  "host": "arxiv.org"
+ }
+}

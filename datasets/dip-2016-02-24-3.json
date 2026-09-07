@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-02-24-3",
+ "title": "Nuclear capabilities",
+ "hook": "The Nuclear Latency Dataset contains “all known uranium enrichment and plutonium reprocessing facilities” built between 1939 and 2012. That amounts to 253 plants around the world, each with information on its construction timeframe, civilian-vs-military purpose, international oversight, and more. [h/t Abraham Epton]",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "matthewfuhrmann.com",
+   "url": "http://www.matthewfuhrmann.com/datasets.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-24",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "matthewfuhrmann.com",
+  "host": "matthewfuhrmann.com"
+ }
+}

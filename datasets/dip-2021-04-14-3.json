@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-04-14-3",
+ "title": "The pandemic vs. US households",
+ "hook": "The Census Bureau’s Household Pulse Survey “is a 20-minute online survey studying how the coronavirus pandemic is impacting households across the country from a social and economic perspective,” and asks questions about food security, housing, telework, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/household-pulse-survey.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/household-pulse-survey/datasets.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/data-tools/demo/hhp/"
+  },
+  {
+   "name": "datacatalog.urban.org",
+   "url": "https://datacatalog.urban.org/dataset/census-pulse-public-use-files-questionnaire-two"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-14",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

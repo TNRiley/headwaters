@@ -1,0 +1,61 @@
+{
+ "id": "dip-2021-06-23-2",
+ "title": "Civilian harm in Yemen",
+ "hook": "The UN-affiliated Civilian Impact Monitoring Project conducts “real-time collection, analysis and dissemination of open source data on the civilian impact from armed violence in Yemen.” Its public datasets include the monthly incident and casualty counts and the incidents per region damaging various types of civilian infrastructure.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "civilianimpactmonitoring.org",
+   "url": "https://civilianimpactmonitoring.org/"
+  },
+  {
+   "name": "civilianimpactmonitoring.org",
+   "url": "https://civilianimpactmonitoring.org/methodology"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/yemen-civilian-impact-incidents-and-civilian-casualties"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/yemen-impact-on-civilian-infrastructure"
+  },
+  {
+   "name": "acaps.org",
+   "url": "https://www.acaps.org/"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/search?q=%22Yemen%20CrisisInSight%22&sort=title_case_insensitive%20desc"
+  },
+  {
+   "name": "yemendataproject.org",
+   "url": "https://yemendataproject.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-04-03-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-23",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "civilianimpactmonitoring.org",
+  "host": "civilianimpactmonitoring.org"
+ }
+}

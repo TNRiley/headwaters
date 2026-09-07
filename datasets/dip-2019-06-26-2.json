@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-06-26-2",
+ "title": "Supreme Court v. Congress",
+ "hook": "The Judicial Review of Congress dataset, compiled by Princeton politics professor Keith E. Whittington, “catalogs all the cases in which the U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "scholar.princeton.edu",
+   "url": "https://scholar.princeton.edu/kewhitt/judicial-review-congress-database"
+  },
+  {
+   "name": "scholar.princeton.edu",
+   "url": "https://scholar.princeton.edu/kewhitt"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-26",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "scholar.princeton.edu",
+  "host": "scholar.princeton.edu"
+ }
+}

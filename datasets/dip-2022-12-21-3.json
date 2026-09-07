@@ -1,0 +1,69 @@
+{
+ "id": "dip-2022-12-21-3",
+ "title": "Drone registrations",
+ "hook": "Through a FOIA request to the Federal Aviation Administration, Ben Welsh has obtained data on all “small unmanned aircraft” (popularly known as drones) actively registered with the agency through 2021 — nearly 900,000 registrations in all.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "palewi.re",
+   "url": "https://palewi.re/who-is-ben-welsh/"
+  },
+  {
+   "name": "muckrock.com",
+   "url": "https://www.muckrock.com/foi/united-states-of-america-10/database-of-14-cfr-part-48-registered-drones-132943/"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/uas/getting_started/register_drone"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/newsroom/small-unmanned-aircraft-systems-uas-regulations-part-107"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/uas/recreational_flyers"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/uas/getting_started/remote_id/drone_pilots"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/drones/comments/xprv3n/comment/iq5ggqq/"
+  },
+  {
+   "name": "muckrock.com",
+   "url": "https://www.muckrock.com/foi/list/?user=7842&sort=date_submitted&order=desc"
+  },
+  {
+   "name": "muckrock.com",
+   "url": "https://www.muckrock.com/foi/united-states-of-america-10/database-of-suas-drone-accident-reports-132824/"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/drones/comments/z1xtmq/faa_drone_accident_report_database_released_via/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-12-21",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-12-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "palewi.re",
+  "host": "palewi.re"
+ }
+}

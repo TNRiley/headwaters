@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-09-02-1",
+ "title": "A who’s who of historical China",
+ "hook": "The China Biographical Database is packed with details on “approximately 470,000 individuals” from historical China, “primarily from the 7th through 19th centuries.” The extensively documented records include information about kinships, social statuses, offices and postings, aliases, known addresses, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "projects.iq.harvard.edu",
+   "url": "https://projects.iq.harvard.edu/cbdb"
+  },
+  {
+   "name": "projects.iq.harvard.edu",
+   "url": "https://projects.iq.harvard.edu/cbdb/supporting-documents"
+  },
+  {
+   "name": "projects.iq.harvard.edu",
+   "url": "https://projects.iq.harvard.edu/cbdb/history-of-cbdb"
+  },
+  {
+   "name": "projects.iq.harvard.edu",
+   "url": "https://projects.iq.harvard.edu/cbdb/download-cbdb-standalone-database"
+  },
+  {
+   "name": "projects.iq.harvard.edu",
+   "url": "https://projects.iq.harvard.edu/cbdb/cbdb-api"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-09-02",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-09-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "projects.iq.harvard.edu",
+  "host": "projects.iq.harvard.edu"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-05-08-3",
+ "title": "Visual questions from blind people",
+ "hook": "A decade ago, researchers built VizWiz, a smartphone app that allowed blind users take photos and ask questions about them.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "citeseerx.ist.psu.edu",
+   "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.222.9697"
+  },
+  {
+   "name": "vizwiz.org",
+   "url": "http://vizwiz.org/data/"
+  },
+  {
+   "name": "bemyeyes.com",
+   "url": "https://www.bemyeyes.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-08",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "citeseerx.ist.psu.edu",
+  "host": "citeseerx.ist.psu.edu"
+ }
+}

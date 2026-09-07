@@ -1,0 +1,31 @@
+{
+ "id": "dip-2018-08-15-1",
+ "title": "Peer-to-peer loans",
+ "hook": "The Lending Club, which matches borrowers with investors, publishes a dataset of all loans issued through its platform since 2007.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "lendingclub.com",
+   "url": "https://www.lendingclub.com/info/download-data.action"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-15",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lendingclub.com",
+  "host": "lendingclub.com"
+ }
+}

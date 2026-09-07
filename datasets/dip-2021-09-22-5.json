@@ -1,0 +1,57 @@
+{
+ "id": "dip-2021-09-22-5",
+ "title": "Hidden clue here will be!",
+ "hook": "Data scientist George Ho has compiled a dataset of 589,000+ clues to cryptic crosswords, “collected from various blogs and publicly available digital archives.” The collection, released earlier this month, is available to download and also explore online.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "eigenfoo.xyz",
+   "url": "https://www.eigenfoo.xyz/"
+  },
+  {
+   "name": "cryptics.eigenfoo.xyz",
+   "url": "https://cryptics.eigenfoo.xyz/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Cryptic_crossword"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/eigenfoo/cryptics/blob/main/CHANGELOG.md"
+  },
+  {
+   "name": "cryptics.eigenfoo.xyz",
+   "url": "https://cryptics.eigenfoo.xyz/clues/clues"
+  },
+  {
+   "name": "cryptics.eigenfoo.xyz",
+   "url": "https://cryptics.eigenfoo.xyz/clues/clues?_sort=rowid&clue__contains=%21&answer__exact=CRYPTIC"
+  },
+  {
+   "name": "cryptics.eigenfoo.xyz",
+   "url": "https://cryptics.eigenfoo.xyz/datasheet"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-22",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "eigenfoo.xyz",
+  "host": "eigenfoo.xyz"
+ }
+}

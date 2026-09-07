@@ -1,0 +1,63 @@
+{
+ "id": "dip-2022-05-18-3",
+ "title": "Open data governance",
+ "hook": "To develop the Global Data Barometer, a network of local experts and regional organizations evaluated “the state of data for public good” in 109 countries between May 2019 and May 2021.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "globaldatabarometer.org",
+   "url": "https://globaldatabarometer.org/"
+  },
+  {
+   "name": "globaldatabarometer.org",
+   "url": "https://globaldatabarometer.org/the-global-data-barometer-report-first-edition/"
+  },
+  {
+   "name": "globaldatabarometer.org",
+   "url": "https://globaldatabarometer.org/open-data/"
+  },
+  {
+   "name": "globaldatabarometer.org",
+   "url": "https://globaldatabarometer.org/module/governance/"
+  },
+  {
+   "name": "globaldatabarometer.org",
+   "url": "https://globaldatabarometer.org/module/capabilities/"
+  },
+  {
+   "name": "globaldatabarometer.org",
+   "url": "https://globaldatabarometer.org/research/countries-and-themes/"
+  },
+  {
+   "name": "globaldatabarometer.org",
+   "url": "https://globaldatabarometer.org/module/public-finance/"
+  },
+  {
+   "name": "globaldatabarometer.org",
+   "url": "https://globaldatabarometer.org/module/climate/"
+  },
+  {
+   "name": "globaldatabarometer.org",
+   "url": "https://globaldatabarometer.org/module/company/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-18",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "globaldatabarometer.org",
+  "host": "globaldatabarometer.org"
+ }
+}

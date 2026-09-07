@@ -1,0 +1,33 @@
+{
+ "id": "dip-2015-12-16-2",
+ "title": "All the world’s glaciers",
+ "hook": "The recently-updated Randolph Glacier Inventory contains spreadsheets and outlines of every known glacier in the world. Of the 212,000+ glaciers inventoried, more than 27,000 are in Alaska. Someone please adopt Deserted Glacier. [h/t Robin Wilson’s stunningly extensive directory of free GIS data]",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "glims.org",
+   "url": "http://www.glims.org/RGI/rgi50_dl.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-16",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "glims.org",
+  "host": "glims.org"
+ }
+}

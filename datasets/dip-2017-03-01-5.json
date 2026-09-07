@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-03-01-5",
+ "title": "Gator hunting",
+ "hook": "Florida’s Fish and Wildlife Conservation Commission publishes data from its statewide recreational alligator hunt. For each alligator harvested between 2000 and 2015, the dataset includes the date, the hunting area, and the length of the carcass.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "myfwc.com",
+   "url": "http://myfwc.com/wildlifehabitats/managed/alligator/harvest/data-export/"
+  },
+  {
+   "name": "myfwc.com",
+   "url": "http://myfwc.com/wildlifehabitats/managed/alligator/harvest/"
+  },
+  {
+   "name": "myfwc.com",
+   "url": "http://myfwc.com/media/3791759/alligator-hunting-guide.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-01",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "myfwc.com",
+  "host": "myfwc.com"
+ }
+}

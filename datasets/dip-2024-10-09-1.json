@@ -1,0 +1,63 @@
+{
+ "id": "dip-2024-10-09-1",
+ "title": "Disability claims processing",
+ "hook": "The Social Security Administration publishes monthly and annual datasets tracking each state agency’s progress processing disability claims.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ssa.gov",
+   "url": "https://www.ssa.gov/disability/data/ssa-sa-mowl.htm"
+  },
+  {
+   "name": "ssa.gov",
+   "url": "https://www.ssa.gov/disability/data/ssa-sa-fywl.htm"
+  },
+  {
+   "name": "ssa.gov",
+   "url": "https://www.ssa.gov/disability/determination.htm"
+  },
+  {
+   "name": "ssa.gov",
+   "url": "https://www.ssa.gov/ssi/text-cdrs-ussi.htm"
+  },
+  {
+   "name": "ssa.gov",
+   "url": "https://www.ssa.gov/open/data/"
+  },
+  {
+   "name": "ssa.gov",
+   "url": "https://www.ssa.gov/open/data/Combined-Disability-Processing-Time.html"
+  },
+  {
+   "name": "ssa.gov",
+   "url": "https://www.ssa.gov/open/data/disability_reconsideration_average_processing_time.html"
+  },
+  {
+   "name": "ssa.gov",
+   "url": "https://www.ssa.gov/appeals/DataSets/01_NetStat_Report.html"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/data-projects/disability-benefit-wait-time"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-10-09",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-10-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ssa.gov",
+  "host": "ssa.gov"
+ }
+}

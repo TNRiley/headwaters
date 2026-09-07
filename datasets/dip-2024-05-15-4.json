@@ -1,0 +1,58 @@
+{
+ "id": "dip-2024-05-15-4",
+ "title": "England sewage discharge",
+ "hook": "The UK’s Environment Agency collects data from utility companies regarding sewage-discharging storm overflows in England. The records, available for 2020–2023, list every reported overflow event, its timing and location, number of detected discharges, discharge points, and much more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "environment.data.gov.uk",
+   "url": "https://environment.data.gov.uk/dataset/21e15f12-0df8-4bfc-b763-45226c16a8ac"
+  },
+  {
+   "name": "ofwat.gov.uk",
+   "url": "https://www.ofwat.gov.uk/about-us/ofwat-and-the-environment/pollution-and-water-quality/storm-overflows-explainer/"
+  },
+  {
+   "name": "corporate.dwrcymru.com",
+   "url": "https://corporate.dwrcymru.com/en/community/environment/event-duration-monitoring"
+  },
+  {
+   "name": "hdcymru.co.uk",
+   "url": "https://www.hdcymru.co.uk/regulatory-library/regulatory-library/"
+  },
+  {
+   "name": "theriverstrust.org",
+   "url": "https://theriverstrust.org/sewage-map"
+  },
+  {
+   "name": "sas.org.uk",
+   "url": "https://www.sas.org.uk/water-quality/sewage-pollution-alerts/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/environment/ng-interactive/2024/mar/27/englands-sewage-crisis-how-polluted-is-your-local-river-and-which-regions-are-worst-hit"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-15",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "environment.data.gov.uk",
+  "host": "environment.data.gov.uk"
+ }
+}

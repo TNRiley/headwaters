@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-10-26-1",
+ "title": "Congressional Research Service reports, in bulk",
+ "hook": "The website EveryCRSReport.com provides unprecedented public access to reports from the Congressional Research Service — essentially the national legislature’s think-tank. The website, which launched last week by Demand Progress and Congressional Data Coalition, also lets you download metadata and text for each report.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "everycrsreport.com",
+   "url": "https://www.everycrsreport.com/"
+  },
+  {
+   "name": "medium.com",
+   "url": "https://medium.com/@danielschuman/why-i-came-to-believe-crs-reports-should-be-publicly-available-and-built-a-website-to-make-it-77b4b0f6233e"
+  },
+  {
+   "name": "everycrsreport.com",
+   "url": "https://www.everycrsreport.com/about.html"
+  },
+  {
+   "name": "everycrsreport.com",
+   "url": "https://www.everycrsreport.com/download.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-26",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "everycrsreport.com",
+  "host": "everycrsreport.com"
+ }
+}

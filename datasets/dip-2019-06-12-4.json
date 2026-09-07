@@ -1,0 +1,33 @@
+{
+ "id": "dip-2019-06-12-4",
+ "title": "Three centuries of taxation",
+ "hook": "For 220 countries between the 1750s and 2018, the Tax Introduction Dataset tracks “the year of the first permanent introduction at the national level of government of six major taxes, as well as on the top statutory tax rate for that year.” The six taxes are those on personal income, corporate income, inheritance, and general sales, plus VATs and compulsory social security contributions.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "tid.seelkopf.eu",
+   "url": "http://tid.seelkopf.eu/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-12",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tid.seelkopf.eu",
+  "host": "tid.seelkopf.eu"
+ }
+}

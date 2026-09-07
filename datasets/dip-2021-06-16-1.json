@@ -1,0 +1,58 @@
+{
+ "id": "dip-2021-06-16-1",
+ "title": "Drought in the United States",
+ "hook": "“Maybe you’ve seen it in the media: that map of the U.S. painted with blobs of yellow, orange and red. It shows drought – but how do we know which colors go where?” US Drought Monitor, a collaboration between the University of Nebraska and two federal agencies, describes the process behind its weekly maps.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "droughtmonitor.unl.edu",
+   "url": "https://droughtmonitor.unl.edu/"
+  },
+  {
+   "name": "droughtmonitor.unl.edu",
+   "url": "https://droughtmonitor.unl.edu/About/WhatistheUSDM.aspx"
+  },
+  {
+   "name": "droughtmonitor.unl.edu",
+   "url": "https://droughtmonitor.unl.edu/About/ContactUs.aspx"
+  },
+  {
+   "name": "wrcc.dri.edu",
+   "url": "https://wrcc.dri.edu/wwdt/"
+  },
+  {
+   "name": "nrcs.usda.gov",
+   "url": "https://www.nrcs.usda.gov/wps/portal/nrcs/detail/id/snow/?cid=stelprdb1240689"
+  },
+  {
+   "name": "droughtmonitor.unl.edu",
+   "url": "https://droughtmonitor.unl.edu/Data.aspx"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2021/06/11/climate/california-western-drought-map.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-16",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Drought Monitor",
+  "host": "droughtmonitor.unl.edu"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-01-05-2",
+ "title": "Joint military exercises",
+ "hook": "Jordan Bernhardt’s Joint Military Exercises Dataset describes 5,000+ such operations undertaken between 1977 and 2016, drawn from historical news reports. The dataset lists each exercise’s name, location, when it began and ended, the countries that participated, activities involved, and more. Related: Brandon J.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HXQFHU"
+  },
+  {
+   "name": "brandonkinne.com",
+   "url": "https://www.brandonkinne.com/"
+  },
+  {
+   "name": "correlatesofwar.org",
+   "url": "https://correlatesofwar.org/data-sets/defense-cooperation-agreement-dataset"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-05",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataverse.harvard.edu",
+  "host": "dataverse.harvard.edu"
+ }
+}

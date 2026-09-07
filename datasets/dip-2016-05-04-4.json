@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-05-04-4",
+ "title": "Goooooooooaaaaal",
+ "hook": "OpenFootball collects and publishes results and rosters from national and international soccer/football matches, including the Premier League and the World Cup. Related: English soccer/football results, 1871–2014. [h/t Wendy Mak]",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "openfootball.github.io",
+   "url": "http://openfootball.github.io/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jalapic/engsoccerdata"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-04",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openfootball.github.io",
+  "host": "openfootball.github.io"
+ }
+}

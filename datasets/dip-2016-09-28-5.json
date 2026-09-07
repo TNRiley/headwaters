@@ -1,0 +1,46 @@
+{
+ "id": "dip-2016-09-28-5",
+ "title": "Bush v. Gore v. hanging chads",
+ "hook": "After 2000’s contentious election, the National Opinion Research Center — funded by a consortium of news organizations — rigorously reviewed 175,010 Florida ballots that weren’t recognized as “valid” votes for president.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "electionstudies.org",
+   "url": "http://www.electionstudies.org/florida2000/sponsors.htm"
+  },
+  {
+   "name": "electionstudies.org",
+   "url": "http://www.electionstudies.org/florida2000/index.htm"
+  },
+  {
+   "name": "electionstudies.org",
+   "url": "http://www.electionstudies.org/florida2000/data/data_files.htm"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "http://www.nytimes.com/2001/11/12/us/examining-vote-overview-study-disputed-florida-ballots-finds-justices-did-not.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-28",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "electionstudies.org",
+  "host": "electionstudies.org"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-06-28-4",
+ "title": "Every federally tax-exempt nonprofit",
+ "hook": "The Internal Revenue Service publishes a file listing all “organizations eligible to receive tax-deductible charitable contributions” — currently more than 1 million charities, private foundations, and other groups.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "apps.irs.gov",
+   "url": "https://apps.irs.gov/app/eos/forwardToDeductStatusSearchHelp.do"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-06-22-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-28",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "apps.irs.gov",
+  "host": "apps.irs.gov"
+ }
+}

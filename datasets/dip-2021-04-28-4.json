@@ -1,0 +1,53 @@
+{
+ "id": "dip-2021-04-28-4",
+ "title": "Global mail",
+ "hook": "For more than a century, the Universal Postal Union has collected and published statistics about the world’s postal systems. Online, you can query and export country-level data — the number of letter-boxes and permanent post offices, operating revenue, total staff, and much more — going back to 1980. Related: Jon C.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "upu.int",
+   "url": "https://www.upu.int/en/Home"
+  },
+  {
+   "name": "upu.int",
+   "url": "https://www.upu.int/en/Universal-Postal-Union/Activities/Research-Publications/Postal-Statistics"
+  },
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1111/ajps.12594"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/33K3EF"
+  },
+  {
+   "name": "cblevins.github.io",
+   "url": "https://cblevins.github.io/us-post-offices/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-04-07-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-28",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "upu.int",
+  "host": "upu.int"
+ }
+}

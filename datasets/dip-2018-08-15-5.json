@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-08-15-5",
+ "title": "Financial statements",
+ "hook": "The SEC’s Office of Structured Disclosure publishes data extracted from corporations’ public financial statements. That dataset contains the numbers listed in each company’s primary financial statements — balance sheets, cash flows, et cetera.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sec.gov",
+   "url": "https://www.sec.gov/structureddata"
+  },
+  {
+   "name": "sec.gov",
+   "url": "https://www.sec.gov/dera/data/financial-statement-data-sets.html"
+  },
+  {
+   "name": "sec.gov",
+   "url": "https://www.sec.gov/dera/data/financial-statement-and-notes-data-set.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-15",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sec.gov",
+  "host": "sec.gov"
+ }
+}

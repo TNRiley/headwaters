@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-01-13-3",
+ "title": "U.S. foreign assistance",
+ "hook": "USAID, the Peace Corps, the U.S. African Development Foundation, and other agencies report data on foreign assistance spending to ForeignAssistance.gov. The full dataset includes detailed information for each grant and contract — and comes with data dictionary.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "beta.foreignassistance.gov",
+   "url": "http://beta.foreignassistance.gov/"
+  },
+  {
+   "name": "beta.foreignassistance.gov",
+   "url": "http://beta.foreignassistance.gov/learn/understanding-the-data"
+  },
+  {
+   "name": "beta.foreignassistance.gov",
+   "url": "http://beta.foreignassistance.gov/explore"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-13",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "beta.foreignassistance.gov",
+  "host": "beta.foreignassistance.gov"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "dip-2020-11-18-3",
+ "title": "Education and civil rights",
+ "hook": "For decades, the US Department of Education’s Civil Rights Data Collection has compiled “data on key education and civil rights issues in our nation’s public schools,” including “student enrollment and educational programs and services, most of which is disaggregated by race/ethnicity, sex, limited English proficiency, and disability.” Last month, the department released the CRDC for the 2017–18 school year.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "www2.ed.gov",
+   "url": "https://www2.ed.gov/about/offices/list/ocr/data.html"
+  },
+  {
+   "name": "ed.gov",
+   "url": "https://www.ed.gov/news/press-releases/us-department-education-releases-2017-18-civil-rights-data-collection"
+  },
+  {
+   "name": "www2.ed.gov",
+   "url": "https://www2.ed.gov/about/offices/list/ocr/docs/crdc-2017-18.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/miseducation/methodology"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/getinvolved/reporting-recipe-investigating-restraint-and-seclusion-in-us-schools"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-11-18",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-11-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "US Dept of Education",
+  "host": "www2.ed.gov"
+ }
+}

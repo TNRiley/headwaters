@@ -1,0 +1,61 @@
+{
+ "id": "dip-2025-05-21-4",
+ "title": "Who runs Italy?",
+ "hook": "Sesso è Potere, an ongoing project from info.nodes and onData, examines gender representation in positions of power in Italy.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "infonodes.org",
+   "url": "https://infonodes.org/sesso-%C3%A8-potere"
+  },
+  {
+   "name": "infonodes.org",
+   "url": "https://www.infonodes.org/"
+  },
+  {
+   "name": "ondata.it",
+   "url": "https://www.ondata.it/"
+  },
+  {
+   "name": "drive.google.com",
+   "url": "https://drive.google.com/file/d/15NPjII-W5_yFpBVJLyEVYk1GUsK2v64e/view"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ondata/sesso-e-potere/tree/main/dati/2025"
+  },
+  {
+   "name": "irp.cdn-website.com",
+   "url": "https://irp.cdn-website.com/6c73ff89/files/uploaded/MARLA%20sesso%20e%20potere%202023%2027%2011.pdf"
+  },
+  {
+   "name": "infonodes.org",
+   "url": "https://www.infonodes.org/sessoepotere22"
+  },
+  {
+   "name": "infonodes.org",
+   "url": "https://www.infonodes.org/sessoepotere2021"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-05-21",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-05-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "infonodes.org",
+  "host": "infonodes.org"
+ }
+}

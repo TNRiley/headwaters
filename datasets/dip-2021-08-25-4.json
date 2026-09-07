@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-08-25-4",
+ "title": "AI patents",
+ "hook": "The US Patent and Trademark Office has built a series of machine-learning models to identify patents that involve AI technologies, such as natural language processing or computer vision.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "papers.ssrn.com",
+   "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3866793"
+  },
+  {
+   "name": "uspto.gov",
+   "url": "https://www.uspto.gov/ip-policy/economic-research/research-datasets/artificial-intelligence-patent-dataset"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-25",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "papers.ssrn.com",
+  "host": "papers.ssrn.com"
+ }
+}

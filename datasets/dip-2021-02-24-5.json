@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-02-24-5",
+ "title": "O’Reilly animals",
+ "hook": "More than 1,000 illustrated animals have graced the covers of O’Reilly Media’s technical books. The publisher hosts an online “menagerie” where you can browse the pairings; it doesn’t provide downloads, but brian d foy, author of several O’Reilly books, has written a Perl tutorial on how to scrape it, and has shared the results.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "oreilly.com",
+   "url": "https://www.oreilly.com/animals.csp"
+  },
+  {
+   "name": "briandfoy.github.io",
+   "url": "https://briandfoy.github.io/"
+  },
+  {
+   "name": "oreilly.com",
+   "url": "https://www.oreilly.com/pub/au/1071"
+  },
+  {
+   "name": "perl.com",
+   "url": "https://www.perl.com/article/extracting-the-list-of-o-reilly-animals/"
+  },
+  {
+   "name": "gist.github.com",
+   "url": "https://gist.github.com/briandfoy/d68915eb425e1fc4932ceac5cdf2d60d"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-02-24",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-02-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "oreilly.com",
+  "host": "oreilly.com"
+ }
+}

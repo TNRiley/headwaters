@@ -1,0 +1,41 @@
+{
+ "id": "dip-2024-10-23-2",
+ "title": "US buildings",
+ "hook": "“Leveraging high performance computing, remote sensing, geographic data science, machine learning, and computer vision,” Hsiuhan Lexie Yang et al., researchers at Oak Ridge National Laboratory, have “partnered with Federal Emergency Management Agency (FEMA) to build a baseline structure inventory covering the US and…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-024-03219-x"
+  },
+  {
+   "name": "gis-fema.hub.arcgis.com",
+   "url": "https://gis-fema.hub.arcgis.com/pages/usa-structures"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-024-03219-x/tables/2"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-10-23",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-10-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

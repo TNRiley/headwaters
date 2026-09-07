@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-11-18-2",
+ "title": "Urban traffic",
+ "hook": "Researchers from ETH Zurich’s Institute for Transport Planning and Systems have assembled 170 million observations of traffic intensity on urban roads, registered by 23,000+ detection points in 40 cities, “making it the largest multi-city traffic dataset publically available.” The cities are mostly in Western Europe, but also include Tokyo, Taipei, Melbourne, Vilnius, Los Angeles, and Toronto.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "other",
+ "geography": "Canada",
+ "sources": [
+  {
+   "name": "ivt.ethz.ch",
+   "url": "https://www.ivt.ethz.ch/en/"
+  },
+  {
+   "name": "utd19.ethz.ch",
+   "url": "https://utd19.ethz.ch/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-11-18",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-11-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ivt.ethz.ch",
+  "host": "ivt.ethz.ch"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-03-24-5",
+ "title": "Animal lifespans",
+ "hook": "AnAge is “a curated database of ageing and life history in animals, including extensive longevity records.” Part of a broader project on the genetics of human ageing, the database contains 4,200+ species, from the aardvark to the ziege.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "genomics.senescence.info",
+   "url": "https://genomics.senescence.info/species/index.html"
+  },
+  {
+   "name": "genomics.senescence.info",
+   "url": "https://genomics.senescence.info/"
+  },
+  {
+   "name": "genomics.senescence.info",
+   "url": "https://genomics.senescence.info/species/entry.php?species=Orycteropus_afer"
+  },
+  {
+   "name": "genomics.senescence.info",
+   "url": "https://genomics.senescence.info/species/entry.php?species=Pelecus_cultratus"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-24",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "genomics.senescence.info",
+  "host": "genomics.senescence.info"
+ }
+}

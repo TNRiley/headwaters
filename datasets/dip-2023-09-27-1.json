@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-09-27-1",
+ "title": "Censuses, linked",
+ "hook": "The Census Tree, developed by Kasey Buckles et al., “is the largest-ever database of record links among the historical U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "censustree.org",
+   "url": "https://www.censustree.org/"
+  },
+  {
+   "name": "nber.org",
+   "url": "https://www.nber.org/papers/w31671"
+  },
+  {
+   "name": "censustree.org",
+   "url": "https://www.censustree.org/our-team"
+  },
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/nd.edu/censustreefaq"
+  },
+  {
+   "name": "censustree.org",
+   "url": "https://www.censustree.org/methodology"
+  },
+  {
+   "name": "familysearch.org",
+   "url": "https://www.familysearch.org/"
+  },
+  {
+   "name": "usa.ipums.org",
+   "url": "https://usa.ipums.org/usa-action/variables/HISTID"
+  },
+  {
+   "name": "censustree.org",
+   "url": "https://www.censustree.org/quickstart"
+  },
+  {
+   "name": "usa.ipums.org",
+   "url": "https://usa.ipums.org/usa/full_count.shtml"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-27",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "censustree.org",
+  "host": "censustree.org"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-06-22-5",
+ "title": "The Hum",
+ "hook": "“Most people find this website because they are searching for the source of an unusual low frequency sound.” The World Hum Database currently includes more than 10,000 reader-submitted reports, including a recent submissions that describe the noise as sounding “like a fridge,” “like a train in the distance,” and “like…",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "thehum.info",
+   "url": "http://www.thehum.info/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://www.google.com/fusiontables/DataSource?docid=1EyjVZqUPpoXGQDa_cry9DqFaBVMOgEyq-3qo85bx#rows:id=1"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-22",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "thehum.info",
+  "host": "thehum.info"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "dip-2022-08-10-4",
+ "title": "Trade in post-unification Italy",
+ "hook": "The Lost Highway project, a collaboration between researchers at four Italian universities, aims “to test a number of broad historical conjectures about the long term shortcomings of the Italian development path by collecting as much quantitative evidence as possible.” Their Bankit-FTV database provides annual import…",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "transport & infrastructure"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "lost-highway.unisi.it",
+   "url": "https://lost-highway.unisi.it/project/aims-and-purposes"
+  },
+  {
+   "name": "lost-highway.unisi.it",
+   "url": "https://lost-highway.unisi.it/units"
+  },
+  {
+   "name": "lost-highway.unisi.it",
+   "url": "https://lost-highway.unisi.it/data"
+  },
+  {
+   "name": "docenti-deps.unisi.it",
+   "url": "https://docenti-deps.unisi.it/michelangelovasta/wp-content/uploads/sites/2/2014/08/Legend-FTV-Bankit.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-10",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lost-highway.unisi.it",
+  "host": "lost-highway.unisi.it"
+ }
+}

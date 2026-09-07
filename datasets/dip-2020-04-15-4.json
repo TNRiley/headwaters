@@ -1,0 +1,39 @@
+{
+ "id": "dip-2020-04-15-4",
+ "title": "Thirty years of NYC trash and recycling",
+ "hook": "New York City’s Department of Sanitation publishes a dataset of the monthly tonnage it collects from city residences, going back to 1990.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/City-Government/DSNY-Monthly-Tonnage-Data/ebb7-mvp5"
+  },
+  {
+   "name": "thecity.nyc",
+   "url": "https://thecity.nyc/2020/04/garbage-pickups-tell-tale-of-two-cities-as-manhattan-shrinks.html"
+  },
+  {
+   "name": "robinnagle.com",
+   "url": "https://robinnagle.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Squirrel Census",
+  "host": "cityofnewyork.us"
+ }
+}

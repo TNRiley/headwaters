@@ -1,0 +1,50 @@
+{
+ "id": "dip-2021-02-10-2",
+ "title": "Subnational COVID-19 vaccinations",
+ "hook": "Software developer Lucas Rodés-Guirao is aggregating coronavirus vaccination numbers, over time, by administrative division — each canton in Switzerland, for example, and each province in Argentina.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine",
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "lcsrg.me",
+   "url": "https://lcsrg.me/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/sociepy/covid19-vaccination-subnational"
+  },
+  {
+   "name": "ourworldindata.org",
+   "url": "https://ourworldindata.org/covid-vaccinations"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-12-23-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-02-10",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-02-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lcsrg.me",
+  "host": "lcsrg.me"
+ }
+}

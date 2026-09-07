@@ -1,0 +1,61 @@
+{
+ "id": "dip-2019-07-24-2",
+ "title": "Hydro, streams, and rivers",
+ "hook": "As part of Oak Ridge National Laboratory’s efforts to evaluate America’s hydropower resources, researchers there have developed a system (and corresponding dataset) for classifying all 2.6 million streams in the Lower 48 by size, hydrology, gradient, temperature, and “valley confinement.” Elsewhere, other researchers…",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ornl.gov",
+   "url": "https://www.ornl.gov/"
+  },
+  {
+   "name": "hydrosource.ornl.gov",
+   "url": "https://hydrosource.ornl.gov/"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata201917"
+  },
+  {
+   "name": "springernature.figshare.com",
+   "url": "https://springernature.figshare.com/collections/A_Stream_Classification_System_for_the_Conterminous_United_States/4233740"
+  },
+  {
+   "name": "hydrosource.ornl.gov",
+   "url": "https://hydrosource.ornl.gov/environmental-information/us-stream-classification-system"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41586-019-1111-9"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/Mapping_the_world_s_free-flowing_rivers_data_set_and_technical_documentation/7688801"
+  },
+  {
+   "name": "hydrolab.io",
+   "url": "http://hydrolab.io/ffr/#"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-24",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ornl.gov",
+  "host": "ornl.gov"
+ }
+}

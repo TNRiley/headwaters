@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-07-24-1",
+ "title": "Bodies of water",
+ "hook": "The Water Observatory “provides reliable and timely information about surface water levels of water bodies across the globe.” The locations are based on NASA’s Global Reservoir and Dam Database and the World Wildlife Fund’s Global Lakes and Wetlands Database.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "blue-dot-observatory.com",
+   "url": "https://www.blue-dot-observatory.com/aboutwaterobservatory"
+  },
+  {
+   "name": "sedac.ciesin.columbia.edu",
+   "url": "https://sedac.ciesin.columbia.edu/data/set/grand-v1-dams-rev01"
+  },
+  {
+   "name": "worldwildlife.org",
+   "url": "https://www.worldwildlife.org/pages/global-lakes-and-wetlands-database"
+  },
+  {
+   "name": "openstreetmap.org",
+   "url": "https://www.openstreetmap.org/"
+  },
+  {
+   "name": "water.blue-dot-observatory.com",
+   "url": "https://water.blue-dot-observatory.com"
+  },
+  {
+   "name": "forum.sentinel-hub.com",
+   "url": "https://forum.sentinel-hub.com/t/water-observatory-backend-example/859/2"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-24",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "blue-dot-observatory.com",
+  "host": "blue-dot-observatory.com"
+ }
+}

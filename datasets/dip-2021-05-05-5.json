@@ -1,0 +1,33 @@
+{
+ "id": "dip-2021-05-05-5",
+ "title": "Television castaways",
+ "hook": "Statistician Dan Oehm has constructed a dataset describing all 40 US seasons of Survivor, providing details on every contestant, challenge winner, individual vote, episode viewership, and more. You can access the data as an R package or an Excel file. [h/t u/antirabbit]",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "gradientdescending.com",
+   "url": "https://gradientdescending.com/survivor-data-from-the-tv-series-in-r/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-05-05",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-05-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gradientdescending.com",
+  "host": "gradientdescending.com"
+ }
+}

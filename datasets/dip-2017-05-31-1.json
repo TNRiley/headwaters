@@ -1,0 +1,78 @@
+{
+ "id": "dip-2017-05-31-1",
+ "title": "Government payrolls",
+ "hook": "Last week at BuzzFeed News, we shared a vast trove federal payroll data. Those records — provided by Office of Personnel Management through the Freedom of Information Act — cover more than 40 years and millions of employees. The dataset includes salaries, titles, job types, and demographic variables.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "php.app.com",
+   "url": "http://php.app.com/agent/federalemployees/search"
+  },
+  {
+   "name": "fedsdatacenter.com",
+   "url": "https://www.fedsdatacenter.com/federal-pay-rates/"
+  },
+  {
+   "name": "ny.gov",
+   "url": "https://data.ny.gov/browse?tags=salaries%2Fpayroll&utf8=%E2%9C%93"
+  },
+  {
+   "name": "publicpay.ca.gov",
+   "url": "http://publicpay.ca.gov/"
+  },
+  {
+   "name": "salaries.myflorida.com",
+   "url": "http://salaries.myflorida.com/"
+  },
+  {
+   "name": "yourmoney.nj.gov",
+   "url": "http://www.yourmoney.nj.gov/transparency/payroll/"
+  },
+  {
+   "name": "mn.gov",
+   "url": "https://mn.gov/mmb/transparency-mn/payrolldata.jsp"
+  },
+  {
+   "name": "ark.org",
+   "url": "https://www.ark.org/dfa/transparency/employee_compensation.php"
+  },
+  {
+   "name": "admin.sc.gov",
+   "url": "http://www.admin.sc.gov/accountability-portal/state-salaries"
+  },
+  {
+   "name": "fiscal.wa.gov",
+   "url": "http://fiscal.wa.gov/salaries.aspx"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Administration-Finance/Current-Employee-Names-Salaries-and-Position-Title/xzkq-xp2w"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "https://www.buzzfeed.com/jsvine/sharing-hundreds-of-millions-of-federal-payroll-records"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-31",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "php.app.com",
+  "host": "php.app.com"
+ }
+}

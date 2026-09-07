@@ -1,0 +1,47 @@
+{
+ "id": "dip-2023-03-22-1",
+ "title": "Civilian harm in Ukraine",
+ "hook": "Researchers at Bellingcat and contributors to its Global Authentication Project have assembled a map and dataset of 1,000+ incidents “that have resulted in potential civilian impact or harm since Russia began its invasion of Ukraine.” They include incidents “where rockets or missiles struck civilian areas,” “where…",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "bellingcat.com",
+   "url": "https://www.bellingcat.com/about/"
+  },
+  {
+   "name": "sidn.nl",
+   "url": "https://www.sidn.nl/en/news-and-blogs/bellingcat-uses-open-source-information-to-expose-wrongdoing"
+  },
+  {
+   "name": "bellingcat.com",
+   "url": "https://www.bellingcat.com/news/2023/02/24/russias-assault-on-daily-life-in-ukraine/"
+  },
+  {
+   "name": "ukraine.bellingcat.com",
+   "url": "https://ukraine.bellingcat.com/"
+  },
+  {
+   "name": "bellingcat.com",
+   "url": "https://www.bellingcat.com/news/2022/03/17/hospitals-bombed-and-apartments-destroyed-mapping-incidents-of-civilian-harm-in-ukraine/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-22",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bellingcat.com",
+  "host": "bellingcat.com"
+ }
+}

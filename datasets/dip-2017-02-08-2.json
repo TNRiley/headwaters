@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-02-08-2",
+ "title": "International house prices since 1975",
+ "hook": "The International House Price Database combines and standardizes house price indices from 23 countries — mostly in Europe and North America, but also including South Africa, Australia, New Zealand, Japan, South Korea, and Israel.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "dallasfed.org",
+   "url": "https://www.dallasfed.org/institute/houseprice/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-05-25-edition"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-06-22-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-02-08",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-02-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dallasfed.org",
+  "host": "dallasfed.org"
+ }
+}

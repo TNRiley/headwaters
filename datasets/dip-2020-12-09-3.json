@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-12-09-3",
+ "title": "Country facts",
+ "hook": "The CIA’s World Factbook “provides information on the history, people and society, government, economy, energy, geography, communications, transportation, military, and transnational issues for 267 world entities.” The details are extensive and fairly standardized.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "cia.gov",
+   "url": "https://www.cia.gov/library/publications/the-world-factbook/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/geraldb"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/factbook/factbook.json"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-09",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cia.gov",
+  "host": "cia.gov"
+ }
+}

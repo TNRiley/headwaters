@@ -1,0 +1,43 @@
+{
+ "id": "dip-2016-09-14-3",
+ "title": "Sea ice",
+ "hook": "The National Snow and Ice Data Center, based at the University of Colorado, publishes the Sea Ice Index. The data files, which track ice coverage in the Arctic and Antarctic oceans, include daily and monthly measurements from November 1978 to the present.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nsidc.org",
+   "url": "https://nsidc.org/about/overview"
+  },
+  {
+   "name": "nsidc.org",
+   "url": "https://nsidc.org/data/seaice_index/"
+  },
+  {
+   "name": "nsidc.org",
+   "url": "http://nsidc.org/data/docs/noaa/g02135_seaice_index/"
+  },
+  {
+   "name": "nsidc.org",
+   "url": "http://nsidc.org/arcticseaicenews/2016/09/arctic-sea-ice-nears-its-minimum-extent-for-the-year/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-14",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nsidc.org",
+  "host": "nsidc.org"
+ }
+}

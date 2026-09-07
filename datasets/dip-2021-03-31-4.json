@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-03-31-4",
+ "title": "EU merger decisions",
+ "hook": "Pauline Affeldt et al. have compiled a quarter century of merger control decisions by the European Commission’s Directorate-General for Competition — decisions relating to 5,000+ cases and 31,000+ product/market combinations between 1990 and 2014.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "papers.ssrn.com",
+   "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3366915"
+  },
+  {
+   "name": "diw.de",
+   "url": "https://www.diw.de/en/diw_01.c.670982.en/pages/research_data_center_for_business_and_organizational_data__rdc-bo.html"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/dgs/competition/index_en.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-31",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "papers.ssrn.com",
+  "host": "papers.ssrn.com"
+ }
+}

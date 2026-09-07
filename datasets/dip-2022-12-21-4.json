@@ -1,0 +1,61 @@
+{
+ "id": "dip-2022-12-21-4",
+ "title": "Folklore motifs",
+ "hook": "Decades ago, anthropologist Yuri Berezkin began systematically assembling what would later become the Electronic Analytical Catalogue of Folklore and Mythological Motifs, which identifies thousands of recurring narrative elements and their presence within nearly 1,000 societies’ stories.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "helsinki.fi",
+   "url": "https://www.helsinki.fi/assets/drupal/2022-12/rmn_10_2015.pdf?page=58"
+  },
+  {
+   "name": "kunstkamera.ru",
+   "url": "https://www.kunstkamera.ru/en/research/academic_board/yuri_e_berezkin"
+  },
+  {
+   "name": "ruthenia.ru",
+   "url": "https://www.ruthenia.ru/folklore/berezkin/"
+  },
+  {
+   "name": "academic.oup.com",
+   "url": "https://academic.oup.com/qje/article/136/4/1993/6124640"
+  },
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/site/steliosecon/"
+  },
+  {
+   "name": "melaniexue.net",
+   "url": "https://www.melaniexue.net/"
+  },
+  {
+   "name": "broadstreet.blog",
+   "url": "https://broadstreet.blog/2021/05/14/folklore-a-window-into-the-past/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXOHKB"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-12-21",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-12-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "helsinki.fi",
+  "host": "helsinki.fi"
+ }
+}

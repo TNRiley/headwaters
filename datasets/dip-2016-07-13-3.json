@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-07-13-3",
+ "title": "Hundreds of millions of street addresses",
+ "hook": "OpenAddresses.io is an effort to collect the official geocoordinates of the all the world’s physical addresses. (These data come from “authoritative” sources, such as city governments.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "openaddresses.io",
+   "url": "https://openaddresses.io/"
+  },
+  {
+   "name": "results.openaddresses.io",
+   "url": "https://results.openaddresses.io/"
+  },
+  {
+   "name": "trackchanges.postlight.com",
+   "url": "https://trackchanges.postlight.com/open-source-geo-is-really-something-right-now-f8e310c5f57a#.t2f638jnj"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-13",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openaddresses.io",
+  "host": "openaddresses.io"
+ }
+}

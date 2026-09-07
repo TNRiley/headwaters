@@ -1,0 +1,37 @@
+{
+ "id": "dip-2022-04-13-5",
+ "title": "Carnivore diets",
+ "hook": "Owen Middleton et al.’s CarniDIET 1.0 provides “data on the diet compositions for 103 species of terrestrial, carnivorous mammals from (mostly) peer-reviewed scientific papers.” Each of its 29,000+ rows represents a “diet record,” describing a component of the species’ consumption, for a particular population, geography, and study.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1111/geb.13296"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/osmiddleton/CarniDIET-Database"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-13",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Gentry et al.",
+  "host": "onlinelibrary.wiley.com"
+ }
+}

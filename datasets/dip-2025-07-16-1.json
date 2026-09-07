@@ -1,0 +1,50 @@
+{
+ "id": "dip-2025-07-16-1",
+ "title": "Landfills",
+ "hook": "The EPA’s Landfill Methane Outreach Program, “a voluntary program that works cooperatively with industry stakeholders and waste officials to reduce or avoid methane emissions,” maintains a database of 2,600+ municipal solid waste (MSW) landfills in the United States.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/lmop/about-landfill-methane-outreach-program"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/lmop/lmop-landfill-and-project-database"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/lmop/landfill-technical-data"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/lmop/landfill-gas-energy-project-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "bloomberg.com",
+   "url": "https://www.bloomberg.com/graphics/2025-america-hot-garbage-problem-toxic-landfills/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-07-16",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-07-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "epa.gov",
+  "host": "epa.gov"
+ }
+}

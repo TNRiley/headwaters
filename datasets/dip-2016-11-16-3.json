@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-11-16-3",
+ "title": "Election Day on “the front page of the internet",
+ "hook": "Jason Baumgartner — a.k.a. Stuck_In_the_Matrix — has collected and published every submission and comment posted to Reddit from November 8th through November 10th. For each of the nearly 8 million comments, the dataset includes the message, the author, the subreddit it was posted to, the comment thread’s ID, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/user/Stuck_In_the_Matrix"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/datasets/comments/5ch2bq/reddit_raw_election_data_comments_and_submissions/"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-11-25-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-11-16",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-11-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "reddit.com",
+  "host": "reddit.com"
+ }
+}

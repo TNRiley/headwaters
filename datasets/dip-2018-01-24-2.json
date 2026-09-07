@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-01-24-2",
+ "title": "Financial well-being",
+ "hook": "The Consumer Financial Protection Bureau’s National Financial Well-Being Survey collected more than 6,000 responses to the agency’s 10-question Financial Well-Being Scale, plus additional demographic and financial information.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "consumerfinance.gov",
+   "url": "https://www.consumerfinance.gov/data-research/financial-well-being-survey-data/"
+  },
+  {
+   "name": "consumerfinance.gov",
+   "url": "https://www.consumerfinance.gov/consumer-tools/financial-well-being/"
+  },
+  {
+   "name": "s3.amazonaws.com",
+   "url": "https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/cfpb_nfwbs-puf-user-guide.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-24",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "consumerfinance.gov",
+  "host": "consumerfinance.gov"
+ }
+}

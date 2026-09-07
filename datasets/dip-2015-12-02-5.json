@@ -1,0 +1,31 @@
+{
+ "id": "dip-2015-12-02-5",
+ "title": "Celebrity faces, annotated",
+ "hook": "The CelebA dataset, published in September, contains 200,000+ images of 10,000+ celebrities, each annotated with 40 yes/no variables. Some favorites: “5_o_Clock_Shadow,” “Bags_Under_Eyes,” and “Goatee.”",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "mmlab.ie.cuhk.edu.hk",
+   "url": "http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-02",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mmlab.ie.cuhk.edu.hk",
+  "host": "mmlab.ie.cuhk.edu.hk"
+ }
+}

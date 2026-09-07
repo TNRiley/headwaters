@@ -1,0 +1,49 @@
+{
+ "id": "dip-2016-03-09-2",
+ "title": "Legislative linguistics",
+ "hook": "The Sunlight Foundation’s Capitol Words project lets you explore the frequency of words and phrases in the Congressional Record since 1996. For example: \"weapons of mass destruction\", “war” vs. “peace”, or “Obamacare”. The underlying data is available via an API.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "capitolwords.org",
+   "url": "http://capitolwords.org/"
+  },
+  {
+   "name": "capitolwords.org",
+   "url": "http://capitolwords.org/term/weapons_of_mass_destruction/"
+  },
+  {
+   "name": "capitolwords.org",
+   "url": "http://capitolwords.org/?terma=war&termb=peace"
+  },
+  {
+   "name": "capitolwords.org",
+   "url": "http://capitolwords.org/term/Obamacare/"
+  },
+  {
+   "name": "capitolwords.org",
+   "url": "http://capitolwords.org/api/1/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-09",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "capitolwords.org",
+  "host": "capitolwords.org"
+ }
+}

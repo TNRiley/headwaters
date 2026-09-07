@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-08-03-3",
+ "title": "Electricity prices",
+ "hook": "In May 2016, U.S. residential consumers paid an average of roughly 12.8 cents per kilowatt hour of electricity. The price was lowest in Louisiana (9.28 cents) and Washington state (9.54 cents), and highest in Hawaii (26.87 cents) and Connecticut (21.63 cents).",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eia.gov",
+   "url": "http://www.eia.gov/electricity/monthly/epm_table_grapher.cfm?t=epmt_5_06_a"
+  },
+  {
+   "name": "eia.gov",
+   "url": "http://www.eia.gov/electricity/monthly/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-03",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "U.S. Gasoline and Diesel Retail Prices",
+  "host": "eia.gov"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "dip-2022-01-19-3",
+ "title": "Commuting zones",
+ "hook": "Decades ago, the USDA Economic Research Service developed a methodology to group the nation’s counties into hundreds of “commuting zones,” based on the Census’s journey to work data. Those groupings are available from the agency (for 1980, 1990, and 2000), and from researchers at Penn State (for those years plus 2010).",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ers.usda.gov",
+   "url": "https://www.ers.usda.gov/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Commuting_zone"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/topics/employment/commuting.html"
+  },
+  {
+   "name": "ers.usda.gov",
+   "url": "https://www.ers.usda.gov/data-products/commuting-zones-and-labor-market-areas/"
+  },
+  {
+   "name": "sites.psu.edu",
+   "url": "https://sites.psu.edu/psucz/"
+  },
+  {
+   "name": "dataforgood.facebook.com",
+   "url": "https://dataforgood.facebook.com/dfg/tools/commuting-zones"
+  },
+  {
+   "name": "dataforgood.facebook.com",
+   "url": "https://dataforgood.facebook.com/dfg/docs/methodology-commuting-zones"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/commuting-zones"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-19",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "USDA",
+  "host": "ers.usda.gov"
+ }
+}

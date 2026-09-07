@@ -1,0 +1,37 @@
+{
+ "id": "dip-2022-11-09-2",
+ "title": "Mine safety",
+ "hook": "The Department of Labor’s Mine Safety and Health Administration “develops and enforces safety and health rules for all U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "msha.gov",
+   "url": "https://www.msha.gov/"
+  },
+  {
+   "name": "msha.gov",
+   "url": "https://www.msha.gov/mine-data-retrieval-system"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-09",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "msha.gov",
+  "host": "msha.gov"
+ }
+}

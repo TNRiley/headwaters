@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-07-07-3",
+ "title": "Rural hospital closures",
+ "hook": "The North Carolina Rural Health Research Program maintains a list of rural hospital closures in the US since 2005.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "shepscenter.unc.edu",
+   "url": "https://www.shepscenter.unc.edu/programs-projects/rural-health/"
+  },
+  {
+   "name": "shepscenter.unc.edu",
+   "url": "https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/"
+  },
+  {
+   "name": "ers.usda.gov",
+   "url": "https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes.aspx"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-07-07",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-07-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "shepscenter.unc.edu",
+  "host": "shepscenter.unc.edu"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-07-27-4",
+ "title": "Startup factories",
+ "hook": "Venture studios are firms that build and launch startups. Jim Moran’s Venture Studio Index tracks 260+ of them, plus 1,200+ of the startups they’ve launched.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "venturestudioindex.com",
+   "url": "https://www.venturestudioindex.com/p/the-venture-studio-index"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1DgDu8rJaVCvbzDW49u74vEIPdRH8ElJUVoiqt1O6LVc/edit#gid=499262177"
+  },
+  {
+   "name": "venturestudioindex.com",
+   "url": "https://www.venturestudioindex.com/p/data-methodology-and-limitations"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-27",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "venturestudioindex.com",
+  "host": "venturestudioindex.com"
+ }
+}

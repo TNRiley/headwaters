@@ -1,0 +1,37 @@
+{
+ "id": "dip-2022-04-06-4",
+ "title": "Military alliances",
+ "hook": "The Alliance Treaty Obligations and Provisions project, based at Rice University, examines “the content of military alliance agreements signed by all countries of the world between 1815 and 2018.” Its dataset covers 760+ alliances, their various phases, and membership, with variables speaking to the formation, duration, obligations, and other aspects of the arrangements.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "atopdata.org",
+   "url": "http://www.atopdata.org/"
+  },
+  {
+   "name": "atopdata.org",
+   "url": "http://www.atopdata.org/data.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-06",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "atopdata.org",
+  "host": "atopdata.org"
+ }
+}

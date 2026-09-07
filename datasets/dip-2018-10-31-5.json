@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-10-31-5",
+ "title": "Probably-fake political committees",
+ "hook": "When the Federal Election Commission receives a registration form that contains “questionable information” from a candidate or committee, the agency asks for additional information. If the FEC doesn’t get a proper response, it adds the registration to its dataset of “unverified filers”.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fec.gov",
+   "url": "https://www.fec.gov/data/advanced/?tab=filings"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-10-31",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-10-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fec.gov",
+  "host": "fec.gov"
+ }
+}

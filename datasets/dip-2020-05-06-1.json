@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-05-06-1",
+ "title": "Coronavirus and race",
+ "hook": "Last week, the COVID Tracking Project (DIP 2020.03.18) launched a beta release of its COVID Racial Data Tracker, built in collaboration with American University’s Antiracist Research & Policy Center.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-03-18-edition"
+  },
+  {
+   "name": "covidtracking.com",
+   "url": "https://covidtracking.com/race"
+  },
+  {
+   "name": "antiracismcenter.com",
+   "url": "https://antiracismcenter.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-06",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tinyletter.com",
+  "host": "tinyletter.com"
+ }
+}

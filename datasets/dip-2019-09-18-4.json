@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-09-18-4",
+ "title": "Interconnecting roads",
+ "hook": "Urban planning professor Geoff Boeing’s US street network data represents America’s roads as a network graph, where each intersection (and dead-end) is a node, and each street segment is an edge between two of those nodes.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "geoffboeing.com",
+   "url": "https://geoffboeing.com/"
+  },
+  {
+   "name": "geoffboeing.com",
+   "url": "https://geoffboeing.com/2019/03/us-street-network-models-measures/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CUWWYJ"
+  },
+  {
+   "name": "geoffboeing.com",
+   "url": "https://geoffboeing.com/2019/09/urban-street-network-orientation/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-18",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "geoffboeing.com",
+  "host": "geoffboeing.com"
+ }
+}

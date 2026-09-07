@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-02-21-4",
+ "title": "Seven years of GitHub activity",
+ "hook": "The GitHub Archive is an effort to record the popular code-sharing website’s public timeline, “archive it, and make it easily accessible for further analysis.” The dataset, which includes more than 20 types of events and often contains more than 1 million events per day, goes back to February 2011.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "githubarchive.org",
+   "url": "https://www.githubarchive.org/"
+  },
+  {
+   "name": "developer.github.com",
+   "url": "http://developer.github.com/v3/activity/events/types/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/gitential/datasets"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-21",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "githubarchive.org",
+  "host": "githubarchive.org"
+ }
+}

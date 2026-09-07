@@ -1,0 +1,33 @@
+{
+ "id": "dip-2015-12-09-5",
+ "title": "Know thy barber",
+ "hook": "The Texas Department of Licensing and Regulation maintains a webpage of well-formatted data on state-licensed workers, including tow truck operators, boxing judges, journeyman electricians, elevator inspectors, manicurists, and, yes, barbers. [h/t Ryan Murphy]",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "other",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "license.state.tx.us",
+   "url": "http://www.license.state.tx.us/licensesearch/licfile.asp"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-09",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "license.state.tx.us",
+  "host": "license.state.tx.us"
+ }
+}

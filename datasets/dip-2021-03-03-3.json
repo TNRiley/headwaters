@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-03-03-3",
+ "title": "California vaccine availability",
+ "hook": "The volunteer-driven VaccinateCA project calls “hundreds of potential [COVID-19] vaccination sites daily, asking them if they have the vaccine and if so to whom they will administer it to and how to get an appointment.” You can examine the results on their website, and also use their API to access the latest data, which includes status reports on every California county, 20+ health care providers, and thousands of potential vaccination sites.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "vaccinateca.com",
+   "url": "https://www.vaccinateca.com/"
+  },
+  {
+   "name": "vaccinateca.com",
+   "url": "https://docs.vaccinateca.com/reference"
+  },
+  {
+   "name": "blog.vaccinateca.com",
+   "url": "https://blog.vaccinateca.com/what-weve-learned-so-far/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-03",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "vaccinateca.com",
+  "host": "vaccinateca.com"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "dip-2023-05-31-1",
+ "title": "Correctional control",
+ "hook": "The Prison Policy Initiative’s Punishment Beyond Prisons report cross-references data from the Bureau of Justice Statistics and several other sources to count or estimate the number of people under eight forms of “correctional control” in each state and DC: federal prisons, state prisons, local jails, Indian Country jails, youth confinement, involuntary commitment, parole, and probation — approximately 5.5 million people in total.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "prisonpolicy.org",
+   "url": "https://www.prisonpolicy.org/"
+  },
+  {
+   "name": "prisonpolicy.org",
+   "url": "https://www.prisonpolicy.org/reports/correctionalcontrol2023.html"
+  },
+  {
+   "name": "bjs.ojp.gov",
+   "url": "https://bjs.ojp.gov/"
+  },
+  {
+   "name": "prisonpolicy.org",
+   "url": "https://www.prisonpolicy.org/reports/correctionalcontrol2023_data_appendix.html"
+  },
+  {
+   "name": "ojjdp.ojp.gov",
+   "url": "https://ojjdp.ojp.gov/research-and-statistics/research-projects/Census-of-Juveniles-in-Residential-Placement/overview"
+  },
+  {
+   "name": "ojjdp.gov",
+   "url": "https://www.ojjdp.gov/ojstatbb/ezacjrp/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-31",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "prisonpolicy.org",
+  "host": "prisonpolicy.org"
+ }
+}

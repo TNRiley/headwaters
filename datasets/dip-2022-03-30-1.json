@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-03-30-1",
+ "title": "WHO outbreak alerts",
+ "hook": "The World Health Organization’s Disease Outbreak News provides “information on confirmed acute public health events or potential events of concern,” with reports issued when those events meet certain criteria. Colin J. Carlson et al.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "who.int",
+   "url": "https://www.who.int/emergencies/disease-outbreak-news"
+  },
+  {
+   "name": "medrxiv.org",
+   "url": "https://www.medrxiv.org/content/10.1101/2022.03.22.22272790v1"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cghss/dons"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-30",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "who.int",
+  "host": "who.int"
+ }
+}

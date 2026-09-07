@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-08-01-4",
+ "title": "Development projects and outcomes",
+ "hook": "Earlier this year, Johns Hopkins professor Dan Honig released the Project Performance Database, which tracks the outcome ratings of international development projects (typically conducted by auditors on a four- or six-point scale).",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "danhonig.info",
+   "url": "http://danhonig.info/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataverse/PPD"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-01",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "danhonig.info",
+  "host": "danhonig.info"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-03-09-4",
+ "title": "Prison COVID policies",
+ "hook": "Between April 2020 and April 2021, researchers at the UCLA Law COVID Behind Bars Data Project gathered 3,500+ policy announcements from federal and state prison agencies in the US. Their Prison Policy Index spreadsheet, published earlier this year, describes the announcements they gathered through April 2021.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "uclacovidbehindbars.org",
+   "url": "https://uclacovidbehindbars.org/"
+  },
+  {
+   "name": "uclacovidbehindbars.org",
+   "url": "https://uclacovidbehindbars.org/policy-index"
+  },
+  {
+   "name": "uclacovidbehindbars.org",
+   "url": "https://uclacovidbehindbars.org/prison-policy-index"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-09",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "uclacovidbehindbars.org",
+  "host": "uclacovidbehindbars.org"
+ }
+}

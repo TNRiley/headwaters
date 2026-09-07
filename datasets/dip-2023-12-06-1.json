@@ -1,0 +1,73 @@
+{
+ "id": "dip-2023-12-06-1",
+ "title": "Nuclear weapon systems",
+ "hook": "The Council on Strategic Risks’s Nuclear Weapon Systems Project aims “to document every type of nuclear weapon system ever deployed” by China, France, Russia, the UK, and the US — the five “nuclear weapon states” per the Nuclear Non-Proliferation Treaty.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "councilonstrategicrisks.org",
+   "url": "https://councilonstrategicrisks.org/about/mission-and-vision/"
+  },
+  {
+   "name": "councilonstrategicrisks.org",
+   "url": "https://councilonstrategicrisks.org/nolan/nuclear-systems-project/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Treaty_on_the_Non-Proliferation_of_Nuclear_Weapons"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1oaRJKHwF9p48tPGHBJw5tB13YgsllLm4MAHOpT6tSpg/edit#gid=804863401"
+  },
+  {
+   "name": "councilonstrategicrisks.org",
+   "url": "https://councilonstrategicrisks.org/2023/11/29/introducing-the-nuclear-weapon-systems-project/"
+  },
+  {
+   "name": "fas.org",
+   "url": "https://fas.org/initiative/status-world-nuclear-forces/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-11-02-edition/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/data-is-plural/nuclear-explosions"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-03-23-edition/"
+  },
+  {
+   "name": "matthewfuhrmann.com",
+   "url": "http://www.matthewfuhrmann.com/datasets.html"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-02-24-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-12-06",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-12-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "councilonstrategicrisks.org",
+  "host": "councilonstrategicrisks.org"
+ }
+}

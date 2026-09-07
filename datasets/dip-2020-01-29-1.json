@@ -1,0 +1,73 @@
+{
+ "id": "dip-2020-01-29-1",
+ "title": "How we spend our time",
+ "hook": "Ever year since 2003, the American Time Use Survey, has been measuring how much time we spend sleeping, eating, and working; with friends, with family, and alone; and much more. Unlike many other time use surveys, the ATUS’s respondent-level datasets are freely available to the general public.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/tus/home.htm"
+  },
+  {
+   "name": "timeuse.org",
+   "url": "https://www.timeuse.org/information/access-data"
+  },
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/tus/data.htm"
+  },
+  {
+   "name": "dataverse.unc.edu",
+   "url": "https://dataverse.unc.edu/dataverse/rlms-hse"
+  },
+  {
+   "name": "mcc.gov",
+   "url": "https://data.mcc.gov/evaluations/index.php/catalog/205/study-description"
+  },
+  {
+   "name": "ipums.org",
+   "url": "https://ipums.org"
+  },
+  {
+   "name": "atusdata.org",
+   "url": "https://www.atusdata.org/atus/"
+  },
+  {
+   "name": "ahtusdata.org",
+   "url": "https://www.ahtusdata.org/ahtus/"
+  },
+  {
+   "name": "mtusdata.org",
+   "url": "https://www.mtusdata.org/mtus/"
+  },
+  {
+   "name": "flowingdata.com",
+   "url": "https://flowingdata.com/2019/07/16/how-the-american-work-day-changed-in-15-years/"
+  },
+  {
+   "name": "flowingdata.com",
+   "url": "https://flowingdata.com/2019/03/06/women-men-timeuse/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-29",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BLS",
+  "host": "bls.gov"
+ }
+}

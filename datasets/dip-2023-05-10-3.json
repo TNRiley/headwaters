@@ -1,0 +1,58 @@
+{
+ "id": "dip-2023-05-10-3",
+ "title": "Blocked rail crossings",
+ "hook": "“As rail profits soar, blocked crossings force kids to crawl under trains to get to school,” a recent investigation by ProPublica and InvestigateTV has found. In addition to on-the-ground reporting, photos, and video, the article cites the Federal Railroad Administration’s database of blocked crossing complaints.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "investigatetv.com",
+   "url": "https://www.investigatetv.com/"
+  },
+  {
+   "name": "fra.dot.gov",
+   "url": "https://www.fra.dot.gov/blockedcrossings/incidents"
+  },
+  {
+   "name": "fra.dot.gov",
+   "url": "https://www.fra.dot.gov/blockedcrossings/"
+  },
+  {
+   "name": "railroads.dot.gov",
+   "url": "https://railroads.dot.gov/safety-data/crossing-and-inventory-data/crossing-inventory-lookup"
+  },
+  {
+   "name": "railroads.dot.gov",
+   "url": "https://railroads.dot.gov/crossing-and-inventory-data/grade-crossing-inventory/highwayrail-crossing-database-files"
+  }
+ ],
+ "articles": [
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/trains-crossing-blocked-kids-norfolk-southern"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-10",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "investigatetv.com",
+  "host": "investigatetv.com"
+ }
+}

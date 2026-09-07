@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-04-13-4",
+ "title": "He said, she said (less)",
+ "hook": "Over the weekend, Hannah Anderson and Matt Daniels published an interactive analysis of male and female speaking roles in 2,000 movie scripts. Among their findings: 308 scripts gave 90%+ of the film’s dialogue to men, while just 8 scripts did so for women.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "polygraph.cool",
+   "url": "http://polygraph.cool/films/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/matthewfdaniels/scripts/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-13",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "polygraph.cool",
+  "host": "polygraph.cool"
+ }
+}

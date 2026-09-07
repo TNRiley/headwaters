@@ -1,0 +1,58 @@
+{
+ "id": "dip-2019-03-27-5",
+ "title": "Uber for X",
+ "hook": "From Alexis C. Madrigal, writing at The Atlantic: “Now, a decade since Uber blazed the trail, and half that since the craze faded, we built a spreadsheet of 105 Uber-for-X companies founded in the United States, representing $7.4 billion in venture-capital investment.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1qPcpQ9rk08JhEApPSr2jSfJtSWa8RH0ANPibtWuRnh0/edit?usp=sharing"
+  },
+  {
+   "name": "jungleworks.com",
+   "url": "https://jungleworks.com/11-uber-for-x-startups-that-failed-are-you-making-the-same-mistakes/"
+  },
+  {
+   "name": "quora.com",
+   "url": "https://www.quora.com/Uber-for-X-What-startups-are-working-on-Uber-for-X"
+  },
+  {
+   "name": "producthunt.com",
+   "url": "https://www.producthunt.com/e/uber-for-x"
+  },
+  {
+   "name": "news.crunchbase.com",
+   "url": "https://news.crunchbase.com/news/upcounsel-raises-12m-series-b-connect-lawyers-businesses/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theatlantic.com",
+   "url": "https://www.theatlantic.com/technology/archive/2019/03/what-happened-uber-x-companies/584236/"
+  },
+  {
+   "name": "wired.com",
+   "url": "https://www.wired.com/2015/10/why-homejoy-failed/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-27",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "google.com",
+  "host": "google.com"
+ }
+}

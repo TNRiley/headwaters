@@ -1,0 +1,39 @@
+{
+ "id": "dip-2024-04-10-4",
+ "title": "Colonial empire timelines",
+ "hook": "The Colonial Dates Dataset, compiled by political scientist Bastian Becker, “aggregates information on the reach and duration of European colonial empires from renowned secondary sources.” Producing the dataset from its four main sources “is largely automated, relying on predefined coding rules.” The dataset indicates…",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/T9SDEW"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/preprints/osf/apvqm"
+  },
+  {
+   "name": "beckerbastian.net",
+   "url": "https://www.beckerbastian.net/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-10",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataverse.harvard.edu",
+  "host": "dataverse.harvard.edu"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-03-15-1",
+ "title": "Who’s visited the U.S. on visas, and how",
+ "hook": "Donald Trump’s new travel ban is scheduled to take effect at 12:01am Eastern tonight. The State Department doesn’t publish realtime visa data, but it does publish historical data, including the number of non-immigrant visas issued each fiscal year between 1997 and 2016, by nationality and visa type.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "travel.state.gov",
+   "url": "https://travel.state.gov/content/visas/en/law-and-policy/statistics/non-immigrant-visas.html"
+  },
+  {
+   "name": "web.archive.org",
+   "url": "http://web.archive.org/web/20171201161048/https://travel.state.gov/content/visas/en/law-and-policy/statistics/non-immigrant-visas.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-15",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "travel.state.gov",
+  "host": "travel.state.gov"
+ }
+}

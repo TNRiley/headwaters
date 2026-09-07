@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-10-12-4",
+ "title": "File formats",
+ "hook": "The US National Archives’ Digital Preservation Framework describes the agency’s risk assessments and recommended preservation plans for 600+ file formats.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "archives.gov",
+   "url": "https://www.archives.gov/preservation/digital-preservation/risk"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/usnationalarchives/digital-preservation/tree/master/Digital_Preservation_Risk_Matrix"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/usnationalarchives/digital-preservation/tree/master/Digital_Preservation_Plan_Spreadsheet"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/usnationalarchives/digital-preservation"
+  },
+  {
+   "name": "archives.gov",
+   "url": "https://www.archives.gov/preservation/digital-preservation/linked-data"
+  },
+  {
+   "name": "archives.gov",
+   "url": "https://www.archives.gov/preservation/digital-preservation/linked-data/browse"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-12",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "archives.gov",
+  "host": "archives.gov"
+ }
+}

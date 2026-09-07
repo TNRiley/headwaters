@@ -1,0 +1,41 @@
+{
+ "id": "dip-2024-02-21-1",
+ "title": "Self-driving stats",
+ "hook": "Companies wanting to test or deploy self-driving cars on California’s public roads must receive a permit from the state DMV’s Autonomous Vehicles Program.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "dmv.ca.gov",
+   "url": "https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/"
+  },
+  {
+   "name": "dmv.ca.gov",
+   "url": "https://www.dmv.ca.gov/portal/vehicle-industry-services/autonomous-vehicles/disengagement-reports/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Vehicle_identification_number"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-21",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dmv.ca.gov",
+  "host": "dmv.ca.gov"
+ }
+}

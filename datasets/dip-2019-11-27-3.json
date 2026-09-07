@@ -1,0 +1,42 @@
+{
+ "id": "dip-2019-11-27-3",
+ "title": "Seized Greek real estate",
+ "hook": "For an article in AthensLive, Sotiris Sideris collected data on properties up for bidding through eauction.gr, Greece’s official website for auctioning real estate seized from over-indebted borrowers. The dataset includes 45,918 lots listed between mid-November 2017 (when the website launched) and September 1, 2019.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "medium.com",
+   "url": "https://medium.com/athenslivegr/whose-home-is-this-f3b45d878b0b"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/2109Sot/eauction_data"
+  },
+  {
+   "name": "eauction.gr",
+   "url": "https://www.eauction.gr/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-11-27",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-11-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "medium.com",
+  "host": "medium.com"
+ }
+}

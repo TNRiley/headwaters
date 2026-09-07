@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-07-26-1",
+ "title": "Interned Japanese Americans",
+ "hook": "The Densho Digital Repository is an archive of oral histories, photographs, newspaper clippings, and other primary sources relating to the internment of Japanese Americans during World War II. Among the materials: several datasets listing people sent to the internment camps, based on official government records.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "ddr.densho.org",
+   "url": "https://ddr.densho.org/"
+  },
+  {
+   "name": "ddr.densho.org",
+   "url": "https://ddr.densho.org/names/"
+  },
+  {
+   "name": "catalog.archives.gov",
+   "url": "https://catalog.archives.gov/id/1264228"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-07-26",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-07-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ddr.densho.org",
+  "host": "ddr.densho.org"
+ }
+}

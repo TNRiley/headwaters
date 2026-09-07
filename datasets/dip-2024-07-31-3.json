@@ -1,0 +1,73 @@
+{
+ "id": "dip-2024-07-31-3",
+ "title": "Scholarship, networked",
+ "hook": "OpenAlex, “a free and open catalog of the global research system,” has compiled data on more than 250 million scholarly works — and has linked those works to structured information about their authors, institutions, publishers, funders, topics. The data are available to search online, to download in bulk, and via API.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "openalex.org",
+   "url": "https://openalex.org/"
+  },
+  {
+   "name": "openalex.org",
+   "url": "https://docs.openalex.org/api-entities/authors"
+  },
+  {
+   "name": "openalex.org",
+   "url": "https://docs.openalex.org/api-entities/institutions"
+  },
+  {
+   "name": "openalex.org",
+   "url": "https://docs.openalex.org/api-entities/publishers"
+  },
+  {
+   "name": "openalex.org",
+   "url": "https://docs.openalex.org/api-entities/funders"
+  },
+  {
+   "name": "openalex.org",
+   "url": "https://docs.openalex.org/api-entities/topics"
+  },
+  {
+   "name": "openalex.org",
+   "url": "https://docs.openalex.org/download-all-data/openalex-snapshot"
+  },
+  {
+   "name": "openalex.org",
+   "url": "https://docs.openalex.org/how-to-use-the-api/api-overview"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-024-03655-9"
+  },
+  {
+   "name": "direct.mit.edu",
+   "url": "https://direct.mit.edu/qss/article/4/2/314/115151/An-open-data-set-of-scholars-on-Twitter"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/records/10905839"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-31",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openalex.org",
+  "host": "openalex.org"
+ }
+}

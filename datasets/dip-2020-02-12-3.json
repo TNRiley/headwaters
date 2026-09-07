@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-02-12-3",
+ "title": "Tropical cyclone simulations",
+ "hook": "A team of scientists have used historical hurricane and typhoon data to simulate a 10,000 plausible years of cyclone activity. The dataset covers the world’s most active “basins” — the areas where cyclones form — and includes each simulated storm’s path, maximum wind speed, average pressure, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-020-0381-2"
+  },
+  {
+   "name": "4tu.nl",
+   "url": "https://data.4tu.nl/repository/uuid:82c1dc0d-5485-43d8-901a-ce7f26cda35d"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-12",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-07-18-1",
+ "title": "SCOTUS extracurriculars",
+ "hook": "Since July 2014, ScotusMap.com has been tracking the U.S. Supreme Court justices’ public events — “whether the Supreme Court is in session or on summer recess, the justices keep busy with writers’ conferences, state bar luncheons, award ceremonies, and more.” The map’s database now contains more than 700 entries, and even includes events attended by the retired justices.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "scotusmap.com",
+   "url": "http://www.scotusmap.com/posts/1"
+  },
+  {
+   "name": "scotusmap.com",
+   "url": "http://www.scotusmap.com/"
+  },
+  {
+   "name": "scotuswat.ch",
+   "url": "http://www.scotuswat.ch/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-07-18",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-07-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "scotusmap.com",
+  "host": "scotusmap.com"
+ }
+}

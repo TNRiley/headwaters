@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-05-22-5",
+ "title": "From Abdul-Aziz to Young-Malcolm",
+ "hook": "The Pudding’s Jan Diehm has identified and analyzed decades of hyphenated last names in seven North American sports leagues: the MLB, NBA, NFL, NHL, MLS, WNBA, and NWSL. The code and data are available to download.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "pudding.cool",
+   "url": "https://pudding.cool/2019/05/hyphens/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-pudding/hyphenated-names"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-22",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pudding.cool",
+  "host": "pudding.cool"
+ }
+}

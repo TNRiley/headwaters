@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-10-18-2",
+ "title": "Subnational conflicts",
+ "hook": "University of Michigan–based researchers have created “a repository of micro-level, subnational event data on armed conflict and political violence around the world.” The project, dubbed xSub, standardizes information from 21 data sources, and includes conflicts in 139 countries between 1942 and 2016.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "cross-sub.org",
+   "url": "http://cross-sub.org/about/our-team"
+  },
+  {
+   "name": "cross-sub.org",
+   "url": "http://cross-sub.org/"
+  },
+  {
+   "name": "cross-sub.org",
+   "url": "http://www.cross-sub.org/data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-10-18",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-10-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cross-sub.org",
+  "host": "cross-sub.org"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-09-25-3",
+ "title": "Tree canopies",
+ "hook": "The High Resolution Canopy Height Maps dataset, released in April by Meta and the World Resources Institute, estimates “tree canopy height at a 1-meter resolution, allowing the detection of single trees at a global scale.” It is available to explore online and download, and was constructed by applying machine learning techniques to satellite imagery and LiDAR data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/facebookresearch/HighResCanopyHeight"
+  },
+  {
+   "name": "sustainability.atmeta.com",
+   "url": "https://sustainability.atmeta.com/blog/2024/04/22/using-artificial-intelligence-to-map-the-earths-forests/"
+  },
+  {
+   "name": "wri.org",
+   "url": "https://www.wri.org/about"
+  },
+  {
+   "name": "meta-forest-monitoring-okw37.projects.earthengine.app",
+   "url": "https://meta-forest-monitoring-okw37.projects.earthengine.app/view/canopyheight"
+  },
+  {
+   "name": "registry.opendata.aws",
+   "url": "https://registry.opendata.aws/dataforgood-fb-forests/"
+  },
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S003442572300439X"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Lidar"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-25",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

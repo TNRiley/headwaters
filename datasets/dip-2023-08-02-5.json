@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-08-02-5",
+ "title": "Forageable fruit",
+ "hook": "The Falling Fruit project “is a celebration of the overlooked culinary bounty of our city streets.” It provides a map — “not the first of its kind, but [aspiring] to be the world’s most comprehensive” — and downloadable dataset of 1.5 million locations of edible plants in public, although not strictly fruit.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "fallingfruit.org",
+   "url": "https://fallingfruit.org/"
+  },
+  {
+   "name": "fallingfruit.org",
+   "url": "https://fallingfruit.org/about"
+  },
+  {
+   "name": "fallingfruit.org",
+   "url": "https://fallingfruit.org/data"
+  },
+  {
+   "name": "fallingfruit.org",
+   "url": "https://fallingfruit.org/changes"
+  },
+  {
+   "name": "fallingfruit.org",
+   "url": "https://fallingfruit.org/datasets"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-08-02",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-08-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fallingfruit.org",
+  "host": "fallingfruit.org"
+ }
+}

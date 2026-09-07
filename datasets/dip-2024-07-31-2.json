@@ -1,0 +1,37 @@
+{
+ "id": "dip-2024-07-31-2",
+ "title": "Hurricane evacuation orders",
+ "hook": "Harsh Anand et al.’s Hurricane Evacuation Order Database “is a comprehensive and standardized database of evacuation orders issued by state and local government officials in response to the hurricanes that impacted the United States between 2014 and 2023.” To build it, the authors combed through government websites, official social media, news reports, and other sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-024-03100-x"
+  },
+  {
+   "name": "hurrevacorder.info",
+   "url": "https://www.hurrevacorder.info/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-31",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

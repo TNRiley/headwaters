@@ -1,0 +1,31 @@
+{
+ "id": "dip-2016-07-20-1",
+ "title": "Coups d'état",
+ "hook": "Two political science professors at the University of Kentucky are compiling a dataset of coup attempts. So far, the dataset covers both successful and unsuccessful attempts from 1950 to late 2015. During those 65+ years, coup plotters have been foiled about half the time, with 236 victories and 238 failures.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "jonathanmpowell.com",
+   "url": "http://www.jonathanmpowell.com/coup-detat-dataset.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-20",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "jonathanmpowell.com",
+  "host": "jonathanmpowell.com"
+ }
+}

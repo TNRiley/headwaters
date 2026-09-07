@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-03-11-3",
+ "title": "Flights in and out of SFO",
+ "hook": "San Francisco International Airport’s museum team has been collecting information on all flights in and out of SFO’s terminals. Online, you can browse and search the data, which includes details about the airlines, flight numbers, gates of arrival and departure, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "reference works",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "millsfield.sfomuseum.org",
+   "url": "https://millsfield.sfomuseum.org/about/"
+  },
+  {
+   "name": "millsfield.sfomuseum.org",
+   "url": "https://millsfield.sfomuseum.org/blog/2019/05/17/flights/"
+  },
+  {
+   "name": "millsfield.sfomuseum.org",
+   "url": "https://millsfield.sfomuseum.org/flights/"
+  },
+  {
+   "name": "millsfield.sfomuseum.org",
+   "url": "https://millsfield.sfomuseum.org/blog/2020/01/24/flightdata/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Codeshare_agreement"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-11",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "millsfield.sfomuseum.org",
+  "host": "millsfield.sfomuseum.org"
+ }
+}

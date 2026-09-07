@@ -1,0 +1,50 @@
+{
+ "id": "dip-2021-08-25-1",
+ "title": "Legislator stock trades",
+ "hook": "US Congress members and candidates must report all stock purchases and sales exceeding $1,000, as well as those of their spouses and dependent children. Those records are technically available through the House’s and Senate’s financial disclosure portals, but neither provides bulk data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "disclosures-clerk.house.gov",
+   "url": "https://disclosures-clerk.house.gov/PublicDisclosure/FinancialDisclosure"
+  },
+  {
+   "name": "efdsearch.senate.gov",
+   "url": "https://efdsearch.senate.gov/"
+  },
+  {
+   "name": "senatestockwatcher.com",
+   "url": "https://senatestockwatcher.com/"
+  },
+  {
+   "name": "housestockwatcher.com",
+   "url": "https://housestockwatcher.com/"
+  },
+  {
+   "name": "contributor.housestockwatcher.com",
+   "url": "https://contributor.housestockwatcher.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-25",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "disclosures-clerk.house.gov",
+  "host": "disclosures-clerk.house.gov"
+ }
+}

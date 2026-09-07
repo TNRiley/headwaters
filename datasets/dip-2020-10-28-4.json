@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-10-28-4",
+ "title": "E-bike and e-scooter laws",
+ "hook": "A dataset of state regulations pertaining to standard bicycles, electric bicycles, and electric scooters accompanies a recent paper in the Journal of Law and Mobility.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/W9NGI2"
+  },
+  {
+   "name": "repository.law.umich.edu",
+   "url": "https://repository.law.umich.edu/jlm/vol2020/iss1/2/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-10-28",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-10-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataverse.harvard.edu",
+  "host": "dataverse.harvard.edu"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-10-16-3",
+ "title": "Mobile broadband prices",
+ "hook": "Since 2017, the Alliance for Affordable Internet has been collecting country-level prices for mobile data. The most recent data covers 99 low- and middle-income countries for the second quarter of 2019.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "a4ai.org",
+   "url": "https://a4ai.org/who-we-are/"
+  },
+  {
+   "name": "a4ai.org",
+   "url": "https://a4ai.org/mobile-broadband-pricing-data-historical/"
+  },
+  {
+   "name": "a4ai.org",
+   "url": "https://a4ai.org/extra/mobile_broadband_pricing_usd-2019Q2"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-16",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "a4ai.org",
+  "host": "a4ai.org"
+ }
+}

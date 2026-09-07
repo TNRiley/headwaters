@@ -1,0 +1,44 @@
+{
+ "id": "dip-2017-09-27-2",
+ "title": "Chyrons",
+ "hook": "The TV News Archive’s new “Third Eye” project is extracting chyrons — those placards of text at the bottom of news broadcasts, also known as “lower thirds” — from four major cable networks: BBC News, CNN, Fox News, and MSNBC.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "blog.archive.org",
+   "url": "http://blog.archive.org/2017/09/21/tv-news-chyron-data/"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/services/third-eye.php"
+  },
+  {
+   "name": "source.opennews.org",
+   "url": "https://source.opennews.org/articles/how-we-tracked-cable-news-chyrons/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/graphics/2017/politics/comey-hearing-chyrons/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-09-27",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-09-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "blog.archive.org",
+  "host": "blog.archive.org"
+ }
+}

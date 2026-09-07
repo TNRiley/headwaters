@@ -1,0 +1,58 @@
+{
+ "id": "dip-2024-06-26-3",
+ "title": "Federal rural investment",
+ "hook": "The Department of Agriculture’s Rural Development agency runs dozens of financial assistance programs to support housing, business, community facilities, telecommunications, and other developments in less populated areas of the United States.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "rd.usda.gov",
+   "url": "https://www.rd.usda.gov/"
+  },
+  {
+   "name": "rd.usda.gov",
+   "url": "https://www.rd.usda.gov/programs-services"
+  },
+  {
+   "name": "rd.usda.gov",
+   "url": "https://www.rd.usda.gov/rural-data-gateway"
+  },
+  {
+   "name": "rd.usda.gov",
+   "url": "https://www.rd.usda.gov/newsroom/news-release/usda-launches-rural-data-gateway-strengthen-partnerships-and-expand-access-resources-people-rural-1"
+  },
+  {
+   "name": "rd.usda.gov",
+   "url": "https://www.rd.usda.gov/rural-data-gateway/rural-investments"
+  },
+  {
+   "name": "rd.usda.gov",
+   "url": "https://www.rd.usda.gov/rural-data-gateway/rural-investments/data"
+  },
+  {
+   "name": "rd.usda.gov",
+   "url": "https://www.rd.usda.gov/media/file/download/opendatadashboard-dictionarypdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-06-26",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-06-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rd.usda.gov",
+  "host": "rd.usda.gov"
+ }
+}

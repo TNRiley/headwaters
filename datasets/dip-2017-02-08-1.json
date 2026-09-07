@@ -1,0 +1,46 @@
+{
+ "id": "dip-2017-02-08-1",
+ "title": "Metro/subway ridership",
+ "hook": "Two weeks ago, Bloomberg News reporters requested entrance and exit data from Washington, DC’s Metrorail system for three days: Jan. 20, 2009 (Obama's first inauguration), Jan. 20, 2017 (Trump's inauguration), and Jan. 21, 2017 (the Women's March).",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/bizweekgraphics/wmata-ridership-data"
+  },
+  {
+   "name": "web.mta.info",
+   "url": "http://web.mta.info/developers/turnstile.html"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Daily-Totals/5neh-572f"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "http://www.nytimes.com/2017/02/01/nyregion/second-avenue-subway-relieves-crowding-on-neighboring-lines.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-02-08",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-02-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

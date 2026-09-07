@@ -1,0 +1,73 @@
+{
+ "id": "dip-2022-06-15-2",
+ "title": "Incarceration and redistricting",
+ "hook": "The US Census counts prisoners as residing where they are incarcerated. In 2010, however, New York passed a law requiring the state to adjust these figures for redistricting purposes, reassigning people in state and federal prisons to their pre-incarceration addresses.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "prisonersofthecensus.org",
+   "url": "https://www.prisonersofthecensus.org/NYS_A9710-D.html"
+  },
+  {
+   "name": "latfor.state.ny.us",
+   "url": "https://latfor.state.ny.us/data/?sec=2010amendpop"
+  },
+  {
+   "name": "latfor.state.ny.us",
+   "url": "https://latfor.state.ny.us/data/?sec=2020amendpop"
+  },
+  {
+   "name": "prisonpolicy.org",
+   "url": "https://www.prisonpolicy.org/origin/ny/2020/report.html"
+  },
+  {
+   "name": "prisonpolicy.org",
+   "url": "https://www.prisonpolicy.org/about.html"
+  },
+  {
+   "name": "vocal-ny.org",
+   "url": "https://vocal-ny.org/about-us/"
+  },
+  {
+   "name": "prisonpolicy.org",
+   "url": "https://www.prisonpolicy.org/origin/ny/2020/county.html"
+  },
+  {
+   "name": "prisonpolicy.org",
+   "url": "https://www.prisonpolicy.org/origin/ny/2020/city.html"
+  },
+  {
+   "name": "prisonpolicy.org",
+   "url": "https://www.prisonpolicy.org/origin/ny/2020/zipcode.html"
+  },
+  {
+   "name": "prisonpolicy.org",
+   "url": "https://www.prisonpolicy.org/origin/"
+  },
+  {
+   "name": "prisonersofthecensus.org",
+   "url": "https://www.prisonersofthecensus.org/news/2021/10/26/state_count/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-15",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "prisonersofthecensus.org",
+  "host": "prisonersofthecensus.org"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-03-07-1",
+ "title": "The grid",
+ "hook": "The U.S. Energy Information Administration publishes near-real-time data on the Lower 48’s electrical grid. The datasets include net electricity generation, flows in and out of the country’s various “balancing authorities,” regional demand, and forecasts of demand.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/realtime_grid/"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/opendata/qb.php?category=2123635"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/opendata/bulkfiles.php"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/realtime_grid/docs/UserGuideAndKnownIssues.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-03-07",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-03-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "U.S. Gasoline and Diesel Retail Prices",
+  "host": "eia.gov"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "dip-2021-06-16-2",
+ "title": "Standardized testing trends",
+ "hook": "Stanford University’s Educational Opportunity Project uses restricted-access data on standardized test results to estimate trends in academic performance and learning rates in grades 3–8 across US schools, school districts, counties, states, and other geographies, and with respect to race, gender, and economic status.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "edopportunity.org",
+   "url": "https://edopportunity.org/"
+  },
+  {
+   "name": "edopportunity.org",
+   "url": "https://edopportunity.org/methods"
+  },
+  {
+   "name": "edopportunity.org",
+   "url": "https://edopportunity.org/whats-new/"
+  },
+  {
+   "name": "edopportunity.org",
+   "url": "https://edopportunity.org/about/"
+  },
+  {
+   "name": "bie.edu",
+   "url": "https://www.bie.edu/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/the-bureau-of-indian-information-hasnt-told-the-public-how-its-schools-are-performing"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/how-we-analyzed-the-performance-of-bureau-of-indian-education-schools"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-16",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "edopportunity.org",
+  "host": "edopportunity.org"
+ }
+}

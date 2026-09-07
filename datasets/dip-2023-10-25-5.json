@@ -1,0 +1,51 @@
+{
+ "id": "dip-2023-10-25-5",
+ "title": "Beautiful spreadsheets",
+ "hook": "The team behind infographics powerhouse Information is Beautiful maintains a catalog of the data used in 130+ of their projects, going back to 2009.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "informationisbeautiful.net",
+   "url": "https://informationisbeautiful.net/about/team"
+  },
+  {
+   "name": "informationisbeautiful.net",
+   "url": "https://informationisbeautiful.net/"
+  },
+  {
+   "name": "informationisbeautiful.net",
+   "url": "https://informationisbeautiful.net/data/"
+  },
+  {
+   "name": "informationisbeautiful.net",
+   "url": "https://informationisbeautiful.net/visualizations/the-problem-with-plastics-and-recycling-bioplastics-microplastics-ocean-waste/"
+  },
+  {
+   "name": "informationisbeautiful.net",
+   "url": "https://informationisbeautiful.net/visualizations/the-rise-of-generative-ai-large-language-models-llms-like-chatgpt/"
+  },
+  {
+   "name": "informationisbeautiful.net",
+   "url": "https://informationisbeautiful.net/visualizations/which-is-the-best-performing-marvel-movie/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-10-25",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-10-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "informationisbeautiful.net",
+  "host": "informationisbeautiful.net"
+ }
+}

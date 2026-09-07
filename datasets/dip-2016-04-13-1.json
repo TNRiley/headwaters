@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-04-13-1",
+ "title": "Global rainfall",
+ "hook": "To create the most detailed measurements of global rainfall ever, researchers at UC Santa Barbara’s Climate Hazards Group harmonize data from satellites and on-the-ground weather stations. The dataset, known as CHIRPS, stretches back more than 30 years and is freely available.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "chg.geog.ucsb.edu",
+   "url": "http://chg.geog.ucsb.edu/data/chirps/index.html"
+  },
+  {
+   "name": "ensia.com",
+   "url": "http://ensia.com/features/this-new-data-set-is-poised-to-revolutionize-climate-adaptation/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-13",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "chg.geog.ucsb.edu",
+  "host": "chg.geog.ucsb.edu"
+ }
+}

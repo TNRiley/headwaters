@@ -1,0 +1,37 @@
+{
+ "id": "dip-2022-03-16-3",
+ "title": "Conspiracy theory language",
+ "hook": "Alessandro Miani et al. have built a dataset to study the language of conspiracy theories. Starting with a set of phrases associated with major conspiracy theories (e.g., those surrounding Princess Diana’s death), the authors searched online for sources that mentioned them often, ultimately selecting 150 websites — both mainstream and conspiracy-laden — that met their criteria.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "link.springer.com",
+   "url": "https://link.springer.com/article/10.3758/s13428-021-01698-z"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/snpcg/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-16",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "link.springer.com",
+  "host": "link.springer.com"
+ }
+}

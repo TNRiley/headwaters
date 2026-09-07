@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-09-08-5",
+ "title": "UK parliamentary ejections",
+ "hook": "A UK House of Commons Library research briefing in July included a spreadsheet of “MPs who have left the Chamber voluntarily, been asked to withdraw, or who have been suspended,” along with the date, reason, and suspension period.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "other",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "commonslibrary.parliament.uk",
+   "url": "https://commonslibrary.parliament.uk/research-briefings/sn02430/"
+  },
+  {
+   "name": "commonslibrary.parliament.uk",
+   "url": "https://commonslibrary.parliament.uk/research-briefings/sn03169/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-08",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "commonslibrary.parliament.uk",
+  "host": "commonslibrary.parliament.uk"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "dip-2017-08-02-3",
+ "title": "SAT, ACT, and AP scores",
+ "hook": "The California Department of Education publishes aggregate scores on these high-school tests for each county, district, and school going back to the late 1990s.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cde.ca.gov",
+   "url": "http://www.cde.ca.gov/ds/sp/ai/"
+  },
+  {
+   "name": "inewsource.org",
+   "url": "http://inewsource.org/2017/06/13/state-admits-posting-faulty-data/"
+  },
+  {
+   "name": "tea.texas.gov",
+   "url": "http://tea.texas.gov/acctres/sat_act_index.html"
+  },
+  {
+   "name": "fldoe.org",
+   "url": "http://www.fldoe.org/accountability/accountability-reporting/act-sat-ap-data/index.stml"
+  },
+  {
+   "name": "education.pa.gov",
+   "url": "http://www.education.pa.gov/K-12/Assessment%20and%20Accountability/Pages/SAT-and-ACT.aspx#tab-1"
+  },
+  {
+   "name": "inewsource.org",
+   "url": "http://data.inewsource.org/interactives/california-ap-scores-2011-2016/"
+  },
+  {
+   "name": "inewsource.org",
+   "url": "http://data.inewsource.org/interactives/california-sat-scores-2011-2016/"
+  },
+  {
+   "name": "inewsource.org",
+   "url": "http://data.inewsource.org/interactives/california-act-scores-2011-2016/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-02",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cde.ca.gov",
+  "host": "cde.ca.gov"
+ }
+}

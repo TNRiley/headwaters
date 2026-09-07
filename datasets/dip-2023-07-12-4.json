@@ -1,0 +1,37 @@
+{
+ "id": "dip-2023-07-12-4",
+ "title": "Australian mine production",
+ "hook": "“No […] study has ever compiled a national mine production data set which includes basic mining data such as ore processed, grades, extracted products (e.g., metals, concentrates, saleable ore) and waste rock,” writes Gavin M. Mudd, whose new dataset aims to do exactly that for Australia from 1799 to 2021.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "Australia",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-023-02275-z"
+  },
+  {
+   "name": "rmit.figshare.com",
+   "url": "https://rmit.figshare.com/articles/dataset/A_Comprehensive_Dataset_for_Australian_Mine_Production_1799_to_2021/22724081/2"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-07-12",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-07-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

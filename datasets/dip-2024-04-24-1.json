@@ -1,0 +1,65 @@
+{
+ "id": "dip-2024-04-24-1",
+ "title": "Public procurement",
+ "hook": "The Global Public Procurement Dataset provides standardized data on 72 million government contracts in 42 countries. The dataset, constructed from official sources by the Budapest-based Government Transparency Institute, represents $17 trillion in total procurement.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340924003810"
+  },
+  {
+   "name": "govtransparency.eu",
+   "url": "https://www.govtransparency.eu/"
+  },
+  {
+   "name": "mendeley.com",
+   "url": "https://data.mendeley.com/datasets/fwzpywbhgw/3"
+  },
+  {
+   "name": "mendeley.com",
+   "url": "https://data.mendeley.com/datasets/w9mzf4vswh/3"
+  },
+  {
+   "name": "open-contracting.org",
+   "url": "https://www.open-contracting.org/"
+  },
+  {
+   "name": "open-contracting.org",
+   "url": "https://data.open-contracting.org/en/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2023-03-08-edition/"
+  },
+  {
+   "name": "open-contracting.org",
+   "url": "https://www.open-contracting.org/data-standard/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-02-26-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-24",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

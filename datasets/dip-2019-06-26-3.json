@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-06-26-3",
+ "title": "Art-world salaries",
+ "hook": "This is the spreadsheet that “broke the art world’s culture of silence.” In just a few weeks, Michelle Millar Fisher and anonymous colleagues have collected more than 2,600 self-reported salaries from their fellow curators, managers, interns, and other art-world employees.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/14_cn3afoas7NhKvHWaFKqQGkaZS5rvL6DFxzGqXQa6o/edit#gid=0"
+  },
+  {
+   "name": "frieze.com",
+   "url": "https://frieze.com/article/how-google-spreadsheet-broke-art-worlds-culture-silence"
+  },
+  {
+   "name": "theartnewspaper.com",
+   "url": "https://www.theartnewspaper.com/comment/missions-statements-and-paychecks-let-s-put-our-money-where-our-mouths-are"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-26",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "google.com",
+  "host": "google.com"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "dip-2017-09-27-3",
+ "title": "Every building, river, and green space in Great Britain",
+ "hook": "The UK’s Ordnance Survey makes detailed digital maps of Great Britain. Their free offerings include all of the island’s roads, rivers, green spaces, and place names. The Survey’s “open map” includes buildings, railways, electricity transmission lines, and other features. Related: Want only the buildings?",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "ordnancesurvey.co.uk",
+   "url": "https://www.ordnancesurvey.co.uk/business-and-government/products/opendata-products.html"
+  },
+  {
+   "name": "ordnancesurvey.co.uk",
+   "url": "https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-roads.html"
+  },
+  {
+   "name": "ordnancesurvey.co.uk",
+   "url": "https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-rivers.html"
+  },
+  {
+   "name": "ordnancesurvey.co.uk",
+   "url": "https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-greenspace.html"
+  },
+  {
+   "name": "ordnancesurvey.co.uk",
+   "url": "https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-names.html"
+  },
+  {
+   "name": "ordnancesurvey.co.uk",
+   "url": "https://www.ordnancesurvey.co.uk/business-and-government/products/os-open-map-local.html"
+  },
+  {
+   "name": "statsmapsnpix.com",
+   "url": "http://www.statsmapsnpix.com/2017/09/buildings-of-great-britain.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-09-27",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-09-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ordnancesurvey.co.uk",
+  "host": "ordnancesurvey.co.uk"
+ }
+}

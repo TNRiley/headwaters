@@ -1,0 +1,51 @@
+{
+ "id": "dip-2022-02-02-3",
+ "title": "House committee witnesses",
+ "hook": "Political scientists Lauren C. Bell and J.D. Rackey have compiled a spreadsheet of 435,000+ people testifying before the US House of Representatives from 1971 to 2016.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "rmc.edu",
+   "url": "https://www.rmc.edu/departments/political-science/faculty/lauren-bell"
+  },
+  {
+   "name": "jdrackey.com",
+   "url": "https://jdrackey.com/"
+  },
+  {
+   "name": "rmc.edu",
+   "url": "https://www.rmc.edu/departments/political-science/faculty/lauren-bell/dataset-information"
+  },
+  {
+   "name": "about.proquest.com",
+   "url": "https://about.proquest.com/en/products-services/ProQuest-Congressional-Hearings-Digital-Collection/"
+  },
+  {
+   "name": "journals.plos.org",
+   "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0230104"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-12-23-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-02-02",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-02-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rmc.edu",
+  "host": "rmc.edu"
+ }
+}

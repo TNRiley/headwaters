@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-10-28-1",
+ "title": "Pregnancy, birth, and abortion",
+ "hook": "Last month the Guttmacher Institute, a “research and policy organization committed to advancing sexual and reproductive health and rights,” released its latest estimates of annual pregnancies, births, and abortions among women in the US — overall, and also by age-group and state.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "guttmacher.org",
+   "url": "https://www.guttmacher.org/report/pregnancies-births-abortions-in-united-states-1973-2016#"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/kthnf/"
+  },
+  {
+   "name": "guttinst.github.io",
+   "url": "https://guttinst.github.io/National-State-Pregnancy-Codebook/"
+  },
+  {
+   "name": "guttmacher.org",
+   "url": "https://www.guttmacher.org/report/abortion-incidence-service-availability-us-2017"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-10-28",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-10-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "guttmacher.org",
+  "host": "guttmacher.org"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "dip-2020-07-29-4",
+ "title": "Territorial self-governance",
+ "hook": "Christoph Trinn and Felix Schulte’s TERRGO dataset presents “a fresh look at territorial self-governance in more than 2,200 second-level regions in 96 Western and non-Western democracies, semi-democracies, and a selection of autocratic regimes between 2000 and 2018.” For each region (for instance, Guam or Greenland)…",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "uni-heidelberg.de",
+   "url": "https://www.uni-heidelberg.de/politikwissenschaften/personal/croissant/trinn_en.html"
+  },
+  {
+   "name": "uni-heidelberg.de",
+   "url": "https://www.uni-heidelberg.de/politikwissenschaften/personal/croissant/schulte_en.html"
+  },
+  {
+   "name": "territorial-governance.com",
+   "url": "https://territorial-governance.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-29",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "uni-heidelberg.de",
+  "host": "uni-heidelberg.de"
+ }
+}

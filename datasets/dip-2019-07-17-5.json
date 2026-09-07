@@ -1,0 +1,39 @@
+{
+ "id": "dip-2019-07-17-5",
+ "title": "Inter- and intra-national boundaries",
+ "hook": "The Database of Global Administrative Areas aims “to map the administrative areas of all countries, at all levels of sub-division.” With 386,735 divisions and counting, “this is a never ending project, but we are happy to share what we have.” Note: “commercial use is not allowed without prior permission.”",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "gadm.org",
+   "url": "https://gadm.org/"
+  },
+  {
+   "name": "gadm.org",
+   "url": "https://gadm.org/about.html"
+  },
+  {
+   "name": "gadm.org",
+   "url": "https://gadm.org/data.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-17",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gadm.org",
+  "host": "gadm.org"
+ }
+}

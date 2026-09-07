@@ -1,0 +1,57 @@
+{
+ "id": "dip-2020-06-10-3",
+ "title": "Police reforms and union contracts",
+ "hook": "Campaign Zero’s 8cantwait.org advocates for eight specific reforms to curtail police officers’ use of force, including bans on chokeholds, requiring de-escalation tactics, and establishing comprehensive reporting.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "joincampaignzero.org",
+   "url": "https://www.joincampaignzero.org/"
+  },
+  {
+   "name": "8cantwait.org",
+   "url": "https://8cantwait.org/"
+  },
+  {
+   "name": "useofforceproject.org",
+   "url": "https://useofforceproject.org/database"
+  },
+  {
+   "name": "8cantwait.org",
+   "url": "https://8cantwait.org/compare/"
+  },
+  {
+   "name": "s3-us-west-2.amazonaws.com",
+   "url": "https://s3-us-west-2.amazonaws.com/campaign-zero-use-of-force/data/force.csv"
+  },
+  {
+   "name": "checkthepolice.org",
+   "url": "https://www.checkthepolice.org/"
+  },
+  {
+   "name": "checkthepolice.org",
+   "url": "https://www.checkthepolice.org/database"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-06-10",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-06-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "joincampaignzero.org",
+  "host": "joincampaignzero.org"
+ }
+}

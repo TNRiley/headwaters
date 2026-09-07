@@ -1,0 +1,65 @@
+{
+ "id": "dip-2021-05-26-4",
+ "title": "Cell stations",
+ "hook": "OpenCelliD bills itself as “the world’s largest open database of cell towers,” drawing from a combination of crowdsourcing, information provided by telecom firms, and a collaboration with the Mozilla Location Service.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "opencellid.org",
+   "url": "https://www.opencellid.org/"
+  },
+  {
+   "name": "wiki.opencellid.org",
+   "url": "https://wiki.opencellid.org/wiki/How_to_contribute"
+  },
+  {
+   "name": "wiki.opencellid.org",
+   "url": "http://wiki.opencellid.org/wiki/Page_history#March_25th.2C_2016"
+  },
+  {
+   "name": "location.services.mozilla.com",
+   "url": "https://location.services.mozilla.com/"
+  },
+  {
+   "name": "opencellid.org",
+   "url": "https://www.opencellid.org/downloads.php"
+  },
+  {
+   "name": "opencellid.org",
+   "url": "https://www.opencellid.org/stats.php"
+  },
+  {
+   "name": "alpercinar.com",
+   "url": "https://alpercinar.com/open-cell-id/vis.html"
+  },
+  {
+   "name": "alpercinar.com",
+   "url": "https://alpercinar.com/open-cell-id/"
+  },
+  {
+   "name": "alpercinar.com",
+   "url": "https://alpercinar.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-05-26",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-05-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opencellid.org",
+  "host": "opencellid.org"
+ }
+}

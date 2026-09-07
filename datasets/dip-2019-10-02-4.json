@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-10-02-4",
+ "title": "Bird sounds",
+ "hook": "Machine learning scientist Agnieszka Mikołajczyk has been gathering useful resources for identifying birds by sound. The resources include about a dozen datasets of audio recordings, many of which are immediately downloadable.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/AgaMiko"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/AgaMiko/Bird-recognition-review"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-02",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

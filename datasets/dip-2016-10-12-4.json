@@ -1,0 +1,35 @@
+{
+ "id": "dip-2016-10-12-4",
+ "title": "Computer memory prices",
+ "hook": "John C. McCallum has collected the advertised prices of computer memory over time. In 1957, one byte of memory cost $392, or the equivalent of $411 million per megabyte; today, one metabyte costs about a third of a cent. [h/t Jorge Luis]",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "jcmit.com",
+   "url": "http://www.jcmit.com/index.htm"
+  },
+  {
+   "name": "jcmit.com",
+   "url": "http://www.jcmit.com/memoryprice.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-12",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "jcmit.com",
+  "host": "jcmit.com"
+ }
+}

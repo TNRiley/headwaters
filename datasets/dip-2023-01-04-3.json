@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-01-04-3",
+ "title": "Congregations and adherents",
+ "hook": "A successor to the federal government’s Census of Religious Bodies (1890–1936), the US Religion Census is now conducted every 10 years by the Association of Statisticians of American Religious Bodies.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usreligioncensus.org",
+   "url": "https://www.usreligioncensus.org/index.php/about-census"
+  },
+  {
+   "name": "pewresearch.org",
+   "url": "https://www.pewresearch.org/religion/2010/01/26/a-brief-history-of-religion-and-the-u-s-census/"
+  },
+  {
+   "name": "usreligioncensus.org",
+   "url": "https://www.usreligioncensus.org/"
+  },
+  {
+   "name": "asarb.org",
+   "url": "http://www.asarb.org/"
+  },
+  {
+   "name": "usreligioncensus.org",
+   "url": "https://www.usreligioncensus.org/index.php/methods"
+  },
+  {
+   "name": "usreligioncensus.org",
+   "url": "https://www.usreligioncensus.org/index.php/data_collected"
+  },
+  {
+   "name": "usreligioncensus.org",
+   "url": "https://www.usreligioncensus.org/node/1639"
+  },
+  {
+   "name": "sites.duke.edu",
+   "url": "https://sites.duke.edu/ncsweb/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-12-29-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-04",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usreligioncensus.org",
+  "host": "usreligioncensus.org"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-11-02-3",
+ "title": "Flood insurance changes",
+ "hook": "FEMA recently revamped its method of pricing US flood insurance, aiming for “rates that are actuarily sound, equitable, easier to understand and better reflect a property’s flood risk.” A series of datasets and dashboards from the agency summarize the expected changes in premiums, which began taking effect last year.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fema.gov",
+   "url": "https://www.fema.gov/flood-insurance/risk-rating"
+  },
+  {
+   "name": "fema.gov",
+   "url": "https://www.fema.gov/flood-insurance/risk-rating/profiles"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/articles/how-have-flood-insurance-premiums-changed/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-02",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fema.gov",
+  "host": "fema.gov"
+ }
+}

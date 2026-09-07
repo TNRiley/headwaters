@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-08-24-5",
+ "title": "German traffic signs",
+ "hook": "The German Traffic Sign Recognition Benchmark dataset contains 50,000+ images of 43 kinds of German traffic signs — from the classic “STOP,” to various speed limits, to roundabout indicators.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "benchmark.ini.rub.de",
+   "url": "http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-24",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "benchmark.ini.rub.de",
+  "host": "benchmark.ini.rub.de"
+ }
+}

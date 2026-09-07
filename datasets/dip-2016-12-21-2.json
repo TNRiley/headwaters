@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-12-21-2",
+ "title": "Petroleum rig counts",
+ "hook": "Since the 1940s, oilfield services corporation Baker Hughes and its predecessor companies have been publishing “rig counts” — the number of rigs actively drilling for oil and/or gas in various parts of the world.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "phx.corporate-ir.net",
+   "url": "http://phx.corporate-ir.net/phoenix.zhtml?c=79687&p=irol-rigcountsoverview"
+  },
+  {
+   "name": "phx.corporate-ir.net",
+   "url": "http://phx.corporate-ir.net/phoenix.zhtml?c=79687&p=irol-reportsother"
+  },
+  {
+   "name": "phx.corporate-ir.net",
+   "url": "http://phx.corporate-ir.net/phoenix.zhtml?c=79687&p=irol-rigcountsintl"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-12-21",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-12-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "phx.corporate-ir.net",
+  "host": "phx.corporate-ir.net"
+ }
+}

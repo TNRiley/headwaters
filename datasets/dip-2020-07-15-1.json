@@ -1,0 +1,42 @@
+{
+ "id": "dip-2020-07-15-1",
+ "title": "1.75 million US COVID patients",
+ "hook": "The US Centers for Disease Control and Prevention has published a dataset containing demographic and medical information on 1.75 million deidentified COVID-19 patients.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdc.gov",
+   "url": "https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2020/07/08/podcasts/the-daily/coronavirus-data-united-states.html"
+  },
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2020/07/05/us/coronavirus-latinos-african-americans-cdc-data.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

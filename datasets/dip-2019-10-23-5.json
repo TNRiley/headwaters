@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-10-23-5",
+ "title": "Charts and minds",
+ "hook": "The Data Visualization Society has published the results of its annual community survey, which received 1,359 responses from data visualization practitioners. The public data contains answers to 50 questions on topics such as compensation, tools, community, and more. [h/t Amy Cesal]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "datavisualizationsociety.com",
+   "url": "https://www.datavisualizationsociety.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/data-visualization-society/data_visualization_survey"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSe-CMHrt1gYOxO9Tdk6cjyLIpJnAJMDjS94OBDHi6YU2g3sBA/viewform"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-23",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "datavisualizationsociety.com",
+  "host": "datavisualizationsociety.com"
+ }
+}

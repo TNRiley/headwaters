@@ -1,0 +1,38 @@
+{
+ "id": "dip-2016-06-22-4",
+ "title": "2BR with vinyl siding, sweet 2BR with vinyl siding",
+ "hook": "The U.S. Census Bureau’s Annual Characteristics of New Housing culls data on features such as square footage, wall material, number of bedrooms, and number of fireplaces.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "census.gov",
+   "url": "http://www.census.gov/construction/chars/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "http://www.nytimes.com/2016/06/04/upshot/houses-keep-getting-bigger-even-as-families-get-smaller.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-22",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

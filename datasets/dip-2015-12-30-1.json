@@ -1,0 +1,31 @@
+{
+ "id": "dip-2015-12-30-1",
+ "title": "New Orleans slave sales, 1856–1861",
+ "hook": "A new study in the American Economic Review suggests that slaveholders in the South underestimated the odds of “emancipation without compensation.” To reach its conclusions, researchers compiled a dataset of 15,377 slave sales, culled from remarkably detailed official records.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "aeaweb.org",
+   "url": "https://www.aeaweb.org/articles.php?doi=10.1257/aer.20131483"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-30",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aeaweb.org",
+  "host": "aeaweb.org"
+ }
+}

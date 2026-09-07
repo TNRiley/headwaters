@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-09-12-4",
+ "title": "Neighborhood boundaries",
+ "hook": "Zillow has created a dataset outlining the boundaries of more than 17,000 neighborhoods in the United States’ largest cities, spanning 49 states (all but Wyoming) plus D.C. and Puerto Rico. Related: OpenStreetMap, which is API-queryable, has a “neighbourhood” tag type. [h/t Volodymyr Kupriyanov]",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "zillow.com",
+   "url": "https://www.zillow.com/howto/api/neighborhood-boundaries.htm"
+  },
+  {
+   "name": "wiki.openstreetmap.org",
+   "url": "https://wiki.openstreetmap.org/wiki/Databases_and_data_access_APIs"
+  },
+  {
+   "name": "wiki.openstreetmap.org",
+   "url": "https://wiki.openstreetmap.org/wiki/Tag:place%3Dneighbourhood"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-09-12",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-09-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "zillow.com",
+  "host": "zillow.com"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-11-01-2",
+ "title": "Financial offshoring",
+ "hook": "The Atlas of the Offshore World — “a new effort by the EU Tax Observatory,” a research group based at the Paris School of Economics — aims “to inform the global debate around international tax evasion and avoidance.” Its four main datasets provide country-level estimates of international profit shifting, offshore financial wealth, offshore real estate ownership, and 50+ years of effective tax rates.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "atlas-offshore.world",
+   "url": "https://atlas-offshore.world/"
+  },
+  {
+   "name": "taxobservatory.eu",
+   "url": "https://www.taxobservatory.eu/"
+  },
+  {
+   "name": "atlas-offshore.world",
+   "url": "https://atlas-offshore.world/download-data/"
+  },
+  {
+   "name": "atlas-offshore.world",
+   "url": "https://atlas-offshore.world/dataset/global-profit"
+  },
+  {
+   "name": "atlas-offshore.world",
+   "url": "https://atlas-offshore.world/dataset/offshore-financial"
+  },
+  {
+   "name": "atlas-offshore.world",
+   "url": "https://atlas-offshore.world/dataset/offshore-real-estate"
+  },
+  {
+   "name": "atlas-offshore.world",
+   "url": "https://atlas-offshore.world/dataset/effective-tax"
+  },
+  {
+   "name": "taxobservatory.eu",
+   "url": "https://www.taxobservatory.eu/publication/global-tax-evasion-report-2024/"
+  },
+  {
+   "name": "taxobservatory.eu",
+   "url": "https://www.taxobservatory.eu/the-history-behind-the-atlas-of-the-offshore-world/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-01",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "atlas-offshore.world",
+  "host": "atlas-offshore.world"
+ }
+}

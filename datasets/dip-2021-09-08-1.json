@@ -1,0 +1,73 @@
+{
+ "id": "dip-2021-09-08-1",
+ "title": "Persons of interest",
+ "hook": "OpenSanctions, an open-source project that launched its website last week, is “an international database of persons and companies of political, criminal, or economic interest.” It combines and standardizes data from 20+ sources, such as the US Treasury’s sanctions lists (DIP 2018.02.21), Interpol’s Red Notices, members of EU parliament, and the CIA’s index of world leaders.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "opensanctions.org",
+   "url": "https://opensanctions.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/pudo/opensanctions"
+  },
+  {
+   "name": "opensanctions.org",
+   "url": "https://opensanctions.org/datasets/"
+  },
+  {
+   "name": "opensanctions.org",
+   "url": "https://opensanctions.org/datasets/us_ofac_sdn/"
+  },
+  {
+   "name": "opensanctions.org",
+   "url": "https://opensanctions.org/datasets/us_ofac_cons/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-02-21-edition/"
+  },
+  {
+   "name": "opensanctions.org",
+   "url": "https://opensanctions.org/datasets/interpol_red_notices/"
+  },
+  {
+   "name": "opensanctions.org",
+   "url": "https://opensanctions.org/datasets/eu_meps/"
+  },
+  {
+   "name": "opensanctions.org",
+   "url": "https://opensanctions.org/datasets/us_cia_world_leaders/"
+  },
+  {
+   "name": "opensanctions.org",
+   "url": "https://opensanctions.org/reference/"
+  },
+  {
+   "name": "opensanctions.org",
+   "url": "https://opensanctions.org/docs/usage/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-08",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opensanctions.org",
+  "host": "opensanctions.org"
+ }
+}

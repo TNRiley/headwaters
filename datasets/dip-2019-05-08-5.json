@@ -1,0 +1,43 @@
+{
+ "id": "dip-2019-05-08-5",
+ "title": "Southpaws",
+ "hook": "Using data scraped from BoxRec.com and UFCStats.com, Thomas Richardson analyzed “over 13,800 professional boxers and mixed martial artists of varying abilities” and has found “robust evidence that left-handed fighters have greater fighting success.”",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/x3unr/"
+  },
+  {
+   "name": "boxrec.com",
+   "url": "http://boxrec.com/"
+  },
+  {
+   "name": "ufcstats.com",
+   "url": "http://ufcstats.com/statistics/events/completed"
+  },
+  {
+   "name": "biorxiv.org",
+   "url": "https://www.biorxiv.org/content/10.1101/555912v3"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-08",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "osf.io",
+  "host": "osf.io"
+ }
+}

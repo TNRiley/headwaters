@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-08-03-1",
+ "title": "Vaccination nations",
+ "hook": "The World Health Organization publishes a slew of datasets on national vaccination rates and policies. Some facts gleaned from the data: Asked whether they provided routine vaccinations to children at school, just 55% of 191 countries that responded said they did.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "who.int",
+   "url": "http://www.who.int/immunization/monitoring_surveillance/data/en/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-03",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "who.int",
+  "host": "who.int"
+ }
+}

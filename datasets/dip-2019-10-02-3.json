@@ -1,0 +1,47 @@
+{
+ "id": "dip-2019-10-02-3",
+ "title": "Datos cubanos",
+ "hook": "Official, reliable data on Cuba is hard to come by. So Cuban journalist Barbara Maseda’s Proyecto Inventario has been collecting and publishing datasets relevant to the island nation — including by documenting the country’s legislators, blackouts, and non-agricultural cooperatives.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "proyectoinventario.org",
+   "url": "https://proyectoinventario.org/"
+  },
+  {
+   "name": "proyectoinventario.org",
+   "url": "https://proyectoinventario.org/parlamento-cuba-ix-legislatura-anpp/"
+  },
+  {
+   "name": "proyectoinventario.org",
+   "url": "https://proyectoinventario.org/apagones-programados-cuba-reportes-ciudadanos/"
+  },
+  {
+   "name": "proyectoinventario.org",
+   "url": "https://proyectoinventario.org/registro-cooperativas-no-agropecuarias-cuba/"
+  },
+  {
+   "name": "knightcenter.utexas.edu",
+   "url": "https://knightcenter.utexas.edu/blog/00-21226-cuban-journalist-uses-creativity-dig-information-and-maintain-database-other-media"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-02",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "proyectoinventario.org",
+  "host": "proyectoinventario.org"
+ }
+}

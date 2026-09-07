@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-05-25-4",
+ "title": "Moreno and Jennings’ sociograms",
+ "hook": "In the 1930s, Jacob Moreno and Helen Hall Jennings created a series of “sociograms” representing the seating preferences of grade-school classmates.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Jacob_L._Moreno"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Helen_Hall_Jennings"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Sociogram"
+  },
+  {
+   "name": "martingrandjean.ch",
+   "url": "http://www.martingrandjean.ch/social-network-analysis-visualization-morenos-sociograms-revisited/"
+  },
+  {
+   "name": "martingrandjean.ch",
+   "url": "http://www.martingrandjean.ch/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/grandjeanmartin/sociograms"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-25",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

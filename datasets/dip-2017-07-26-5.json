@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-07-26-5",
+ "title": "Data podcast data",
+ "hook": "Data Stories is a podcast about data visualization, hosted by Enrico Bertini and Moritz Stefaner. To celebrate their recently-published 100th episode, the hosts released a spreadsheet detailing the date, title, number and genders of guests, length, and timestamped subchapters of each episode so far.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "datastori.es",
+   "url": "http://datastori.es/"
+  },
+  {
+   "name": "datastori.es",
+   "url": "http://datastori.es/100-data-stories-100/"
+  },
+  {
+   "name": "projects.datavis.club",
+   "url": "http://projects.datavis.club/100-data-stories/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-07-26",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-07-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "datastori.es",
+  "host": "datastori.es"
+ }
+}

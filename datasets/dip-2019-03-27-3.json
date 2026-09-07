@@ -1,0 +1,39 @@
+{
+ "id": "dip-2019-03-27-3",
+ "title": "Rebel groups",
+ "hook": "“The Foundations of Rebel Group Emergence (FORGE) Dataset examines the roots of rebellion by considering the characteristics and activities of the ‘parent’ organizations from which rebel groups emerged,” plus details such as “the organization's ‘birthdate’ and founding location, initial goals, ideology, and…",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "jessicamaves.com",
+   "url": "https://www.jessicamaves.com/forge.html"
+  },
+  {
+   "name": "jessicamaves.com",
+   "url": "https://www.jessicamaves.com/"
+  },
+  {
+   "name": "kathleengallaghercunningham.com",
+   "url": "http://www.kathleengallaghercunningham.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-27",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "jessicamaves.com",
+  "host": "jessicamaves.com"
+ }
+}

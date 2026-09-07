@@ -1,0 +1,43 @@
+{
+ "id": "dip-2023-05-17-2",
+ "title": "International case law",
+ "hook": "“The quantitative analysis of international legal data is still in its infancy, a situation which is exacerbated by the lack of high-quality open access data sets,” writes Seán Fobbe in a 2022 paper in Journal of Empirical Legal Studies.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "seanfobbe.com",
+   "url": "https://seanfobbe.com/"
+  },
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1111/jels.12313"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/7051934"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/7876286"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-17",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "seanfobbe.com",
+  "host": "seanfobbe.com"
+ }
+}

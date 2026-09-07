@@ -1,0 +1,33 @@
+{
+ "id": "dip-2015-12-23-4",
+ "title": "Little’s big tree maps",
+ "hook": "The Forest Service has digitized many of the tree species distribution maps from Elbert Little's “Atlas of United States Trees,” first published in the 1970s. Shapefiles and PDFs are available for for more than 600 species — including Ilex opaca (American holly) and Pseudotsuga menziesii (Douglas fir).",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "esp.cr.usgs.gov",
+   "url": "http://esp.cr.usgs.gov/data/little/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-23",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "esp.cr.usgs.gov",
+  "host": "esp.cr.usgs.gov"
+ }
+}

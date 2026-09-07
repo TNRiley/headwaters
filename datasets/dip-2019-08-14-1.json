@@ -1,0 +1,49 @@
+{
+ "id": "dip-2019-08-14-1",
+ "title": "140 years of London theatre",
+ "hook": "The London Stage Database “is the latest in a long line of projects that aim to capture and present the rich array of information available on the theatrical culture of London, from the reopening of the public playhouses following the English civil wars in 1660 to the end of the eighteenth century.” The database…",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "londonstagedatabase.usu.edu",
+   "url": "https://londonstagedatabase.usu.edu/"
+  },
+  {
+   "name": "londonstagedatabase.usu.edu",
+   "url": "https://londonstagedatabase.usu.edu/search.php"
+  },
+  {
+   "name": "londonstagedatabase.usu.edu",
+   "url": "https://londonstagedatabase.usu.edu/data.php"
+  },
+  {
+   "name": "londonstagedatabase.usu.edu",
+   "url": "https://londonstagedatabase.usu.edu/guide.php"
+  },
+  {
+   "name": "londonstagedatabase.usu.edu",
+   "url": "https://londonstagedatabase.usu.edu/about.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-14",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "londonstagedatabase.usu.edu",
+  "host": "londonstagedatabase.usu.edu"
+ }
+}

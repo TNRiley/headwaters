@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-07-06-4",
+ "title": "Shakespeare",
+ "hook": "The Folger Shakespeare “brings you the complete works of the world’s greatest playwright, edited for modern readers.” Its digital editions of the Bard’s plays and poems are available to read online and to download in various file formats.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "shakespeare.folger.edu",
+   "url": "https://shakespeare.folger.edu/about-the-folger-shakespeare/"
+  },
+  {
+   "name": "shakespeare.folger.edu",
+   "url": "https://shakespeare.folger.edu/shakespeares-works/"
+  },
+  {
+   "name": "shakespeare.folger.edu",
+   "url": "https://shakespeare.folger.edu/download/"
+  },
+  {
+   "name": "shakespeare.folger.edu",
+   "url": "https://shakespeare.folger.edu/the-folger-shakespeare-api/"
+  },
+  {
+   "name": "folgerdigitaltexts.org",
+   "url": "https://www.folgerdigitaltexts.org/api"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-06",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "shakespeare.folger.edu",
+  "host": "shakespeare.folger.edu"
+ }
+}

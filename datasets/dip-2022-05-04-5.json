@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-05-04-5",
+ "title": "Bats in caves",
+ "hook": "Krizler C. Tanalgo et al.’s DarkCideS “is by far the largest database for cave-dwelling bats,” providing “geographical location, ecological status, species traits, and parasites and hyperparasites for 679 bat species,” plus 6,700+ observation records from 2,000+ caves in 40+ countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-022-01234-4"
+  },
+  {
+   "name": "darkcides.org",
+   "url": "https://darkcides.org/"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/dataset/Metadata_for_DarkCideS_1_0_a_global_database_for_bats_in_karsts_and_caves/16413405"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-04",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

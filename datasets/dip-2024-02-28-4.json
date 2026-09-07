@@ -1,0 +1,45 @@
+{
+ "id": "dip-2024-02-28-4",
+ "title": "High-school financial education",
+ "hook": "In a recent paper, economists Allison Oldham Luedtke and Carly Urban introduce a dataset of 19,000+ high-school classes that teach financial literacy, manually collected from thousands of online course catalogs.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "cambridge.org",
+   "url": "https://www.cambridge.org/core/journals/journal-of-financial-literacy-and-wellbeing/article/high-school-financial-education-courses-in-the-united-states-what-is-the-importance-of-setting-state-policies/ABD577136362C0289884C41676341271"
+  },
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/stolaf.edu/aoluedtke/home/"
+  },
+  {
+   "name": "carlyurban.com",
+   "url": "https://www.carlyurban.com/"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/ksah9/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-28",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cambridge.org",
+  "host": "cambridge.org"
+ }
+}

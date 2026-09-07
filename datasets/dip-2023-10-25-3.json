@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-10-25-3",
+ "title": "Goldin records",
+ "hook": "Claudia Goldin, who was awarded 2023’s Nobel Memorial Prize in Economic Sciences, maintains a faculty webpage with some of the data she’s created, digitized, and/or improved.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "scholar.harvard.edu",
+   "url": "https://scholar.harvard.edu/goldin/home"
+  },
+  {
+   "name": "nobelprize.org",
+   "url": "https://www.nobelprize.org/prizes/economic-sciences/2023/summary/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences"
+  },
+  {
+   "name": "scholar.harvard.edu",
+   "url": "https://scholar.harvard.edu/goldin/pages/data"
+  },
+  {
+   "name": "icpsr.umich.edu",
+   "url": "https://www.icpsr.umich.edu/web/ICPSR/studies/28501"
+  },
+  {
+   "name": "scholar.harvard.edu",
+   "url": "https://scholar.harvard.edu/files/goldin/files/economiccosts_data_1975.pdf"
+  },
+  {
+   "name": "scholar.harvard.edu",
+   "url": "https://scholar.harvard.edu/files/goldin/files/goldin_economiccost.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-10-25",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-10-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "scholar.harvard.edu",
+  "host": "scholar.harvard.edu"
+ }
+}

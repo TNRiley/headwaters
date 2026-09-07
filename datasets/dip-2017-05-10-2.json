@@ -1,0 +1,50 @@
+{
+ "id": "dip-2017-05-10-2",
+ "title": "Insurance premiums and payouts",
+ "hook": "Last month, ProPublica and Consumer Reports published an analysis of car insurance costs in four states, finding that “some major insurers charge minority neighborhoods as much as 30 percent more than other areas with similar accident costs.” The reporters also published a detailed methodology and dataset supporting their findings.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "insurancejournal.com",
+   "url": "http://www.insurancejournal.com/news/national/2017/04/05/447012.htm"
+  }
+ ],
+ "articles": [
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/minority-neighborhoods-higher-car-insurance-premiums-white-areas-same-risk"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/minority-neighborhoods-higher-car-insurance-premiums-methodology"
+  },
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/graphics/carinsurance#src-line"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/the-car-insurance-industry-attacks-our-story-our-response"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-10",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "insurancejournal.com",
+  "host": "insurancejournal.com"
+ }
+}

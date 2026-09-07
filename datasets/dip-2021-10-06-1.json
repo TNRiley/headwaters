@@ -1,0 +1,62 @@
+{
+ "id": "dip-2021-10-06-1",
+ "title": "Reservoir levels",
+ "hook": "The US Bureau of Reclamation, a federal agency formed in 1902, is today “the nation’s largest wholesale water supplier, operating 338 reservoirs with a total storage capacity of 140 million acre-feet.” Its Reclamation Information Sharing Environment (RISE) launched publicly last year, providing data on reservoir levels, water quality, hydropower generation, habitat monitoring, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usbr.gov",
+   "url": "https://www.usbr.gov/main/about/mission.html"
+  },
+  {
+   "name": "usbr.gov",
+   "url": "https://data.usbr.gov/"
+  },
+  {
+   "name": "usbr.gov",
+   "url": "https://www.usbr.gov/newsroom/newsroomold/newsrelease/detail.cfm?RecordID=72624"
+  },
+  {
+   "name": "usbr.gov",
+   "url": "https://data.usbr.gov/catalog"
+  },
+  {
+   "name": "usbr.gov",
+   "url": "https://data.usbr.gov/time-series/search?v=1"
+  },
+  {
+   "name": "usbr.gov",
+   "url": "https://data.usbr.gov/catalog/4370/item/6123"
+  },
+  {
+   "name": "usbr.gov",
+   "url": "https://data.usbr.gov/rise-api"
+  }
+ ],
+ "articles": [
+  {
+   "name": "cnn.com",
+   "url": "https://www.cnn.com/interactive/2021/08/us/colorado-river-water-shortage/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-10-06",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-10-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usbr.gov",
+  "host": "usbr.gov"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-10-19-2",
+ "title": "County-level health care",
+ "hook": "Each year, the Department of Health and Human Services updates its Area Health Resources Files, a vast suite of local health care data collated from more than 50 sources. Among the topics covered: the number health care professionals by specialty, various rates of hospital usage, air quality, and demographic profiles.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ahrf.hrsa.gov",
+   "url": "http://ahrf.hrsa.gov/index.htm"
+  },
+  {
+   "name": "ahrf.hrsa.gov",
+   "url": "http://ahrf.hrsa.gov/download.htm"
+  },
+  {
+   "name": "ahrf.hrsa.gov",
+   "url": "http://ahrf.hrsa.gov/arfdashboard/HRCT.aspx"
+  },
+  {
+   "name": "ahrf.hrsa.gov",
+   "url": "http://ahrf.hrsa.gov/arfdashboard/ArfGeo.aspx"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-19",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ahrf.hrsa.gov",
+  "host": "ahrf.hrsa.gov"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "dip-2025-07-16-2",
+ "title": "Car crash datasets",
+ "hook": "Transportation policy scholars Hannah Younes and Robert B. Noland have compiled a catalog of US states’ car crash data resources. Thirty states and DC publish raw data, 14 states provide only a dashboard or map, while six provide no public data, according to the authors’ survey.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "vtc.rutgers.edu",
+   "url": "https://vtc.rutgers.edu/people/younes/"
+  },
+  {
+   "name": "bloustein.rutgers.edu",
+   "url": "https://bloustein.rutgers.edu/people/noland/"
+  },
+  {
+   "name": "tandfonline.com",
+   "url": "https://www.tandfonline.com/eprint/4VRRJASI2CYVQDFQRPTX/full"
+  },
+  {
+   "name": "arcgis.com",
+   "url": "https://www.arcgis.com/home/item.html?id=3ef625ffe7ce4ef38be81ee6d80a5385"
+  },
+  {
+   "name": "nj.gov",
+   "url": "https://www.nj.gov/transportation/refdata/accident/rawdata01-current.shtm"
+  },
+  {
+   "name": "azdhs.gov",
+   "url": "https://www.azdhs.gov/preparedness/emergency-medical-services-trauma-system/data-visualization/index.php#dashboards-mvt-related-trauma"
+  },
+  {
+   "name": "transportal.cee.wisc.edu",
+   "url": "https://transportal.cee.wisc.edu/partners/community-maps/crash/search/BasicSearch.do"
+  },
+  {
+   "name": "nhtsa.gov",
+   "url": "https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-08-31-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-07-16",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-07-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "vtc.rutgers.edu",
+  "host": "vtc.rutgers.edu"
+ }
+}

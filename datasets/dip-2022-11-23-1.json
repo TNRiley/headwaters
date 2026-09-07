@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-11-23-1",
+ "title": "Presidential pardons",
+ "hook": "The US Department of Justice’s Office of the Pardon Attorney reviews all federal clemency requests and advises the president on such matters. The office provides a search tool and spreadsheet with the names, case statuses, and decision dates for all 76,000+ pardon and commutation requests since 1989.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "justice.gov",
+   "url": "https://www.justice.gov/pardon"
+  },
+  {
+   "name": "justice.gov",
+   "url": "https://www.justice.gov/pardon/search-clemency-case-status-since-1989"
+  },
+  {
+   "name": "justice.gov",
+   "url": "https://www.justice.gov/pardon/clemency-recipients"
+  },
+  {
+   "name": "justice.gov",
+   "url": "https://www.justice.gov/pardon/clemency-statistics"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-23",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "justice.gov",
+  "host": "justice.gov"
+ }
+}

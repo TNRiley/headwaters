@@ -1,0 +1,43 @@
+{
+ "id": "dip-2023-09-13-4",
+ "title": "The “Unknome",
+ "hook": "The human genome has been sequenced, but what do all those genes do? João J. Rocha et al.’s Unknome database assigns a “knownness” score to “all protein clusters that contain at least 1 protein from humans or any of 11 model organisms.” The score is based on the density of annotations in the Gene Ontology…",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "journals.plos.org",
+   "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002222"
+  },
+  {
+   "name": "unknome.mrc-lmb.cam.ac.uk",
+   "url": "https://unknome.mrc-lmb.cam.ac.uk/"
+  },
+  {
+   "name": "geneontology.org",
+   "url": "https://geneontology.org/"
+  },
+  {
+   "name": "pantherdb.org",
+   "url": "https://pantherdb.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-13",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Cleary et al, 2016",
+  "host": "journals.plos.org"
+ }
+}

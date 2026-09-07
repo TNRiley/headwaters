@@ -1,0 +1,46 @@
+{
+ "id": "dip-2021-10-20-5",
+ "title": "Halloween candy",
+ "hook": "For FiveThirtyEight’s “Ultimate Halloween Candy Power Ranking” (2017), Walt Hickey had readers vote on head-to-head matchups among 85 confections. The project’s dataset includes each candy’s winning percentage, various categorizations (e.g., Does it contain chocolate?), relative cost, and sugariness. [h/t Eric Gardner]",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "journalism",
+ "geography": "",
+ "sources": [
+  {
+   "name": "walthickey.com",
+   "url": "https://walthickey.com/"
+  },
+  {
+   "name": "walthickey.com",
+   "url": "http://walthickey.com/2017/10/18/whats-the-best-halloween-candy/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/candy-power-ranking"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/videos/the-ultimate-halloween-candy-power-ranking/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-10-20",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-10-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "walthickey.com",
+  "host": "walthickey.com"
+ }
+}

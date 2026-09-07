@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-01-15-5",
+ "title": "The life of a supercomputer",
+ "hook": "CIEMAT — a public institution in Spain that studies energy and the environment — has published nearly a decade of processing receipts from its Euler supercomputer.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "fusionwiki.ciemat.es",
+   "url": "http://fusionwiki.ciemat.es/wiki/CIEMAT"
+  },
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340919313629"
+  },
+  {
+   "name": "cse.huji.ac.il",
+   "url": "https://www.cse.huji.ac.il/labs/parallel/workload/l_ciemat_euler/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fusionwiki.ciemat.es",
+  "host": "fusionwiki.ciemat.es"
+ }
+}

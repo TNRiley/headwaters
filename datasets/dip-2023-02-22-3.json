@@ -1,0 +1,69 @@
+{
+ "id": "dip-2023-02-22-3",
+ "title": "Daily European gas imports",
+ "hook": "Researchers at Bruegel are tracking daily and weekly natural gas imports to Europe, using data from the European Network of Transmission System Operators for Gas’s transparency portal.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "bruegel.org",
+   "url": "https://www.bruegel.org/bruegel-european-think-tank-specialises-economics"
+  },
+  {
+   "name": "bruegel.org",
+   "url": "https://www.bruegel.org/dataset/european-natural-gas-imports"
+  },
+  {
+   "name": "entsog.eu",
+   "url": "https://www.entsog.eu/"
+  },
+  {
+   "name": "transparency.entsog.eu",
+   "url": "https://transparency.entsog.eu/"
+  },
+  {
+   "name": "agsi.gie.eu",
+   "url": "https://agsi.gie.eu/"
+  },
+  {
+   "name": "gie.eu",
+   "url": "https://www.gie.eu/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-01-26-edition/"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&subtheme=nrg.nrg_quant.nrg_quanta.nrg_t.nrg_ti&display=list&sort=category&extractionId=NRG_TI_SFF__custom_2293925"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/databrowser/explore/all/envir?lang=en&subtheme=nrg.nrg_quant.nrg_quanta.nrg_t.nrg_te&display=list&sort=category&extractionId=NRG_TI_SFF__custom_2293925"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-03-16-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-22",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bruegel.org",
+  "host": "bruegel.org"
+ }
+}

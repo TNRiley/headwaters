@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-10-09-1",
+ "title": "Financial access",
+ "hook": "Last week, the International Monetary Fund released the results of its 10th annual Financial Access Survey.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "imf.org",
+   "url": "https://www.imf.org/en/News/Articles/2019/09/27/pr19359-imf-releases-the-2019-financial-access-survey-results"
+  },
+  {
+   "name": "imf.org",
+   "url": "https://data.imf.org/FAS"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-09",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "imf.org",
+  "host": "imf.org"
+ }
+}

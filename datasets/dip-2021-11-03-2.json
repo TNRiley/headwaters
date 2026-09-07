@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-11-03-2",
+ "title": "Concealed carry licenses",
+ "hook": "To construct his Concealed Carry Weapons License Database, sociologist Trent Steidley spent “over a year collecting data from 28 states using public records requests and cleaning into a state and county-year format.” The published files include the raw data, cleaned data, and documentation.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "socsteidley.com",
+   "url": "https://socsteidley.com/2021/10/13/introducing-the-concealed-carry-weapons-license-database/"
+  },
+  {
+   "name": "socsteidley.com",
+   "url": "https://socsteidley.com/"
+  },
+  {
+   "name": "openicpsr.org",
+   "url": "https://www.openicpsr.org/openicpsr/project/149062/version/V1/view?path=/openicpsr/149062/fcr:versions/V1&type=project"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-11-03",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-11-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "socsteidley.com",
+  "host": "socsteidley.com"
+ }
+}

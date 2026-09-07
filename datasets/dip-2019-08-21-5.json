@@ -1,0 +1,35 @@
+{
+ "id": "dip-2019-08-21-5",
+ "title": "Confidence",
+ "hook": "The Confidence Database is aggregating data from behavioral studies that have asked participants’ how confident they were in their own assessments. As of its launch earlier this month, the database contains 145 datasets, 8,700 participants, and 4 million individual observations. [h/t Audrey Mazancieux + Doby Rahnev]",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/s46pr/"
+  },
+  {
+   "name": "psyarxiv.com",
+   "url": "https://psyarxiv.com/h8tju"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-21",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "osf.io",
+  "host": "osf.io"
+ }
+}

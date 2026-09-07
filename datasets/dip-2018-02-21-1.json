@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-02-21-1",
+ "title": "Rohingya refugees",
+ "hook": "The Humanitarian Data Exchange has collated dozens of datasets related to the Rohingya refugee crisis. Among them: the geographic boundaries of Rohingya refugee settlements in Bangladesh, the numbers of refugees living in those settlements, and the infrastructure available there.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/event/rohingya-displacement"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/outline-of-camps-sites-of-rohingya-refugees-in-cox-s-bazar-bangladesh"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/site-location-of-rohingya-refugees-in-cox-s-bazar"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/cox-s-bazar-refugee-settlement-infrastructure"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-21",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "humdata.org",
+  "host": "humdata.org"
+ }
+}

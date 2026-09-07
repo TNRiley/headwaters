@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-10-13-4",
+ "title": "Mask diplomacy",
+ "hook": "Political scientists Diego Telias and Francisco Urdinez have collected and mapped data on 530+ donations of face masks, respirators, COVID-19 tests, and other pandemic-related supplies from entities in China and Taiwan to 33 countries Latin America and the Caribbean in early 2020.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "furdinez.com",
+   "url": "https://www.furdinez.com/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/EIAXSE"
+  },
+  {
+   "name": "estudiosasiaticos.uc.cl",
+   "url": "https://estudiosasiaticos.uc.cl/humanidades-digitales/mask-diplomacy-v-1-0"
+  },
+  {
+   "name": "researchgate.net",
+   "url": "https://www.researchgate.net/profile/Francisco-Urdinez/publication/344035590_China%E2%80%99s_Foreign_Aid_Political_Drivers_Lessons_from_a_Novel_Dataset_of_Mask_Diplomacy_in_Latin_America_During_the_COVID-19_Pandemic/links/607df952907dcf667baf42fe/Chinas-Foreign-Aid-Political-Drivers-Lessons-from-a-Novel-Dataset-of-Mask-Diplomacy-in-Latin-America-During-the-COVID-19-Pandemic.pdfa"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-10-13",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-10-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "furdinez.com",
+  "host": "furdinez.com"
+ }
+}

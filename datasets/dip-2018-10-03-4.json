@@ -1,0 +1,65 @@
+{
+ "id": "dip-2018-10-03-4",
+ "title": "Bike traffic",
+ "hook": "A slew of cities have installed devices to count bicycles that pass through major routes. At least several publish hourly or daily tallies: London, Ottawa, Edinburgh, Seattle, Cambridge, Mass., and the Washington, DC area.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cycling.data.tfl.gov.uk",
+   "url": "http://cycling.data.tfl.gov.uk/"
+  },
+  {
+   "name": "ottawa.ca",
+   "url": "http://data.ottawa.ca/dataset/bicycle-trip-counters-automated"
+  },
+  {
+   "name": "edinburghopendata.info",
+   "url": "https://data.edinburghopendata.info/dataset/bike-counter-data-set-cluster"
+  },
+  {
+   "name": "seattle.gov",
+   "url": "http://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/bike-counters"
+  },
+  {
+   "name": "cambridgema.gov",
+   "url": "https://data.cambridgema.gov/dataset/Eco-Totem-Broadway-Bicycle-Count/q8v9-mcfg"
+  },
+  {
+   "name": "counters.bikearlington.com",
+   "url": "http://counters.bikearlington.com/"
+  },
+  {
+   "name": "nyc.gov",
+   "url": "http://www.nyc.gov/html/dot/html/bicyclists/bike-counts.shtml"
+  },
+  {
+   "name": "lastnotlost.wordpress.com",
+   "url": "https://lastnotlost.wordpress.com/2018/09/12/counterdata/"
+  },
+  {
+   "name": "seattletimes.com",
+   "url": "https://www.seattletimes.com/seattle-news/transportation/what-we-can-learn-from-seattles-bike-counter-data/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-10-03",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-10-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cycling.data.tfl.gov.uk",
+  "host": "cycling.data.tfl.gov.uk"
+ }
+}

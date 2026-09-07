@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-01-26-5",
+ "title": "Whaling",
+ "hook": "WhalingHistory.org, a collaboration between the Mystic Seaport Museum and the New Bedford Whaling Museum, revolves around a series of interconnected databases.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "whalinghistory.org",
+   "url": "https://whalinghistory.org/"
+  },
+  {
+   "name": "mysticseaport.org",
+   "url": "https://mysticseaport.org/"
+  },
+  {
+   "name": "whalingmuseum.org",
+   "url": "https://whalingmuseum.org/"
+  },
+  {
+   "name": "whalinghistory.org",
+   "url": "https://whalinghistory.org/databases/"
+  },
+  {
+   "name": "whalinghistory.org",
+   "url": "https://whalinghistory.org/av/voyages/"
+  },
+  {
+   "name": "whalinghistory.org",
+   "url": "https://whalinghistory.org/av/logs/aowl/"
+  },
+  {
+   "name": "whalinghistory.org",
+   "url": "https://whalinghistory.org/av/crew/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-26",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "whalinghistory.org",
+  "host": "whalinghistory.org"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-07-13-4",
+ "title": "Digital payments in India",
+ "hook": "PhonePe, a digital payments company serving India, publishes quarterly aggregated data on users and transactions. The statistics, which go back to 2018 and power an interactive map, are available on a national, state, and district level. User counts are provided as totals, as well as grouped by device brand.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/PhonePe"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/PhonePe/pulse"
+  },
+  {
+   "name": "phonepe.com",
+   "url": "https://www.phonepe.com/pulse/explore/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-13",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

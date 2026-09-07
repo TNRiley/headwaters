@@ -1,0 +1,38 @@
+{
+ "id": "dip-2016-08-24-1",
+ "title": "Crime in cities",
+ "hook": "The Marshall Project has collected and analyzed four decades of FBI data “on the most serious violent crimes in 68 police jurisdictions.” The FBI data covers 1975 through 2014; the reporters “also obtained data directly from 61 local agencies for 2015 — a period for which the FBI has not yet released its numbers.” Between 2010 and 2015, violent crime increased most in Milwaukee (+11%) and declined most in Prince George’s County, Md.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/themarshallproject/city-crime"
+  }
+ ],
+ "articles": [
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/2016/08/18/crime-in-context"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-24",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

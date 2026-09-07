@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-07-24-2",
+ "title": "Human rights scores",
+ "hook": "The CIRIGHTS project aims “to create numerical measures for every internationally recognized human right for all countries of the world.” The team has developed a detailed guide to scoring each government’s record on dozens of such rights, such as freedom of religion, women’s political rights, freedom from extrajudicial killings, the right to a fair trial, and “reasonable limits” on working hours.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cirights.com",
+   "url": "https://cirights.com/"
+  },
+  {
+   "name": "cirights.com",
+   "url": "https://cirights.com/learn-about-the-cirights-project/"
+  },
+  {
+   "name": "papers.ssrn.com",
+   "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4625036"
+  },
+  {
+   "name": "cirights.com",
+   "url": "https://cirights.com/rights-we-score/"
+  },
+  {
+   "name": "state.gov",
+   "url": "https://www.state.gov/reports-bureau-of-democracy-human-rights-and-labor/country-reports-on-human-rights-practices/"
+  },
+  {
+   "name": "amnesty.org",
+   "url": "https://www.amnesty.org/en/annual-report-archive/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-24",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cirights.com",
+  "host": "cirights.com"
+ }
+}

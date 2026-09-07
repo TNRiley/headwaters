@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-01-09-4",
+ "title": "Dual citizenship policies",
+ "hook": "If you decide to acquire a new citizenship, do you get to keep your previous one? Are you allowed to renounce it? The Maastricht Center for Citizenship, Migration and Development’s Global Expatriate Dual Citizenship Dataset tracks how 200 countries have, each year since 1960, treated this situation.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "macimide.maastrichtuniversity.nl",
+   "url": "https://macimide.maastrichtuniversity.nl/dual-cit-database/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TTMZ08"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-09",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "macimide.maastrichtuniversity.nl",
+  "host": "macimide.maastrichtuniversity.nl"
+ }
+}

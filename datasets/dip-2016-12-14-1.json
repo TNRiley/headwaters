@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-12-14-1",
+ "title": "Medicare drug costs",
+ "hook": "The federal government has released data on Medicare’s prescription drug spending from 2011 to 2015. Previously, Medicare had only published data on the most expensive drugs; the new release includes data on all drugs used by at least 11 Medicare patients in a given year.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cms.gov",
+   "url": "https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Information-on-Prescription-Drugs/2015MedicareData.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-12-14",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-12-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Centers for Medicare & Medicaid Services",
+  "host": "cms.gov"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "dip-2020-02-12-5",
+ "title": "Biggie data",
+ "hook": "What are the greatest hip-hop songs of all time? Last year, the BBC posed that question to more than 100 artists, producers, critics, and other experts, asking each to rank their top five tracks.",
+ "hook_source": "publisher",
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "journalism",
+ "geography": "",
+ "sources": [
+  {
+   "name": "simonjockers.de",
+   "url": "https://simonjockers.de"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/sjockers/bbc-best-rapmusic"
+  },
+  {
+   "name": "blog.datawrapper.de",
+   "url": "https://blog.datawrapper.de/best-hip-hop-songs-of-all-time-visualized/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "bbc.com",
+   "url": "http://www.bbc.com/culture/story/20191007-the-greatest-hip-hop-songs-of-all-time-who-voted"
+  },
+  {
+   "name": "bbc.com",
+   "url": "http://www.bbc.com/culture/story/20191007-the-greatest-hip-hop-songs-of-all-time"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-12",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "simonjockers.de",
+  "host": "simonjockers.de"
+ }
+}

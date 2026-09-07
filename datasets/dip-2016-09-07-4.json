@@ -1,0 +1,43 @@
+{
+ "id": "dip-2016-09-07-4",
+ "title": "Innovation nation",
+ "hook": "Last week, a team of researchers published HistPat, a database containing county-of-residence data for 2.8 million U.S. patents granted between 1836 and 1975. The database covers approximately 83% of all patents granted to U.S. residents during that time, according to the authors.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "http://www.nature.com/articles/sdata201674"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BPC15W"
+  },
+  {
+   "name": "nber.org",
+   "url": "http://www.nber.org/patents/"
+  },
+  {
+   "name": "developer.uspto.gov",
+   "url": "https://developer.uspto.gov/product/cancer-moonshot-patent-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-07",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

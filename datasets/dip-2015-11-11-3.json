@@ -1,0 +1,33 @@
+{
+ "id": "dip-2015-11-11-3",
+ "title": "Albuquerque’s impressive open-data program",
+ "hook": "The New Mexico city publishes dozens of regularly-updated, well-documented datasets. Among them: government employee earnings, the number of daily visitors to the city’s swimming pools, real-time bus locations, the geography of police beats, and the city’s complete vendor checkbook.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "cabq.gov",
+   "url": "http://www.cabq.gov/abq-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-11",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cabq.gov",
+  "host": "cabq.gov"
+ }
+}

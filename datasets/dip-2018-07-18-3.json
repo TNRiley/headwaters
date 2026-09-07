@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-07-18-3",
+ "title": "Building footprints",
+ "hook": "Microsoft’s Bing Maps team has published an open dataset describing the outlines of nearly 125 million buildings in the United States. To build the dataset, the team trained neural networks to detect buildings’ footprints in satellite images.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "blogs.bing.com",
+   "url": "https://blogs.bing.com/maps/2018-06/microsoft-releases-125-million-building-footprints-in-the-us-as-open-data"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Microsoft/USBuildingFootprints"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-07-18",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-07-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "blogs.bing.com",
+  "host": "blogs.bing.com"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "dip-2022-07-27-2",
+ "title": "Hospital price lists",
+ "hook": "Since January 2021, the US government has required hospitals to publish machine-readable files listing the standard charges for all items and services they provide.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cms.gov",
+   "url": "https://www.cms.gov/hospital-price-transparency"
+  },
+  {
+   "name": "patientrightsadvocate.org",
+   "url": "https://www.patientrightsadvocate.org/semi-annual-compliance-report-2022"
+  },
+  {
+   "name": "dolthub.com",
+   "url": "https://www.dolthub.com/"
+  },
+  {
+   "name": "dolthub.com",
+   "url": "https://www.dolthub.com/blog/2022-04-22-hospital-price-transparency-retrospective/"
+  },
+  {
+   "name": "dolthub.com",
+   "url": "https://www.dolthub.com/blog/2022-07-01-hospitals-compliance/"
+  },
+  {
+   "name": "dolthub.com",
+   "url": "https://www.dolthub.com/repositories/dolthub/hospital-price-transparency-v3"
+  },
+  {
+   "name": "hcai.ca.gov",
+   "url": "https://hcai.ca.gov/data-and-reports/cost-transparency/hospital-chargemasters/"
+  },
+  {
+   "name": "chhs.ca.gov",
+   "url": "https://data.chhs.ca.gov/dataset/chargemasters"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-27",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Centers for Medicare & Medicaid Services",
+  "host": "cms.gov"
+ }
+}

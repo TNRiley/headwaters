@@ -1,0 +1,37 @@
+{
+ "id": "dip-2023-03-08-3",
+ "title": "Changes of address",
+ "hook": "In the “Frequently Requested Records” section of its online FOIA library, the US Postal Service provides datasets counting how many individuals, families, and businesses have registered for the agency’s change-of-address service, by month and ZIP code.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "about.usps.com",
+   "url": "https://about.usps.com/who/legal/foia/library.htm"
+  },
+  {
+   "name": "postalpro.usps.com",
+   "url": "https://postalpro.usps.com/ncoalink/Full_Service_Provider_Licensees"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-08",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "about.usps.com",
+  "host": "about.usps.com"
+ }
+}

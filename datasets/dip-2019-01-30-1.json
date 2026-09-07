@@ -1,0 +1,70 @@
+{
+ "id": "dip-2019-01-30-1",
+ "title": "Fatal and non-fatal gun crime",
+ "hook": "On Thursday, Sarah Ryley, Sean Campbell, and I published a deeply-reported investigation into U.S. cities’ failure to solve shootings — a year-long collaboration between The Trace and BuzzFeed News.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "thetrace.org",
+   "url": "https://www.thetrace.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-trace-and-buzzfeed-news/federal-crime-data-analysis"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-trace-and-buzzfeed-news/local-police-data-analysis"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-trace-and-buzzfeed-news/baltimore-shootings-analysis"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-trace-and-buzzfeed-news/introduction"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/washingtonpost/data-homicides"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/sarahryley/police-unsolved-shootings"
+  },
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/"
+  },
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/sarahryley/5-things-to-know-about-cities-failure-to-arrest-shooters"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/graphics/2018/investigations/where-murders-go-unsolved/?utm_term=.a53db2e96521"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-30",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "thetrace.org",
+  "host": "thetrace.org"
+ }
+}

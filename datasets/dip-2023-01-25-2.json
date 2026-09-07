@@ -1,0 +1,58 @@
+{
+ "id": "dip-2023-01-25-2",
+ "title": "Jazz solos",
+ "hook": "The Jazzomat Research Project, hosted at the University of Music Franz Liszt Weimar, aims “to investigate the creative processes underlying jazz solo improvisations with the help of statistical and computational methods.” The project’s main database contains transcriptions and analyses of 450+ solos by John Coltrane, Charlie Parker, and dozens of other artists.",
+ "hook_source": "publisher",
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "jazzomat.hfm-weimar.de",
+   "url": "https://jazzomat.hfm-weimar.de/"
+  },
+  {
+   "name": "hfm-weimar.de",
+   "url": "https://www.hfm-weimar.de/en/start"
+  },
+  {
+   "name": "jazzomat.hfm-weimar.de",
+   "url": "https://jazzomat.hfm-weimar.de/dbformat/dboverview.html"
+  },
+  {
+   "name": "jazzomat.hfm-weimar.de",
+   "url": "https://jazzomat.hfm-weimar.de/dbformat/dbcontent.html"
+  },
+  {
+   "name": "jazzomat.hfm-weimar.de",
+   "url": "https://jazzomat.hfm-weimar.de/download/download.html"
+  },
+  {
+   "name": "jazzomat.hfm-weimar.de",
+   "url": "https://jazzomat.hfm-weimar.de/dbformat/dbformat.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "npr.org",
+   "url": "https://www.npr.org/sections/health-shots/2023/01/18/1139783203/what-makes-songs-swing-physicists-unravel-jazz-mystery"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-25",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "jazzomat.hfm-weimar.de",
+  "host": "jazzomat.hfm-weimar.de"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "dip-2021-02-03-3",
+ "title": "Even more mortality data",
+ "hook": "The World Mortality Dataset contains recent “all-cause mortality” counts for 79 countries, aggregated to weekly, monthly, or quarterly totals (depending on availability).",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/akarlinsky/world_mortality"
+  },
+  {
+   "name": "akarlinsky.github.io",
+   "url": "https://akarlinsky.github.io/"
+  },
+  {
+   "name": "dkobak.github.io",
+   "url": "https://dkobak.github.io/"
+  },
+  {
+   "name": "mortality.org",
+   "url": "https://www.mortality.org/"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Weekly_death_statistics&stable"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/nytimes/covid-19-data/tree/master/excess-deaths"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-05-27-edition"
+  },
+  {
+   "name": "medrxiv.org",
+   "url": "https://www.medrxiv.org/content/10.1101/2021.01.27.21250604v1"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-02-03",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-02-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-02-03-5",
+ "title": "Movie chatter",
+ "hook": "The Cornell Movie-Dialogs Corpus contains 220,579 “conversational exchanges” between 9,035 characters in 617 movies. Included: “Hello. My name is Inigo Montoya. You killed my father. Prepare to die.”",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "cs.cornell.edu",
+   "url": "http://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-03",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cs.cornell.edu",
+  "host": "cs.cornell.edu"
+ }
+}

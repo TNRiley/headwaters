@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-08-10-3",
+ "title": "CPUs and GPUs",
+ "hook": "Yifan Sun et al., seeking to test Moore’s Law and Dennard scaling, “have collected data for all CPU and GPU products (to our best knowledge) that have been released by Intel, AMD [...], and NVIDIA since January 1st, 2000.” The authors’ dataset and charting tool, describing 4,800+ processors through early 2021, uses information gathered from TechPowerUp, WikiChip, and company websites.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/1911.11313"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Moore%27s_law"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Dennard_scaling"
+  },
+  {
+   "name": "chip-dataset.vercel.app",
+   "url": "https://chip-dataset.vercel.app/"
+  },
+  {
+   "name": "techpowerup.com",
+   "url": "https://www.techpowerup.com/"
+  },
+  {
+   "name": "en.wikichip.org",
+   "url": "https://en.wikichip.org/wiki/WikiChip"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-10",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arxiv.org",
+  "host": "arxiv.org"
+ }
+}

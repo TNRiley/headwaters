@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-10-25-4",
+ "title": "Postal code ecology",
+ "hook": "David Willinger et al. have used two major satellite data sources — the Shuttle Radar Topography Mission and Advanced Spaceborne Thermal Emission and Reflection Radiometer — to create ecolo-zip, “a novel geospatial dataset that provides a granular-yet-global, parsimonious-yet-rich ecological characterization of over…",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-023-02579-0"
+  },
+  {
+   "name": "www2.jpl.nasa.gov",
+   "url": "https://www2.jpl.nasa.gov/srtm/index.html"
+  },
+  {
+   "name": "asterweb.jpl.nasa.gov",
+   "url": "https://asterweb.jpl.nasa.gov/"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/wcjad/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-10-25",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-10-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

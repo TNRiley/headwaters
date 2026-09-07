@@ -1,0 +1,50 @@
+{
+ "id": "dip-2016-01-06-3",
+ "title": "NYC felonies",
+ "hook": "The historically opaque New York Police Department has finally started publishing incident-level felony data — something that cities such as Chicago and Boston have done for years. The dataset includes the date, time, and approximate location of each offense.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "gothamist.com",
+   "url": "http://gothamist.com/2014/03/21/nypd_transparency.php"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/Public-Safety/NYPD-7-Major-Felony-Incidents/hyij-8hr7"
+  },
+  {
+   "name": "nyc.gov",
+   "url": "http://www.nyc.gov/html/nypd/downloads/pdf/analysis_and_planning/NYPDIncidentLevelDataFootnotes.pdf"
+  },
+  {
+   "name": "iquantny.tumblr.com",
+   "url": "http://iquantny.tumblr.com/post/136641945194/your-neighborhoods-crime-rank-insights-from-the"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "http://fivethirtyeight.com/features/which-cities-share-the-most-crime-data/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-06",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gothamist.com",
+  "host": "gothamist.com"
+ }
+}

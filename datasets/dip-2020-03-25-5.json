@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-03-25-5",
+ "title": "Unfinished business",
+ "hook": "BusinessFinancing.co.uk attempted to identify the oldest, still-operating companies in every country in the world, and put its findings into a spreadsheet. [h/t Giuseppe Sollazzo + Iman Ghosh]",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "businessfinancing.co.uk",
+   "url": "https://businessfinancing.co.uk/about/"
+  },
+  {
+   "name": "businessfinancing.co.uk",
+   "url": "https://businessfinancing.co.uk/the-oldest-company-in-almost-every-country/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1ynIAoLhz0SZYzjpwZ5e5mFzBxt6V28FTBjX7A99jq3E/edit#gid=1002274442"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-25",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "businessfinancing.co.uk",
+  "host": "businessfinancing.co.uk"
+ }
+}

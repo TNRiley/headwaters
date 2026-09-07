@@ -1,0 +1,46 @@
+{
+ "id": "dip-2018-08-08-3",
+ "title": "Overlooked computer scientists",
+ "hook": "Researchers at Primer, a machine learning and natural language processing startup, have released a dataset describing more than 36,000 notable computer scientists, “only 15%” of which have Wikipedia biographies.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "blog.primer.ai",
+   "url": "https://blog.primer.ai/technology/2018/08/03/Quicksilver.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/PrimerAI/primer_quicksilver"
+  },
+  {
+   "name": "labs.semanticscholar.org",
+   "url": "http://labs.semanticscholar.org/corpus/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "wired.com",
+   "url": "https://www.wired.com/story/using-artificial-intelligence-to-fix-wikipedias-gender-problem/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-08",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "blog.primer.ai",
+  "host": "blog.primer.ai"
+ }
+}

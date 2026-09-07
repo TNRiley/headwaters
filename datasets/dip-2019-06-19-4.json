@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-06-19-4",
+ "title": "European monarchs",
+ "hook": "Developer Michael Zemel has built an interactive timeline of 282 European kings, queens, emperors, and other monarchs. For each, the data includes his or her name, religion, period of reign, reason for losing power, wars involved in, relationships, and notable events.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "thebackend.dev",
+   "url": "https://thebackend.dev/"
+  },
+  {
+   "name": "thebackend.dev",
+   "url": "https://thebackend.dev/monarchs/"
+  },
+  {
+   "name": "thebackend.dev",
+   "url": "https://thebackend.dev/building-monarchs"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/mzemel/monarchs"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-19",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "thebackend.dev",
+  "host": "thebackend.dev"
+ }
+}

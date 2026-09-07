@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-08-21-3",
+ "title": "A decade of TV news words",
+ "hook": "The TV-NGRAM project pulls 14 TV stations’ data from the Television News Archive and calculates how often each word (and two-word combination) was said during each 30-minute window. Most of the stations’ counts go back 9 or 10 years, and all are updated daily.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "blog.gdeltproject.org",
+   "url": "https://blog.gdeltproject.org/announcing-the-television-news-ngram-datasets-tv-ngram/"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/tv"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-21",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "blog.gdeltproject.org",
+  "host": "blog.gdeltproject.org"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2017-09-20-1",
+ "title": "Broadband access and cost",
+ "hook": "The U.S. Federal Communications Commission publishes a ton of data on the “wireline” telecommunications industry, including several datasets about broadband internet access.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/general/iatd-data-statistical-reports"
+  },
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/general/broadband-deployment-data-fcc-form-477"
+  },
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/general/form-477-census-tract-data-internet-access-services"
+  },
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/general/urban-rate-survey-data-resources"
+  },
+  {
+   "name": "brookings.edu",
+   "url": "https://www.brookings.edu/research/signs-of-digital-distress-mapping-broadband-availability/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-09-20",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-09-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fcc.gov",
+  "host": "fcc.gov"
+ }
+}

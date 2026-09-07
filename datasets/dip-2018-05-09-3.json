@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-05-09-3",
+ "title": "Himalayan expeditions",
+ "hook": "The Himalayan Database tracks “all expeditions that have climbed in the Nepalese Himalaya.” The hyper-detailed database “is based on the expedition archives of Elizabeth Hawley, a longtime journalist based in Kathmandu, and it is supplemented by information gathered from books, alpine journals and correspondence with Himalayan climbers.” The database — long accessible only on CD, for a fee — is now available to download for free.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "himalayandatabase.com",
+   "url": "http://himalayandatabase.com/index.html"
+  },
+  {
+   "name": "himalayandatabase.com",
+   "url": "http://himalayandatabase.com/downloads.html"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Yuichiro_Miura"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-05-09",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-05-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The Himalayan Database",
+  "host": "himalayandatabase.com"
+ }
+}

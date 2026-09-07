@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-01-19-2",
+ "title": "Foreign commerce interventions",
+ "hook": "The Global Trade Alert, launched in 2009, “provides timely information on state interventions taken since November 2008 that are likely to affect foreign commerce,” such as new subsidies, export quotas, import tariffs, or anti-dumping laws.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "globaltradealert.org",
+   "url": "https://www.globaltradealert.org/"
+  },
+  {
+   "name": "globaltradealert.org",
+   "url": "https://www.globaltradealert.org/about"
+  },
+  {
+   "name": "globaltradealert.org",
+   "url": "https://www.globaltradealert.org/data_extraction"
+  },
+  {
+   "name": "unisg.ch",
+   "url": "https://www.unisg.ch/en/wissen/newsroom/aktuell/rssnews/forschung-lehre/2020/november/stgallen-endowment-for-prosperity-through-trade-26november2020"
+  },
+  {
+   "name": "globaltradealert.org",
+   "url": "https://www.globaltradealert.org/digital_policy"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-19",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "globaltradealert.org",
+  "host": "globaltradealert.org"
+ }
+}

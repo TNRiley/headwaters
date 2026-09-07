@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-09-14-2",
+ "title": "Health habits",
+ "hook": "The CDC calls its Behavioral Risk Factor Surveillance System “the largest continuously conducted health survey system in the world.” Every year, the survey asks more than 400,000 American adults about a range of health-related topics, from tobacco to seatbelt use, from alcohol consumption to arthritis, from HIV testing to immunizations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdc.gov",
+   "url": "http://www.cdc.gov/brfss/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-14",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

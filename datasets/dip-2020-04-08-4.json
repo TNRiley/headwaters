@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-04-08-4",
+ "title": "Police drones",
+ "hook": "Last month, the Center for the Study of the Drone at Bard College released the third edition of its Public Safety Drones report, in which researchers identified “1,578 state and local police, sheriff, fire, and emergency services agencies in the U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "dronecenter.bard.edu",
+   "url": "https://dronecenter.bard.edu/about/"
+  },
+  {
+   "name": "dronecenter.bard.edu",
+   "url": "https://dronecenter.bard.edu/projects/public-safety-drones-project/public-safety-drones-3rd-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-08",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dronecenter.bard.edu",
+  "host": "dronecenter.bard.edu"
+ }
+}

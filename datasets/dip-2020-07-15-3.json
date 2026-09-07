@@ -1,0 +1,50 @@
+{
+ "id": "dip-2020-07-15-3",
+ "title": "COVID cases in migrant worker dorms",
+ "hook": "The anonymous author of Squirrelling Data has been collating information from the Singapore Ministry of Health’s coronavirus press releases. Among the datasets: daily case counts in dozens of migrant worker dormitories, which have been hit hard. [h/t Joses Ho]",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "squirrellingdata.wixsite.com",
+   "url": "https://squirrellingdata.wixsite.com/home/"
+  },
+  {
+   "name": "squirrellingdata.wixsite.com",
+   "url": "https://squirrellingdata.wixsite.com/home/post/singapore-covid-19-data"
+  },
+  {
+   "name": "moh.gov.sg",
+   "url": "https://www.moh.gov.sg/news-highlights/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1NcoRQkvlPTiXh1_CWtjQFyyGXNTY5enbRPNLf4cHuhc/edit#gid=0"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/world/2020/apr/23/singapore-million-migrant-workers-suffer-as-covid-19-surges-back"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "squirrellingdata.wixsite.com",
+  "host": "squirrellingdata.wixsite.com"
+ }
+}

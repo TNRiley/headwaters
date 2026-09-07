@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-07-10-4",
+ "title": "California parks and wilderness",
+ "hook": "With more than 15,000 “super units,” and an even larger number of subdivisions within them, the California Protected Areas Database is “the authoritative GIS database of parks and open space in California.” It’s one of the two main databases that the California Natural Resources Agency publishes regarding protected lands; the other, the California Conservation Easement Database, tracks restricted-use private land.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "calands.org",
+   "url": "https://www.calands.org/cpad/"
+  },
+  {
+   "name": "cnra.ca.gov",
+   "url": "https://data.cnra.ca.gov/dataset/california-protected-areas-database-2019a"
+  },
+  {
+   "name": "cnra.ca.gov",
+   "url": "https://data.cnra.ca.gov/organization/protected-areas-gis-data"
+  },
+  {
+   "name": "resources.ca.gov",
+   "url": "http://resources.ca.gov/"
+  },
+  {
+   "name": "cnra.ca.gov",
+   "url": "https://data.cnra.ca.gov/dataset/california-conservation-easement-database-2018"
+  },
+  {
+   "name": "calands.org",
+   "url": "https://www.calands.org/cced/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-10",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "calands.org",
+  "host": "calands.org"
+ }
+}

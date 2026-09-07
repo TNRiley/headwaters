@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-01-05-3",
+ "title": "Medical drug names",
+ "hook": "To build their International Drug Dictionary, Mohammad A. Khaleel et al. collected trade names and ingredient names “from open access websites belonging to official drug regulatory agencies, official healthcare systems, or recognized scientific bodies from 44 countries around the world,” among other sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "mendeley.com",
+   "url": "https://data.mendeley.com/datasets/9nmgzttxhm/1"
+  },
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340921009768"
+  },
+  {
+   "name": "nlm.nih.gov",
+   "url": "https://www.nlm.nih.gov/research/umls/rxnorm/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-05",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mendeley.com",
+  "host": "mendeley.com"
+ }
+}

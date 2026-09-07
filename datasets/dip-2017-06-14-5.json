@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-06-14-5",
+ "title": "L.A. pot dispensaries",
+ "hook": "The Los Angeles City Controller has released a map of the city’s openly-operating medical marijuana businesses. You can access a spreadsheet of the 191 dispensaries that comply with Proposition D, which the city passed in 2013.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "lacontroller.org",
+   "url": "http://www.lacontroller.org/mjrelease"
+  },
+  {
+   "name": "lacontroller.maps.arcgis.com",
+   "url": "http://lacontroller.maps.arcgis.com/apps/Cascade/index.html?appid=8737a0a6f867495d93b6ba484eaf8cbc"
+  },
+  {
+   "name": "controllerdata.lacity.org",
+   "url": "https://controllerdata.lacity.org/Revenue/191-Prop-D-Compliant-Medical-Marijuana-Businesses/vva2-przx/"
+  },
+  {
+   "name": "ballotpedia.org",
+   "url": "https://ballotpedia.org/City_of_Los_Angeles_Medical_Marijuana_Dispensaries,_Measures_D,_E_and_F_(May_2013)"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-14",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lacontroller.org",
+  "host": "lacontroller.org"
+ }
+}

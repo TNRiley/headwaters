@@ -1,0 +1,31 @@
+{
+ "id": "dip-2018-07-04-5",
+ "title": "Cars at auction",
+ "hook": "Kansas City publishes a dataset of cars for sale at its monthly auction. As of yesterday, the dataset contained 482 cars. For each car, the variables include the make, model, year, VIN, reason for being auctioned — e.g., “abandoned,” “stolen,” “illegally parked” — and other details.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "kcmo.org",
+   "url": "https://data.kcmo.org/Traffic/Kansas-City-Monthly-Car-Auction/32xf-gvw8"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-07-04",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-07-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "kcmo.org",
+  "host": "kcmo.org"
+ }
+}

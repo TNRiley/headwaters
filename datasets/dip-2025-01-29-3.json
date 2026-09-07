@@ -1,0 +1,45 @@
+{
+ "id": "dip-2025-01-29-3",
+ "title": "Hurricane landfalls",
+ "hook": "NOAA’s Hurricane Research Division maintains a table of hurricanes that have made landfall on the continental US since the 1850s. It records the year and month of landfall, designated name, states affected, the highest Saffir-Simpson category, central pressure at landfall, and maximum sustained wind speed.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "aoml.noaa.gov",
+   "url": "https://www.aoml.noaa.gov/hurricane-research-division/"
+  },
+  {
+   "name": "aoml.noaa.gov",
+   "url": "https://www.aoml.noaa.gov/hrd/hurdat/All_U.S._Hurricanes.html"
+  },
+  {
+   "name": "nhc.noaa.gov",
+   "url": "https://www.nhc.noaa.gov/aboutsshws.php"
+  },
+  {
+   "name": "aoml.noaa.gov",
+   "url": "https://www.aoml.noaa.gov/hrd/hurdat/UShurrs_detailed.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-01-29",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-01-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aoml.noaa.gov",
+  "host": "aoml.noaa.gov"
+ }
+}

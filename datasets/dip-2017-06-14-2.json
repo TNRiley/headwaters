@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-06-14-2",
+ "title": "Federal corporate prosecutions",
+ "hook": "Last week, the University of Virginia School of Law launched an expanded version of its Corporate Prosecution Registry.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "content.law.virginia.edu",
+   "url": "http://content.law.virginia.edu/news/201706/go-resource-researching-corporate-prosecution-just-got-more-powerful"
+  },
+  {
+   "name": "lib.law.virginia.edu",
+   "url": "http://lib.law.virginia.edu/Garrett/corporate-prosecution-registry/index.html"
+  },
+  {
+   "name": "lib.law.virginia.edu",
+   "url": "http://lib.law.virginia.edu/Garrett/corporate-prosecution-registry/about.html"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-11-11-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-14",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "content.law.virginia.edu",
+  "host": "content.law.virginia.edu"
+ }
+}

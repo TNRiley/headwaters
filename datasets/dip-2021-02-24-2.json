@@ -1,0 +1,57 @@
+{
+ "id": "dip-2021-02-24-2",
+ "title": "Machine learning papers, code, and datasets",
+ "hook": "Papers with Code cross-references machine learning papers with their datasets, code, and results. The project has connected 56,000+ of those papers to specific code repositories, and assembled a meta-dataset of 3,000+ relevant datasets. The records can be downloaded in bulk or fetched via API.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "paperswithcode.com",
+   "url": "https://paperswithcode.com/about"
+  },
+  {
+   "name": "paperswithcode.com",
+   "url": "https://paperswithcode.com/datasets"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/paperswithcode/paperswithcode-data"
+  },
+  {
+   "name": "paperswithcode.com",
+   "url": "https://paperswithcode.com/api/v1/docs/"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2102.00813"
+  },
+  {
+   "name": "technologyreview.com",
+   "url": "https://www.technologyreview.com/2021/02/05/1017388/ai-deep-learning-facial-recognition-data-history/"
+  },
+  {
+   "name": "exposing.ai",
+   "url": "https://exposing.ai/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-02-24",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-02-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "paperswithcode.com",
+  "host": "paperswithcode.com"
+ }
+}

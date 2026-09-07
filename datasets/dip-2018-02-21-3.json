@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-02-21-3",
+ "title": "Happy moments",
+ "hook": "HappyDB is “a corpus of 100,000 crowd-sourced happy moments.” An example: “My son gave me a big hug in the morning when I woke him up.” The researchers, who recently described their efforts in an academic paper, collected the sentiments from Mechanical Turk workers, who also supplied basic demographic information, such as age, gender, and whether they have children.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "rit-public.github.io",
+   "url": "https://rit-public.github.io/HappyDB/"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/1801.07746"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-21",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rit-public.github.io",
+  "host": "rit-public.github.io"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-04-12-4",
+ "title": "Flash flooding in urban England",
+ "hook": "ClimateNode’s Helen Jackson has created a dataset and series of interactive maps of recent summertime flash flooding in urban England.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "climatenode.org",
+   "url": "https://www.climatenode.org/index.html"
+  },
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/in/helen-jackson-28926285/"
+  },
+  {
+   "name": "climatenode.org",
+   "url": "https://www.climatenode.org/maps/about_UFF_maps.html"
+  },
+  {
+   "name": "climatenode.org",
+   "url": "https://www.climatenode.org/maps/UFFEdoc.pdf"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Natural_language_processing"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-12",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "climatenode.org",
+  "host": "climatenode.org"
+ }
+}

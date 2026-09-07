@@ -1,0 +1,55 @@
+{
+ "id": "dip-2021-04-28-3",
+ "title": "Congressional scandals",
+ "hook": "In 2018, Michael G. Miller and Brian T. Hamel published a study examining how voters and donors responded to scandals embroiling members of the US House between 1980 and 2010, building on the work of Scott Basinger and others.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "michaelgmiller.com",
+   "url": "https://www.michaelgmiller.com/"
+  },
+  {
+   "name": "brianhamel.me",
+   "url": "https://www.brianhamel.me/"
+  },
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/full/10.1177/1065912918781044"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/file.xhtml?fileId=4575902&version=1.0"
+  },
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/abs/10.1177/1065912912451144"
+  },
+  {
+   "name": "bloomsburycollections.com",
+   "url": "https://www.bloomsburycollections.com/book/scandal-an-interdisciplinary-approach-to-the-consequences-outcomes-and-significance-of-political-scandals/preface"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/BID3QM"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-28",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "michaelgmiller.com",
+  "host": "michaelgmiller.com"
+ }
+}

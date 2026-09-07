@@ -1,0 +1,37 @@
+{
+ "id": "dip-2022-03-23-1",
+ "title": "HealthCare.gov plans",
+ "hook": "A series of datasets from the US Centers for Medicare & Medicaid Services describes all the plans available through the government’s health insurance marketplace. The information resembles that available through HealthCare.gov, but is provided as structured, downloadable files.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cms.gov",
+   "url": "https://www.cms.gov/CCIIO/Resources/Data-Resources/marketplace-puf"
+  },
+  {
+   "name": "healthcare.gov",
+   "url": "https://www.healthcare.gov/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-23",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Centers for Medicare & Medicaid Services",
+  "host": "cms.gov"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-08-24-3",
+ "title": "Oil concessions",
+ "hook": "The OpenOil project aims to collect and standardizes data oil and gas development contracts around the world. So far, they’ve gathered at least some data from more than 60 countries. They’ve also published a map of oil concessions in the Middle East and Africa. [h/t Michael Gardiner]",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "other",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "openoil.net",
+   "url": "http://openoil.net/"
+  },
+  {
+   "name": "repository.openoil.net",
+   "url": "http://repository.openoil.net/wiki/Concession_Layer_Methodology"
+  },
+  {
+   "name": "maps.openoil.net",
+   "url": "http://maps.openoil.net/concessions/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-24",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openoil.net",
+  "host": "openoil.net"
+ }
+}

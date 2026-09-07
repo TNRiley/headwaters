@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-03-24-2",
+ "title": "Food-related GHG emissions",
+ "hook": "EDGAR-FOOD, a new dataset from European Commission researchers, provides estimates of the global food system’s greenhouse gas emissions, “consistently covering each stage of the food chain for all countries with yearly frequency for the period 1990–2015.” The dataset distinguishes between four kinds of greenhouse and eight stages: “land use/land-use change activities,” production, processing, packaging, transport, retail, consumption, and waste management.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "edgar.jrc.ec.europa.eu",
+   "url": "https://edgar.jrc.ec.europa.eu/overview.php?v=EDGAR-FOOD"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s43016-021-00225-9"
+  },
+  {
+   "name": "carbonbrief.org",
+   "url": "https://www.carbonbrief.org/food-systems-responsible-for-one-third-of-human-caused-emissions"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-24",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "edgar.jrc.ec.europa.eu",
+  "host": "edgar.jrc.ec.europa.eu"
+ }
+}

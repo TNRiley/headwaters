@@ -1,0 +1,57 @@
+{
+ "id": "dip-2017-05-31-4",
+ "title": "Industrial sector data",
+ "hook": "Aswath Damodaran — a professor of finance at the NYU’s business school — maintains a trove of data on per-sector financials, including effective tax rates, return on equity, and working capital ratios by industry. For most datasets, Damodaran publishes both current and historical versions. [h/t Tim McGovern]",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "pages.stern.nyu.edu",
+   "url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/"
+  },
+  {
+   "name": "pages.stern.nyu.edu",
+   "url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/data.html"
+  },
+  {
+   "name": "pages.stern.nyu.edu",
+   "url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/taxrate.htm"
+  },
+  {
+   "name": "pages.stern.nyu.edu",
+   "url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/roe.html"
+  },
+  {
+   "name": "pages.stern.nyu.edu",
+   "url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/wcdata.html"
+  },
+  {
+   "name": "pages.stern.nyu.edu",
+   "url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/datacurrent.html"
+  },
+  {
+   "name": "pages.stern.nyu.edu",
+   "url": "http://pages.stern.nyu.edu/~adamodar/New_Home_Page/dataarchived.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-31",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pages.stern.nyu.edu",
+  "host": "pages.stern.nyu.edu"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "dip-2022-12-21-2",
+ "title": "State-authorized sports betting",
+ "hook": "Legal Sports Report, a gambling industry publication, has been tracking the amount of money legally wagered on sports in each US state, the amount kept by sportsbooks, and how much the government collected in taxes or revenue-sharing.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "legalsportsreport.com",
+   "url": "https://www.legalsportsreport.com/"
+  },
+  {
+   "name": "legalsportsreport.com",
+   "url": "https://www.legalsportsreport.com/sports-betting/revenue/"
+  },
+  {
+   "name": "legalsportsreport.com",
+   "url": "https://www.legalsportsreport.com/sportsbetting-bill-tracker/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "bloomberg.com",
+   "url": "https://www.bloomberg.com/news/articles/2022-12-02/how-a-lobbying-frenzy-helped-sports-betting-apps-write-their-own-rules"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-12-21",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-12-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "legalsportsreport.com",
+  "host": "legalsportsreport.com"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-09-01-4",
+ "title": "Worker strikes in China",
+ "hook": "China Labour Bulletin, founded in 1994 as a monthly newsletter, is a Hong Kong–based organization “that supports and actively engages with the workers’ movement in China.” Its map and dataset of worker strikes and protests provides details on 13,000+ events since 2011, including their location, date, and description; industry categories and ownership types; employee demands; and authorities’ response.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "clb.org.hk",
+   "url": "https://clb.org.hk/"
+  },
+  {
+   "name": "clb.org.hk",
+   "url": "https://clb.org.hk/content/about-us-0"
+  },
+  {
+   "name": "maps.clb.org.hk",
+   "url": "https://maps.clb.org.hk/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-01",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "clb.org.hk",
+  "host": "clb.org.hk"
+ }
+}

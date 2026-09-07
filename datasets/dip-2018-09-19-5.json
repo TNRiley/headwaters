@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-09-19-5",
+ "title": "New York real estate brokers",
+ "hook": "New York State’s Department of State publishes a structured listing of all real estate brokers, salespeople, and offices currently licensed by the agency. Roughly half of the 160,000 licensees are registered to business addresses in New York City.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ny.gov",
+   "url": "https://data.ny.gov/Economic-Development/Active-Real-Estate-Salespersons-and-Brokers/yg7h-zjbf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-09-19",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-09-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "MTA Permanent Art Catalog",
+  "host": "ny.gov"
+ }
+}

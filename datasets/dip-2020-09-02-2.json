@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-09-02-2",
+ "title": "School reopenings",
+ "hook": "Education Week is collecting coronavirus-era reopening plans “from a sample of school districts around the country.” The dataset (free registration required) covers more than 800 US public school districts so far, and is being updated weekly.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "edweek.org",
+   "url": "https://www.edweek.org/ew/section/multimedia/school-districts-reopening-plans-a-snapshot.html"
+  },
+  {
+   "name": "fs24.formsite.com",
+   "url": "https://fs24.formsite.com/edweek/lpuqp09jhq/index.html"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/articles/how-are-children-going-back-school-americas-225-largest-public-school-districts/"
+  },
+  {
+   "name": "coronaviral.fyi",
+   "url": "http://www.coronaviral.fyi/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/16f99488ylGL9L1BaeqaD-yy85mayS7-BSHJS31ukiXk/edit#gid=608920111"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-09-02",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-09-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "edweek.org",
+  "host": "edweek.org"
+ }
+}

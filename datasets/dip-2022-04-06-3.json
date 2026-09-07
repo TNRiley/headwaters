@@ -1,0 +1,58 @@
+{
+ "id": "dip-2022-04-06-3",
+ "title": "Electric vehicle registrations",
+ "hook": "The US Department of Energy’s Alternative Fuels Data Center hosts dozens of vehicle-related datasets, including the number of electric vehicle registrations in each state in 2020, hybrid sales by model from 1999 to 2019, and a database of manufacturers’ offerings. As seen in: “U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "afdc.energy.gov",
+   "url": "https://afdc.energy.gov/data/categories/vehicles--2"
+  },
+  {
+   "name": "afdc.energy.gov",
+   "url": "https://afdc.energy.gov/data/10962"
+  },
+  {
+   "name": "afdc.energy.gov",
+   "url": "https://afdc.energy.gov/data/10301"
+  },
+  {
+   "name": "afdc.energy.gov",
+   "url": "https://afdc.energy.gov/vehicles/search/"
+  },
+  {
+   "name": "afdc.energy.gov",
+   "url": "https://afdc.energy.gov/stations/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-09-08-edition/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "bloomberg.com",
+   "url": "https://www.bloomberg.com/opinion/articles/2022-01-22/u-s-has-a-blueprint-to-electrify-its-country-roads-for-evs"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-06",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "afdc.energy.gov",
+  "host": "afdc.energy.gov"
+ }
+}

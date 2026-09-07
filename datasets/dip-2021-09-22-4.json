@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-09-22-4",
+ "title": "Four decades of Spanish elections",
+ "hook": "The Spanish Electoral Archive, published this summer, provides detailed results of all municipal, regional, general, and European Parliament elections in Spain since the country’s transition to democracy in the late 1970s.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-021-00975-y"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Spanish_transition_to_democracy"
+  },
+  {
+   "name": "sea.uv.es",
+   "url": "http://sea.uv.es/gipeyop/sea.html"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataverse/SEA"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-22",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

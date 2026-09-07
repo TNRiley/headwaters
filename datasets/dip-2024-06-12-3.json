@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-06-12-3",
+ "title": "NYC shelter exits",
+ "hook": "A 2022 law requires New York City to report the monthly number of individuals and families exiting the city’s shelter system. Unfortunately, the city publishes those reports only as PDFs and without a historical archive.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "patrickspauster.com",
+   "url": "https://patrickspauster.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/pspauster/shelter-exits"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/pspauster/shelter-exits/tree/master/temporary_housing_reports"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/pspauster/shelter-exits/tree/master/data"
+  },
+  {
+   "name": "citylimits.org",
+   "url": "https://citylimits.org/2024/05/14/exit-unknown-where-do-people-go-after-leaving-nyc-homeless-shelters/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/anesta95/nyc_shelter_count"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2023-12-13-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-06-12",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-06-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "patrickspauster.com",
+  "host": "patrickspauster.com"
+ }
+}

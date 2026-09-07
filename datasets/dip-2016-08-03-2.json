@@ -1,0 +1,46 @@
+{
+ "id": "dip-2016-08-03-2",
+ "title": "Deaths in police custody",
+ "hook": "At least 6,913 people died while in the custody of Texas police, jails, and prisons between 2005 and 2015, according to the newly-launched Texas Justice Initiative.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "texasjusticeinitiative.org",
+   "url": "http://texasjusticeinitiative.org/"
+  },
+  {
+   "name": "openjustice.doj.ca.gov",
+   "url": "https://openjustice.doj.ca.gov/death-in-custody/overview"
+  },
+  {
+   "name": "openjustice.doj.ca.gov",
+   "url": "https://openjustice.doj.ca.gov/data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theatlantic.com",
+   "url": "http://www.theatlantic.com/politics/archive/2016/07/7000-deaths-in-custody-texas/493325/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-03",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "texasjusticeinitiative.org",
+  "host": "texasjusticeinitiative.org"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "dip-2020-07-08-2",
+ "title": "Women in office",
+ "hook": "Rutgers University’s Center for American Women and Politics has made public its Women Elected Officials Database, which “represents the most complete collection of information anywhere in the world about women elected officials in the United States.” It covers all “women who have held office at the congressional, statewide elected executive, and state legislative levels nationwide,” going back to the 1890s.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cawp.rutgers.edu",
+   "url": "https://cawp.rutgers.edu"
+  },
+  {
+   "name": "cawpdata.rutgers.edu",
+   "url": "https://cawpdata.rutgers.edu"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Laura_J._Eisenhuth"
+  },
+  {
+   "name": "cawpdata.rutgers.edu",
+   "url": "https://cawpdata.rutgers.edu/women-elected-officials"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CFPBRI"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-07-26-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-08",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cawp.rutgers.edu",
+  "host": "cawp.rutgers.edu"
+ }
+}

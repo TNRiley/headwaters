@@ -1,0 +1,33 @@
+{
+ "id": "dip-2020-08-05-5",
+ "title": "A lot of CAD sketches",
+ "hook": "SketchGraphs characterizes 15 million computer-aided design (CAD) sketches, “extracted from real-world CAD models” and obtained from a popular online CAD platform.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/PrincetonLIPS/SketchGraphs/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-05",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

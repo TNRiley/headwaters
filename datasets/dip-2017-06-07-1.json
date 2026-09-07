@@ -1,0 +1,43 @@
+{
+ "id": "dip-2017-06-07-1",
+ "title": "Millions of scientists, and their migrations",
+ "hook": "ORCID is a nonprofit organization that provides unique identifiers for researchers — mostly scientists so far — to make it easier to distinguish between them. It has issued more than 3 million IDs so far, and provides annual bulk downloads of all researchers’ public profiles.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "orcid.org",
+   "url": "https://orcid.org/"
+  },
+  {
+   "name": "orcid.org",
+   "url": "https://orcid.org/content/orcid-public-data-file-use-policy"
+  },
+  {
+   "name": "sciencemag.org",
+   "url": "http://www.sciencemag.org/news/2017/05/vast-set-public-cvs-reveals-world-s-most-migratory-scientists"
+  },
+  {
+   "name": "datadryad.org",
+   "url": "http://datadryad.org/resource/doi:10.5061/dryad.48s16"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-07",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "orcid.org",
+  "host": "orcid.org"
+ }
+}

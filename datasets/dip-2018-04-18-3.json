@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-04-18-3",
+ "title": "State campaign finance laws",
+ "hook": "The nonpartisan Campaign Finance Institute has launched a database of current and historical state campaign finance laws. The information goes back to 1996 and describes each state’s contribution limits, various kinds of prohibitions, disclosure rules, and more. You can download the full dataset or explore it online.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cfinst.org",
+   "url": "http://cfinst.org/about.aspx"
+  },
+  {
+   "name": "cfinst.org",
+   "url": "http://cfinst.org/State/LawsDatabase.aspx"
+  },
+  {
+   "name": "cfinst.org",
+   "url": "http://cfinst.org/State/LawsDatabase_Download.aspx"
+  },
+  {
+   "name": "cfinst.github.io",
+   "url": "https://cfinst.github.io/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-18",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cfinst.org",
+  "host": "cfinst.org"
+ }
+}

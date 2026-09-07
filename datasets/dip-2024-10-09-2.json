@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-10-09-2",
+ "title": "Evapotranspiration",
+ "hook": "With the goal of “filling the biggest data gap in water management,” the OpenET project uses satellite imagery, weather data, and other sources to estimate the volume of evapotranspiration — “the process by which water is transferred from the land to the atmosphere” — at a 30-meter resolution across 17 states in the western US.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "etdata.org",
+   "url": "https://etdata.org/"
+  },
+  {
+   "name": "etdata.org",
+   "url": "https://etdata.org/methodologies/"
+  },
+  {
+   "name": "etdata.org",
+   "url": "https://etdata.org/faq/"
+  },
+  {
+   "name": "explore.etdata.org",
+   "url": "https://explore.etdata.org/"
+  },
+  {
+   "name": "openet.gitbook.io",
+   "url": "https://openet.gitbook.io/docs/additional-resources/data-archives"
+  },
+  {
+   "name": "openet.gitbook.io",
+   "url": "https://openet.gitbook.io/docs"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-10-09",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-10-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "etdata.org",
+  "host": "etdata.org"
+ }
+}

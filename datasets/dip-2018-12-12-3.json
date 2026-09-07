@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-12-12-3",
+ "title": "Sunniness",
+ "hook": "The National Renewable Energy Laboratory’s solar datasets measure the average annual and monthly “total solar resource” for the United States, broken down by state, county, ZIP code, and roughly-10-square-kilometer chunks of the country. Bonus: More sun-radiation datasets via this Stack Overflow answer.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nrel.gov",
+   "url": "https://www.nrel.gov/gis/data-solar.html"
+  },
+  {
+   "name": "opendata.stackexchange.com",
+   "url": "https://opendata.stackexchange.com/questions/1064/api-for-sun-radiation-illuminance-data/1065#1065"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-12-12",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-12-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nrel.gov",
+  "host": "nrel.gov"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "dip-2021-01-13-2",
+ "title": "Fishing activity",
+ "hook": "Global Fishing Watch — initially organized as a collaboration between conservationists and Google — uses satellite imagery, ship signals, and other sources “to visualise, track and share data about global fishing activity in near real-time and for free.” The project’s public datasets (free registration required) examine various aspects of the industry, including the geography of “fishing effort” (2012–16) and transshipment between vessels.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "globalfishingwatch.org",
+   "url": "https://globalfishingwatch.org/"
+  },
+  {
+   "name": "globalfishingwatch.org",
+   "url": "https://globalfishingwatch.org/about-us/"
+  },
+  {
+   "name": "globalfishingwatch.org",
+   "url": "https://globalfishingwatch.org/datasets-and-code/"
+  },
+  {
+   "name": "globalfishingwatch.org",
+   "url": "https://globalfishingwatch.org/datasets-and-code/fishing-effort/"
+  },
+  {
+   "name": "globalfishingwatch.org",
+   "url": "https://globalfishingwatch.org/transshipment-success/report-first-global-view-transshipment-sea/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "bloomberg.com",
+   "url": "https://www.bloomberg.com/graphics/2020-brexit-eu-fisheries/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-13",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "globalfishingwatch.org",
+  "host": "globalfishingwatch.org"
+ }
+}

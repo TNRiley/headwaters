@@ -1,0 +1,65 @@
+{
+ "id": "dip-2024-07-10-3",
+ "title": "East Asia building outlines",
+ "hook": "Recent years have seen the development of ambitious datasets that provide the outlines of buildings by the millions. For instance, from the archives: buildings in the US (DIP 2018.07.18), Africa (DIP 2021.08.25), and Canada and New Zealand (DIP 2019.09.25). In the Journal of Remote Sensing, however, Qian Shi et al.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/Microsoft/USBuildingFootprints"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-07-18-edition/"
+  },
+  {
+   "name": "sites.research.google",
+   "url": "https://sites.research.google/open-buildings/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-08-25-edition/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Microsoft/CanadianBuildingFootprints"
+  },
+  {
+   "name": "medium.com",
+   "url": "https://medium.com/on-location/an-open-building-outlines-dataset-for-new-zealand-eef8b558ef7a"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-09-25-edition/"
+  },
+  {
+   "name": "spj.science.org",
+   "url": "https://spj.science.org/doi/10.34133/remotesensing.0138"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/records/8174931"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-10",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-08-25-2",
+ "title": "National revenues",
+ "hook": "UNU-WIDER’s Government Revenue Dataset “aims to present a complete picture of government revenue and tax trends over time.” The project, updated this month, currently covers 196 countries and goes back, in most cases, to the early 1980s.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "wider.unu.edu",
+   "url": "https://www.wider.unu.edu/project/government-revenue-dataset"
+  },
+  {
+   "name": "wider.unu.edu",
+   "url": "https://www.wider.unu.edu/about-grd"
+  },
+  {
+   "name": "wider.unu.edu",
+   "url": "https://www.wider.unu.edu/publication/government-revenue-dataset-2021-source-selection"
+  },
+  {
+   "name": "oecd.org",
+   "url": "https://www.oecd.org/tax/tax-policy/global-revenue-statistics-database.htm"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-08-01-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-25",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wider.unu.edu",
+  "host": "wider.unu.edu"
+ }
+}

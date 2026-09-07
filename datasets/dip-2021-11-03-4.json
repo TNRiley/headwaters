@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-11-03-4",
+ "title": "FOIA reading rooms",
+ "hook": "Data librarian Lisa DeLuca has compiled a spreadsheet of 300+ Freedom of Information Act libraries, the online reading rooms where federal agencies must post certain records, including those that “are likely to become the subject of subsequent requests for substantially the same records.” DeLuca’s spreadsheet, originally published in 2019 and updated last week, lists the agency’s name, its parent agency, and the portal’s name and URL.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "library.shu.edu",
+   "url": "https://library.shu.edu/FOIA-Libraries"
+  },
+  {
+   "name": "justice.gov",
+   "url": "https://www.justice.gov/oip/foia-guide-2004-edition-foia-reading-rooms"
+  },
+  {
+   "name": "works.bepress.com",
+   "url": "https://works.bepress.com/lisa_deluca/40/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-11-03",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-11-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "library.shu.edu",
+  "host": "library.shu.edu"
+ }
+}

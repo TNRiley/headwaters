@@ -1,0 +1,61 @@
+{
+ "id": "dip-2023-10-11-1",
+ "title": "US income distributions",
+ "hook": "The Income Distributions and Dynamics in America project combines confidential Census Bureau records and IRS tax forms to generate detailed, downloadable statistics regarding “income percentiles, shares, growth rates, persistence, and more for many U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "minneapolisfed.org",
+   "url": "https://www.minneapolisfed.org/institute/income-distributions-and-dynamics-in-america"
+  },
+  {
+   "name": "minneapolisfed.org",
+   "url": "https://www.minneapolisfed.org/article/2023/understanding-incomes-in-america"
+  },
+  {
+   "name": "minneapolisfed.org",
+   "url": "https://www.minneapolisfed.org/institute/income-distributions-and-dynamics-in-america/data-center"
+  },
+  {
+   "name": "minneapolisfed.org",
+   "url": "https://www.minneapolisfed.org/institute"
+  },
+  {
+   "name": "minneapolisfed.org",
+   "url": "https://www.minneapolisfed.org/institute/income-distributions-and-dynamics-in-america/chart-and-map-toolkit"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/7093997"
+  },
+  {
+   "name": "essd.copernicus.org",
+   "url": "https://essd.copernicus.org/preprints/essd-2023-137/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2023-06-28-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-10-11",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-10-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "minneapolisfed.org",
+  "host": "minneapolisfed.org"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-03-01-4",
+ "title": "A decade-plus of Seattle library checkouts",
+ "hook": "Last month, the Seattle Public Library released a dataset tracking the total number of checkouts for each title by year and month from April 2005 to December 2016 (so far). The dataset isn’t limited to physical books; it also includes e-books, magazines, CDs, DVDs, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "shelftalkblog.wordpress.com",
+   "url": "https://shelftalkblog.wordpress.com/2017/02/14/for-the-love-of-data-an-open-data-release/"
+  },
+  {
+   "name": "seattle.gov",
+   "url": "https://data.seattle.gov/Community/Checkouts-by-Title/tmmm-ytt6/data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-01",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "shelftalkblog.wordpress.com",
+  "host": "shelftalkblog.wordpress.com"
+ }
+}

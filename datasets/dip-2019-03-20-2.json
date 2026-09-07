@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-03-20-2",
+ "title": "The Book of the States",
+ "hook": "The Council of State Governments’ annual Book of the States compiles 50-state reference tables on a range of topics, including elections, finances, courts, and more. It has been published since 1935, and the tables for the past decade-plus are available as spreadsheets.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "csg.org",
+   "url": "https://www.csg.org/"
+  },
+  {
+   "name": "knowledgecenter.csg.org",
+   "url": "http://knowledgecenter.csg.org/kc/category/content-type/content-type/book-states"
+  },
+  {
+   "name": "knowledgecenter.csg.org",
+   "url": "http://knowledgecenter.csg.org/kc/content/book-states-2018-chapter-6-elections"
+  },
+  {
+   "name": "knowledgecenter.csg.org",
+   "url": "http://knowledgecenter.csg.org/kc/content/book-states-2018-chapter-7-state-finance"
+  },
+  {
+   "name": "knowledgecenter.csg.org",
+   "url": "http://knowledgecenter.csg.org/kc/content/book-states-2018-chapter-5-state-judicial-branch"
+  },
+  {
+   "name": "knowledgecenter.csg.org",
+   "url": "http://knowledgecenter.csg.org/kc/category/content-type/bos-archive"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-20",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "csg.org",
+  "host": "csg.org"
+ }
+}

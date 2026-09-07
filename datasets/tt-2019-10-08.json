@@ -52,6 +52,12 @@
    "year": 2019,
    "week": 41,
    "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-10-08"
+  },
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-03-07",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-03-07/"
   }
  ],
  "added": "2026-09-06",

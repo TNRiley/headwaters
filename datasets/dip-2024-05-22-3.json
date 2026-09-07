@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-05-22-3",
+ "title": "Security Council resolutions",
+ "hook": "Seán Fobbe et al.’s Corpus of Resolutions: UN Security Council “collects and presents for the first time in human and machine-readable form all resolutions, drafts, and meeting records of the UN Security Council, including detailed metadata, as published by the UN Digital Library and revised by the authors.” It covers all 2,700+ resolutions from the council’s founding in 1946 through early 2024.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "seanfobbe.com",
+   "url": "https://www.seanfobbe.com/posts/2024-05-06_new-dataset-corpus-of-resolutions-un-security-council/"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/records/11212056"
+  },
+  {
+   "name": "digitallibrary.un.org",
+   "url": "https://digitallibrary.un.org/"
+  },
+  {
+   "name": "un.org",
+   "url": "https://www.un.org/securitycouncil/content/resolutions-0"
+  },
+  {
+   "name": "seanfobbe.com",
+   "url": "https://www.seanfobbe.com/posts/2024-05-14_complete-citation-network-un-security-council-published/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Directed_graph"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-22",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "seanfobbe.com",
+  "host": "seanfobbe.com"
+ }
+}

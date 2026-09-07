@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-04-05-2",
+ "title": "Cherry blossoms",
+ "hook": "Yasuyuki Aono, an associate professor at Osaka Prefecture University, has collected the historical flowering dates of Kyoto’s Prunus jamasakura cherry trees going all the way back to the 9th century.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "atmenv.envi.osakafu-u.ac.jp",
+   "url": "http://atmenv.envi.osakafu-u.ac.jp/aono/kyophenotemp4/"
+  },
+  {
+   "name": "bbg.org",
+   "url": "https://www.bbg.org/collections/cherries"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-05",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "atmenv.envi.osakafu-u.ac.jp",
+  "host": "atmenv.envi.osakafu-u.ac.jp"
+ }
+}

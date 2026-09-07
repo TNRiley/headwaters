@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-07-22-1",
+ "title": "Police surveillance tech",
+ "hook": "The Atlas of Surveillance, a new project from the Electronic Frontier Foundation, documents various types of surveillance technology used by 3,500 law enforcement agencies around the US.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "atlasofsurveillance.org",
+   "url": "https://atlasofsurveillance.org/"
+  },
+  {
+   "name": "eff.org",
+   "url": "https://www.eff.org/"
+  },
+  {
+   "name": "atlasofsurveillance.org",
+   "url": "https://atlasofsurveillance.org/search"
+  },
+  {
+   "name": "atlasofsurveillance.org",
+   "url": "https://atlasofsurveillance.org/methodology"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-22",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "atlasofsurveillance.org",
+  "host": "atlasofsurveillance.org"
+ }
+}

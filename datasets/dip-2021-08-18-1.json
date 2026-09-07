@@ -1,0 +1,73 @@
+{
+ "id": "dip-2021-08-18-1",
+ "title": "US military bases and deployments",
+ "hook": "Michael A. Allen et al. are gathering and standardizing data on the United States military’s global presence. The project’s CSV files and R package include annual, country-level troop counts between 1950 and 2020, drawn from prior work by economist Tim Kane and from the government’s Defense Manpower Data Center.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/abs/10.1177/07388942211030885"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/meflynn/troopdata"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/meflynn/troopdata/tree/master/data-raw"
+  },
+  {
+   "name": "cran.r-project.org",
+   "url": "https://cran.r-project.org/web/packages/troopdata/index.html"
+  },
+  {
+   "name": "heritage.org",
+   "url": "https://www.heritage.org/defense/report/global-us-troop-deployment-1950-2003"
+  },
+  {
+   "name": "hoover.org",
+   "url": "https://www.hoover.org/profiles/timothy-kane"
+  },
+  {
+   "name": "dmdc.osd.mil",
+   "url": "https://www.dmdc.osd.mil/appj/dwp/dwp_reports.jsp"
+  },
+  {
+   "name": "basenation.us",
+   "url": "https://www.basenation.us/"
+  },
+  {
+   "name": "davidvine.net",
+   "url": "https://www.davidvine.net/"
+  },
+  {
+   "name": "dra.american.edu",
+   "url": "https://dra.american.edu/islandora/object/auislandora:94927"
+  },
+  {
+   "name": "davidvine.net",
+   "url": "https://www.davidvine.net/unitedstatesofwar.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-18",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "journals.sagepub.com",
+  "host": "journals.sagepub.com"
+ }
+}

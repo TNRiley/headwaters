@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-06-15-4",
+ "title": "Airplane laser incidents",
+ "hook": "“Aiming a laser at an aircraft is a serious safety risk and violates federal law,” according to the Federal Aviation Administration, which encourages flight staff and the public to submit reports of such incidents.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/about/initiatives/lasers"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/aircraft/safety/report/laserinfo/"
+  },
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/about/initiatives/lasers/laws"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-15",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "faa.gov",
+  "host": "faa.gov"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-02-24-3",
+ "title": "Foreign ministers",
+ "hook": "Hanna Bäck et al. have built a dataset of 1,000+ foreign ministers — all officials holding such a post between 1789 and the mid-2010s in “the world’s 13 former and current great powers.” It describes their stints in office and biographical details, such as their marital status, occupational experience, education level, military service, and much more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "academic.oup.com",
+   "url": "https://academic.oup.com/fpa/article/17/2/oraa024/6111504"
+  },
+  {
+   "name": "stanceatlund.org",
+   "url": "http://www.stanceatlund.org/foreign-minister-dataset.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-02-24",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-02-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "academic.oup.com",
+  "host": "academic.oup.com"
+ }
+}

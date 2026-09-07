@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-08-26-2",
+ "title": "Ruling elites",
+ "hook": "The Authoritarian Ruling Elites Database, compiled by political scientist Austin S. Matthews, is “a collection of biographical and professional information on the individuals who constitute the top elite of authoritarian regimes.” Each of the project’s 18 datasets focuses on a particular regime, such as the military dictatorship that ruled Chile from 1973 to 1990.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QZ9BSA"
+  },
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/view/austinsmatthews/home"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-26",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataverse.harvard.edu",
+  "host": "dataverse.harvard.edu"
+ }
+}

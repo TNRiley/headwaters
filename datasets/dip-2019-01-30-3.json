@@ -1,0 +1,31 @@
+{
+ "id": "dip-2019-01-30-3",
+ "title": "Ethnonationalism",
+ "hook": "Christina Isabel Zuber and Edina Szöcsik’s Ethnonationalism in Party Competition dataset compiles ratings for more than 200 political parties in 22 European countries.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "christinazuber.com",
+   "url": "http://christinazuber.com/data/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-30",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "christinazuber.com",
+  "host": "christinazuber.com"
+ }
+}

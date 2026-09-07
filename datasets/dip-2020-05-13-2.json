@@ -1,0 +1,53 @@
+{
+ "id": "dip-2020-05-13-2",
+ "title": "COVID stimulus recipients",
+ "hook": "The nonprofit Good Jobs First has launched COVID Stimulus Watch, which is gathering data on the grants and loans that have been provided to corporations through the $2 trillion CARES Act. So far, the dataset contains more than 5,700 awards, totalling $54 billion.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "goodjobsfirst.org",
+   "url": "https://www.goodjobsfirst.org/about-us"
+  },
+  {
+   "name": "covidstimuluswatch.org",
+   "url": "https://covidstimuluswatch.org/blog/2020-04/covid-stimulus-watch-new-website-documents-accountability-track-records-cares-act"
+  },
+  {
+   "name": "covidstimuluswatch.org",
+   "url": "https://covidstimuluswatch.org/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Coronavirus_Aid,_Relief,_and_Economic_Security_Act"
+  },
+  {
+   "name": "covidstimuluswatch.org",
+   "url": "https://covidstimuluswatch.org/blog/2020-05/covid-stimulus-watch-adds-5000-healthcare-provider-awards"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://data.cdc.gov/Administrative/HHS-Provider-Relief-Fund/kh8y-3es6"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-13",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "goodjobsfirst.org",
+  "host": "goodjobsfirst.org"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "dip-2018-12-05-5",
+ "title": "Snow plows",
+ "hook": "Last month, I Quant NY’s Ben Wellington analyzed New York City’s raw snow plow data, “which had only been viewed 41 times before apparently.” The 250 million–row dataset is, as Wellington notes, “stored in an odd format” — snapshots that indicate, every 15 minutes, the last time each of the city’s street segments was plowed.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "iquantny.tumblr.com",
+   "url": "http://iquantny.tumblr.com/about"
+  },
+  {
+   "name": "iquantny.tumblr.com",
+   "url": "http://iquantny.tumblr.com/post/180300705249/data-shows-no-increase-in-nyc-plowing-as-storm"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/City-Government/DSNY-PlowNYC-Data/rmhc-afj9"
+  },
+  {
+   "name": "clearstreets.org",
+   "url": "http://clearstreets.org/data"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "http://www.cityofchicago.org/city/en/depts/mayor/iframe/plow_tracker.html"
+  },
+  {
+   "name": "iowadot.gov",
+   "url": "http://data.iowadot.gov/datasets/20a0c10c06a54240b5f2893e0187e22c_0"
+  },
+  {
+   "name": "syrgov.net",
+   "url": "http://data.syrgov.net/datasets?t=snowplow"
+  },
+  {
+   "name": "wprdc.org",
+   "url": "https://data.wprdc.org/dataset/snow-plow-activity-2015-2016"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-12-05",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-12-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "iquantny.tumblr.com",
+  "host": "iquantny.tumblr.com"
+ }
+}

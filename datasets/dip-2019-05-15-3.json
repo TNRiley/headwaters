@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-05-15-3",
+ "title": "Books in translation",
+ "hook": "Publishers Weekly’s Translation Database tracks books of fiction and poetry that has been translated into English and published in the United States.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "publishersweekly.com",
+   "url": "https://www.publishersweekly.com/pw/translation/home/index.html"
+  },
+  {
+   "name": "vulture.com",
+   "url": "https://www.vulture.com/2019/05/translated-fiction-has-been-growing-or-has-it.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-15",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "publishersweekly.com",
+  "host": "publishersweekly.com"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-09-13-1",
+ "title": "Political contributions, enhanced",
+ "hook": "Political scientist Adam Bonica’s Database on Ideology, Money in Politics, and Elections (DIME) gathers “500 million itemized political contributions made by individuals and organizations to local, state, and federal elections covering from 1979 to 2020.” The project, which received a major update last month, “is…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "web.stanford.edu",
+   "url": "https://web.stanford.edu/~bonica/"
+  },
+  {
+   "name": "stanford.edu",
+   "url": "https://data.stanford.edu/dime"
+  },
+  {
+   "name": "listserv.wustl.edu",
+   "url": "https://listserv.wustl.edu/scripts/wa.exe?A2=1702A&L=POLMETH&D=0&H=N&P=6749708"
+  },
+  {
+   "name": "fec.gov",
+   "url": "https://www.fec.gov/data/"
+  },
+  {
+   "name": "opensecrets.org",
+   "url": "https://www.opensecrets.org/"
+  },
+  {
+   "name": "moneyinpolitics.wtf",
+   "url": "https://moneyinpolitics.wtf/"
+  },
+  {
+   "name": "moneyinpolitics.wtf",
+   "url": "https://moneyinpolitics.wtf/about/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-13",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "web.stanford.edu",
+  "host": "web.stanford.edu"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-05-01-4",
+ "title": "Piano performances",
+ "hook": "The MAESTRO dataset gathers recordings from nine years of the International Piano-e-Competition, where “virtuoso pianists perform on Yamaha Disklaviers which, in addition to being concert-quality acoustic grand pianos, utilize an integrated high-precision MIDI capture and playback system.” The MIDI data “includes key strike velocities and sustain pedal positions”; additional metadata contains each performance’s year, composer, and title.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "magenta.tensorflow.org",
+   "url": "https://magenta.tensorflow.org/datasets/maestro"
+  },
+  {
+   "name": "piano-e-competition.com",
+   "url": "http://piano-e-competition.com/"
+  },
+  {
+   "name": "openai.com",
+   "url": "https://openai.com/blog/musenet/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-01",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "magenta.tensorflow.org",
+  "host": "magenta.tensorflow.org"
+ }
+}

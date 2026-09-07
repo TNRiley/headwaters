@@ -1,0 +1,50 @@
+{
+ "id": "dip-2017-02-08-3",
+ "title": "Nobel Prizes",
+ "hook": "The prestigious Scandinavian awards have an API. The official documentation explains it succinctly: “The data is free to use and contains information about who has been awarded the Nobel Prize, when, in what prize category and the motivation, as well as basic information about the Nobel Laureates such as birth data and the affiliation at the time of the award.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nobelprize.org",
+   "url": "https://www.nobelprize.org/nobel_organizations/nobelmedia/nobelprize_org/developer/"
+  },
+  {
+   "name": "nobelprize.readme.io",
+   "url": "https://nobelprize.readme.io/v1.0"
+  },
+  {
+   "name": "peteraldhous.com",
+   "url": "http://www.peteraldhous.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "https://www.buzzfeed.com/peteraldhous/immigration-and-science"
+  },
+  {
+   "name": "buzzfeednews.github.io",
+   "url": "https://buzzfeednews.github.io/2017-01-immigration-and-science/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-02-08",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-02-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nobelprize.org",
+  "host": "nobelprize.org"
+ }
+}

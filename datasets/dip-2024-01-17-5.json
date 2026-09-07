@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-01-17-5",
+ "title": "Star Trek chairs",
+ "hook": "Ex Astris Scientia, run by Bernd Schneider since 1998, contains much of what you might expect from a Star Trek fan site, such as episode summaries, starship catalogs, and an extensive encyclopedia.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ex-astris-scientia.org",
+   "url": "https://www.ex-astris-scientia.org/"
+  },
+  {
+   "name": "ex-astris-scientia.org",
+   "url": "https://www.ex-astris-scientia.org/misc/introduction.htm"
+  },
+  {
+   "name": "ex-astris-scientia.org",
+   "url": "https://www.ex-astris-scientia.org/index-episodes.htm"
+  },
+  {
+   "name": "ex-astris-scientia.org",
+   "url": "https://www.ex-astris-scientia.org/index-starships.htm"
+  },
+  {
+   "name": "ex-astris-scientia.org",
+   "url": "https://www.ex-astris-scientia.org/treknology.htm"
+  },
+  {
+   "name": "ex-astris-scientia.org",
+   "url": "https://www.ex-astris-scientia.org/database/chairs-trek.htm"
+  },
+  {
+   "name": "ex-astris-scientia.org",
+   "url": "https://www.ex-astris-scientia.org/database/lighting-trek.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-01-17",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-01-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ex-astris-scientia.org",
+  "host": "ex-astris-scientia.org"
+ }
+}

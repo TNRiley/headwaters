@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-11-09-5",
+ "title": "The turkey industry",
+ "hook": "The USDA’s National Agricultural Statistics Service publishes monthly and annual reports estimating the number of turkeys incubating, raised, slaughtered, and in cold storage, based on surveys and food-safety inspections.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nass.usda.gov",
+   "url": "https://www.nass.usda.gov/"
+  },
+  {
+   "name": "usda.library.cornell.edu",
+   "url": "https://usda.library.cornell.edu/concern/publications/k643b117x?locale=en"
+  },
+  {
+   "name": "usda.library.cornell.edu",
+   "url": "https://usda.library.cornell.edu/concern/publications/0g354f23n?locale=en"
+  },
+  {
+   "name": "usda.library.cornell.edu",
+   "url": "https://usda.library.cornell.edu/concern/publications/3197xm04j?locale=en"
+  },
+  {
+   "name": "usda.library.cornell.edu",
+   "url": "https://usda.library.cornell.edu/concern/publications/pg15bd892?locale=en"
+  },
+  {
+   "name": "quickstats.nass.usda.gov",
+   "url": "https://quickstats.nass.usda.gov/"
+  },
+  {
+   "name": "quickstats.nass.usda.gov",
+   "url": "https://quickstats.nass.usda.gov/api/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-09",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nass.usda.gov",
+  "host": "nass.usda.gov"
+ }
+}

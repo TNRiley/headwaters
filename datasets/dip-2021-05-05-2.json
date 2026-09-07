@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-05-05-2",
+ "title": "Union election results",
+ "hook": "The US National Labor Relations Board publishes a searchable and downloadable database that details the results of thousands of union elections the agency has conducted, going back more than a decade.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nlrb.gov",
+   "url": "https://www.nlrb.gov/reports/graphs-data/recent-election-results"
+  },
+  {
+   "name": "nlrb.gov",
+   "url": "https://www.nlrb.gov/about-nlrb/what-we-do/conduct-elections"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-05-05",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-05-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nlrb.gov",
+  "host": "nlrb.gov"
+ }
+}

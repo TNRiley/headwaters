@@ -1,0 +1,33 @@
+{
+ "id": "dip-2020-04-15-2",
+ "title": "Aggregated smartphone movements",
+ "hook": "A team of academics has begun publishing a series of “exposure indices” based on smartphone “pings” collected by a location-analytics company.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/COVIDExposureIndices/COVIDExposureIndices"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

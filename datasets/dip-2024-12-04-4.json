@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-12-04-4",
+ "title": "Nanosatellites",
+ "hook": "Space systems engineer Erik Kulu’s Nanosats Database tracks 4,000+ nanosatellites that have been launched into space, are planned for future launch, or have had their launches cancelled.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "company",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "erikkulu.com",
+   "url": "https://erikkulu.com/"
+  },
+  {
+   "name": "nanosats.eu",
+   "url": "https://www.nanosats.eu/"
+  },
+  {
+   "name": "nanosats.eu",
+   "url": "https://www.nanosats.eu/cubesat"
+  },
+  {
+   "name": "nanosats.eu",
+   "url": "https://www.nanosats.eu/database"
+  },
+  {
+   "name": "nanosats.eu",
+   "url": "https://www.nanosats.eu/companies"
+  },
+  {
+   "name": "nanosats.eu",
+   "url": "https://www.nanosats.eu/tables#launch-providers"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-12-04",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-12-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "erikkulu.com",
+  "host": "erikkulu.com"
+ }
+}

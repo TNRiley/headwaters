@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-12-07-5",
+ "title": "Classical music, annotated",
+ "hook": "“MusicNet is a collection of 330 freely-licensed classical music recordings, together with over 1 million annotated labels indicating the precise time of each note every recording, the instrument that plays each note, and the note's position in the metrical structure of the composition.” [h/t Lon Riesberg]",
+ "hook_source": "publisher",
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "homes.cs.washington.edu",
+   "url": "http://homes.cs.washington.edu/~thickstn/musicnet.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-12-07",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-12-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "homes.cs.washington.edu",
+  "host": "homes.cs.washington.edu"
+ }
+}

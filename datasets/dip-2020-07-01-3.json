@@ -1,0 +1,42 @@
+{
+ "id": "dip-2020-07-01-3",
+ "title": "COVID clusters",
+ "hook": "A team of researchers in the UK has been gathering data on COVID-19 “transmission events” that have resulted in clusters of cases, based on various official, scholarly, and news reports.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "wellcomeopenresearch.org",
+   "url": "https://wellcomeopenresearch.org/articles/5-83"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/16wtnHe4hM6I7TFHXVpLXY8R4GAUzAJ-7NWbKIVvsVuA/edit"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html#clusters"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-01",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wellcomeopenresearch.org",
+  "host": "wellcomeopenresearch.org"
+ }
+}

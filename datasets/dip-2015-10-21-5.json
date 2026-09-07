@@ -1,0 +1,37 @@
+{
+ "id": "dip-2015-10-21-5",
+ "title": "Four years of rejected license plates",
+ "hook": "WNYC, through a freedom-of-information request to the New York DMV, obtained a list of vanity plate approvals and denials from late 2010 to late 2014. Among the denials: “RUBMYDUB,” “S5SS5S5S,” “RFLMAO,” and “CBSNEWS.” (Strangely, “NBC4” was approved.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/datanews/license-plates"
+  },
+  {
+   "name": "wnyc.org",
+   "url": "http://www.wnyc.org/story/new-yorkers-vanity-license-plates/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-10-21",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-10-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

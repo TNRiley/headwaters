@@ -1,0 +1,58 @@
+{
+ "id": "dip-2021-08-11-1",
+ "title": "COVID-era school enrollments",
+ "hook": "A collaboration led by Stanford University’s Big Local News has gathered (and standardized) recent enrollment figures from 33 state education departments. The resulting dataset, which spans ~70,000 public schools, can be downloaded in bulk and explored online.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "biglocalnews.org",
+   "url": "https://biglocalnews.org"
+  },
+  {
+   "name": "purl.stanford.edu",
+   "url": "https://purl.stanford.edu/zf406jp4427"
+  },
+  {
+   "name": "stanford-school-enrollment-project.datasette.io",
+   "url": "https://stanford-school-enrollment-project.datasette.io/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/document/d/1WRm4KZPDGL1USPaf0E1AIa7gbyeKncv04Pg_rM1N7po/edit"
+  },
+  {
+   "name": "edsource.org",
+   "url": "https://edsource.org/2021/how-going-remote-led-to-dramatic-drops-in-public-school-students/659005"
+  },
+  {
+   "name": "cepa.stanford.edu",
+   "url": "https://cepa.stanford.edu/content/revealed-preferences-school-reopening-evidence-public-school-disenrollment"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2021/08/07/us/covid-kindergarten-enrollment.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-11",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "biglocalnews.org",
+  "host": "biglocalnews.org"
+ }
+}

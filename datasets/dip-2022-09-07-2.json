@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-09-07-2",
+ "title": "Five decades of US public opinion",
+ "hook": "This year marks the 50th anniversary of the General Social Survey, which calls itself “the only full-probability, personal-interview survey designed to monitor changes in both social characteristics and attitudes currently being conducted in the United States.” It combines a “standard core of demographic, behavioral, and attitudinal questions” with shorter-lived modules on topics such as religion, gun control, and mental health.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "gss.norc.org",
+   "url": "https://gss.norc.org/pages/GSS50.aspx"
+  },
+  {
+   "name": "gss.norc.org",
+   "url": "https://gss.norc.org/"
+  },
+  {
+   "name": "gss.norc.org",
+   "url": "https://gss.norc.org/About-The-GSS"
+  },
+  {
+   "name": "gssdataexplorer.norc.org",
+   "url": "https://gssdataexplorer.norc.org/"
+  },
+  {
+   "name": "gss.norc.org",
+   "url": "https://gss.norc.org/get-the-data"
+  },
+  {
+   "name": "gss.norc.org",
+   "url": "https://gss.norc.org/Get-Documentation"
+  },
+  {
+   "name": "issp.org",
+   "url": "https://issp.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-07",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gss.norc.org",
+  "host": "gss.norc.org"
+ }
+}

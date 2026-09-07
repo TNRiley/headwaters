@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-11-09-4",
+ "title": "Sierra snowpack",
+ "hook": "For decades, UC Berkeley’s Central Sierra Snow Lab has been collecting daily temperature, snowfall, snowpack, and related measurements at its field station near Donner Pass. Until recently, the records were available only upon request.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "cssl.berkeley.edu",
+   "url": "https://cssl.berkeley.edu/"
+  },
+  {
+   "name": "lib.berkeley.edu",
+   "url": "https://www.lib.berkeley.edu/about/news/snowpack-data"
+  },
+  {
+   "name": "datadryad.org",
+   "url": "https://datadryad.org/stash/dataset/doi:10.6078%2FD1941T"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-09",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cssl.berkeley.edu",
+  "host": "cssl.berkeley.edu"
+ }
+}

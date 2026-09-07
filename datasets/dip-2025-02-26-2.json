@@ -1,0 +1,51 @@
+{
+ "id": "dip-2025-02-26-2",
+ "title": "Water availability",
+ "hook": "The US Geological Survey last month released its National Water Availability Assessment, “a pioneering scientific overview of water availability that offers first-of-its-kind insights into the balance between water supply and demand across the conterminous United States.” Alongside the report, USGS launched a “data companion” providing “regularly updated, model-based estimates” of monthly water usage within each of the country’s hydrologic units.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/news/national-news-release/usgs-releases-a-comprehensive-look-water-resources-united-states"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/special-topics/integrated-water-availability-assessments/national-water-availability-assessments"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/publications/us-geological-survey-integrated-water-availability-assessment-2010-20"
+  },
+  {
+   "name": "water.usgs.gov",
+   "url": "https://water.usgs.gov/nwaa-data/"
+  },
+  {
+   "name": "water.usgs.gov",
+   "url": "https://water.usgs.gov/nwaa-data/data-overview"
+  },
+  {
+   "name": "water.usgs.gov",
+   "url": "https://water.usgs.gov/GIS/huc.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-02-26",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-02-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usgs.gov",
+  "host": "usgs.gov"
+ }
+}

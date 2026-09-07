@@ -1,0 +1,33 @@
+{
+ "id": "dip-2019-09-18-3",
+ "title": "How states relate",
+ "hook": "The State Networks dataset gathers comparative and relationship metrics for every combination of the 50 US states, plus the District of Columbia. Among the metrics: the number of flights between each state-pair, migration in either direction, and total value of goods imported.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ippsr.msu.edu",
+   "url": "https://ippsr.msu.edu/public-policy/state-networks"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-18",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ippsr.msu.edu",
+  "host": "ippsr.msu.edu"
+ }
+}

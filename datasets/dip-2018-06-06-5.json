@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-06-06-5",
+ "title": "NICAR lightning talks",
+ "hook": "Ever since 2010, the National Institute for Computer-Assisted Reporting (NICAR) annual conference has featured a session of five-minute “lightning talks,” selected by popular vote.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ire.org",
+   "url": "https://ire.org/nicar/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1mRdBPRHPJHUlbK-kpGIx31Y4o73SXHz_899SQx1rvEY/edit#gid=614018567"
+  },
+  {
+   "name": "source.opennews.org",
+   "url": "https://source.opennews.org/articles/nine-years-nicar-lightning-talks-and-cats/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/underthecurve/lightning-talks-analysis"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-06-06",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-06-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ire.org",
+  "host": "ire.org"
+ }
+}

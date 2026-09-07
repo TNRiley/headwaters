@@ -1,0 +1,42 @@
+{
+ "id": "dip-2018-01-17-4",
+ "title": "Psychometric tests",
+ "hook": "The Open Source Psychometrics Project “provides a collection of interactive personality tests with detailed results that can be taken for personal entertainment or to learn more about personality assessment.” You can download results from more than 30 such tests, including the Big Five Personality Test, the Kentucky Inventory of Mindfulness Skills, and Bob Altemeyer's Right-wing Authoritarianism Scale.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "openpsychometrics.org",
+   "url": "https://openpsychometrics.org/"
+  },
+  {
+   "name": "openpsychometrics.org",
+   "url": "https://openpsychometrics.org/_rawdata/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/most-personality-quizzes-are-junk-science-i-found-one-that-isnt/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-17",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Open-Source Psychometrics Project",
+  "host": "openpsychometrics.org"
+ }
+}

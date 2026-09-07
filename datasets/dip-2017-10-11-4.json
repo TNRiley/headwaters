@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-10-11-4",
+ "title": "San Francisco Bay water",
+ "hook": "The U.S. Geological Survey has been measuring water quality in the San Francisco Bay for nearly 50 years. The agency recently published 210,826 of these measurements, collected from dozens of monitoring stations between April 1969 and December 2015.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "sciencebase.gov",
+   "url": "https://www.sciencebase.gov/catalog/item/5841f97ee4b04fc80e518d9f"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata201798"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-10-11",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-10-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usgs.gov spotted frog data",
+  "host": "sciencebase.gov"
+ }
+}

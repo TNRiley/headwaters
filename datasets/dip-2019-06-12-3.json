@@ -1,0 +1,46 @@
+{
+ "id": "dip-2019-06-12-3",
+ "title": "Economic mobility",
+ "hook": "Opportunity Insights, a research and policy institute that uses data analysis to examine economic mobility in the United States, publishes dozens of datasets stemming from their studies, often accompanied by code to replicate their findings.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "opportunityinsights.org",
+   "url": "https://opportunityinsights.org/"
+  },
+  {
+   "name": "opportunityinsights.org",
+   "url": "https://opportunityinsights.org/data/"
+  },
+  {
+   "name": "opportunityinsights.org",
+   "url": "https://opportunityinsights.org/course/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "vox.com",
+   "url": "https://www.vox.com/the-highlight/2019/5/14/18520783/harvard-economics-chetty"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-12",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Opportunity Insights",
+  "host": "opportunityinsights.org"
+ }
+}

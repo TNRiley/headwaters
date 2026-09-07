@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-01-29-2",
+ "title": "Dams",
+ "hook": "The Global Georeferenced Database of Dams contains geographic data on more than 38,000 dams and their watersheds. The project, published by geographers at King’s College London, is based on a combination of satellite imagery, national registries, and other sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "globaldamwatch.org",
+   "url": "https://globaldamwatch.org/goodd/"
+  },
+  {
+   "name": "springernature.figshare.com",
+   "url": "https://springernature.figshare.com/collections/GOODD_a_global_dataset_of_more_than_38_000_georeferenced_dams/4648214"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-020-0362-5"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-01-29",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-01-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "globaldamwatch.org",
+  "host": "globaldamwatch.org"
+ }
+}

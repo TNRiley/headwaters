@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-01-02-3",
+ "title": "Nighttime brightness in Niger and Nigeria",
+ "hook": "A pair of researchers have used satellite imagery to quantify nighttime lights in five urban areas in Niger and Nigeria — Agadez, Katsina, Maradi, Niamey, and Zinder.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "academic",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "scholarsphere.psu.edu",
+   "url": "https://scholarsphere.psu.edu/concern/generic_works/cjs956g06f"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata2018256"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-02",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "scholarsphere.psu.edu",
+  "host": "scholarsphere.psu.edu"
+ }
+}

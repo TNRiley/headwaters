@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-04-17-5",
+ "title": "Double rainbows",
+ "hook": "The question: How many bags of Skittles must you open before finding two identical color-distributions? The answer: “82 days, 13 boxes, 468 packs, and 27,740 individual Skittles later [...]”. The data: available on GitHub. [h/t u/cavedave]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "possiblywrong.wordpress.com",
+   "url": "https://possiblywrong.wordpress.com/2019/01/09/identical-packs-of-skittles/"
+  },
+  {
+   "name": "possiblywrong.wordpress.com",
+   "url": "https://possiblywrong.wordpress.com/2019/04/06/follow-up-i-found-two-identical-packs-of-skittles-among-468-packs-with-a-total-of-27740-skittles/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/possibly-wrong/skittles"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-17",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "possiblywrong.wordpress.com",
+  "host": "possiblywrong.wordpress.com"
+ }
+}

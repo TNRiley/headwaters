@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-06-15-1",
+ "title": "(Almost) every politician",
+ "hook": "On everypolitician.org, you can search and download data on 70,000+ legislators (past and present) from 233 countries. (Among those missing: Cuba, Ethiopia, and Qatar.) The dataset includes each lawmaker’s party affiliation, years served, gender, social media profiles, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "everypolitician.org",
+   "url": "http://everypolitician.org/"
+  },
+  {
+   "name": "everypolitician.org",
+   "url": "http://docs.everypolitician.org/repo_structure.html"
+  },
+  {
+   "name": "everypolitician.org",
+   "url": "http://everypolitician.org/countries.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/unitedstates/congress-legislators"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-15",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "everypolitician.org",
+  "host": "everypolitician.org"
+ }
+}

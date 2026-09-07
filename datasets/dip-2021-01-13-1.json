@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-01-13-1",
+ "title": "Electoral attitudes",
+ "hook": "The Comparative National Elections Project “is a partnership among scholars who have conducted election surveys on five continents,” with a focus on understanding the factors that shape voters’ decisions.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "u.osu.edu",
+   "url": "https://u.osu.edu/cnep/"
+  },
+  {
+   "name": "u.osu.edu",
+   "url": "https://u.osu.edu/cnep/surveys/surveys-through-2012/"
+  },
+  {
+   "name": "u.osu.edu",
+   "url": "https://u.osu.edu/cnep/common-core-questionnaire/"
+  },
+  {
+   "name": "cses.org",
+   "url": "https://cses.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-13",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "u.osu.edu",
+  "host": "u.osu.edu"
+ }
+}

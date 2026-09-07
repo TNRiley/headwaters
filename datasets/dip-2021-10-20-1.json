@@ -1,0 +1,66 @@
+{
+ "id": "dip-2021-10-20-1",
+ "title": "Judicial financial disclosures",
+ "hook": "US federal judges must file annual reports disclosing their investments, external income, and other potential conflicts of interest. The filings are technically available to the public, but onerous to access.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "free.law",
+   "url": "https://free.law/2021/09/28/announcing-federal-financial-disclosures"
+  },
+  {
+   "name": "free.law",
+   "url": "https://free.law/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/freelawproject/disclosure-extractor"
+  },
+  {
+   "name": "courtlistener.com",
+   "url": "https://www.courtlistener.com/coverage/financial-disclosures/"
+  },
+  {
+   "name": "free.law",
+   "url": "https://free.law/2021/10/15/financial-disclosures-now-available-to-all-on-courtlistener"
+  },
+  {
+   "name": "courtlistener.com",
+   "url": "https://www.courtlistener.com/financial-disclosures/"
+  },
+  {
+   "name": "courtlistener.com",
+   "url": "https://www.courtlistener.com/api/rest-info/#financialdisclosure-endpoint"
+  },
+  {
+   "name": "duckduckgo.com",
+   "url": "https://duckduckgo.com/?q=site%3Awsj.com+%22Hidden+Interests%22&t=h_&iar=news&ia=news"
+  }
+ ],
+ "articles": [
+  {
+   "name": "wsj.com",
+   "url": "https://www.wsj.com/articles/131-federal-judges-broke-the-law-by-hearing-cases-where-they-had-a-financial-interest-11632834421"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-10-20",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-10-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "free.law",
+  "host": "free.law"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-09-13-3",
+ "title": "Trump, McConnell, Schumer, Ryan, and Pelosi on TV",
+ "hook": "The Internet Archive has pumped footage from CNN, Fox News, MSNBC, and the BBC through software trained to recognize the faces of Donald Trump and majority/minority leaders of the U.S. House and Senate. The result: Face-O-Matic, a dataset released to the public last week.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/faceomatic"
+  },
+  {
+   "name": "blog.archive.org",
+   "url": "http://blog.archive.org/2017/09/06/face-o-matic-data-show-trump-dominates/"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/tv"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-09-13",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-09-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC datasets uploaded before January 28th, 2025",
+  "host": "archive.org"
+ }
+}

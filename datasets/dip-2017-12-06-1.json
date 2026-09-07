@@ -1,0 +1,38 @@
+{
+ "id": "dip-2017-12-06-1",
+ "title": "Two decades of workplace sexual harassment complaints",
+ "hook": "My colleague Lam Thuy Vo obtained an anonymized dataset listing all 170,000+ sexual harassment claims submitted to the U.S. Equal Employment Opportunity Commission between October 1995 and September 2016.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/BuzzFeedNews/2017-12-eeoc-harassment-charges/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "https://www.buzzfeed.com/lamvo/eeoc-sexual-harassment-data"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-12-06",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-12-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

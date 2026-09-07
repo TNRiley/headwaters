@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-03-10-3",
+ "title": "Black media",
+ "hook": "The Black Media Initiative, based at the CUNY’s graduate journalism school, has launched an interactive map and database of 300+ newspapers, radio stations, and other “media outlets across the U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "journalism.cuny.edu",
+   "url": "https://www.journalism.cuny.edu/centers/center-community-media/black-media-initiative/"
+  },
+  {
+   "name": "journalism.cuny.edu",
+   "url": "https://www.journalism.cuny.edu/2020/11/mapping-black-media/"
+  },
+  {
+   "name": "storymaps.arcgis.com",
+   "url": "https://storymaps.arcgis.com/stories/8ba10e0e56974b6f81a49e59523fe5bb"
+  },
+  {
+   "name": "airtable.com",
+   "url": "https://airtable.com/shrKbdiGOaRdsSIIW/tblPDC9g46NM1n7Np"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-10",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "journalism.cuny.edu",
+  "host": "journalism.cuny.edu"
+ }
+}

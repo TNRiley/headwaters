@@ -1,0 +1,41 @@
+{
+ "id": "dip-2015-11-11-2",
+ "title": "The 139,756 side effects of 1,430 medical drugs",
+ "hook": "The Side Effect Resource, a.k.a. SIDER, takes all the fine print from drug labels, and aggregates the information about side effects into a searchable, downloadable database. SIDER got a major upgrade last month, and now contains 40% more drug-effect pairs than before.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sideeffects.embl.de",
+   "url": "http://sideeffects.embl.de/"
+  },
+  {
+   "name": "nar.oxfordjournals.org",
+   "url": "http://nar.oxfordjournals.org/content/early/2015/10/19/nar.gkv1075.abstract"
+  },
+  {
+   "name": "sideeffects.embl.de",
+   "url": "http://sideeffects.embl.de/drugs/3386/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-11",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sideeffects.embl.de",
+  "host": "sideeffects.embl.de"
+ }
+}

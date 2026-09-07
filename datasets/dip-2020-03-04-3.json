@@ -1,0 +1,53 @@
+{
+ "id": "dip-2020-03-04-3",
+ "title": "Smithsonian imagery",
+ "hook": "“For the first time in its 174-year history, the Smithsonian has released 2.8 million high-resolution two- and three-dimensional images from across its collections onto an open access online platform for patrons to peruse and download free of charge,” the institution announced last week.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "si.edu",
+   "url": "https://www.si.edu/openaccess"
+  },
+  {
+   "name": "smithsonianmag.com",
+   "url": "https://www.smithsonianmag.com/smithsonian-institution/smithsonian-releases-28-million-images-public-domain-180974263/"
+  },
+  {
+   "name": "si.edu",
+   "url": "https://www.si.edu/openaccess/devtools"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Smithsonian/OpenAccess"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2002.08595"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/rois-codh/kaokore"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-04",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "si.edu",
+  "host": "si.edu"
+ }
+}

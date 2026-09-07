@@ -1,0 +1,43 @@
+{
+ "id": "dip-2017-01-18-3",
+ "title": "Online and offline prices",
+ "hook": "Between December 2014 and March 2016, Alberto Cavallo — co-founder of MIT’s Billion Prices Project — sent 323 crowdsourced workers to collect product prices from 56 large retailers in 10 countries. Then, he found the prices for the same products on the retailers’ websites.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "mit.edu",
+   "url": "http://www.mit.edu/~afc/"
+  },
+  {
+   "name": "bpp.mit.edu",
+   "url": "http://bpp.mit.edu/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FXXOUHF"
+  },
+  {
+   "name": "aeaweb.org",
+   "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20160542"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-01-18",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-01-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mit.edu",
+  "host": "mit.edu"
+ }
+}

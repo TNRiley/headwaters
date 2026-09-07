@@ -1,0 +1,38 @@
+{
+ "id": "dip-2020-05-20-1",
+ "title": "Excess deaths",
+ "hook": "The Economist has published the data behind its estimates of excess deaths due to COVID-19. The data repository currently covers 20 countries; it provides recent weekly/monthly death totals, officially-counted COVID-19 death, and average historical death totals for the same time periods.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "journalism",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/TheEconomist/covid-19-excess-deaths-tracker"
+  }
+ ],
+ "articles": [
+  {
+   "name": "economist.com",
+   "url": "https://www.economist.com/graphic-detail/2020/04/16/tracking-covid-19-excess-deaths-across-countries"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-20",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

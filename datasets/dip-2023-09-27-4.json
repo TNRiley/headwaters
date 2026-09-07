@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-09-27-4",
+ "title": "GitHub metrics",
+ "hook": "GitHub’s new Innovation Graph datasets present a range of quarterly metrics on the code-sharing site, aggregated by “economy” — a concept similar to “country” but slightly broader.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "innovationgraph.github.com",
+   "url": "https://innovationgraph.github.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/github/innovationgraph"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/git-guides/git-push"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/github/innovationgraph/blob/main/docs/datasheet.md"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/VPN_service"
+  },
+  {
+   "name": "gharchive.org",
+   "url": "https://www.gharchive.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-02-21-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-27",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "innovationgraph.github.com",
+  "host": "innovationgraph.github.com"
+ }
+}

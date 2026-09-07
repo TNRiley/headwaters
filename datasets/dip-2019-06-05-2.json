@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-06-05-2",
+ "title": "Global voter turnout",
+ "hook": "The International Institute for Democracy and Electoral Assistance’s Voter Turnout Database tracks the number of registered voters, total voter turnout, voting-age population, and associated metrics for elections in more than 200 countries, some going as far back as 1945.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "idea.int",
+   "url": "https://www.idea.int/"
+  },
+  {
+   "name": "idea.int",
+   "url": "https://www.idea.int/data-tools/data/voter-turnout"
+  },
+  {
+   "name": "election-results.eu",
+   "url": "https://election-results.eu/"
+  },
+  {
+   "name": "europeandatajournalism.eu",
+   "url": "https://www.europeandatajournalism.eu/eng/News/Data-news/What-s-going-on-with-abstention-in-Europe"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-05",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "idea.int",
+  "host": "idea.int"
+ }
+}

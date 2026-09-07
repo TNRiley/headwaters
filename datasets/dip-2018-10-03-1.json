@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-10-03-1",
+ "title": "Critical habitats",
+ "hook": "The U.S. Fish &amp; Wildlife Service publishes a database outlining the critical habitats for more than 700 threatened and endangered species. For each habitat, the dataset provides its geographic boundary lines, the species’ name and type, the size of the habitat, the date it was declared critical, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ecos.fws.gov",
+   "url": "https://ecos.fws.gov/ecp/report/table/critical-habitat.html"
+  },
+  {
+   "name": "fws.gov",
+   "url": "https://www.fws.gov/gis/data/national/"
+  },
+  {
+   "name": "catalog.data.gov",
+   "url": "https://catalog.data.gov/dataset/boundaries-of-the-john-h-chafee-coastal-barrier-resources-system"
+  },
+  {
+   "name": "migbirdapps.fws.gov",
+   "url": "https://migbirdapps.fws.gov/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-10-03",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-10-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ecos.fws.gov",
+  "host": "ecos.fws.gov"
+ }
+}

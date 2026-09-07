@@ -1,0 +1,35 @@
+{
+ "id": "dip-2017-10-18-4",
+ "title": "Sister, Sister",
+ "hook": "In the wake of the Second Vatican Council in the 1960s, Sister Marie Augusta Neal conducted an enormous opinion survey of Catholic “women religious.” More than 130,000 sisters responded to the 649 multiple-choice-question survey — the results of which the University of Notre Dame recently cleaned up and made available online.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "news.nd.edu",
+   "url": "https://news.nd.edu/news/digital-preservation-at-notre-dame-breathes-new-life-into-1967-sisters-survey/"
+  },
+  {
+   "name": "curate.nd.edu",
+   "url": "https://curate.nd.edu/show/0r967368551"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-10-18",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-10-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "news.nd.edu",
+  "host": "news.nd.edu"
+ }
+}

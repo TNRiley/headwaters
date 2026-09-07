@@ -1,0 +1,53 @@
+{
+ "id": "dip-2023-02-01-4",
+ "title": "Browser capabilities",
+ "hook": "Alexis Deveria’s caniuse.com indicates which versions of which web browsers support various web technologies, such as CSS’s grid layout, the WebP image format, and the Image Capture API. The project’s dataset covers 530+ technologies and 19 browsers (6 desktop, 13 mobile).",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "a.deveria.com",
+   "url": "https://a.deveria.com/"
+  },
+  {
+   "name": "caniuse.com",
+   "url": "https://caniuse.com/"
+  },
+  {
+   "name": "caniuse.com",
+   "url": "https://caniuse.com/css-grid"
+  },
+  {
+   "name": "caniuse.com",
+   "url": "https://caniuse.com/webp"
+  },
+  {
+   "name": "caniuse.com",
+   "url": "https://caniuse.com/imagecapture"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Fyrd/caniuse"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-01",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "a.deveria.com",
+  "host": "a.deveria.com"
+ }
+}

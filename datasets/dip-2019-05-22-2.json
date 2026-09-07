@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-05-22-2",
+ "title": "City finances",
+ "hook": "The Fiscally Standardized Cities database “makes it possible to compare local government finances for 150 of the largest U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "lincolninst.edu",
+   "url": "https://www.lincolninst.edu/research-data/data-toolkits/fiscally-standardized-cities"
+  },
+  {
+   "name": "lincolninst.edu",
+   "url": "https://www.lincolninst.edu/research-data/data-toolkits/fiscally-standardized-cities/list-150-fiscs"
+  },
+  {
+   "name": "lincolninst.edu",
+   "url": "https://www.lincolninst.edu/about-lincoln-institute/people/adam-h-langley"
+  },
+  {
+   "name": "lincolninst.edu",
+   "url": "https://www.lincolninst.edu/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-22",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lincolninst.edu",
+  "host": "lincolninst.edu"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "dip-2020-06-24-1",
+ "title": "New policing bills",
+ "hook": "The National Conference of State Legislatures has built a database of state-level policing bills and executive orders introduced since May 25, the day George Floyd was killed.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ncsl.org",
+   "url": "https://www.ncsl.org"
+  },
+  {
+   "name": "ncsl.org",
+   "url": "https://www.ncsl.org/research/civil-and-criminal-justice/legislative-responses-for-policing.aspx"
+  }
+ ],
+ "articles": [
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/2020/06/18/which-states-are-taking-on-police-reform-after-george-floyd"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-06-24",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-06-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ncsl.org",
+  "host": "ncsl.org"
+ }
+}

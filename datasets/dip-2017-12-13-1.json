@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-12-13-1",
+ "title": "Government-sponsored cyberattacks",
+ "hook": "Last month, the Council on Foreign Relations launched the Cyber Operations Tracker, a database of “publicly known state-sponsored cyber incidents that have occurred since 2005.” The 191 attacks in the database so far have been sponsored by 16 different countries, with China, Russia, and Iran being the most cited.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cfr.org",
+   "url": "https://www.cfr.org/blog/tracking-state-sponsored-cyber-operations"
+  },
+  {
+   "name": "cfr.org",
+   "url": "https://www.cfr.org/interactive/cyber-operations"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-12-13",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-12-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cfr.org",
+  "host": "cfr.org"
+ }
+}

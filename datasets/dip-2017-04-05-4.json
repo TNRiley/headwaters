@@ -1,0 +1,33 @@
+{
+ "id": "dip-2017-04-05-4",
+ "title": "Science grants",
+ "hook": "The National Science Foundation publishes data on all of the grants the agency has awarded since the 1970s (and some earlier ones, too). Each grant is represented as an XML file, which contains information about the project, the awardee, and the NSF division that awarded the grant. [h/t France A. Córdova]",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "nsf.gov",
+   "url": "https://www.nsf.gov/awardsearch/download.jsp"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-05",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nsf.gov",
+  "host": "nsf.gov"
+ }
+}

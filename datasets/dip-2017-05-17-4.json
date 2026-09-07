@@ -1,0 +1,33 @@
+{
+ "id": "dip-2017-05-17-4",
+ "title": "The watch list Chicago police fought to keep secret",
+ "hook": "The Chicago Sun-Times has obtained and published an August 2016 copy of the Chicago Police Department’s “Strategic Subject List,” a database that scores nearly 400,000 (unnamed) people on a scale from 10 to 500, based on an algorithm that attempts to estimate their risk of being involved in gun violence (either as a shooter or a victim).",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "chicago.suntimes.com",
+   "url": "http://chicago.suntimes.com/politics/what-gets-people-on-watch-list-chicago-police-fought-to-keep-secret-watchdogs/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-17",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "chicago.suntimes.com",
+  "host": "chicago.suntimes.com"
+ }
+}

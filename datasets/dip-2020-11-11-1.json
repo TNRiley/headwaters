@@ -1,0 +1,42 @@
+{
+ "id": "dip-2020-11-11-1",
+ "title": "Child detention",
+ "hook": "The Marshall Project has obtained and published official data from US Customs and Border Protection listing 580,000+ times that the agency detained migrant children since early 2017.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/themarshallproject/cbp-migrantchildren-detention-data"
+  },
+  {
+   "name": "observablehq.com",
+   "url": "https://observablehq.com/@themarshallproject/cbp-child-detentions-2017-to-2020"
+  }
+ ],
+ "articles": [
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/2020/10/30/500-000-kids-30-million-hours-trump-s-vast-expansion-of-child-detention"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-11-11",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-11-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

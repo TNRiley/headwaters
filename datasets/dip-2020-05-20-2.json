@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-05-20-2",
+ "title": "Trade agreements",
+ "hook": "The Design of Trade Agreements database collects information about customs unions, free trade agreements, and other similar treaties signed between 1948 and 2018. It currently includes more than 800 agreements, plus additional negotiations, accessions, withdrawals, consolidations, and amendments.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "designoftradeagreements.org",
+   "url": "https://www.designoftradeagreements.org"
+  },
+  {
+   "name": "designoftradeagreements.org",
+   "url": "https://www.designoftradeagreements.org/downloads/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-20",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "designoftradeagreements.org",
+  "host": "designoftradeagreements.org"
+ }
+}

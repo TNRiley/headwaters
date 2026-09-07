@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-09-28-1",
+ "title": "State-level results",
+ "hook": "Perhaps better known for its campaign-finance data, the Federal Election Commission also publishes official state-level results for presidential, House, and Senate elections going back to 1982. The results include all official candidates, and sometimes even write-ins (depending on the state).",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fec.gov",
+   "url": "http://www.fec.gov/pubrec/electionresults.shtml"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-28",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fec.gov",
+  "host": "fec.gov"
+ }
+}

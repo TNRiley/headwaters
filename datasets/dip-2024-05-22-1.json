@@ -1,0 +1,61 @@
+{
+ "id": "dip-2024-05-22-1",
+ "title": "Federal court dockets",
+ "hook": "Journalist Matt Clark has compiled a database of more than 350 million docket entries across more than 13 million cases in 180+ federal courts — including the majority of district, appellate, and bankruptcy courts.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/in/matt-clark-3324896/"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/federal-court-dockets"
+  },
+  {
+   "name": "pacer.uscourts.gov",
+   "url": "https://pacer.uscourts.gov/help/faqs/how-can-i-receive-case-alerts-using-rss-feed"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/download/federal-court-dockets"
+  },
+  {
+   "name": "clinic.cyber.harvard.edu",
+   "url": "https://clinic.cyber.harvard.edu/how-to-read-a-docket-latest/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/PACER_(law)"
+  },
+  {
+   "name": "courtlistener.com",
+   "url": "https://www.courtlistener.com/recap/"
+  },
+  {
+   "name": "law.gwu.libguides.com",
+   "url": "https://law.gwu.libguides.com/dockets"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-22",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "linkedin.com",
+  "host": "linkedin.com"
+ }
+}

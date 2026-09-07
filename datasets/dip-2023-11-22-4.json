@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-11-22-4",
+ "title": "Electricity-balancing incentives",
+ "hook": "Jim Moran’s VPP Data tracks programs in the US that incentivize homeowners (and others) to participate in virtual power plants — collections of internet-connected batteries and other “distributed energy resources” that utilities can use to balance supply and demand.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/in/jamesdmoran/"
+  },
+  {
+   "name": "vppdata.com",
+   "url": "https://www.vppdata.com/p/vpp-data"
+  },
+  {
+   "name": "energy.gov",
+   "url": "https://www.energy.gov/lpo/articles/doe-releases-new-report-pathways-commercial-liftoff-virtual-power-plants"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1Y8epdlr_7npoJBwKd5A3CDpxoYaYY1xI38btHpOn2tw/edit#gid=0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-22",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "linkedin.com",
+  "host": "linkedin.com"
+ }
+}

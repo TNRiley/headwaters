@@ -1,0 +1,49 @@
+{
+ "id": "dip-2016-02-03-4",
+ "title": "Post-Fukushima radiation",
+ "hook": "Next month marks the five-year anniversary of the Fukushima Daiichi disaster, the worst nuclear accident since Chernobyl. Since shortly after the meltdown, volunteers for Safecast have been collecting radiation measurements in Japan and beyond. The results are available to download or to access via API.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "nei.org",
+   "url": "http://www.nei.org/News-Media/News/News-Archives/fukushima-chernobyl-and-the-nuclear-event-scale"
+  },
+  {
+   "name": "blog.safecast.org",
+   "url": "http://blog.safecast.org/history/"
+  },
+  {
+   "name": "safecast.org",
+   "url": "http://safecast.org/tilemap/?y=35.2&x=137.9&z=5"
+  },
+  {
+   "name": "blog.safecast.org",
+   "url": "http://blog.safecast.org/data/"
+  },
+  {
+   "name": "safecast.org",
+   "url": "https://api.safecast.org/en-US/home"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-03",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nei.org",
+  "host": "nei.org"
+ }
+}

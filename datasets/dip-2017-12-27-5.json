@@ -1,0 +1,39 @@
+{
+ "id": "dip-2017-12-27-5",
+ "title": "Italian for watermelon",
+ "hook": "Through a series of surveys, L'Atlante della Lingua Italiana QUOTidiana has been asking Italian speakers what words they use to describe various everyday things. The results for each question can be browsed as maps, or downloaded as XML files.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "atlante-aliquot.de",
+   "url": "https://www.atlante-aliquot.de/index.php"
+  },
+  {
+   "name": "atlante-aliquot.de",
+   "url": "https://www.atlante-aliquot.de/primo_turno.php"
+  },
+  {
+   "name": "atlante-aliquot.de",
+   "url": "https://www.atlante-aliquot.de/primo_turno_anguria.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-12-27",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-12-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "atlante-aliquot.de",
+  "host": "atlante-aliquot.de"
+ }
+}

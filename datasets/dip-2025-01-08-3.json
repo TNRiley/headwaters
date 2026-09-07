@@ -1,0 +1,45 @@
+{
+ "id": "dip-2025-01-08-3",
+ "title": "AI governance documents",
+ "hook": "The Emerging Technology Observatory’s AGORA “is a living collection of AI-relevant laws, regulations, standards, and other governance documents from the United States and around the world.” The dataset, available to download and explore online, provides the full text, metadata (e.g., jurisdiction, title, relevant dates), summaries, and thematic tags for 600+ documents.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eto.tech",
+   "url": "https://eto.tech/"
+  },
+  {
+   "name": "eto.tech",
+   "url": "https://eto.tech/dataset-docs/agora-dataset/"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/records/14499135"
+  },
+  {
+   "name": "agora.eto.tech",
+   "url": "https://agora.eto.tech/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-01-08",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-01-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "eto.tech",
+  "host": "eto.tech"
+ }
+}

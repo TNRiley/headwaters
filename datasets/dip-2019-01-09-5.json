@@ -1,0 +1,43 @@
+{
+ "id": "dip-2019-01-09-5",
+ "title": "From Spanskgrøn to Østerland",
+ "hook": "Norse World is an “online, open access searchable index and mapping of the foreign place names found in medieval East Norse texts.” Through the project’s interactive map, you can search and download the data.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "uu.se",
+   "url": "https://www.uu.se/en/research/infrastructure/norseworld/"
+  },
+  {
+   "name": "norseworld.nordiska.uu.se",
+   "url": "https://norseworld.nordiska.uu.se/index.php"
+  },
+  {
+   "name": "uu.se",
+   "url": "https://www.uu.se/en/research/infrastructure/norseworld/using-norse-world/search-and-filters"
+  },
+  {
+   "name": "uu.se",
+   "url": "https://www.uu.se/en/research/infrastructure/norseworld/using-norse-world/exporting-the-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-09",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "uu.se",
+  "host": "uu.se"
+ }
+}

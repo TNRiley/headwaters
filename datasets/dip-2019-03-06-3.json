@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-03-06-3",
+ "title": "International students",
+ "hook": "The UNESCO Institute of Statistics compiles data on “internationally mobile” university students, including annual numbers of students by country of origin and country of study. Related: UNESCO's interactive map of student flows. [h/t Francisco Marmolejo]",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "uis.unesco.org",
+   "url": "http://uis.unesco.org/"
+  },
+  {
+   "name": "uis.unesco.org",
+   "url": "http://uis.unesco.org/en/glossary-term/international-or-internationally-mobile-students"
+  },
+  {
+   "name": "uis.unesco.org",
+   "url": "http://data.uis.unesco.org/index.aspx?queryid=171"
+  },
+  {
+   "name": "uis.unesco.org",
+   "url": "http://uis.unesco.org/en/uis-student-flow"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-06",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "UNESCO",
+  "host": "uis.unesco.org"
+ }
+}

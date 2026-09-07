@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-02-28-5",
+ "title": "Rick and Morty",
+ "hook": "The (unofficial) Rick and Morty API provides data on 390+ characters, 60+ locations, and all 31 episodes of the science-fictional animated series.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "rickandmortyapi.com",
+   "url": "https://rickandmortyapi.com/"
+  },
+  {
+   "name": "rickandmortyapi.com",
+   "url": "https://rickandmortyapi.com/documentation#character"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Rick_and_Morty"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-28",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rickandmortyapi.com",
+  "host": "rickandmortyapi.com"
+ }
+}

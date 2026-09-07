@@ -1,0 +1,37 @@
+{
+ "id": "dip-2023-01-04-4",
+ "title": "UAE art establishments",
+ "hook": "As part of her doctoral research into the role of women in the United Arab Emirates’ art scene, Eve Grinstead has compiled three tables of relevant data, listing 99 galleries, nine fairs, and eight auction houses in the country.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "ihmc.ens.psl.eu",
+   "url": "https://ihmc.ens.psl.eu/-GRINSTEAD-Eve-.html?lang=en"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/SWDKKK"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-04",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ihmc.ens.psl.eu",
+  "host": "ihmc.ens.psl.eu"
+ }
+}

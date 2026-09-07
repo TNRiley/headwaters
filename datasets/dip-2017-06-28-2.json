@@ -1,0 +1,53 @@
+{
+ "id": "dip-2017-06-28-2",
+ "title": "People’s genes",
+ "hook": "OpenSNP is a website that lets people publish the results of their genetic tests (such as those sold by 23andMe, deCODEme, FamilyTreeDNA), “find others with similar genetic variations, [get] the latest primary literature on their variations, and help scientists find new associations.” Since 2012, users have uploaded more than 3,000 sets of genetic variants, which you can download individually or in bulk or access via OpenSNP’s API.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "opensnp.org",
+   "url": "https://opensnp.org/"
+  },
+  {
+   "name": "opensnp.org",
+   "url": "https://opensnp.org/statistics"
+  },
+  {
+   "name": "opensnp.org",
+   "url": "https://opensnp.org/genotypes"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/openSNP/snpr/wiki/JSON-API"
+  },
+  {
+   "name": "opensnp.org",
+   "url": "https://opensnp.org/phenotypes"
+  },
+  {
+   "name": "ghr.nlm.nih.gov",
+   "url": "https://ghr.nlm.nih.gov/primer/genomicresearch/snp"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-28",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opensnp.org",
+  "host": "opensnp.org"
+ }
+}

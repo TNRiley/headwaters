@@ -1,0 +1,38 @@
+{
+ "id": "dip-2016-10-19-1",
+ "title": "American manufacturing",
+ "hook": "The Census Bureau’s Annual Survey of Manufacturers provides state-by-state and industry-by-industry statistics for America’s manufacturing sector. Metrics include the number of employees, annual payroll, “value added,” beginning-of-year inventory, and many more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "census.gov",
+   "url": "http://www.census.gov/programs-surveys/asm.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "http://www.nytimes.com/2016/10/09/magazine/why-are-politicians-so-obsessed-with-manufacturing.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-19",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

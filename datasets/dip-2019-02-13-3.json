@@ -1,0 +1,57 @@
+{
+ "id": "dip-2019-02-13-3",
+ "title": "German companies",
+ "hook": "The Open Knowledge Foundation Deutschland and OpenCorporates have partnered to make Germany’s official business register available to download in bulk. The dataset contains basic information about more than 5 million German companies, and more than 4 million associated officers.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "okfn.de",
+   "url": "https://okfn.de/en/"
+  },
+  {
+   "name": "opencorporates.com",
+   "url": "https://opencorporates.com/"
+  },
+  {
+   "name": "okfn.de",
+   "url": "https://okfn.de/blog/2019/02/finally-open-company-data/"
+  },
+  {
+   "name": "blog.opencorporates.com",
+   "url": "https://blog.opencorporates.com/2019/02/06/german-company-data-now-available-for-download-via-open-knowledge-deutschland/"
+  },
+  {
+   "name": "offeneregister.de",
+   "url": "https://offeneregister.de/"
+  },
+  {
+   "name": "offeneregister.de",
+   "url": "https://offeneregister.de/daten/"
+  },
+  {
+   "name": "joachim-gassen.github.io",
+   "url": "https://joachim-gassen.github.io/2019/02/where-the-german-companies-are/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-02-13",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-02-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "okfn.de",
+  "host": "okfn.de"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "dip-2023-12-13-4",
+ "title": "Antimicrobial peptides",
+ "hook": "In a recent journal article, the University of Nebraska Medical Center’s Guangshun Wang discusses the history and future of the Antimicrobial Peptide Database, which his lab launched more than 20 years ago. The database now catalogs 3,500+ such molecules, which play an important role in the innate immune system.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.4778"
+  },
+  {
+   "name": "unmc.edu",
+   "url": "https://www.unmc.edu/pathology/faculty/bios/wang.html"
+  },
+  {
+   "name": "aps.unmc.edu",
+   "url": "https://aps.unmc.edu/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Antimicrobial_peptides"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Innate_immune_system"
+  },
+  {
+   "name": "aps.unmc.edu",
+   "url": "https://aps.unmc.edu/database"
+  },
+  {
+   "name": "aps.unmc.edu",
+   "url": "https://aps.unmc.edu/about"
+  },
+  {
+   "name": "aps.unmc.edu",
+   "url": "https://aps.unmc.edu/downloads"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-12-13",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-12-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Gentry et al.",
+  "host": "onlinelibrary.wiley.com"
+ }
+}

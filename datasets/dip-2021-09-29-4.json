@@ -1,0 +1,57 @@
+{
+ "id": "dip-2021-09-29-4",
+ "title": "Sea world",
+ "hook": "Marine Regions, a project managed by the Flanders Marine Institute, provides names and geographic coordinates for 62,000+ sea-related places, areas, and boundaries. These include exclusive economic zones, the high seas, “internal waters,” World Marine Heritage Sites and more, drawn from a wide range of sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "marineregions.org",
+   "url": "https://www.marineregions.org/"
+  },
+  {
+   "name": "vliz.be",
+   "url": "https://www.vliz.be/en"
+  },
+  {
+   "name": "marineregions.org",
+   "url": "https://www.marineregions.org/content.php"
+  },
+  {
+   "name": "marineregions.org",
+   "url": "https://www.marineregions.org/downloads.php"
+  },
+  {
+   "name": "marineregions.org",
+   "url": "https://www.marineregions.org/sources.php#heritage"
+  },
+  {
+   "name": "marineregions.org",
+   "url": "https://www.marineregions.org/eezsearch.php"
+  },
+  {
+   "name": "marineregions.org",
+   "url": "https://www.marineregions.org/eezmapper.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-29",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "marineregions.org",
+  "host": "marineregions.org"
+ }
+}

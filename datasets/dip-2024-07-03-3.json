@@ -1,0 +1,47 @@
+{
+ "id": "dip-2024-07-03-3",
+ "title": "Beach replenishment",
+ "hook": "The Program for the Study of Developed Shorelines at Western Carolina University maintains a database of 2,500+ beach-replenishing efforts since the 1920s.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "psds.wcu.edu",
+   "url": "https://psds.wcu.edu/"
+  },
+  {
+   "name": "beachnourishment.wcu.edu",
+   "url": "https://beachnourishment.wcu.edu/"
+  },
+  {
+   "name": "beachnourishment.wcu.edu",
+   "url": "https://beachnourishment.wcu.edu/about"
+  },
+  {
+   "name": "beachnourishment.wcu.edu",
+   "url": "https://beachnourishment.wcu.edu/glossary"
+  },
+  {
+   "name": "cbsnews.com",
+   "url": "https://www.cbsnews.com/beach-nourishment/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-03",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "psds.wcu.edu",
+  "host": "psds.wcu.edu"
+ }
+}

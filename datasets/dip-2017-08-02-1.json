@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-08-02-1",
+ "title": "Data from the search for MH370",
+ "hook": "After Malaysia Airlines flight MH370 disappeared in March 2014, the Australian government undertook an enormous seafloor-mapping operation in search of the lost Boeing 777.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "Australia",
+ "sources": [
+  {
+   "name": "marine.projects.ga.gov.au",
+   "url": "http://marine.projects.ga.gov.au/mh370-phase-one-data-release.html"
+  },
+  {
+   "name": "geoscience-au.maps.arcgis.com",
+   "url": "https://geoscience-au.maps.arcgis.com/apps/Cascade/index.html?appid=038a72439bfa4d28b3dde81cc6ff3214"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-02",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "marine.projects.ga.gov.au",
+  "host": "marine.projects.ga.gov.au"
+ }
+}

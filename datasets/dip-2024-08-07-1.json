@@ -1,0 +1,55 @@
+{
+ "id": "dip-2024-08-07-1",
+ "title": "State/local government employment",
+ "hook": "Every year, the Census Bureau sends its Annual Survey of Public Employment & Payroll to all 50 state governments and 90,000+ local governments, requesting employee counts and payroll totals.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics",
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/apes.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/apes/technical-documentation/methodology/annual/2023.html"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/apes/data/datasetstables.html"
+  },
+  {
+   "name": "observablehq.com",
+   "url": "https://observablehq.com/@themarshallproject/census-labor-data-release"
+  }
+ ],
+ "articles": [
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/2024/07/25/how-to-investigate-the-trend-of-declining-prison-staff-and-deteriorating-conditions-behind-bars"
+  },
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/investigate-this"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-08-07",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-08-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-07-14-5",
+ "title": "Lightning intensity",
+ "hook": "The World Wide Lightning Location Network uses radio sensors to detect the location and power of 200+ million lightning strokes per year. Access to WWLLN’s raw, detailed data costs money but earth scientists Jed O.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "wwlln.net",
+   "url": "https://wwlln.net/"
+  },
+  {
+   "name": "web.hku.hk",
+   "url": "http://web.hku.hk/~jkaplan/"
+  },
+  {
+   "name": "researchgate.net",
+   "url": "https://www.researchgate.net/profile/Katie-Hong-Kiu-Lau"
+  },
+  {
+   "name": "essd.copernicus.org",
+   "url": "https://essd.copernicus.org/articles/13/3219/2021/"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/4882792"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-07-14",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-07-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wwlln.net",
+  "host": "wwlln.net"
+ }
+}

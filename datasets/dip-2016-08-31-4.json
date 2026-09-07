@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-08-31-4",
+ "title": "The California Database Hunt",
+ "hook": "California Senate Bill 272, enacted last year, required every local government agencies to publish a “catalog of enterprise systems” — essentially a guide to all the big databases they keep — by July 1 of this year.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "leginfo.legislature.ca.gov",
+   "url": "https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=201520160SB272"
+  },
+  {
+   "name": "eff.org",
+   "url": "https://www.eff.org/deeplinks/2016/08/transparency-advocates-collect-more-400-database-catalogs"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-31",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "leginfo.legislature.ca.gov",
+  "host": "leginfo.legislature.ca.gov"
+ }
+}

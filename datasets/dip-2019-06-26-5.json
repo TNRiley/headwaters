@@ -1,0 +1,38 @@
+{
+ "id": "dip-2019-06-26-5",
+ "title": "The State Of The State Of The States",
+ "hook": "FiveThirtyEight has collected the text of all 50 state governors’ 2019 annual addresses, and has analyzed the most common words and phrases used by Republican and Democratic governors.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/state-of-the-state"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/what-americas-governors-are-talking-about/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-26",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

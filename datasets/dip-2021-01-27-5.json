@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-01-27-5",
+ "title": "The da Vinci codex",
+ "hook": "The Codex Atlanticus “is the largest existing collection of original drawings and text by Leonardo da Vinci” — 1,119 pages assembled by the 16th–century sculptor Pompeo Leoni.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Codex_Atlanticus"
+  },
+  {
+   "name": "thevisualagency.com",
+   "url": "https://thevisualagency.com/about/"
+  },
+  {
+   "name": "codex-atlanticus.it",
+   "url": "https://codex-atlanticus.it/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-27",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

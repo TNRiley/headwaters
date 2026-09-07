@@ -1,0 +1,37 @@
+{
+ "id": "dip-2022-06-08-4",
+ "title": "Mercenaries",
+ "hook": "Ulrich Petersohn et al.’s Commercial Military Actor Database examines “the market for force” in 72 countries from 1980 to 2016.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/full/10.1177/00220027211072528"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TOFZ09"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-08",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "journals.sagepub.com",
+  "host": "journals.sagepub.com"
+ }
+}

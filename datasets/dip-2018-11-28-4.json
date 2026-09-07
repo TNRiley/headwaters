@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-11-28-4",
+ "title": "Cattle, buffaloes, horses, sheep, goats, pigs, chickens, and ducks",
+ "hook": "Last month, an international team of researchers published the third major version of their Gridded Livestock of the World dataset, which estimates the global distribution of cattle, buffaloes, horses, sheep, goats, pigs, chickens and ducks.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata2018227#ref7"
+  },
+  {
+   "name": "fao.org",
+   "url": "http://www.fao.org/livestock-systems/global-distributions/en/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataverse/glw_3"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-11-28",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-11-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

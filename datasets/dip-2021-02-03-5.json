@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-02-03-5",
+ "title": "Hockey",
+ "hook": "The National Hockey League has an undocumented API. Technologist Drew Hynes is making sense of the dozens of endpoints, which provide data on decades of player stats, game schedules, draft picks, and more. [h/t Jemma Issroff]",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "kevinsidwar.com",
+   "url": "https://www.kevinsidwar.com/iot/2017/7/1/the-undocumented-nhl-stats-api"
+  },
+  {
+   "name": "pure-defect.com",
+   "url": "https://pure-defect.com/about/"
+  },
+  {
+   "name": "gitlab.com",
+   "url": "https://gitlab.com/dword4/nhlapi"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-02-03",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-02-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "kevinsidwar.com",
+  "host": "kevinsidwar.com"
+ }
+}

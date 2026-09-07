@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-08-24-4",
+ "title": "Census tract population changes",
+ "hook": "Researchers at the University of Tennessee have built a dataset and interactive map comparing each US Census tract’s population in 2020 versus 2010.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "tnsdc.utk.edu",
+   "url": "https://tnsdc.utk.edu/2022/05/16/new-interactive-map-details-population-change-across-us-last-decade/"
+  },
+  {
+   "name": "myutk.maps.arcgis.com",
+   "url": "https://myutk.maps.arcgis.com/home/item.html?id=dfb01c34015d4e149dcbbf3fbbdfc88b"
+  },
+  {
+   "name": "myutk.maps.arcgis.com",
+   "url": "https://myutk.maps.arcgis.com/apps/instant/sidebar/index.html?appid=b6cf315a28aa4089873ee3442d4a2597"
+  },
+  {
+   "name": "nhgis.org",
+   "url": "https://www.nhgis.org/geographic-crosswalks"
+  },
+  {
+   "name": "tnsdc.utk.edu",
+   "url": "https://tnsdc.utk.edu/2022/05/16/producing-maps-of-detailed-population-change-between-2010-and-2020/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-24",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tnsdc.utk.edu",
+  "host": "tnsdc.utk.edu"
+ }
+}

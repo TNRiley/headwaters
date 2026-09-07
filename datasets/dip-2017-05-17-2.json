@@ -1,0 +1,50 @@
+{
+ "id": "dip-2017-05-17-2",
+ "title": "Global food prices",
+ "hook": "The UN World Food Programme’s vulnerability analysis group collects and publishes food price data for more than 1,000 towns and cities in more than 70 countries. The dataset, which goes back more than a decade, covers basic staples, such as wheat, rice, milk, oil, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "vam.wfp.org",
+   "url": "http://vam.wfp.org/"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/wfp-food-prices"
+  },
+  {
+   "name": "foodprices.vam.wfp.org",
+   "url": "http://foodprices.vam.wfp.org/ALPS-at-a-glance.aspx"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "economist.com",
+   "url": "http://www.economist.com/content/big-mac-index"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-17",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "vam.wfp.org",
+  "host": "vam.wfp.org"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "dip-2017-08-02-2",
+ "title": "European Union lobbying",
+ "hook": "The EU publishes a searchable database of people and organizations registered to lobby the European Parliament and the European Commission. The website LobbyFacts.eu takes that data and makes it available via an API.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "ec.europa.eu",
+   "url": "http://ec.europa.eu/transparencyregister/public/homePage.do?redir=false&locale=en"
+  },
+  {
+   "name": "lobbyfacts.eu",
+   "url": "https://lobbyfacts.eu/"
+  },
+  {
+   "name": "lobbyfacts.eu",
+   "url": "http://api.lobbyfacts.eu/docs/api"
+  },
+  {
+   "name": "lobbyfacts.eu",
+   "url": "https://lobbyfacts.eu/transparency_meetings"
+  },
+  {
+   "name": "integritywatch.eu",
+   "url": "http://www.integritywatch.eu/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-05-31-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-02",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Eurostat Energy",
+  "host": "ec.europa.eu"
+ }
+}

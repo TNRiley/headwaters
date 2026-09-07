@@ -1,0 +1,61 @@
+{
+ "id": "dip-2023-01-25-4",
+ "title": "Upcoming weather",
+ "hook": "Alexander Rey’s Pirate Weather aims to be a “drop in replacement” for DarkSky’s weather forecast API, which is shutting down. It pulls data from several NOAA forecast models in order to provide minute-level, hourly, and daily predictions of temperature, precipitation, cloud cover, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "alexanderrey.ca",
+   "url": "https://alexanderrey.ca/"
+  },
+  {
+   "name": "pirateweather.net",
+   "url": "https://pirateweather.net/"
+  },
+  {
+   "name": "darksky.net",
+   "url": "https://darksky.net/dev"
+  },
+  {
+   "name": "blog.darksky.net",
+   "url": "https://blog.darksky.net/dark-sky-has-a-new-home/"
+  },
+  {
+   "name": "pirateweather.net",
+   "url": "https://docs.pirateweather.net/en/latest/#data-sources"
+  },
+  {
+   "name": "merrysky.net",
+   "url": "https://merrysky.net/"
+  },
+  {
+   "name": "houstonchronicle.com",
+   "url": "https://www.houstonchronicle.com/business/tech/article/dwight-silverman-dark-sky-merry-sky-17728129.php"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/guillaume"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-25",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "alexanderrey.ca",
+  "host": "alexanderrey.ca"
+ }
+}

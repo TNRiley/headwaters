@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-01-27-3",
+ "title": "Tens of millions of movie ratings",
+ "hook": "MovieLens.org is a free, noncommercial movie recommender — sort of like Netflix, minus the ability to watch movies. The service is run by a research lab at the University of Minnesota. The lab publishes several datasets of user ratings and movie info. The largest contains 22 million ratings.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "movielens.org",
+   "url": "https://movielens.org/"
+  },
+  {
+   "name": "grouplens.org",
+   "url": "http://grouplens.org/"
+  },
+  {
+   "name": "grouplens.org",
+   "url": "http://grouplens.org/datasets/movielens/"
+  },
+  {
+   "name": "rottentomatoes.com",
+   "url": "http://www.rottentomatoes.com/m/epic_movie/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-27",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "movielens.org",
+  "host": "movielens.org"
+ }
+}

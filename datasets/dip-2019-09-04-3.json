@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-09-04-3",
+ "title": "Publicly funded patents",
+ "hook": "The 3PFL dataset — Patents and Publications with a Public-Funding Linkage — lists more than 13,000 US patents that have acknowledged federal funding. The dataset, accompanied by a detailed methodology, also links the patents to details about the funding, as well as to scientific publications that stemmed from it.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/3369582"
+  },
+  {
+   "name": "journals.plos.org",
+   "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0218927"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OTTBDX"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-07-31-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-04",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "zenodo.org",
+  "host": "zenodo.org"
+ }
+}

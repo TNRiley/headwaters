@@ -1,0 +1,38 @@
+{
+ "id": "dip-2018-04-25-1",
+ "title": "School shootings",
+ "hook": "Over the past year, reporters at the Washington Post ”attempted to identify every act of gunfire at a primary or secondary school during school hours since the Columbine High massacre on April 20, 1999.” Using a range of sources, the reporters ”reviewed more than 1,000 alleged incidents, but counted only those that…",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/washingtonpost/data-school-shootings"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/graphics/2018/local/school-shootings-database/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-25",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

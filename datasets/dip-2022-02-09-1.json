@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-02-09-1",
+ "title": "People affected by Trump’s travel ban",
+ "hook": "On January 27, 2017, then–President Trump issued an executive order suspending entry to the United States by citizens of seven Muslim-majority countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ballotpedia.org",
+   "url": "https://ballotpedia.org/Donald_Trump%27s_immigration_executive_order_issued_January_27,_2017"
+  },
+  {
+   "name": "huffpost.com",
+   "url": "https://www.huffpost.com/entry/trump-travel-ban-muslims-changed-lives_n_61e86498e4b01f707dabbdcd"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/11w02tTBHguxfQljb2--fN-c3kEaiSpHhnpW6CYkBgQY/edit#gid=135755090"
+  },
+  {
+   "name": "travel.state.gov",
+   "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/presidential-proclamation-archive/presidential-proclamation9645.html?wcmmode=disabled"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-02-09",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-02-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ballotpedia.org",
+  "host": "ballotpedia.org"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-05-24-1",
+ "title": "Aviation accident investigations",
+ "hook": "Through its Case Analysis and Reporting Online service, the National Transportation Safety Board provides information about all US civil aviation accident investigations since 1983; another NTSB tool includes earlier cases, going back to 1963. The agency also provides bulk data downloads, covering the full span.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ntsb.gov",
+   "url": "https://data.ntsb.gov/carol-main-public/landing-page"
+  },
+  {
+   "name": "ntsb.gov",
+   "url": "https://www.ntsb.gov/Pages/AviationQuery.aspx"
+  },
+  {
+   "name": "ntsb.gov",
+   "url": "https://data.ntsb.gov/avdata"
+  },
+  {
+   "name": "ntsb.gov",
+   "url": "https://www.ntsb.gov/news/press-releases/Pages/NR20230215.aspx"
+  },
+  {
+   "name": "ntsb.gov",
+   "url": "https://www.ntsb.gov/safety/data/Pages/GeneralAviationDashboard.aspx"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-24",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ntsb.gov",
+  "host": "ntsb.gov"
+ }
+}

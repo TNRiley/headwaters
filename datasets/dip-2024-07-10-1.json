@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-07-10-1",
+ "title": "Federal inmate complaints",
+ "hook": "The Federal Bureau of Prisons’ Administrative Remedy Program “allow[s] an inmate to seek formal review of an issue relating to any aspect of his/her own confinement.” In October 2022, the Data Liberation Project (which, disclosure, I run) filed a FOIA request seeking records from the agency database that tracks those complaints.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "bop.gov",
+   "url": "https://www.bop.gov/policy/progstat/1330_018.pdf"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/datasets/federal-inmate-complaints/"
+  },
+  {
+   "name": "buttondown.email",
+   "url": "https://buttondown.email/data-liberation-project/archive/dlp-dispatch-16/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/document/d/1vTuyUFNqS9tex4_s4PgmhF8RTvTb-uFMN5ElDjjVHTM/edit"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-10",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bop.gov",
+  "host": "bop.gov"
+ }
+}

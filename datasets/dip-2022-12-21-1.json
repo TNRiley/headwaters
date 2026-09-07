@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-12-21-1",
+ "title": "Inmate call costs",
+ "hook": "In its latest “State of Phone Justice” report, the Prison Policy Initiative has compiled data on the price of inmate phone calls “for almost every jail and prison in the country.” One table lists each jail’s name, state, type, average daily population, telecom company, and the per-minute cost of in-state and out-of-state calls in 2021.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "prisonpolicy.org",
+   "url": "https://www.prisonpolicy.org/phones/state_of_phone_justice_2022.html"
+  },
+  {
+   "name": "prisonpolicy.org",
+   "url": "https://www.prisonpolicy.org/"
+  },
+  {
+   "name": "prisonpolicy.org",
+   "url": "https://www.prisonpolicy.org/phones/appendices2022_3.html"
+  },
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/general/ics-data-collections"
+  },
+  {
+   "name": "prisonpolicy.org",
+   "url": "https://www.prisonpolicy.org/phones/appendices2022_1.html"
+  },
+  {
+   "name": "prisonpolicy.org",
+   "url": "https://www.prisonpolicy.org/phones/appendices2022_5.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-12-21",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-12-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "prisonpolicy.org",
+  "host": "prisonpolicy.org"
+ }
+}

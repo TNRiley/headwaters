@@ -1,0 +1,43 @@
+{
+ "id": "dip-2019-04-24-3",
+ "title": "Ride-hailing",
+ "hook": "Chicago has become the first city to publish detailed data from ride-hailing services, such as Uber and Lyft. Last week, officials released three datasets — on (anonymized) drivers, vehicles, and trips. The driver and vehicle datasets cover early 2015 through December 2018.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "chicago.curbed.com",
+   "url": "https://chicago.curbed.com/2019/4/15/18311340/uber-lyft-chicago-data-fares-drivers"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Drivers/j6wf-834c"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Vehicles/bc6b-sq4u"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Transportation/Transportation-Network-Providers-Trips/m6dm-c72p"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-24",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "chicago.curbed.com",
+  "host": "chicago.curbed.com"
+ }
+}

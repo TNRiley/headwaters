@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-10-05-4",
+ "title": "R&D spending",
+ "hook": "The UNESCO Institute for Statistics’ data on national research and development budgets contains estimates of personnel and total spending by field, funding source, and more. You can also explore the data online through a series of interactive graphics. [h/t Rebecca Galloway]",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "uis.unesco.org",
+   "url": "http://data.uis.unesco.org/Index.aspx?DataSetCode=SCN_DS&lang=en"
+  },
+  {
+   "name": "uis.unesco.org",
+   "url": "http://www.uis.unesco.org/_LAYOUTS/UNESCO/research-and-development-spending/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-05",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "UNESCO",
+  "host": "uis.unesco.org"
+ }
+}

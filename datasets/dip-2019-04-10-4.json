@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-04-10-4",
+ "title": "Public pension plans",
+ "hook": "Boston College’s Center for Retirement Research compiles detailed financial data on state and local public pension plans. The database covers fiscal years 2001–18 and includes 180 public pension plans, which together “account for 95 percent of state/local pension assets and members in the US.” [h/t Cezary Podkul]",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "crr.bc.edu",
+   "url": "https://crr.bc.edu/"
+  },
+  {
+   "name": "publicplansdata.org",
+   "url": "https://publicplansdata.org/public-plans-database/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-10",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "crr.bc.edu",
+  "host": "crr.bc.edu"
+ }
+}

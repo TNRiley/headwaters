@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-09-01-5",
+ "title": "Creative Twitter bots",
+ "hook": "The website Botwiki “was created in July 2015 by Stefan Bohacek with the goal of preserving examples of interesting and creative online bots” and providing tutorials for building them. Bohacek has curated a dataset of 70+ popular examples running on Twitter, drawn from Botwiki and from Tully Hansen’s Omnibots list.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "botwiki.org",
+   "url": "https://botwiki.org/"
+  },
+  {
+   "name": "botwiki.org",
+   "url": "https://botwiki.org/author/stefan/"
+  },
+  {
+   "name": "kaggle.com",
+   "url": "https://www.kaggle.com/fourtonfish/popular-twitter-bots"
+  },
+  {
+   "name": "tullyhansen.com",
+   "url": "https://tullyhansen.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-01",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "botwiki.org",
+  "host": "botwiki.org"
+ }
+}

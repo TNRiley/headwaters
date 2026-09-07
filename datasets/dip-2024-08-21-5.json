@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-08-21-5",
+ "title": "Olympic medalists",
+ "hook": "The European Data Journalism Network’s Giorgio Comai has used Wikipedia and Wikidata to create a series of datasets listing the name, birth date, sex, and birthplace of Summer Olympic medalists. Comai has mapped the birthplace coordinates and, for Europe-born medalists, linked them to their NUTS regions.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "europeandatajournalism.eu",
+   "url": "https://www.europeandatajournalism.eu/"
+  },
+  {
+   "name": "giorgiocomai.eu",
+   "url": "https://giorgiocomai.eu/"
+  },
+  {
+   "name": "edjnet.github.io",
+   "url": "https://edjnet.github.io/OlympicsGoNUTS/"
+  },
+  {
+   "name": "edjnet.github.io",
+   "url": "https://edjnet.github.io/OlympicsGoNUTS/2024/medalists_map.html"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/web/gisco/geodata/statistical-units/territorial-units-statistics"
+  },
+  {
+   "name": "edjnet.github.io",
+   "url": "https://edjnet.github.io/OlympicsGoNUTS/2024/"
+  },
+  {
+   "name": "edjnet.github.io",
+   "url": "https://edjnet.github.io/OlympicsGoNUTS/2020/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-08-21",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-08-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "europeandatajournalism.eu",
+  "host": "europeandatajournalism.eu"
+ }
+}

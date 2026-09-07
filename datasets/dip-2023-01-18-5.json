@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-01-18-5",
+ "title": "Food coloring",
+ "hook": "Arlie L. Lehmkuhler et al. have used high-performance liquid chromatography to assemble a dataset measuring the levels of “FD&C” color additives (e.g., Yellow 5 and Red 40) in foods and drinks popular with children, such as breakfast cereals and fruit-flavored soft drinks.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340922010095"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/High-performance_liquid_chromatography"
+  },
+  {
+   "name": "mendeley.com",
+   "url": "https://data.mendeley.com/datasets/7rpwxrphws/1"
+  },
+  {
+   "name": "fda.gov",
+   "url": "https://www.fda.gov/industry/color-additive-inventories/summary-color-additives-use-united-states-foods-drugs-cosmetics-and-medical-devices#table1B"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-18",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

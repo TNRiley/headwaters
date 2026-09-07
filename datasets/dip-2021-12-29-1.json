@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-12-29-1",
+ "title": "Local mortality and the 1918 pandemic",
+ "hook": "Martin Eiermann, Elizabeth Wrigley-Field, et al. have conducted an analysis of deaths before, during, and after the 1918 influenza pandemic, drawing on “data from multiple sources, including digitized mortality records for 70 U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/preprints/socarxiv/zf6wy/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Non-pharmaceutical_intervention_(epidemiology)"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/njghd/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-29",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "osf.io",
+  "host": "osf.io"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-12-16-4",
+ "title": "Third-Republic France",
+ "hook": "Economist Victor Gay has built a geographic dataset that traces, year by year, the administrative boundaries of France’s Third Republic, which governed from 1870 to 1940, when the Vichy Regime took power.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/site/victorgayeco/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataverse/TRF-GIS"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/French_Third_Republic"
+  },
+  {
+   "name": "hal.archives-ouvertes.fr",
+   "url": "https://hal.archives-ouvertes.fr/hal-02951461"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-16",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sites.google.com",
+  "host": "sites.google.com"
+ }
+}

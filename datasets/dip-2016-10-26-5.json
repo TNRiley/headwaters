@@ -1,0 +1,35 @@
+{
+ "id": "dip-2016-10-26-5",
+ "title": "TSA confiscations",
+ "hook": "Between October 2014 and September 2015, the U.S. Transportation Security Administration confiscated 22,196 “dangerous” items at airports, including 156 times at New York’s JFK.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "metrocosm.com",
+   "url": "http://metrocosm.com/get-the-data/#tsa"
+  },
+  {
+   "name": "metrocosm.com",
+   "url": "http://metrocosm.com/confiscated-items-airport-security/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-26",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "metrocosm.com",
+  "host": "metrocosm.com"
+ }
+}

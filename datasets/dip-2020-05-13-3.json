@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-05-13-3",
+ "title": "National wildernesses",
+ "hook": "Since the passage of the Wilderness Act in 1964, the US federal government has established 803 official wilderness areas, which cover more than 111 million acres.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "wilderness.net",
+   "url": "https://wilderness.net/learn-about-wilderness/fast-facts/default.php"
+  },
+  {
+   "name": "wilderness.net",
+   "url": "https://wilderness.net/default.php"
+  },
+  {
+   "name": "umontana.maps.arcgis.com",
+   "url": "https://umontana.maps.arcgis.com/apps/webappviewer/index.html?id=a415bca07f0a4bee9f0e894b0db5c3b6"
+  },
+  {
+   "name": "wilderness.net",
+   "url": "https://wilderness.net/visit-wilderness/gis-gps.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-13",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wilderness.net",
+  "host": "wilderness.net"
+ }
+}

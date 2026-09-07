@@ -1,0 +1,45 @@
+{
+ "id": "dip-2024-09-25-5",
+ "title": "James Beard honorees",
+ "hook": "Cody Winchester has constructed a dataset of James Beard Foundation Award semifinalists, nominees, and winners since 1991, sourced from the foundation’s award-search page.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "codywinchester.com",
+   "url": "https://codywinchester.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cjwinchester/james-beard"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/James_Beard_Foundation_Award"
+  },
+  {
+   "name": "jamesbeard.org",
+   "url": "https://www.jamesbeard.org/awards/search"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-25",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "codywinchester.com",
+  "host": "codywinchester.com"
+ }
+}

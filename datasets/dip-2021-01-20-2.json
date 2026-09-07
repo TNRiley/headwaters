@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-01-20-2",
+ "title": "Capitol siege charges",
+ "hook": "The Program on Extremism at George Washington University is building a “central database of court records related to the events of January 6, 2021.” In addition to linking to the government’s criminal complaints, indictments, and other documents, the researchers are publishing a spreadsheet of all people who’ve been federally charged — with names, age, gender, home state, and date charged.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "extremism.gwu.edu",
+   "url": "https://extremism.gwu.edu/"
+  },
+  {
+   "name": "extremism.gwu.edu",
+   "url": "https://extremism.gwu.edu/Capitol-Hill-Cases"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-20",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "extremism.gwu.edu",
+  "host": "extremism.gwu.edu"
+ }
+}

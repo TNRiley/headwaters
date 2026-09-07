@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-04-19-4",
+ "title": "Where plants grow best",
+ "hook": "The USDA’s Plant Hardiness Zone Map “is the standard by which gardeners and growers can determine which plants are most likely to thrive at a location.” The USDA and Oregon State, which have jointly developed the map, previously sold access to the underlying data through a vendor.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "planthardiness.ars.usda.gov",
+   "url": "http://planthardiness.ars.usda.gov/PHZMWeb/Default.aspx"
+  },
+  {
+   "name": "web.archive.org",
+   "url": "http://web.archive.org/web/20151001025259/http://climatesource.com/cgi-bin/csshop/scan/st=db/co=yes/sf=category/se=phz_us_phz/op=eq/va=banner_text=US%20%28grids%20%26%20shapefiles%29.html"
+  },
+  {
+   "name": "prism.oregonstate.edu",
+   "url": "http://www.prism.oregonstate.edu/projects/plant_hardiness_zones.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-19",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "planthardiness.ars.usda.gov",
+  "host": "planthardiness.ars.usda.gov"
+ }
+}

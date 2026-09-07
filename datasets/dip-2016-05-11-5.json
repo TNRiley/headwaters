@@ -1,0 +1,38 @@
+{
+ "id": "dip-2016-05-11-5",
+ "title": "Upward mobility",
+ "hook": "In response to a freedom-of-information request, the NYC Department of Buildings provided WNYC with a spreadsheet of 76,088 “registered elevator devices” in the city. Elevators and escalators dominate the list, but you’ll also find dumbwaiters, handicap lifts, and a few other vertical transporters.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/datanews/elevators"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "http://fivethirtyeight.com/features/new-yorks-elevators-define-the-city/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-11",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-03-06-2",
+ "title": "Fatal police pursuits",
+ "hook": "Reporters at the San Francisco Chronicle have compiled a national dataset of 3,300+ deaths in police car chases in 2017–2022. To build it, they used information from the federal government’s Fatality Analysis Reporting System (DIP 2016.08.31), research organizations, news reports, lawsuits, and public records requests.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/sfchronicle/police_pursuits"
+  },
+  {
+   "name": "sfchronicle.com",
+   "url": "https://www.sfchronicle.com/us-world/article/police-chases-methodology-18685158.php"
+  },
+  {
+   "name": "nhtsa.gov",
+   "url": "https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-08-31-edition/"
+  },
+  {
+   "name": "sfchronicle.com",
+   "url": "https://www.sfchronicle.com/projects/2024/police-chases-database/?hash=aHR0cHM6Ly93d3cuc2ZjaHJvbmljbGUuY29tL3Byb2plY3RzLzIwMjQvcG9saWNlLWNoYXNlcy1kYXRhYmFzZS8%3D&time=MTcwOTEzNDk3Mzc4OA%3D%3D"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-03-06",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-03-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

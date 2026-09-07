@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-12-15-3",
+ "title": "Reproductive assistance in the EU",
+ "hook": "Reporters at Civio have collected data on the access to, and availability of financial aid for, in vitro fertilization and artificial insemination in 43 European countries, noting limits based on age, marital status, sexual orientation, gender identity, and other factors.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "company",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "civio.es",
+   "url": "https://civio.es/en/about-us/"
+  },
+  {
+   "name": "datos.civio.es",
+   "url": "https://datos.civio.es/dataset/acceso-a-la-reproduccion-asistida-en-europa/"
+  },
+  {
+   "name": "datos.civio.es",
+   "url": "https://datos.civio.es/dataset/reproduccion-asistida-que-costea-la-sanidad-publica-en-europa/"
+  },
+  {
+   "name": "civio.es",
+   "url": "https://civio.es/medicamentalia/2021/11/02/ART-EU-access/"
+  },
+  {
+   "name": "observablehq.com",
+   "url": "https://observablehq.com/collection/@civio/619-art-eu"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-15",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "civio.es",
+  "host": "civio.es"
+ }
+}

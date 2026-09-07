@@ -1,0 +1,54 @@
+{
+ "id": "dip-2023-05-24-2",
+ "title": "The top of BuzzFeed News",
+ "hook": "You’ve likely heard: BuzzFeed Inc. has shut down BuzzFeed News, where I worked from 2014 to early 2022. In July 2018, the newsroom launched its own website, BuzzFeedNews.com, distinct from BuzzFeed.com. The top of the new homepage featured a “Trending” strip, with links to a handful of editor-selected articles.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sec.gov",
+   "url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1828972/000182897223000062/bzfd-20230420.htm"
+  },
+  {
+   "name": "web.archive.org",
+   "url": "http://web.archive.org/web/*/https://www.buzzfeednews.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jsvine/buzzfeed-news-trending-strip/blob/main/misc/trending-strip-screenshot.png"
+  },
+  {
+   "name": "techcrunch.com",
+   "url": "https://techcrunch.com/2018/07/18/buzzfeed-news/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jsvine/buzzfeed-news-trending-strip/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/buzzfeednews/buzzfeed-news-oral-history-2012-2023"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-24",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sec.gov",
+  "host": "sec.gov"
+ }
+}

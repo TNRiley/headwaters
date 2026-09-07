@@ -1,0 +1,47 @@
+{
+ "id": "dip-2017-07-19-1",
+ "title": "Solar eclipses",
+ "hook": "You’ve probably seen The Washington Post’s solar eclipse graphics from last Monday. The stellar maps are largely based on an online tool that uses data from NASA's Five Millennium Canon of Solar Eclipses.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate",
+  "space & astronomy"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "xjubier.free.fr",
+   "url": "http://xjubier.free.fr/en/site_pages/solar_eclipses/5MCSE/xSE_Five_Millennium_Canon.html"
+  },
+  {
+   "name": "eclipse.gsfc.nasa.gov",
+   "url": "https://eclipse.gsfc.nasa.gov/SEpubs/5MCSE.html"
+  },
+  {
+   "name": "eclipse.gsfc.nasa.gov",
+   "url": "https://eclipse.gsfc.nasa.gov/SEcat5/SEcatkey.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/graphics/national/eclipse/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-07-19",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-07-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "xjubier.free.fr",
+  "host": "xjubier.free.fr"
+ }
+}

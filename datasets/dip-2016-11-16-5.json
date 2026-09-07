@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-11-16-5",
+ "title": "Every street tree in NYC",
+ "hook": "Earlier this month, New York City published the results of its decennial tree count. You can explore a map of every street tree in NYC — nearly 700,000 of ‘em — or download the corresponding dataset, which contains info on each tree’s species, circumference, health status, and other observations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nycgovparks.org",
+   "url": "https://www.nycgovparks.org/trees/treescount"
+  },
+  {
+   "name": "tree-map.nycgovparks.org",
+   "url": "https://tree-map.nycgovparks.org/"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Blockface-Data/ju3b-rwpy"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/browse?q=Street%20Tree%20Census"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-11-16",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-11-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nycgovparks.org",
+  "host": "nycgovparks.org"
+ }
+}

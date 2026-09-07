@@ -1,0 +1,37 @@
+{
+ "id": "dip-2023-09-06-4",
+ "title": "Metabolisms",
+ "hook": "Drawing on 20+ published sources, Tori M. Hoehler et al. have compiled a dataset of 10,000+ measurements of metabolic rates of mammals, fish, birds, insects, tree saplings, bacteria, and other living organisms.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "pnas.org",
+   "url": "https://www.pnas.org/doi/10.1073/pnas.2303764120"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Basal_metabolic_rate"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-06",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Paini et al, 2016",
+  "host": "pnas.org"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-03-09-3",
+ "title": "Historical mortgages",
+ "hook": "With the help of volunteers, the New York Public Library is transcribing 6,000+ mortgage and bond ledgers from Emigrant Savings Bank, founded in 1850 and the oldest such bank in the city. You can search the transcribed records, or download the (very) raw data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "emigrantcity.nypl.org",
+   "url": "http://emigrantcity.nypl.org/#/intro"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-09",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "emigrantcity.nypl.org",
+  "host": "emigrantcity.nypl.org"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "id": "dip-2016-09-28-4",
+ "title": "Global elections",
+ "hook": "The Constituency-Level Elections Archive, based at the University of Michigan, collects and standardizes results from lower-house legislative elections around the world.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "electiondataarchive.org",
+   "url": "http://www.electiondataarchive.org/"
+  },
+  {
+   "name": "electiondataarchive.org",
+   "url": "http://www.electiondataarchive.org/datacenter.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-28",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "electiondataarchive.org",
+  "host": "electiondataarchive.org"
+ }
+}

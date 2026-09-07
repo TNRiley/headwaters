@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-10-04-5",
+ "title": "These American Voices",
+ "hook": "For a new interactive essay at The Pudding, Ash Ngu analyzed the gender composition of This American Life episodes. To support the findings, Ngu has published the underlying data, extracted from the show’s transcripts. Among the data extracted: the number of words spoken by each person in each act of each episode.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "stanford.edu",
+   "url": "http://stanford.edu/~ashngu/cgi-bin/"
+  },
+  {
+   "name": "pudding.cool",
+   "url": "https://pudding.cool/2017/09/this-american-life/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1KpGZzeBawsGsiYHhFgCkHFSImFlS2sdWFI4pnpUWdLQ/edit#gid=0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-10-04",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-10-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "stanford.edu",
+  "host": "stanford.edu"
+ }
+}

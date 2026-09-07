@@ -1,0 +1,57 @@
+{
+ "id": "dip-2021-09-08-4",
+ "title": "Software licenses",
+ "hook": "The ScanCode LicenseDB provides information about 1,700+ software licenses, ranging from the common (e.g., MIT License) to the idiosyncratic (SQLite Blessing) to the obscure (Ubuntu Font License).",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "scancode-licensedb.aboutcode.org",
+   "url": "https://scancode-licensedb.aboutcode.org/"
+  },
+  {
+   "name": "scancode-licensedb.aboutcode.org",
+   "url": "https://scancode-licensedb.aboutcode.org/mit.html"
+  },
+  {
+   "name": "scancode-licensedb.aboutcode.org",
+   "url": "https://scancode-licensedb.aboutcode.org/blessing.html"
+  },
+  {
+   "name": "scancode-licensedb.aboutcode.org",
+   "url": "https://scancode-licensedb.aboutcode.org/ubuntu-font-1.0.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/nexB/scancode-toolkit/tree/develop/src/licensedcode/data/licenses"
+  },
+  {
+   "name": "aboutcode.org",
+   "url": "https://www.aboutcode.org/projects/scancode.html"
+  },
+  {
+   "name": "scancode-licensedb.aboutcode.org",
+   "url": "https://scancode-licensedb.aboutcode.org/help.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-08",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "scancode-licensedb.aboutcode.org",
+  "host": "scancode-licensedb.aboutcode.org"
+ }
+}

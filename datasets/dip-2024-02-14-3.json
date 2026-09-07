@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-02-14-3",
+ "title": "Comics, deconstructed",
+ "hook": "The Tilburg University–based Visual Language Lab, led by comics scholar Neil Cohn, studies “all aspects of visual language, from the structure of individual drawings, emoji, or cartoons, to how we make meaning out of sequences of images like in comics.” The lab’s Visual Language Research Corpus provides detailed annotations of tens of thousands of panels in 300+ comic books and graphic novels (plus every Calvin & Hobbes strip).",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "visuallanguagelab.com",
+   "url": "https://www.visuallanguagelab.com/"
+  },
+  {
+   "name": "visuallanguagelab.com",
+   "url": "https://www.visuallanguagelab.com/neilcohn"
+  },
+  {
+   "name": "visuallanguagelab.com",
+   "url": "https://www.visuallanguagelab.com/vlrc"
+  },
+  {
+   "name": "link.springer.com",
+   "url": "https://link.springer.com/article/10.1007/s10579-023-09673-0"
+  },
+  {
+   "name": "dataverse.nl",
+   "url": "https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/LWMZ7G"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-14",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "visuallanguagelab.com",
+  "host": "visuallanguagelab.com"
+ }
+}

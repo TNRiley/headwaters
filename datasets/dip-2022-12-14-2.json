@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-12-14-2",
+ "title": "University enrollments",
+ "hook": "Elizabeth Buckner’s Global Longitudinal University Enrollment Dataset “compiles and estimates institution-level enrollment data on universities worldwide from 1950 to 2020” at five-year intervals — 17,000+ institutions in all, across 180+ countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "elizabethbuckner.com",
+   "url": "https://elizabethbuckner.com/"
+  },
+  {
+   "name": "ejournals.bc.edu",
+   "url": "https://ejournals.bc.edu/index.php/ihe/article/view/15729"
+  },
+  {
+   "name": "borealisdata.ca",
+   "url": "https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/P0D1KE&version=1.0"
+  },
+  {
+   "name": "borealisdata.ca",
+   "url": "https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/AJGTC9"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-12-14",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-12-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "elizabethbuckner.com",
+  "host": "elizabethbuckner.com"
+ }
+}

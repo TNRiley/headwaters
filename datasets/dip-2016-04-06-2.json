@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-04-06-2",
+ "title": "Nine years of homelessness estimates",
+ "hook": ". Every January, at the behest of the U.S. Department of Housing and Urban Development, volunteers across the country attempt to count the homeless in their communities. The result: HUD’s “point in time” estimates, which are currently available for 2007–2015.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "hudexchange.info",
+   "url": "https://www.hudexchange.info/resource/4832/2015-ahar-part-1-pit-estimates-of-homelessness/"
+  },
+  {
+   "name": "fusion.net",
+   "url": "http://fusion.net/story/49980/why-counting-americas-homeless-is-both-imperative-and-imperfect/"
+  },
+  {
+   "name": "citylimits.org",
+   "url": "http://citylimits.org/2015/10/13/how-many-street-homeless-nycs-tallies-leave-the-question-open/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-06",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "hudexchange.info",
+  "host": "hudexchange.info"
+ }
+}

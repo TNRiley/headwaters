@@ -1,0 +1,46 @@
+{
+ "id": "dip-2018-05-23-1",
+ "title": "Ebola",
+ "hook": "Caitlin Rivers, a computational epidemiologist at the Johns Hopkins Center for Health Security, has started compiling data tracking the current Ebola outbreak in the Democratic Republic of Congo.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "caitlinrivers.com",
+   "url": "http://www.caitlinrivers.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cmrivers/ebola_drc"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cmrivers/ebola"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theatlantic.com",
+   "url": "https://www.theatlantic.com/health/archive/2018/05/most-maps-of-the-new-ebola-outbreak-are-wrong/560777/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-05-23",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-05-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "caitlinrivers.com",
+  "host": "caitlinrivers.com"
+ }
+}

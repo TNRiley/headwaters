@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-01-25-5",
+ "title": "Cats on the move",
+ "hook": "Between 2013 and 2017, Roland Kays et al. convinced hundreds of volunteers in the US, UK, Australia, and New Zealand to strap GPS sensors on their pet cats. The aforelinked datasets include each cat’s characteristics (such as age, sex, neuter status, hunting habits) and timestamped GPS pings.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "zslpublications.onlinelibrary.wiley.com",
+   "url": "https://zslpublications.onlinelibrary.wiley.com/doi/10.1111/acv.12563"
+  },
+  {
+   "name": "datarepository.movebank.org",
+   "url": "https://www.datarepository.movebank.org/handle/10255/move.885"
+  },
+  {
+   "name": "datarepository.movebank.org",
+   "url": "https://www.datarepository.movebank.org/handle/10255/move.882"
+  },
+  {
+   "name": "datarepository.movebank.org",
+   "url": "https://www.datarepository.movebank.org/handle/10255/move.876"
+  },
+  {
+   "name": "datarepository.movebank.org",
+   "url": "https://www.datarepository.movebank.org/handle/10255/move.879"
+  },
+  {
+   "name": "cattracker.org",
+   "url": "https://cattracker.org/"
+  },
+  {
+   "name": "cattracker.org",
+   "url": "https://cattracker.org/tracks/"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/4008297#.Y86t4uLMI-Q"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-06-30-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-25",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "zslpublications.onlinelibrary.wiley.com",
+  "host": "zslpublications.onlinelibrary.wiley.com"
+ }
+}

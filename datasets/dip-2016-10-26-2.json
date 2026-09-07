@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-10-26-2",
+ "title": "School testing",
+ "hook": "The Department of Education’s EDFacts data tracks public grade schools’ participation and proficiency rates on standardized math and reading/language exams. The files provide data on all students who took the tests, broken down by race/ethnicity, sex, disability status, homelessness, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "www2.ed.gov",
+   "url": "http://www2.ed.gov/about/inits/ed/edfacts/data-files/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-26",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "US Dept of Education",
+  "host": "www2.ed.gov"
+ }
+}

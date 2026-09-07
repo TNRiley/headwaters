@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-03-02-5",
+ "title": "Lights, camera, permit",
+ "hook": "Through a freedom of information request, WNYC obtained four years of New York City film and television permits. The 40,000+ records date from October 2011 to September 2015 cover several types of permits, including those for scouting, shooting, and red carpet premieres.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/datanews/film-permits"
+  },
+  {
+   "name": "wnyc.org",
+   "url": "http://www.wnyc.org/story/tv-shooting-locations-new-york-city/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-02",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

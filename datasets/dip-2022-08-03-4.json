@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-08-03-4",
+ "title": "Data governance ratings",
+ "hook": "A new report from George Washington University’s Digital Trade and Data Governance Hub rates 68 countries on their approaches to data governance.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "datagovhub.letsnod.com",
+   "url": "https://datagovhub.letsnod.com/"
+  },
+  {
+   "name": "datagovhub.elliott.gwu.edu",
+   "url": "https://datagovhub.elliott.gwu.edu/"
+  },
+  {
+   "name": "oecd.ai",
+   "url": "https://oecd.ai/en/ai-principles"
+  },
+  {
+   "name": "globaldatabarometer.org",
+   "url": "https://globaldatabarometer.org"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-05-18-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-03",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "datagovhub.letsnod.com",
+  "host": "datagovhub.letsnod.com"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "id": "dip-2024-09-11-5",
+ "title": "Snakes",
+ "hook": "SnakeDB — created by Sascha Steinhoff “after [he] accidentally stepped into a snake in South-East Asia” — provides downloadable data on the maximum size, fang position, pupil shape, mode of reproduction, and toxicity of thousands of species, drawn from a broad range of sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "snakedb.org",
+   "url": "https://snakedb.org/"
+  },
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/in/sascha-steinhoff/"
+  },
+  {
+   "name": "snakedb.org",
+   "url": "https://snakedb.org/pages/about-snakedb.php"
+  },
+  {
+   "name": "snakedb.org",
+   "url": "https://snakedb.org/pages/size-max.php"
+  },
+  {
+   "name": "snakedb.org",
+   "url": "https://snakedb.org/pages/dentition-species.php"
+  },
+  {
+   "name": "snakedb.org",
+   "url": "https://snakedb.org/pages/pupil-species.php"
+  },
+  {
+   "name": "snakedb.org",
+   "url": "https://snakedb.org/pages/reproduction-species.php"
+  },
+  {
+   "name": "snakedb.org",
+   "url": "https://snakedb.org/pages/ld50.php"
+  },
+  {
+   "name": "snakedb.org",
+   "url": "https://snakedb.org/pages/ref-library.php"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-024-03079-5"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/dataset/ReptTraits_a_comprehensive_database_of_ecological_traits_in_reptiles/24572683"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-11",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "snakedb.org",
+  "host": "snakedb.org"
+ }
+}

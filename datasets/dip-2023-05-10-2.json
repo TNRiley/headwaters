@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-05-10-2",
+ "title": "More AI incidents",
+ "hook": "The AI, Algorithmic, and Automation Incidents and Controversies initiative, founded by Charlie Pownall in 2019, maintains a repository of such events, as well as related systems (e.g., GPT-4) and datasets (e.g., Labeled Faces in the Wild).",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "aiaaic.org",
+   "url": "https://www.aiaaic.org/"
+  },
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/in/charliepownall/"
+  },
+  {
+   "name": "aiaaic.org",
+   "url": "https://www.aiaaic.org/aiaaic-repository/aiaaic-repository-governance"
+  },
+  {
+   "name": "aiaaic.org",
+   "url": "https://www.aiaaic.org/aiaaic-repository/about-the-aiaaic-repository"
+  },
+  {
+   "name": "aiaaic.org",
+   "url": "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/gpt-4-large-language-model"
+  },
+  {
+   "name": "aiaaic.org",
+   "url": "https://www.aiaaic.org/aiaaic-repository/ai-and-algorithmic-incidents-and-controversies/labeled-faces-in-the-wild-lfw-dataset"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1Bn55B4xz21-_Rgdr8BBb2lt0n_4rzLGxFADMlVW0PYI/edit"
+  },
+  {
+   "name": "incidentdatabase.ai",
+   "url": "https://incidentdatabase.ai/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2023-04-19-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-10",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aiaaic.org",
+  "host": "aiaaic.org"
+ }
+}

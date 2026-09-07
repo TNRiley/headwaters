@@ -1,0 +1,37 @@
+{
+ "id": "dip-2023-04-19-4",
+ "title": "Rare-earth mining",
+ "hook": "Shuang-Liang Liu et al. have compiled a dataset of 146 mining projects targeting rare-earth elements, which serve as “critical raw materials in many low-carbon technologies.” The dataset lists each project’s name, company, location, status, deposit type, estimated tonnage of deposits, element composition, and other…",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S0169136823001439"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Rare-earth_element"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-19",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

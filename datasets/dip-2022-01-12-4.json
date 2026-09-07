@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-01-12-4",
+ "title": "Radio on the internet",
+ "hook": "Radio-browser.info is “a community driven effort (like wikipedia) with the aim of collecting as many internet radio and TV stations as possible.” The 29,000+ stations span 200+ countries and 280+ languages. You can explore them on a map, through an API, and via bulk database snapshots. [h/t jlkuester7]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "radio-browser.info",
+   "url": "https://www.radio-browser.info/"
+  },
+  {
+   "name": "radio-browser.info",
+   "url": "https://www.radio-browser.info/countries"
+  },
+  {
+   "name": "radio-browser.info",
+   "url": "https://www.radio-browser.info/languages"
+  },
+  {
+   "name": "radio-browser.info",
+   "url": "https://www.radio-browser.info/map"
+  },
+  {
+   "name": "backups.radio-browser.info",
+   "url": "https://backups.radio-browser.info/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-12",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "radio-browser.info",
+  "host": "radio-browser.info"
+ }
+}

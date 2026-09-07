@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-06-29-3",
+ "title": "Automated driving crashes",
+ "hook": "Last June, the National Highway Traffic Safety Administration issued a directive requiring manufacturers and fleet operators to report certain crashes involving either advanced driver assistance or higher-level “automated driving systems.” Earlier this month, the agency published its first release of crash report…",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nhtsa.gov",
+   "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting"
+  },
+  {
+   "name": "nhtsa.gov",
+   "url": "https://www.nhtsa.gov/equipment/driver-assistance-technologies"
+  },
+  {
+   "name": "nhtsa.gov",
+   "url": "https://www.nhtsa.gov/press-releases/initial-data-release-advanced-vehicle-technologies"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-29",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nhtsa.gov",
+  "host": "nhtsa.gov"
+ }
+}

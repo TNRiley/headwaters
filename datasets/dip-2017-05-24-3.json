@@ -1,0 +1,53 @@
+{
+ "id": "dip-2017-05-24-3",
+ "title": "Ransomware payments",
+ "hook": "When the malware program known as “WannaCry” hit hundreds of thousands of computers earlier this month, it demanded that the computers’ owners pay $300 in Bitcoin — or lose all of their data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "keithcollins.github.io",
+   "url": "http://keithcollins.github.io/"
+  },
+  {
+   "name": "blockchain.info",
+   "url": "https://blockchain.info/api"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/keithcollins/actual_ransom"
+  },
+  {
+   "name": "qz.com",
+   "url": "https://qz.com/986094/wannacry-ransomware-attacks-victims-have-stopped-paying-the-ransom/"
+  },
+  {
+   "name": "qz.com",
+   "url": "https://qz.com/985093/inside-the-digital-heist-that-terrorized-the-world-and-made-less-than-100k/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-03-08-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-24",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "keithcollins.github.io",
+  "host": "keithcollins.github.io"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2015-12-30-4",
+ "title": "Every known satellite orbiting Earth",
+ "hook": "The Union of Concerned Scientists’s Satellite Database currently contains 1,305 entries and is updated “roughly quarterly.” The longest-orbiting: AMSAT-OSCAR 7, an amateur radio satellite launched in November 1974. Related: The satellites, visualized. [h/t David Yanofsky]",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ucsusa.org",
+   "url": "http://www.ucsusa.org/nuclear-weapons/space-weapons/satellite-database.html"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/AMSAT-OSCAR_7"
+  },
+  {
+   "name": "qz.com",
+   "url": "http://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-30",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ucsusa.org",
+  "host": "ucsusa.org"
+ }
+}

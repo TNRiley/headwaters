@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-08-19-3",
+ "title": "House work",
+ "hook": "With help from academics and former Hill staffers, journalist Derek Willis has assembled an archive of the weekly job and internship bulletins sent by the US House of Representatives. The archive, which goes back to late 2013, includes both the original PDFs and text extracted from them.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "thescoop.org",
+   "url": "http://thescoop.org/about/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/dwillis/house-jobs"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-19",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "thescoop.org",
+  "host": "thescoop.org"
+ }
+}

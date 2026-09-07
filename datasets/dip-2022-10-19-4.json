@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-10-19-4",
+ "title": "UK museums",
+ "hook": "The Mapping Museums project has assembled a searchable, browsable, and downloadable dataset of 4,000+ museums active in the United Kingdom between 1960 and 2020. It includes museums dedicated to art, war, local history, transport, drinks, and many other subjects.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "other",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "museweb.dcs.bbk.ac.uk",
+   "url": "https://museweb.dcs.bbk.ac.uk/home"
+  },
+  {
+   "name": "museweb.dcs.bbk.ac.uk",
+   "url": "https://museweb.dcs.bbk.ac.uk/search"
+  },
+  {
+   "name": "museweb.dcs.bbk.ac.uk",
+   "url": "https://museweb.dcs.bbk.ac.uk/browseproperties"
+  },
+  {
+   "name": "museweb.dcs.bbk.ac.uk",
+   "url": "https://museweb.dcs.bbk.ac.uk/data"
+  },
+  {
+   "name": "museweb.dcs.bbk.ac.uk",
+   "url": "https://museweb.dcs.bbk.ac.uk/sources"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-19",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "museweb.dcs.bbk.ac.uk",
+  "host": "museweb.dcs.bbk.ac.uk"
+ }
+}

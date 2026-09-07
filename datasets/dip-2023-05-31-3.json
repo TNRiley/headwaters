@@ -1,0 +1,41 @@
+{
+ "id": "dip-2023-05-31-3",
+ "title": "Crowd accidents",
+ "hook": "Claudio Feliciani et al. have compiled a dataset of 281 crowd accidents from 1900 to 2019, based on “a comprehensive investigation of the press and media reports.” The researchers focus on accidents with at least one fatality or ten injuries “caused by a collective crowd motion which could have been potentially…",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S0925753523001169"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/7523480"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/2015_Mina_stampede"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-31",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

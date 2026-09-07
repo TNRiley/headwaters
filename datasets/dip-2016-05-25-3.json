@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-05-25-3",
+ "title": "Historical San Francisco rents",
+ "hook": "To help understand San Francisco’s soaring real estate prices, Eric Fischer transcribed decades of apartment and house listings in the San Francisco Chronicle. For each year from 1948 through 1979, Fischer jotted down every monthly rent advertised in the paper on the first Sunday in April.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "experimental-geography.blogspot.com",
+   "url": "https://experimental-geography.blogspot.com/2016/05/employment-construction-and-cost-of-san.html"
+  },
+  {
+   "name": "sfrb.org",
+   "url": "http://sfrb.org/san-francisco-housing-study-databook"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ericfischer/housing-inventory/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-25",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "experimental-geography.blogspot.com",
+  "host": "experimental-geography.blogspot.com"
+ }
+}

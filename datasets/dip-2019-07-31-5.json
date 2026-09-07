@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-07-31-5",
+ "title": "Soviet space dogs",
+ "hook": "Duncan Geere has compiled a database of the 48 dogs who participated in the USSR’s space program in the 1950s and 1960s. The information, which also includes details about the canines’ 42 flights, is based on Olesa Turkina's book, Soviet Space Dogs.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "duncangeere.com",
+   "url": "https://www.duncangeere.com/"
+  },
+  {
+   "name": "airtable.com",
+   "url": "https://airtable.com/universe/expG3z2CFykG1dZsp/sovet-space-dogs"
+  },
+  {
+   "name": "fuel-design.com",
+   "url": "http://fuel-design.com/publishing/soviet-space-dogs/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-31",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "duncangeere.com",
+  "host": "duncangeere.com"
+ }
+}

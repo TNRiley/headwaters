@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-01-30-4",
+ "title": "Uncertain spellings",
+ "hook": ". “Funemployed programmer” Colin Morris looked for all the times where commenters on Reddit added “(sp?)”, or a related annotation, to their remarks.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "colinmorris.github.io",
+   "url": "http://colinmorris.github.io/about/"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/CFB/comments/16h0ih/our_most_comments_in_a_game_thread_record_didnt/c7vyofl/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/colinmorris/reddit-dubious-spelling"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-30",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "colinmorris.github.io",
+  "host": "colinmorris.github.io"
+ }
+}

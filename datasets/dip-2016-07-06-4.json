@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-07-06-4",
+ "title": "NYC property taxes and exemptions",
+ "hook": "Property tax data in New York City is technically available to the public, but the city makes it difficult to access. So a pair of civic hackers liberated the data. Now you can download 1.1 million rows of bulk data, which details each property’s type, assessed value, taxes due, owner’s name, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "chriswhong.com",
+   "url": "http://chriswhong.com/open-data/liberating-data-from-nyc-property-tax-bills/"
+  },
+  {
+   "name": "iquantny.tumblr.com",
+   "url": "http://iquantny.tumblr.com/post/146688053904/payer-or-prayer-a-look-at-nycs-650-million"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-06",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "chriswhong.com",
+  "host": "chriswhong.com"
+ }
+}

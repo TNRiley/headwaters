@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-05-24-3",
+ "title": "Forty years of financial reforms",
+ "hook": "A decade-plus ago, a team of IMF economists published “A New Database of Financial Reforms,” recording changes to financial policy in 91 economies from 1973 to 2005.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "",
+ "sources": [
+  {
+   "name": "imf.org",
+   "url": "https://www.imf.org/en/Publications/WP/Issues/2016/12/31/A-New-Database-of-Financial-Reforms-22485"
+  },
+  {
+   "name": "sawaomori.jpn.org",
+   "url": "https://sawaomori.jpn.org/"
+  },
+  {
+   "name": "academic.oup.com",
+   "url": "https://academic.oup.com/jfr/article/8/2/230/6627259"
+  },
+  {
+   "name": "sawaomori.jpn.org",
+   "url": "https://sawaomori.jpn.org/data/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-24",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "imf.org",
+  "host": "imf.org"
+ }
+}

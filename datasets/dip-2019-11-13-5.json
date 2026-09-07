@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-11-13-5",
+ "title": "Perceived vs. real ages",
+ "hook": "AgeGuess.org asks visitors to guess people’s ages, based on photographs. You can download a database of the results, which currently includes more than 220,000 guesses about more than 4,600 photos. For each photograph, the database also includes some metadata, such as the person’s actual age.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ageguess.org",
+   "url": "https://www.ageguess.org/"
+  },
+  {
+   "name": "ageguess.org",
+   "url": "https://www.ageguess.org/download"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-019-0245-9"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-11-13",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-11-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ageguess.org",
+  "host": "ageguess.org"
+ }
+}

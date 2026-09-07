@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-08-01-2",
+ "title": "Global tax revenues",
+ "hook": "The Organisation for Economic Co-operation and Development (OECD) has launched a database “providing detailed and comparable tax revenue information for 80 countries around the world.” The Global Revenue Statistics Database, “which will expand to cover more than 90 countries by the end of 2018,” breaks tax revenues into dozens of categories and subcategories — such as sales taxes, taxes on capital gains, and taxes on exports.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "oecd.org",
+   "url": "http://www.oecd.org/tax/tax-policy/oecd-launches-largest-source-of-comparable-tax-revenue-data.htm"
+  },
+  {
+   "name": "stats.oecd.org",
+   "url": "https://stats.oecd.org/Index.aspx?DataSetCode=RS_GBL"
+  },
+  {
+   "name": "oecd.org",
+   "url": "http://www.oecd.org/tax/tax-policy/global-revenue-statistics-database.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-01",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "oecd.org",
+  "host": "oecd.org"
+ }
+}

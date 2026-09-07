@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-04-25-5",
+ "title": "Cooks in the kitchen",
+ "hook": "Computer-vision researchers convinced 32 participants (of 10 nationalities, living in 4 cities) to record everything they did in their kitchens for three days using a head-mounted camera. Later, the participants narrated what they had been doing.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/1804.02748"
+  },
+  {
+   "name": "epic-kitchens.github.io",
+   "url": "https://epic-kitchens.github.io/2018"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-25",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arxiv.org",
+  "host": "arxiv.org"
+ }
+}

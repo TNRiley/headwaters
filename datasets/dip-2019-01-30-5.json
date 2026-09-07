@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-01-30-5",
+ "title": "Twin City radio spins",
+ "hook": "“Shane Nackerud needed to know: Does 89.3 the Current play the Replacements every day?” To figure it out, the University of Minnesota librarian extracted track listings from 1.1 million @currentplaylist tweets from 2009 through 2018. He’s also published the total play counts by artist and the raw data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "citypages.com",
+   "url": "http://www.citypages.com/music/what-songs-artists-has-the-current-played-most-since-2009-this-u-of-m-librarian-crunched-the-numbers/504392941"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1ByxdKfjDQ7RtSvLRaufHPa7hYSLXfzUO9QaFgVf_fJc/edit#gid=1779654962"
+  },
+  {
+   "name": "drive.google.com",
+   "url": "https://drive.google.com/file/d/1XuWC9oTuQkwYlP6R6ljsOIpvMWfC-meZ/view"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-30",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "citypages.com",
+  "host": "citypages.com"
+ }
+}

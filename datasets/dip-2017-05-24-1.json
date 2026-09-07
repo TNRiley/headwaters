@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-05-24-1",
+ "title": "America’s card catalog",
+ "hook": "Last week, the Library of Congress released its largest dataset ever: nearly 25 million records for books, maps, manuscripts and other items in its online catalog. For each item, the data includes standardized bibliographic information, such as the title, author, publication date, and genre.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "loc.gov",
+   "url": "https://www.loc.gov/item/prn-17-068/"
+  },
+  {
+   "name": "loc.gov",
+   "url": "http://www.loc.gov/cds/PDFdownloads/mds2016.pdf"
+  },
+  {
+   "name": "opensource.com",
+   "url": "https://opensource.com/article/17/4/bit-about-marc-handlers"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-24",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "loc.gov",
+  "host": "loc.gov"
+ }
+}

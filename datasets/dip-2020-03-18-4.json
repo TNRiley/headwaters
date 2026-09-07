@@ -1,0 +1,57 @@
+{
+ "id": "dip-2020-03-18-4",
+ "title": "Health security preparedness",
+ "hook": "The Global Health Security Index is “the first comprehensive assessment and benchmarking of health security and related capabilities across the 195 countries” that signed on to the WHO’s 2005 International Health Regulations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "ghsindex.org",
+   "url": "https://www.ghsindex.org/about/"
+  },
+  {
+   "name": "who.int",
+   "url": "https://www.who.int/ihr/legal_issues/states_parties/en/"
+  },
+  {
+   "name": "ghsindex.org",
+   "url": "https://www.ghsindex.org/news/inaugural-global-health-security-index-finds-no-country-is-prepared-for-epidemics-or-pandemics/"
+  },
+  {
+   "name": "ghsindex.org",
+   "url": "https://www.ghsindex.org/report-model/"
+  },
+  {
+   "name": "nhspi.org",
+   "url": "https://nhspi.org/"
+  },
+  {
+   "name": "nhspi.org",
+   "url": "https://nhspi.org/nations-ability-to-manage-health-emergencies-rises/"
+  },
+  {
+   "name": "nhspi.org",
+   "url": "https://nhspi.org/tools-resources/2019-release-health-security-data-explorer/nhspi_2019_data_download/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-18",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ghsindex.org",
+  "host": "ghsindex.org"
+ }
+}

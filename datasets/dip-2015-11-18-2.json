@@ -1,0 +1,37 @@
+{
+ "id": "dip-2015-11-18-2",
+ "title": "#campaign",
+ "hook": "The 2016 presidential hopefuls have been tweeting, ‘gramming, and ‘booking like a pack of millennials. Fusion collected nearly 70,000 images from the candidates’ social media accounts, then pumped the pictures through an automated tagging system.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "fusion.net",
+   "url": "http://fusion.net/story/229021/2016-presidential-campaign-images/"
+  },
+  {
+   "name": "fusion.net",
+   "url": "http://fusion.net/interactive/213317/lose-yourself-in-our-massive-searchable-collection-of-candidates-social-media-photos/#tag=gun&order=date-desc"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-18",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fusion.net",
+  "host": "fusion.net"
+ }
+}

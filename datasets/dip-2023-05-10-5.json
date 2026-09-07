@@ -1,0 +1,55 @@
+{
+ "id": "dip-2023-05-10-5",
+ "title": "Planetary nomenclature",
+ "hook": "The International Astronomical Union’s Gazetteer of Planetary Nomenclature “provides a unique system of official names for planetary surface features, natural satellites, dwarf planets, and planetary rings for the benefit of the international science community, educators, and the general public.” You can browse, search, and the download the data, as well as view images of their locations.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "iau.org",
+   "url": "http://www.iau.org/"
+  },
+  {
+   "name": "planetarynames.wr.usgs.gov",
+   "url": "https://planetarynames.wr.usgs.gov/"
+  },
+  {
+   "name": "planetarynames.wr.usgs.gov",
+   "url": "https://planetarynames.wr.usgs.gov/AdvancedSearch"
+  },
+  {
+   "name": "planetarynames.wr.usgs.gov",
+   "url": "https://planetarynames.wr.usgs.gov/GIS_Downloads"
+  },
+  {
+   "name": "planetarynames.wr.usgs.gov",
+   "url": "https://planetarynames.wr.usgs.gov/Page/Images"
+  },
+  {
+   "name": "cinziabongino.com",
+   "url": "https://www.cinziabongino.com/"
+  },
+  {
+   "name": "behance.net",
+   "url": "https://www.behance.net/gallery/168652141/The-Names-on-the-Moon"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-10",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "iau.org",
+  "host": "iau.org"
+ }
+}

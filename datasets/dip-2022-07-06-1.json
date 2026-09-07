@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-07-06-1",
+ "title": "Banned and challenged books",
+ "hook": "A recent report from PEN America identified 1,500+ decisions, made between July 2021 and March 2022, to ban books from classrooms and school libraries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "pen.org",
+   "url": "https://pen.org/press-release/report-1586-school-book-bans-and-restrictions-in-86-school-districts-across-26-states/"
+  },
+  {
+   "name": "pen.org",
+   "url": "https://pen.org/banned-in-the-usa/"
+  },
+  {
+   "name": "pen.org",
+   "url": "https://pen.org/about-us/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1hTs_PB7KuTMBtNMESFEGuK-0abzhNxVv4tgpI5-iKe8/edit#gid=1623346099"
+  },
+  {
+   "name": "everylibraryinstitute.org",
+   "url": "https://www.everylibraryinstitute.org/book_censorship_database_magnusson"
+  },
+  {
+   "name": "everylibrary.org",
+   "url": "https://www.everylibrary.org/about-everylibrary"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1LqhGcvFDdT4izvoXRrz95BTDUzLr7M3IHf-2HGKhX7I/edit#gid=1604785798"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-06",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pen.org",
+  "host": "pen.org"
+ }
+}

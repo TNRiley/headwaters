@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-05-12-3",
+ "title": "TSA screenings",
+ "hook": "In its FOIA reading room, the US Transportation Security Administration publishes weekly PDF files that indicate the number of people passing through its checkpoints, broken down by hour and location. IT specialist Mike Lorengo has been converting these PDFs into structured data files.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "tsa.gov",
+   "url": "https://www.tsa.gov/foia/readingroom"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/mikelor"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/datasets/comments/mx87q8/tsa_throughput_dataset_alternate_source/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/mikelor/TsaThroughput"
+  },
+  {
+   "name": "tsa.gov",
+   "url": "https://www.tsa.gov/coronavirus/passenger-throughput"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-05-12",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-05-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tsa.gov",
+  "host": "tsa.gov"
+ }
+}

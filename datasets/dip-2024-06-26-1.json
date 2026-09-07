@@ -1,0 +1,58 @@
+{
+ "id": "dip-2024-06-26-1",
+ "title": "Supreme gifts",
+ "hook": "Fix the Court is a nonprofit that “advocates for non-ideological ‘fixes’ that would make the federal courts, and primarily the U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fixthecourt.com",
+   "url": "https://fixthecourt.com/about-us/"
+  },
+  {
+   "name": "fixthecourt.com",
+   "url": "https://fixthecourt.com/2024/06/a-staggering-tally-supreme-court-justices-accepted-hundreds-of-gifts-worth-millions-of-dollars/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/14l25NLvBOd9sk4mArK4k7dtV0MUwxr5GBuLHL5Sp8lo/edit"
+  },
+  {
+   "name": "free.law",
+   "url": "https://free.law/"
+  },
+  {
+   "name": "free.law",
+   "url": "https://free.law/2021/10/15/financial-disclosures-now-available-to-all-on-courtlistener"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-10-20-edition/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/supreme-connections/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-06-26",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-06-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fixthecourt.com",
+  "host": "fixthecourt.com"
+ }
+}

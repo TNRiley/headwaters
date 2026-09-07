@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-08-17-3",
+ "title": "Pro-government militias",
+ "hook": "Sabine Carey et al.’s Pro-Government Militias Database focuses on armed, organized groups that align themselves with a government but are not part of its official security forces.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/10.1177/20531680211062772"
+  },
+  {
+   "name": "sabinecarey.com",
+   "url": "https://www.sabinecarey.com/militias-data"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YK8L4I"
+  },
+  {
+   "name": "militiasdb.sowi.uni-mannheim.de",
+   "url": "https://militiasdb.sowi.uni-mannheim.de/militias-public"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-17",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "journals.sagepub.com",
+  "host": "journals.sagepub.com"
+ }
+}

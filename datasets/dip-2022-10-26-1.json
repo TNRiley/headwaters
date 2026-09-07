@@ -1,0 +1,61 @@
+{
+ "id": "dip-2022-10-26-1",
+ "title": "Strategic petroleum",
+ "hook": "The US Energy Information Administration maintains a dataset tracking the monthly volume of the country’s Strategic Petroleum Reserve, measured in the thousands of barrels.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=PET&s=MCSSTUS1&f=M"
+  },
+  {
+   "name": "energy.gov",
+   "url": "https://www.energy.gov/ceser/strategic-petroleum-reserve"
+  },
+  {
+   "name": "energy.gov",
+   "url": "https://www.energy.gov/ceser/spr-quick-facts"
+  },
+  {
+   "name": "energy.gov",
+   "url": "https://www.energy.gov/ceser/history-spr-releases"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/petroleum/supply/monthly/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2017-08-16-edition/"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/petroleum/gasdiesel/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-06-09-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-26",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "U.S. Gasoline and Diesel Retail Prices",
+  "host": "eia.gov"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-04-17-3",
+ "title": "Scientific publishing, linked",
+ "hook": "The Microsoft Academic Knowledge Graph, published under an Open Data Attributions license, describes 8+ billion relationships between scientific papers, their authors, affiliated institutions, conferences, journals, fields of study, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ma-graph.org",
+   "url": "http://ma-graph.org/"
+  },
+  {
+   "name": "ma-graph.org",
+   "url": "http://ma-graph.org/schema-linked-dataset-descriptions/"
+  },
+  {
+   "name": "ma-graph.org",
+   "url": "http://ma-graph.org/rdf-dumps/"
+  },
+  {
+   "name": "ma-graph.org",
+   "url": "http://ma-graph.org/sparql-endpoint/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-17",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ma-graph.org",
+  "host": "ma-graph.org"
+ }
+}

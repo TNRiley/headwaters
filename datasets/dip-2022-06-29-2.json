@@ -1,0 +1,43 @@
+{
+ "id": "dip-2022-06-29-2",
+ "title": "Diaspora voting policies",
+ "hook": "If you don’t live in your country of citizenship, can you still vote there? Nathan Allen et al.’s Extraterritorial Voting Rights and Restrictions Dataset examines 20+ characteristics of 195 countries’ policies from 1950 to 2020.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "evrrdataset.com",
+   "url": "https://www.evrrdataset.com/team"
+  },
+  {
+   "name": "evrrdataset.com",
+   "url": "https://www.evrrdataset.com/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DIJQ3H"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/file.xhtml?fileId=6337042"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-29",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "evrrdataset.com",
+  "host": "evrrdataset.com"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-01-06-2",
+ "title": "Commodity-transportation costs",
+ "hook": "The UN and the World Bank have launched a new interactive map and dataset that quantify the transportation costs for international trade — country-by-country and broken down by mode of transportation (sea, air, rail, road), trading partner, and commodity.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "unctad.org",
+   "url": "https://unctad.org/news/why-and-how-measure-international-transport-costs"
+  },
+  {
+   "name": "unctadstat.unctad.org",
+   "url": "https://unctadstat.unctad.org/EN/TransportCost.html"
+  },
+  {
+   "name": "unctadstat.unctad.org",
+   "url": "https://unctadstat.unctad.org/wds/ReportFolders/reportFolders.aspx?IF_ActivePath=P%2C207045"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-06",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "unctad.org",
+  "host": "unctad.org"
+ }
+}

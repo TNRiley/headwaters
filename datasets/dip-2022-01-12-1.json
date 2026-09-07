@@ -1,0 +1,50 @@
+{
+ "id": "dip-2022-01-12-1",
+ "title": "Slaveholders in Congress",
+ "hook": "At least “1,715 members of Congress were enslavers at some point in their adult lives,” according to a Washington Post investigation published Monday.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/unitedstates/congress-legislators"
+  },
+  {
+   "name": "bioguide.congress.gov",
+   "url": "https://bioguide.congress.gov/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/washingtonpost/data-congress-slaveowners/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/history/interactive/2022/congress-slaveowners-names-list/"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/history/interactive/2022/submit-congress-enslaved-database/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-12",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

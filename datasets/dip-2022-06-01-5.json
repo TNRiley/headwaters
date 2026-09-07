@@ -1,0 +1,58 @@
+{
+ "id": "dip-2022-06-01-5",
+ "title": "What Middletown Read",
+ "hook": "Thanks to the discovery of “a collection of dusty ledgers” in 2003, researchers have built a database of (nearly) every checkout from Muncie, Indiana’s public library from November 1891 to December 1902.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "lib.bsu.edu",
+   "url": "https://lib.bsu.edu/wmr/about.php"
+  },
+  {
+   "name": "lib.bsu.edu",
+   "url": "https://lib.bsu.edu/wmr/index.php"
+  },
+  {
+   "name": "bsu.edu",
+   "url": "https://www.bsu.edu/Academics/CentersandInstitutes/Middletown.aspx"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Middletown_studies"
+  },
+  {
+   "name": "shelftalkblog.wordpress.com",
+   "url": "https://shelftalkblog.wordpress.com/2017/02/14/for-the-love-of-data-an-open-data-release/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2017-03-01-edition/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/membership/2016/oct/18/view-from-middletown-us-muncie-america"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-01",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lib.bsu.edu",
+  "host": "lib.bsu.edu"
+ }
+}

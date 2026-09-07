@@ -1,0 +1,74 @@
+{
+ "id": "dip-2022-05-04-2",
+ "title": "COVID and wastewater, continued",
+ "hook": "Earlier this year, DIP featured wastewater sampling data from Biobot Analytics, which partners with local governments to monitor SARS-CoV-2 in sewage.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-01-26-edition/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/biobotanalytics/covid19-wastewater-data"
+  },
+  {
+   "name": "coviddatadispatch.com",
+   "url": "https://coviddatadispatch.com/2022/02/06/the-cdc-is-finally-publishing-wastewater-data-but-only-ten-states-are-well-represented/"
+  },
+  {
+   "name": "covid.cdc.gov",
+   "url": "https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/healthywater/surveillance/wastewater-surveillance/wastewater-surveillance.html"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://data.cdc.gov/Public-Health-Surveillance/NWSS-Public-SARS-CoV-2-Wastewater-Data/2ew6-ywp6"
+  },
+  {
+   "name": "betsyladyzhets.com",
+   "url": "https://betsyladyzhets.com/"
+  },
+  {
+   "name": "coviddatadispatch.com",
+   "url": "https://coviddatadispatch.com/"
+  },
+  {
+   "name": "coviddatadispatch.com",
+   "url": "https://coviddatadispatch.com/2022/04/24/how-one-wastewater-plant-became-a-leading-covid-19-forecasting-source/"
+  },
+  {
+   "name": "rockefellerfoundation.org",
+   "url": "https://www.rockefellerfoundation.org/report/the-role-of-wastewater-data-in-pandemic-management/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/the-national-fight-against-covid-19-isnt-ready-to-go-to-the-sewers/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-04",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "MuseWeb by way of Data Is Plural",
+  "host": "data-is-plural.com"
+ }
+}

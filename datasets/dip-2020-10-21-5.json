@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-10-21-5",
+ "title": "Shrinking salmon",
+ "hook": "Scientists recently documented “widespread declines in Pacific salmon size based on 60 years of measurements from 12.5 million fish across Alaska,” collected by state officials from more than 1,000 sampling locations. The underlying dataset lists each salmon’s age, sex, length, and other details where available.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41467-020-17726-z"
+  },
+  {
+   "name": "knb.ecoinformatics.org",
+   "url": "https://knb.ecoinformatics.org/view/doi:10.5063/F1707ZTM"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-10-21",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-10-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

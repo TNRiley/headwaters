@@ -1,0 +1,35 @@
+{
+ "id": "dip-2019-03-20-5",
+ "title": "Rooftop water tanks",
+ "hook": "New York City requires the owners of buildings with rooftop water tanks to get the vessels inspected annually for things like sediment, bacteria, and dead bugs. The city publishes a dataset of the owner-report results, based on 15,000 inspections, mostly from 2015–17.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/Health/Rooftop-Drinking-Water-Tank-Inspection-Results/gjm4-k24g"
+  },
+  {
+   "name": "cityandstateny.com",
+   "url": "https://www.cityandstateny.com/articles/policy/energy-environment/new-york-city-water-tank-hazards.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-20",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Squirrel Census",
+  "host": "cityofnewyork.us"
+ }
+}

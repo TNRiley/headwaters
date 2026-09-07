@@ -1,0 +1,66 @@
+{
+ "id": "dip-2023-11-29-2",
+ "title": "Seafloor depths",
+ "hook": "The International Hydrographic Organization’s Data Centre for Digital Bathymetry, established in 1990, hosts dozens of terabytes of “oceanic depth soundings acquired with multibeam and singlebeam sonars by hydrographic, oceanographic and industry vessels during surveys or while on passage.” It also provides access to depth data crowdsourced from mariners, who agree to attach logging devices to their ships’ echosounders.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "iho.int",
+   "url": "https://iho.int/"
+  },
+  {
+   "name": "ngdc.noaa.gov",
+   "url": "https://www.ngdc.noaa.gov/iho/"
+  },
+  {
+   "name": "iho.int",
+   "url": "https://iho.int/en/crowdsourced-bathymetry"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Echo_sounding"
+  },
+  {
+   "name": "lauratrethewey.ca",
+   "url": "https://lauratrethewey.ca/"
+  },
+  {
+   "name": "gebco.net",
+   "url": "https://www.gebco.net/data_and_products/gridded_bathymetry_data/arctic_ocean/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-07-22-edition/"
+  },
+  {
+   "name": "gebco.net",
+   "url": "https://www.gebco.net/about_us/overview/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "bbc.com",
+   "url": "https://www.bbc.com/future/article/20230929-can-a-map-of-the-ocean-floor-be-crowdsourced"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-29",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "iho.int",
+  "host": "iho.int"
+ }
+}

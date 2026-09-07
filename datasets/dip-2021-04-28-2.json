@@ -1,0 +1,58 @@
+{
+ "id": "dip-2021-04-28-2",
+ "title": "Foreign labor requests",
+ "hook": "In order to hire foreign workers through the government’s H-1B, H-2A, and H-2B programs, US employers need permission from the Department of Labor.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "dol.gov",
+   "url": "https://www.dol.gov/agencies/eta/foreign-labor/programs"
+  },
+  {
+   "name": "dol.gov",
+   "url": "https://www.dol.gov/agencies/eta/foreign-labor/performance"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/BuzzFeedNews/H-2-certification-data/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/jessicagarrison/the-new-american-slavery-invited-to-the-us-foreign-workers-f"
+  },
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/jessicagarrison/all-you-americans-are-fired"
+  },
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/kenbensinger/the-coyote"
+  },
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/kenbensinger/the-pushovers"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-28",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "National Database of Childcare Prices",
+  "host": "dol.gov"
+ }
+}

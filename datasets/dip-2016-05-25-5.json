@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-05-25-5",
+ "title": "Photography biography",
+ "hook": "The Photographers’ Identities Catalog aggregates data on more than 110,000 photographers and photo studios throughout history. The information “has been culled from trusted biographical dictionaries, catalogs and databases, and from extensive original research” by the New York Public Library’s photography experts.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "pic.nypl.org",
+   "url": "http://pic.nypl.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/NYPL/pic-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-25",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pic.nypl.org",
+  "host": "pic.nypl.org"
+ }
+}

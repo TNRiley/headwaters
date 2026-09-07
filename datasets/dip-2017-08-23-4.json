@@ -1,0 +1,33 @@
+{
+ "id": "dip-2017-08-23-4",
+ "title": "NEH grants and grant-evaluators",
+ "hook": "The congressionally-established National Endowment for the Humanities publishes a dataset of all of the grants it has awarded since the late 1960s.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "securegrants.neh.gov",
+   "url": "https://securegrants.neh.gov/open/data/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-23",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "securegrants.neh.gov",
+  "host": "securegrants.neh.gov"
+ }
+}

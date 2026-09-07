@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-08-07-2",
+ "title": "Railroad incidents",
+ "hook": "Since last August, the Federal Railroad Administration has been rolling out a new portal for its safety data. Through it, you can find datasets on incidents and accidents involving railroad equipment, incidents at grade crossings, and reported injuries and illnesses, as well as dashboards and reports on related topics.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "railroads.dot.gov",
+   "url": "https://railroads.dot.gov/"
+  },
+  {
+   "name": "transportation.gov",
+   "url": "https://data.transportation.gov/stories/s/FRA-Safety-Data/dakf-i7zd"
+  },
+  {
+   "name": "transportation.gov",
+   "url": "https://data.transportation.gov/Railroads/Railroad-Equipment-Accident-Incident-Source-Data-F/aqxq-n5hy/about_data"
+  },
+  {
+   "name": "transportation.gov",
+   "url": "https://data.transportation.gov/Railroads/Highway-Rail-Grade-Crossing-Accident-Incident-Sour/icqf-xf4w/about_data"
+  },
+  {
+   "name": "transportation.gov",
+   "url": "https://data.transportation.gov/Railroads/Injury-Illness-Summary-Operational-Source-Data-For/unww-uhxd/about_data"
+  },
+  {
+   "name": "fra.dot.gov",
+   "url": "https://www.fra.dot.gov/blockedcrossings/incidents"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2023-05-10-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-08-07",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-08-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "railroads.dot.gov",
+  "host": "railroads.dot.gov"
+ }
+}

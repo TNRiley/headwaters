@@ -1,0 +1,58 @@
+{
+ "id": "dip-2022-10-19-3",
+ "title": "Community-moderated tweets",
+ "hook": "Twitter recently expanded its Birdwatch pilot program, which allows certain users to anonymously “identify Tweets they believe are misleading, write notes that provide context to the Tweet, and rate the quality of other contributors’ notes.” The company provides data on all submitted notes, ratings of notes, and note status histories, though it requires you to be logged-in and US-based to download the files.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "other",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "twitter.github.io",
+   "url": "https://twitter.github.io/birdwatch/"
+  },
+  {
+   "name": "twitter.github.io",
+   "url": "https://twitter.github.io/birdwatch/signing-up/"
+  },
+  {
+   "name": "twitter.github.io",
+   "url": "https://twitter.github.io/birdwatch/overview/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theverge.com",
+   "url": "https://www.theverge.com/2022/10/6/23390761/twitter-birdwatch-community-moderation-expansion-misinformation-qanon"
+  },
+  {
+   "name": "theverge.com",
+   "url": "https://www.theverge.com/2022/10/10/23393021/twitter-birdwatch-covid-misinformation-data-analysis-misinformation-fact-check"
+  },
+  {
+   "name": "theverge-bird-watch.herokuapp.com",
+   "url": "https://theverge-bird-watch.herokuapp.com/Birdwatch/Birdwatch_Notes"
+  },
+  {
+   "name": "theverge-bird-watch.herokuapp.com",
+   "url": "https://theverge-bird-watch.herokuapp.com/Birdwatch"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-19",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "twitter.github.io",
+  "host": "twitter.github.io"
+ }
+}

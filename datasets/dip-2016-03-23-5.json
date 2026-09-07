@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-03-23-5",
+ "title": "Rodents of New York",
+ "hook": "NYC’s 311 dataset contains a special category for rat sightings. This slice of data, which is updated daily and stretches back to 2010, contains more than 73,000 rows. One-third of sightings have occurred in Brooklyn. Related: An academic study of NYC rat sightings. Also related: Reply All #56 — ”Zardulu”.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/Social-Services/Rat-Sightings/3q43-55fe"
+  },
+  {
+   "name": "ncbi.nlm.nih.gov",
+   "url": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4157232/"
+  },
+  {
+   "name": "gimletmedia.com",
+   "url": "https://gimletmedia.com/episode/zardulu/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-23",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Squirrel Census",
+  "host": "cityofnewyork.us"
+ }
+}

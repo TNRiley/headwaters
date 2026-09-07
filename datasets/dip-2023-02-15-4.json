@@ -1,0 +1,31 @@
+{
+ "id": "dip-2023-02-15-4",
+ "title": "Bog bodies",
+ "hook": "Roy van Beek et al. “present the first large-scale overview of well-dated human remains from northern European mires, based on a database of 266 sites and more than 1000 bog mummies, bog skeletons and disarticulated/partial skeletal remains.” The database, which can be found in the study’s supplementary materials tab, indicates the bog bodies’ location, year found, preservation level, sex, estimated age, assumed cause of death, and much more.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "cambridge.org",
+   "url": "https://www.cambridge.org/core/journals/antiquity/article/bogs-bones-and-bodies-the-deposition-of-human-remains-in-northern-european-mires-9000-bcad-1900/B90A16A211894CB87906A7BCFC0B2FC7"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-15",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cambridge.org",
+  "host": "cambridge.org"
+ }
+}

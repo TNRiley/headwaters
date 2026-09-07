@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-04-06-2",
+ "title": "The 1950 Census",
+ "hook": "After 72 years of mandated confidentiality, the US government on Friday released “over 165 terabytes” of microfilm digitized from the 1950 decennial Census.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "1950census.archives.gov",
+   "url": "https://1950census.archives.gov/"
+  },
+  {
+   "name": "1950census.archives.gov",
+   "url": "https://1950census.archives.gov/search/"
+  },
+  {
+   "name": "archives.gov",
+   "url": "https://www.archives.gov/research/census/1950/faqs"
+  },
+  {
+   "name": "1950census.archives.gov",
+   "url": "https://1950census.archives.gov/howto/finding-aids.html"
+  },
+  {
+   "name": "archives.gov",
+   "url": "https://www.archives.gov/developer/1950-census"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-06",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "1950census.archives.gov",
+  "host": "1950census.archives.gov"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-01-19-4",
+ "title": "Tech support scams",
+ "hook": "From 2018 to 2021, the now-shuttered PopupDB Project collected information about tech support scams and their deceptive browser popups.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/choozn/PopupDB-Data/"
+  },
+  {
+   "name": "web.archive.org",
+   "url": "http://web.archive.org/web/20210307114123/https://popupdb.org/"
+  },
+  {
+   "name": "consumer.ftc.gov",
+   "url": "https://www.consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/choozn/PopupDB-Data/tree/main/databases"
+  },
+  {
+   "name": "popupdb.org",
+   "url": "https://popupdb.org/downloads"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-19",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

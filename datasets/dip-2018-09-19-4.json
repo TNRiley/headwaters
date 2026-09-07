@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-09-19-4",
+ "title": "U.S. citizens’ deaths overseas",
+ "hook": "The U.S. Department of State publishes, “to the maximum extent practicable,” a database of “each United States citizen who dies in a foreign country from a non-natural cause.” The database currently contains 13,045 deaths, starting in October 2002, and is updated every six months.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "travel.state.gov",
+   "url": "https://travel.state.gov/content/travel/en/international-travel/while-abroad/death-abroad1/death-statistics.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-09-19",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-09-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "travel.state.gov",
+  "host": "travel.state.gov"
+ }
+}

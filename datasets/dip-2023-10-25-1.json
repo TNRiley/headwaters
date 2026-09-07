@@ -1,0 +1,53 @@
+{
+ "id": "dip-2023-10-25-1",
+ "title": "Court-debt jailings",
+ "hook": "“In the absence of a clear picture of debt imprisonment,” Stanford’s Computational Policy Lab and Big Local News “set out in 2018 on a first-of-its-kind data integration effort to answer the most basic question of all: how many people are being jailed for unpaid court debts?” To do so, the team submitted “hundreds of…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "biglocalnews.org",
+   "url": "https://biglocalnews.org/content/news/2023/09/14/debt-impisonment.html"
+  },
+  {
+   "name": "journals.plos.org",
+   "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0290397"
+  },
+  {
+   "name": "policylab.stanford.edu",
+   "url": "https://policylab.stanford.edu/projects/uncovering-debtors-prisons.html"
+  },
+  {
+   "name": "policylab.stanford.edu",
+   "url": "https://policylab.stanford.edu/debtors-prisons/"
+  },
+  {
+   "name": "policylab.stanford.edu",
+   "url": "https://policylab.stanford.edu/debtors-prisons/data/"
+  },
+  {
+   "name": "policylab.stanford.edu",
+   "url": "https://policylab.stanford.edu/debtors-prisons/tutorial/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-10-25",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-10-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "biglocalnews.org",
+  "host": "biglocalnews.org"
+ }
+}

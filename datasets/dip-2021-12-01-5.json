@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-12-01-5",
+ "title": "Early worm gets the worm",
+ "hook": "Designer and “diehard Office superfan” Will Chase rewatched the US version of the sitcom with one goal in mind: to document every misquote, malapropism, mispronunciation, and other verbal flub by Steve Carell’s character Michael Scott. He found more than 200.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "williamrchase.com",
+   "url": "https://www.williamrchase.com/"
+  },
+  {
+   "name": "buttondown.email",
+   "url": "https://buttondown.email/willchase/archive/a-new-datavizstreaming-project-all-about-the/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/13U09FgnxeW9UyCg7Xwffxj06W47ikUZJng16ukF9mQs/edit#gid=0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-01",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "williamrchase.com",
+  "host": "williamrchase.com"
+ }
+}

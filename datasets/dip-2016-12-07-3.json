@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-12-07-3",
+ "title": "Chicago cab rides",
+ "hook": "Last month, Chicago’s city government published data on more than 100 million local taxi rides taken in the city since 2013.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "digital.cityofchicago.org",
+   "url": "http://digital.cityofchicago.org/index.php/chicago-taxi-data-released/"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Transportation/Taxi-Trips-Dashboard/spcw-brbq"
+  },
+  {
+   "name": "toddwschneider.com",
+   "url": "http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-12-07",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-12-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "digital.cityofchicago.org",
+  "host": "digital.cityofchicago.org"
+ }
+}

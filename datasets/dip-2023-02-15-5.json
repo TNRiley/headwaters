@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-02-15-5",
+ "title": "Open Data Day events",
+ "hook": "Open Data Day(s), scheduled for March 4–10 this year, “is an annual celebration of open data all over the world.” The Open Knowledge Foundation, which helps to coordinate the locally-organized gatherings, hosts a searchable list of registered events, plus datasets of each year’s events since 2014.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "opendataday.org",
+   "url": "https://opendataday.org/"
+  },
+  {
+   "name": "okfn.org",
+   "url": "https://okfn.org/"
+  },
+  {
+   "name": "blog.okfn.org",
+   "url": "https://blog.okfn.org/2023/02/07/open-data-days-2023-will-take-place-from-4th-to-10th-march/"
+  },
+  {
+   "name": "opendataday.org",
+   "url": "https://opendataday.org/events/2023/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/okfn/opendataday/tree/master/Datasets"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-15",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opendataday.org",
+  "host": "opendataday.org"
+ }
+}

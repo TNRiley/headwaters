@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-06-14-3",
+ "title": "Pennsylvania competency cases",
+ "hook": "Earlier this year, Spotlight PA and the Pittsburgh Institute for Nonprofit Journalism published an investigation into Pennsylvania’s competency system, which is “supposed to protect people with mental health issues from prosecution if they cannot understand the legal system and cannot aid in their own defense.” The…",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "spotlightpa.org",
+   "url": "https://www.spotlightpa.org/"
+  },
+  {
+   "name": "pinjnews.org",
+   "url": "https://pinjnews.org/"
+  },
+  {
+   "name": "spotlightpa.org",
+   "url": "https://www.spotlightpa.org/news/2023/03/pa-mental-illness-jail-incompetent-treatment/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/spotlightpa/competency-data-2023/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-06-14",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-06-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "spotlightpa.org",
+  "host": "spotlightpa.org"
+ }
+}

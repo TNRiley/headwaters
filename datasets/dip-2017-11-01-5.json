@@ -1,0 +1,35 @@
+{
+ "id": "dip-2017-11-01-5",
+ "title": "Chimp personalities",
+ "hook": "“Jane Goodall drew the attention of a global audience with vivid depictions of the personalities of eastern chimpanzees (Pan troglodytes schweinfurthii) at Gombe National Park, yet only one attempt [in 1973] has been made to quantify these personality traits systematically,” writes a team of researchers in the latest issue of Scientific Data.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata2017146"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/s7d9d/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-11-01",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-11-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

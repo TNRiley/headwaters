@@ -1,0 +1,46 @@
+{
+ "id": "dip-2016-07-13-2",
+ "title": "The money bone",
+ "hook": "Late last month, the Centers for Medicare and Medicaid Services added data from 2015 to its Open Payments database, which tracks medical companies’ payments to doctors and teaching hospitals.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cms.gov",
+   "url": "https://www.cms.gov/Newsroom/MediaReleaseDatabase/Press-releases/2016-Press-releases-items/2016-06-30.html"
+  },
+  {
+   "name": "openpaymentsdata.cms.gov",
+   "url": "https://openpaymentsdata.cms.gov/"
+  },
+  {
+   "name": "cms.gov",
+   "url": "https://www.cms.gov/OpenPayments/About/Natures-of-Payment.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/docdollars/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-13",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Centers for Medicare & Medicaid Services",
+  "host": "cms.gov"
+ }
+}

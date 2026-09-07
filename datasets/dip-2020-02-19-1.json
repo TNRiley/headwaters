@@ -1,0 +1,57 @@
+{
+ "id": "dip-2020-02-19-1",
+ "title": "Electric utilities, standardized",
+ "hook": "“Electric utilities report a huge amount of information to the US government,” but “much of this data is not released in well documented, ready-to-use, machine readable formats.” That assessment comes from the Public Utility Data Liberation (PUDL) project, which aims to clean, standardize, and cross-link the electric utility information gathered by various agencies.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "catalyst.coop",
+   "url": "https://catalyst.coop/pudl/"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/3653159"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/electricity/data/eia860/"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/electricity/data/eia923/"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/emc/emc-continuous-emission-monitoring-systems"
+  },
+  {
+   "name": "ferc.gov",
+   "url": "https://www.ferc.gov/docs-filing/forms/form-1/data.asp"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/catalyst-cooperative/pudl"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-19",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "catalyst.coop",
+  "host": "catalyst.coop"
+ }
+}

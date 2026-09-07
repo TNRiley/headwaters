@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-02-21-5",
+ "title": "Public commemorations",
+ "hook": "The Open Plaques project is dedicated to “documenting the historical links between people and places as recorded by commemorative plaques.” The latest data dump contains nearly 40,000 plaques — the vast majority in the U.S., U.K., and Germany.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "openplaques.org",
+   "url": "http://openplaques.org/"
+  },
+  {
+   "name": "openplaques.org",
+   "url": "http://openplaques.org/data"
+  },
+  {
+   "name": "openbenches.org",
+   "url": "https://openbenches.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/edent/openbenches"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-21",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openplaques.org",
+  "host": "openplaques.org"
+ }
+}

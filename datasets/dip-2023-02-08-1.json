@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-02-08-1",
+ "title": "African American biographies, 1508–1865",
+ "hook": "The African American National Biography, first printed in 2008 and expanded to a twelve-volume second edition in 2013, is “the most extensive African American biographical encyclopedia ever compiled, including the widest range of historically significant black individuals possible.” Edited by Henry Louis Gates, Jr.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "hutchinscenter.fas.harvard.edu",
+   "url": "https://hutchinscenter.fas.harvard.edu/AANB"
+  },
+  {
+   "name": "global.oup.com",
+   "url": "https://global.oup.com/academic/product/african-american-national-biography-9780199920778"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Henry_Louis_Gates_Jr."
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Evelyn_Brooks_Higginbotham"
+  },
+  {
+   "name": "oxfordaasc.com",
+   "url": "https://oxfordaasc.com/page/about"
+  },
+  {
+   "name": "oxfordaasc.com",
+   "url": "https://oxfordaasc.com/page/subscribe#personal-subscriptions"
+  },
+  {
+   "name": "hutchinscenter.fas.harvard.edu",
+   "url": "https://hutchinscenter.fas.harvard.edu/people/steven-j-niven"
+  },
+  {
+   "name": "jsdp.enslaved.org",
+   "url": "https://jsdp.enslaved.org/fullDataArticle/volume1-issue2-african-american-national-biography/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FIEYGJ"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-08",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "hutchinscenter.fas.harvard.edu",
+  "host": "hutchinscenter.fas.harvard.edu"
+ }
+}

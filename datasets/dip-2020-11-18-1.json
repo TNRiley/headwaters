@@ -1,0 +1,69 @@
+{
+ "id": "dip-2020-11-18-1",
+ "title": "Global inequality",
+ "hook": "The World Inequality Database “aims to provide open and convenient access to the most extensive available database on the historical evolution of the world distribution of income and wealth, both within countries and between countries.” The project, co-directed by Thomas Piketty, published a major update last week, expanding its geographic and temporal coverage.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "wid.world",
+   "url": "https://wid.world/wid-world/"
+  },
+  {
+   "name": "wid.world",
+   "url": "https://wid.world/team/"
+  },
+  {
+   "name": "wid.world",
+   "url": "https://wid.world/news-article/2020-regional-updates/"
+  },
+  {
+   "name": "wid.world",
+   "url": "https://wid.world/summary-table/"
+  },
+  {
+   "name": "wid.world",
+   "url": "https://wid.world/data/"
+  },
+  {
+   "name": "fsolt.org",
+   "url": "https://fsolt.org/"
+  },
+  {
+   "name": "fsolt.org",
+   "url": "https://fsolt.org/swiid/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-12-04-edition"
+  },
+  {
+   "name": "wider.unu.edu",
+   "url": "https://www.wider.unu.edu/project/wiid-world-income-inequality-database"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-06-01-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-11-18",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-11-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wid.world",
+  "host": "wid.world"
+ }
+}

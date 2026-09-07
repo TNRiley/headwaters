@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-12-21-3",
+ "title": "The birds and the bees (and more)",
+ "hook": "The U.S. Geological Survey’s BISON service brings together “species occurrence” data from hundreds of sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "bison.usgs.gov",
+   "url": "https://bison.usgs.gov/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-12-21",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-12-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bison.usgs.gov",
+  "host": "bison.usgs.gov"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-07-18-4",
+ "title": "Makeup shades",
+ "hook": "In a recent essay at The Pudding, Jason Li, Amber Thomas, and Divya Manian explored the shades of foundation offered by best-selling makeup brands in the U.S., Nigeria, India, and Japan. They also published the underlying data — color values for more than 600 shades from 36 different brands.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "pudding.cool",
+   "url": "https://pudding.cool/2018/06/makeup-shades/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-pudding/data/tree/master/makeup-shades"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-07-18",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-07-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pudding.cool",
+  "host": "pudding.cool"
+ }
+}

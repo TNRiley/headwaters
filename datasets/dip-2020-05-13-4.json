@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-05-13-4",
+ "title": "EU legislative edits",
+ "hook": "Computer science graduate student Victor Kristof has built a dataset of 450,000 legislative edits proposed by members of the EU parliament from 2009 to 2019. For each proposed edit, the dataset points to the relevant legislation, names the parlimentarian, and indicates whether the edit was accepted.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "victorkristof.me",
+   "url": "https://victorkristof.me/"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/3757714"
+  },
+  {
+   "name": "dl.acm.org",
+   "url": "https://dl.acm.org/doi/fullHtml/10.1145/3366423.3380041"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-13",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "victorkristof.me",
+  "host": "victorkristof.me"
+ }
+}

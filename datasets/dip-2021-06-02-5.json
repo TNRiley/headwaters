@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-06-02-5",
+ "title": "Fermentative microbes",
+ "hook": "The World Institute of Kimchi’s Omics Database of Fermentative Microbes provides “genome, metagenome, metataxonome, and (meta)transcriptome sequences” of bacteria and other microorganisms associated with a variety of fermented foods. You can search the sequenced microbes by taxonomy, research study, and food sampled.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "wikim.re.kr",
+   "url": "https://www.wikim.re.kr/index.es?sid=a2"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-021-00895-x"
+  },
+  {
+   "name": "odfm.wikim.re.kr",
+   "url": "https://odfm.wikim.re.kr/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-02",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wikim.re.kr",
+  "host": "wikim.re.kr"
+ }
+}

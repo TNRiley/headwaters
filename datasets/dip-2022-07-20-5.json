@@ -1,0 +1,37 @@
+{
+ "id": "dip-2022-07-20-5",
+ "title": "The World Cup",
+ "hook": "Josh Fjelstul’s World Cup Database, published this month, provides “extensively cleaned and cross-validated” information about each of the 21 FIFA World Cup tournaments played so far.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "joshuafjelstul.com",
+   "url": "http://www.joshuafjelstul.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jfjelstul/worldcup"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-20",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "joshuafjelstul.com",
+  "host": "joshuafjelstul.com"
+ }
+}

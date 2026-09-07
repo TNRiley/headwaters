@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-08-17-3",
+ "title": "Music makers",
+ "hook": "The American Society of Composers, Authors and Publishers (ASCAP) boasts a membership of “more than 585,000 US composers, songwriters, lyricists and music publishers of every kind of music.“ The organization also maintains a downloadable catalog of the writers and publishers behind nearly 9 million songs.",
+ "hook_source": "publisher",
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ascap.com",
+   "url": "http://www.ascap.com/about"
+  },
+  {
+   "name": "mobile.ascap.com",
+   "url": "https://mobile.ascap.com/aceclient/AceWeb/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-17",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ascap.com",
+  "host": "ascap.com"
+ }
+}

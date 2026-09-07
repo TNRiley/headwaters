@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-09-14-5",
+ "title": "Captionless cartoons, captioned",
+ "hook": "A group of computer scientists and the New Yorker’s cartoon editor walk into a room… and write an academic article titled, “Humor in Collective Discourse: Unsupervised Funniness Detection in the New Yorker Cartoon Caption Contest.” The corresponding dataset — available via the “cartoons” link on this page — includes 50 cartoons and nearly 300,000 reader-submitted captions.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "arxiv.org",
+   "url": "http://arxiv.org/abs/1506.08126"
+  },
+  {
+   "name": "clair.si.umich.edu",
+   "url": "http://clair.si.umich.edu/homepage/downloads.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-14",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arxiv.org",
+  "host": "arxiv.org"
+ }
+}

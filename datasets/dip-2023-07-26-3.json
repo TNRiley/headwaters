@@ -1,0 +1,53 @@
+{
+ "id": "dip-2023-07-26-3",
+ "title": "Millions of PDFs",
+ "hook": "As part of its SafeDocs project, DARPA has compiled a corpus of “nearly 8 million PDFs gathered from across the web in July/August of 2021.” To create it, the authors began with the URLs of PDF files identified by Common Crawl (DIP 2021.04.21), fetched their complete contents, and recorded metadata about each file and where it was found.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "darpa.mil",
+   "url": "https://www.darpa.mil/news-events/2023-06-14"
+  },
+  {
+   "name": "darpa.mil",
+   "url": "https://www.darpa.mil/program/safe-documents"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/DARPA"
+  },
+  {
+   "name": "digitalcorpora.org",
+   "url": "https://digitalcorpora.org/corpora/file-corpora/cc-main-2021-31-pdf-untruncated/"
+  },
+  {
+   "name": "commoncrawl.org",
+   "url": "https://commoncrawl.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-04-21-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-07-26",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-07-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "darpa.mil",
+  "host": "darpa.mil"
+ }
+}

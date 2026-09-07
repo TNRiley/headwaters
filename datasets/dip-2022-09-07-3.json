@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-09-07-3",
+ "title": "Most buildings in Spain",
+ "hook": "The Spanish government’s cadastral service provides geospatial data on every parcel, address, and building for “the entire territory under its jurisdiction (the entire national territory except the Basque Country and Navarre).” The records, available to download programmatically, include each building’s year of construction, total floor area, number of dwellings, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "sedecatastro.gob.es",
+   "url": "https://www.sedecatastro.gob.es/"
+  },
+  {
+   "name": "sedecatastro.gob.es",
+   "url": "https://www.sedecatastro.gob.es/Accesos/SECAccDescargaDatos.aspx"
+  },
+  {
+   "name": "catastro.minhap.es",
+   "url": "https://www.catastro.minhap.es/webinspire/index_eng.html"
+  },
+  {
+   "name": "especiales.eldiario.es",
+   "url": "https://especiales.eldiario.es/spain-lives-in-flats/"
+  },
+  {
+   "name": "especiales.eldiario.es",
+   "url": "https://especiales.eldiario.es/espana-vive-en-pisos/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-07",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sedecatastro.gob.es",
+  "host": "sedecatastro.gob.es"
+ }
+}

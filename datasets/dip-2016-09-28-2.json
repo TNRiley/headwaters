@@ -1,0 +1,69 @@
+{
+ "id": "dip-2016-09-28-2",
+ "title": "County-level and precinct-level results",
+ "hook": "OpenElections, a Knight Foundation–funded project, aims “to create the first free, comprehensive, standardized, linked set of election data for the United States.” They’ve made progress, but are looking for additional volunteers.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "openelections.net",
+   "url": "http://www.openelections.net/"
+  },
+  {
+   "name": "openelections.net",
+   "url": "http://openelections.net/about/"
+  },
+  {
+   "name": "openelections.net",
+   "url": "http://openelections.net/get-involved/"
+  },
+  {
+   "name": "catalog.data.gov",
+   "url": "https://catalog.data.gov/dataset/2004-presidential-general-election-county-results-direct-download"
+  },
+  {
+   "name": "catalog.data.gov",
+   "url": "https://catalog.data.gov/dataset/2008-presidential-general-election-county-results-direct-download"
+  },
+  {
+   "name": "catalog.data.gov",
+   "url": "https://catalog.data.gov/dataset/presidential-general-election-results-2012-direct-download"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/helloworlddata/us-presidential-election-county-results"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/21919"
+  },
+  {
+   "name": "projects.iq.harvard.edu",
+   "url": "http://projects.iq.harvard.edu/eda/"
+  },
+  {
+   "name": "dl.dropboxusercontent.com",
+   "url": "https://dl.dropboxusercontent.com/u/156214/heda_docs.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-28",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openelections.net",
+  "host": "openelections.net"
+ }
+}

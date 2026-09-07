@@ -1,0 +1,64 @@
+{
+ "id": "dip-2017-04-19-2",
+ "title": "Vaccination rates by state",
+ "hook": "The CDC’s National Center for Immunization and Respiratory Diseases collects and publishes state-by-state vaccination rates for infants, kindergartners, teens, and adults — plus, flu vaccination rates for several age groups. Each dataset includes several years’ worth of data, with many going back to 2008 or 2009.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/vaccines/imz-managers/coverage/childvaxview/data-reports/index.html"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/vaccines/imz-managers/coverage/schoolvaxview/data-reports/index.html"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/vaccines/imz-managers/coverage/teenvaxview/data-reports/index.html"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/vaccines/imz-managers/coverage/adultvaxview/data-reports/index.html"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/flu/fluvaxview/interactive.htm"
+  },
+  {
+   "name": "peteraldhous.com",
+   "url": "http://www.peteraldhous.com/"
+  },
+  {
+   "name": "cdph.ca.gov",
+   "url": "https://www.cdph.ca.gov/programs/immunize/Pages/ImmunizationLevels.aspx"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-08-03-edition"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "https://www.buzzfeed.com/peteraldhous/record-vaccination-in-california"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-19",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

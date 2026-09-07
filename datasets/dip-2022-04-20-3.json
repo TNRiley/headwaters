@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-04-20-3",
+ "title": "Electoral interventions",
+ "hook": "Political scientist Dov H. Levin’s Partisan Electoral Intervention by the Great Powers dataset describes 117 attempts by the US and Russia/USSR to influence foreign elections between 1946 and 2000, drawing on congressional investigations, declassified histories, academic publications, and other sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "dovhlevin.com",
+   "url": "https://www.dovhlevin.com/"
+  },
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/10.1177/0738894216661190"
+  },
+  {
+   "name": "dovhlevin.com",
+   "url": "https://www.dovhlevin.com/datasets"
+  },
+  {
+   "name": "politics.utoronto.ca",
+   "url": "https://politics.utoronto.ca/faculty/profile/95/"
+  },
+  {
+   "name": "adamecasey.com",
+   "url": "https://adamecasey.com/"
+  },
+  {
+   "name": "dataverse.scholarsportal.info",
+   "url": "https://dataverse.scholarsportal.info/dataset.xhtml?persistentId=doi:10.5683/SP/BYRQQS"
+  },
+  {
+   "name": "ponarseurasia.org",
+   "url": "https://www.ponarseurasia.org/russian-foreign-election-interventions-since-1991/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-20",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dovhlevin.com",
+  "host": "dovhlevin.com"
+ }
+}

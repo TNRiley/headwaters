@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-08-21-4",
+ "title": "UK grantmakers",
+ "hook": "The UK Grantmaking initiative “is a unique cross-sector collaboration between” several major organizations in the field. Their downloadable dataset provides information about 12,000+ trusts, foundations, charities, and other grantmakers for financial year 2022-23, based on records from government regulators.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "ukgrantmaking.org",
+   "url": "https://www.ukgrantmaking.org/"
+  },
+  {
+   "name": "ukgrantmaking.org",
+   "url": "https://www.ukgrantmaking.org/partners/"
+  },
+  {
+   "name": "ukgrantmaking.org",
+   "url": "https://www.ukgrantmaking.org/report/2024/methodology-data/#Full%20data"
+  },
+  {
+   "name": "ukgrantmaking.org",
+   "url": "https://www.ukgrantmaking.org/report/2024-06/methodology-data/"
+  },
+  {
+   "name": "grantnav.threesixtygiving.org",
+   "url": "https://grantnav.threesixtygiving.org/datasets/"
+  },
+  {
+   "name": "threesixtygiving.org",
+   "url": "https://www.threesixtygiving.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-12-05-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-08-21",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-08-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ukgrantmaking.org",
+  "host": "ukgrantmaking.org"
+ }
+}

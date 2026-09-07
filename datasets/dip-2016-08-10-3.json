@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-08-10-3",
+ "title": "Hospital ratings",
+ "hook": "The Centers for Medicare &amp; Medicaid Services evaluates hospitals on dozens of measures — relating to safety, timeliness of care, patient satisfaction, and more — and publishes the results online as the “Hospital Compare” dataset.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "medicare.gov",
+   "url": "https://www.medicare.gov/hospitalcompare/Data/Data-Updated.html#"
+  },
+  {
+   "name": "medicare.gov",
+   "url": "https://data.medicare.gov/data/archives/hospital-compare"
+  },
+  {
+   "name": "medicare.gov",
+   "url": "https://www.medicare.gov/hospitalcompare/Data/Hospital-overall-ratings-calculation.html"
+  },
+  {
+   "name": "medicare.gov",
+   "url": "https://www.medicare.gov/HospitalCompare/search.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-10",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "medicare.gov",
+  "host": "medicare.gov"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-05-31-2",
+ "title": "Government lobbying",
+ "hook": "U.S. lobbyists must notify Congress within 45 days of being retained by new clients. Every quarter after that, they’re required to file activity reports that detail the agencies they lobbied, the topics they covered, and the income they earned.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "disclosures.house.gov",
+   "url": "http://disclosures.house.gov/ld/ldsearch.aspx"
+  },
+  {
+   "name": "senate.gov",
+   "url": "https://www.senate.gov/legislative/Public_Disclosure/LDA_reports.htm"
+  },
+  {
+   "name": "gao.gov",
+   "url": "http://www.gao.gov/products/GAO-16-320"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-31",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "disclosures.house.gov",
+  "host": "disclosures.house.gov"
+ }
+}

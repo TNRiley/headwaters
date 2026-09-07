@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-09-18-3",
+ "title": "Alcohol consumption",
+ "hook": "The National Institute on Alcohol Abuse and Alcoholism’s latest consumption surveillance report, published earlier this year, uses sales and shipment data to measure annual alcohol intake by beverage type (beer, wine, spirits) and state.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "niaaa.nih.gov",
+   "url": "https://www.niaaa.nih.gov/"
+  },
+  {
+   "name": "niaaa.nih.gov",
+   "url": "https://www.niaaa.nih.gov/publications/surveillance-reports/surveillance121"
+  },
+  {
+   "name": "niaaa.nih.gov",
+   "url": "https://www.niaaa.nih.gov/sites/default/files/pcyr1970-2022.txt"
+  },
+  {
+   "name": "niaaa.nih.gov",
+   "url": "https://www.niaaa.nih.gov/publications/surveillance-reports"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/alcohol/about-data/surveillance-surveys/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-18",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "niaaa.nih.gov",
+  "host": "niaaa.nih.gov"
+ }
+}

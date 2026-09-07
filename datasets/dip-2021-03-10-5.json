@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-03-10-5",
+ "title": "Amsterdam’s bats",
+ "hook": "Using a combination of human observation and automated detection, the city of Amsterdam has been mapping its bat population. Its data features more than 6,000 observations, the observation routes, bat-detection device placement and findings, and the city’s known bat abodes. [h/t Martina Zamboni]",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "maps.amsterdam.nl",
+   "url": "https://maps.amsterdam.nl/vleermuizen/?LANG=en"
+  },
+  {
+   "name": "maps.amsterdam.nl",
+   "url": "https://maps.amsterdam.nl/open_geodata/?LANG=en&k=366"
+  },
+  {
+   "name": "maps.amsterdam.nl",
+   "url": "https://maps.amsterdam.nl/open_geodata/?LANG=en&k=367"
+  },
+  {
+   "name": "maps.amsterdam.nl",
+   "url": "https://maps.amsterdam.nl/open_geodata/?LANG=en&k=364"
+  },
+  {
+   "name": "maps.amsterdam.nl",
+   "url": "https://maps.amsterdam.nl/open_geodata/?LANG=en&k=365"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-10",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "maps.amsterdam.nl",
+  "host": "maps.amsterdam.nl"
+ }
+}

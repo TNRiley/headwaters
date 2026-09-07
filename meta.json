@@ -3,13 +3,14 @@
   "title": "Headwaters",
   "favicon": "💧",
   "built": "2026-09-06",
-  "tagline": "428 datasets worth working with, and the 40 sources they come from — classified, searchable, probed.",
-  "blurb": "Two catalogues in one. The dataset layer holds every TidyTuesday week since April 2018 - 428 published datasets, 814 data files and 8,575 column names - each with the curator's own pitch, the files it contains, the upstream publisher, and the article that prompted it, classified by subject, publisher and place so you can browse for something to work with rather than search for something you already know exists. The source layer holds 40 endpoints you can query repeatedly, each described well enough to use from a shell and carrying small real requests that a script re-runs to prove the endpoint still works. Building the source layer turned up six live failures nothing else documents, including data.gov's CKAN API 404ing on every documented path while its gateway authenticates your key and redirects you to the dead origin, and the GitHub contents API silently capping a directory at 1,000 entries - which hid 199 datasets from this repository's own harvest.",
+  "tagline": "2,371 datasets worth working with, and the 40 sources they come from — classified, searchable, probed.",
+  "blurb": "Two catalogues in one. The dataset layer holds 2,371 published datasets drawn from two aggregations that select for very different things - every TidyTuesday week since April 2018, which is tidy and teachable and comes with 8,575 column names, and ten years of Data Is Plural, which is odd and specific and global. Each record carries the curator's own pitch, the upstream publisher and the article that prompted it, classified by subject, publisher and place so you can browse for something to work with rather than search for something you already know exists; the 30 datasets both aggregations surfaced are one record with two sightings, and a facet filters on how a dataset was found. The source layer holds 40 endpoints you can query repeatedly, each described well enough to use from a shell and carrying small real requests that a weekly job re-runs to prove the endpoint still works. Building it turned up failures nothing else documents, including data.gov's CKAN API 404ing on every documented path while its gateway authenticates your key and redirects you to the dead origin.",
   "tags": [
     "open data",
     "catalog",
     "dataset discovery",
     "tidytuesday",
+    "data is plural",
     "faceted search",
     "tooling"
   ],
@@ -22,7 +23,7 @@
     {
       "name": "Data Is Plural archive (Jeremy Singer-Vine)",
       "url": "https://www.data-is-plural.com/",
-      "licence": "archive released for reuse; harvested as leads only - headline, links and a short excerpt"
+      "licence": "archive released for reuse; the prose is the author's - records quote at most a few sentences, with a link back to the edition"
     },
     {
       "name": "Registry of Open Data on AWS",
@@ -43,6 +44,6 @@
   ],
   "hasSource": true,
   "keepReadme": true,
-  "bytes": 1079302,
+  "bytes": 3258772,
   "published": true
 }

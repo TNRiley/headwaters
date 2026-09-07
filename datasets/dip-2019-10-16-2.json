@@ -1,0 +1,50 @@
+{
+ "id": "dip-2019-10-16-2",
+ "title": "California power outages",
+ "hook": "Last week, Pacific Gas and Electric began cutting power to hundreds of thousands of Californians — a precaution to keep the company’s aging infrastructure from sparking wildfires.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "simonwillison.net",
+   "url": "https://simonwillison.net/"
+  },
+  {
+   "name": "simonwillison.net",
+   "url": "https://simonwillison.net/2019/Oct/10/pge-outages/"
+  },
+  {
+   "name": "critweb-outage.pgealerts.com",
+   "url": "http://critweb-outage.pgealerts.com/?WT.mc_id=Vanity_pge-outages"
+  },
+  {
+   "name": "pge-outages.simonwillison.net",
+   "url": "https://pge-outages.simonwillison.net/pge-outages"
+  }
+ ],
+ "articles": [
+  {
+   "name": "latimes.com",
+   "url": "https://www.latimes.com/california/story/2019-10-10/pg-e-california-power-outages-grid-climate-change"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-16",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "simonwillison.net",
+  "host": "simonwillison.net"
+ }
+}

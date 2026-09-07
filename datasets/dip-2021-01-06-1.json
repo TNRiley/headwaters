@@ -1,0 +1,65 @@
+{
+ "id": "dip-2021-01-06-1",
+ "title": "Megascale coronavirus surveys",
+ "hook": "Carnegie Mellon University’s epidemiological forecasting group and Facebook have partnered to field a large-scale coronavirus survey in the US; they’ve collected more than 15 million responses since April 2020.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "delphi.cmu.edu",
+   "url": "https://delphi.cmu.edu/about/"
+  },
+  {
+   "name": "delphi.cmu.edu",
+   "url": "https://delphi.cmu.edu/covidcast/surveys/"
+  },
+  {
+   "name": "delphi.cmu.edu",
+   "url": "https://delphi.cmu.edu/covidcast/survey-results/"
+  },
+  {
+   "name": "covidmap.umd.edu",
+   "url": "https://covidmap.umd.edu/"
+  },
+  {
+   "name": "ischool.umd.edu",
+   "url": "https://ischool.umd.edu/news/university-maryland-carnegie-mellon-and-facebook-team-forecast-coronavirus-spread"
+  },
+  {
+   "name": "delphi.cmu.edu",
+   "url": "https://delphi.cmu.edu/covidcast/export/"
+  },
+  {
+   "name": "cmu-delphi.github.io",
+   "url": "https://cmu-delphi.github.io/delphi-epidata/api/covidcast.html"
+  },
+  {
+   "name": "covidmap.umd.edu",
+   "url": "https://covidmap.umd.edu/api.html"
+  },
+  {
+   "name": "delphi.cmu.edu",
+   "url": "https://delphi.cmu.edu/blog/2020/12/13/are-masks-widely-used-in-public/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-06",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "delphi.cmu.edu",
+  "host": "delphi.cmu.edu"
+ }
+}

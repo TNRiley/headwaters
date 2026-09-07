@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-11-20-2",
+ "title": "Electricity prices",
+ "hook": "OpenEI’s Utility Rate Database contains nearly 50,000 expert-verified rates — current and historical — for residential, commercial, industrial, and street-lighting electricity from thousands of US utility companies. Related: OpenEI’s other data offerings. [h/t Arik Levinson and Emilson Delfino Silva]",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "openei.org",
+   "url": "https://openei.org/wiki/Utility_Rate_Database"
+  },
+  {
+   "name": "openei.org",
+   "url": "https://openei.org/wiki/Data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-11-20",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-11-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openei.org",
+  "host": "openei.org"
+ }
+}

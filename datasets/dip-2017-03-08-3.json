@@ -1,0 +1,46 @@
+{
+ "id": "dip-2017-03-08-3",
+ "title": "Drug patents and exclusivity",
+ "hook": "The FDA’s “Orange Book” lists approved drugs, their associated patents, and government-granted exclusivity rights. The Orange Book is available as a 1,400-page PDF, but you can also download the key data as structured text files. The files are updated monthly.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "fda.gov",
+   "url": "https://www.fda.gov/Drugs/InformationOnDrugs/ucm129662.htm"
+  },
+  {
+   "name": "fda.gov",
+   "url": "https://www.fda.gov/downloads/Drugs/DevelopmentApprovalProcess/UCM071436.pdf"
+  },
+  {
+   "name": "fda.gov",
+   "url": "https://www.fda.gov/Drugs/InformationOnDrugs/ucm129689.htm"
+  }
+ ],
+ "articles": [
+  {
+   "name": "npr.org",
+   "url": "http://www.npr.org/sections/health-shots/2017/01/17/509506836/drugs-for-rare-diseases-have-become-uncommonly-rich-monopolies"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-08",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fda.gov",
+  "host": "fda.gov"
+ }
+}

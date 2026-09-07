@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-01-03-2",
+ "title": "Distance learning",
+ "hook": "The Open University Learning Analytics dataset features demographic information about 28,000+ students who, in 2013 and 2014, enrolled in any of seven particular distance learning courses at the UK’s Open University; their final results (distinction, pass, fail, or withdrawn); 173,000+ graded assignments; and 10+…",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "analyse.kmi.open.ac.uk",
+   "url": "https://analyse.kmi.open.ac.uk/open_dataset"
+  },
+  {
+   "name": "open.ac.uk",
+   "url": "http://www.open.ac.uk/"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata2017171"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-03",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "analyse.kmi.open.ac.uk",
+  "host": "analyse.kmi.open.ac.uk"
+ }
+}

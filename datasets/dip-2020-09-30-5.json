@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-09-30-5",
+ "title": "Prime numbers",
+ "hook": "Mathematician Chris K. Caldwell maintains a searchable, downloadable database of the largest prime numbers known to humankind — plus who discovered them, when, and how. Related: Smaller primes.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "utm.edu",
+   "url": "https://www.utm.edu/staff/caldwell/"
+  },
+  {
+   "name": "primes.utm.edu",
+   "url": "https://primes.utm.edu/primes/search.php"
+  },
+  {
+   "name": "primes.utm.edu",
+   "url": "https://primes.utm.edu/primes/download.php"
+  },
+  {
+   "name": "primes.utm.edu",
+   "url": "https://primes.utm.edu/primes/home.php"
+  },
+  {
+   "name": "primes.utm.edu",
+   "url": "https://primes.utm.edu/lists/small/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-09-30",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-09-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "utm.edu",
+  "host": "utm.edu"
+ }
+}

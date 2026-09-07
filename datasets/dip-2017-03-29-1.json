@@ -1,0 +1,49 @@
+{
+ "id": "dip-2017-03-29-1",
+ "title": "Military spending",
+ "hook": "The Stockholm International Peace Research Institute’s Military Expenditure Database is based on official reports, International Monetary Fund yearbooks, newspaper articles, and other sources. It covers most major countries since the 1950s and more than 100 countries since 1988.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "sipri.org",
+   "url": "https://www.sipri.org/databases/milex"
+  },
+  {
+   "name": "sipri.org",
+   "url": "https://www.sipri.org/databases/milex/sources-and-methods"
+  },
+  {
+   "name": "dmdc.osd.mil",
+   "url": "https://www.dmdc.osd.mil/appj/dwp/index.jsp"
+  },
+  {
+   "name": "dmdc.osd.mil",
+   "url": "https://www.dmdc.osd.mil/appj/dwp/dwp_reports.jsp"
+  },
+  {
+   "name": "sipri.org",
+   "url": "https://www.sipri.org/databases/armstransfers"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-29",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sipri.org",
+  "host": "sipri.org"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-04-05-4",
+ "title": "Lists of medical codes",
+ "hook": "OpenCodelists is “an open platform for creating and sharing codelists of clinical terms and drugs,” built by the University of Oxford’s OpenSAFELY team. The platform supports several coding systems, including ICD-10 and SNOWMED CT. The lists can refer to groups of symptoms, diagnoses, medications, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "opencodelists.org",
+   "url": "https://www.opencodelists.org/"
+  },
+  {
+   "name": "opensafely.org",
+   "url": "https://www.opensafely.org/"
+  },
+  {
+   "name": "opencodelists.org",
+   "url": "https://www.opencodelists.org/docs/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/ICD-10"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/SNOMED_CT"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-05",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opencodelists.org",
+  "host": "opencodelists.org"
+ }
+}

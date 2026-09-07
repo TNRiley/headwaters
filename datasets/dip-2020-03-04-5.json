@@ -1,0 +1,42 @@
+{
+ "id": "dip-2020-03-04-5",
+ "title": "Bug splats",
+ "hook": "Danish zoologist Anders Pape Møller counted the number of insects killed on the windscreen of a single car after each of 1,375 journeys along the same stretch of road between 1997 and 2017.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.5236"
+  },
+  {
+   "name": "datadryad.org",
+   "url": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.gq73493"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/environment/2020/feb/12/car-splatometer-tests-reveal-huge-decline-number-insects"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-04",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Gentry et al.",
+  "host": "onlinelibrary.wiley.com"
+ }
+}

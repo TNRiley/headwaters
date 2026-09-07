@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-04-12-5",
+ "title": "One million comic book panels",
+ "hook": "Comic books make use of white space — or gutters — to propel the story forward, relying on readers’ intuitive ability to fill in the gaps between panels.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/1611.05118"
+  },
+  {
+   "name": "obj.umiacs.umd.edu",
+   "url": "https://obj.umiacs.umd.edu/comics/index.html"
+  },
+  {
+   "name": "digitalcomicmuseum.com",
+   "url": "https://digitalcomicmuseum.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-12",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arxiv.org",
+  "host": "arxiv.org"
+ }
+}

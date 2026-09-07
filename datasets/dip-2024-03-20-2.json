@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-03-20-2",
+ "title": "Human development, indexed",
+ "hook": "Perhaps the best-known metric of its kind, the United Nations’ Human Development Index combines statistics on life expectancy, income per capita, and years of schooling into a single number for each country-year. The UN provides downloads and an API for all annual HDI ratings and sub-components for 1990 to 2022.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "hdr.undp.org",
+   "url": "https://hdr.undp.org/data-center/human-development-index"
+  },
+  {
+   "name": "hdr.undp.org",
+   "url": "https://hdr.undp.org/data-center/documentation-and-downloads"
+  },
+  {
+   "name": "hdrdata.org",
+   "url": "https://api.hdrdata.org/swagger/index.html"
+  },
+  {
+   "name": "hdr.undp.org",
+   "url": "https://hdr.undp.org/inequality-adjusted-human-development-index#/indicies/IHDI"
+  },
+  {
+   "name": "hdr.undp.org",
+   "url": "https://hdr.undp.org/gender-development-index#/indicies/GDI"
+  },
+  {
+   "name": "hdr.undp.org",
+   "url": "https://hdr.undp.org/data-center/thematic-composite-indices/gender-inequality-index#/indicies/GII"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-03-20",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-03-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "hdr.undp.org",
+  "host": "hdr.undp.org"
+ }
+}

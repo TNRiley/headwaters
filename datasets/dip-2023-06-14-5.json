@@ -1,0 +1,41 @@
+{
+ "id": "dip-2023-06-14-5",
+ "title": "Food defect thresholds",
+ "hook": "“How many rat hairs in your macaroni before the FDA considers it adulterated?” asks Cody Winchester, who has found the answer in the Food and Drug Administration’s Food Defect Levels Handbook.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "codywinchester.com",
+   "url": "https://codywinchester.com/"
+  },
+  {
+   "name": "fda.gov",
+   "url": "https://www.fda.gov/food/ingredients-additives-gras-packaging-guidance-documents-regulatory-information/food-defect-levels-handbook"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cjwinchester/fda-food-defect-action-levels"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-06-14",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-06-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "codywinchester.com",
+  "host": "codywinchester.com"
+ }
+}

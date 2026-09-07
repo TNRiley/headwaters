@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-03-20-1",
+ "title": "Institutional investments",
+ "hook": "If you’re an institutional investor with US operations and managing at least $100 million in publicly traded securities, the Securities and Exchange Commission requires you to file Form 13F each quarter.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "investor.gov",
+   "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/form-13f-reports-filed-institutional-investment"
+  },
+  {
+   "name": "sec.gov",
+   "url": "https://www.sec.gov/dera/data/form-13f"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/CUSIP"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/leftmove"
+  },
+  {
+   "name": "wallstreetlocal.com",
+   "url": "https://www.wallstreetlocal.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/leftmove/wallstreetlocal"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-03-20",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-03-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "investor.gov",
+  "host": "investor.gov"
+ }
+}

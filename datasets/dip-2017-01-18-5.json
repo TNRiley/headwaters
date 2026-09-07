@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-01-18-5",
+ "title": "Dot-gov domains",
+ "hook": "The General Services Administration recently updated its list of known .gov domains. It currently includes more than 1,300 federal domains — from aapi.gov to youthrules.gov — and more than 4,300 domains registered by state, local, and native sovereign agencies.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/GSA/data/tree/gh-pages/dotgov-domains"
+  },
+  {
+   "name": "aapi.gov",
+   "url": "http://aapi.gov"
+  },
+  {
+   "name": "youthrules.gov",
+   "url": "http://www.youthrules.gov/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-01-18",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-01-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

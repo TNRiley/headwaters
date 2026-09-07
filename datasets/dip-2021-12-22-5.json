@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-12-22-5",
+ "title": "Toothbrushing",
+ "hook": "Zawar Hussain et al. recorded data from 120 electric and manual toothbrushing sessions, using sensors attached to the brush handle and brusher’s wrist. Each session’s data files trace the sensors’ positions over time and indicate the brush type, participant’s gender, age, and handedness, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340921005321"
+  },
+  {
+   "name": "mendeley.com",
+   "url": "https://data.mendeley.com/datasets/hx5kkkbr3j/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-22",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

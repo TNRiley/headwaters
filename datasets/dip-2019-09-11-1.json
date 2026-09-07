@@ -1,0 +1,49 @@
+{
+ "id": "dip-2019-09-11-1",
+ "title": "Protected lands",
+ "hook": "The UN’s World Database on Protected Areas is, it says, “the most up to date and complete source of information on protected areas, updated monthly with submissions from governments, non-governmental organizations, landowners and communities.” It contains structured, geospatial information on more than 245,000 nature reserves, national parks, wildlife sanctuaries, and other kinds of conservation sites.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "protectedplanet.net",
+   "url": "https://www.protectedplanet.net/"
+  },
+  {
+   "name": "protectedplanet.net",
+   "url": "https://www.protectedplanet.net/c/about"
+  },
+  {
+   "name": "protectedplanet.net",
+   "url": "https://www.protectedplanet.net/c/unep-regions"
+  },
+  {
+   "name": "calands.org",
+   "url": "https://www.calands.org/cpad/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-07-10-edition-1"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-09-11",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-09-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "protectedplanet.net",
+  "host": "protectedplanet.net"
+ }
+}

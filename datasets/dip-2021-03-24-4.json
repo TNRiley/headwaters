@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-03-24-4",
+ "title": "NYC’s housing lotteries",
+ "hook": "New York City’s affordable housing lotteries receive hundreds of applications per available unit. For an investigation into the odds, reporters for The City last year obtained and analyzed data on 426 lotteries from 2014 to 2019 (including building locations, unit sizes, monthly rents, and income thresholds), plus basic information (on income and household size) from more than 20 million lottery applications.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "thecity.nyc",
+   "url": "https://www.thecity.nyc/2020/6/28/21306383/affordable-housing-lottery-chances-worst-low-income"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/thecityny/housing-lottery-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-24",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "thecity.nyc",
+  "host": "thecity.nyc"
+ }
+}

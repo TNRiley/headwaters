@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-06-21-2",
+ "title": "Famine warnings",
+ "hook": "“Created by USAID in 1985 to help decision-makers plan for humanitarian crises,” the Famine Early Warning Systems Network (FEWS NET) “provides evidence-based analysis on some 34 countries.” As part of its work, FEWS NET publishes geospatial shapefiles that score each country’s “most likely food security outcome” on standardized scale: Minimal, Stressed, Crisis, Emergency, and Famine.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "fews.net",
+   "url": "https://www.fews.net/"
+  },
+  {
+   "name": "fews.net",
+   "url": "https://www.fews.net/shapefiles"
+  },
+  {
+   "name": "fews.net",
+   "url": "http://www.fews.net/IPC"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-05-17-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-21",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fews.net",
+  "host": "fews.net"
+ }
+}

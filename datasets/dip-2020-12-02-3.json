@@ -1,0 +1,47 @@
+{
+ "id": "dip-2020-12-02-3",
+ "title": "More coups",
+ "hook": "Last month, the University of Illinois’ Cline Center for Advanced Social Research published version 2.0 of its Coup D’état Project, a dataset detailing more than 900 coups, attempted coups, and coup conspiracies from 1945 to 2019.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "clinecenter.illinois.edu",
+   "url": "https://clinecenter.illinois.edu"
+  },
+  {
+   "name": "clinecenter.illinois.edu",
+   "url": "https://clinecenter.illinois.edu/project/research-themes/democracy-and-development/coup-detat-project-cdp"
+  },
+  {
+   "name": "databank.illinois.edu",
+   "url": "https://databank.illinois.edu/datasets/IDB-9651987"
+  },
+  {
+   "name": "jonathanmpowell.com",
+   "url": "https://www.jonathanmpowell.com/coup-detat-dataset.html"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-07-20-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-02",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "clinecenter.illinois.edu",
+  "host": "clinecenter.illinois.edu"
+ }
+}

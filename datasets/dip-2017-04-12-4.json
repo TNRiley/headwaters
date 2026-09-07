@@ -1,0 +1,46 @@
+{
+ "id": "dip-2017-04-12-4",
+ "title": "International aid for maternal and child health",
+ "hook": "Researchers at the World Health Organization have assembled a dataset of international aid — both from official government assistance and private grants — devoted to reproductive, maternal, newborn, and child health from 2003 to 2013.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "datacompass.lshtm.ac.uk",
+   "url": "http://datacompass.lshtm.ac.uk/320/"
+  },
+  {
+   "name": "nature.com",
+   "url": "http://www.nature.com/articles/sdata201738"
+  },
+  {
+   "name": "stats.oecd.org",
+   "url": "http://stats.oecd.org/Index.aspx?datasetcode=CRS1"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "https://www.buzzfeed.com/jinamoore/the-us-wont-give-any-more-money-to-the-un-population-fund"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-12",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "datacompass.lshtm.ac.uk",
+  "host": "datacompass.lshtm.ac.uk"
+ }
+}

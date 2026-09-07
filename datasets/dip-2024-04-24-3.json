@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-04-24-3",
+ "title": "Wholesale electricity markets",
+ "hook": "The US Energy Information Administration recently launched a Wholesale Electricity Market Portal, providing visualizations and downloads of market data from regional transmission organizations (RTOs) and independent system operators (ISOs) — the country’s electric-grid coordinating entities.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/todayinenergy/detail.php?id=61804"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/electricity/wholesalemarkets/index.php"
+  },
+  {
+   "name": "eia.gov",
+   "url": "https://www.eia.gov/electricity/wholesalemarkets/data.php"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Regional_transmission_organization_(North_America)"
+  },
+  {
+   "name": "youtube.com",
+   "url": "https://www.youtube.com/watch?v=-8YH-338fXU"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-24",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "U.S. Gasoline and Diesel Retail Prices",
+  "host": "eia.gov"
+ }
+}

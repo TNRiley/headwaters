@@ -1,0 +1,54 @@
+{
+ "id": "dip-2018-05-09-4",
+ "title": "1.7 billion Milky Way stars",
+ "hook": "The European Space Agency’s Gaia spacecraft “has produced the richest star catalogue to date, including high-precision measurements of nearly 1.7 billion stars and revealing previously unseen details of our home Galaxy.” Those measurements, released last month, are available to download.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "esa.int",
+   "url": "http://www.esa.int/Our_Activities/Space_Science/Gaia/Gaia_creates_richest_star_map_of_our_Galaxy_and_beyond"
+  },
+  {
+   "name": "cosmos.esa.int",
+   "url": "https://www.cosmos.esa.int/web/gaia/dr2"
+  },
+  {
+   "name": "gea.esac.esa.int",
+   "url": "https://gea.esac.esa.int/archive/"
+  },
+  {
+   "name": "esa.int",
+   "url": "https://www.esa.int/spaceinimages/Images/2018/04/Gaia_s_sky_in_colour2"
+  },
+  {
+   "name": "sky.esa.int",
+   "url": "http://sky.esa.int/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "vox.com",
+   "url": "https://www.vox.com/science-and-health/2018/4/26/17281640/gaia-3d-map-milky-way-sky-map"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-05-09",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-05-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "esa.int",
+  "host": "esa.int"
+ }
+}

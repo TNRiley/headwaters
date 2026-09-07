@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-03-30-4",
+ "title": "Groceries, quantified",
+ "hook": "Open Food Facts is a crowdsourced database of food products’ nutrition data and ingredient lists. (E.g., this kilogram jar of Nutella contains 316 grams of fat.) The entire database can be downloaded in several formats.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "world.openfoodfacts.org",
+   "url": "http://world.openfoodfacts.org"
+  },
+  {
+   "name": "world.openfoodfacts.org",
+   "url": "http://world.openfoodfacts.org/product/3017620401473/nutella-1kg-ferrero"
+  },
+  {
+   "name": "world.openfoodfacts.org",
+   "url": "http://world.openfoodfacts.org/data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-30",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "world.openfoodfacts.org",
+  "host": "world.openfoodfacts.org"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "id": "dip-2016-02-17-2",
+ "title": "Word-emotion associations",
+ "hook": "Computational linguists at Canada’s National Research Council used Mechanical Turk to crowdsource the emotional associations of 14,182 words.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "Canada",
+ "sources": [
+  {
+   "name": "nrc-cnrc.gc.ca",
+   "url": "http://www.nrc-cnrc.gc.ca/eng/"
+  },
+  {
+   "name": "saifmohammad.com",
+   "url": "http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-17",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nrc-cnrc.gc.ca",
+  "host": "nrc-cnrc.gc.ca"
+ }
+}

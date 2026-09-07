@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-04-24-2",
+ "title": "Chain locations and more",
+ "hook": "All The Places is “a growing set of web scrapers designed to output consistent geodata about as many places of business in the world as possible.” During its latest weekly run, the project’s 2,400+ open-source scrapers collected data on nearly 5 million locations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "alltheplaces.xyz",
+   "url": "https://www.alltheplaces.xyz/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/alltheplaces/alltheplaces"
+  },
+  {
+   "name": "alltheplaces.xyz",
+   "url": "https://www.alltheplaces.xyz/map/"
+  },
+  {
+   "name": "alltheplaces.xyz",
+   "url": "https://www.alltheplaces.xyz/builds"
+  },
+  {
+   "name": "alltheplaces.xyz",
+   "url": "https://www.alltheplaces.xyz/spiders"
+  },
+  {
+   "name": "mattstiles.me",
+   "url": "https://mattstiles.me/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/stiles/locations/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-24",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "alltheplaces.xyz",
+  "host": "alltheplaces.xyz"
+ }
+}

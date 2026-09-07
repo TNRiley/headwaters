@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-02-20-5",
+ "title": "Golfing discs",
+ "hook": "The Professional Disc Golf Association publishes a spreadsheet of flying objects officially approved for use in competition. [h/t Ryan Maus] [Note, 2019-02-20: Original item included incorrect link, now fixed.]",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "pdga.com",
+   "url": "https://www.pdga.com/introduction"
+  },
+  {
+   "name": "pdga.com",
+   "url": "https://www.pdga.com/documents/pdga-approved-discs"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-02-20",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-02-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pdga.com",
+  "host": "pdga.com"
+ }
+}

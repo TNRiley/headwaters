@@ -1,0 +1,62 @@
+{
+ "id": "dip-2023-07-26-4",
+ "title": "Iberian orcas",
+ "hook": "The website orcas.pt publishes monthly, downloadable maps indicating the date, time, and location of orca sightings and attacks off the coasts of Portugal and Spain. Run by Rui Alves as a personal project, the project gathers its data through a network of local sailors.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "orcas.pt",
+   "url": "https://www.orcas.pt/"
+  },
+  {
+   "name": "orcas.pt",
+   "url": "https://www.orcas.pt/maps"
+  },
+  {
+   "name": "pbs.org",
+   "url": "https://www.pbs.org/newshour/show/group-of-orcas-attack-and-sink-vessels-off-iberian-peninsula"
+  },
+  {
+   "name": "theca.org.uk",
+   "url": "https://www.theca.org.uk/"
+  },
+  {
+   "name": "orcaiberica.org",
+   "url": "https://www.orcaiberica.org/"
+  },
+  {
+   "name": "theca.org.uk",
+   "url": "https://www.theca.org.uk/orcas/reports"
+  },
+  {
+   "name": "theca.org.uk",
+   "url": "https://www.theca.org.uk/orcas"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/environment/2023/jul/11/the-orca-uprising-whales-are-ramming-boats-but-are-they-inspired-by-revenge-grief-or-memory"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-07-26",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-07-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "orcas.pt",
+  "host": "orcas.pt"
+ }
+}

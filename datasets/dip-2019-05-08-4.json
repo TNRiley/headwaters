@@ -1,0 +1,35 @@
+{
+ "id": "dip-2019-05-08-4",
+ "title": "Windy City murals",
+ "hook": "Last month, Chicago officials launched a public mural registry. So far, the database includes more than 140 pieces, credited to more than 100 artists. About half of the entries specify the mural’s medium (e.g., paint, spray, mosaic) and nearly all indicate the mural’s location and installation year.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "chicago.gov",
+   "url": "https://www.chicago.gov/city/en/depts/dca/supp_info/mural_registry.html"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Historic-Preservation/Mural-Registry/we8h-apcf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-08",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "chicago.gov",
+  "host": "chicago.gov"
+ }
+}

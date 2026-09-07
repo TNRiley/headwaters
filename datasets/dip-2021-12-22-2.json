@@ -1,0 +1,39 @@
+{
+ "id": "dip-2021-12-22-2",
+ "title": "Working hours",
+ "hook": "Political scientist Magnus Bergli Rasmussen has compiled data on the regulation of laborers’ total work hours in nearly every country since 1789, available as a Stata file.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "magnusbrasmussen.com",
+   "url": "https://www.magnusbrasmussen.com/"
+  },
+  {
+   "name": "dropbox.com",
+   "url": "https://www.dropbox.com/s/ie1zvkr7iht2i1j/public_workingtimedata.dta?dl=0"
+  },
+  {
+   "name": "researchgate.net",
+   "url": "https://www.researchgate.net/publication/356063579_The_Great_Standardization_Working_Hours_around_the_World"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-22",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "magnusbrasmussen.com",
+  "host": "magnusbrasmussen.com"
+ }
+}

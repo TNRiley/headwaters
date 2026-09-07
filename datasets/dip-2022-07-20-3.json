@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-07-20-3",
+ "title": "Budget apportionments",
+ "hook": "Congress, through a process called appropriations, chooses how much money goes to each US federal agency and program.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "whitehouse.gov",
+   "url": "https://www.whitehouse.gov/omb/"
+  },
+  {
+   "name": "whitehouse.gov",
+   "url": "https://www.whitehouse.gov/wp-content/uploads/2018/06/s120.pdf"
+  },
+  {
+   "name": "thehill.com",
+   "url": "https://thehill.com/opinion/finance/3537156-federal-government-getting-ready-to-open-its-books-and-show-us-the-receipts/"
+  },
+  {
+   "name": "budget.house.gov",
+   "url": "https://budget.house.gov/news/press-releases/chairs-yarmuth-and-delauro-achieve-historic-progress-transparency-executive"
+  },
+  {
+   "name": "apportionment-public.max.gov",
+   "url": "https://apportionment-public.max.gov/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-20",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "whitehouse.gov",
+  "host": "whitehouse.gov"
+ }
+}

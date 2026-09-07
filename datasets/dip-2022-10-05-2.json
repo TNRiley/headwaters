@@ -1,0 +1,62 @@
+{
+ "id": "dip-2022-10-05-2",
+ "title": "Chain and indie restaurants",
+ "hook": "Xiaofan Liang and Clio Andris of Georgia Tech’s Friendly Cities Lab have published a map and dataset examining the “chainness” of 700,000+ US restaurants.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "xiaofanliang.com",
+   "url": "https://www.xiaofanliang.com/"
+  },
+  {
+   "name": "cc.gatech.edu",
+   "url": "https://www.cc.gatech.edu/people/clio-andris"
+  },
+  {
+   "name": "friendlycities.gatech.edu",
+   "url": "https://friendlycities.gatech.edu/team/"
+  },
+  {
+   "name": "friendlycities-gatech.github.io",
+   "url": "https://friendlycities-gatech.github.io/chainness/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/friendlycities-gatech/chainness"
+  },
+  {
+   "name": "leadsdeposit.com",
+   "url": "https://leadsdeposit.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/business/2022/09/29/chain-restaurant-capitals/"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/business/2022/06/29/dept-of-data/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-05",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "xiaofanliang.com",
+  "host": "xiaofanliang.com"
+ }
+}

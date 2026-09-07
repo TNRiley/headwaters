@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-01-30-2",
+ "title": "Hourly rainfall",
+ "hook": "Since 1997, the Precipitation Estimation from Remotely Sensed Information using Artificial Neural Networks (PERSIANN) algorithm has used satellite imagery to estimate rainfall rates around the world. The system’s hourly, daily, monthly, and annual estimates can now be explored online and downloaded.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata2018296?WT.ec_id=SDATA-201901"
+  },
+  {
+   "name": "chrs.web.uci.edu",
+   "url": "http://chrs.web.uci.edu/SP_activities00.php"
+  },
+  {
+   "name": "chrsdata.eng.uci.edu",
+   "url": "https://chrsdata.eng.uci.edu/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-30",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

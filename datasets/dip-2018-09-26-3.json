@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-09-26-3",
+ "title": "Family life",
+ "hook": "The National Survey of Family Growth, run by the U.S. Centers for Disease Control and Prevention, “gathers information on family life, marriage and divorce, pregnancy, infertility, use of contraception, and men’s and women’s health.” Versions of the survey have been conducted nine times, dating back to 1973.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/nchs/nsfg/about_nsfg.htm"
+  },
+  {
+   "name": "amber.rbind.io",
+   "url": "https://amber.rbind.io/"
+  },
+  {
+   "name": "pudding.cool",
+   "url": "https://pudding.cool/2018/07/birth_control/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-pudding/data/tree/master/birth-control"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-09-26",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-09-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

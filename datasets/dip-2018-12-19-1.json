@@ -1,0 +1,49 @@
+{
+ "id": "dip-2018-12-19-1",
+ "title": "Life expectancy by Census tract",
+ "hook": "The CDC’s Small-area Life Expectancy Estimates Project calculates how long someone, born in a given Census tract in 2010–15, might expect to live. The estimates are based on a combination of death records, Census population data, and statistical modeling.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/nchs/nvss/usaleep/usaleep.html"
+  },
+  {
+   "name": "qz.com",
+   "url": "https://qz.com/1462111/map-what-story-does-your-neighborhoods-life-expectancy-tell/"
+  },
+  {
+   "name": "healthinequality.org",
+   "url": "https://healthinequality.org/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-02-08-edition"
+  },
+  {
+   "name": "who.int",
+   "url": "https://www.who.int/gho/mortality_burden_disease/life_tables/situation_trends/en/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-12-19",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-12-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

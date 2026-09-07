@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-04-29-2",
+ "title": "COVID-19 preprints",
+ "hook": "Preprints — academic papers published online before they’ve gone through traditional peer review — have become a common way for scientists to disseminate their coronavirus-related findings. So researchers Nicholas Fraser and Bianca Kramer have begun compiling a dataset of more than 6,000 COVID-19 preprints.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "orcid.org",
+   "url": "https://orcid.org/0000-0002-7582-6339"
+  },
+  {
+   "name": "orcid.org",
+   "url": "https://orcid.org/0000-0002-5965-6560"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/nicholasmfraser/covid19_preprints"
+  },
+  {
+   "name": "medrxiv.org",
+   "url": "https://www.medrxiv.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-29",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "orcid.org",
+  "host": "orcid.org"
+ }
+}

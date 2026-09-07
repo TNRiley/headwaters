@@ -1,0 +1,82 @@
+{
+ "id": "dip-2022-06-01-1",
+ "title": "School shootings, continued",
+ "hook": "The K-12 School Shooting Database, housed at the Naval Postgraduate School, “documents each and every instance a gun is brandished, is fired, or a bullet hits school property for any reason, regardless of the number of victims, time, day of the week.” It describes 2,000+ incidents from 1970 to the present and links them to information regarding 3,000+ victims killed and wounded, 2,200+ shooters, and 2,000+ weapons.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "chds.us",
+   "url": "https://www.chds.us/ssdb/"
+  },
+  {
+   "name": "chds.us",
+   "url": "https://www.chds.us/ssdb/about/"
+  },
+  {
+   "name": "chds.us",
+   "url": "https://www.chds.us/ssdb/methods/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cnnlabs/cnn-school-shooting-data"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/washingtonpost/data-school-shootings"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-04-25-edition/"
+  },
+  {
+   "name": "theviolenceproject.org",
+   "url": "https://www.theviolenceproject.org/mass-shooter-database/"
+  },
+  {
+   "name": "gunviolencearchive.org",
+   "url": "https://www.gunviolencearchive.org/"
+  },
+  {
+   "name": "motherjones.com",
+   "url": "https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-03-24-edition/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2015-12-09-edition/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "cnn.com",
+   "url": "https://www.cnn.com/interactive/2019/07/us/ten-years-of-school-shootings-trnd/"
+  },
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/graphics/2018/local/school-shootings-database/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-01",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "chds.us",
+  "host": "chds.us"
+ }
+}

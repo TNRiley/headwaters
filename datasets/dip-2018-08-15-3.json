@@ -1,0 +1,31 @@
+{
+ "id": "dip-2018-08-15-3",
+ "title": "Sneaker factories",
+ "hook": "Nike, Inc.’s manufacturing map displays 618 factories and material suppliers that the company uses to manufacture its products (as of May 2018). You can export the entire dataset, or browse and filter the data online.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "manufacturingmap.nikeinc.com",
+   "url": "http://manufacturingmap.nikeinc.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-15",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "manufacturingmap.nikeinc.com",
+  "host": "manufacturingmap.nikeinc.com"
+ }
+}

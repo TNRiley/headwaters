@@ -1,0 +1,50 @@
+{
+ "id": "dip-2024-04-17-1",
+ "title": "Unregulated water contaminants",
+ "hook": "Through the Unregulated Contaminant Monitoring Rule, the Environmental Protection Agency “collect[s] data for contaminants that are suspected to be present in drinking water and do not have health-based standards set under the Safe Drinking Water Act.” The current version of the rule requires public water systems to test for lithium and 29 per- and polyfluoroalkyl substances, better known as PFAS.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/dwucmr/learn-about-unregulated-contaminant-monitoring-rule"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/dwucmr/fifth-unregulated-contaminant-monitoring-rule"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/pfas/pfas-explained"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/dwucmr/occurrence-data-unregulated-contaminant-monitoring-rule"
+  }
+ ],
+ "articles": [
+  {
+   "name": "apnews.com",
+   "url": "https://apnews.com/article/forever-chemicals-pfas-pollution-epa-drinking-water-1c8804288413a73bb7b99fc866c8fa51"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-17",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "epa.gov",
+  "host": "epa.gov"
+ }
+}

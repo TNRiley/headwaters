@@ -1,0 +1,53 @@
+{
+ "id": "dip-2017-05-31-3",
+ "title": "State gun laws",
+ "hook": "A team of researchers at the Boston University School of Public Health has collected data on the presence/absence of 133 different types of firearm laws in each U.S. state, for each year between 1991 and 2016.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "statefirearmlaws.org",
+   "url": "https://www.statefirearmlaws.org/about.html"
+  },
+  {
+   "name": "statefirearmlaws.org",
+   "url": "https://www.statefirearmlaws.org/"
+  },
+  {
+   "name": "statefirearmlaws.org",
+   "url": "https://www.statefirearmlaws.org/categories.html"
+  },
+  {
+   "name": "statefirearmlaws.org",
+   "url": "https://www.statefirearmlaws.org/table.html"
+  },
+  {
+   "name": "statefirearmlaws.org",
+   "url": "https://www.statefirearmlaws.org/state-by-state.html"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-07-06-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-31",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "statefirearmlaws.org",
+  "host": "statefirearmlaws.org"
+ }
+}

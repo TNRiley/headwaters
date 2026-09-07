@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-06-08-2",
+ "title": "Where college grads go",
+ "hook": "Johnathan Conzelmann et al. have created a dataset that estimates the geographic distribution of recent graduates from 2,600 US colleges and universities, calculated from information on the schools’ official LinkedIn landing pages.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nber.org",
+   "url": "https://www.nber.org/papers/w30088"
+  },
+  {
+   "name": "openicpsr.org",
+   "url": "https://www.openicpsr.org/openicpsr/project/170381/version/V3/view"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/List_of_core-based_statistical_areas"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-08",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nber.org",
+  "host": "nber.org"
+ }
+}

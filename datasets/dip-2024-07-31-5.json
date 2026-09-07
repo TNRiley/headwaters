@@ -1,0 +1,80 @@
+{
+ "id": "dip-2024-07-31-5",
+ "title": "Wait Wait",
+ "hook": "Linh Pham considers himself “the unofficial scorekeeper” of Wait Wait… Don’t Tell Me!, NPR’s weekly quiz show. Since 2007, he’s been maintaining a structured database that describes Wait Wait’s episodes, venues, hosts, guests, panelists, and more.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "blog.linh.social",
+   "url": "https://blog.linh.social/about/"
+  },
+  {
+   "name": "stats.wwdt.me",
+   "url": "https://stats.wwdt.me/site-history"
+  },
+  {
+   "name": "stats.wwdt.me",
+   "url": "https://stats.wwdt.me/"
+  },
+  {
+   "name": "stats.wwdt.me",
+   "url": "https://stats.wwdt.me/shows/"
+  },
+  {
+   "name": "stats.wwdt.me",
+   "url": "https://stats.wwdt.me/locations/"
+  },
+  {
+   "name": "stats.wwdt.me",
+   "url": "https://stats.wwdt.me/hosts/"
+  },
+  {
+   "name": "stats.wwdt.me",
+   "url": "https://stats.wwdt.me/guests/"
+  },
+  {
+   "name": "stats.wwdt.me",
+   "url": "https://stats.wwdt.me/panelists/"
+  },
+  {
+   "name": "wwdt.me",
+   "url": "https://api.wwdt.me/v2.0/docs"
+  },
+  {
+   "name": "graphs.wwdt.me",
+   "url": "https://graphs.wwdt.me/"
+  },
+  {
+   "name": "reports.wwdt.me",
+   "url": "https://reports.wwdt.me/"
+  },
+  {
+   "name": "reports.wwdt.me",
+   "url": "https://reports.wwdt.me/panelists/first-appearance-wins"
+  }
+ ],
+ "articles": [
+  {
+   "name": "waitwait.npr.org",
+   "url": "https://waitwait.npr.org/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-31",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "blog.linh.social",
+  "host": "blog.linh.social"
+ }
+}

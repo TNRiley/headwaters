@@ -1,0 +1,53 @@
+{
+ "id": "dip-2025-05-14-4",
+ "title": "US dams",
+ "hook": "The National Inventory of Dams “documents all known dams in the U.S. and its territories that meet certain criteria” related to the dam’s height, reservoir size, and likely impacts of its “failure or mis-operation.” The inventory, maintained by the US Army Corps of Engineers since the 1970s, now includes 92,000+ structures.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nid.sec.usace.army.mil",
+   "url": "https://nid.sec.usace.army.mil/#/"
+  },
+  {
+   "name": "nid.sec.usace.army.mil",
+   "url": "https://nid.sec.usace.army.mil/api/developer"
+  },
+  {
+   "name": "globaldamwatch.org",
+   "url": "https://www.globaldamwatch.org/database"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-01-29-edition/"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/national-hydrography/national-hydrography-dataset"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-10-12-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-05-14",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-05-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nid.sec.usace.army.mil",
+  "host": "nid.sec.usace.army.mil"
+ }
+}

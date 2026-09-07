@@ -1,0 +1,35 @@
+{
+ "id": "dip-2022-11-02-5",
+ "title": "Swiss apartment layouts",
+ "hook": "Swiss Dwellings “contains detailed data on over 42,500 apartments (250,000 rooms) in ~3,100 buildings including their geometries, room typology as well as their visual, acoustical, topological and daylight characteristics,” collected by Archilyse AG, a company that analyzes building plans.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/7215005"
+  },
+  {
+   "name": "archilyse.com",
+   "url": "https://www.archilyse.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-02",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "zenodo.org",
+  "host": "zenodo.org"
+ }
+}

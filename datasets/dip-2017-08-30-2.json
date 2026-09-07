@@ -1,0 +1,42 @@
+{
+ "id": "dip-2017-08-30-2",
+ "title": "Redlining",
+ "hook": "The Mapping Inequality project has digitized more than 150 of the “security maps” produced by the Home Owners' Loan Corporation between 1935 and 1940.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "dsl.richmond.edu",
+   "url": "https://dsl.richmond.edu/panorama/redlining/"
+  },
+  {
+   "name": "chicagofed.org",
+   "url": "https://www.chicagofed.org/publications/working-papers/2017/wp2017-12"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2017/08/24/upshot/how-redlinings-racist-effects-lasted-for-decades.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-30",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dsl.richmond.edu",
+  "host": "dsl.richmond.edu"
+ }
+}

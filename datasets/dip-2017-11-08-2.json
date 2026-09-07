@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-11-08-2",
+ "title": "Silicon Valley diversity",
+ "hook": "Reporters at the Center for Investigative Reporting asked 200+ of the largest Silicon Valley tech companies for their official diversity data. Specifically, the reporters requested each company’s latest EEO-1, the detailed demographic report that every large U.S. employer must submit to the federal government.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "revealnews.org",
+   "url": "https://www.revealnews.org/article/hidden-figures-how-silicon-valley-keeps-diversity-data-secret/"
+  },
+  {
+   "name": "revealnews.org",
+   "url": "https://www.revealnews.org/article/how-we-analyzed-silicon-valley-tech-companies-diversity-data/"
+  },
+  {
+   "name": "apps.revealnews.org",
+   "url": "https://apps.revealnews.org/silicon-valley-diversity-list/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cirlabs/Silicon-Valley-Diversity-Data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-11-08",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-11-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "revealnews.org",
+  "host": "revealnews.org"
+ }
+}

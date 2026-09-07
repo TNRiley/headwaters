@@ -1,0 +1,41 @@
+{
+ "id": "dip-2023-02-08-3",
+ "title": "India’s high-court judges",
+ "hook": "Know Your High Court Judges, a multi-institution collaboration, has compiled biographical and professional data on all 1,700+ judges appointed to India’s high courts (each state and union territory’s top appellate court) between late 1993 and mid-2021.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "reference works",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "justicehub.in",
+   "url": "https://justicehub.in/initiatives/khoj-india"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/High_courts_of_India"
+  },
+  {
+   "name": "justicehub.in",
+   "url": "https://justicehub.in/dataset/khoj-india/resource/fa59eb2e-04a5-461f-94e3-1367f67c3a8c"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-08",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "justicehub.in",
+  "host": "justicehub.in"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-03-06-4",
+ "title": "School dress codes",
+ "hook": "For a recent article in The Pudding, Amber Thomas and two data assistants “recorded every rule listed in each dress code” at 481 public high schools in 36 states, plus “the words used in the dress code’s rationale, as well as any listed sanctions for breaking the dress code.” The 15,000+ rules and 1,470 sanctions are available to download.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "pudding.cool",
+   "url": "https://pudding.cool/2019/02/dress-code-sexualization/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-pudding/data/tree/master/dress_codes"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-06",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pudding.cool",
+  "host": "pudding.cool"
+ }
+}

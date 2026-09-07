@@ -1,0 +1,46 @@
+{
+ "id": "dip-2017-11-01-1",
+ "title": "Federal court cases",
+ "hook": "The U.S. Federal Judicial Center’s “Integrated Data Base” contains a longitudinal record of all federal criminal, civil, and appellate court cases going back to the 1970s, as well as bankruptcy cases going back to late 2007.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fjc.gov",
+   "url": "https://www.fjc.gov/research/idb"
+  }
+ ],
+ "articles": [
+  {
+   "name": "features.propublica.org",
+   "url": "https://features.propublica.org/bankruptcy-inequality/bankruptcy-failing-black-americans-debt-chapter-13/"
+  },
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/datastore/dataset/national-bankruptcy-chapter-7-13"
+  },
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/graphics/bankruptcy-data-analysis"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-11-01",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-11-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fjc.gov",
+  "host": "fjc.gov"
+ }
+}

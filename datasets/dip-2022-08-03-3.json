@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-08-03-3",
+ "title": "Christianity in China",
+ "hook": "The China Historical Christian Database, a project based at Boston University’s School of Theology, spans the years 1550 to 1950.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "chcdatabase.com",
+   "url": "https://chcdatabase.com/"
+  },
+  {
+   "name": "bu.edu",
+   "url": "https://www.bu.edu/cgcm/2022/07/19/11962/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/chcdatabase/data"
+  },
+  {
+   "name": "chcdatabase.com",
+   "url": "https://data.chcdatabase.com/map"
+  },
+  {
+   "name": "chcdatabase.github.io",
+   "url": "https://chcdatabase.github.io/data-documentation/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-03",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "chcdatabase.com",
+  "host": "chcdatabase.com"
+ }
+}

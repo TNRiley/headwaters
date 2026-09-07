@@ -1,0 +1,57 @@
+{
+ "id": "dip-2017-01-11-4",
+ "title": "So many satellites",
+ "hook": "CelesTrak’s T.S. Kelso has been obsessively transcribing NORAD’s “resident space object” data for decades. Among his offerings: the SATCAT satellite catalog, which provides data on all known satellites launched since 1957 — more than 41,900 of ‘em.",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "celestrak.com",
+   "url": "https://celestrak.com/"
+  },
+  {
+   "name": "celestrak.com",
+   "url": "https://celestrak.com/webmaster.asp"
+  },
+  {
+   "name": "celestrak.com",
+   "url": "https://celestrak.com/NORAD/documentation/"
+  },
+  {
+   "name": "celestrak.com",
+   "url": "https://celestrak.com/satcat/search.asp"
+  },
+  {
+   "name": "celestrak.com",
+   "url": "https://celestrak.com/satcat/boxscore.asp"
+  },
+  {
+   "name": "ucsusa.org",
+   "url": "http://www.ucsusa.org/nuclear-weapons/space-weapons/satellite-database"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-12-30-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-01-11",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-01-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "celestrak.com",
+  "host": "celestrak.com"
+ }
+}

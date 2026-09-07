@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-04-29-5",
+ "title": "Poems by kids",
+ "hook": "PoKi is “a corpus of 61,330 poems written by children from grades 1 to 12,” scraped with permission from a Scholastic website. The dataset includes each poem’s title, text, and character count, plus the author’s first name and grade.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/whipson/PoKi-Poems-by-Kids"
+  },
+  {
+   "name": "web.archive.org",
+   "url": "http://web.archive.org/web/20191025052907/teacher.scholastic.com/writewit/poetry/jack_readall.asp"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-29",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

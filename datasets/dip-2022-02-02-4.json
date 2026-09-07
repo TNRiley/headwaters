@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-02-02-4",
+ "title": "Immigrant populations in 1900",
+ "hook": "The 1900 US Census’s public report includes a table counting the foreign-born residents of each state and territory — overall and disaggregated into a few dozen origins, which range from subdivisions of countries (Poland is split into “Austrian,” “German,” “Russian,” and “unknown” columns) to entire continents (“Africa”).",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/decennial-census/decade/decennial-publications.1900.html"
+  },
+  {
+   "name": "www2.census.gov",
+   "url": "https://www2.census.gov/library/publications/decennial/1900/volume-1/volume-1-p13.pdf"
+  },
+  {
+   "name": "stacker.com",
+   "url": "https://stacker.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/stacker-media/data/tree/main/1900-census-immigrant-state"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/stacker-media/data/blob/main/1900-census-immigrant-state/1900-census-immigrant-pop-state.csv"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-02-02",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-02-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

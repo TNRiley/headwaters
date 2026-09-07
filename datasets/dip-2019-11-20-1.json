@@ -1,0 +1,68 @@
+{
+ "id": "dip-2019-11-20-1",
+ "title": "Chicago prosecutions",
+ "hook": "Since early 2018, the Cook County State's Attorney's Office has been publishing detailed data on every felony case it has handled since 2010.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cookcountystatesattorney.org",
+   "url": "https://www.cookcountystatesattorney.org/"
+  },
+  {
+   "name": "cookcountystatesattorney.org",
+   "url": "https://www.cookcountystatesattorney.org/about/case-level-data"
+  },
+  {
+   "name": "datacatalog.cookcountyil.gov",
+   "url": "https://datacatalog.cookcountyil.gov/browse?tags=state%27s+attorney+case-level&sortBy=most_accessed"
+  },
+  {
+   "name": "datacatalog.cookcountyil.gov",
+   "url": "https://datacatalog.cookcountyil.gov/Courts/Intake/3k7z-hchi"
+  },
+  {
+   "name": "datacatalog.cookcountyil.gov",
+   "url": "https://datacatalog.cookcountyil.gov/Courts/Initiation/7mck-ehwz"
+  },
+  {
+   "name": "datacatalog.cookcountyil.gov",
+   "url": "https://datacatalog.cookcountyil.gov/Courts/Dispositions/apwk-dzx8"
+  },
+  {
+   "name": "datacatalog.cookcountyil.gov",
+   "url": "https://datacatalog.cookcountyil.gov/Courts/Sentencing/tg8v-tm6u"
+  },
+  {
+   "name": "pudding.cool",
+   "url": "https://pudding.cool/2019/10/prosecutors/"
+  },
+  {
+   "name": "projects.chicagoreporter.com",
+   "url": "https://projects.chicagoreporter.com/kim-foxx-prosecutions-20191024/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/2019/10/24/the-kim-foxx-effect-how-prosecutions-have-changed-in-cook-county"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-11-20",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-11-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cookcountystatesattorney.org",
+  "host": "cookcountystatesattorney.org"
+ }
+}

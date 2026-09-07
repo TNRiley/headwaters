@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-06-07-1",
+ "title": "Pesticide use",
+ "hook": "As part of its National Water-Quality Assessment Project, the US Geological Survey publishes maps and datasets that estimate local pesticide usage, based on “proprietary surveys of farm operations.” The datasets provide high/low estimates (measured in kilograms) by county, chemical, and year, as well as by crop group for each state.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/mission-areas/water-resources/science/national-water-quality-assessment-nawqa"
+  },
+  {
+   "name": "water.usgs.gov",
+   "url": "https://water.usgs.gov/nawqa/pnsp/usage/maps/"
+  },
+  {
+   "name": "water.usgs.gov",
+   "url": "https://water.usgs.gov/nawqa/pnsp/usage/maps/about.php"
+  },
+  {
+   "name": "pubs.usgs.gov",
+   "url": "https://pubs.usgs.gov/ds/0907/"
+  },
+  {
+   "name": "water.usgs.gov",
+   "url": "https://water.usgs.gov/nawqa/pnsp/usage/maps/county-level/"
+  },
+  {
+   "name": "sciencebase.gov",
+   "url": "https://www.sciencebase.gov/catalog/item/6081ae7cd34e8564d6866222"
+  },
+  {
+   "name": "sciencebase.gov",
+   "url": "https://www.sciencebase.gov/catalog/item/6081a924d34e8564d68661a1"
+  },
+  {
+   "name": "science.org",
+   "url": "https://www.science.org/content/article/move-change-how-u-s-tracks-pesticide-use-sparks-protests"
+  },
+  {
+   "name": "virginiagewin.com",
+   "url": "https://www.virginiagewin.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-06-07",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-06-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usgs.gov",
+  "host": "usgs.gov"
+ }
+}

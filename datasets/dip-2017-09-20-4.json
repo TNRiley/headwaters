@@ -1,0 +1,46 @@
+{
+ "id": "dip-2017-09-20-4",
+ "title": "Trump Organization domain registrations",
+ "hook": "Earlier this year, Politico reporters scoured the internet’s WHOIS records for domains registered to the Trump Organization. They found thousands, including TrumpRussia.com, No2Trump.com, Trumpublican.net, and ImBeingSuedByTheDonald.com.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "whois.icann.org",
+   "url": "https://whois.icann.org/en/about-whois"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/The-Politico/interactive_trump-urls"
+  },
+  {
+   "name": "githubusercontent.com",
+   "url": "https://raw.githubusercontent.com/The-Politico/interactive_trump-urls/master/dist/data/cards.json"
+  }
+ ],
+ "articles": [
+  {
+   "name": "politico.com",
+   "url": "http://www.politico.com/interactives/2017/trump-organization-business-domain-names-vegas-moscow/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-09-20",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-09-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "whois.icann.org",
+  "host": "whois.icann.org"
+ }
+}

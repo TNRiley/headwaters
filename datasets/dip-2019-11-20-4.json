@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-11-20-4",
+ "title": "Soccer/football play-by-play",
+ "hook": "A group of academics has partnered with a soccer-data company to publish what they believe to be “the largest collection of soccer-logs ever released.” The dataset describes every “event” on the field — each pass, shot, foul, tackle, penalty, and more — for the 2017/18 season of five European leagues, the 2018 World Cup, and the 2016 European championship.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-019-0247-7"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/collections/Soccer_match_event_dataset/4415000"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-11-20",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-11-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

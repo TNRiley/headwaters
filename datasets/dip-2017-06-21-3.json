@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-06-21-3",
+ "title": "Two million open-source projects, and their dependencies",
+ "hook": "Libraries.io monitors “over 2.4m unique open source projects, 25m repositories and 85m interdependencies between them.” Last week, the site released its first bulk dataset, which describes each project’s metadata, published versions, and dependencies on other software libraries. [h/t Nadia Eghbal]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "libraries.io",
+   "url": "https://libraries.io"
+  },
+  {
+   "name": "medium.com",
+   "url": "https://medium.com/@BenJam/libraries-io-releases-data-on-over-25m-software-repositories-ab1db665826e"
+  },
+  {
+   "name": "libraries.io",
+   "url": "https://libraries.io/data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-21",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "libraries.io",
+  "host": "libraries.io"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "id": "dip-2021-09-29-2",
+ "title": "Incarceration by county",
+ "hook": "For an analysis and graphics that examine changes in incarceration rates over time, reporters at the Marshall Project have published a dataset indicating the number of adults in each US county who were living in correctional facilities at the time of the Decennial Census in 2000, 2010, and 2020.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "observablehq.com",
+   "url": "https://observablehq.com/@themarshallproject/adults-in-correctional-facilities-from-decennial-census"
+  }
+ ],
+ "articles": [
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/2021/09/20/there-are-fewer-people-behind-bars-now-than-10-years-ago-will-it-last"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-29",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "observablehq.com",
+  "host": "observablehq.com"
+ }
+}

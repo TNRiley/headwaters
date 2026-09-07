@@ -1,0 +1,61 @@
+{
+ "id": "dip-2024-09-18-2",
+ "title": "Long-run economic growth",
+ "hook": "The Maddison Project Database, based on the work of Angus Maddison (1926-2010), “provides information on comparative economic growth and income levels over the very long run.” Its latest release includes historical per-capita GDP estimates for 169 countries, in many cases spanning several centuries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "rug.nl",
+   "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/"
+  },
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1111/joes.12618"
+  },
+  {
+   "name": "rug.nl",
+   "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/original-maddison"
+  },
+  {
+   "name": "rug.nl",
+   "url": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023"
+  },
+  {
+   "name": "rug.nl",
+   "url": "https://www.rug.nl/ggdc/productivity/pwt/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-08-17-edition/"
+  },
+  {
+   "name": "longtermproductivity.com",
+   "url": "http://longtermproductivity.com/about.html"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-04-08-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-18",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rug.nl",
+  "host": "rug.nl"
+ }
+}

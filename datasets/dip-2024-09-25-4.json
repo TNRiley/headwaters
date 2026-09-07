@@ -1,0 +1,49 @@
+{
+ "id": "dip-2024-09-25-4",
+ "title": "Canadian mines",
+ "hook": "Economist Clara Dallaire-Fortier has compiled a dataset of “mine-level estimates for the Canadian mining industry with a persistent annual coverage between 1950 and 2022,” based partly on historical government maps.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "Canada",
+ "sources": [
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/view/claradallaire-fortier/home"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-024-03116-3"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/dataset/Principal_Productive_Mines_of_Canada/23740071"
+  },
+  {
+   "name": "research-repository.rmit.edu.au",
+   "url": "https://research-repository.rmit.edu.au/articles/dataset/A_Comprehensive_Dataset_for_Australian_Mine_Production_1799_to_2021/22724081/2"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2023-07-12-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-25",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sites.google.com",
+  "host": "sites.google.com"
+ }
+}

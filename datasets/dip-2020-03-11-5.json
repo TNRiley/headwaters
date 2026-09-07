@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-03-11-5",
+ "title": "Penguins",
+ "hook": "The MAPPPD project — Mapping Application for Penguin Populations and Projected Dynamics — “aims to deliver open access penguin population data for the Antarctic continent, and occupancy probabilities for flying birds around the Antarctic Peninsula.” The data, last updated about a year ago, can be both browsed online and downloaded.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "penguinmap.com",
+   "url": "http://www.penguinmap.com/"
+  },
+  {
+   "name": "penguinmap.com",
+   "url": "http://www.penguinmap.com/mapppd"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-11",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "penguinmap.com",
+  "host": "penguinmap.com"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "dip-2024-01-31-1",
+ "title": "Groundwater levels",
+ "hook": "To assess global trends in groundwater levels, Scott Jasechko et al. have analyzed data from ~170,000 monitoring wells in 40+ countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41586-023-06879-8"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/records/10003697"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2024/01/24/climate/global-groundwater-aquifer-levels.html?unlocked_article_code=1.Rk0.0eOL.gThq9lynWGrN"
+  },
+  {
+   "name": "wired.com",
+   "url": "https://www.wired.com/story/the-worlds-essential-aquifers-are-in-deep-trouble/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-01-31",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-01-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

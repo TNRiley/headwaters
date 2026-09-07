@@ -1,0 +1,46 @@
+{
+ "id": "dip-2015-12-30-3",
+ "title": "Millions of home loans",
+ "hook": "Over the weekend, the Seattle Times and BuzzFeed News published an investigation into Clayton Homes, a company that is owned by Warren Buffett's Berkshire Hathaway and that “has grown to dominate virtually every aspect of America’s mobile-home industry.” The investigation draws on data released through the Home Mortgage Disclosure Act.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "consumerfinance.gov",
+   "url": "http://www.consumerfinance.gov/hmda/learn-more"
+  },
+  {
+   "name": "ffiec.gov",
+   "url": "https://www.ffiec.gov/hmda/hmdaflat.htm"
+  },
+  {
+   "name": "consumerfinance.gov",
+   "url": "http://www.consumerfinance.gov/hmda/explore"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "http://www.buzzfeed.com/danielwagner/warren-buffetts-predatory-lender-charges-minorities-a-lot-mo"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-30",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "consumerfinance.gov",
+  "host": "consumerfinance.gov"
+ }
+}

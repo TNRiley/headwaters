@@ -1,0 +1,33 @@
+{
+ "id": "dip-2019-08-21-4",
+ "title": "A century of UK general elections",
+ "hook": "On Monday, the British government published a dataset of voting results, by party and parliamentary constituency, for every UK general election since 1918 — merging modern data with a handful of historical sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "other",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "researchbriefings.parliament.uk",
+   "url": "https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-8647"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-21",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "researchbriefings.parliament.uk",
+  "host": "researchbriefings.parliament.uk"
+ }
+}

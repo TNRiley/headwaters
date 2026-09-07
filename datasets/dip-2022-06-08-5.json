@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-06-08-5",
+ "title": "Roman amphitheaters",
+ "hook": "Sebastian Heath, a professor of computational humanities and Roman archaeology, has constructed a dataset of 260+ amphitheaters in the Roman Empire. It provides the structures’ known names, coordinates, orientations, and capacities, among other characteristics, and links the entries to external data sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "isaw.nyu.edu",
+   "url": "https://isaw.nyu.edu/people/faculty/isaw-faculty/sebastian-heath"
+  },
+  {
+   "name": "dlib.nyu.edu",
+   "url": "https://dlib.nyu.edu/awdl/isaw/isaw-papers/20-13/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/roman-amphitheaters/roman-amphitheaters"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-08",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "isaw.nyu.edu",
+  "host": "isaw.nyu.edu"
+ }
+}

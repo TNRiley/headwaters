@@ -1,0 +1,57 @@
+{
+ "id": "dip-2025-01-08-2",
+ "title": "Opioid settlement spending",
+ "hook": "KFF Health News, working with researchers at Johns Hopkins and Shatterproof, has published “a first-of-its kind database” tracking how states and local governments are using the billions of dollars received via opioid settlements in recent years.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "opioidprinciples.jhsph.edu",
+   "url": "https://opioidprinciples.jhsph.edu/"
+  },
+  {
+   "name": "shatterproof.org",
+   "url": "http://www.shatterproof.org/"
+  },
+  {
+   "name": "kffhealthnews.org",
+   "url": "https://kffhealthnews.org/news/article/opioid-settlement-funds-detailed-database-state-county-city-spending/"
+  },
+  {
+   "name": "kffhealthnews.org",
+   "url": "https://kffhealthnews.org/download-the-data-opioid-settlement-expenditures/"
+  },
+  {
+   "name": "kffhealthnews.org",
+   "url": "https://kffhealthnews.org/wp-content/uploads/sites/2/2024/12/opioid-settlement-expenditures-methodology-121124.pdf"
+  },
+  {
+   "name": "kffhealthnews.org",
+   "url": "https://kffhealthnews.org/news/article/opioid-settlement-payouts-state-county-city-tracker/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2024-04-10-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-01-08",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-01-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opioidprinciples.jhsph.edu",
+  "host": "opioidprinciples.jhsph.edu"
+ }
+}

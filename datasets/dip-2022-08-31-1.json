@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-08-31-1",
+ "title": "Billion-dollar disasters",
+ "hook": "As “the Nation’s Scorekeeper in terms of addressing severe weather and climate events in their historical perspective,” the US National Centers for Environmental Information maintains an inventory of the most costly such disasters in the US — those that have caused at least $1 billion in estimated direct losses.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ncei.noaa.gov",
+   "url": "https://www.ncei.noaa.gov/"
+  },
+  {
+   "name": "ncei.noaa.gov",
+   "url": "https://www.ncei.noaa.gov/access/billions/"
+  },
+  {
+   "name": "ncei.noaa.gov",
+   "url": "https://www.ncei.noaa.gov/access/billions/events"
+  },
+  {
+   "name": "ncei.noaa.gov",
+   "url": "https://www.ncei.noaa.gov/access/billions/mapping"
+  },
+  {
+   "name": "ncei.noaa.gov",
+   "url": "https://www.ncei.noaa.gov/access/billions/time-series"
+  },
+  {
+   "name": "ncei.noaa.gov",
+   "url": "https://www.ncei.noaa.gov/access/billions/summary-stats"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-31",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ncei.noaa.gov",
+  "host": "ncei.noaa.gov"
+ }
+}

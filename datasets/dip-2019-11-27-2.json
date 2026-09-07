@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-11-27-2",
+ "title": "Earthquakes in Mexico",
+ "hook": "Researchers have constructed a “unified catalog” more than 5,000 earthquakes in Mexico. To do so, they standardized, deduplicated, and fact-checked quake information from more than 100 local, regional, and international sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-019-0234-z"
+  },
+  {
+   "name": "springernature.figshare.com",
+   "url": "https://springernature.figshare.com/collections/An_updated_and_unified_earthquake_catalog_1787-2018_for_seismic_hazard_assessment_studies_in_Mexico/4492763"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Moment_magnitude_scale"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-11-27",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-11-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

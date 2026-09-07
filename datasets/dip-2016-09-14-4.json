@@ -1,0 +1,42 @@
+{
+ "id": "dip-2016-09-14-4",
+ "title": "State prison admissions, by county",
+ "hook": "Reporters at the New York Times have assembled a dataset counting the number of inmates each U.S. county sent to state prison in 2006, 2013, and 2014. The reporters derived the numbers from the Bureau of Justice Statistics’ National Corrections Reporting Program, which only certain researchers can access.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/TheUpshot/prison-admissions"
+  },
+  {
+   "name": "icpsr.umich.edu",
+   "url": "http://www.icpsr.umich.edu/icpsrweb/NACJD/series/38/studies/36373?archive=NACJD&sortBy=7"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "http://www.nytimes.com/2016/09/02/upshot/new-geography-of-prisons.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-14",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

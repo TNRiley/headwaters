@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-05-24-2",
+ "title": "Domestic radicalization",
+ "hook": "The Profiles of Individual Radicalization in the United States (PIRUS) database “contains deidentified individual-level information on the backgrounds, attributes, and radicalization processes of nearly 1,500 violent and non-violent extremists who adhere to far right, far left, Islamist, or single issue ideologies in the United States” — including the Klu Klux Klan, the Taliban, and the Animal Liberation Front, among others.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "start.umd.edu",
+   "url": "http://www.start.umd.edu/data-tools/profiles-individual-radicalization-united-states-pirus"
+  },
+  {
+   "name": "start.umd.edu",
+   "url": "http://www.start.umd.edu/news/profiles-individual-radicalization-united-states-pirus-data-now-available"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-24",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "start.umd.edu",
+  "host": "start.umd.edu"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "dip-2016-11-30-3",
+ "title": "Comparing election forecasts",
+ "hook": "This year, I decided to grade a bunch of prominent election forecasts for BuzzFeed News. Now that Michigan has finally been called, I’ve published the results. I’ve also published the underlying data and code on GitHub, including state-level predictions from all nine forecasters in the analysis.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/BuzzFeedNews/2016-11-grading-the-election-forecasts"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "https://www.buzzfeed.com/jsvine/grading-the-2016-election-forecasts"
+  },
+  {
+   "name": "buzzfeed.com",
+   "url": "https://www.buzzfeed.com/jsvine/2016-election-forecast-grades"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-11-30",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-11-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

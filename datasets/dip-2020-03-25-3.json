@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-03-25-3",
+ "title": "Getting around",
+ "hook": "The American Association of State Highway and Transportation Officials’ Census Transportation Planning Products initiative “produces special tabulations of American Community Survey (ACS) data that have enhanced value for transportation planning, analysis, and strategic direction,” such as commute times, carpooling, bicycle usage, available vehicles, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "transportation.org",
+   "url": "https://www.transportation.org/home/organization/"
+  },
+  {
+   "name": "ctpp.transportation.org",
+   "url": "https://ctpp.transportation.org/"
+  },
+  {
+   "name": "ctpp.transportation.org",
+   "url": "https://ctpp.transportation.org/2012-2016-5-year-ctpp/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-25",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "transportation.org",
+  "host": "transportation.org"
+ }
+}

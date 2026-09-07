@@ -46,6 +46,12 @@
    "year": 2020,
    "week": 38,
    "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-09-15"
+  },
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-11-18",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-11-18/"
   }
  ],
  "added": "2026-09-06",

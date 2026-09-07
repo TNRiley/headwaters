@@ -1,0 +1,41 @@
+{
+ "id": "dip-2015-12-16-1",
+ "title": "Policing the police",
+ "hook": "The Department of Justice is authorized to investigate police departments that display a “pattern or practice” of civil rights violations. In April, the Marshall Project began publishing a spreadsheet of the DOJ investigations into local law enforcement.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/themarshallproject/doj14141/blob/master/data/doj_data.csv"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/themarshallproject/doj14141#the-department-of-justices-14141-civil-rights-investigations"
+  },
+  {
+   "name": "apps.frontline.org",
+   "url": "http://apps.frontline.org/fixingtheforce/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-16",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

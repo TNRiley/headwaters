@@ -1,0 +1,39 @@
+{
+ "id": "dip-2021-06-23-5",
+ "title": "Forrest Gump-ology",
+ "hook": "StudyForrest is “a one-of-a-kind resource for studying high-level cognition in the human brain under complex, natural stimulation.” Specifically: while watching Forrest Gump.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "studyforrest.org",
+   "url": "https://www.studyforrest.org/"
+  },
+  {
+   "name": "studyforrest.org",
+   "url": "https://www.studyforrest.org/data.html"
+  },
+  {
+   "name": "f1000research.com",
+   "url": "https://f1000research.com/articles/5-2273/v1"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-23",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "studyforrest.org",
+  "host": "studyforrest.org"
+ }
+}

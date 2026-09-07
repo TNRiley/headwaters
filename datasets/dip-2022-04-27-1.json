@@ -1,0 +1,58 @@
+{
+ "id": "dip-2022-04-27-1",
+ "title": "Earmarks",
+ "hook": "The US government’s spending bill for FY 2022, enacted last month, heralded the return of earmarks, which were banned for a decade. This time around, Congress is publishing a set of documents that describe legislators’ specific funding requests — but as sideways PDFs instead of structured data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "congress.gov",
+   "url": "https://www.congress.gov/bill/117th-congress/house-bill/2471"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Earmark_(politics)"
+  },
+  {
+   "name": "appropriations.house.gov",
+   "url": "https://appropriations.house.gov/transparency/fiscal-year-2022"
+  },
+  {
+   "name": "bipartisanpolicy.org",
+   "url": "https://bipartisanpolicy.org/blog/congressionally-directed-spending-fy2022-dataset/"
+  },
+  {
+   "name": "about.bgov.com",
+   "url": "https://about.bgov.com/news/colleges-cops-airports-among-earmark-winners-in-2022-funding/"
+  },
+  {
+   "name": "congress.gov",
+   "url": "https://www.congress.gov/help/field-values/member-bioguide-ids"
+  }
+ ],
+ "articles": [
+  {
+   "name": "axios.com",
+   "url": "https://www.axios.com/congressional-earmarks-new-constraints-44b0551d-bdfc-4e1e-b465-e1d2962c90b7.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-27",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "congress.gov",
+  "host": "congress.gov"
+ }
+}

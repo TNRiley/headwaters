@@ -1,0 +1,70 @@
+{
+ "id": "dip-2022-12-14-3",
+ "title": "Jewish texts",
+ "hook": "Sefaria, a nonprofit co-founded a decade ago by author Joshua Foer and engineer Brett Lockspeiser, is “assembling a free living library of Jewish texts and their interconnections, in Hebrew and in translation.” Those texts include the Torah itself, plus rabbinic scholarship, legal works, prayer books, historical dictionaries, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sefaria.org",
+   "url": "https://www.sefaria.org/"
+  },
+  {
+   "name": "sefaria.org",
+   "url": "https://www.sefaria.org/about"
+  },
+  {
+   "name": "joshuafoer.com",
+   "url": "https://joshuafoer.com/"
+  },
+  {
+   "name": "brettlockspeiser.com",
+   "url": "https://brettlockspeiser.com/"
+  },
+  {
+   "name": "sefaria.org",
+   "url": "https://www.sefaria.org/texts"
+  },
+  {
+   "name": "sefaria.org",
+   "url": "https://www.sefaria.org/metrics"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Sefaria/Sefaria-Project/wiki/API-Documentation"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Sefaria/Sefaria-Export"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Sefaria/Sefaria-Project"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/religion/2018/09/18/quest-put-talmud-online/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-12-14",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-12-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sefaria.org",
+  "host": "sefaria.org"
+ }
+}

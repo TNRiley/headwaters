@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-10-19-2",
+ "title": "UNICEF’s operations",
+ "hook": "The United Nations Children’s Fund is a signatory to the International Aid Transparency Initiative and, as such, publishes detailed data files describing its programs and activities around the world. The files are organized by country, updated monthly, and follow the initiative’s prescribed XML structure.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "iatistandard.org",
+   "url": "https://iatistandard.org/en/"
+  },
+  {
+   "name": "iatiregistry.org",
+   "url": "https://www.iatiregistry.org/publisher/unicef"
+  },
+  {
+   "name": "iatistandard.org",
+   "url": "https://iatistandard.org/en/iati-standard/203/activity-standard/"
+  },
+  {
+   "name": "open.unicef.org",
+   "url": "https://open.unicef.org/"
+  },
+  {
+   "name": "open.unicef.org",
+   "url": "https://open.unicef.org/index.php/program-fund-goal"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-19",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "iatistandard.org",
+  "host": "iatistandard.org"
+ }
+}

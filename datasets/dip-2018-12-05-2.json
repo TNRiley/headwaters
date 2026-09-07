@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-12-05-2",
+ "title": "Body camera usage",
+ "hook": "The New Orleans Police Department’s “Body Worn Camera Metadata” contains the dates, times, durations, and locations for 2.7 million body camera recordings, going back to 2014. Related: The agency publishes similar data for 1.5 million in-car camera recordings. [h/t Alexandre Léchenet]",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nola.gov",
+   "url": "https://data.nola.gov/Public-Safety-and-Preparedness/NOPD-Body-Worn-Camera-Metadata/qarb-kkbj"
+  },
+  {
+   "name": "nola.gov",
+   "url": "https://data.nola.gov/Public-Safety-and-Preparedness/NOPD-In-Car-Camera-Metadata/md3v-ph3u"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-12-05",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-12-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nola.gov",
+  "host": "nola.gov"
+ }
+}

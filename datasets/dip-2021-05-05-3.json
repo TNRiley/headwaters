@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-05-05-3",
+ "title": "Peace mission mandates",
+ "hook": "A team led by political scientist Sara Hellmüller has categorized the “evolving mandate tasks” of all 121 United Nations peace missions between 1991 and 2020.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "peacemissions.info",
+   "url": "https://www.peacemissions.info/"
+  },
+  {
+   "name": "peacemissions.info",
+   "url": "https://www.peacemissions.info/dataset#definition"
+  },
+  {
+   "name": "peacekeeping.un.org",
+   "url": "https://peacekeeping.un.org/en/open-data-portal"
+  },
+  {
+   "name": "pcr.uu.se",
+   "url": "https://www.pcr.uu.se/data/geo-pko/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-11-27-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-05-05",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-05-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "peacemissions.info",
+  "host": "peacemissions.info"
+ }
+}

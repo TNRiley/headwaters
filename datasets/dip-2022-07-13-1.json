@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-07-13-1",
+ "title": "Heat metrics",
+ "hook": "When you talk about outdoor heat, you’re likely referring to “dry-bulb” temperatures, measured by a thermometer shielded from the sun and moisture. But other factors also contribute to the physiological experience of hot weather. To that end, Keith R. Spangler et al.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "Canada",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-022-01405-3"
+  },
+  {
+   "name": "doi.org",
+   "url": "https://doi.org/10.6084/m9.figshare.19419836"
+  },
+  {
+   "name": "weather.gov",
+   "url": "https://www.weather.gov/tsa/wbgt"
+  },
+  {
+   "name": "utci.org",
+   "url": "http://www.utci.org/"
+  },
+  {
+   "name": "weather.gov",
+   "url": "https://www.weather.gov/ama/heatindex"
+  },
+  {
+   "name": "canada.ca",
+   "url": "https://www.canada.ca/en/environment-climate-change/services/seasonal-weather-hazards/warm-season-weather-hazards.html#toc7"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-022-01405-3/tables/4"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-13",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

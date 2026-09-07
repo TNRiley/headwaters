@@ -1,0 +1,56 @@
+{
+ "id": "dip-2018-04-18-1",
+ "title": "Evictions",
+ "hook": "A team led by Princeton sociologist and Evicted author Matthew Desmond has compiled the United States’ first-ever national-scale, publicly-available database of eviction metrics.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "penguinrandomhouse.com",
+   "url": "https://www.penguinrandomhouse.com/books/247816/evicted-by-matthew-desmond/9780553447453/"
+  },
+  {
+   "name": "evictionlab.org",
+   "url": "https://evictionlab.org/map/"
+  },
+  {
+   "name": "evictionlab.org",
+   "url": "https://evictionlab.org/about/"
+  },
+  {
+   "name": "evictionlab.org",
+   "url": "https://evictionlab.org/methods/"
+  },
+  {
+   "name": "evictionlab.org",
+   "url": "https://evictionlab.org/docs/Eviction%20Lab%20-Methodology%20Report%20v.1.0.0.pdf"
+  },
+  {
+   "name": "evictionlab.org",
+   "url": "https://evictionlab.org/get-the-data/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2018/04/07/upshot/millions-of-eviction-records-a-sweeping-new-look-at-housing-in-america.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-18",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "penguinrandomhouse.com",
+  "host": "penguinrandomhouse.com"
+ }
+}

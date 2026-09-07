@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-01-10-3",
+ "title": "130+ years of prosecutor politicians",
+ "hook": "With the help of research assistants, legal historian Jed Shugerman has compiled a “tentative database” of prosecutor politicians — presidents, Supreme Court justices, circuit court justices, governors, state attorneys general, and senators who served as prosecutors earlier in their careers.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fordham.edu",
+   "url": "https://www.fordham.edu/info/23180/jed_shugerman"
+  },
+  {
+   "name": "shugerblog.com",
+   "url": "https://shugerblog.com/2017/07/07/the-rise-of-the-prosecutor-politicians-database-of-prosecutorial-experience-for-justices-circuit-judges-governors-ags-and-senators-1880-2017/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-01-10",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-01-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fordham.edu",
+  "host": "fordham.edu"
+ }
+}

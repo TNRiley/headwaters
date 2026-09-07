@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-11-13-5",
+ "title": "NYC marathon finishers",
+ "hook": "New York Road Runners publishes a searchable database of all races it has organized since 1970 — the year of NYC’s first marathon — and all finishers of those races. Data Is Plural reader Joe Hovde has scraped the results of the 2024 marathon into a downloadable spreadsheet.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nyrr.org",
+   "url": "https://www.nyrr.org/"
+  },
+  {
+   "name": "results.nyrr.org",
+   "url": "https://results.nyrr.org/races"
+  },
+  {
+   "name": "nyrr.org",
+   "url": "https://www.nyrr.org/tcsnycmarathon/getinspired/marathonhistory"
+  },
+  {
+   "name": "residualthoughts.com",
+   "url": "https://www.residualthoughts.com/about/"
+  },
+  {
+   "name": "results.nyrr.org",
+   "url": "https://results.nyrr.org/event/M2024/finishers"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1O_zxndHKhKMIfJ9e7_M5L7b4F3S__d1nVnUS8iZn8yE/edit"
+  },
+  {
+   "name": "residualthoughts.substack.com",
+   "url": "https://residualthoughts.substack.com/p/marcelo-and-karolina-the-fastest"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-11-13",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-11-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nyrr.org",
+  "host": "nyrr.org"
+ }
+}

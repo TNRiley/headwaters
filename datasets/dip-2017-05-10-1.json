@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-05-10-1",
+ "title": "The border fence",
+ "hook": "There’s about 700 miles of official fencing between the U.S. and Mexico, covering about one-third of the full border. The Department of Homeland Security doesn’t provide structured spatial data about the fence’s path.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "law.utexas.edu",
+   "url": "https://law.utexas.edu/humanrights/borderwall/maps/background-maps.html"
+  },
+  {
+   "name": "cironline.org",
+   "url": "http://cironline.org/blog/post/surprising-tools-cir-used-map-us-mexico-border-fence-6255"
+  },
+  {
+   "name": "revealnews.org",
+   "url": "https://www.revealnews.org/article/the-wall-building-a-continuous-u-s-mexico-barrier-would-be-a-tall-order/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cirlabs/border_fence_map"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-10",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "law.utexas.edu",
+  "host": "law.utexas.edu"
+ }
+}

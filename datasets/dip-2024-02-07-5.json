@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-02-07-5",
+ "title": "Amateur archaeological finds",
+ "hook": "The British Museum’s Portable Antiquities Scheme “records archaeological finds discovered by the public,” assisted by a network of national and local partners. Its database contains 1.1 million records describing 1.7 million objects.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "britishmuseum.org",
+   "url": "https://www.britishmuseum.org/our-work/national/treasure-and-portable-antiquities-scheme"
+  },
+  {
+   "name": "finds.org.uk",
+   "url": "https://finds.org.uk/database"
+  },
+  {
+   "name": "finds.org.uk",
+   "url": "https://finds.org.uk/database/search/results/objectType/COIN"
+  },
+  {
+   "name": "finds.org.uk",
+   "url": "https://finds.org.uk/database/search/results/objectType/BUCKLE"
+  },
+  {
+   "name": "finds.org.uk",
+   "url": "https://finds.org.uk/database/search/results/objectType/BROOCH"
+  },
+  {
+   "name": "finds.org.uk",
+   "url": "https://finds.org.uk/database/search/results"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-07",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "britishmuseum.org",
+  "host": "britishmuseum.org"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-11-07-1",
+ "title": "Court decisions",
+ "hook": "The Caselaw Access Project aims “to make all published U.S. court decisions freely available to the public online, in a consistent format, digitized from the collection of the Harvard Law Library.” Currently, the project provides an API for fetching data on more than 6 million cases published between 1658 and 2018 — though public access is limited to downloading 500 cases per day.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "other",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "case.law",
+   "url": "https://case.law/about/"
+  },
+  {
+   "name": "case.law",
+   "url": "https://case.law/api/"
+  },
+  {
+   "name": "case.law",
+   "url": "https://case.law/bulk/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-11-07",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-11-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "case.law",
+  "host": "case.law"
+ }
+}

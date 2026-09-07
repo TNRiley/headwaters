@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-12-11-1",
+ "title": "Quits and layoffs",
+ "hook": "Minneapolis Fed–affiliated economists Kathrin Ellieroth and Amanda Michaud have constructed a new dataset on monthly quits and layoffs.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/site/kathrinellieroth"
+  },
+  {
+   "name": "ammichau.github.io",
+   "url": "https://ammichau.github.io/"
+  },
+  {
+   "name": "minneapolisfed.org",
+   "url": "https://www.minneapolisfed.org/research/institute-working-papers/quits-layoffs-and-labor-supply"
+  },
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/qlmonthly.com/home"
+  },
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/cps/"
+  },
+  {
+   "name": "minneapolisfed.org",
+   "url": "https://www.minneapolisfed.org/article/2024/where-is-the-us-labor-market-heading-interpreting-the-mixed-signals"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-09-21-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-12-11",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-12-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sites.google.com",
+  "host": "sites.google.com"
+ }
+}

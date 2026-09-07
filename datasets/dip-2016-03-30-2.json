@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-03-30-2",
+ "title": "Digital black markets",
+ "hook": "Researcher Gwern Branwen has assembled an archive of listings posted to “dark net markets\". Silk Road is the best-known among the group, but the collection covers scores of other markets, including Amazon Dark and FreeBay.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "gwern.net",
+   "url": "http://www.gwern.net/Black-market%20archives"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-30",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gwern.net",
+  "host": "gwern.net"
+ }
+}

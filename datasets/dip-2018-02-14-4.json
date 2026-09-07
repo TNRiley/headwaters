@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-02-14-4",
+ "title": "UK fire stats",
+ "hook": "The United Kingdom’s Home Office publishes dozens of fire-safety related datasets, including aggregate statistics on response times, smoke alarms, and fire department staffing; incident-level data on appliance fires, vehicle fires, and fatalities; and much more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/statistical-data-sets/fire-statistics-data-tables"
+  },
+  {
+   "name": "nymag.com",
+   "url": "http://nymag.com/selectall/2015/11/jamie-olivers-bad-idea-is-still-starting-fires.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-02-14",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-02-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "www.gov.uk",
+  "host": "gov.uk"
+ }
+}

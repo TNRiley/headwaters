@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-05-08-4",
+ "title": "Video gaming layoffs",
+ "hook": "Game Industry Layoffs, run by @dekaf, lists known staffing cuts at video game studios, publishers, and related companies. Each entry provides the company’s name, type, parent company (for subsidiaries), layoff date, estimated number of employees laid off, and source link.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "publish.obsidian.md",
+   "url": "https://publish.obsidian.md/vg-layoffs/"
+  },
+  {
+   "name": "publish.obsidian.md",
+   "url": "https://publish.obsidian.md/vg-layoffs/Misc/About+%26+Contact"
+  },
+  {
+   "name": "publish.obsidian.md",
+   "url": "https://publish.obsidian.md/vg-layoffs/Archive/2023"
+  },
+  {
+   "name": "publish.obsidian.md",
+   "url": "https://publish.obsidian.md/vg-layoffs/Archive/2024"
+  },
+  {
+   "name": "observablehq.com",
+   "url": "https://observablehq.com/@benoldenburg/visualizing-games-industry-layoffs"
+  },
+  {
+   "name": "oldenburg.design",
+   "url": "https://oldenburg.design"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-08",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "publish.obsidian.md",
+  "host": "publish.obsidian.md"
+ }
+}

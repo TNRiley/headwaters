@@ -1,0 +1,57 @@
+{
+ "id": "dip-2019-06-05-3",
+ "title": "Chicago eviction trends",
+ "hook": "The Chicago-focused Lawyers’ Committee for Better Housing has built a database of evictions in the city from 2010 to 2017. It aggregates nearly 300,000 evictions to the ward, community area, and Census tract level, and contains metrics on case types, outcomes, legal representation, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "lcbh.org",
+   "url": "https://www.lcbh.org/"
+  },
+  {
+   "name": "eviction.lcbh.org",
+   "url": "https://eviction.lcbh.org/"
+  },
+  {
+   "name": "eviction.lcbh.org",
+   "url": "https://eviction.lcbh.org/data/user-guide"
+  },
+  {
+   "name": "eviction.lcbh.org",
+   "url": "https://eviction.lcbh.org/data/download"
+  },
+  {
+   "name": "eviction.lcbh.org",
+   "url": "https://eviction.lcbh.org/data/methodology"
+  },
+  {
+   "name": "evictionlab.org",
+   "url": "https://evictionlab.org/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-04-18-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-05",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lcbh.org",
+  "host": "lcbh.org"
+ }
+}

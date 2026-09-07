@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-06-01-1",
+ "title": "Veterans in America",
+ "hook": "In 2014, approximately 22 million U.S. military veterans were still alive, including 1 million who served in World War II, 7.2 million who served during the Vietnam War era, and 3.9 million who have served in post-9/11 wars.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "va.gov",
+   "url": "http://www.va.gov/vetdata/Veteran_Population.asp"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-01",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "va.gov",
+  "host": "va.gov"
+ }
+}

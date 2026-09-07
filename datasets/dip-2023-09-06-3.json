@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-09-06-3",
+ "title": "Intra-state ceasefires",
+ "hook": "Govinda Clayton et al.’s Civil Conflict Ceasefire Dataset “covers all ceasefires in civil conflict between 1989 and 2020, including multilateral, bilateral and unilateral arrangements, ranging from verbal arrangements to detailed written agreements.” The dataset’s 2,200+ ceasefires span 109 conflicts in 66 countries, largely based on news articles discussing the agreements.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/full/10.1177/00220027221129183"
+  },
+  {
+   "name": "ceasefireproject.org",
+   "url": "https://ceasefireproject.org/download/"
+  },
+  {
+   "name": "peaceagreements.org",
+   "url": "https://www.peaceagreements.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-02-28-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-06",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "journals.sagepub.com",
+  "host": "journals.sagepub.com"
+ }
+}

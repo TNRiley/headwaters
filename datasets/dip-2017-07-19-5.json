@@ -1,0 +1,65 @@
+{
+ "id": "dip-2017-07-19-5",
+ "title": "Old Faithful et al",
+ "hook": "The National Park Service and Geyser Observation and Study Association have been using water-temperature sensors to track the eruption times of dozens of geysers in Yellowstone — Old Faithful, of course, but also Beehive, Little Squirt, and Narcissus.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "gosa.org",
+   "url": "http://www.gosa.org/about.aspx"
+  },
+  {
+   "name": "geyserstudy.org",
+   "url": "http://geyserstudy.org/electronicsummary.aspx"
+  },
+  {
+   "name": "geyserstudy.org",
+   "url": "http://www.geyserstudy.org/geyser.aspx?pGeyserNo=OLDFAITHFUL"
+  },
+  {
+   "name": "geyserstudy.org",
+   "url": "http://www.geyserstudy.org/geyser.aspx?pGeyserNo=BEEHIVE"
+  },
+  {
+   "name": "gosa.org",
+   "url": "http://www.gosa.org/geyser.aspx?pGeyserNo=LITTLESQUIRT"
+  },
+  {
+   "name": "geyserstudy.org",
+   "url": "http://geyserstudy.org/geyser.aspx?pGeyserNo=NARCISSUS"
+  },
+  {
+   "name": "geysertimes.org",
+   "url": "http://geysertimes.org/data.php"
+  },
+  {
+   "name": "geyserstudy.org",
+   "url": "http://www.geyserstudy.org/ofvclogs.aspx"
+  },
+  {
+   "name": "geysertimes.org",
+   "url": "http://geysertimes.org/about.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-07-19",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-07-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gosa.org",
+  "host": "gosa.org"
+ }
+}

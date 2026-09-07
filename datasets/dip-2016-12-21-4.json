@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-12-21-4",
+ "title": "Two planes too close",
+ "hook": "The FAA’s Near Midair Collision System keeps track of incidents where two planes flew uncomfortably close to each other. The system, which is based on reports from pilots and flight crew members, contains more than 7,500 incidents dating back to 1987.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "asias.faa.gov",
+   "url": "http://www.asias.faa.gov/pls/apex/f?p=100:33:0::NO:::"
+  },
+  {
+   "name": "asias.faa.gov",
+   "url": "http://www.asias.faa.gov/pls/apex/f?p=100:35:0::NO::P35_REGION_VAR:1"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-12-21",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-12-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "asias.faa.gov",
+  "host": "asias.faa.gov"
+ }
+}

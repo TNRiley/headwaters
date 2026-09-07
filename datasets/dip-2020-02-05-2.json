@@ -1,0 +1,61 @@
+{
+ "id": "dip-2020-02-05-2",
+ "title": "Coronavirus cases",
+ "hook": "As the Wuhan coronavirus outbreak intensifies, a team at Johns Hopkins has been mapping the number of confirmed cases, deaths, and recoveries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak"
+  },
+  {
+   "name": "gisanddata.maps.arcgis.com",
+   "url": "https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"
+  },
+  {
+   "name": "systems.jhu.edu",
+   "url": "https://systems.jhu.edu/research/public-health/ncov/"
+  },
+  {
+   "name": "who.int",
+   "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/coronavirus/2019-nCoV/summary.html"
+  },
+  {
+   "name": "ecdc.europa.eu",
+   "url": "https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases"
+  },
+  {
+   "name": "ncov.dxy.cn",
+   "url": "https://ncov.dxy.cn/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1wQVypefm946ch4XDp37uZ-wartW4V7ILdg-qYiDXUHM/edit#gid=787605648"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-05",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

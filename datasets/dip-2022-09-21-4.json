@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-09-21-4",
+ "title": "Working artists",
+ "hook": "The National Endowment for the Arts regularly produces statistical profiles of the arts in the United States. The latest, “Artists in the Workforce: National and State Estimates for 2015-2019,” is tabulated from the Census Bureau’s American Community Survey.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "arts.gov",
+   "url": "https://www.arts.gov/about"
+  },
+  {
+   "name": "arts.gov",
+   "url": "https://www.arts.gov/impact/research/arts-data-profile-series"
+  },
+  {
+   "name": "arts.gov",
+   "url": "https://www.arts.gov/impact/research/arts-data-profile-series/adp-31"
+  },
+  {
+   "name": "arts.gov",
+   "url": "https://www.arts.gov/impact/research/arts-data-profile-series/adp-31/data-tables"
+  },
+  {
+   "name": "icpsr.umich.edu",
+   "url": "https://www.icpsr.umich.edu/web/NADAC/studies/38389/summary"
+  },
+  {
+   "name": "icpsr.umich.edu",
+   "url": "https://www.icpsr.umich.edu/web/pages/NADAC/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-21",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arts.gov",
+  "host": "arts.gov"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "dip-2022-10-26-5",
+ "title": "Gargantuan gourds",
+ "hook": "At BigPumpkins.com, you can find annual “weigh-off” results from 100+ local competitions affiliated with the Great Pumpkin Commonwealth, an international standards-setting organization.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "bigpumpkins.com",
+   "url": "http://www.bigpumpkins.com/"
+  },
+  {
+   "name": "bigpumpkins.com",
+   "url": "http://www.bigpumpkins.com/ViewArticle.asp?id=132"
+  },
+  {
+   "name": "gpc1.org",
+   "url": "https://gpc1.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-10-26",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-10-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bigpumpkins.com",
+  "host": "bigpumpkins.com"
+ }
+}

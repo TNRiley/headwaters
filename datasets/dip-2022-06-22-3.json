@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-06-22-3",
+ "title": "Central bank interest rates",
+ "hook": "The Bank for International Settlements maintains a longitudinal dataset of policy interest rates, which central banks adjust to influence inflation and other aspects of the economy.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "bis.org",
+   "url": "https://www.bis.org/about/index.htm"
+  },
+  {
+   "name": "bis.org",
+   "url": "https://www.bis.org/statistics/cbpol.htm"
+  },
+  {
+   "name": "focus-economics.com",
+   "url": "https://www.focus-economics.com/economic-indicator/policy-interest-rate"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-22",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bis.org",
+  "host": "bis.org"
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "id": "dip-2022-08-17-5",
+ "title": "Atomic gardening",
+ "hook": "The Mutant Variety Database, jointly maintained by the International Atomic Energy Agency and the UN’s Food and Agriculture Organization, tracks the metaphorical and literal fruits of atomic gardening, a decades-old practice also known as radiation breeding.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nucleus.iaea.org",
+   "url": "https://nucleus.iaea.org/sites/mvd/SitePages/Home.aspx"
+  },
+  {
+   "name": "fao.org",
+   "url": "https://www.fao.org/agriculture/fao-iaea-nuclear-techniques/en/"
+  },
+  {
+   "name": "atomicgardening.com",
+   "url": "https://www.atomicgardening.com/"
+  },
+  {
+   "name": "nucleus.iaea.org",
+   "url": "https://nucleus.iaea.org/sites/mvd/SitePages/Search.aspx"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2007/08/28/science/28crop.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-17",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nucleus.iaea.org",
+  "host": "nucleus.iaea.org"
+ }
+}

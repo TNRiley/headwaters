@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-08-17-4",
+ "title": "Pollinationships",
+ "hook": "Nicholas Balfour et al.’s Database of Pollinator Interactions “documents British pollinator-plant associations,” bringing together records from “disparate publications currently scattered throughout the scientific literature” (and other sources) into a queryable depository.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "esajournals.onlinelibrary.wiley.com",
+   "url": "https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3801"
+  },
+  {
+   "name": "dopi.org.uk",
+   "url": "https://www.dopi.org.uk/"
+  },
+  {
+   "name": "staff.sussex.ac.uk",
+   "url": "https://staff.sussex.ac.uk/news/article/58399-new-online-resource-can-help-users-bee-friendly-when-it-comes-to-planting-for-pollinators"
+  },
+  {
+   "name": "dopi.org.uk",
+   "url": "https://www.dopi.org.uk/search"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-17",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "esajournals.onlinelibrary.wiley.com",
+  "host": "esajournals.onlinelibrary.wiley.com"
+ }
+}

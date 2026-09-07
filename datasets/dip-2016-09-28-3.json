@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-09-28-3",
+ "title": "Ways and means",
+ "hook": "The U.S. Election Assistance Commission’s Election Administration and Voting Survey “includes data on the ability of civilian, military and overseas citizens to register to vote and successfully cast a ballot,” as well as an overview of each state’s voting laws and procedures. [h/t Derek Willis]",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eac.gov",
+   "url": "http://www.eac.gov/"
+  },
+  {
+   "name": "eac.gov",
+   "url": "http://www.eac.gov/research/election_administration_and_voting_survey.aspx"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-28",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "eac.gov",
+  "host": "eac.gov"
+ }
+}

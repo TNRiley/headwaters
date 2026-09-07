@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-04-08-2",
+ "title": "Historical economic productivity",
+ "hook": "The Long-Term Productivity database was created at the Bank of France in 2013, and has been updated several times since then. For 23 OECD countries from 1890 to 2018, the database tracks total factor productivity, labor productivity, capital intensity, GDP per capita, and more. [h/t Mokhtar Tabari]",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "longtermproductivity.com",
+   "url": "http://longtermproductivity.com/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Total_factor_productivity"
+  },
+  {
+   "name": "oecd.org",
+   "url": "https://data.oecd.org/lprdty/gdp-per-hour-worked.htm"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Capital_intensity"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-08",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "longtermproductivity.com",
+  "host": "longtermproductivity.com"
+ }
+}

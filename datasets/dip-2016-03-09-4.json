@@ -1,0 +1,36 @@
+{
+ "id": "dip-2016-03-09-4",
+ "title": "Overlapping crosswords",
+ "hook": "The cruciverb industry is facing its first major plagiarism scandal, unearthed thanks to a newly-published database of crosswords that are at least 25% similar to previous-published puzzles.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "xd.saul.pw",
+   "url": "http://xd.saul.pw/xdiffs/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "http://fivethirtyeight.com/features/a-plagiarism-scandal-is-unfolding-in-the-crossword-world/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-09",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "xd.saul.pw",
+  "host": "xd.saul.pw"
+ }
+}

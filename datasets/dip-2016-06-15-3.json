@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-06-15-3",
+ "title": "Air quality",
+ "hook": "Last month, the World Health Organization released its latest update to the Global Urban Ambient Air Pollution Database, which now covers nearly 3,000 cities in 103 countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "who.int",
+   "url": "http://www.who.int/phe/health_topics/outdoorair/databases/cities/en/"
+  },
+  {
+   "name": "blogs.scientificamerican.com",
+   "url": "http://blogs.scientificamerican.com/guest-blog/a-new-air-pollution-database-is-good-but-imperfect/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-15",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "who.int",
+  "host": "who.int"
+ }
+}

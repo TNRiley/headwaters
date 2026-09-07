@@ -1,0 +1,39 @@
+{
+ "id": "dip-2017-12-27-1",
+ "title": "Historical credit ratings",
+ "hook": "The SEC requires Moody’s, Standard &amp; Poor’s, and other “nationally recognized statistical rating organizations” to report their rating assignments and changes (e.g., upgrades, downgrades, withdrawals) going back to 2010. The agencies publish the reports as XBRL-formatted files, and update them monthly.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "sec.gov",
+   "url": "https://www.sec.gov/structureddata/rocr-publication-guide.html"
+  },
+  {
+   "name": "municipalfinance.org",
+   "url": "http://www.municipalfinance.org/"
+  },
+  {
+   "name": "ratingshistory.info",
+   "url": "http://ratingshistory.info/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-12-27",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-12-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sec.gov",
+  "host": "sec.gov"
+ }
+}

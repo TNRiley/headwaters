@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-11-08-3",
+ "title": "Rent-to-own prices",
+ "hook": "As part of NerdWallet’s recent investigation into Rent-A-Center, “the nation’s largest rent-to-own company,” reporters compiled pricing data for 39 consumer products on rentacenter.com.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nerdwallet.com",
+   "url": "https://www.nerdwallet.com/blog/rentacenter/"
+  },
+  {
+   "name": "nerdwallet.com",
+   "url": "https://www.nerdwallet.com/blog/finance/rent-a-center-methodology/"
+  },
+  {
+   "name": "nerdwallet.com",
+   "url": "https://www.nerdwallet.com/blog/finance/rent-a-center-prices/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-11-08",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-11-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nerdwallet.com",
+  "host": "nerdwallet.com"
+ }
+}

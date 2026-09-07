@@ -1,0 +1,50 @@
+{
+ "id": "dip-2022-04-27-2",
+ "title": "Intermediate care facilities",
+ "hook": "In the US, intermediate care facilities provide residential, long-term care to people whose intellectual or developmental disabilities require active treatment and continuous supervision.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cms.gov",
+   "url": "https://www.cms.gov/Medicare/Provider-Enrollment-and-Certification/CertificationandComplianc/ICFIID"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/BuzzFeedNews/2022-04-icf-analysis"
+  },
+  {
+   "name": "qcor.cms.gov",
+   "url": "https://qcor.cms.gov/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/BuzzFeedNews/2022-04-icf-analysis/tree/main/data/qcor"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/kendalltaggart/kkr-brightspring-disability-private-equity-abuse"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-27",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Centers for Medicare & Medicaid Services",
+  "host": "cms.gov"
+ }
+}

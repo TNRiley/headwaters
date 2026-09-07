@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-07-15-2",
+ "title": "More government responses to the coronavirus",
+ "hook": "The CoronaNet Research Project aims “to collect as much information as we can about the various fine-grained actions governments are taking to defeat the coronavirus.” The project, which has drawn contributions from more than 400 researchers around the world, published its initial release a few weeks ago, and now details nearly 16,000 policy events in nearly 200 countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "coronanet-project.org",
+   "url": "https://www.coronanet-project.org/"
+  },
+  {
+   "name": "coronanet-project.org",
+   "url": "https://www.coronanet-project.org/download.html"
+  },
+  {
+   "name": "hikmahealth.org",
+   "url": "https://www.hikmahealth.org/"
+  },
+  {
+   "name": "hikmahealth.org",
+   "url": "https://www.hikmahealth.org/map"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/hikmahealth/covid19countymap/tree/gh-pages"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-15",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "coronanet-project.org",
+  "host": "coronanet-project.org"
+ }
+}

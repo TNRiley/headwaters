@@ -1,0 +1,35 @@
+{
+ "id": "dip-2015-11-11-4",
+ "title": "1.8 billion pages of books (and booklike things)",
+ "hook": "Earlier this year, the HathiTrust Research Center released a massive dataset extracted from 4.8 million digitized volumes. For each of its 1.8 billion pages, the dataset includes word frequencies, languages used, and sentence counts, among other features.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "hathitrust.org",
+   "url": "https://www.hathitrust.org/htrc-releases-massive-dataset"
+  },
+  {
+   "name": "portal.htrc.illinois.edu",
+   "url": "https://portal.htrc.illinois.edu/features"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-11",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "hathitrust.org",
+  "host": "hathitrust.org"
+ }
+}

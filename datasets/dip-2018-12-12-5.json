@@ -1,0 +1,37 @@
+{
+ "id": "dip-2018-12-12-5",
+ "title": "Boy bands",
+ "hook": "The Pudding’s Internet Boy Band Database is “an audio-visual history of every boy band to chart on the Billboard Hot 100 since 1980.” You can download the underlying data, which is stored in two files: boys.csv and bands.csv.",
+ "hook_source": "publisher",
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "pudding.cool",
+   "url": "https://pudding.cool/2018/11/boy-bands/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-pudding/data/tree/master/boybands"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-12-12",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-12-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pudding.cool",
+  "host": "pudding.cool"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-06-24-4",
+ "title": "Coronavirus-era child care",
+ "hook": "Economist and parenting book–author Emily Oster has been collecting and publishing “preliminary, unscientific data on child care centers which were open in the pandemic.” The dataset currently includes more than 900 centers, their locations, age ranges served, whether they were open the whole time or just part of it, the number of students and staff, and the number of COVID-19 cases in students and staff.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "emilyoster.net",
+   "url": "https://emilyoster.net/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSeYIy0Dc9PW9sWCSWNXypw36FLoMiSx9jDalgDPcccK4T7ezQ/viewform"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1L45r63t8hpYfGLpT6gWKjYMscu8Wut6jtlxO-1FAW9c/edit"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-06-24",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-06-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "emilyoster.net",
+  "host": "emilyoster.net"
+ }
+}

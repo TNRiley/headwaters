@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-04-24-4",
+ "title": "Software development time estimates",
+ "hook": "Derek M. Jones analyzes software-engineering data. Recently, he convinced a small software company to release a dataset documenting its internal time estimates, spanning 10 years, 20 projects, and 10,000+ tasks.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/Derek-Jones/ESEUR-code-data"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Derek-Jones/SiP_dataset"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-24",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

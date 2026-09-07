@@ -68,11 +68,17 @@
    "year": 2021,
    "week": 27,
    "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-06-29"
+  },
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-16",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-16/"
   }
  ],
  "added": "2026-09-06",
  "provider": {
-  "name": "London.gov",
+  "name": "london.gov.uk",
   "host": "london.gov.uk"
  }
 }

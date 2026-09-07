@@ -1,0 +1,69 @@
+{
+ "id": "dip-2024-05-01-1",
+ "title": "Prison commissary prices",
+ "hook": "Through a series of public records requests, reporters at The Appeal have constructed the “first national database of prison commissary lists,” based on documents provided by 46 states. The database contains three tables. The first links to, and provides metadata about, each list.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "theappeal.org",
+   "url": "https://theappeal.org/"
+  },
+  {
+   "name": "theappeal.org",
+   "url": "https://theappeal.org/locked-in-priced-out-commissary-database-methodology/"
+  },
+  {
+   "name": "theappeal.org",
+   "url": "https://theappeal.org/commissary-database/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-appeal/commissary-data/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-appeal/commissary-data/blob/main/data/commissary-lists-20240417.csv"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-appeal/commissary-data/blob/main/data/commissary-summaries-20240417.csv"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-appeal/commissary-data/blob/main/data/commissary-prices-20240417.csv"
+  },
+  {
+   "name": "theappeal.org",
+   "url": "https://theappeal.org/locked-in-priced-out-how-much-prison-commissary-prices/"
+  },
+  {
+   "name": "theappeal.org",
+   "url": "https://theappeal.org/authors/elizabeth-weill-greenberg/"
+  },
+  {
+   "name": "theappeal.org",
+   "url": "https://theappeal.org/authors/ethan-corey/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-01",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "theappeal.org",
+  "host": "theappeal.org"
+ }
+}

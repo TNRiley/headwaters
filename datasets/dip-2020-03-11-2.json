@@ -1,0 +1,59 @@
+{
+ "id": "dip-2020-03-11-2",
+ "title": "Political parties around the world",
+ "hook": "The Global Party Survey is “an international scientific study, directed by Pippa Norris, designed to compare political parties around the world.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "globalpartysurvey.org",
+   "url": "https://www.globalpartysurvey.org/methods"
+  },
+  {
+   "name": "hks.harvard.edu",
+   "url": "https://www.hks.harvard.edu/faculty/pippa-norris"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataverse/GlobalPartySurvey"
+  },
+  {
+   "name": "hks.harvard.edu",
+   "url": "https://www.hks.harvard.edu/publications/measuring-populism-worldwide"
+  },
+  {
+   "name": "manifesto-project.wzb.eu",
+   "url": "https://manifesto-project.wzb.eu/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-06-21-edition"
+  },
+  {
+   "name": "partyfacts.herokuapp.com",
+   "url": "https://partyfacts.herokuapp.com/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-01-16-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-03-11",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-03-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "globalpartysurvey.org",
+  "host": "globalpartysurvey.org"
+ }
+}

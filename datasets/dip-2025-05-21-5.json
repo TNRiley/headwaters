@@ -1,0 +1,45 @@
+{
+ "id": "dip-2025-05-21-5",
+ "title": "Long- and short-lived states",
+ "hook": "Marten Scheffer et al.’s Mortality of States Index “documents commonly agreed state formation and end dates for over 440 different states, covering approximately 5,000 years from 3100 BCE (Egyptian Dynasties I and II) to 2021.” The data — built from sources including Seshat, the Correlates of War Project, and The…",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "pnas.org",
+   "url": "https://www.pnas.org/doi/10.1073/pnas.2218834120"
+  },
+  {
+   "name": "seshat-db.com",
+   "url": "https://seshat-db.com/"
+  },
+  {
+   "name": "correlatesofwar.org",
+   "url": "https://correlatesofwar.org/"
+  },
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/book/10.1002/9781118455074"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-05-21",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-05-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Paini et al, 2016",
+  "host": "pnas.org"
+ }
+}

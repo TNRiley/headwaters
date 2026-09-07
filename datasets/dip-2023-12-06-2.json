@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-12-06-2",
+ "title": "Social media platform policies",
+ "hook": "The Platform Governance Archive “collects and curates policies of major social media platforms in a long-term perspective.” The initial version of the archive used the Wayback Machine retrospectively to collect policies published 2005–2021 by Facebook, Instagram, Twitter, YouTube.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "platformgovernancearchive.org",
+   "url": "https://www.platformgovernancearchive.org/"
+  },
+  {
+   "name": "platformgovernancearchive.org",
+   "url": "https://www.platformgovernancearchive.org/data/dataset-pga-v1-historical-dataset/"
+  },
+  {
+   "name": "web.archive.org",
+   "url": "https://web.archive.org/"
+  },
+  {
+   "name": "platformgovernancearchive.org",
+   "url": "https://www.platformgovernancearchive.org/data/dataset-pga-v2-ongoing-collection/"
+  },
+  {
+   "name": "platformgovernancearchive.org",
+   "url": "https://www.platformgovernancearchive.org/2023/re-launch-of-platform-governance-archive-pga-with-new-dataset-access-options-website-and-data-paper/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/OpenTermsArchive/pga-versions"
+  },
+  {
+   "name": "opentermsarchive.org",
+   "url": "https://opentermsarchive.org/"
+  },
+  {
+   "name": "disinfo.quaidorsay.fr",
+   "url": "https://disinfo.quaidorsay.fr/en/our-work"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-01-20-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-12-06",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-12-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "platformgovernancearchive.org",
+  "host": "platformgovernancearchive.org"
+ }
+}

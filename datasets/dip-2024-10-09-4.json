@@ -1,0 +1,44 @@
+{
+ "id": "dip-2024-10-09-4",
+ "title": "Trash balloons",
+ "hook": "Since May of this year, North Korea has floated thousands of trash-carrying balloons into South Korea. A team from the Center for Strategic and International Studies’ Beyond Parallel project has mapped 160+ known balloon landing locations, based on public sources.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "csis.org",
+   "url": "https://www.csis.org/"
+  },
+  {
+   "name": "beyondparallel.csis.org",
+   "url": "https://beyondparallel.csis.org/about/"
+  },
+  {
+   "name": "beyondparallel.csis.org",
+   "url": "https://beyondparallel.csis.org/map-of-north-koreas-garbage-filled-balloons/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "reuters.com",
+   "url": "https://www.reuters.com/graphics/NORTHKOREA-SOUTHKOREA/TRASH/klvynygmjpg/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-10-09",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-10-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "csis.org",
+  "host": "csis.org"
+ }
+}

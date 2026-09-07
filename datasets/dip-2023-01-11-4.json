@@ -1,0 +1,47 @@
+{
+ "id": "dip-2023-01-11-4",
+ "title": "Star light, star bright",
+ "hook": "A variable star is one whose brightness appears (from Earth) to vary over time. The American Association of Variable Star Observers, founded in 1911, maintains a database of “tens of millions variable star observations going back over one hundred years,” making it “the largest and most comprehensive digital variable…",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "atnf.csiro.au",
+   "url": "https://www.atnf.csiro.au/outreach/education/senior/astrophysics/variable_types.html"
+  },
+  {
+   "name": "aavso.org",
+   "url": "https://www.aavso.org/"
+  },
+  {
+   "name": "aavso.org",
+   "url": "https://www.aavso.org/aavso-international-database-aid"
+  },
+  {
+   "name": "aavso.org",
+   "url": "https://www.aavso.org/vsx/index.php"
+  },
+  {
+   "name": "aavso.org",
+   "url": "https://www.aavso.org/data-download"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-11",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "atnf.csiro.au",
+  "host": "atnf.csiro.au"
+ }
+}

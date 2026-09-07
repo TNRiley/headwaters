@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-05-04-1",
+ "title": "Scientific paper trails",
+ "hook": "Sci-Hub bills itself as “the first pirate website in the world to provide mass and public access to tens of millions of research papers.” Who’s downloading papers from the site? “Everyone,” Science magazine concluded after analyzing data culled from six months of Sci-Hub server logs.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "sci-hub.cc",
+   "url": "http://sci-hub.cc/"
+  },
+  {
+   "name": "sciencemag.org",
+   "url": "http://www.sciencemag.org/news/2016/04/whos-downloading-pirated-papers-everyone"
+  },
+  {
+   "name": "datadryad.org",
+   "url": "http://datadryad.org/resource/doi:10.5061/dryad.q447c"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-05-04",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-05-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sci-hub.cc",
+  "host": "sci-hub.cc"
+ }
+}

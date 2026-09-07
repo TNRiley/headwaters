@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-08-21-1",
+ "title": "Oil and gas",
+ "hook": "The Joint Organisations Data Initiative (JODI) coordinates the collection, standardization, and publication of oil and gas data from around the world; the 100+ countries that participate represent the vast majority of global production. The oil data goes back to 2002; the gas data goes back to 2009.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "jodidata.org",
+   "url": "https://www.jodidata.org/about-jodi/history.aspx"
+  },
+  {
+   "name": "jodidata.org",
+   "url": "https://www.jodidata.org/about-jodi/jodi-world-databases.aspx"
+  },
+  {
+   "name": "jodidata.org",
+   "url": "https://www.jodidata.org/gas/database/data-downloads.aspx"
+  },
+  {
+   "name": "edx.netl.doe.gov",
+   "url": "https://edx.netl.doe.gov/dataset/global-oil-gas-features-database"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-06-06-edition"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-05-01-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-21",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "jodidata.org",
+  "host": "jodidata.org"
+ }
+}

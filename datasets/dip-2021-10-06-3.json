@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-10-06-3",
+ "title": "Parallel texts",
+ "hook": "The OPUS project gathers and converts texts that are freely available in multiple languages, providing various interfaces for querying and downloading side-by-side translations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "opus.nlpl.eu",
+   "url": "https://opus.nlpl.eu/"
+  },
+  {
+   "name": "opus.nlpl.eu",
+   "url": "https://opus.nlpl.eu/trac/index.html"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Parallel_text"
+  },
+  {
+   "name": "conferences.unite.un.org",
+   "url": "https://conferences.unite.un.org/uncorpus"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-10-06",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-10-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opus.nlpl.eu",
+  "host": "opus.nlpl.eu"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "dip-2024-03-13-3",
+ "title": "EU infringements",
+ "hook": "The European Commission publishes a searchable and downloadable database of all its decisions regarding national infringements of EU regulations, decisions, and directives. It currently contains 58,000+ decisions in 24,000+ cases, going back to the late 1980s.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/atwork/applying-eu-law/infringements-proceedings/infringement_decisions/"
+  },
+  {
+   "name": "commission.europa.eu",
+   "url": "https://commission.europa.eu/law/application-eu-law/implementing-eu-law_en"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_1232"
+  },
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_1234"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-03-13",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-03-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Eurostat Energy",
+  "host": "ec.europa.eu"
+ }
+}

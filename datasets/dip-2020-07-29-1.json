@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-07-29-1",
+ "title": "COVID-19 treatments and vaccines",
+ "hook": "The Milken Institute’s FasterCures project is tracking hundreds of potential COVID-19 treatments and vaccines.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "milkeninstitute.org",
+   "url": "https://milkeninstitute.org/centers/fastercures"
+  },
+  {
+   "name": "covid-19tracker.milkeninstitute.org",
+   "url": "https://covid-19tracker.milkeninstitute.org/"
+  },
+  {
+   "name": "airtable.com",
+   "url": "https://airtable.com/shrSAi6t5WFwqo3GM/tblEzPQS5fnc0FHYR/viweyymxOAtNvo7yH?blocks=bipZFzhJ7wHPv7x9z"
+  },
+  {
+   "name": "covid-19vaccinetracker.org",
+   "url": "https://www.covid-19vaccinetracker.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-29",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "milkeninstitute.org",
+  "host": "milkeninstitute.org"
+ }
+}

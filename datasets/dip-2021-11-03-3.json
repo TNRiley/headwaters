@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-11-03-3",
+ "title": "Amazon search results",
+ "hook": "A recent Markup investigation “found that Amazon places products from its house brands and products exclusive to the site ahead of those from competitors — even competitors with higher customer ratings and more sales, judging from the volume of reviews.” Reporters Adrianne Jeffries and Leon Yin published their…",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "themarkup.org",
+   "url": "https://themarkup.org/amazons-advantage/2021/10/14/amazon-puts-its-own-brands-first-above-better-rated-products"
+  },
+  {
+   "name": "adriannejeffries.com",
+   "url": "https://adriannejeffries.com/"
+  },
+  {
+   "name": "leonyin.org",
+   "url": "https://www.leonyin.org/"
+  },
+  {
+   "name": "themarkup.org",
+   "url": "https://themarkup.org/amazons-advantage/2021/10/14/how-we-analyzed-amazons-treatment-of-its-brands-in-search-results"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/the-markup/investigation-amazon-brands"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-11-03",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-11-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "themarkup.org",
+  "host": "themarkup.org"
+ }
+}

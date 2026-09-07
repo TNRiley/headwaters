@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-10-13-2",
+ "title": "Hourly weather",
+ "hook": "NOAA’s Integrated Surface Database, launched two decades ago, combines point-in-time weather observations from 100+ sources, collected at 35,000+ stations around the world, 14,000+ of which are still active.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "ncei.noaa.gov",
+   "url": "https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database"
+  },
+  {
+   "name": "observablehq.com",
+   "url": "https://observablehq.com/@observablehq/noaa-weather-data-by-major-u-s-city"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-10-13",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-10-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ncei.noaa.gov",
+  "host": "ncei.noaa.gov"
+ }
+}

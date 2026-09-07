@@ -1,0 +1,38 @@
+{
+ "id": "dip-2023-05-17-3",
+ "title": "ICE database misconduct",
+ "hook": "“Since 2016, hundreds of US Immigration and Customs Enforcement employees and contractors have faced internal investigations into abuse of confidential law enforcement databases and agency computers,” Dhruv Mehrotra reports in Wired, based on disciplinary database records Mehrotra obtained via a Freedom of Information Act request.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "airtable.com",
+   "url": "https://airtable.com/shrodU77cgvD2e8dc/tblwELYkSA0fNXgKF"
+  }
+ ],
+ "articles": [
+  {
+   "name": "wired.com",
+   "url": "https://www.wired.com/story/ice-agent-database-abuse-records/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-05-17",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-05-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "airtable.com",
+  "host": "airtable.com"
+ }
+}

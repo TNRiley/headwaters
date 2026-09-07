@@ -1,0 +1,45 @@
+{
+ "id": "dip-2015-10-28-4",
+ "title": "Finally, free access to detailed U.S. import/export data",
+ "hook": "Prior to October 15th, the Census Bureau’s USA Trade Online tool cost $300/year. No longer. The newly-free dataset covers more than 17,000 commodities, including a category for “magic tricks, practical joke articles; parts and accessories.” [h/t Noah Veltman]",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usatrade.census.gov",
+   "url": "https://usatrade.census.gov/"
+  },
+  {
+   "name": "census.gov",
+   "url": "http://www.census.gov/newsroom/press-releases/2015/cb15-tps87.html"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Harmonized_Tariff_Schedule_for_the_United_States"
+  },
+  {
+   "name": "census.gov",
+   "url": "http://www.census.gov/foreign-trade/statistics/graphs/GOTM/201508/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-10-28",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-10-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usatrade.census.gov",
+  "host": "usatrade.census.gov"
+ }
+}

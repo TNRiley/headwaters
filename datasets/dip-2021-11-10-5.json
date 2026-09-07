@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-11-10-5",
+ "title": "Damn fine coffees",
+ "hook": "Earlier this year, data visualist Judit Bekker live-blogged her effort to catalog and visualize every coffee consumed in all three seasons of Twin Peaks. Bekker’s dataset indicates the episode, timestamp, scene, location, circumstances of 258 coffee-drinkings, plus who drank them. [h/t Soph Warnes]",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "juditbekker.com",
+   "url": "https://juditbekker.com/"
+  },
+  {
+   "name": "juditbekker.com",
+   "url": "https://juditbekker.com/2021/05/04/live-blogging-a-new-project/"
+  },
+  {
+   "name": "public.tableau.com",
+   "url": "https://public.tableau.com/app/profile/judit.bekker/viz/TheCoffeesofTwinPeaks/TheCoffeesofTwinPeaks"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Twin_Peaks"
+  },
+  {
+   "name": "data.world",
+   "url": "https://data.world/judkacag/the-coffees-of-twin-peaks"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-11-10",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-11-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "juditbekker.com",
+  "host": "juditbekker.com"
+ }
+}

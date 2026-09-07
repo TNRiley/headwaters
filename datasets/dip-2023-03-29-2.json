@@ -1,0 +1,37 @@
+{
+ "id": "dip-2023-03-29-2",
+ "title": "Health workers",
+ "hook": "The World Health Organization’s Global Health Workforce Statistics database presents annual, national estimates of the number of medical doctors, nursing and midwifery professionals, community health workers, and several other types of health personnel.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "who.int",
+   "url": "https://www.who.int/data/gho/data/themes/topics/health-workforce"
+  },
+  {
+   "name": "who.int",
+   "url": "https://www.who.int/activities/improving-health-workforce-data-and-evidence"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-29",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "who.int",
+  "host": "who.int"
+ }
+}

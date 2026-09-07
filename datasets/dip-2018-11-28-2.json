@@ -1,0 +1,49 @@
+{
+ "id": "dip-2018-11-28-2",
+ "title": "Word associations",
+ "hook": "The Small World of Words project “is a large-scale scientific study that aims to build a mental dictionary or lexicon in the major languages of the world.” The experiment has asked hundreds of thousands of participants to list their immediate associations with various words (such as “telephone,” “journalist,” and “yoga”).",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "smallworldofwords.org",
+   "url": "https://smallworldofwords.org/en/project"
+  },
+  {
+   "name": "smallworldofwords.org",
+   "url": "https://smallworldofwords.org/en/project/stats"
+  },
+  {
+   "name": "smallworldofwords.org",
+   "url": "https://smallworldofwords.org/en/project/research"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/SimonDeDeyne/SWOWEN-2018"
+  },
+  {
+   "name": "smallworldofwords.org",
+   "url": "https://smallworldofwords.org/en/project/explore"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-11-28",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-11-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "smallworldofwords.org",
+  "host": "smallworldofwords.org"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "dip-2018-11-07-2",
+ "title": "Foreign gifts to U.S. universities",
+ "hook": "The Department of Education requires U.S. universities to report all major gifts from (and contracts with) foreign entities. The agency’s database of these gifts and contracts currently covers 2012 to mid-2018, and includes 18,000+ entries from more than 150 schools.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "studentaid.ed.gov",
+   "url": "https://studentaid.ed.gov/sa/about/data-center/school/foreign-gifts"
+  },
+  {
+   "name": "catalog.data.gov",
+   "url": "https://catalog.data.gov/dataset/foreign-gifts-and-contracts-report-2011"
+  }
+ ],
+ "articles": [
+  {
+   "name": "apnews.com",
+   "url": "https://www.apnews.com/4d56411af6a8490e8030eacab4401571"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-11-07",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-11-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Department of Education",
+  "host": "studentaid.ed.gov"
+ }
+}

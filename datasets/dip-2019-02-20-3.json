@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-02-20-3",
+ "title": "EU-funded projects in the UK",
+ "hook": "MyEU.uk’s interactive map lets you search and explore tens of thousands of European Union–funded projects in the United Kingdom, aggregated from a range of official sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "myeu.uk",
+   "url": "https://www.myeu.uk/"
+  },
+  {
+   "name": "myeu.uk",
+   "url": "https://www.myeu.uk/about/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/TechForUK/my_eu"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1doQnfcwxIBdTM1mecBevEt_4Vgih06fy_lWSZl0Hwac/edit#gid=0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-02-20",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-02-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "myeu.uk",
+  "host": "myeu.uk"
+ }
+}

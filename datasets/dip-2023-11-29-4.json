@@ -1,0 +1,97 @@
+{
+ "id": "dip-2023-11-29-4",
+ "title": "Legal cannabis sales",
+ "hook": "Colorado’s Department of Revenue publishes a range of data about the state’s legal marijuana industry, including spreadsheets of monthly sales totals and taxes collected by county and medical/retail status.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdor.colorado.gov",
+   "url": "https://cdor.colorado.gov/data-and-reports/marijuana-data"
+  },
+  {
+   "name": "cdor.colorado.gov",
+   "url": "https://cdor.colorado.gov/data-and-reports/marijuana-data/marijuana-sales-reports"
+  },
+  {
+   "name": "cdor.colorado.gov",
+   "url": "https://cdor.colorado.gov/data-and-reports/marijuana-data/marijuana-tax-reports"
+  },
+  {
+   "name": "cdtfa.ca.gov",
+   "url": "https://www.cdtfa.ca.gov/dataportal/catalog.htm?subcategory=Cannabis%20Taxes"
+  },
+  {
+   "name": "ct.gov",
+   "url": "https://data.ct.gov/Health-and-Human-Services/Cannabis-Retail-Sales-by-Week-Ending/ucaf-96h6"
+  },
+  {
+   "name": "cannabis.illinois.gov",
+   "url": "https://cannabis.illinois.gov/research-and-data/sales-figures.html"
+  },
+  {
+   "name": "maine.gov",
+   "url": "https://www.maine.gov/revenue/taxes/tax-policy-office/sales-tax-reports"
+  },
+  {
+   "name": "masscannabiscontrol.com",
+   "url": "https://masscannabiscontrol.com/open-data/data-catalog/"
+  },
+  {
+   "name": "crop.rld.nm.gov",
+   "url": "https://crop.rld.nm.gov/data-catalog.html"
+  },
+  {
+   "name": "oregon.gov",
+   "url": "https://www.oregon.gov/olcc/marijuana/pages/marijuana-market-data.aspx"
+  },
+  {
+   "name": "lcb.wa.gov",
+   "url": "https://lcb.wa.gov/records/frequently-requested-lists"
+  },
+  {
+   "name": "azdor.gov",
+   "url": "https://azdor.gov/reports-statistics-and-legal-research/marijuana-tax-collection"
+  },
+  {
+   "name": "mmcc.maryland.gov",
+   "url": "https://mmcc.maryland.gov/Pages/Data-and-Reports.aspx"
+  },
+  {
+   "name": "michigan.gov",
+   "url": "https://www.michigan.gov/cra/resources/cannabis-regulatory-agency-licensing-reports/cannabis-regulatory-agency-statistical-report"
+  },
+  {
+   "name": "mtrevenue.gov",
+   "url": "https://mtrevenue.gov/cannabis-sales-reports/"
+  },
+  {
+   "name": "nj.gov",
+   "url": "https://www.nj.gov/cannabis/resources/reports-stats-info/"
+  },
+  {
+   "name": "dbr.ri.gov",
+   "url": "https://dbr.ri.gov/office-cannabis-regulation/data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-29",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cdor.colorado.gov",
+  "host": "cdor.colorado.gov"
+ }
+}

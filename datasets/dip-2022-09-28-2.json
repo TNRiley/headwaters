@@ -1,0 +1,85 @@
+{
+ "id": "dip-2022-09-28-2",
+ "title": "Academic citations",
+ "hook": "Since 2017, the Initiative for Open Citations has urged academic publishers to share their papers’ reference lists as open data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "i4oc.org",
+   "url": "https://i4oc.org/"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/nature.2017.21800"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/d41586-022-02926-y"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Digital_object_identifier"
+  },
+  {
+   "name": "crossref.org",
+   "url": "https://www.crossref.org/"
+  },
+  {
+   "name": "crossref.org",
+   "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/"
+  },
+  {
+   "name": "opencitations.net",
+   "url": "https://opencitations.net/"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/d41586-022-02915-1"
+  },
+  {
+   "name": "medium.com",
+   "url": "https://medium.com/freely-sharing-the-sum-of-all-knowledge/what-are-the-ten-most-cited-sources-on-wikipedia-lets-ask-the-data-34071478785a"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-05-23-edition/"
+  },
+  {
+   "name": "journals.plos.org",
+   "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000385"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-10-23-edition/"
+  },
+  {
+   "name": "case.law",
+   "url": "https://case.law/download/citation_graph/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-07-15-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-28",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "i4oc.org",
+  "host": "i4oc.org"
+ }
+}

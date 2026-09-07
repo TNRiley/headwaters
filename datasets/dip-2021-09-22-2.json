@@ -1,0 +1,67 @@
+{
+ "id": "dip-2021-09-22-2",
+ "title": "Rushing waters",
+ "hook": "The US Geological Survey’s National Water Information System provides data on the “occurrence, quantity, quality, distribution, and movement of surface and underground waters” around the country. The surface water measurements — mainly streamflow and gage height — come from tens of thousands of monitoring sites.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "waterdata.usgs.gov",
+   "url": "https://waterdata.usgs.gov/nwis"
+  },
+  {
+   "name": "waterdata.usgs.gov",
+   "url": "https://waterdata.usgs.gov/nwis/sw"
+  },
+  {
+   "name": "help.waterdata.usgs.gov",
+   "url": "https://help.waterdata.usgs.gov/tutorials/surface-water-data/how-do-i-interpret-gage-height-and-streamflow-values"
+  },
+  {
+   "name": "waterdata.usgs.gov",
+   "url": "https://waterdata.usgs.gov/monitoring-location/07378000/#parameterCode=00065&startDT=2021-08-26&endDT=2021-09-21"
+  },
+  {
+   "name": "theadvocate.com",
+   "url": "https://www.theadvocate.com/baton_rouge/news/article_c06a0dba-159b-11ec-9f44-7769e5bab072.html"
+  },
+  {
+   "name": "waterservices.usgs.gov",
+   "url": "https://waterservices.usgs.gov/"
+  },
+  {
+   "name": "waterservices.usgs.gov",
+   "url": "https://waterservices.usgs.gov/rest/DV-Service.html"
+  },
+  {
+   "name": "waterservices.usgs.gov",
+   "url": "https://waterservices.usgs.gov/rest/IV-Service.html"
+  },
+  {
+   "name": "tidesandcurrents.noaa.gov",
+   "url": "https://tidesandcurrents.noaa.gov/nwlon.html"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-03-23-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-22",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "waterdata.usgs.gov",
+  "host": "waterdata.usgs.gov"
+ }
+}

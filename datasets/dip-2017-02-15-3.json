@@ -1,0 +1,53 @@
+{
+ "id": "dip-2017-02-15-3",
+ "title": "Clinical trials",
+ "hook": "The Clinical Trials Transformation Initiative — a public-private partnership of more than 80 organizations — upgraded its clinical trials database late last month.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ctti-clinicaltrials.org",
+   "url": "https://www.ctti-clinicaltrials.org/"
+  },
+  {
+   "name": "ctti-clinicaltrials.org",
+   "url": "https://www.ctti-clinicaltrials.org/news/upgraded-aact-database-offers-improved-functionality-analyzing-clinicaltrialsgov-data"
+  },
+  {
+   "name": "aact.ctti-clinicaltrials.org",
+   "url": "http://aact.ctti-clinicaltrials.org/learn_more"
+  },
+  {
+   "name": "aact.ctti-clinicaltrials.org",
+   "url": "http://aact.ctti-clinicaltrials.org/download"
+  },
+  {
+   "name": "aact.ctti-clinicaltrials.org",
+   "url": "http://aact.ctti-clinicaltrials.org/connect"
+  },
+  {
+   "name": "clinicaltrials.gov",
+   "url": "https://clinicaltrials.gov/ct2/resources/download"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-02-15",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-02-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ctti-clinicaltrials.org",
+  "host": "ctti-clinicaltrials.org"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "id": "dip-2017-05-17-1",
+ "title": "North Korean missile tests",
+ "hook": "The James Martin Center for Nonproliferation Studies publishes what it calls “the first database to record flight tests of all missiles launched by North Korea capable of delivering a payload of at least 500 kilograms a distance of at least 300 kilometers.” The database currently contains 107 missile tests — starting with North Korea’s first, launched in April 1984, to its latest, launched Sunday morning.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nonproliferation.org",
+   "url": "http://www.nonproliferation.org/"
+  },
+  {
+   "name": "nti.org",
+   "url": "http://www.nti.org/analysis/articles/cns-north-korea-missile-test-database/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "https://www.buzzfeed.com/gracewyler/north-korea-reportedly-launches-ballistic-missile"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-17",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nonproliferation.org",
+  "host": "nonproliferation.org"
+ }
+}

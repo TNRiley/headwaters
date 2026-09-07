@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-03-29-4",
+ "title": "Carbon capture projects",
+ "hook": "The National Energy Technology Laboratory maintains a map and dataset of carbon capture and storage projects “active, proposed, and terminated” in 30+ countries since the 1970s. The latest version of the dataset includes 400+ entries, slightly more than are on the map.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "netl.doe.gov",
+   "url": "https://netl.doe.gov/about/mission-overview"
+  },
+  {
+   "name": "netl.doe.gov",
+   "url": "https://netl.doe.gov/carbon-management/carbon-storage/worldwide-ccs-database"
+  },
+  {
+   "name": "netl.doe.gov",
+   "url": "https://netl.doe.gov/carbon-management/carbon-storage/faqs/carbon-storage-faqs"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/articles/what-is-carbon-capture-and-storage-where-is-it-happening-in-the-us/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-29",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "netl.doe.gov",
+  "host": "netl.doe.gov"
+ }
+}

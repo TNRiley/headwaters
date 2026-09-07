@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-01-16-1",
+ "title": "Journalists killed, imprisoned, and missing",
+ "hook": "The Committee to Protect Journalists maintains a database of journalists who’ve been killed for reasons related to their work. The database goes back to 1992 and contains more than 1,300 entries, with details about the journalists, the circumstances of their deaths, and whether perpetrators have been convicted.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "cpj.org",
+   "url": "https://cpj.org/data/killed"
+  },
+  {
+   "name": "cpj.org",
+   "url": "https://cpj.org/data/methodology"
+  },
+  {
+   "name": "cpj.org",
+   "url": "https://cpj.org/data/imprisoned"
+  },
+  {
+   "name": "cpj.org",
+   "url": "https://cpj.org/data/missing"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-16",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cpj.org",
+  "host": "cpj.org"
+ }
+}

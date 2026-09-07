@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-07-26-2",
+ "title": "Gender and diplomacy",
+ "hook": "Birgitta Niklasson and Ann Towns’s GenDip dataset “maps the extent to which states appoint men, women and other diplomats to different kinds of bilateral ambassador postings.” The data cover 200+ countries and 10 specific years between 1968 and 2021.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "other",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "gu.se",
+   "url": "https://www.gu.se/en/about/find-staff/birgittaniklasson"
+  },
+  {
+   "name": "gu.se",
+   "url": "https://www.gu.se/en/about/find-staff/anntowns"
+  },
+  {
+   "name": "gu.se",
+   "url": "https://www.gu.se/en/gendip/the-gendip-dataset-on-gender-and-diplomatic-representation"
+  },
+  {
+   "name": "gu.se",
+   "url": "https://www.gu.se/en/gendip/the-gendip-dataset-on-gender-and-diplomatic-representation/visualization-tools"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-07-26",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-07-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gu.se",
+  "host": "gu.se"
+ }
+}

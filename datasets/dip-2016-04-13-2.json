@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-04-13-2",
+ "title": "Order in the courts",
+ "hook": "CourtListener gathers and publishes bulk data the Supreme Court, all federal appeals courts, and hundreds of other jurisdictions. The files include opinions, audio from oral arguments, dockets, and citations. It also has an API.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "courtlistener.com",
+   "url": "https://www.courtlistener.com/api/bulk-info/"
+  },
+  {
+   "name": "courtlistener.com",
+   "url": "https://www.courtlistener.com/api/rest-info/"
+  },
+  {
+   "name": "courtlistener.com",
+   "url": "https://www.courtlistener.com/visualizations/scotus-mapper/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-13",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "courtlistener.com",
+  "host": "courtlistener.com"
+ }
+}

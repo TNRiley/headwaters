@@ -1,0 +1,57 @@
+{
+ "id": "dip-2021-09-08-2",
+ "title": "Alternative fueling",
+ "hook": "The US Bureau of Transportation Statistics’ summer update to its National Transportation Atlas Database adds a dataset on “alternative fuel corridors” — stretches of highway with a sufficient frequency of fueling stations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "bts.gov",
+   "url": "https://www.bts.gov/newsroom/national-transportation-atlas-database-summer-2021-adds-alternative-fuel-corridors-dataset"
+  },
+  {
+   "name": "bts.gov",
+   "url": "https://www.bts.gov/ntad"
+  },
+  {
+   "name": "data-usdot.opendata.arcgis.com",
+   "url": "https://data-usdot.opendata.arcgis.com/datasets/alternative-fuel-corridors/explore"
+  },
+  {
+   "name": "fhwa.dot.gov",
+   "url": "https://www.fhwa.dot.gov/environment/alternative_fuel_corridors/"
+  },
+  {
+   "name": "data-usdot.opendata.arcgis.com",
+   "url": "https://data-usdot.opendata.arcgis.com/datasets/alternative-fueling-stations-1/explore"
+  },
+  {
+   "name": "afdc.energy.gov",
+   "url": "https://afdc.energy.gov/stations/"
+  },
+  {
+   "name": "afdc.energy.gov",
+   "url": "https://afdc.energy.gov/corridors"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-08",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bts.gov",
+  "host": "bts.gov"
+ }
+}

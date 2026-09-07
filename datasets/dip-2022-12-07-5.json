@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-12-07-5",
+ "title": "Video games",
+ "hook": "Developer Vladimir Belyaev has constructed a dataset representing “all games available” on Steam, the massively popular video game platform and store. It indicates each game’s name, price, developer, languages, genre categories, ratings from third-party websites, and more. [h/t Saul Pwanson]",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/leinstay"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/leinstay/steamdb"
+  },
+  {
+   "name": "store.steampowered.com",
+   "url": "https://store.steampowered.com/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Steam_(service)"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-12-07",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-12-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

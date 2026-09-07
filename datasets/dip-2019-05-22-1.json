@@ -1,0 +1,61 @@
+{
+ "id": "dip-2019-05-22-1",
+ "title": "Internet speeds",
+ "hook": "The Measurement Lab describes itself as “the largest open source Internet measurement effort in the world.” Volunteers run the lab’s tests on their own devices, measuring their internet connection’s speed, latency, and other characteristics.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "measurementlab.net",
+   "url": "https://www.measurementlab.net/"
+  },
+  {
+   "name": "measurementlab.net",
+   "url": "https://www.measurementlab.net/faq/"
+  },
+  {
+   "name": "measurementlab.net",
+   "url": "https://www.measurementlab.net/tests/"
+  },
+  {
+   "name": "measurementlab.net",
+   "url": "https://www.measurementlab.net/data/"
+  },
+  {
+   "name": "measurementlab.net",
+   "url": "https://www.measurementlab.net/data/docs/gcs/"
+  },
+  {
+   "name": "measurementlab.net",
+   "url": "https://www.measurementlab.net/data/docs/bq/quickstart/"
+  },
+  {
+   "name": "viz.measurementlab.net",
+   "url": "https://viz.measurementlab.net/"
+  },
+  {
+   "name": "viz.measurementlab.net",
+   "url": "https://viz.measurementlab.net/data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-22",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "measurementlab.net",
+  "host": "measurementlab.net"
+ }
+}

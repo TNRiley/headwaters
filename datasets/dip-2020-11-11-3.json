@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-11-11-3",
+ "title": "Transit costs",
+ "hook": "“Why do transit-infrastructure projects in New York cost 20 times more on a per kilometer basis than in Seoul?” With the aim of answering questions like these, the NYU-based Transit Costs Project is building a dataset that already spans more than 500 urban rail projects around the world.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "transitcosts.com",
+   "url": "https://transitcosts.com/about/"
+  },
+  {
+   "name": "transitcosts.com",
+   "url": "https://transitcosts.com/data/"
+  },
+  {
+   "name": "transitcosts.com",
+   "url": "https://transitcosts.com/projects/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-11-11",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-11-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "transitcosts.com",
+  "host": "transitcosts.com"
+ }
+}

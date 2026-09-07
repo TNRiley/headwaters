@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-06-22-5",
+ "title": "NYC tree plantings",
+ "hook": "New York City’s Department of Parks & Recreation publishes a map and dataset of recent and likely-upcoming street tree plantings. The information includes each location’s coordinates, nearest street address, ZIP code, city council district, and borough, as well as the dates of completed plantings.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nycgovparks.org",
+   "url": "https://www.nycgovparks.org/trees/street-tree-planting/locations"
+  },
+  {
+   "name": "tree-map.nycgovparks.org",
+   "url": "https://tree-map.nycgovparks.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-11-16-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-22",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nycgovparks.org",
+  "host": "nycgovparks.org"
+ }
+}

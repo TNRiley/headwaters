@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-10-10-4",
+ "title": "Medical marijuana in the Nutmeg State",
+ "hook": "Connecticut’s Department of Consumer Protection has released a dataset listing all branded medical marijuana products registered with the state.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ct.gov",
+   "url": "https://data.ct.gov/Health-and-Human-Services/Medical-Marijuana-Brand-Registry/egd5-wb6r/data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-10-10",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-10-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ct.gov",
+  "host": "ct.gov"
+ }
+}

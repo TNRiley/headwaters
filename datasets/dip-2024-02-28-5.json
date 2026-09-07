@@ -1,0 +1,43 @@
+{
+ "id": "dip-2024-02-28-5",
+ "title": "Trash interceptors",
+ "hook": "Mr. Trash Wheel is one of four “semi-autonomous trash interceptors” pulling garbage out of the Baltimore Harbor. The partnership behind the effort publishes spreadsheets of each contraption’s collection history.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "mrtrashwheel.com",
+   "url": "https://www.mrtrashwheel.com/"
+  },
+  {
+   "name": "mrtrashwheel.com",
+   "url": "https://www.mrtrashwheel.com/meet-the-trash-wheels/"
+  },
+  {
+   "name": "mrtrashwheel.com",
+   "url": "https://www.mrtrashwheel.com/technology/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1b8Lbe-z3PNb3H8nSsSjrwK2B0ReAblL2/edit#gid=1143432795"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-28",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mrtrashwheel.com",
+  "host": "mrtrashwheel.com"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-07-04-4",
+ "title": "Anthony Bourdain’s travels",
+ "hook": "Christine Zhang has compiled a CSV of 400+ locations featured in Anthony Bourdain’s No Reservations, The Layover, and Parts Unknown shows. The spreadsheet-as-remembrance includes each location’s name, country, latitude/longitude, plus the relevant episode’s show, season, number, and title.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/underthecurve/bourdain-travel-places/blob/master/bourdain_travel_places.csv"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-07-04",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-07-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

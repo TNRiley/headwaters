@@ -1,0 +1,50 @@
+{
+ "id": "dip-2019-07-03-2",
+ "title": "Venmo transactions",
+ "hook": "Dan Salmon, a grad student who specializes in information security, has published data on more than 7 million Venmo transactions, which he downloaded from the mobile payment platform’s public API.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "danthesalmon.com",
+   "url": "https://danthesalmon.com/about/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/sa7mon/venmo-data"
+  },
+  {
+   "name": "publicbydefault.fyi",
+   "url": "https://publicbydefault.fyi/#venmo"
+  },
+  {
+   "name": "22-8miles.com",
+   "url": "https://22-8miles.com/about/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "wired.com",
+   "url": "https://www.wired.com/story/i-scraped-millions-of-venmo-payments-your-data-is-at-risk/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-03",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "danthesalmon.com",
+  "host": "danthesalmon.com"
+ }
+}

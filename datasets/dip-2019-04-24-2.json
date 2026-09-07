@@ -1,0 +1,57 @@
+{
+ "id": "dip-2019-04-24-2",
+ "title": "World leaders",
+ "hook": "The Archigos dataset provides historical data the leaders of nearly 200 countries between 1875 and 2015. The dataset — a collaboration between political scientists Hein Goemans, Kristian Skrede Gleditsch, and Giacomo Chiozza — includes basic demographic information, plus categorizations of how each leader came to power, how they lost it, and their post-office fate.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "ksgleditsch.com",
+   "url": "http://www.ksgleditsch.com/archigos.html"
+  },
+  {
+   "name": "rochester.edu",
+   "url": "http://www.rochester.edu/college/faculty/hgoemans/"
+  },
+  {
+   "name": "ksgleditsch.com",
+   "url": "http://ksgleditsch.com/"
+  },
+  {
+   "name": "chiozza.org",
+   "url": "http://www.chiozza.org/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Records_of_Prime_Ministers_of_the_United_Kingdom#Died_in_office"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Velasco_Ibarra"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Beji_Caid_Essebsi"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-24",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ksgleditsch.com",
+  "host": "ksgleditsch.com"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2017-10-04-1",
+ "title": "Four decades of U.S. air quality",
+ "hook": "The Environmental Protection Agency collects air quality samples from thousands of monitoring stations across the country. The resulting datasets, which go back to the 1980s, are available as daily files, annual files, and via an API.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/outdoor-air-quality-data/download-daily-data"
+  },
+  {
+   "name": "aqs.epa.gov",
+   "url": "https://aqs.epa.gov/aqsweb/airdata/download_files.html"
+  },
+  {
+   "name": "aqs.epa.gov",
+   "url": "https://aqs.epa.gov/aqsweb/documents/data_mart_welcome.html"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-03-22-edition"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-06-15-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-10-04",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-10-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "epa.gov",
+  "host": "epa.gov"
+ }
+}

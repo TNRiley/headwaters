@@ -1,0 +1,49 @@
+{
+ "id": "dip-2016-08-10-2",
+ "title": "U.S. slave populations, 1790–1860",
+ "hook": "For more than a century, the U.S. Census collected slave population figures. An assistant professor at George Mason University has aggregated that data, and mapped it.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "lincolnmullen.com",
+   "url": "http://lincolnmullen.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/lmullen/slavery-map/blob/master/census.csv"
+  },
+  {
+   "name": "lincolnmullen.com",
+   "url": "http://lincolnmullen.com/projects/slavery/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-12-30-edition"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-01-20-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-10",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lincolnmullen.com",
+  "host": "lincolnmullen.com"
+ }
+}

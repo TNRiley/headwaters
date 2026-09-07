@@ -1,0 +1,58 @@
+{
+ "id": "dip-2017-10-04-4",
+ "title": "Privately owned public spaces",
+ "hook": "In certain cities, private developers can earn zoning concessions by converting sections of their properties into plazas, atriums, mini-parks, and other open-to-the-public spaces.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Privately_owned_public_space"
+  },
+  {
+   "name": "sfgov.org",
+   "url": "https://data.sfgov.org/Culture-and-Recreation/Privately-Owned-Public-Open-Spaces/65ik-7wqd"
+  },
+  {
+   "name": "seattle.gov",
+   "url": "https://data.seattle.gov/Community/Privately-Owned-Public-Spaces-Map/52gz-md6f"
+  },
+  {
+   "name": "nycopendata.socrata.com",
+   "url": "https://nycopendata.socrata.com/Housing-Development/Privately-Owned-Public-Spaces/fum3-ejky"
+  },
+  {
+   "name": "london.gov.uk",
+   "url": "https://data.london.gov.uk/dataset/privately-owned-public-spaces"
+  },
+  {
+   "name": "apops.mas.org",
+   "url": "https://apops.mas.org/find-a-pops/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/cities/2017/jul/24/pseudo-public-space-explore-data-what-missing"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-10-04",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-10-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2021-06-30-5",
+ "title": "The cat’s meow",
+ "hook": "For a 2019 study, University of Milan researchers collected and analyzed 440 recordings of “meows emitted by cats in different contexts”: when brushed by their owners, when isolated in an unfamiliar environment, and when waiting for food. [h/t Duncan Geere]",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "mdpi.com",
+   "url": "https://www.mdpi.com/2076-2615/9/8/543/htm"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/4008297"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-30",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mdpi.com",
+  "host": "mdpi.com"
+ }
+}

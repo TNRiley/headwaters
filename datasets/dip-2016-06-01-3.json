@@ -1,0 +1,42 @@
+{
+ "id": "dip-2016-06-01-3",
+ "title": "Income inequality, country-by-country",
+ "hook": "The United Nations University’s World Income Inequality Database contains historical Gini coefficients for more than 170 countries — in some instances stretching back to the 1930s or ‘40s.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work",
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "wider.unu.edu",
+   "url": "https://www.wider.unu.edu/project/wiid-%E2%80%93-world-income-inequality-database"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Gini_coefficient"
+  },
+  {
+   "name": "wider.unu.edu",
+   "url": "https://www.wider.unu.edu/download/WIID3.3"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-01",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wider.unu.edu",
+  "host": "wider.unu.edu"
+ }
+}

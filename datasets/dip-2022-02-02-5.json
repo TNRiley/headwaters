@@ -1,0 +1,49 @@
+{
+ "id": "dip-2022-02-02-5",
+ "title": "Borrowed words",
+ "hook": "The World Loanword Database, a project from the Max Planck Institute for Evolutionary Anthropology, examines how languages have borrowed words from each other.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "wold.clld.org",
+   "url": "https://wold.clld.org/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Max_Planck_Institute_for_Evolutionary_Anthropology"
+  },
+  {
+   "name": "wold.clld.org",
+   "url": "https://wold.clld.org/terms"
+  },
+  {
+   "name": "wals.info",
+   "url": "https://wals.info/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-01-06-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-02-02",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-02-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wold.clld.org",
+  "host": "wold.clld.org"
+ }
+}

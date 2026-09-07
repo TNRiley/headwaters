@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-12-11-2",
+ "title": "Environmental treaties",
+ "hook": "The International Environmental Agreements Database Project describes more than 3,700 “international environmental treaties, conventions, and other agreements with links to text, membership, performance data, secretariat, and summary statistics.” The database, hosted at the University of Oregon, includes agreements from the 1850s to the present and can be queried online.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "iea.uoregon.edu",
+   "url": "https://iea.uoregon.edu/"
+  },
+  {
+   "name": "iea.uoregon.edu",
+   "url": "https://iea.uoregon.edu/iea-project-contents"
+  },
+  {
+   "name": "iea.uoregon.edu",
+   "url": "https://iea.uoregon.edu/base-agreement-list"
+  },
+  {
+   "name": "iea.uoregon.edu",
+   "url": "https://iea.uoregon.edu/membership-long-form/5046"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-11",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "iea.uoregon.edu",
+  "host": "iea.uoregon.edu"
+ }
+}

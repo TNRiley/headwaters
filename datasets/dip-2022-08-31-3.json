@@ -1,0 +1,43 @@
+{
+ "id": "dip-2022-08-31-3",
+ "title": "Attempted repairs",
+ "hook": "The Open Repair Alliance, “an international group of organisations committed to working towards a world where electrical and electronic products are more durable and easier to repair,” is developing an open standard for sharing data about those repairs. So far, they’ve gathered 62,000+ records from five partners.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "openrepair.org",
+   "url": "https://openrepair.org/"
+  },
+  {
+   "name": "openrepair.org",
+   "url": "https://openrepair.org/open-data/open-standard/"
+  },
+  {
+   "name": "openrepair.org",
+   "url": "https://openrepair.org/open-data/downloads/"
+  },
+  {
+   "name": "standard.openrepair.org",
+   "url": "https://standard.openrepair.org/standard.html#product-category-values"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-31",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openrepair.org",
+  "host": "openrepair.org"
+ }
+}

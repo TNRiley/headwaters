@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-11-13-2",
+ "title": "Online news language, updated live",
+ "hook": "The GDELT Project’s Web News Ngram dataset keeps track the frequency individual words and two-word in online news around the world. The dataset incorporates news sources in 142 languages and provides overall word counts for every 15-minute window since January 1, 2019.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "gdeltproject.org",
+   "url": "https://www.gdeltproject.org/"
+  },
+  {
+   "name": "blog.gdeltproject.org",
+   "url": "https://blog.gdeltproject.org/announcing-the-web-news-ngram-datasets-web-ngram/"
+  },
+  {
+   "name": "blog.gdeltproject.org",
+   "url": "https://blog.gdeltproject.org/the-languages-of-the-new-web-news-ngram-datasets-web-ngram/"
+  },
+  {
+   "name": "blog.gdeltproject.org",
+   "url": "https://blog.gdeltproject.org/announcing-the-web-ngram-character-ngram-datasets/"
+  },
+  {
+   "name": "blog.gdeltproject.org",
+   "url": "https://blog.gdeltproject.org/announcing-the-television-news-ngram-datasets-tv-ngram/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-08-21-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-11-13",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-11-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gdeltproject.org",
+  "host": "gdeltproject.org"
+ }
+}

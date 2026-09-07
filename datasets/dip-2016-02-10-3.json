@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-02-10-3",
+ "title": "Organ transplants",
+ "hook": "The Organ Procurement and Transplantation Network, a public-private partnership, keeps records of organ donations, transplants, and waiting lists in the United States. The website’s “advanced” data tool lets you generate fairly detailed custom reports. One hitch: The site doesn’t provide an option to download the data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "optn.transplant.hrsa.gov",
+   "url": "https://optn.transplant.hrsa.gov/"
+  },
+  {
+   "name": "optn.transplant.hrsa.gov",
+   "url": "https://optn.transplant.hrsa.gov/converge/latestData/viewDataReports.asp"
+  },
+  {
+   "name": "optn.transplant.hrsa.gov",
+   "url": "https://optn.transplant.hrsa.gov/converge/latestData/advancedData.asp"
+  },
+  {
+   "name": "gist.github.com",
+   "url": "https://gist.github.com/jsvine/6ed721172a7f5019332b"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-10",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "optn.transplant.hrsa.gov",
+  "host": "optn.transplant.hrsa.gov"
+ }
+}

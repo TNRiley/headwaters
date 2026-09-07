@@ -1,0 +1,58 @@
+{
+ "id": "dip-2021-04-21-1",
+ "title": "Domestic terrorism",
+ "hook": "The Center for Strategic and International Studies has analyzed data on 980 domestic terrorism plots and attacks in the US from 1994 through January 2021, categorizing them as “violent far-right,” “violent far-left,” “religious,” “ethnonationalist,” or “other.” (The project’s methodology provides further details.) The…",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "csis.org",
+   "url": "https://www.csis.org/programs/about-us"
+  },
+  {
+   "name": "csis.org",
+   "url": "https://www.csis.org/analysis/military-police-and-rise-terrorism-united-states"
+  },
+  {
+   "name": "csis-website-prod.s3.amazonaws.com",
+   "url": "https://csis-website-prod.s3.amazonaws.com/s3fs-public/publication/210412_Jones_Methodology.pdf"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/wpinvestigative/csis_domestic_terrorism"
+  },
+  {
+   "name": "start.umd.edu",
+   "url": "http://www.start.umd.edu/gtd/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-02-07-edition/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/investigations/interactive/2021/domestic-terrorism-data/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-21",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "csis.org",
+  "host": "csis.org"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "dip-2017-08-09-1",
+ "title": "Nutrition facts",
+ "hook": "The USDA National Nutrient Database for Standard Reference is the primary source for most of the food nutrition facts you see in America.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ars.usda.gov",
+   "url": "https://www.ars.usda.gov/northeast-area/beltsville-md/beltsville-human-nutrition-research-center/nutrient-data-laboratory/docs/usda-national-nutrient-database-for-standard-reference/"
+  },
+  {
+   "name": "ndb.nal.usda.gov",
+   "url": "https://ndb.nal.usda.gov/ndb/foods/show/2428"
+  },
+  {
+   "name": "ndb.nal.usda.gov",
+   "url": "https://ndb.nal.usda.gov/ndb/foods/show/469"
+  },
+  {
+   "name": "canada.ca",
+   "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/nutrient-data/canadian-nutrient-file-2015-download-files.html"
+  },
+  {
+   "name": "canada.ca",
+   "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/healthy-eating/nutrient-data/canadian-nutrient-file-compilation-canadian-food-composition-data-users-guide-2010.html"
+  },
+  {
+   "name": "food-nutrition.canada.ca",
+   "url": "https://food-nutrition.canada.ca/cnf-fce/serving-portion.do?id=6772"
+  },
+  {
+   "name": "food-nutrition.canada.ca",
+   "url": "https://food-nutrition.canada.ca/cnf-fce/serving-portion.do?id=5933"
+  },
+  {
+   "name": "www.gov.uk",
+   "url": "https://www.gov.uk/government/publications/composition-of-foods-integrated-dataset-cofid"
+  },
+  {
+   "name": "fao.org",
+   "url": "http://www.fao.org/infoods/infoods/tables-and-databases/en/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-09",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ars.usda.gov",
+  "host": "ars.usda.gov"
+ }
+}

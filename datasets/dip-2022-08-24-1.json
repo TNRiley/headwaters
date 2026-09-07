@@ -1,0 +1,65 @@
+{
+ "id": "dip-2022-08-24-1",
+ "title": "Beneficial owners",
+ "hook": "Open Ownership, a nonprofit aiming to improve “transparency over who owns and controls companies,” works directly with countries to implement reforms and has developed a standard format for publishing such information.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "openownership.org",
+   "url": "https://www.openownership.org/"
+  },
+  {
+   "name": "openownership.org",
+   "url": "https://www.openownership.org/en/about/what-we-do/"
+  },
+  {
+   "name": "openownership.org",
+   "url": "https://www.openownership.org/en/map/"
+  },
+  {
+   "name": "standard.openownership.org",
+   "url": "https://standard.openownership.org/"
+  },
+  {
+   "name": "register.openownership.org",
+   "url": "https://register.openownership.org/"
+  },
+  {
+   "name": "standard.openownership.org",
+   "url": "https://standard.openownership.org/en/latest/primer/whatisbo.html"
+  },
+  {
+   "name": "register.openownership.org",
+   "url": "https://register.openownership.org/data_sources"
+  },
+  {
+   "name": "register.openownership.org",
+   "url": "https://register.openownership.org/download"
+  },
+  {
+   "name": "bods-data.openownership.org",
+   "url": "https://bods-data.openownership.org/source/register"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-24",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openownership.org",
+  "host": "openownership.org"
+ }
+}

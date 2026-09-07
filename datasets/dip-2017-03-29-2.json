@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-03-29-2",
+ "title": "Food surveillance",
+ "hook": "Late last year, the FDA began publishing a dataset of ”adverse events” that have been reported to its Center for Food Safety and Applied Nutrition. The database currently covers January 2004 through December 2016, and includes reports of (suspected) bad reactions to foods, dietary supplements, and cosmetics.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "blogs.fda.gov",
+   "url": "https://blogs.fda.gov/fdavoice/index.php/2016/12/why-fda-is-making-data-extracted-from-reports-of-adverse-events-for-foods-and-cosmetics-available-to-the-public/"
+  },
+  {
+   "name": "fda.gov",
+   "url": "https://www.fda.gov/Food/ComplianceEnforcement/ucm494015.htm"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-05-18-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-29",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "blogs.fda.gov",
+  "host": "blogs.fda.gov"
+ }
+}

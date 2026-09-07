@@ -1,0 +1,35 @@
+{
+ "id": "dip-2016-11-30-2",
+ "title": "Gunshot detections",
+ "hook": "Earlier this month, Forbes published an examination of ShotSpotter, a company that uses networks of outdoor microphones to detect and locate gunshot-like sounds.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "forbes.com",
+   "url": "http://www.forbes.com/sites/mattdrange/2016/11/17/shotspotter-struggles-to-prove-impact-as-silicon-valley-answer-to-gun-violence/"
+  },
+  {
+   "name": "forbes.com",
+   "url": "http://www.forbes.com/sites/mattdrange/2016/11/17/shotspotter-alerts-police-to-lots-of-gunfire-but-produces-few-tangible-results"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-11-30",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-11-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "forbes.com",
+  "host": "forbes.com"
+ }
+}

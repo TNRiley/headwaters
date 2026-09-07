@@ -1,0 +1,53 @@
+{
+ "id": "dip-2016-04-27-1",
+ "title": "FOIA, four ways",
+ "hook": "On Saturday, BuzzFeed hosted a FOIA data hackathon. Participants used datasets — from MuckRock, FOIA Machine, FOIA Mapper, and FOIA.gov — to analyze federal, state, and local responsiveness to public records requests.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/FOIA-data-hackathon/Planning/wiki"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/FOIA-data-hackathon/Planning/wiki/Datasets"
+  },
+  {
+   "name": "muckrock.com",
+   "url": "https://www.muckrock.com/news/archives/2016/apr/16/join-muckrock-and-buzzfeed-hack-foia-april-23rd/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/cirlabs/foiamachine/tree/master/stats"
+  },
+  {
+   "name": "foiamapper.com",
+   "url": "https://foiamapper.com/foia-downloads/"
+  },
+  {
+   "name": "foia.gov",
+   "url": "http://www.foia.gov/data.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-27",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-08-17-1",
+ "title": "Recessions and expansions",
+ "hook": "The US has no official definition of a recession, but many observers look to the non-governmental National Bureau of Economic Research, whose Business Cycle Dating Committee tries to determine “the dates of peaks and troughs that frame economic recessions and expansions.” The committee publishes a table and data files listing those dates for dozens of cycles since the mid-1800s.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nber.org",
+   "url": "https://www.nber.org/about-nber"
+  },
+  {
+   "name": "nber.org",
+   "url": "https://www.nber.org/research/business-cycle-dating"
+  },
+  {
+   "name": "nber.org",
+   "url": "https://www.nber.org/research/data/us-business-cycle-expansions-and-contractions"
+  },
+  {
+   "name": "nber.org",
+   "url": "https://www.nber.org/research/business-cycle-dating/business-cycle-dating-procedure-frequently-asked-questions"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-17",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nber.org",
+  "host": "nber.org"
+ }
+}

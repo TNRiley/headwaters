@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-01-11-1",
+ "title": "Automobile recalls",
+ "hook": "In the US, the National Highway Traffic Safety Administration oversees all recalls of vehicles, tires, child safety seats, and other auto equipment. Through the agency’s recall portal, you can search by vehicle identification number, make, model, and year; for other types of recalls, you can search by brand and model.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nhtsa.gov",
+   "url": "https://www.nhtsa.gov/"
+  },
+  {
+   "name": "nhtsa.gov",
+   "url": "https://www.nhtsa.gov/recalls"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Vehicle_identification_number"
+  },
+  {
+   "name": "datahub.transportation.gov",
+   "url": "https://datahub.transportation.gov/Automobiles/Recalls-Data/6axg-epim"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-11",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nhtsa.gov",
+  "host": "nhtsa.gov"
+ }
+}

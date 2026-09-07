@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-03-01-4",
+ "title": "20th-century occupations",
+ "hook": "Between 1939 and 1991, the US government published several iterations of the now-discontinued Dictionary of Occupational Titles, a precursor to the O*NET database (DIP 2017.09.27). The dictionaries included job descriptions, classification codes, and cross-references, but are mostly available only as scans.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "oalj.dol.gov",
+   "url": "https://www.oalj.dol.gov/PUBLIC/DOT/REFERENCES/DOTINTRO.HTM"
+  },
+  {
+   "name": "onetcenter.org",
+   "url": "https://www.onetcenter.org/database.html"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2017-09-27-edition/"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2204.07073"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DQW8IP"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-01",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "oalj.dol.gov",
+  "host": "oalj.dol.gov"
+ }
+}

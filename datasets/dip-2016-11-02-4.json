@@ -1,0 +1,47 @@
+{
+ "id": "dip-2016-11-02-4",
+ "title": "Millions of Amazon reviews",
+ "hook": "Julian McAuley, an assistant professor at UC San Diego, has collected a massive amount of user-generated data from Amazon.com, including 142.8 million reviews and 1.4 million answered Q&amp;As. (As of mid-2014, Sophie la Girafe was the most-reviewed item in the baby category.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "cseweb.ucsd.edu",
+   "url": "http://cseweb.ucsd.edu/~jmcauley/"
+  },
+  {
+   "name": "jmcauley.ucsd.edu",
+   "url": "http://jmcauley.ucsd.edu/data/amazon/"
+  },
+  {
+   "name": "jmcauley.ucsd.edu",
+   "url": "http://jmcauley.ucsd.edu/data/amazon/qa/"
+  },
+  {
+   "name": "amazon.com",
+   "url": "https://www.amazon.com/dp/B000IDSLOG"
+  },
+  {
+   "name": "slate.com",
+   "url": "http://www.slate.com/articles/arts/number_1/2011/03/im_french_chew_on_me.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-11-02",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-11-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cseweb.ucsd.edu",
+  "host": "cseweb.ucsd.edu"
+ }
+}

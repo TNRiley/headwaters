@@ -1,0 +1,38 @@
+{
+ "id": "dip-2019-02-06-2",
+ "title": "Cabinet turnover",
+ "hook": "For a recent analysis of Trump administration turnover, FiveThirtyEight compiled a dataset of the last seven presidents’ cabinets — covering the 24 positions included in Donald Trump’s cabinet.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "journalism",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/cabinet-turnover"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/two-years-in-turnover-in-trumps-cabinet-is-still-historically-high/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-02-06",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-02-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

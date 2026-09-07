@@ -1,0 +1,77 @@
+{
+ "id": "dip-2024-09-11-3",
+ "title": "Source code",
+ "hook": "Software Heritage, a nonprofit initiative collaborating with UNESCO, maintains “the largest public collection of source code in existence”: an archive tracking 20 billion source files and 4 billion code-commits from 317 million projects from a range of public software hosts (GitHub, GitLab, BitBucket, npm, et cetera).",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "softwareheritage.org",
+   "url": "https://www.softwareheritage.org/"
+  },
+  {
+   "name": "web.archive.org",
+   "url": "https://web.archive.org/web/20230722080603/https://en.unesco.org/softwareheritage"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/UNESCO"
+  },
+  {
+   "name": "softwareheritage.org",
+   "url": "https://www.softwareheritage.org/faq/"
+  },
+  {
+   "name": "archive.softwareheritage.org",
+   "url": "https://archive.softwareheritage.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/"
+  },
+  {
+   "name": "gitlab.com",
+   "url": "https://gitlab.com/"
+  },
+  {
+   "name": "bitbucket.org",
+   "url": "https://bitbucket.org/"
+  },
+  {
+   "name": "npmjs.com",
+   "url": "https://www.npmjs.com/"
+  },
+  {
+   "name": "softwareheritage.org",
+   "url": "https://docs.softwareheritage.org/devel/swh-dataset/graph/index.html#swh-graph-dataset"
+  },
+  {
+   "name": "aws.amazon.com",
+   "url": "https://aws.amazon.com/marketplace/pp/prodview-ctizzjwytj4sk#overview"
+  },
+  {
+   "name": "archive.softwareheritage.org",
+   "url": "https://archive.softwareheritage.org/api/#endpoint-index"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-09-11",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-09-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "softwareheritage.org",
+  "host": "softwareheritage.org"
+ }
+}

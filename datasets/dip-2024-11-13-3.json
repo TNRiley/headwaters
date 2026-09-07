@@ -1,0 +1,45 @@
+{
+ "id": "dip-2024-11-13-3",
+ "title": "Substance abuse treatment",
+ "hook": "The Substance Abuse and Mental Health Services Administration’s Treatment Episode Data Set records admissions to, and discharges from, substance abuse centers in the US. The public-use datasets, which span several decades, are based on records collected by state agencies.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "samhsa.gov",
+   "url": "https://www.samhsa.gov/"
+  },
+  {
+   "name": "samhsa.gov",
+   "url": "https://www.samhsa.gov/data/data-we-collect/teds-treatment-episode-data-set"
+  },
+  {
+   "name": "samhsa.gov",
+   "url": "https://www.samhsa.gov/data/data-we-collect/teds/datafiles"
+  },
+  {
+   "name": "samhsa.gov",
+   "url": "https://www.samhsa.gov/data/data-we-collect/n-ssats-national-survey-substance-abuse-treatment-services"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-11-13",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-11-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "samhsa.gov",
+  "host": "samhsa.gov"
+ }
+}

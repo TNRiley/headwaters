@@ -1,0 +1,61 @@
+{
+ "id": "dip-2020-12-02-5",
+ "title": "Integer sequences",
+ "hook": "The decades-old, frequently-updated, and downloadable On-Line Encyclopedia of Integer Sequences contains more than 338,000 lists of those things.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "oeis.org",
+   "url": "https://oeis.org/wiki/Welcome#OEIS:_Brief_History"
+  },
+  {
+   "name": "oeis.org",
+   "url": "https://oeis.org/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Integer_sequence"
+  },
+  {
+   "name": "oeis.org",
+   "url": "https://oeis.org/A000045"
+  },
+  {
+   "name": "oeis.org",
+   "url": "https://oeis.org/A007456"
+  },
+  {
+   "name": "oeis.org",
+   "url": "https://oeis.org/A056561"
+  },
+  {
+   "name": "xkcd.com",
+   "url": "https://xkcd.com/2016/"
+  },
+  {
+   "name": "oeis.org",
+   "url": "https://oeis.org/A316600"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-02",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "oeis.org",
+  "host": "oeis.org"
+ }
+}

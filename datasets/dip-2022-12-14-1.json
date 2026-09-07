@@ -1,0 +1,50 @@
+{
+ "id": "dip-2022-12-14-1",
+ "title": "Flu trends",
+ "hook": "The CDC’s Influenza Division collaborates with state and local health departments, hospitals, laboratories, and other partners to keep tabs on flu trends. Its Weekly U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/flu/weekly/overview.htm"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/flu/weekly/index.htm"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/flu/weekly/fluviewinteractive.htm"
+  },
+  {
+   "name": "gis.cdc.gov",
+   "url": "https://gis.cdc.gov/grasp/fluview/fluportaldashboard.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "vox.com",
+   "url": "https://www.vox.com/2022/12/6/23494948/flu-influenza-rsv-covid-vaccine-chart-tripledemic-tridemic"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-12-14",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-12-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

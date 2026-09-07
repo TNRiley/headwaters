@@ -1,0 +1,35 @@
+{
+ "id": "dip-2020-04-22-3",
+ "title": "Chemical weapons attacks in Syria",
+ "hook": "“Building on years of painstaking work alongside our Syrian and international partners,” the Global Public Policy Institute “has compiled the most comprehensive dataset of incidents of chemical weapons use in Syria to date.” The institute has published a new interactive data portal to display the data on 345 attacks between 2012 and 2019.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "chemicalweapons.gppi.net",
+   "url": "https://chemicalweapons.gppi.net/"
+  },
+  {
+   "name": "chemicalweapons.gppi.net",
+   "url": "https://chemicalweapons.gppi.net/data-portal/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-22",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "chemicalweapons.gppi.net",
+  "host": "chemicalweapons.gppi.net"
+ }
+}

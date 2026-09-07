@@ -1,0 +1,81 @@
+{
+ "id": "dip-2023-07-26-5",
+ "title": "Comedians, challenged",
+ "hook": "At TaskMaster.Info, Karl Craven is “obsessively documenting the international Taskmaster franchise,” which began as a British game show on which comedians compete to win challenges such as watermelon speed-eating and high-fiving strangers.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "taskmaster.info",
+   "url": "https://taskmaster.info/"
+  },
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/in/kandrewcraven/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Taskmaster_(TV_series)"
+  },
+  {
+   "name": "taskmaster.info",
+   "url": "https://taskmaster.info/task.php?id=2"
+  },
+  {
+   "name": "taskmaster.info",
+   "url": "https://taskmaster.info/task.php?id=8"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/user/Alohamori/"
+  },
+  {
+   "name": "prettygr.im",
+   "url": "https://prettygr.im/tdlm/sources"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/taskmaster/comments/13zb9nl/i_put_together_a_ridiculously_comprehensive/"
+  },
+  {
+   "name": "prettygr.im",
+   "url": "https://prettygr.im/tdlm/taskmaster"
+  },
+  {
+   "name": "prettygr.im",
+   "url": "https://prettygr.im/tdlm/taskmaster/measurements?_sort=measurement&objective.target__exact=least&measurement__notnull=1&objective.unit__exact=time"
+  },
+  {
+   "name": "prettygr.im",
+   "url": "https://prettygr.im/tdlm/taskmaster/tasks?points=0"
+  },
+  {
+   "name": "prettygr.im",
+   "url": "https://prettygr.im/tdlm/taskmaster/episode_scores?rank=1%3D&_sort_desc=episode"
+  },
+  {
+   "name": "youtube.com",
+   "url": "https://www.youtube.com/channel/UCT5C7yaO3RVuOgwP8JVAujQ"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-07-26",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-07-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "taskmaster.info",
+  "host": "taskmaster.info"
+ }
+}

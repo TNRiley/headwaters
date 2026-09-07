@@ -1,0 +1,31 @@
+{
+ "id": "dip-2018-10-03-5",
+ "title": "Florida’s billboards",
+ "hook": "The Florida Department of Transportation publishes its inventory of active permits for billboards and other “outdoor advertising.” For each permit, the dataset provides details about the permit-holder and the structure itself — such as its location, height, whether it’s in a city, and more. [h/t Caitlin Ostroff]",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "other",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fdotewp1.dot.state.fl.us",
+   "url": "http://fdotewp1.dot.state.fl.us/rightofway/DownloadData.aspx"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-10-03",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-10-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fdotewp1.dot.state.fl.us",
+  "host": "fdotewp1.dot.state.fl.us"
+ }
+}

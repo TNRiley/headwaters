@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-02-15-4",
+ "title": "Mood swings",
+ "hook": "From the Journal of Open Psychology Data: “We present a dataset of a single (N=1) participant diagnosed with major depressive disorder, who completed 1,478 measurements over the course of 239 consecutive days in 2012 and 2013.” The “participant” happens to be one of the study’s authors — Peter C.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "openpsychologydata.metajnl.com",
+   "url": "http://openpsychologydata.metajnl.com/articles/10.5334/jopd.29/"
+  },
+  {
+   "name": "osf.io",
+   "url": "https://osf.io/j4fg8/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-02-15",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-02-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openpsychologydata.metajnl.com",
+  "host": "openpsychologydata.metajnl.com"
+ }
+}

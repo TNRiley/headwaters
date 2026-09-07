@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-12-18-5",
+ "title": "Boo!",
+ "hook": "Where’s The Jump aims “to provide a comprehensive listing of the jump scares in horror and thriller movies.” The website doesn’t provide data downloads, but its list of 540+ movies — with year of release, “jump count,” “jump scare rating,” availability on Netflix, and more — can be copy-pasted into a spreadsheet.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "wheresthejump.com",
+   "url": "https://wheresthejump.com/"
+  },
+  {
+   "name": "wheresthejump.com",
+   "url": "https://wheresthejump.com/full-movie-list/"
+  },
+  {
+   "name": "wheresthejump.com",
+   "url": "https://wheresthejump.com/the-lazy-directors-guide-to-jump-scares/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-18",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wheresthejump.com",
+  "host": "wheresthejump.com"
+ }
+}

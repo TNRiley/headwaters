@@ -1,0 +1,70 @@
+{
+ "id": "dip-2020-04-01-1",
+ "title": "Subnational COVID-19 case counts",
+ "hook": "The New York Times is conducting “a round-the-clock effort to tally every known coronavirus case in the United States,” and has begun publishing a dataset of county-level cases and deaths.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/nytimes/covid-19-data"
+  },
+  {
+   "name": "data.gouv.fr",
+   "url": "https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/opencovid19-fr/data"
+  },
+  {
+   "name": "experience.arcgis.com",
+   "url": "https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4/page/page_1/"
+  },
+  {
+   "name": "gehrcke.de",
+   "url": "https://gehrcke.de/about/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jgehrcke/covid-19-germany-gae"
+  },
+  {
+   "name": "covid19.isciii.es",
+   "url": "https://covid19.isciii.es/"
+  },
+  {
+   "name": "datadista.com",
+   "url": "https://datadista.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/datadista/datasets/tree/master/COVID%2019"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/article/coronavirus-county-data-us.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-01",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

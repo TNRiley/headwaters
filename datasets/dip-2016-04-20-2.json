@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-04-20-2",
+ "title": "The American consumer",
+ "hook": "Last week, the Bureau of Labor Statistics published its midyear update to the Consumer Expenditure Survey. The survey collects data on spending, income, and a handful of characteristics about U.S. consumers.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "bls.gov",
+   "url": "http://www.bls.gov/cex/midyear.htm"
+  },
+  {
+   "name": "bls.gov",
+   "url": "http://www.bls.gov/cex/home.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-20",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BLS",
+  "host": "bls.gov"
+ }
+}

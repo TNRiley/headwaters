@@ -1,0 +1,51 @@
+{
+ "id": "dip-2018-08-01-5",
+ "title": "Public restrooms",
+ "hook": "There are many official datasets of public toilets, including those in New York City parks, Vancouver, Seattle parks, many UK cities, Australia, and New Zealand. [h/t Jens von Bergmann]",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/Recreation/Directory-Of-Toilets-In-Public-Parks/hjae-yuav"
+  },
+  {
+   "name": "vancouver.ca",
+   "url": "https://data.vancouver.ca/datacatalogue/public-washrooms.htm"
+  },
+  {
+   "name": "seattle.gov",
+   "url": "https://data.seattle.gov/Parks-and-Recreation/Seattle-Parks-and-Recreation-GIS-Map-Layer-Shapefi/dfsk-abyq"
+  },
+  {
+   "name": "data.gov.uk",
+   "url": "https://data.gov.uk/search?q=toilets"
+  },
+  {
+   "name": "data.gov.au",
+   "url": "https://data.gov.au/dataset/national-public-toilet-map"
+  },
+  {
+   "name": "catalogue.data.govt.nz",
+   "url": "https://catalogue.data.govt.nz/dataset/public-toilets2"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-08-01",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-08-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Squirrel Census",
+  "host": "cityofnewyork.us"
+ }
+}

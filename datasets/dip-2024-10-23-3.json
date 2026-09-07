@@ -1,0 +1,41 @@
+{
+ "id": "dip-2024-10-23-3",
+ "title": "The cost of sustenance",
+ "hook": "The UN World Food Programme’s Fill the Nutrient Gap initiative conducted a series of analyses in 2015 through 2021 to “calculate the costs of energy-sufficient and nutrient-adequate diets and the percentage of households that were unable to afford each diet.” In a recent paper, Zuzanna Turowska et al.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/World_Food_Programme"
+  },
+  {
+   "name": "wfp.org",
+   "url": "https://www.wfp.org/publications/fill-nutrient-gap"
+  },
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2211912424000609"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-10-23",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-10-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

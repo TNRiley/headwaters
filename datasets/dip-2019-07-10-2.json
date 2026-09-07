@@ -1,0 +1,57 @@
+{
+ "id": "dip-2019-07-10-2",
+ "title": "Internet censorship tests",
+ "hook": "The Open Observatory of Network Interference, run by the Tor Project, “collects and processes network measurements with the aim of detecting network anomalies, such as censorship, surveillance and traffic manipulation.” You can volunteer to run OONI’s tests from your computer or phone; so far, “millions of network…",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "explorer.ooni.io",
+   "url": "https://explorer.ooni.io/about/"
+  },
+  {
+   "name": "torproject.org",
+   "url": "https://www.torproject.org/"
+  },
+  {
+   "name": "ooni.torproject.org",
+   "url": "https://ooni.torproject.org/nettest/"
+  },
+  {
+   "name": "explorer.ooni.io",
+   "url": "https://explorer.ooni.io/world/"
+  },
+  {
+   "name": "ooni.torproject.org",
+   "url": "https://ooni.torproject.org/post/mining-ooni-data/"
+  },
+  {
+   "name": "ooni.io",
+   "url": "https://api.ooni.io/"
+  },
+  {
+   "name": "ooni.torproject.org",
+   "url": "https://ooni.torproject.org/post/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-10",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "explorer.ooni.io",
+  "host": "explorer.ooni.io"
+ }
+}

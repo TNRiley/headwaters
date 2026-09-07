@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-01-27-2",
+ "title": "Cancer statistics",
+ "hook": "Earlier this month, the American Cancer Society launched a new data dashboard. Metrics include estimated new cases, historical survival rates, and more. To download the corresponding spreadsheets, use the “tools” button on each page. [h/t Virginia Hughes]",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cancerstatisticscenter.cancer.org",
+   "url": "http://cancerstatisticscenter.cancer.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-01-27",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-01-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cancerstatisticscenter.cancer.org",
+  "host": "cancerstatisticscenter.cancer.org"
+ }
+}

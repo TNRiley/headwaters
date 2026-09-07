@@ -1,0 +1,35 @@
+{
+ "id": "dip-2016-06-08-3",
+ "title": "Local justice data",
+ "hook": "The Sunlight Foundation’s Hall of Justice brings together “nearly 10,000” criminal justice datasets and research documents from across the United States. You can search for topics and filter by geography, publisher, and accessibility (open, open-but-not-machine-readable, restricted access, et cetera.).",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "hallofjustice.sunlightfoundation.com",
+   "url": "http://hallofjustice.sunlightfoundation.com/"
+  },
+  {
+   "name": "sunlightfoundation.com",
+   "url": "http://sunlightfoundation.com/blog/2016/05/04/lessons-learned-from-a-year-of-opening-police-data/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-08",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "hallofjustice.sunlightfoundation.com",
+  "host": "hallofjustice.sunlightfoundation.com"
+ }
+}

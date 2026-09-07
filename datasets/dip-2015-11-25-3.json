@@ -1,0 +1,40 @@
+{
+ "id": "dip-2015-11-25-3",
+ "title": "1.7 billion Reddit comments",
+ "hook": "You can download every comment posted to Reddit since October 2007 … but you’ll need some patience and a terabyte of storage.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment/"
+  },
+  {
+   "name": "books.google.com",
+   "url": "https://books.google.com/ngrams"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.fivethirtyeight.com",
+   "url": "http://projects.fivethirtyeight.com/reddit-ngram/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-25",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "reddit.com",
+  "host": "reddit.com"
+ }
+}

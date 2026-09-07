@@ -1,0 +1,41 @@
+{
+ "id": "dip-2023-11-22-3",
+ "title": "Australian law",
+ "hook": "In a recent blog post, Umar Butler describes the process of building the Open Australian Legal Corpus, “from months-long negotiations with governments to reverse engineering ancient web technologies to hacking together a multitude of different solutions for extracting text from documents.” The corpus, “the largest open database of Australian law,” lists the text, type, jurisdiction, source, citation, and URL of 220,000+ documents.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "Australia",
+ "sources": [
+  {
+   "name": "umarbutler.com",
+   "url": "https://umarbutler.com/how-i-built-the-largest-open-database-of-australian-law/"
+  },
+  {
+   "name": "umarbutler.com",
+   "url": "https://umarbutler.com/"
+  },
+  {
+   "name": "huggingface.co",
+   "url": "https://huggingface.co/datasets/umarbutler/open-australian-legal-corpus"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-22",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "umarbutler.com",
+  "host": "umarbutler.com"
+ }
+}

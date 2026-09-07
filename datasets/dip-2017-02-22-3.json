@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-02-22-3",
+ "title": "Local UV exposure",
+ "hook": "The National Cancer Institute has estimated ultraviolet radiation exposure estimates for every county in the continental United States. The estimates, based on a peer-reviewed methodology and 30 years of data from the National Solar Radiation Data Base, can also be explored using the institute’s mapping tool.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "gis.cancer.gov",
+   "url": "https://gis.cancer.gov/tools/uv-exposure/"
+  },
+  {
+   "name": "researchgate.net",
+   "url": "https://www.researchgate.net/profile/Zaria_Tatalovich/publication/228942287_A_comparison_of_thiessen-polygon_kriging_and_spline_models_of_UV_exposure/links/56605c3b08aebae678aa0abf.pdf"
+  },
+  {
+   "name": "rredc.nrel.gov",
+   "url": "http://rredc.nrel.gov/solar/old_data/nsrdb/"
+  },
+  {
+   "name": "gis.cancer.gov",
+   "url": "https://gis.cancer.gov/geoviewer/app/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-02-22",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-02-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gis.cancer.gov",
+  "host": "gis.cancer.gov"
+ }
+}

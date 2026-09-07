@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-12-07-3",
+ "title": "Social media suppression",
+ "hook": "Researchers at Surfshark have been monitoring government-imposed social media shutdowns and restrictions, drawing on reports from NetBlocks, AccessNow (DIP 2021.11.03), news publications, and other sources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "surfshark.com",
+   "url": "https://surfshark.com/about-us"
+  },
+  {
+   "name": "surfshark.com",
+   "url": "https://surfshark.com/research/internet-censorship/social-media"
+  },
+  {
+   "name": "netblocks.org",
+   "url": "https://netblocks.org/"
+  },
+  {
+   "name": "accessnow.org",
+   "url": "https://www.accessnow.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-11-03-edition/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/122netE-cbusPi00GzXqfSvKPjFDxW_9LKeVfPqWyv04/edit#gid=1765756421"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-12-07",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-12-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "surfshark.com",
+  "host": "surfshark.com"
+ }
+}

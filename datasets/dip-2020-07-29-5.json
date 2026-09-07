@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-07-29-5",
+ "title": "Meteorite landings",
+ "hook": "The Meteoritical Society’s Meteoritical Bulletin Database “is a clearinghouse for basic information about each meteorite, including the classification, place and year of discovery, whether if was observed to fall, references to catalogues in which the meteorite is described, and known synonyms that may be encountered…",
+ "hook_source": "publisher",
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "meteoritical.org",
+   "url": "https://meteoritical.org/"
+  },
+  {
+   "name": "lpi.usra.edu",
+   "url": "https://www.lpi.usra.edu/meteor/"
+  },
+  {
+   "name": "nasa.gov",
+   "url": "https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-29",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "meteoritical.org",
+  "host": "meteoritical.org"
+ }
+}

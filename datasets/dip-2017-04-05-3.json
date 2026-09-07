@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-04-05-3",
+ "title": "Government bond ownership",
+ "hook": "Bruegel, “a European think tank that specialises in economics,” publishes a quarterly-updated dataset quantifying sovereign bond holdings for 12 countries: Belgium, Finland, France, Germany, Greece, Ireland, Italy, Netherlands, Portugal, Spain, the U.K., and the United States.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "bruegel.org",
+   "url": "http://bruegel.org/"
+  },
+  {
+   "name": "bruegel.org",
+   "url": "http://bruegel.org/publications/datasets/sovereign-bond-holdings/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-05",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bruegel.org",
+  "host": "bruegel.org"
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "dip-2020-12-09-5",
+ "title": "Bob Ross paintings",
+ "hook": "Data scientist Jared Wilber has built a dataset of all paintings in Bob Ross’s 31 seasons of “The Joy of Painting,” scraped from the searchable database at TwoInchBrush.com. For each painting, the dataset lists the title, season, episode, YouTube link, and list of colors used.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "jwilber.me",
+   "url": "https://www.jwilber.me"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jwilber/Bob_Ross_Paintings"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/The_Joy_of_Painting"
+  },
+  {
+   "name": "twoinchbrush.com",
+   "url": "https://www.twoinchbrush.com"
+  },
+  {
+   "name": "youtube.com",
+   "url": "https://www.youtube.com/watch?v=rDs3o1uLEdU"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/"
+  },
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-09",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "jwilber.me",
+  "host": "jwilber.me"
+ }
+}

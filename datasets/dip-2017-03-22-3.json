@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-03-22-3",
+ "title": "Indian state elections",
+ "hook": "Five states in India, representing nearly 250 million residents — Punjab, Uttar Pradesh, Uttarakhand, Goa, and Manipur — have already held legislative assembly elections this year. India’s Election Commission publishes these results, but only as webpages.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "eciresults.nic.in",
+   "url": "http://eciresults.nic.in/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Vizbi/state-elections"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-09-28-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-22",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "eciresults.nic.in",
+  "host": "eciresults.nic.in"
+ }
+}

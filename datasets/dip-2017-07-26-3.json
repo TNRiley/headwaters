@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-07-26-3",
+ "title": "Women running for the U.S. House",
+ "hook": "As the basis for his recent study, “Is Running Enough? Reconsidering the Conventional Wisdom about Women Candidates” (paywalled, but a draft is freely available), PhD candidate Peter Bucchianeri compiled a dataset of female candidates in House primary elections from 1972 to 2010.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "link.springer.com",
+   "url": "https://link.springer.com/article/10.1007/s11109-017-9407-7"
+  },
+  {
+   "name": "dropbox.com",
+   "url": "https://www.dropbox.com/s/l9p6mt9a4vgipxf/Bucchianeri%20-%20Is%20Running%20Enough.pdf?dl=0"
+  },
+  {
+   "name": "peterbucchianeri.com",
+   "url": "http://www.peterbucchianeri.com/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CFPBRI"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-07-26",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-07-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "link.springer.com",
+  "host": "link.springer.com"
+ }
+}

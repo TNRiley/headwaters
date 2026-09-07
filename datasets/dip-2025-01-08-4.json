@@ -1,0 +1,49 @@
+{
+ "id": "dip-2025-01-08-4",
+ "title": "NEA writing fellowships",
+ "hook": "A team led by English professor Alexander Manshel has compiled a dataset of every recipient of the National Endowment for the Arts’ fellowship for creative writing, “from the organization’s founding in 1965 to 2024, including information about those writers’ demographics, education, and geography.” The dataset, which…",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "mcgill.ca",
+   "url": "https://www.mcgill.ca/english/staff/alexander-manshel"
+  },
+  {
+   "name": "post45.org",
+   "url": "https://data.post45.org/posts/nea-creative-writing-fellowships/"
+  },
+  {
+   "name": "arts.gov",
+   "url": "https://www.arts.gov/grants/creative-writing-fellowships"
+  },
+  {
+   "name": "arts.gov",
+   "url": "https://www.arts.gov/grants/recent-grants/literature-fellowships"
+  },
+  {
+   "name": "arts.gov",
+   "url": "https://www.arts.gov/sites/default/files/NEA_lit.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-01-08",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-01-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mcgill.ca",
+  "host": "mcgill.ca"
+ }
+}

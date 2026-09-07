@@ -1,0 +1,46 @@
+{
+ "id": "dip-2017-01-11-2",
+ "title": "Getting warmer",
+ "hook": "Scientists expect that, when the final numbers come in, 2016 will have been Earth’s hottest year on record. The National Oceanic and Atmospheric Administration publishes monthly data on “temperature anomalies” — how much hotter or cooler a month was than the 20th century average.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ncdc.noaa.gov",
+   "url": "https://www.ncdc.noaa.gov/cag/time-series/global"
+  },
+  {
+   "name": "ncdc.noaa.gov",
+   "url": "https://www.ncdc.noaa.gov/sotc/national/201613"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "https://www.buzzfeed.com/peteraldhous/another-hottest-year"
+  },
+  {
+   "name": "buzzfeednews.github.io",
+   "url": "https://buzzfeednews.github.io/2016-12-warmest-year/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-01-11",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-01-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ncdc.noaa.gov",
+  "host": "ncdc.noaa.gov"
+ }
+}

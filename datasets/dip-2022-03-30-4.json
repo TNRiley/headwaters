@@ -1,0 +1,47 @@
+{
+ "id": "dip-2022-03-30-4",
+ "title": "Research organizations",
+ "hook": "The Research Organization Registry is “a community-led project to develop an open, sustainable, usable, and unique identifier for every research organization in the world.” Earlier this month, the project published its first “independent” release, expanding on data seeded from a prior initiative.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "ror.org",
+   "url": "https://ror.org/"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/6347575"
+  },
+  {
+   "name": "ror.org",
+   "url": "https://ror.org/blog/2022-03-17-2022-first-independent-release/"
+  },
+  {
+   "name": "digital-science.com",
+   "url": "https://www.digital-science.com/press-release/grid-passes-torch-to-ror/"
+  },
+  {
+   "name": "ror.readme.io",
+   "url": "https://ror.readme.io/docs/ror-data-structure"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-30",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ror.org",
+  "host": "ror.org"
+ }
+}

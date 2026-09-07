@@ -1,0 +1,35 @@
+{
+ "id": "dip-2019-07-17-2",
+ "title": "Two decades of UN Security Council debates",
+ "hook": "A group of researchers have collected, parsed, and added metadata to all UN Security Council debates from 1995 through 2017. The dataset includes more than 65,000 speeches (with information about each speaker), extracted from nearly 5,000 meeting transcripts. Related: The authors describe their methodology.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KGVSYH"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/1906.10969"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-17",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataverse.harvard.edu",
+  "host": "dataverse.harvard.edu"
+ }
+}

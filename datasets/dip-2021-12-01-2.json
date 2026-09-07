@@ -1,0 +1,61 @@
+{
+ "id": "dip-2021-12-01-2",
+ "title": "Personal income",
+ "hook": "The US Bureau of Economic Analysis has released its latest county-level estimates of personal income, which now cover 1969–2020. The per-capita numbers are also available by metropolitan statistical area, as well as disaggregated by income “component” (wages/salaries, income from assets, etc.) and industry.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "bea.gov",
+   "url": "https://www.bea.gov/news/2021/personal-income-county-and-metropolitan-area-2020"
+  },
+  {
+   "name": "bea.gov",
+   "url": "https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas"
+  },
+  {
+   "name": "census.gov",
+   "url": "https://www.census.gov/programs-surveys/metro-micro/about.html"
+  },
+  {
+   "name": "apps.bea.gov",
+   "url": "https://apps.bea.gov/regional/downloadzip.cfm"
+  },
+  {
+   "name": "apps.bea.gov",
+   "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
+  },
+  {
+   "name": "apps.bea.gov",
+   "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=99&step=1&acrdn=7"
+  },
+  {
+   "name": "inclusivewealth.eig.org",
+   "url": "https://inclusivewealth.eig.org/wealthmap/"
+  },
+  {
+   "name": "eig.org",
+   "url": "https://eig.org/about-us"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-01",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BEA",
+  "host": "bea.gov"
+ }
+}

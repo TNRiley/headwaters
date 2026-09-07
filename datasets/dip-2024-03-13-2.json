@@ -1,0 +1,47 @@
+{
+ "id": "dip-2024-03-13-2",
+ "title": "Materials and their properties",
+ "hook": "The Materials Project, led by scientists at Lawrence Berkeley National Lab, “is a multi-institution, multi-national effort to compute the properties of all inorganic materials” with the “ultimate goal” being “to drastically reduce the time needed to invent new materials.” Its online explorer and API currently provide information about 150,000+ materials.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "next-gen.materialsproject.org",
+   "url": "https://next-gen.materialsproject.org/"
+  },
+  {
+   "name": "next-gen.materialsproject.org",
+   "url": "https://next-gen.materialsproject.org/about/people"
+  },
+  {
+   "name": "next-gen.materialsproject.org",
+   "url": "https://next-gen.materialsproject.org/about"
+  },
+  {
+   "name": "next-gen.materialsproject.org",
+   "url": "https://next-gen.materialsproject.org/materials"
+  },
+  {
+   "name": "next-gen.materialsproject.org",
+   "url": "https://next-gen.materialsproject.org/api"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-03-13",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-03-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "next-gen.materialsproject.org",
+  "host": "next-gen.materialsproject.org"
+ }
+}

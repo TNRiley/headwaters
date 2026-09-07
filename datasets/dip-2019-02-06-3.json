@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-02-06-3",
+ "title": "Oklahoma prisoners",
+ "hook": "In the course of investigating why Oklahoma’s female incarceration rate is so high, The Frontier and the Center for Investigative Reporting obtained “a decade’s worth of state prison data never before analyzed by the state itself.” The data includes information about each prisoner, their prison sentences, and their entries and exits from Department of Corrections supervision.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "revealnews.org",
+   "url": "https://www.revealnews.org/article/let-down-and-locked-up-why-oklahomas-female-incarceration-is-so-high/"
+  },
+  {
+   "name": "readfrontier.org",
+   "url": "https://www.readfrontier.org/"
+  },
+  {
+   "name": "revealnews.org",
+   "url": "https://www.revealnews.org/"
+  },
+  {
+   "name": "revealnews.org",
+   "url": "https://www.revealnews.org/article/before-you-dive-into-oklahomas-prison-data-read-reveals-tips/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-02-06",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-02-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "revealnews.org",
+  "host": "revealnews.org"
+ }
+}

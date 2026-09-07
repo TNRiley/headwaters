@@ -1,0 +1,65 @@
+{
+ "id": "dip-2020-06-24-3",
+ "title": "The Gay Guides",
+ "hook": "Mapping the Gay Guides “aims to understand often ignored queer geographies using the Damron Address Books, an early but longstanding travel guide aimed at gay men since the early 1960s.” The project — launched earlier this year and led by historians Amanda Regan and Eric Gonzaba — includes an interactive map, downloadable dataset, methodology, and ethics statement.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "mappingthegayguides.org",
+   "url": "https://www.mappingthegayguides.org"
+  },
+  {
+   "name": "mappingthegayguides.org",
+   "url": "https://www.mappingthegayguides.org/2020/02/announcing-the-launch-of-mapping-the-gay-guides/"
+  },
+  {
+   "name": "mappingthegayguides.org",
+   "url": "https://mappingthegayguides.org/about/"
+  },
+  {
+   "name": "mappingthegayguides.org",
+   "url": "https://mappingthegayguides.org/regan/"
+  },
+  {
+   "name": "mappingthegayguides.org",
+   "url": "https://mappingthegayguides.org/gonzaba/"
+  },
+  {
+   "name": "mappingthegayguides.org",
+   "url": "https://mappingthegayguides.org/map/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/MappingtheGayGuides/MGG-Data"
+  },
+  {
+   "name": "mappingthegayguides.org",
+   "url": "https://mappingthegayguides.org/methodology/"
+  },
+  {
+   "name": "mappingthegayguides.org",
+   "url": "https://mappingthegayguides.org/ethics/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-06-24",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-06-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mappingthegayguides.org",
+  "host": "mappingthegayguides.org"
+ }
+}

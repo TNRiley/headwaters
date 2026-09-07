@@ -1,0 +1,39 @@
+{
+ "id": "dip-2019-10-23-1",
+ "title": "Autocracies",
+ "hook": "The Autocratic Ruling Parties Dataset bills itself as “the first comprehensive data set on the founding origins, modes of gaining and losing power, ruling tenures, and other characteristics of autocratic ruling parties.” The dataset, created by political science professor Michael K.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "journals.sagepub.com",
+   "url": "https://journals.sagepub.com/doi/full/10.1177/0022002719876000"
+  },
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/site/mkmtwo/data"
+  },
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/site/mkmtwo/home"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-23",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "journals.sagepub.com",
+  "host": "journals.sagepub.com"
+ }
+}

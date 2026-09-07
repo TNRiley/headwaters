@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-02-13-2",
+ "title": "Rebel groups and natural resources",
+ "hook": "The Resources and Conflict Project’s Rebel Contraband Dataset “measures if and how rebel groups earn income from the exploitation of natural resources or criminal activities.” The dataset spans 1990–2015, covers more than 70 countries, and specifies dozens of types of resources — such as oil, cannabis, gold, tea, and timber.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "civilwardynamics.org",
+   "url": "http://civilwardynamics.org/data/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/COQ65B"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-02-13",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-02-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "civilwardynamics.org",
+  "host": "civilwardynamics.org"
+ }
+}

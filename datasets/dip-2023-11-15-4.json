@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-11-15-4",
+ "title": "Toxic wastewater spills",
+ "hook": "For a recent Inside Climate News investigation, Martha Pskowski and Peter Aldhous wrangled data on 10,000+ wastewater spills reported by oil and gas companies to the Texas government between 2013 and 2022.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "insideclimatenews.org",
+   "url": "https://insideclimatenews.org/news/31102023/oil-gas-companies-spill-wastewater-in-texas/"
+  },
+  {
+   "name": "insideclimatenews.org",
+   "url": "https://insideclimatenews.org/profile/martha-pskowski/"
+  },
+  {
+   "name": "peteraldhous.com",
+   "url": "https://peteraldhous.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/InsideClimateNews/2023-10-tx-produced-water-spills"
+  },
+  {
+   "name": "insideclimatenews.github.io",
+   "url": "https://insideclimatenews.github.io/2023-10-tx-produced-water-spills/tx-spills-central.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-15",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "insideclimatenews.org",
+  "host": "insideclimatenews.org"
+ }
+}

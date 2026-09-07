@@ -1,0 +1,53 @@
+{
+ "id": "dip-2023-02-22-1",
+ "title": "Facilities handling hazardous chemicals",
+ "hook": "The US Environmental Protection Agency’s Risk Management Program rule requires facilities that handle “extremely hazardous substances” to tell the government, at least every five years, about those substances, their safety plans, their recent accident history, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/rmp/risk-management-program-rmp-rule-overview"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/requests/epa-risk-management-program/"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/about/"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/datasets/epa-risk-management-program-database/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/document/d/1jrLXtv0knnACiPXJ1ZRFXR1GaPWCHJWWjin4rsthFbQ/edit"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-22",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "epa.gov",
+  "host": "epa.gov"
+ }
+}

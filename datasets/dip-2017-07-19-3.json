@@ -1,0 +1,49 @@
+{
+ "id": "dip-2017-07-19-3",
+ "title": "UN General Debate speeches",
+ "hook": "Each September, the United Nations gathers for its annual General Assembly. Among the activities: the General Debate, a series of speeches delivered by the UN’s nearly 200 member states.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "gadebate.un.org",
+   "url": "https://gadebate.un.org/en"
+  },
+  {
+   "name": "smikhaylov.net",
+   "url": "http://www.smikhaylov.net/wp-content/uploads/2017/04/UNGDC_RAP_Final.pdf"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/0TJX8Y"
+  },
+  {
+   "name": "ungd.smikhaylov.net",
+   "url": "http://ungd.smikhaylov.net/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-07-13-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-07-19",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-07-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gadebate.un.org",
+  "host": "gadebate.un.org"
+ }
+}

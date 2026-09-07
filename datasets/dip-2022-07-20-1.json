@@ -1,0 +1,54 @@
+{
+ "id": "dip-2022-07-20-1",
+ "title": "New voting laws",
+ "hook": "The Voting Rights Lab has been tracking 2,000+ laws proposed in US state legislatures since 2021. The tracker focuses on “12 major issue areas relating to voter access and representation,” such as early voting, same-day registration, and ID requirements.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "votingrightslab.org",
+   "url": "https://votingrightslab.org/"
+  },
+  {
+   "name": "tracker.votingrightslab.org",
+   "url": "https://tracker.votingrightslab.org/pending/search"
+  },
+  {
+   "name": "statesnewsroom.com",
+   "url": "https://statesnewsroom.com/about/"
+  },
+  {
+   "name": "newsfromthestates.com",
+   "url": "https://www.newsfromthestates.com/article/criminalizing-vote-gop-led-states-enacted-102-new-election-penalties-after-2020"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1wtN6RpLW_-g1gBYwWd5HaYiL6MtmG_nwC6kpIhzickU/edit#gid=0"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.fivethirtyeight.com",
+   "url": "https://projects.fivethirtyeight.com/voting-restrictions-by-state/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-20",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "votingrightslab.org",
+  "host": "votingrightslab.org"
+ }
+}

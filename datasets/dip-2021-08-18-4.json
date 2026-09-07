@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-08-18-4",
+ "title": "The Magazine of Early American Datasets",
+ "hook": "MEAD, as the publication acronymizes itself, “provides sweet, intoxicating data for your investigations of early North America and the Atlantic World.” The initiative, affiliated with the University of Pennsylvania, hosts a few dozen datasets on a range of topics; many focus on Pennsylvania and on slavery, while other subjects include George Washington’s shipping invoices and the 19th century children’s book industry.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "repository.upenn.edu",
+   "url": "https://repository.upenn.edu/mead/"
+  },
+  {
+   "name": "commonplace.online",
+   "url": "http://commonplace.online/article/constructing-the-magazine-of-early-american-datasets-mead-an-invitation-to-share-and-use-data-about-early-america/"
+  },
+  {
+   "name": "repository.upenn.edu",
+   "url": "https://repository.upenn.edu/mead/25/"
+  },
+  {
+   "name": "repository.upenn.edu",
+   "url": "https://repository.upenn.edu/mead/28/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-18",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "repository.upenn.edu",
+  "host": "repository.upenn.edu"
+ }
+}

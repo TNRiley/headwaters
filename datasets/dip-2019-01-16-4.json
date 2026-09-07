@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-01-16-4",
+ "title": "Old shipping logs",
+ "hook": "In previous centuries, maritime officers kept “detailed log books of the ships’ activities and management,” including observations of the wind and weather.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "webs.ucm.es",
+   "url": "https://webs.ucm.es/info/cliwoc/object.htm"
+  },
+  {
+   "name": "webs.ucm.es",
+   "url": "https://webs.ucm.es/info/cliwoc/"
+  },
+  {
+   "name": "projects.knmi.nl",
+   "url": "http://projects.knmi.nl/cliwoc/"
+  },
+  {
+   "name": "stvno.github.io",
+   "url": "https://stvno.github.io/page/cliwoc/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-16",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "webs.ucm.es",
+  "host": "webs.ucm.es"
+ }
+}

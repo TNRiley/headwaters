@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-08-31-3",
+ "title": "Global agriculture",
+ "hook": "EarthStat provides geographic data on harvest regions, yields, and fertilizer use for more than 100 crops. The website also publishes data on pasture land, water depletion, and climatological effects on crop yields.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "earthstat.org",
+   "url": "http://www.earthstat.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-08-31",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-08-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "earthstat.org",
+  "host": "earthstat.org"
+ }
+}

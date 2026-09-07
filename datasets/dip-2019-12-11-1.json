@@ -1,0 +1,61 @@
+{
+ "id": "dip-2019-12-11-1",
+ "title": "Death row",
+ "hook": "“Forty-three years after the Supreme Court reversed course and reinstated the death penalty, reliable data on the individuals sent to death row is maddeningly difficult to obtain.” So reporters at The Intercept “set out to compile a comprehensive dataset on everyone sentenced to die in active death penalty…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "theintercept.com",
+   "url": "https://theintercept.com/series/the-condemned/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/firstlookmedia/the-condemned-data"
+  },
+  {
+   "name": "endofitsrope.com",
+   "url": "https://endofitsrope.com/using-the-database/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-08-01-edition"
+  },
+  {
+   "name": "deathpenaltyinfo.org",
+   "url": "https://deathpenaltyinfo.org/executions/execution-database"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-05-15-edition"
+  },
+  {
+   "name": "selectstarsql.com",
+   "url": "https://selectstarsql.com/frontmatter.html#dataset"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2019-03-06-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-11",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "theintercept.com",
+  "host": "theintercept.com"
+ }
+}

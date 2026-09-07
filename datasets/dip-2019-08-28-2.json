@@ -1,0 +1,43 @@
+{
+ "id": "dip-2019-08-28-2",
+ "title": "Citations and self-citations",
+ "hook": "A team led by meta-research pioneer John Ioannidis has developed a dataset of citation metrics for science’s 100,000 most-cited authors. The dataset includes each author’s name, institutional affiliation, number of publications, total citations, “h-index,” and more.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "profiles.stanford.edu",
+   "url": "https://profiles.stanford.edu/john-ioannidis"
+  },
+  {
+   "name": "journals.plos.org",
+   "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000384"
+  },
+  {
+   "name": "mendeley.com",
+   "url": "https://data.mendeley.com/datasets/btchxktzyw/1"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/d41586-019-02479-7"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-28",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "profiles.stanford.edu",
+  "host": "profiles.stanford.edu"
+ }
+}

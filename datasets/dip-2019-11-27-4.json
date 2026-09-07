@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-11-27-4",
+ "title": "Bollywood",
+ "hook": "Parth Parikh, an engineering student in Mumbai, has created The Indian Movie Database, which aggregates and cross-references data on Bollywood films from IMDB, Wikipedia, and MovieLens. It currently contains more than 4,700 movies released between 1950 and 2019.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "pncnmnp.github.io",
+   "url": "https://pncnmnp.github.io/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/pncnmnp/TIMDB/"
+  },
+  {
+   "name": "imdb.com",
+   "url": "https://www.imdb.com/"
+  },
+  {
+   "name": "grouplens.org",
+   "url": "https://grouplens.org/datasets/movielens/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-11-27",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-11-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pncnmnp.github.io",
+  "host": "pncnmnp.github.io"
+ }
+}

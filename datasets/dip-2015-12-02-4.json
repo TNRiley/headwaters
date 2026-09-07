@@ -1,0 +1,50 @@
+{
+ "id": "dip-2015-12-02-4",
+ "title": "College sports financing",
+ "hook": "The Huffington Post and Chronicle of Higher Education teamed up to investigate how colleges bankroll their athletics.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "projects.huffingtonpost.com",
+   "url": "http://projects.huffingtonpost.com/projects/ncaa/sports-at-any-cost"
+  },
+  {
+   "name": "projects.huffingtonpost.com",
+   "url": "http://projects.huffingtonpost.com/projects/ncaa/subsidy-scorecards/eastern-kentucky-university"
+  },
+  {
+   "name": "projects.huffingtonpost.com",
+   "url": "http://projects.huffingtonpost.com/ncaa/reporters-note"
+  },
+  {
+   "name": "projects.huffingtonpost.com",
+   "url": "http://projects.huffingtonpost.com/projects/ncaa/subsidy-scorecards"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "http://www.washingtonpost.com/sf/sports/wp/2015/11/23/running-up-the-bills/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-02",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "projects.huffingtonpost.com",
+  "host": "projects.huffingtonpost.com"
+ }
+}

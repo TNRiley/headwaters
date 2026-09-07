@@ -1,0 +1,53 @@
+{
+ "id": "dip-2021-09-22-3",
+ "title": "Voluntary union recognition",
+ "hook": "Civic technologist Forest Gregg has begun filing FOIA requests to the National Labor Relations Board to collect newly-available data on employers’ voluntary recognition of employee unions, drawn from agency’s relevant notification form.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "muckrock.com",
+   "url": "https://www.muckrock.com/foi/united-states-of-america-10/voluntary-recognitions-january-1-june-30-2021-116304/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/labordata/nlrb-voluntary-recognitions"
+  },
+  {
+   "name": "nlrb.gov",
+   "url": "https://www.nlrb.gov/sites/default/files/attachments/pages/node-195/5581_7-20.pdf"
+  },
+  {
+   "name": "flatgithub.com",
+   "url": "https://flatgithub.com/labordata/nlrb-voluntary-recognitions/blob/main/voluntary_recognitions.csv?sort=Date%20VR%20Request%20Received%2Cdesc"
+  },
+  {
+   "name": "nlrb.gov",
+   "url": "https://www.nlrb.gov/reports/graphs-data/recent-election-results"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2021-05-05-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-09-22",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-09-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "muckrock.com",
+  "host": "muckrock.com"
+ }
+}

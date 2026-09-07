@@ -1,0 +1,65 @@
+{
+ "id": "dip-2022-05-11-1",
+ "title": "Drugs for rare diseases",
+ "hook": "The US Orphan Drug Act of 1983 provided incentives for pharmaceutical companies to develop treatments for rare diseases.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Orphan_Drug_Act_of_1983"
+  },
+  {
+   "name": "fda.gov",
+   "url": "https://www.fda.gov/industry/orphan-products-development-events/story-behind-orphan-drug-act"
+  },
+  {
+   "name": "fda.gov",
+   "url": "https://www.fda.gov/patients/rare-diseases-fda"
+  },
+  {
+   "name": "fda.gov",
+   "url": "https://www.fda.gov/about-fda/office-clinical-policy-and-programs/office-orphan-products-development"
+  },
+  {
+   "name": "accessdata.fda.gov",
+   "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/"
+  },
+  {
+   "name": "orpha.net",
+   "url": "https://www.orpha.net/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-04-20-edition/"
+  },
+  {
+   "name": "fda.gov",
+   "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/approved-drug-products-therapeutic-equivalence-evaluations-orange-book"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2017-03-08-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-11",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

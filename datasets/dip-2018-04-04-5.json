@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-04-04-5",
+ "title": "Even more dog (and cat) names",
+ "hook": "Last year, Data Is Plural pointed readers to dog registration data for NYC, Tacoma, and Edmonton. It turns out that government of Zurich also publishes local dog registrations, including each canine’s name, gender, and birth year.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-05-31-edition"
+  },
+  {
+   "name": "europeandataportal.eu",
+   "url": "https://www.europeandataportal.eu/data/en/dataset/https-data-stadt-zuerich-ch-dataset-pd_stapo_hundenamen"
+  },
+  {
+   "name": "sunshinecoast.qld.gov.au",
+   "url": "https://data.sunshinecoast.qld.gov.au/Administration/Registered-Animals/7f87-i6kx/data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-04",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tinyletter.com",
+  "host": "tinyletter.com"
+ }
+}

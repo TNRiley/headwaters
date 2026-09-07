@@ -1,0 +1,51 @@
+{
+ "id": "dip-2021-02-03-2",
+ "title": "Detailed elevations",
+ "hook": "Among its goals, OpenTopography wants to “democratize online access to high-resolution (meter to sub-meter scale), Earth science-oriented, topography data acquired with lidar and other technologies.” The project hosts hundreds of elevation datasets from around the world, available to visualize online and to download.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "opentopography.org",
+   "url": "https://opentopography.org/about"
+  },
+  {
+   "name": "opentopography.org",
+   "url": "https://opentopography.org/"
+  },
+  {
+   "name": "portal.opentopography.org",
+   "url": "https://portal.opentopography.org/dataCatalog"
+  },
+  {
+   "name": "portal.opentopography.org",
+   "url": "https://portal.opentopography.org/datasets"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/core-science-systems/ngp/3dep/what-is-3dep"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/core-science-systems/ngp/3dep/data-tools"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-02-03",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-02-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "opentopography.org",
+  "host": "opentopography.org"
+ }
+}

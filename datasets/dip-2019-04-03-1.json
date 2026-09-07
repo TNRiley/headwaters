@@ -1,0 +1,46 @@
+{
+ "id": "dip-2019-04-03-1",
+ "title": "Yemen air strikes",
+ "hook": "To mark the four-year anniversary of the Saudi-led bombing campaign in Yemen, the Yemen Data Project last week released civilian casualty estimates for the entire air war.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "yemendataproject.org",
+   "url": "http://yemendataproject.org/"
+  },
+  {
+   "name": "yemendataproject.org",
+   "url": "http://yemendataproject.org/methodology-1.html"
+  },
+  {
+   "name": "yemendataproject.org",
+   "url": "http://yemendataproject.org/data.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2018/12/27/world/middleeast/saudi-arabia-war-tactics-yemen-humanitarian-crisis.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-04-03",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-04-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "yemendataproject.org",
+  "host": "yemendataproject.org"
+ }
+}

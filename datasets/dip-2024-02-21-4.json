@@ -1,0 +1,37 @@
+{
+ "id": "dip-2024-02-21-4",
+ "title": "Spain’s political primaries",
+ "hook": "Oscar Barberà et al. have compiled a dataset of the outcomes of 361 primary contests in Spain since 1991, “based on information provided by political parties at the time of the event through their websites, press releases, and journalistic reports.” It includes primaries to determine candidates for regional, national, and EU elections, as well as for party leadership.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340924000842"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/records/10066112"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-21",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "id": "dip-2024-08-14-5",
+ "title": "Watching grass grow",
+ "hook": "The Jornada Experimental Range, run by the USDA’s Agricultural Research Service, “is one of the longest serving laboratories focused on rangelands and drylands in the world.” Located north of Las Cruces, N.M., the site has operating since the 1910s. A few years ago, Erica Christensen et al.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "jornada.nmsu.edu",
+   "url": "https://jornada.nmsu.edu/"
+  },
+  {
+   "name": "jornada.nmsu.edu",
+   "url": "https://jornada.nmsu.edu/about"
+  },
+  {
+   "name": "esajournals.onlinelibrary.wiley.com",
+   "url": "https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.3530"
+  },
+  {
+   "name": "portal.edirepository.org",
+   "url": "https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-jrn.210351004.2"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-08-14",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-08-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "jornada.nmsu.edu",
+  "host": "jornada.nmsu.edu"
+ }
+}

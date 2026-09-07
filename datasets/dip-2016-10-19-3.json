@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-10-19-3",
+ "title": "Global financial history",
+ "hook": "The Jordà-Schularick-Taylor Macrohistory Database claims to be “the most extensive long-run macro-financial dataset to date.” It contains dozens of variables — GDP per capita, long-term interest rates, and the timing of systemic financial crises, for example — for 17 “advanced economies”.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "macrohistory.net",
+   "url": "http://www.macrohistory.net/data/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-19",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "macrohistory.net",
+  "host": "macrohistory.net"
+ }
+}

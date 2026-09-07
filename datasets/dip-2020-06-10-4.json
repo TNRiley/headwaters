@@ -1,0 +1,54 @@
+{
+ "id": "dip-2020-06-10-4",
+ "title": "Police militarization",
+ "hook": "The US Defense Logistic Agency’s Law Enforcement Support Office sends surplus Department of Defense equipment to local law enforcement agencies, through an arrangement known as the 1033 program.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "reference works",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "dla.mil",
+   "url": "https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/1033_program"
+  },
+  {
+   "name": "dla.mil",
+   "url": "https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/2014/12/03/the-pentagon-finally-details-its-weapons-for-cops-giveaway"
+  },
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/jimdalrympleii/war-zone-in-ferguson-how-billions-in-military-weapons-ended"
+  },
+  {
+   "name": "buzzfeednews.com",
+   "url": "https://www.buzzfeednews.com/article/johntemplon/police-departments-military-gear-1033-program"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-06-10",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-06-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dla.mil",
+  "host": "dla.mil"
+ }
+}

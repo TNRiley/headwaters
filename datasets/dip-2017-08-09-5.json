@@ -1,0 +1,39 @@
+{
+ "id": "dip-2017-08-09-5",
+ "title": "Talent agencies",
+ "hook": "California’s Department of Industrial Relations publishes a dataset of all licensed talent agencies, with each agency’s name, address, license number, workers’ comp insurer, and bond issuer. Florida publishes something similar. Previously: Texas’s licensed professionals (DIP 2015.12.09).",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "dir.ca.gov",
+   "url": "https://www.dir.ca.gov/databases/dlselr/talag.html"
+  },
+  {
+   "name": "myfloridalicense.com",
+   "url": "http://www.myfloridalicense.com/dbpr/sto/file_download/public-records-talent.html"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-12-09-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-09",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dir.ca.gov",
+  "host": "dir.ca.gov"
+ }
+}

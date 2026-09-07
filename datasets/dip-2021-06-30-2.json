@@ -1,0 +1,61 @@
+{
+ "id": "dip-2021-06-30-2",
+ "title": "Ranked-choice voting, continued",
+ "hook": "FairVote, an organization that advocates for ranked-choice voting, has gathered the results of hundreds of elections that used those rules.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "fairvote.org",
+   "url": "https://www.fairvote.org/about"
+  },
+  {
+   "name": "ballotpedia.org",
+   "url": "https://ballotpedia.org/Ranked-choice_voting_(RCV)"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1lU6viuXfay323Gl6zkH5itwmrUIUo9rAzalK_ntu-ZY/edit#gid=287253823"
+  },
+  {
+   "name": "fairvote.org",
+   "url": "https://www.fairvote.org/data_on_rcv#research_snapshot"
+  },
+  {
+   "name": "thecity.nyc",
+   "url": "https://www.thecity.nyc/2021/6/21/22544497/when-will-nyc-mayoral-primary-election-winner-be-announced"
+  },
+  {
+   "name": "ranked.vote",
+   "url": "https://ranked.vote/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/ranked-vote/reports"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-05-27-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-30",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fairvote.org",
+  "host": "fairvote.org"
+ }
+}

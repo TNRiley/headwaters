@@ -1,0 +1,41 @@
+{
+ "id": "dip-2024-03-06-4",
+ "title": "Real-time airport disruptions",
+ "hook": "The Federal Aviation Administration’s National Airspace System Status dashboard provides real-time listings of delays and closures at US airports. For each disruption, it indicates the type of problem, reason, current average delay times, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nasstatus.faa.gov",
+   "url": "https://nasstatus.faa.gov/"
+  },
+  {
+   "name": "nasstatus.faa.gov",
+   "url": "https://nasstatus.faa.gov/api/airport-status-information"
+  },
+  {
+   "name": "ruihaiyoungblood.com",
+   "url": "https://www.ruihaiyoungblood.com/faa.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-03-06",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-03-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nasstatus.faa.gov",
+  "host": "nasstatus.faa.gov"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-06-28-5",
+ "title": "140-character politics",
+ "hook": "The recently-launched Tweets Of Congress is collecting and publishing daily archives of tweets by congressional representatives, caucuses, and committees. Meanwhile, the Trump Twitter Archive has collected more than 30,000 of @realDonaldTrump’s tweets, which you can search and download.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "alexlitel.github.io",
+   "url": "https://alexlitel.github.io/congresstweets/"
+  },
+  {
+   "name": "trumptwitterarchive.com",
+   "url": "http://www.trumptwitterarchive.com/about"
+  },
+  {
+   "name": "trumptwitterarchive.com",
+   "url": "http://www.trumptwitterarchive.com/archive"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/bpb27/trump_tweet_data_archive"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-28",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-28/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "alexlitel.github.io",
+  "host": "alexlitel.github.io"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-10-02-2",
+ "title": "Snapchat political ads",
+ "hook": "Snapchat has released detailed data about every political ad purchased on its platform in 2018 and 2019. For each ad, the information includes its targeting parameters (age, gender, location, interests, internet service provider, device operating system, and more), the dates the it ran, the amount spent, number of impressions, and a link to the ad itself.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "businesshelp.snapchat.com",
+   "url": "https://businesshelp.snapchat.com/en-US/article/political-ads-library"
+  },
+  {
+   "name": "snap.com",
+   "url": "https://www.snap.com/en-US/political-ads/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-10-02",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-10-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "businesshelp.snapchat.com",
+  "host": "businesshelp.snapchat.com"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "id": "dip-2023-02-15-1",
+ "title": "Fair market rents",
+ "hook": "Every year, the Department of Housing and Urban Development recalculates what it calls “fair market rents” for every county in the US and for individual ZIP codes in metropolitan counties.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "huduser.gov",
+   "url": "https://www.huduser.gov/portal/datasets/fmr.html"
+  },
+  {
+   "name": "huduser.gov",
+   "url": "https://www.huduser.gov/portal/datasets/fmr/smallarea/index.html"
+  },
+  {
+   "name": "law.cornell.edu",
+   "url": "https://www.law.cornell.edu/cfr/text/24/888.113"
+  },
+  {
+   "name": "huduser.gov",
+   "url": "https://www.huduser.gov/portal/dataset/fmr-api.html"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/articles/where-are-rents-rising-post-covid-19/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-15",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "huduser.gov",
+  "host": "huduser.gov"
+ }
+}

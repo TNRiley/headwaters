@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-04-20-2",
+ "title": "Solar panels",
+ "hook": "The Berkeley Lab’s Tracking the Sun project examines US trends in residential and small non-residential solar panel installations. Its latest report describes more than 2 million such projects, based on records provided by state governments, utility companies, and other organizations.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "lbl.gov",
+   "url": "https://www.lbl.gov/about/"
+  },
+  {
+   "name": "emp.lbl.gov",
+   "url": "https://emp.lbl.gov/tracking-the-sun"
+  },
+  {
+   "name": "emp.lbl.gov",
+   "url": "https://emp.lbl.gov/tracking-sun-tool"
+  },
+  {
+   "name": "emp.lbl.gov",
+   "url": "https://emp.lbl.gov/utility-scale-solar"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-20",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lbl.gov",
+  "host": "lbl.gov"
+ }
+}

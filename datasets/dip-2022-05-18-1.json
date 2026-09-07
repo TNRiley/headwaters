@@ -1,0 +1,61 @@
+{
+ "id": "dip-2022-05-18-1",
+ "title": "Religion and government",
+ "hook": "To compile the Government Religious Preference dataset, researchers scrutinized primary documents and secondary sources “for information on the existence, origination, change, or discontinuation of a law or policy directed toward” any of 30 religious denominations in 200+ countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "thearda.com",
+   "url": "https://www.thearda.com/Archive/Files/Descriptions/GRPCOMP.asp"
+  },
+  {
+   "name": "thearda.com",
+   "url": "https://www.thearda.com/archive/files/codebooks/origCB/GRP%202.0%20Codebook.pdf"
+  },
+  {
+   "name": "thearda.com",
+   "url": "https://www.thearda.com/Archive/Files/Descriptions/GRPOFFCL.asp"
+  },
+  {
+   "name": "thearda.com",
+   "url": "https://www.thearda.com/Archive/Files/Descriptions/GRPFINSP.asp"
+  },
+  {
+   "name": "thearda.com",
+   "url": "https://www.thearda.com/Archive/Files/Descriptions/GRPREG.asp"
+  },
+  {
+   "name": "thearda.com",
+   "url": "https://www.thearda.com/Archive/Files/Descriptions/GRPRELED.asp"
+  },
+  {
+   "name": "thearda.com",
+   "url": "https://www.thearda.com/Archive/Files/Descriptions/GRPFREE.asp"
+  },
+  {
+   "name": "thearda.com",
+   "url": "https://www.thearda.com/Archive/Files/Descriptions/RCSDEM2.asp"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-18",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "thearda.com",
+  "host": "thearda.com"
+ }
+}

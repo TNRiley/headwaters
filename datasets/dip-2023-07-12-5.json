@@ -1,0 +1,37 @@
+{
+ "id": "dip-2023-07-12-5",
+ "title": "The global human day",
+ "hook": "By harmonizing “data collected by national statistics agencies, international organizations, and researchers from over 140 countries,” William Fajzel et al.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "pnas.org",
+   "url": "https://www.pnas.org/doi/full/10.1073/pnas.2219564120"
+  },
+  {
+   "name": "zenodo.org",
+   "url": "https://zenodo.org/record/8040631"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-07-12",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-07-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Paini et al, 2016",
+  "host": "pnas.org"
+ }
+}

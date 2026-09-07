@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-12-11-4",
+ "title": "Book ratings",
+ "hook": "In 2004, computer scientist Cai-Nicolas Ziegler scraped (with permission) 433,000 numeric ratings of 186,000 books by 78,000 users on the book-tracking website BookCrossing. For most users, the data includes their stated city and age. [h/t Ningshan Zhang, Kyle Schmaus, and Patrick O. Perry]",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "dbis.informatik.uni-freiburg.de",
+   "url": "http://dbis.informatik.uni-freiburg.de/team/ziegler/cai"
+  },
+  {
+   "name": "www2.informatik.uni-freiburg.de",
+   "url": "http://www2.informatik.uni-freiburg.de/~cziegler/BX/"
+  },
+  {
+   "name": "bookcrossing.com",
+   "url": "https://www.bookcrossing.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-11",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dbis.informatik.uni-freiburg.de",
+  "host": "dbis.informatik.uni-freiburg.de"
+ }
+}

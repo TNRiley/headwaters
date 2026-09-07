@@ -1,0 +1,55 @@
+{
+ "id": "dip-2020-02-12-4",
+ "title": "ArXiv metadata",
+ "hook": "Founded nearly 30 years ago, arXiv is an open-access repository of more than 1,600,000 scholarly articles — typically “preprints” of papers, uploaded by the authors before being peer-reviewed — in physics, math, computer science, statistics, economics, and several other fields.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org"
+  },
+  {
+   "name": "openarchives.org",
+   "url": "https://www.openarchives.org"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/help/oa/index"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/help/api/index"
+  },
+  {
+   "name": "boramalper.org",
+   "url": "https://boramalper.org"
+  },
+  {
+   "name": "reddit.com",
+   "url": "https://www.reddit.com/r/DataHoarder/comments/c39mmj/arxiv_complete_metadata_dump_20190618_internet/"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/arXiv-metadata-dump-2019-06-18.tar.xz"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-12",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arxiv.org",
+  "host": "arxiv.org"
+ }
+}

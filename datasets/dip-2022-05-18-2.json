@@ -1,0 +1,38 @@
+{
+ "id": "dip-2022-05-18-2",
+ "title": "Municipal pandemic responses",
+ "hook": "The National League of Cities’ Local Action Tracker describes itself as “the most complete collection of municipal responses to COVID-19.” It contains information about 4,800+ policies undertaken or planned in roughly 800 US cities between February 2020 and February 2022, listing each response’s date, policy area (e.g., housing, utilities, vaccinations), type of action (e.g., ordinance, emergency declaration), a brief description, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics",
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nlc.org",
+   "url": "https://www.nlc.org/about/"
+  },
+  {
+   "name": "nlc.org",
+   "url": "https://www.nlc.org/resource/covid-19-local-action-tracker/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-18",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-18/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nlc.org",
+  "host": "nlc.org"
+ }
+}

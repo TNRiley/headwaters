@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-04-14-4",
+ "title": "News homepages",
+ "hook": "Since January 2019, software engineer Nick Jones has been capturing hourly screenshots of five news sites’ homepages: The New York Times, Washington Post, Wall Street Journal, Fox News, and CNN. You can browse the images online and download them from predictable URLs.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nrjones8.me",
+   "url": "https://nrjones8.me/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/nrjones8/website-screenshotter"
+  },
+  {
+   "name": "nrjones8.github.io",
+   "url": "https://nrjones8.github.io/news-archive-explorer/"
+  },
+  {
+   "name": "pastpages.org",
+   "url": "http://www.pastpages.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-14",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nrjones8.me",
+  "host": "nrjones8.me"
+ }
+}

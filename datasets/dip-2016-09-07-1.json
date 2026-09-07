@@ -1,0 +1,45 @@
+{
+ "id": "dip-2016-09-07-1",
+ "title": "Healthcare spending",
+ "hook": "Since 1996, the Medical Expenditure Panel Survey has collected data on “the specific health services that Americans use,” and the “health insurance held by and available to U.S. workers.” In a typical year, the survey collects data from more than 30,000 people from more than 10,000 families.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "meps.ahrq.gov",
+   "url": "https://meps.ahrq.gov/mepsweb/"
+  },
+  {
+   "name": "meps.ahrq.gov",
+   "url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files.jsp"
+  },
+  {
+   "name": "meps.ahrq.gov",
+   "url": "https://meps.ahrq.gov/mepsweb/data_stats/quick_tables.jsp"
+  },
+  {
+   "name": "meps.ahrq.gov",
+   "url": "https://meps.ahrq.gov/mepsweb/data_stats/tables_compendia_hh_interactive.jsp?_SERVICE=MEPSSocket0&_PROGRAM=MEPSPGM.TC.SAS&File=HCFY2013&Table=HCFY2013_PLEXP_A&VAR1=AGE&VAR2=SEX&VAR3=RACETH5C&VAR4=INSURCOV&VAR5=POVCAT13&VAR6=REGION&VAR7=HEALTH&VARO1=4+17+44+64&VARO2=1&VARO3=1&VARO4=1&VARO5=1&VARO6=1&VARO7=1&_Debug="
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-09-07",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-09-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "meps.ahrq.gov",
+  "host": "meps.ahrq.gov"
+ }
+}

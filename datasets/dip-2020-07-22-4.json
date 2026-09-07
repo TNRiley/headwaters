@@ -1,0 +1,49 @@
+{
+ "id": "dip-2020-07-22-4",
+ "title": "The Arctic seafloor",
+ "hook": "The General Bathymetric Chart of the Ocean project has published a new version of its Arctic Ocean depth chart, which was first released in 1997 and last updated in 2012. The latest dataset incorporates new sources, has “more than twice the resolution” as the previous version, and is more precise.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "gebco.net",
+   "url": "https://www.gebco.net/about_us/overview/"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-020-0520-9"
+  },
+  {
+   "name": "gebco.net",
+   "url": "https://www.gebco.net/data_and_products/gridded_bathymetry_data/arctic_ocean/"
+  },
+  {
+   "name": "nsidc.org",
+   "url": "https://nsidc.org/data/seaice_index/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-09-14-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-22",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-22/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "gebco.net",
+  "host": "gebco.net"
+ }
+}

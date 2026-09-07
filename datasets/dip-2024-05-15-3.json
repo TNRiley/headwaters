@@ -1,0 +1,45 @@
+{
+ "id": "dip-2024-05-15-3",
+ "title": "1 million ChatGPT conversations",
+ "hook": "The WildChat Dataset, constructed by Wenting Zhao et al., “is a corpus of 1 million real-world user-ChatGPT interactions, characterized by a wide range of languages and a diversity of user prompts.” The researchers, primarily affiliated with Cornell and the Allen Institute for AI, built it “by offering free access to…",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "wildchat.allen.ai",
+   "url": "https://wildchat.allen.ai/"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2405.01470"
+  },
+  {
+   "name": "allenai.org",
+   "url": "https://allenai.org/"
+  },
+  {
+   "name": "huggingface.co",
+   "url": "https://huggingface.co/datasets/allenai/WildChat-1M"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-15",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wildchat.allen.ai",
+  "host": "wildchat.allen.ai"
+ }
+}

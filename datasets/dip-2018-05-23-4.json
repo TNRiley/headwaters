@@ -1,0 +1,53 @@
+{
+ "id": "dip-2018-05-23-4",
+ "title": "Wind",
+ "hook": "Earlier this month, the Department of Energy’s National Renewable Energy Laboratory made a big new slice of its Wind Integration National Dataset available online. The latest version provides API access to 50 terabytes of wind-related measurements — about 10% of the full database.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "nrel.gov",
+   "url": "https://www.nrel.gov/news/press/2018/nrel-releases-major-update-to-wind-energy-dataset.html"
+  },
+  {
+   "name": "nrel.gov",
+   "url": "https://www.nrel.gov/grid/wind-toolkit.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/NREL/hsds-examples"
+  },
+  {
+   "name": "nrel.github.io",
+   "url": "https://nrel.github.io/hsds-viz/"
+  },
+  {
+   "name": "eerscmap.usgs.gov",
+   "url": "https://eerscmap.usgs.gov/uswtdb/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2018-04-25-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-05-23",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-05-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nrel.gov",
+  "host": "nrel.gov"
+ }
+}

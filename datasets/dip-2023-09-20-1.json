@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-09-20-1",
+ "title": "US facility GHG emissions",
+ "hook": "The EPA’s Facility Level Information on Greenhouse Gases Tool “gives you access to greenhouse gas data reported to EPA by large emitters, facilities that inject CO2 underground, and suppliers of products that result in GHG emissions when used in the United States.” The information comes from the agency’s Greenhouse Gas Reporting Program, which also provides bulk data downloads.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ghgdata.epa.gov",
+   "url": "https://ghgdata.epa.gov/ghgp/main.do#/facility/"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/ghgreporting"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/ghgreporting/data-sets"
+  },
+  {
+   "name": "ccdsupport.com",
+   "url": "https://ccdsupport.com/confluence/pages/viewpage.action?pageId=93290546"
+  },
+  {
+   "name": "epa.gov",
+   "url": "https://www.epa.gov/ghgreporting/ghgrp-methodology-and-verification"
+  },
+  {
+   "name": "ccdsupport.com",
+   "url": "https://ccdsupport.com/confluence/display/ghgp/Detailed+Description+of+Data+for+Certain+Sources+and+Processes"
+  },
+  {
+   "name": "climatetrace.org",
+   "url": "https://climatetrace.org/"
+  },
+  {
+   "name": "climatetrace.org",
+   "url": "https://climatetrace.org/news/more-than-70000-of-the-highest-emitting-greenhouse-gas"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-11-16-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-20",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ghgdata.epa.gov",
+  "host": "ghgdata.epa.gov"
+ }
+}

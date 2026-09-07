@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-07-27-3",
+ "title": "Public libraries",
+ "hook": "The U.S. Institute of Museum and Library Services annually collects responses from 9,000 public library systems. The results, currently available through 2013, include information about the libraries’ collection size, physical footprint, population served, hours, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "imls.gov",
+   "url": "https://www.imls.gov/research-evaluation/data-collection/public-libraries-united-states-survey/public-libraries-united"
+  },
+  {
+   "name": "imls.gov",
+   "url": "https://www.imls.gov/research-evaluation/data-collection/museum-universe-data-file"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2015-11-04-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-27",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "imls.gov",
+  "host": "imls.gov"
+ }
+}

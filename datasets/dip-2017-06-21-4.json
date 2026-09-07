@@ -1,0 +1,43 @@
+{
+ "id": "dip-2017-06-21-4",
+ "title": "Political party manifestoes",
+ "hook": "The Manifesto Project has collected and coded more than 4,000 electoral manifestoes from more than 1,000 political parties in more than 50 countries between 1945 and 2015.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "manifesto-project.wzb.eu",
+   "url": "https://manifesto-project.wzb.eu/"
+  },
+  {
+   "name": "manifesto-project.wzb.eu",
+   "url": "https://manifesto-project.wzb.eu/datasets"
+  },
+  {
+   "name": "visuals.manifesto-project.wzb.eu",
+   "url": "https://visuals.manifesto-project.wzb.eu/mpdb-shiny/cmp_dashboard_corpus/"
+  },
+  {
+   "name": "manifesto-project.wzb.eu",
+   "url": "https://manifesto-project.wzb.eu/information/terms_of_use"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-21",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "manifesto-project.wzb.eu",
+  "host": "manifesto-project.wzb.eu"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "dip-2022-09-14-3",
+ "title": "Local internet speeds",
+ "hook": "If you’ve tried measuring your internet speed, you might have used Ookla’s testing service. The company releases a series of quarterly datasets that summarize the test results, aggregated into geospatial tiles.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "ookla.com",
+   "url": "https://www.ookla.com/"
+  },
+  {
+   "name": "speedtest.net",
+   "url": "https://www.speedtest.net/"
+  },
+  {
+   "name": "ookla.com",
+   "url": "https://www.ookla.com/ookla-for-good/open-data"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/teamookla/ookla-open-data"
+  },
+  {
+   "name": "europeandatajournalism.eu",
+   "url": "https://www.europeandatajournalism.eu/eng/News/Data-news/Europe-s-internet-speeds-are-faster-than-ever-but-not-for-everyone"
+  },
+  {
+   "name": "datavis.europeandatajournalism.eu",
+   "url": "https://datavis.europeandatajournalism.eu/obct/connectivity/"
+  },
+  {
+   "name": "measurementlab.net",
+   "url": "https://www.measurementlab.net/data/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-05-22-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-14",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ookla.com",
+  "host": "ookla.com"
+ }
+}

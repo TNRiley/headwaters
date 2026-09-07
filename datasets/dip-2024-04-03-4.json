@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-04-03-4",
+ "title": "LLM data provenance",
+ "hook": "The Data Provenance Initiative “is a multi-disciplinary volunteer effort to improve transparency, documentation, and responsible use of training datasets for AI.” Its first release, the Data Provenance Collection, catalogs dozens of corpora used for fine-tuning large language models, as well as their component datasets’ names, task categories, known sources, licensing, various text metrics, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "dataprovenance.org",
+   "url": "https://www.dataprovenance.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2310.16787"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2402.18041"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/lmmlzn/Awesome-LLMs-Datasets"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-03",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataprovenance.org",
+  "host": "dataprovenance.org"
+ }
+}

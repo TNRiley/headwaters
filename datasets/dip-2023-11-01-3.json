@@ -1,0 +1,66 @@
+{
+ "id": "dip-2023-11-01-3",
+ "title": "Minority-serving colleges",
+ "hook": "The MSI Data Project provides a dashboard and dataset focused on colleges and universities that qualify federally as minority-serving institutions either through their mission (e.g., HBCUs) or through enrollment.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "msidata.org",
+   "url": "https://www.msidata.org/"
+  },
+  {
+   "name": "msidata.org",
+   "url": "https://www.msidata.org/data"
+  },
+  {
+   "name": "msidata.org",
+   "url": "https://www.msidata.org/publications"
+  },
+  {
+   "name": "msidata.org",
+   "url": "https://www.msidata.org/msis"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities"
+  },
+  {
+   "name": "www2.ed.gov",
+   "url": "https://www2.ed.gov/about/offices/list/ope/idues/eligibility.html"
+  },
+  {
+   "name": "nces.ed.gov",
+   "url": "https://nces.ed.gov/ipeds/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "hechingerreport.org",
+   "url": "https://hechingerreport.org/beyond-the-rankings-the-college-welcome-guide/"
+  },
+  {
+   "name": "hechingerreport.org",
+   "url": "https://hechingerreport.org/author/fazil-khan/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-01",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "msidata.org",
+  "host": "msidata.org"
+ }
+}

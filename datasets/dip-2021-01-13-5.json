@@ -1,0 +1,49 @@
+{
+ "id": "dip-2021-01-13-5",
+ "title": "Chess puzzles",
+ "hook": "Lichess is a free, open-source, donation-supported chess server. Its team publishes a database of the rated matches played on its platform (more than 1.7 billion so far, since 2013), which it recently used to revamp its dataset of original chess puzzles.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "lichess.org",
+   "url": "https://lichess.org/about"
+  },
+  {
+   "name": "database.lichess.org",
+   "url": "https://database.lichess.org/"
+  },
+  {
+   "name": "lichess.org",
+   "url": "https://lichess.org/blog/X-S6gRUAAGjNX4ki/new-puzzles-are-here"
+  },
+  {
+   "name": "pgnmentor.com",
+   "url": "http://www.pgnmentor.com/files.html"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-02-17-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-01-13",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-01-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "lichess.org",
+  "host": "lichess.org"
+ }
+}

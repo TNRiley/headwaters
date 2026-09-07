@@ -1,0 +1,46 @@
+{
+ "id": "dip-2023-07-12-3",
+ "title": "NY prison employee misconduct",
+ "hook": "For a series of articles (co-published with the New York Times) investigating abuse by prison guards in New York State, The Marshall Project obtained and analyzed data representing 12 years of Department of Corrections and Community Supervision employee disciplinary notices.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "observablehq.com",
+   "url": "https://observablehq.com/@themarshallproject/new-york-prison-employee-discipline-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/tag/when-guards-abuse-prisoners"
+  },
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/2023/05/19/nyregion/ny-prison-guards-brutality-fired.html"
+  },
+  {
+   "name": "themarshallproject.org",
+   "url": "https://www.themarshallproject.org/2023/05/19/new-york-prison-officer-abuse-how-we-investigated"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-07-12",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-07-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "observablehq.com",
+  "host": "observablehq.com"
+ }
+}

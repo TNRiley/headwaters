@@ -1,0 +1,53 @@
+{
+ "id": "dip-2017-05-31-5",
+ "title": "NYC doggies",
+ "hook": "You might have seen New York City’s bubble map of dog names. It turns out that the underlying dataset — which includes the name, gender, age as of 2015, breed, and borough of more than 110,000 dogs — is available on GitHub. You can also download slightly older, but more detailed data from WNYC’s Dogs of NYC project.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "a816-dohbesp.nyc.gov",
+   "url": "http://a816-dohbesp.nyc.gov/IndicatorPublic/dognames/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Kaz-A/dog_names/"
+  },
+  {
+   "name": "fusiontables.google.com",
+   "url": "https://fusiontables.google.com/data?docid=1pKcxc8kzJbBVzLu_kgzoAMzqYhZyUhtScXjB0BQ#rows:id=1"
+  },
+  {
+   "name": "project.wnyc.org",
+   "url": "https://project.wnyc.org/dogs-of-nyc/"
+  },
+  {
+   "name": "cityoftacoma.org",
+   "url": "https://data.cityoftacoma.org/Neighborhoods/Current-Pet-License-City-of-Tacoma-Fircrest/qnnn-t9wt"
+  },
+  {
+   "name": "edmonton.ca",
+   "url": "https://data.edmonton.ca/Community-Services/Pet-Licenses-by-Neighbourhood/5squ-mg4w"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-05-31",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-05-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "a816-dohbesp.nyc.gov",
+  "host": "a816-dohbesp.nyc.gov"
+ }
+}

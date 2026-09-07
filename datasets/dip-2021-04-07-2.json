@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-04-07-2",
+ "title": "Han Chinese names",
+ "hook": "The Chinese Name Database, published by social psychology grad student Han-Wu-Shuang (Bruce) Bao (包寒吴霜), “contains nationwide frequency statistics of 1,806 Chinese surnames and 2,614 Chinese characters used in given names, covering about 1.2 billion Han Chinese population (96.8% of the Han Chinese household-registered…",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "platform",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/psychbruce/ChineseNames"
+  },
+  {
+   "name": "psychbruce.github.io",
+   "url": "https://psychbruce.github.io/"
+  },
+  {
+   "name": "kontinentalist.com",
+   "url": "https://kontinentalist.com/stories/a-cultural-history-of-han-chinese-names-for-girls-and-boys-in-china"
+  },
+  {
+   "name": "kontinentalist.com",
+   "url": "https://kontinentalist.com/about"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-07",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

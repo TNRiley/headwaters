@@ -1,0 +1,45 @@
+{
+ "id": "dip-2017-09-27-4",
+ "title": "NYC streets: the good, the bad, and the closed",
+ "hook": "New York City’s Department of Transportation publishes a bunch of data, including its own assessments of each street segment’s quality on a 1-to-10 scale. It also publishes spreadsheets of all construction-related street closures, by intersection and by block, updated daily. [h/t Christian Moscardi]",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nyc.gov",
+   "url": "http://www.nyc.gov/html/dot/html/about/datafeeds.shtml"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/Transportation/Street-Pavement-Rating/2cav-chmn"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/Transportation/Street-Closures-due-to-construction-activities-by-/478a-yykk"
+  },
+  {
+   "name": "cityofnewyork.us",
+   "url": "https://data.cityofnewyork.us/Transportation/Street-Closures-due-to-construction-activities-by-/i6b5-j7bu"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-09-27",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-09-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nyc.gov",
+  "host": "nyc.gov"
+ }
+}

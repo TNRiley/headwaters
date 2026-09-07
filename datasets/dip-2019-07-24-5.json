@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-07-24-5",
+ "title": "Welsh shipping crews",
+ "hook": "“The Merchant Shipping Act 1835 required all British registered ships of 80 tons or more employed in the coastal trade or fisheries to carry crew agreements and accounts, often referred to as crew lists.” The lists include crew members’ ages, places of birth, previous vessels, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "other",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "library.wales",
+   "url": "https://www.library.wales/about-nlw/work-with-us/volunteer/"
+  },
+  {
+   "name": "library.wales",
+   "url": "https://www.library.wales/collections/activities/research/nlw-data/aberystwyth-shipping-records-dataset/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-07-24",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-07-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "library.wales",
+  "host": "library.wales"
+ }
+}

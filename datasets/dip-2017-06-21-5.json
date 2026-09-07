@@ -1,0 +1,46 @@
+{
+ "id": "dip-2017-06-21-5",
+ "title": "Prisoners’ tattoos",
+ "hook": "The Florida Department of Corrections’ public database contains a table describing current and released inmates’ tattoos. That data includes each tattoo’s location (e.g., “right arm,” “stomach,” “face”) and description (“cross,” “tribal,” and “skull” being the most common).",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "dc.state.fl.us",
+   "url": "http://www.dc.state.fl.us/pub/obis_request.html"
+  },
+  {
+   "name": "gist.github.com",
+   "url": "https://gist.github.com/dannguyen/c6bcc9884c25cf68f3550560ccae5ca8"
+  },
+  {
+   "name": "mypalmbeachpost.com",
+   "url": "http://www.mypalmbeachpost.com/news/body-art-000-florida-prison-inmates-runs-from-freaky-kinky/HXpaJsmobtJCGPP0vI9WlI/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "economist.com",
+   "url": "http://www.economist.com/news/christmas-specials/21712032-what-can-be-learned-prisoners-tattoos-statistical-analysis-art"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-06-21",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-06-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dc.state.fl.us",
+  "host": "dc.state.fl.us"
+ }
+}

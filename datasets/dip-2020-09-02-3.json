@@ -1,0 +1,45 @@
+{
+ "id": "dip-2020-09-02-3",
+ "title": "US cabinets",
+ "hook": "UX designer Tait Chamberlain has constructed a dataset of all US presidential cabinet nominations — including nominees appointed, withdrawn, and rejected — from George Washington’s to the current administration.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "taitcha.com",
+   "url": "https://taitcha.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/taitcha/American_cabinet_appointments"
+  },
+  {
+   "name": "nuffield.ox.ac.uk",
+   "url": "https://www.nuffield.ox.ac.uk/our-research/research-centres/nuffield-politics-research-centre/whogov/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-08-05-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-09-02",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-09-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "taitcha.com",
+  "host": "taitcha.com"
+ }
+}

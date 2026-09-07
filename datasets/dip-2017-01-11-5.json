@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-01-11-5",
+ "title": "Where Waldo is",
+ "hook": "In 2015, computer scientist Randy Olson tried computing “the optimal search strategy for finding Waldo” in the seven original Where’s Waldo? books. In doing so, he transcribed a 2013 Slate chart of Waldo’s locations (itself transcribed from those seven original books).",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "randalolson.com",
+   "url": "http://www.randalolson.com/2015/02/03/heres-waldo-computing-the-optimal-search-strategy-for-finding-waldo/"
+  },
+  {
+   "name": "slate.com",
+   "url": "http://www.slate.com/articles/arts/culturebox/2013/11/where_s_waldo_a_new_strategy_for_locating_the_missing_man_in_martin_hanford.html"
+  },
+  {
+   "name": "randalolson.com",
+   "url": "http://www.randalolson.com/wp-content/uploads/wheres-waldo-locations.csv"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-01-11",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-01-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "randalolson.com",
+  "host": "randalolson.com"
+ }
+}

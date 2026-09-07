@@ -1,0 +1,37 @@
+{
+ "id": "dip-2023-11-29-3",
+ "title": "How we pay",
+ "hook": "The Survey and Diary of Consumer Payment Choice, run annually by a collaboration of Federal Reserve Banks, “aims to provide a comprehensive understanding of the payment behavior of US consumers.” The survey component inquires about demographics, habits, and preferences, including respondents’ use of different payment methods (cash, check, credit card, debit card, mobile payments, et cetera).",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "atlantafed.org",
+   "url": "https://www.atlantafed.org/banking-and-payments/consumer-payments/survey-and-diary-of-consumer-payment-choice"
+  },
+  {
+   "name": "atlantafed.org",
+   "url": "https://www.atlantafed.org/banking-and-payments/consumer-payments/survey-and-diary-of-consumer-payment-choice/2022-survey-and-diary"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-11-29",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-11-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "atlantafed.org",
+  "host": "atlantafed.org"
+ }
+}

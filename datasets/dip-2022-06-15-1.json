@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-06-15-1",
+ "title": "Consumer prices",
+ "hook": "The US Bureau of Labor Statistics’ widely-cited Consumer Price Index measures “the average change over time in the prices paid by urban consumers for a market basket of consumer goods and services.” In addition to overall averages, the index provides decades of detailed data on monthly price changes for hundreds of…",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/cpi/"
+  },
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/cpi/data.htm"
+  },
+  {
+   "name": "bls.gov",
+   "url": "https://www.bls.gov/cpi/additional-resources/index-publication-level.htm"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-06-15",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-06-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BLS",
+  "host": "bls.gov"
+ }
+}

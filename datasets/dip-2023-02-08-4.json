@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-02-08-4",
+ "title": "US aquifers",
+ "hook": "Merhawi GebreEgziabher et al., seeing several shortcomings of the US Geological Survey’s aquifer location data for “locally relevant” research, decided to build the United States Aquifer Database.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41467-022-29678-7"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/mission-areas/water-resources/science/principal-aquifers-united-states"
+  },
+  {
+   "name": "hydroshare.org",
+   "url": "https://www.hydroshare.org/resource/d2260651b51044d0b5cb2d293d21af08/"
+  },
+  {
+   "name": "ucsb.maps.arcgis.com",
+   "url": "https://ucsb.maps.arcgis.com/apps/instant/nearby/index.html?appid=2a238e4ed2434d21b3b53c861a064d8f"
+  },
+  {
+   "name": "env.gov.bc.ca",
+   "url": "https://www.env.gov.bc.ca/wsd/plan_protect_sustain/groundwater/aquifers/absumas.html"
+  },
+  {
+   "name": "usgs.gov",
+   "url": "https://www.usgs.gov/centers/caribbean-florida-water-science-center-%28cfwsc%29/science/mapping-water-levels-biscayne"
+  },
+  {
+   "name": "storymaps.arcgis.com",
+   "url": "https://storymaps.arcgis.com/stories/a91f061759e64e44af38daf6cefa4259"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-08",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

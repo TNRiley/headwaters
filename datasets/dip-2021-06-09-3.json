@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-06-09-3",
+ "title": "COVID-19 and fiscal accountability",
+ "hook": "The International Budget Partnership has published an assessment of accountability in the emergency fiscal policies that 120 governments introduced between March and September 2020.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "internationalbudget.org",
+   "url": "https://www.internationalbudget.org/"
+  },
+  {
+   "name": "internationalbudget.org",
+   "url": "https://internationalbudget.org/covid/"
+  },
+  {
+   "name": "internationalbudget.org",
+   "url": "https://www.internationalbudget.org/open-budget-survey/about"
+  },
+  {
+   "name": "survey.internationalbudget.org",
+   "url": "https://survey.internationalbudget.org"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-09",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "internationalbudget.org",
+  "host": "internationalbudget.org"
+ }
+}

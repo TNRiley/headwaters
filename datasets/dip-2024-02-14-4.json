@@ -1,0 +1,35 @@
+{
+ "id": "dip-2024-02-14-4",
+ "title": "Nursing home prices",
+ "hook": "Between December 2020 and March 2022, SeniorLiving.org researchers “attempted to contact 7,221 US senior facilities by telephone to obtain availability and service pricing.” The team got at least some pricing data for 3,000+ of the facilities.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "seniorliving.org",
+   "url": "https://www.seniorliving.org/research/open-data-project/"
+  },
+  {
+   "name": "cms.gov",
+   "url": "https://data.cms.gov/provider-compliance/cost-report/skilled-nursing-facility-cost-report"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-02-14",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-02-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "seniorliving.org",
+  "host": "seniorliving.org"
+ }
+}

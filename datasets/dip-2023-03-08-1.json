@@ -1,0 +1,69 @@
+{
+ "id": "dip-2023-03-08-1",
+ "title": "Government contracting data, cataloged",
+ "hook": "The nonprofit Open Contracting Partnership has launched a registry of government procurement datasets that use its Open Contracting Data Standard (featured in DIP 2020.02.26).",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "open-contracting.org",
+   "url": "https://www.open-contracting.org/about/"
+  },
+  {
+   "name": "open-contracting.org",
+   "url": "https://www.open-contracting.org/2023/02/23/a-new-registry-for-open-contracting-data/"
+  },
+  {
+   "name": "open-contracting.org",
+   "url": "https://data.open-contracting.org/en/"
+  },
+  {
+   "name": "open-contracting.org",
+   "url": "https://www.open-contracting.org/data-standard/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-02-26-edition/"
+  },
+  {
+   "name": "open-contracting.org",
+   "url": "https://data.open-contracting.org/en/publication/18"
+  },
+  {
+   "name": "open-contracting.org",
+   "url": "https://data.open-contracting.org/en/publication/17"
+  },
+  {
+   "name": "open-contracting.org",
+   "url": "https://data.open-contracting.org/en/publication/3"
+  },
+  {
+   "name": "open-contracting.org",
+   "url": "https://data.open-contracting.org/en/search/"
+  },
+  {
+   "name": "standard.open-contracting.org",
+   "url": "https://standard.open-contracting.org/latest/en/schema/reference/#release-structure"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-08",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "open-contracting.org",
+  "host": "open-contracting.org"
+ }
+}

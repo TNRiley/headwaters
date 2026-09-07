@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-05-15-5",
+ "title": "Los Angeles street trees",
+ "hook": "Journalist Matt Stiles has been using public records requests and official portals to compile data on 1.6 million street trees in 40+ Los Angeles County municipalities.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "mattstiles.me",
+   "url": "https://mattstiles.me/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/stiles/la-trees"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-09-07-edition/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-11-18-edition/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-08-08-edition/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-11-16-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-05-15",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-05-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mattstiles.me",
+  "host": "mattstiles.me"
+ }
+}

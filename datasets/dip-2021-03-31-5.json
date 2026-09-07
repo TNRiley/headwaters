@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-03-31-5",
+ "title": "Dried beans",
+ "hook": "Researchers at Turkey’s Selçuk University have built a computer vision program to measure and classify images of dried beans. Their dataset includes 13,611 specimens across seven varieties; for each, it reports the bean’s perimeter, axis lengths, roundness, and more. [h/t Meredith Broussard]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Sel%C3%A7uk_University"
+  },
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0168169919311573"
+  },
+  {
+   "name": "archive.ics.uci.edu",
+   "url": "https://archive.ics.uci.edu/ml/datasets/Dry+Bean+Dataset"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-03-31",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-03-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

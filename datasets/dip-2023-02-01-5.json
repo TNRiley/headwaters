@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-02-01-5",
+ "title": "More English football",
+ "hook": "Josh Fjelstul’s English Football Database “is a comprehensive database of football matches played in the Premier League and the English Football League from the inaugural season of the Football League (1888-89) through the most recent season (2021-22).” It records each season, team, match, and the standings table at the end of each season.",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "academic",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "joshuafjelstul.com",
+   "url": "http://www.joshuafjelstul.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jfjelstul/englishfootball"
+  },
+  {
+   "name": "curleylab.psych.columbia.edu",
+   "url": "http://curleylab.psych.columbia.edu/curley.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/jalapic/engsoccerdata"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2016-05-04-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-02-01",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-02-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "joshuafjelstul.com",
+  "host": "joshuafjelstul.com"
+ }
+}

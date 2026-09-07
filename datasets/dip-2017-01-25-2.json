@@ -1,0 +1,33 @@
+{
+ "id": "dip-2017-01-25-2",
+ "title": "Three centuries of UK macroeconomic data",
+ "hook": "The Bank of England publishes a spreadsheet of historical economic data going back, in some cases, to the late 1600s. The country’s GDP in 1700 was £11.7 billion in 2013 prices. That’s about 1/157th the size of the UK’s GDP in 2015. And in November 1694, monthly short-term interest rates were roughly 6%.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "other",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "bankofengland.co.uk",
+   "url": "http://www.bankofengland.co.uk/research/Pages/onebank/threecenturies.aspx"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-01-25",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-01-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bankofengland.co.uk",
+  "host": "bankofengland.co.uk"
+ }
+}

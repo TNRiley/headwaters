@@ -1,0 +1,50 @@
+{
+ "id": "dip-2021-04-21-3",
+ "title": "COVID-19 in incarceration, by facility",
+ "hook": "For more than a year, the New York Times collected data on \"coronavirus infections, deaths and testing for state and federal prisons; immigration detention centers; juvenile detention facilities; local, regional and reservation jails; and those in the custody of the U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/nytimes/covid-19-data/tree/master/prisons"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/nytimes/covid-19-data/blob/master/prisons/facilities.csv"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/themarshallproject/COVID_prison_data"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-05-06-edition/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2021/04/10/us/covid-prison-outbreak.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-21",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-06-07-3",
+ "title": "Firearm suicide rates",
+ "hook": "A recent paper (published in the American Journal of Preventive Medicine) and dataset by Megan Kang and Elizabeth Rasich “extends an existing proxy for household gun ownership rates — the rate of firearm suicide divided by suicide (FSS) — from 1949 to 2020, including new coverage for the 1949 to 1972 period.” For each…",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "papers.ssrn.com",
+   "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4453698"
+  },
+  {
+   "name": "ajpmonline.org",
+   "url": "https://www.ajpmonline.org/article/S0749-3797(23)00205-2/fulltext"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QVYDUD"
+  },
+  {
+   "name": "megankang.com",
+   "url": "https://www.megankang.com/"
+  },
+  {
+   "name": "linkedin.com",
+   "url": "https://www.linkedin.com/in/elizabeth-rasich-087b1a144/"
+  },
+  {
+   "name": "wonder.cdc.gov",
+   "url": "https://wonder.cdc.gov/"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://www.cdc.gov/injury/wisqars/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-06-07",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-06-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "papers.ssrn.com",
+  "host": "papers.ssrn.com"
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "dip-2024-01-24-1",
+ "title": "Police data metadata",
+ "hook": "The Police Data Accessibility Project is compiling a meta-dataset of police records: where to find them online, what time period they cover, how often they’re updated, and other characteristics.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "pdap.io",
+   "url": "https://pdap.io/"
+  },
+  {
+   "name": "pdap.io",
+   "url": "https://pdap.io/data"
+  },
+  {
+   "name": "data-sources.pdap.io",
+   "url": "https://data-sources.pdap.io/"
+  },
+  {
+   "name": "airtable.com",
+   "url": "https://airtable.com/app473MWXVJVaD7Es/shrUAtA8qYasEaepI/tblx8XaKnFTphWNQM"
+  },
+  {
+   "name": "airtable.com",
+   "url": "https://airtable.com/app473MWXVJVaD7Es/shr43ihbyM8DDkKx4/tblpnd3ei5SlibcCX"
+  },
+  {
+   "name": "vera.org",
+   "url": "https://www.vera.org/"
+  },
+  {
+   "name": "policetransparency.vera.org",
+   "url": "https://policetransparency.vera.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-01-24",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-01-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pdap.io",
+  "host": "pdap.io"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-02-03-1",
+ "title": "Private prisons",
+ "hook": "Political scientist Anna Gunderson has assembled a longitudinal dataset of private prisons at the federal, state, and local level through 2016.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "annagunderson.com",
+   "url": "https://www.annagunderson.com/home"
+  },
+  {
+   "name": "cambridge.org",
+   "url": "https://www.cambridge.org/core/journals/perspectives-on-politics/article/abs/why-do-states-privatize-their-prisons-the-unintended-consequences-of-inmate-litigation/AF814E16A605CA894D558AE72BEF65C9"
+  },
+  {
+   "name": "annagunderson.com",
+   "url": "https://www.annagunderson.com/data/private-prisons"
+  },
+  {
+   "name": "whitehouse.gov",
+   "url": "https://www.whitehouse.gov/briefing-room/presidential-actions/2021/01/26/executive-order-reforming-our-incarceration-system-to-eliminate-the-use-of-privately-operated-criminal-detention-facilities/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-02-03",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-02-03/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "annagunderson.com",
+  "host": "annagunderson.com"
+ }
+}

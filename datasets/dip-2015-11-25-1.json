@@ -1,0 +1,54 @@
+{
+ "id": "dip-2015-11-25-1",
+ "title": "Complaints against Chicago police",
+ "hook": "The newly-launched Citizens Police Data Project has collected more than 56,000 allegations of police misconduct. The data, covering 2002-2008 and 2011-2015, includes demographic information about the complainant and the officer, as well as the type and location of the incident. Click here to download the raw data.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cpdb.co",
+   "url": "http://cpdb.co/landing/"
+  },
+  {
+   "name": "cpdb.co",
+   "url": "http://cpdb.co/#!/data-tools/bVyoBL/citizens-police-data-project"
+  },
+  {
+   "name": "j.mp",
+   "url": "http://j.mp/chicagopolicemisconductdata"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/"
+  },
+  {
+   "name": "cityofchicago.org",
+   "url": "https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2"
+  }
+ ],
+ "articles": [
+  {
+   "name": "crime.chicagotribune.com",
+   "url": "http://crime.chicagotribune.com/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-11-25",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-11-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cpdb.co",
+  "host": "cpdb.co"
+ }
+}

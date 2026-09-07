@@ -1,0 +1,31 @@
+{
+ "id": "dip-2020-08-26-4",
+ "title": "National park trails",
+ "hook": "The US National Park Service publishes a dataset of 28,000+ lines describing “formal and informal trails as well as routes within and across” the park system. The dataset provides the trail names, types, surfaces, allowed uses, and more. [h/t u/torrijasycafe]",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "public-nps.opendata.arcgis.com",
+   "url": "https://public-nps.opendata.arcgis.com/datasets/nps-trails-geographic-coordinate-system-1"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-26",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "public-nps.opendata.arcgis.com",
+  "host": "public-nps.opendata.arcgis.com"
+ }
+}

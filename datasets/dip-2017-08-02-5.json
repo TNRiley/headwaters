@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-08-02-5",
+ "title": "Harmony lovers",
+ "hook": "The New York Philharmonic has published three spreadsheets listing its subscribers — including where they sat, how much they paid, and where they had their tickets sent — for a slew of orchestral seasons between 1883 and the late 1990s. The earliest data includes names, too. (“Miss A.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "archives.nyphil.org",
+   "url": "http://archives.nyphil.org/index.php/open-data"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-10-12-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-08-02",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-08-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "archives.nyphil.org",
+  "host": "archives.nyphil.org"
+ }
+}

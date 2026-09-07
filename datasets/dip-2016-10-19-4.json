@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-10-19-4",
+ "title": "8,675 farmers markets",
+ "hook": "The Department of Agriculture publishes a spreadsheet of farmers markets in the United States. For each market, the dataset notes its location, hours, and the types of goods available (e.g., vegetables, seafood, flowers, et cetera). [h/t Susie Lu]",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "catalog.data.gov",
+   "url": "https://catalog.data.gov/dataset/farmers-markets-geographic-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-19",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "catalog.data.gov",
+  "host": "catalog.data.gov"
+ }
+}

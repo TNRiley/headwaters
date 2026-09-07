@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-05-04-4",
+ "title": "NC corporate landlords",
+ "hook": "At least 40,000 single-family homes in North Carolina are owned by only roughly 20 investment corporations, according to a new investigation by The News & Observer and The Charlotte Observer. In some neighborhoods, the companies own one-fifth of all such homes.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "newsobserver.com",
+   "url": "https://www.newsobserver.com/topics/security_for_sale"
+  },
+  {
+   "name": "charlotteobserver.com",
+   "url": "https://www.charlotteobserver.com/topics/security_for_sale"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/mcclatchy-southeast/security_for_sale"
+  },
+  {
+   "name": "nconemap.gov",
+   "url": "https://www.nconemap.gov/pages/parcels"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-04",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "newsobserver.com",
+  "host": "newsobserver.com"
+ }
+}

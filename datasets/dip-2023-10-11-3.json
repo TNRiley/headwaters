@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-10-11-3",
+ "title": "Kia/Hyundai thefts",
+ "hook": "“Cities around the U.S. are facing a staggering new normal when it comes to stolen cars,” writes Motherboard reporter Aaron Gordon, who has been digging into the boom in thefts of Kia and Hyundai vehicles, millions of which lack “engine immobilizers, a basic anti-theft device that is legally mandated in Canada and Europe.” Gordon has requested car theft data from more than 100 cities, and received it from 43 so far.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "vice.com",
+   "url": "https://www.vice.com/en/article/pkaq9z/us-cities-have-a-staggering-problem-of-kia-and-hyundai-thefts-this-data-shows-it"
+  },
+  {
+   "name": "aaronwgordon.com",
+   "url": "https://aaronwgordon.com/"
+  },
+  {
+   "name": "vice.com",
+   "url": "https://www.vice.com/en/article/jg5b8d/what-its-like-to-own-the-cars-that-became-a-viral-sensation-to-steal"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/1-6614t_Ata5k7oESrm-HAdF1uOe8aPGRaQECl44GYeE/edit#gid=0"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/data-projects/car-thefts"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-10-11",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-10-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "vice.com",
+  "host": "vice.com"
+ }
+}

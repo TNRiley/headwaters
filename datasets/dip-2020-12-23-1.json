@@ -1,0 +1,61 @@
+{
+ "id": "dip-2020-12-23-1",
+ "title": "Vaccine doses",
+ "hook": "Our World in Data is tracking the number of COVID-19 vaccine doses administered per country, compiling their dataset from a range of government sources, including press releases and ministers’ tweets.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ourworldindata.org",
+   "url": "https://ourworldindata.org"
+  },
+  {
+   "name": "ourworldindata.org",
+   "url": "https://ourworldindata.org/covid-vaccinations"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations"
+  },
+  {
+   "name": "gov.il",
+   "url": "https://www.gov.il/en/departments/news/22122020-01"
+  },
+  {
+   "name": "covid.cdc.gov",
+   "url": "https://covid.cdc.gov/covid-data-tracker/#vaccinations"
+  },
+  {
+   "name": "hhs.gov",
+   "url": "https://www.hhs.gov/coronavirus/covid-19-vaccines/distribution/index.html"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/saz5-9hgg"
+  },
+  {
+   "name": "cdc.gov",
+   "url": "https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/b7pe-5nws"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-12-23",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-12-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Our World in Data",
+  "host": "ourworldindata.org"
+ }
+}

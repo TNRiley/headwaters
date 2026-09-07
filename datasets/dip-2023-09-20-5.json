@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-09-20-5",
+ "title": "Bug shots",
+ "hook": "Zahra Gharaee et al.’s BIOSCAN-1M Insect Dataset contains one million microscope photographs of bugs, each taxonomically classified by experts and supplemented with raw DNA sequences and genetic “barcode” identifiers.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2307.10455"
+  },
+  {
+   "name": "biodiversitygenomics.net",
+   "url": "https://biodiversitygenomics.net/1M_insects/"
+  },
+  {
+   "name": "boldsystems.org",
+   "url": "http://www.boldsystems.org/"
+  },
+  {
+   "name": "ibol.org",
+   "url": "https://ibol.org/bioscan/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Malaise_trap"
+  },
+  {
+   "name": "datadryad.org",
+   "url": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.gq73493"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-03-04-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-20",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arxiv.org",
+  "host": "arxiv.org"
+ }
+}

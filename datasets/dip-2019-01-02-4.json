@@ -1,0 +1,49 @@
+{
+ "id": "dip-2019-01-02-4",
+ "title": "Ocean noises",
+ "hook": "The UK Marine Noise Registry tracks “human activities in UK seas that produce loud, low to medium frequency (10Hz – 10kHz) impulsive noise” — including pile-driving, explosives, military sonar, and “acoustic deterrent devices.” For each of the UK’s oil and gas licensing blocks, the registry’s published data counts the number of days that a given type of impulsive noise was generated.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "jncc.defra.gov.uk",
+   "url": "http://jncc.defra.gov.uk/page-7070"
+  },
+  {
+   "name": "ogauthority.co.uk",
+   "url": "https://www.ogauthority.co.uk/data-centre/data-downloads-and-publications/licence-data/"
+  },
+  {
+   "name": "data.gov.uk",
+   "url": "https://data.gov.uk/search?q=%22Marine+Noise+Registry%22&filters%5Bpublisher%5D=Joint+Nature+Conservation+Committee&filters%5Btopic%5D=&filters%5Bformat%5D=&sort=recent"
+  },
+  {
+   "name": "owenboswarva.com",
+   "url": "https://www.owenboswarva.com/"
+  },
+  {
+   "name": "datadaptive.com",
+   "url": "https://www.datadaptive.com/mnr/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-02",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "jncc.defra.gov.uk",
+  "host": "jncc.defra.gov.uk"
+ }
+}

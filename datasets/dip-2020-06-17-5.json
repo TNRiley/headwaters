@@ -1,0 +1,61 @@
+{
+ "id": "dip-2020-06-17-5",
+ "title": "A few hundred penguins",
+ "hook": "Data educator Allison Horst earlier this month released a dataset describing the physical characteristics of 344 Antarctic penguins, derived from data collected by marine biologist Kristen Gorman and the Palmer Station.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "allisonhorst.com",
+   "url": "https://www.allisonhorst.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/allisonhorst/palmerpenguins/blob/master/data-raw/penguins_raw.csv"
+  },
+  {
+   "name": "uaf.edu",
+   "url": "https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php"
+  },
+  {
+   "name": "pal.lternet.edu",
+   "url": "https://pal.lternet.edu/"
+  },
+  {
+   "name": "allisonhorst.github.io",
+   "url": "https://allisonhorst.github.io/palmerpenguins/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Iris_flower_data_set"
+  },
+  {
+   "name": "penguinmap.com",
+   "url": "http://www.penguinmap.com/mapppd"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2020-03-11-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-06-17",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-06-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "allisonhorst.com",
+  "host": "allisonhorst.com"
+ }
+}

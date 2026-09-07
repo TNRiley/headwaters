@@ -1,0 +1,41 @@
+{
+ "id": "dip-2019-06-26-1",
+ "title": "Space imagery",
+ "hook": "You can browse NASA’s Image and Video Library online; you can also access it via NASA’s API. Through that interface, you can search by caption, keyword, location, photographer, year created, and other fields; in return, you get structured data on each media file.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "images.nasa.gov",
+   "url": "https://images.nasa.gov/"
+  },
+  {
+   "name": "nasa.gov",
+   "url": "https://api.nasa.gov/api.html#Images"
+  },
+  {
+   "name": "nasa.gov",
+   "url": "https://www.nasa.gov/press-release/nasa-unveils-new-searchable-video-audio-and-imagery-library-for-the-public"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-06-26",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-06-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "images.nasa.gov",
+  "host": "images.nasa.gov"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "dip-2021-06-02-3",
+ "title": "More police misconduct complaints",
+ "hook": "The New York Civil Liberties Union has updated its NYPD misconduct complaint database to include “the race or ethnicity of the impacted person and officer, incident location, current employment status of the officer, and other data,” and to remove duplicates in the original records obtained from the city.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nyclu.org",
+   "url": "https://www.nyclu.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/new-york-civil-liberties-union/NYPD-Misconduct-Complaint-Database-Updated"
+  },
+  {
+   "name": "opendataphilly.org",
+   "url": "https://www.opendataphilly.org/dataset/police-complaints"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-07-29-edition/"
+  },
+  {
+   "name": "cpdp.co",
+   "url": "https://cpdp.co/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2015-11-25-edition/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Financial-Times/police-misconduct-complaints-analysis"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.propublica.org",
+   "url": "https://projects.propublica.org/nypd-ccrb/"
+  },
+  {
+   "name": "ft.com",
+   "url": "https://www.ft.com/content/141182fc-7727-4af8-a555-5418fa46d09e"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-06-02",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-06-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nyclu.org",
+  "host": "nyclu.org"
+ }
+}

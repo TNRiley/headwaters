@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-04-25-2",
+ "title": "America’s roads",
+ "hook": "The federal Highway Performance Monitoring System “includes inventory information for all of the Nation's public roads as certified by the States’ Governors annually.” And it’s not just highways: “All roads open to public travel are reported in HPMS regardless of ownership, including Federal, State, county, city, and privately owned roads such as toll facilities.” Shapefiles representing the HPMS data are available for 2011–2015.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fhwa.dot.gov",
+   "url": "https://www.fhwa.dot.gov/policyinformation/hpms/fieldmanual/page01.cfm"
+  },
+  {
+   "name": "fhwa.dot.gov",
+   "url": "https://www.fhwa.dot.gov/policyinformation/hpms/shapefiles.cfm"
+  },
+  {
+   "name": "fhwa.dot.gov",
+   "url": "https://www.fhwa.dot.gov/policyinformation/hpms/fieldmanual/page00.cfm"
+  },
+  {
+   "name": "geotab.com",
+   "url": "https://www.geotab.com/americas-quietest-routes/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-04-25",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-04-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Federal Highway Administration",
+  "host": "fhwa.dot.gov"
+ }
+}

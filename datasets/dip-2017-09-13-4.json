@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-09-13-4",
+ "title": "SEC server logs",
+ "hook": "When companies file reports to the U.S. Securities and Exchange Commission, they do so through the SEC’s EDGAR system. The SEC makes those filings available online, and it uses EDGAR’s server logs to analyze web traffic to the site.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "sec.gov",
+   "url": "https://www.sec.gov/edgar.shtml"
+  },
+  {
+   "name": "sec.gov",
+   "url": "https://www.sec.gov/data/edgar-log-file-data-set.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-09-13",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-09-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sec.gov",
+  "host": "sec.gov"
+ }
+}

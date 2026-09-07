@@ -1,0 +1,65 @@
+{
+ "id": "dip-2022-04-06-1",
+ "title": "COVID-19 therapeutics",
+ "hook": "The US Department of Health & Human Services’ COVID-19 Therapeutics Locator tracks which pharmacies, hospitals, and other facilities have received government-procured COVID-19 drugs, and how much they have left.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "covid-19-therapeutics-locator-dhhs.hub.arcgis.com",
+   "url": "https://covid-19-therapeutics-locator-dhhs.hub.arcgis.com/"
+  },
+  {
+   "name": "aspr.hhs.gov",
+   "url": "https://aspr.hhs.gov/COVID-19/Therapeutics/Products/Evusheld/Pages/default.aspx"
+  },
+  {
+   "name": "aspr.hhs.gov",
+   "url": "https://aspr.hhs.gov/COVID-19/Therapeutics/Products/Bebtelovimab/Pages/default.aspx"
+  },
+  {
+   "name": "phe.gov",
+   "url": "https://www.phe.gov/emergency/events/COVID19/investigation-MCM/molnupiravir/Pages/default.aspx"
+  },
+  {
+   "name": "phe.gov",
+   "url": "https://www.phe.gov/emergency/events/COVID19/investigation-MCM/Paxlovid/Pages/default.aspx"
+  },
+  {
+   "name": "phe.gov",
+   "url": "https://www.phe.gov/emergency/events/COVID19/investigation-MCM/Sotrovimab/Pages/default.aspx"
+  },
+  {
+   "name": "healthdata.gov",
+   "url": "https://healthdata.gov/Health/COVID-19-Public-Therapeutic-Locator/rxn6-qnx8/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/rrelyea"
+  },
+  {
+   "name": "rrelyea.github.io",
+   "url": "https://rrelyea.github.io/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-04-06",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-04-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "covid-19-therapeutics-locator-dhhs.hub.arcgis.com",
+  "host": "covid-19-therapeutics-locator-dhhs.hub.arcgis.com"
+ }
+}

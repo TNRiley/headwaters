@@ -1,0 +1,39 @@
+{
+ "id": "dip-2016-07-06-1",
+ "title": "Public Policy",
+ "hook": "The Correlates of State Policy Project aims to become a “one-stop shop” for data related to public policy in America’s 50 states. So far, the project is tracking 700+ aspects of each state’s laws, budgets, demographics, and more.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ippsr.msu.edu",
+   "url": "http://ippsr.msu.edu/public-policy/correlates-state-policy"
+  },
+  {
+   "name": "matthewg.org",
+   "url": "http://www.matthewg.org/correlatesofstatepolicyprojectv1Codebook.pdf"
+  },
+  {
+   "name": "statepolicyindex.com",
+   "url": "http://www.statepolicyindex.com/about/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-06",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ippsr.msu.edu",
+  "host": "ippsr.msu.edu"
+ }
+}

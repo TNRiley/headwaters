@@ -1,0 +1,31 @@
+{
+ "id": "dip-2015-12-02-2",
+ "title": "Mass shootings in America",
+ "hook": "ShootingTracker.com provides datasets listing all U.S. mass shootings — defined as “when four or more people are shot in an event, or related series of events” — since 2013. So far in 2015, mass shootings have killed 447 people and wounded an additional 1,292.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "shootingtracker.com",
+   "url": "http://shootingtracker.com/wiki/Main_Page"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-02",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "shootingtracker.com",
+  "host": "shootingtracker.com"
+ }
+}

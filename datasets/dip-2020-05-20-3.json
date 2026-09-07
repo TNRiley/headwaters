@@ -1,0 +1,42 @@
+{
+ "id": "dip-2020-05-20-3",
+ "title": "US forests",
+ "hook": "The US Department of Agriculture’s National Forest Type Dataset shows the geographic distribution of the country’s “forest types” — defined as ”logical ecological groupings of species mixes.” (Examples include “deciduous oak woodland” and “subalpine fir.”) To estimate the extent of each forest type, the dataset’s…",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fs.usda.gov",
+   "url": "https://data.fs.usda.gov/geodata/rastergateway/forest_type/"
+  },
+  {
+   "name": "wapo.st",
+   "url": "https://wapo.st/peep-these-leaves"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/nation/2019/12/12/where-christmas-trees-come/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-20",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fs.usda.gov",
+  "host": "fs.usda.gov"
+ }
+}

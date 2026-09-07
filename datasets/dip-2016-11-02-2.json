@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-11-02-2",
+ "title": "Where we live and build",
+ "hook": "The European Commission’s Global Human Settlement Layer combines satellite imagery and census data to measure three things: population, building density, and urban/rural classification.",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "ghslsys.jrc.ec.europa.eu",
+   "url": "http://ghslsys.jrc.ec.europa.eu/index.php"
+  },
+  {
+   "name": "ghslsys.jrc.ec.europa.eu",
+   "url": "http://ghslsys.jrc.ec.europa.eu/datasets.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-11-02",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-11-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ghslsys.jrc.ec.europa.eu",
+  "host": "ghslsys.jrc.ec.europa.eu"
+ }
+}

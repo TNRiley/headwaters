@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-04-08-1",
+ "title": "Pandemic-era economic policies",
+ "hook": "A group of researchers have built a structured dataset quantifying 166 countries’ economic responses to the COVID-19 pandemic. The dataset draws mainly from the International Monetary Fund’s COVID-19 Policy Tracker — which describes the policies in free-form text — and supplements it with additional research.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "web.boun.edu.tr",
+   "url": "http://web.boun.edu.tr/elgin/COVID.htm"
+  },
+  {
+   "name": "imf.org",
+   "url": "https://www.imf.org/en/Topics/imf-and-covid19/Policy-Responses-to-COVID-19"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-04-08",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-04-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "web.boun.edu.tr",
+  "host": "web.boun.edu.tr"
+ }
+}

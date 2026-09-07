@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-12-21-1",
+ "title": "The Affordable Care Act, quantified",
+ "hook": "Last week, the U.S. Department of Health and Human Services released a dataset of state-level Obamacare metrics. The dataset is divided into five main categories: coverage gains, employer coverage, individual market coverage, Medicaid, and Medicare.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "aspe.hhs.gov",
+   "url": "https://aspe.hhs.gov/compilation-state-data-affordable-care-act"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-12-21",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-12-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "aspe.hhs.gov",
+  "host": "aspe.hhs.gov"
+ }
+}

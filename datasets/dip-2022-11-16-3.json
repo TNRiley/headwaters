@@ -1,0 +1,41 @@
+{
+ "id": "dip-2022-11-16-3",
+ "title": "Permissively-licensed code",
+ "hook": "The Stack, a new dataset from the BigCode project, “contains over 3TB of permissively-licensed source code files covering 30 programming languages crawled from GitHub.” Those terabytes hold more than 300 million files extracted from repositories whose licenses place “minimal restrictions on how the software can be…",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "huggingface.co",
+   "url": "https://huggingface.co/datasets/bigcode/the-stack"
+  },
+  {
+   "name": "bigcode-project.org",
+   "url": "https://www.bigcode-project.org/"
+  },
+  {
+   "name": "ml4code.github.io",
+   "url": "https://ml4code.github.io/publications/kocetkov2022stack/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-16",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "huggingface.co",
+  "host": "huggingface.co"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-05-06-4",
+ "title": "Space dollars",
+ "hook": "The Planetary Science Budget Dataset “integrates the spending history, by year, of every NASA planetary science mission and related activities.” It also calculates funding by destination (e.g., Mars, Venus, the moon, etc.), and annual budget breakdowns for individual missions.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "planetary.org",
+   "url": "https://www.planetary.org/get-involved/be-a-space-advocate/become-an-expert/planetary-exploration-budget-dataset.html"
+  },
+  {
+   "name": "planetary.org",
+   "url": "https://www.planetary.org/about/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-05-06",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-05-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "planetary.org",
+  "host": "planetary.org"
+ }
+}

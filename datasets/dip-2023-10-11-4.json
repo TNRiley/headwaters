@@ -1,0 +1,57 @@
+{
+ "id": "dip-2023-10-11-4",
+ "title": "Michigan air permit violations",
+ "hook": "For local news organization Planet Detroit, freelance journalist Shelby Jouppi has built a daily-updating dashboard of air quality permit violations cited by Michigan’s Department of Environment, Great Lakes and Energy.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "planetdetroit.org",
+   "url": "https://planetdetroit.org/"
+  },
+  {
+   "name": "shelbyjouppi.com",
+   "url": "https://shelbyjouppi.com/"
+  },
+  {
+   "name": "planet-detroit.github.io",
+   "url": "https://planet-detroit.github.io/air-permit-violation-dashboard/"
+  },
+  {
+   "name": "michigan.gov",
+   "url": "https://www.michigan.gov/egle/about/organization/air-quality/air-permits"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/Planet-Detroit/air-permit-violation-dashboard/"
+  },
+  {
+   "name": "shelbyjouppi.com",
+   "url": "https://shelbyjouppi.com/egle-air-database/"
+  },
+  {
+   "name": "planetdetroit.org",
+   "url": "https://planetdetroit.org/2023/09/southwest-detroit-steel-slag-processor-edward-c-levy-receives-12th-air-quality-permit-violation-for-fallout-since-2018/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-10-11",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-10-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "planetdetroit.org",
+  "host": "planetdetroit.org"
+ }
+}

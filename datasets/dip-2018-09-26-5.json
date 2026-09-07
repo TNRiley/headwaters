@@ -1,0 +1,41 @@
+{
+ "id": "dip-2018-09-26-5",
+ "title": "Avocado prices",
+ "hook": "The Hass Avocado Board publishes weekly data on the retail volume and average price of Hass avocados sold in the United States, based on information collected “directly from retailers’ cash registers.” The data is available at the national and city level going back to 2015, distinguishes between conventional and organic avocados of various sizes.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "hassavocadoboard.com",
+   "url": "http://www.hassavocadoboard.com/retail/volume-and-price-data"
+  },
+  {
+   "name": "justinkiggins.com",
+   "url": "http://www.justinkiggins.com/"
+  },
+  {
+   "name": "kaggle.com",
+   "url": "https://www.kaggle.com/neuromusic/avocado-prices"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-09-26",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-09-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "hassavocadoboard.com",
+  "host": "hassavocadoboard.com"
+ }
+}

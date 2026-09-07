@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-09-13-3",
+ "title": "Prigozhin audio messages",
+ "hook": "Giorgio Comai has collected and auto-transcribed hundreds of audio messages from Russian mercenary leader Yevgeny Prigozhin, which were posted “on his official Telegram channel - the press service of his holding company” from late 2022 through June 2023.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "giorgiocomai.eu",
+   "url": "https://giorgiocomai.eu/"
+  },
+  {
+   "name": "tadadit.xyz",
+   "url": "https://tadadit.xyz/posts/2023-08-telegram_prigozhin/"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Yevgeny_Prigozhin"
+  },
+  {
+   "name": "tadadit.xyz",
+   "url": "https://tadadit.xyz/datasets/prigozhin_audio_files/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-09-13",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-09-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "giorgiocomai.eu",
+  "host": "giorgiocomai.eu"
+ }
+}

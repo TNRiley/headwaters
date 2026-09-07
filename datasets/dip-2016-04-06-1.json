@@ -1,0 +1,58 @@
+{
+ "id": "dip-2016-04-06-1",
+ "title": "Global bike-sharing",
+ "hook": "The citybik.es API provides access to live data on every bike-sharing station in more than 400 cities around the world. It’s free, and the underlying software is open-source.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "citybik.es",
+   "url": "http://api.citybik.es/v2/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/eskerda/pybikes"
+  },
+  {
+   "name": "citibikenyc.com",
+   "url": "https://www.citibikenyc.com/system-data"
+  },
+  {
+   "name": "divvybikes.com",
+   "url": "https://www.divvybikes.com/data"
+  },
+  {
+   "name": "capitalbikeshare.com",
+   "url": "https://www.capitalbikeshare.com/trip-history-data"
+  },
+  {
+   "name": "toddwschneider.com",
+   "url": "http://toddwschneider.com/posts/a-tale-of-twenty-two-million-citi-bikes-analyzing-the-nyc-bike-share-system/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "http://www.buzzfeed.com/jsvine/these-maps-show-a-massive-gender-gap-in-bicycle-riding"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-06",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "citybik.es",
+  "host": "citybik.es"
+ }
+}

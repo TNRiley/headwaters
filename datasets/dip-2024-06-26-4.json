@@ -1,0 +1,45 @@
+{
+ "id": "dip-2024-06-26-4",
+ "title": "Fish-spawning areas",
+ "hook": "Kimberly L. Oremus et al. have constructed a geospatial dataset that indicates the spawning locations and timing for 1,000+ saltwater fish in 2,900+ marine regions around the world.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-024-03348-3"
+  },
+  {
+   "name": "fishbase.mnhn.fr",
+   "url": "https://fishbase.mnhn.fr/home.php"
+  },
+  {
+   "name": "scrfa.org",
+   "url": "https://www.scrfa.org/database/"
+  },
+  {
+   "name": "scrfa.org",
+   "url": "https://www.scrfa.org/about/what-is-scfra/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-06-26",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-06-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

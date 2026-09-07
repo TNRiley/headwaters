@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-05-29-3",
+ "title": "Serbian anti-corruption proceedings",
+ "hook": "Postupci Protiv Funkcionera “is a unique database made by the Center for Investigative Reporting of Serbia, which gives citizens the opportunity to get information in one place about the processes conducted by the Serbian Anti-Corruption Agency against public officials in the period from 2010 to November 2018.” The…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "funkcioneri.cins.rs",
+   "url": "https://funkcioneri.cins.rs/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/CINSerbia/cins_funkcioneri"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/CINSerbia/cins_funkcioneri/tree/master/app/data"
+  },
+  {
+   "name": "mgimond.github.io",
+   "url": "https://mgimond.github.io/ES218/Week02b.html#reading_from_a_r_data_file"
+  },
+  {
+   "name": "datajournalismawards.org",
+   "url": "https://datajournalismawards.org/projects/database-on-proceedings-against-public-officials/"
+  },
+  {
+   "name": "datajournalismawards.org",
+   "url": "https://datajournalismawards.org/2019-shortlist/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-29",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-29/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "funkcioneri.cins.rs",
+  "host": "funkcioneri.cins.rs"
+ }
+}

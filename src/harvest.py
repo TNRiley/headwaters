@@ -160,7 +160,10 @@ def main(argv):
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--feed", choices=list(FEEDS) + ["all"], default="all")
-    ap.add_argument("--list", dest="want", choices=["new", "catalogued", "rejected", "all"])
+    ap.add_argument("--list", dest="want",
+                    choices=["new", "catalogued", "ingested", "rejected", "all"],
+                    help="ingested = it is a dataset record; catalogued = it is a "
+                         "source record with probes. They are different claims.")
     ap.add_argument("--mark", nargs=2, metavar=("LEAD_ID", "STATE"))
     args = ap.parse_args(argv)
     db = load_leads()

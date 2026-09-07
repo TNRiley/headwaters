@@ -1,0 +1,49 @@
+{
+ "id": "dip-2025-02-26-5",
+ "title": "Chord progressions",
+ "hook": "Spyridon Kantarelis et al. have created CHORDONOMICON, a dataset identifying the progressions of 51 million chords in 667,000+ songs. The dataset is based on tablatures from the website Ultimate Guitar and then “annotated with structural parts, genre, and release date”.",
+ "hook_source": "publisher",
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2410.22046v1"
+  },
+  {
+   "name": "huggingface.co",
+   "url": "https://huggingface.co/datasets/ailsntua/Chordonomicon"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Tablature"
+  },
+  {
+   "name": "ultimate-guitar.com",
+   "url": "https://www.ultimate-guitar.com/"
+  },
+  {
+   "name": "developer.spotify.com",
+   "url": "https://developer.spotify.com/documentation/web-api/concepts/spotify-uris-ids"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2025-02-26",
+   "year": 2025,
+   "url": "https://www.data-is-plural.com/archive/2025-02-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arxiv.org",
+  "host": "arxiv.org"
+ }
+}

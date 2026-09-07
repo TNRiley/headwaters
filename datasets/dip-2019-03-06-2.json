@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-03-06-2",
+ "title": "Crops",
+ "hook": "The U.S. Department of Agriculture’s CropScape website provides interactive access to the agency’s Cropland Data Layer — “a raster, geo-referenced, crop-specific land cover data layer created annually for the continental United States using moderate resolution satellite imagery and extensive agricultural ground…",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "nassgeodata.gmu.edu",
+   "url": "https://nassgeodata.gmu.edu/CropScape/"
+  },
+  {
+   "name": "nass.usda.gov",
+   "url": "https://www.nass.usda.gov/Research_and_Science/Cropland/SARS1a.php"
+  },
+  {
+   "name": "nass.usda.gov",
+   "url": "https://www.nass.usda.gov/Research_and_Science/Cropland/sarsfaqs2.php"
+  },
+  {
+   "name": "nass.usda.gov",
+   "url": "https://www.nass.usda.gov/Research_and_Science/Cropland/Release/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-06",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nassgeodata.gmu.edu",
+  "host": "nassgeodata.gmu.edu"
+ }
+}

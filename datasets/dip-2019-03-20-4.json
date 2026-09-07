@@ -1,0 +1,53 @@
+{
+ "id": "dip-2019-03-20-4",
+ "title": "Internet scans",
+ "hook": "Security firm Rapid7’s Project Sonar “conducts internet-wide surveys across more than 70 different services and protocols to gain insights into global exposure to common vulnerabilities.” Much of the data (on DNS responses, SSL certificates, and more) can be bulk-downloaded through the company’s open data portal without an account, and historical data and the most-current data are available with a free account.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "rapid7.com",
+   "url": "https://www.rapid7.com/research/project-sonar/"
+  },
+  {
+   "name": "opendata.rapid7.com",
+   "url": "https://opendata.rapid7.com/sonar.fdns_v2/"
+  },
+  {
+   "name": "opendata.rapid7.com",
+   "url": "https://opendata.rapid7.com/sonar.ssl/"
+  },
+  {
+   "name": "opendata.rapid7.com",
+   "url": "https://opendata.rapid7.com/"
+  },
+  {
+   "name": "0xpatrik.com",
+   "url": "https://0xpatrik.com/project-sonar-guide/"
+  },
+  {
+   "name": "blog.rapid7.com",
+   "url": "https://blog.rapid7.com/2019/02/13/level-up-your-internet-intelligence-using-the-rapid7-open-data-api-and-r/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-03-20",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-03-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rapid7.com",
+  "host": "rapid7.com"
+ }
+}

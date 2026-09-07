@@ -1,0 +1,38 @@
+{
+ "id": "dip-2017-11-08-4",
+ "title": "Indian movie theaters",
+ "hook": "Over at BuzzFeed India, Harsha Devulapalli and Janak Jain have crowned Hyderabad the best city in India for going to the movies, based on their analysis of nearly 600 theaters in eight major cities.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/HarshaDevulapalli/indian-movie-theatres"
+  }
+ ],
+ "articles": [
+  {
+   "name": "buzzfeed.com",
+   "url": "https://www.buzzfeed.com/harshadevulapalli/whats-the-best-city-in-india-to-watch-a-movie"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-11-08",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-11-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

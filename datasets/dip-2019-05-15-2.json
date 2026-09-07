@@ -1,0 +1,44 @@
+{
+ "id": "dip-2019-05-15-2",
+ "title": "Populism",
+ "hook": "Team Populism is an initiative that “brings together renowned scholars from Europe and the Americas to study the causes and consequences” of the titular political style.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "populism.byu.edu",
+   "url": "http://populism.byu.edu/"
+  },
+  {
+   "name": "populism.byu.edu",
+   "url": "http://populism.byu.edu/Pages/Data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/world/ng-interactive/2019/mar/06/revealed-the-rise-and-rise-of-populist-rhetoric"
+  },
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/world/2019/mar/06/how-we-combed-leaders-speeches-to-gauge-populist-rise"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-05-15",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-05-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "populism.byu.edu",
+  "host": "populism.byu.edu"
+ }
+}

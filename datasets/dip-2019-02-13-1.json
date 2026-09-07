@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-02-13-1",
+ "title": "The Census, but for forests",
+ "hook": "The U.S. Forest Service’s Forest Inventory and Analysis program tracks “trends in forest area and location; in the species, size, and health of trees; in total tree growth, mortality, and removals by harvest; in wood production and utilization rates by various products; and in forest land ownership.” It also “serves…",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fia.fs.fed.us",
+   "url": "https://www.fia.fs.fed.us/"
+  },
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata2018303?WT.ec_id=SDATA-201901"
+  },
+  {
+   "name": "apps.fs.usda.gov",
+   "url": "https://apps.fs.usda.gov/fia/datamart/datamart.html"
+  },
+  {
+   "name": "fia.fs.fed.us",
+   "url": "https://www.fia.fs.fed.us/library/database-documentation/index.php"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-02-13",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-02-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fia.fs.fed.us",
+  "host": "fia.fs.fed.us"
+ }
+}

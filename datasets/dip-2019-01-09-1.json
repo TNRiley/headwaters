@@ -1,0 +1,39 @@
+{
+ "id": "dip-2019-01-09-1",
+ "title": "The kids these days — and four decades ago",
+ "hook": "Monitoring the Future surveys approximately 50,000 eighth-, tenth-, and twelfth-grade students in the U.S. each year. The project, which is funded by the National Institute on Drug Abuse, has been running since 1975.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "monitoringthefuture.org",
+   "url": "http://www.monitoringthefuture.org/"
+  },
+  {
+   "name": "monitoringthefuture.org",
+   "url": "http://www.monitoringthefuture.org/purpose.html"
+  },
+  {
+   "name": "icpsr.umich.edu",
+   "url": "https://www.icpsr.umich.edu/icpsrweb/NAHDAP/series/35?start=0&SERIESQ=35&ARCHIVE=NAHDAP&sort=DATEUPDATED%20desc&rows=50"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-01-09",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-01-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "monitoringthefuture.org",
+  "host": "monitoringthefuture.org"
+ }
+}

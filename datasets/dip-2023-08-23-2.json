@@ -1,0 +1,49 @@
+{
+ "id": "dip-2023-08-23-2",
+ "title": "SSVF satisfaction surveys",
+ "hook": "The Veterans Administration’s Supportive Services for Veteran Families program aims to “to promote housing stability among very low-income Veteran families who reside in or are transitioning to permanent housing.” The VA outsources those services to a network of 200+ selected nonprofits, which it grants hundreds of millions of dollars per year.",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "va.gov",
+   "url": "https://www.va.gov/homeless/ssvf/index.html"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/requests/ssvf-satisfaction-surveys/"
+  },
+  {
+   "name": "data-liberation-project.org",
+   "url": "https://www.data-liberation-project.org/datasets/va-ssvf-survey-data/"
+  },
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/document/d/1unanFEUnBDVBMK9pmpb0EVvRlpB-jtRC6gwlXSN-If4/edit"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-08-23",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-08-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "va.gov",
+  "host": "va.gov"
+ }
+}

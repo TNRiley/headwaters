@@ -1,0 +1,46 @@
+{
+ "id": "dip-2023-01-04-5",
+ "title": "One billionaire’s donations",
+ "hook": "Last month, billionaire MacKenzie Scott unveiled a website for her philanthropic efforts. It features a downloadable table that lists 1,600+ donations doled out since 2019, with each gift’s year, amount (replaced with “disclosure delayed for benefit of recipient” for 28% of entries), and recipient organization.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/MacKenzie_Scott"
+  },
+  {
+   "name": "yieldgiving.com",
+   "url": "https://yieldgiving.com/"
+  },
+  {
+   "name": "yieldgiving.com",
+   "url": "https://yieldgiving.com/gifts/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theguardian.com",
+   "url": "https://www.theguardian.com/society/2022/dec/15/mackenzie-scott-billionaire-donations-non-profits"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-01-04",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-01-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

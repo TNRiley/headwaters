@@ -1,0 +1,31 @@
+{
+ "id": "dip-2017-11-01-2",
+ "title": "High-profile sexual assault timelines",
+ "hook": "Rebecca Zisser and Lazaro Gamio at Axios have compiled a timeline of alleged sexual assaults by Harvey Weinstein, Bill O'Reilly, Roger Ailes, Donald Trump, and Bill Cosby. For each of the 140+ cases recorded as of Oct.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "google.com",
+   "url": "https://docs.google.com/spreadsheets/d/10CWJHTzvGtkQgyz5bdkolz1KeZLqq7sYqNA3zQaPlYo/view#gid=1175970372"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-11-01",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-11-01/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "google.com",
+  "host": "google.com"
+ }
+}

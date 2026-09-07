@@ -1,0 +1,58 @@
+{
+ "id": "dip-2017-09-27-1",
+ "title": "Easier-to-use crime data",
+ "hook": "Earlier this month, the FBI and 18F released the first iteration of their Crime Data Explorer, a website that simplifies access to the FBI’s Uniform Crime Reporting program.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "18f.gsa.gov",
+   "url": "https://18f.gsa.gov/2017/09/07/opening-the-nations-crime-data/"
+  },
+  {
+   "name": "crime-data-explorer.fr.cloud.gov",
+   "url": "https://crime-data-explorer.fr.cloud.gov/"
+  },
+  {
+   "name": "ucr.fbi.gov",
+   "url": "https://ucr.fbi.gov/ucr-program-data-collections"
+  },
+  {
+   "name": "crime-data-explorer.fr.cloud.gov",
+   "url": "https://crime-data-explorer.fr.cloud.gov/downloads-and-docs"
+  },
+  {
+   "name": "crime-data-explorer.fr.cloud.gov",
+   "url": "https://crime-data-explorer.fr.cloud.gov/api"
+  },
+  {
+   "name": "ucr.fbi.gov",
+   "url": "https://ucr.fbi.gov/nibrs/2015/tables/data-tables"
+  }
+ ],
+ "articles": [
+  {
+   "name": "propublica.org",
+   "url": "https://www.propublica.org/article/hate-crimes-are-up-but-the-government-isnt-keeping-good-track-of-them"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-09-27",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-09-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "18f.gsa.gov",
+  "host": "18f.gsa.gov"
+ }
+}

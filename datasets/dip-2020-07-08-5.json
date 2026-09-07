@@ -1,0 +1,38 @@
+{
+ "id": "dip-2020-07-08-5",
+ "title": "Dungeons & Dragons dialogue",
+ "hook": "Microsoft researchers Revanth Rameshkumar and Peter Bailey have assembled the Critical Role Dungeons and Dragons Dataset, converting 159 transcripts of a popular, live-streamed role-playing show into structured information about 398,682 bits of dialogue. [h/t Lynn Cherny]",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language",
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "github.com",
+   "url": "https://github.com/RevanthRameshkumar/CRD3"
+  },
+  {
+   "name": "critrole.com",
+   "url": "https://critrole.com"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-07-08",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-07-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "github.com",
+  "host": "github.com"
+ }
+}

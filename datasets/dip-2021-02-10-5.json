@@ -1,0 +1,42 @@
+{
+ "id": "dip-2021-02-10-5",
+ "title": "Super Bowl ads",
+ "hook": "Journalists at FiveThirtyEight watched 233 Super Bowl ads run by 10 frequently-advertising brands between 2000 and 2020, drawing from superbowl-ads.com’s video archive. Then they categorized each ad according to seven specific questions, which included “Was it trying to be funny?” and “Did it include animals?”",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "journalism",
+ "geography": "",
+ "sources": [
+  {
+   "name": "superbowl-ads.com",
+   "url": "https://superbowl-ads.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/fivethirtyeight/superbowl-ads"
+  }
+ ],
+ "articles": [
+  {
+   "name": "projects.fivethirtyeight.com",
+   "url": "https://projects.fivethirtyeight.com/super-bowl-ads/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-02-10",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-02-10/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "superbowl-ads.com",
+  "host": "superbowl-ads.com"
+ }
+}

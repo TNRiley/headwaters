@@ -1,0 +1,33 @@
+{
+ "id": "dip-2017-09-20-2",
+ "title": "Post-disaster aerial imagery",
+ "hook": "After major natural disasters, NOAA’s National Geodetic Survey routinely collects detailed aerial photos of the affected areas. For each disaster — including Hurricane Harvey, Hurricane Irma, and a couple dozen others — you can download the full set of (georeferenced) images, by date and survey flight.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "storms.ngs.noaa.gov",
+   "url": "https://storms.ngs.noaa.gov/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-09-20",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-09-20/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "storms.ngs.noaa.gov",
+  "host": "storms.ngs.noaa.gov"
+ }
+}

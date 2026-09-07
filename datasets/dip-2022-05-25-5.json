@@ -1,0 +1,54 @@
+{
+ "id": "dip-2022-05-25-5",
+ "title": "Art Garfunkel’s library",
+ "hook": "The legendary folk singer’s official website includes a catalog of “every book Art has read since 1968.” It lists each book’s title, author, year published, month/year read, page count, and whether it was one of the musician’s favorites.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture",
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Art_Garfunkel"
+  },
+  {
+   "name": "artgarfunkel.com",
+   "url": "https://www.artgarfunkel.com/"
+  },
+  {
+   "name": "artgarfunkel.com",
+   "url": "https://www.artgarfunkel.com/library.html"
+  },
+  {
+   "name": "artgarfunkel.com",
+   "url": "https://www.artgarfunkel.com/books.html"
+  },
+  {
+   "name": "kaggle.com",
+   "url": "https://www.kaggle.com/chrico03"
+  },
+  {
+   "name": "kaggle.com",
+   "url": "https://www.kaggle.com/datasets/chrico03/art-garfunkels-library"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-05-25",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-05-25/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

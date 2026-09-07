@@ -1,0 +1,77 @@
+{
+ "id": "dip-2023-06-14-1",
+ "title": "Canadian wildfires",
+ "hook": "The Canadian Wildland Fire Information System monitors wildfires and fire-conducive conditions across the country. It publishes daily maps of its Fire Weather Index, satellite-detected hotspots, and fire intensity predictions, among other analyses.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "Canada",
+ "sources": [
+  {
+   "name": "cwfis.cfs.nrcan.gc.ca",
+   "url": "https://cwfis.cfs.nrcan.gc.ca/home"
+  },
+  {
+   "name": "cwfis.cfs.nrcan.gc.ca",
+   "url": "https://cwfis.cfs.nrcan.gc.ca/maps/fw?type=fwi"
+  },
+  {
+   "name": "cwfis.cfs.nrcan.gc.ca",
+   "url": "https://cwfis.cfs.nrcan.gc.ca/maps/fm3?type=tri"
+  },
+  {
+   "name": "cwfis.cfs.nrcan.gc.ca",
+   "url": "https://cwfis.cfs.nrcan.gc.ca/maps/fb"
+  },
+  {
+   "name": "cwfis.cfs.nrcan.gc.ca",
+   "url": "https://cwfis.cfs.nrcan.gc.ca/ha/nfdb"
+  },
+  {
+   "name": "cwfis.cfs.nrcan.gc.ca",
+   "url": "https://cwfis.cfs.nrcan.gc.ca/datamart"
+  },
+  {
+   "name": "cwfis.cfs.nrcan.gc.ca",
+   "url": "https://cwfis.cfs.nrcan.gc.ca/datamart/metadata/nbac"
+  },
+  {
+   "name": "cwfis.cfs.nrcan.gc.ca",
+   "url": "https://cwfis.cfs.nrcan.gc.ca/datamart/metadata/activefires"
+  },
+  {
+   "name": "ciffc.ca",
+   "url": "https://www.ciffc.ca/"
+  },
+  {
+   "name": "ciffc.net",
+   "url": "https://ciffc.net/"
+  },
+  {
+   "name": "gwis.jrc.ec.europa.eu",
+   "url": "https://gwis.jrc.ec.europa.eu/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-07-27-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-06-14",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-06-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cwfis.cfs.nrcan.gc.ca",
+  "host": "cwfis.cfs.nrcan.gc.ca"
+ }
+}

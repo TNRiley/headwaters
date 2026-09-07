@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-11-16-2",
+ "title": "Disease outbreaks",
+ "hook": "Juan Armando Torres Munguía et al. have built a dataset of infectious disease outbreaks, based on information extracted from the World Health Organization’s Disease Outbreak News alerts (DIP 2022.03.30) and its coronavirus dashboard.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/s41597-022-01797-2"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/dataset/A_global_dataset_of_pandemic-_and_epidemic-prone_disease_outbreaks/17207183/2"
+  },
+  {
+   "name": "who.int",
+   "url": "https://www.who.int/emergencies/disease-outbreak-news"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-03-30-edition/"
+  },
+  {
+   "name": "covid19.who.int",
+   "url": "https://covid19.who.int/"
+  },
+  {
+   "name": "icd.who.int",
+   "url": "https://icd.who.int/browse10/2019/en"
+  },
+  {
+   "name": "icd.who.int",
+   "url": "https://icd.who.int/browse11/l-m/en"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-16",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

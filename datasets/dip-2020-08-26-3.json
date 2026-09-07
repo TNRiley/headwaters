@@ -1,0 +1,53 @@
+{
+ "id": "dip-2020-08-26-3",
+ "title": "Government publications",
+ "hook": "The US Government Publishing Office’s govinfo.gov provides online access to a wide range of official federal publications — including bulk downloads of congressional bills, the Federal Register, the Code of Federal Regulations, and more.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "govinfo.gov",
+   "url": "https://www.govinfo.gov/"
+  },
+  {
+   "name": "govinfo.gov",
+   "url": "https://www.govinfo.gov/bulkdata"
+  },
+  {
+   "name": "govinfo.gov",
+   "url": "https://www.govinfo.gov/app/collection/bills"
+  },
+  {
+   "name": "govinfo.gov",
+   "url": "https://www.govinfo.gov/app/collection/fr"
+  },
+  {
+   "name": "govinfo.gov",
+   "url": "https://www.govinfo.gov/app/collection/cfr"
+  },
+  {
+   "name": "govinfo.gov",
+   "url": "https://www.govinfo.gov/sitemaps"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-08-26",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-08-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "govinfo.gov",
+  "host": "govinfo.gov"
+ }
+}

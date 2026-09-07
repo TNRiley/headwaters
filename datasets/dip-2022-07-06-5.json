@@ -1,0 +1,53 @@
+{
+ "id": "dip-2022-07-06-5",
+ "title": "Saturday Night Live",
+ "hook": "Joel Navaroli’s snlarchives.net aims to catalog and cross-reference every episode, cast member, host, character, sketch, impression, and other aspects of Saturday Night Live’s 47-and-counting seasons.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "snlarchives.net",
+   "url": "http://www.snlarchives.net/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/hhllcks/snldb"
+  },
+  {
+   "name": "hhllcks.de",
+   "url": "https://www.hhllcks.de/"
+  },
+  {
+   "name": "colinmorris.github.io",
+   "url": "https://colinmorris.github.io/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/hhllcks/snldb/tree/master/output"
+  },
+  {
+   "name": "colinmorris.github.io",
+   "url": "https://colinmorris.github.io/blog/snl-sketch-gender"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-06",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "snlarchives.net",
+  "host": "snlarchives.net"
+ }
+}

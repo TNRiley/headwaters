@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-04-27-5",
+ "title": "A long time ago, in an API far, far away",
+ "hook": "The Star Wars API provides programmatic access to data about every character, species, spaceship, planet, and film in George Lucas’ cinematic universe. You can also download JSON files containing all the data. [h/t Robin Sloan]",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "swapi.co",
+   "url": "https://swapi.co/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/phalt/swapi/tree/master/resources/fixtures"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-04-27",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-04-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "swapi.co",
+  "host": "swapi.co"
+ }
+}

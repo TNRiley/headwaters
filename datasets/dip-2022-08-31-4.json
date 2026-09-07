@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-08-31-4",
+ "title": "Luftwaffe locations",
+ "hook": "Data scientist Sam Weiss has constructed a dataset tracking the World War II movements of the Luftwaffe, Nazi Germany’s air force.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "scweiss.blogspot.com",
+   "url": "https://scweiss.blogspot.com/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/samcarlos/luftwaffe_locations"
+  },
+  {
+   "name": "ww2.dk",
+   "url": "https://ww2.dk/"
+  },
+  {
+   "name": "scweiss.blogspot.com",
+   "url": "https://scweiss.blogspot.com/2022/02/a-high-altitude-overview-of-european.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-31",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "scweiss.blogspot.com",
+  "host": "scweiss.blogspot.com"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2020-02-12-2",
+ "title": "Europe in translation",
+ "hook": "IATE is the European Union’s official terminology database, containing translations for words and phrases such as “orange juice,” “climate change policy”, and “competence of the Member States.” (That’s succo d’arancia in Italian, ilmastonmuutospolitiikka in Finnish, and tagállami hatáskör in Hungarian.) Over the past 20+ years, the project has accumulated more than 970,000 entries, translated into nearly 8 million phrasings in 25 languages.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "iate.europa.eu",
+   "url": "https://iate.europa.eu/home"
+  },
+  {
+   "name": "iate.europa.eu",
+   "url": "https://iate.europa.eu/download-iate"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-02-12",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-02-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "iate.europa.eu",
+  "host": "iate.europa.eu"
+ }
+}

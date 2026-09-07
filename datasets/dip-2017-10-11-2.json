@@ -1,0 +1,42 @@
+{
+ "id": "dip-2017-10-11-2",
+ "title": "Political crowd estimates",
+ "hook": "The Crowd Counting Consortium, launched earlier this year, is a volunteer effort to “[collect] publicly available data on political crowds reported in the United States, including marches, protests, strikes, demonstrations, riots, and other actions.” The team publishes monthly spreadsheets that list each crowd’s date…",
+ "hook_source": "publisher",
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/view/crowdcountingconsortium/about"
+  },
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/view/crowdcountingconsortium/view-download-the-data?authuser=0"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/news/monkey-cage/wp/2017/09/25/charlottesville-and-its-aftermath-brought-out-many-protesters-in-august-but-still-more-were-against-trump-and-his-policies/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-10-11",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-10-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "sites.google.com",
+  "host": "sites.google.com"
+ }
+}

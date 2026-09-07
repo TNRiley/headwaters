@@ -1,0 +1,45 @@
+{
+ "id": "dip-2018-03-07-2",
+ "title": "Pan-African surveys",
+ "hook": "Afrobarometer “is a pan-African, non-partisan research network that conducts public attitude surveys on democracy, governance, economic conditions, and related issues in more than 35 countries in Africa.” You can download data from the first six rounds of surveys, conducted between 1999 and 2015.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "afrobarometer.org",
+   "url": "http://www.afrobarometer.org/about"
+  },
+  {
+   "name": "afrobarometer.org",
+   "url": "http://www.afrobarometer.org/data/merged-data"
+  },
+  {
+   "name": "afrobarometer.org",
+   "url": "http://www.afrobarometer.org/surveys-and-methods/questionnaires"
+  },
+  {
+   "name": "afrobarometer.org",
+   "url": "http://afrobarometer.org/online-data-analysis/getting-started"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-03-07",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-03-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "afrobarometer.org",
+  "host": "afrobarometer.org"
+ }
+}

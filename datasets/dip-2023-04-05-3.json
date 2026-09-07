@@ -1,0 +1,41 @@
+{
+ "id": "dip-2023-04-05-3",
+ "title": "911 service areas",
+ "hook": "Public Safety Answering Points (PSAPs) are, essentially, the call centers to which 911 calls are routed. A while ago, the US government hired a contractor to compile a dataset of the service area boundaries for each of the country’s PSAPs, “the geographic area within which a 911 call placed using a landline is…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Public_safety_answering_point"
+  },
+  {
+   "name": "hifld-geoplatform.opendata.arcgis.com",
+   "url": "https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::psap-911-service-area-boundaries/explore"
+  },
+  {
+   "name": "fcc.gov",
+   "url": "https://www.fcc.gov/general/9-1-1-master-psap-registry"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-05",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-05/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "en.wikipedia.org",
+  "host": "en.wikipedia.org"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "dip-2020-10-21-3",
+ "title": "College athletics",
+ "hook": "The Equity in Athletics Disclosure Act requires thousands of US colleges to provide annual data on athletic particpation, staffing, and finances by team gender and sport. School- and team-level datasets are available through the Department of Education for the academic years ending 2003–19.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "www2.ed.gov",
+   "url": "https://www2.ed.gov/finaid/prof/resources/athletics/eada.html"
+  },
+  {
+   "name": "ope.ed.gov",
+   "url": "https://ope.ed.gov/athletics/"
+  },
+  {
+   "name": "usafacts.org",
+   "url": "https://usafacts.org/articles/coronavirus-college-football-profit-sec-acc-pac-12-big-ten-millions-fall-2020/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-10-21",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-10-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "US Dept of Education",
+  "host": "www2.ed.gov"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-03-23-4",
+ "title": "What kind of economy does your county have?",
+ "hook": "The USDA Economic Research Service’s County Typology Codes categorize each U.S. county based on (a) its dependence on certain industries and on (b) various socio-economic factors. For example, the data classifies 219 counties as “mining-dependent.” [h/t Steven Romalewski]",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ers.usda.gov",
+   "url": "http://www.ers.usda.gov/data-products/county-typology-codes.aspx"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-23",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "USDA",
+  "host": "ers.usda.gov"
+ }
+}

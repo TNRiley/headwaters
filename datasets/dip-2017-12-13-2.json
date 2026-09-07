@@ -1,0 +1,41 @@
+{
+ "id": "dip-2017-12-13-2",
+ "title": "Fatal and nonfatal officer-involved shootings",
+ "hook": "For an investigation published Monday, Vice News spent “nine months collecting data on both fatal and nonfatal police shootings from the 50 largest local police departments in the United States.” They’ve published raw and standardized data on every shooting, plus the code they used to analyze it. [h/t Allison McCann]",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "news.vice.com",
+   "url": "https://news.vice.com/story/shot-by-cops"
+  },
+  {
+   "name": "news.vice.com",
+   "url": "https://news.vice.com/story/nonfatal-police-shootings-data"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/vicenews/shot-by-cops/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-12-13",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-12-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "news.vice.com",
+  "host": "news.vice.com"
+ }
+}

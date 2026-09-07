@@ -1,0 +1,58 @@
+{
+ "id": "dip-2017-10-04-3",
+ "title": "Media coverage",
+ "hook": "Media Cloud, a collaboration between MIT and Harvard–based researchers, describes itself as “an open-source platform for studying media ecosystems.” The project lets you track topics and keywords across thousands of sources — including mainstream news publications in the U.S.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "mediacloud.org",
+   "url": "https://mediacloud.org/"
+  },
+  {
+   "name": "dashboard.mediacloud.org",
+   "url": "https://dashboard.mediacloud.org/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/berkmancenter/mediacloud/blob/master/doc/api_2_0_spec/api_2_0_spec.md"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/tv"
+  },
+  {
+   "name": "google.com",
+   "url": "https://www.google.com/trends/"
+  },
+  {
+   "name": "thefunctionalart.com",
+   "url": "http://www.thefunctionalart.com/2017/09/low-tech-visualization-how-much-space.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/the-media-really-has-neglected-puerto-rico/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-10-04",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-10-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "mediacloud.org",
+  "host": "mediacloud.org"
+ }
+}

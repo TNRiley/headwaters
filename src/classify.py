@@ -148,7 +148,40 @@ def fields(rec):
                     [c for t in rec.get("tables", []) for c in t.get("columns", [])[:25]]).lower()
     ask = " ".join(rec.get("questions", [])).lower()
     hook = BOILER.sub(" ", (rec.get("hook") or "")).lower()
-    return [(title, 5), (src, 3), (ask, 2), (tabl, 2), (hook, 1)]
+    # The hook used to be weighted 1 because on the TidyTuesday layer a quarter of hooks
+    # were the publisher's alt-text boilerplate, which matched rules about images and
+    # charts and nothing about the data. Now that src/quality.py strips that, the hook is
+    # trustworthy prose -- and for a Data Is Plural record, which has no files and no
+    # column names, it is the only real description there is.
+    return [(title, 5), (src, 3), (ask, 2), (tabl, 2), (hook, 2)]
+
+
+# A second vocabulary, learned from the Data Is Plural layer. The rules above grew out of
+# TidyTuesday's weeks and speak its language -- "mario kart", "numbat", "bake off". DiP
+# ranges much wider and more soberly, and 723 of its records matched no rule at all: air
+# raid alerts, zero-day exploits, excess deaths, ride-hailing, drinking-water violations.
+# Kept as a separate table rather than lengthened into the ones above, so it stays obvious
+# which corpus taught the catalogue which words. A subject scores on its best rule.
+EXTRA_RULES = [
+ ("government & politics", False, r"\b(sanction|treasury|regulat|legislat|lobby|campaign finance|\bwar\b|conflict|military|armed|protest|demonstration|human rights|corruption|asylum|refugee|visa|diplomat|embass|municipal|city council|public records|foia|surveillance|censorship|watchdog|ballot|referendum|air raid|terroris|extremis|nato|sovereign)\b"),
+ ("health & medicine", False, r"\b(covid|coronavirus|pandemic|excess death|opioid|overdose|morbidit|hospitali|insurance claim|epidemiolog|suicide|abortion|obesity|diabetes|dementia|antibiotic|surgery|prescription|physician|doctors?\b|\bwho\b|public health|birth outcome|maternal)\b"),
+ ("technology & software", False, r"\b(software|internet|\bweb\b|website|browser|cyber|vulnerabilit|zero-?day|exploit|malware|ransomware|encryption|github|semantic network|artificial intelligence|neural|motion capture|telecom|mobile app|domain name|\bdns\b|wikipedia|wikidata|social media|smartphone|computing|dataset of code|robot|autonomous vehicle)\b"),
+ ("economy & work", False, r"\b(rent|housing price|house price|real estate|procurement|contract|subsid|\btax\b|taxes|banks?\b|banking|financial|securities|merger|antitrust|monopol|insurance|cost of living|consumer price|gig work|ride-?hail|unemploy|bankrupt|supply chain|shipping rate|freight|patent|startup|venture)\b"),
+ ("environment & climate", False, r"\b(drinking water|groundwater|watershed|river|lake|aquifer|air quality|lightning|disaster|hazard|biodiversity|land use|sewer|sewage|\bdams?\b|mining|\boil\b|natural gas|pipeline|toxic|contaminat|superfund|conservation|glacier|permafrost|soil|wetland)\b"),
+ ("transport & infrastructure", False, r"\b(ride-?hail|rideshare|taxi|parking|\broads?\b|streets?\b|\bport\b|maritime|vessel|ferry|charging station|infrastructure|pedestrian|cycling|scooter|logistics|rail\b|metro|subway|toll)\b"),
+ ("society & demographics", False, r"\b(economic mobility|opportunity|neighborhood|neighbourhood|segregation|homeless|obituar|cemeter|genealog|surname|given name|social class|caste|urbanisation|urbanization|household survey|time use|loneliness|volunteer)\b"),
+ ("art & culture", False, r"\b(philharmonic|orchestra|exhibition|performance|theatre|theater|dance|photograph|fashion|design|folklore|festival|comic|graffiti|typeface|font\b)\b"),
+ ("books & language", False, r"\b(dictionar|corpus|corpora|translation|wordnet|etymolog|lexic|typolog|handwriting|newspaper archive|text of)\b"),
+ ("animals & nature", False, r"\b(habitat|forest|hills|mountain|geolog|fungi|insect|pollinator|migration route|nesting|marine life|coral)\b"),
+ ("film & television", False, r"\b(streaming|box office|screenplay|subtitle|broadcast)\b"),
+ ("music", False, r"\b(concert|setlist|discograph|record label|musician|orchestral)\b"),
+ ("education", False, r"\b(curricul|textbook|school district|test scores?|standardi[sz]ed test|academic|scholarship|apprentice)\b"),
+ ("food & drink", False, r"\b(grocer|supermarket|menu|food safety|foodborne|fisheries|livestock|harvest)\b"),
+ ("space & astronomy", False, r"\b(exoplanet|asteroid|solar wind|cosmic|observatory|spacecraft)\b"),
+ ("sports & games", False, r"\b(stadium|referee|league table|tournament|puzzle|gambling|betting)\b"),
+ ("oddities & curiosities", False, r"\b(conspiracy|cryptid|superstition|oddit|curious|whimsical|absurd)\b"),
+]
+SUBJECT_RULES = SUBJECT_RULES + EXTRA_RULES
 
 
 # Hosts that say nothing about who published the data - the human-written name does
@@ -201,7 +234,8 @@ def classify(rec):
             if rx.search(text):
                 total += weight
         if total:
-            scores[subject] = total
+            # best rule wins; a subject may now be described by more than one table
+            scores[subject] = max(scores.get(subject, 0), total)
     ranked = sorted(scores.items(), key=lambda kv: (-kv[1], kv[0]))
     subjects = [s for s, v in ranked if v >= 4][:3]
     if not subjects and ranked:

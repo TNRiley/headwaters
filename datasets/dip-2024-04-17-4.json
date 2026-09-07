@@ -1,0 +1,53 @@
+{
+ "id": "dip-2024-04-17-4",
+ "title": "Automated decision-making in government",
+ "hook": "The UK nonprofit Public Law Project last year launched the Tracking Automated Government Register, which describes automated systems that government agencies there use “to make or inform decisions on a range of sensitive policy areas, including how people are policed, what benefits they receive, and their immigration…",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "publiclawproject.org.uk",
+   "url": "https://publiclawproject.org.uk/what-we-do/"
+  },
+  {
+   "name": "publiclawproject.org.uk",
+   "url": "https://publiclawproject.org.uk/resources/the-tracking-automated-government-register/"
+  },
+  {
+   "name": "trackautomatedgovernment.shinyapps.io",
+   "url": "https://trackautomatedgovernment.shinyapps.io/register/"
+  },
+  {
+   "name": "fims.uwo.ca",
+   "url": "https://www.fims.uwo.ca/people/profiles/joanna_redden.html"
+  },
+  {
+   "name": "cbc.ca",
+   "url": "https://www.cbc.ca/news/politics/federal-government-used-ai-1.7170307"
+  },
+  {
+   "name": "tagcanada.shinyapps.io",
+   "url": "https://tagcanada.shinyapps.io/register/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-04-17",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-04-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "publiclawproject.org.uk",
+  "host": "publiclawproject.org.uk"
+ }
+}

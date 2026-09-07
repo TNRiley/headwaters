@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-09-14-4",
+ "title": "Art sales and ownership",
+ "hook": "The Getty Provenance Index contains more than 2.3 million historical records relating to the sale and ownership of artworks, searchable online by artist, owner, auction house, date, and other characteristics.",
+ "hook_source": "publisher",
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "getty.edu",
+   "url": "https://www.getty.edu/research/tools/provenance/"
+  },
+  {
+   "name": "getty.edu",
+   "url": "https://www.getty.edu/research/tools/provenance/charts.html"
+  },
+  {
+   "name": "piprod.getty.edu",
+   "url": "https://piprod.getty.edu/starweb/pi/servlet.starweb?path=pi/pi.web"
+  },
+  {
+   "name": "getty.edu",
+   "url": "https://www.getty.edu/research/tools/provenance/provenance_remodel/index.html"
+  },
+  {
+   "name": "getty.edu",
+   "url": "https://www.getty.edu/research/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/thegetty/provenance-index-csv"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/thegetty/provenance-index-csv/tree/main/sales_catalogs"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-09-14",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-09-14/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "getty.edu",
+  "host": "getty.edu"
+ }
+}

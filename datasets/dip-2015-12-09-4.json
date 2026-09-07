@@ -1,0 +1,33 @@
+{
+ "id": "dip-2015-12-09-4",
+ "title": "Good FOOD, bad food",
+ "hook": "The CDC’s Foodborne Outbreak Online Database (FOOD) contains 18,000+ outbreaks, which resulted in 358,000+ illnesses and 13,000+ hospitalizations, from 1998 through last year. In 2008, a multi-state Salmonella Saintpaul outbreak hospitalized 308 people — the highest count in the database.",
+ "hook_source": "publisher",
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "wwwn.cdc.gov",
+   "url": "http://wwwn.cdc.gov/foodborneoutbreaks/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2015-12-09",
+   "year": 2015,
+   "url": "https://www.data-is-plural.com/archive/2015-12-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "wwwn.cdc.gov",
+  "host": "wwwn.cdc.gov"
+ }
+}

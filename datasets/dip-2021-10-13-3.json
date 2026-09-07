@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-10-13-3",
+ "title": "Deployment votes",
+ "hook": "The Parliamentary Deployment Votes Database gathers information about national parliaments and legislatures voting on the deployment or withdrawal of military forces.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "deploymentvotewatch.eu",
+   "url": "http://deploymentvotewatch.eu/"
+  },
+  {
+   "name": "deploymentvotewatch.eu",
+   "url": "http://deploymentvotewatch.eu/?page_id=8"
+  },
+  {
+   "name": "deploymentvotewatch.eu",
+   "url": "http://deploymentvotewatch.eu/?page_id=2"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-10-13",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-10-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "deploymentvotewatch.eu",
+  "host": "deploymentvotewatch.eu"
+ }
+}

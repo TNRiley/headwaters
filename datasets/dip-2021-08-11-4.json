@@ -1,0 +1,45 @@
+{
+ "id": "dip-2021-08-11-4",
+ "title": "European politics in the news",
+ "hook": "Projects at the Observatory for Political Conflict and Democracy analyze newspaper articles to construct datasets about election campaigns, protest events, and public debates across a range of European countries.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "poldem.eui.eu",
+   "url": "https://poldem.eui.eu/"
+  },
+  {
+   "name": "poldem.eui.eu",
+   "url": "https://poldem.eui.eu/download/"
+  },
+  {
+   "name": "poldem.eui.eu",
+   "url": "https://poldem.eui.eu/data-overview/"
+  },
+  {
+   "name": "poldem.eui.eu",
+   "url": "https://poldem.eui.eu/codebooks/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-08-11",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-08-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "poldem.eui.eu",
+  "host": "poldem.eui.eu"
+ }
+}

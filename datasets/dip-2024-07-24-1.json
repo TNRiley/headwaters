@@ -1,0 +1,90 @@
+{
+ "id": "dip-2024-07-24-1",
+ "title": "News homepages, archived",
+ "hook": "Since launching in March 2022, homepages.news has archived millions of screenshots, performance audits, robots.txt files, accessibility trees, and hyperlink lists from the homepages of 1,100+ news sites. The open-source project, run by journalist Ben Welsh, provides bulk data for each of those assets.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "homepages.news",
+   "url": "https://homepages.news/"
+  },
+  {
+   "name": "palewi.re",
+   "url": "https://palewi.re/docs/news-homepages/status-report.html"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Robots.txt"
+  },
+  {
+   "name": "palewi.re",
+   "url": "https://palewi.re/docs/news-homepages/sources.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/palewire/news-homepages/"
+  },
+  {
+   "name": "palewi.re",
+   "url": "https://palewi.re/who-is-ben-welsh/"
+  },
+  {
+   "name": "palewi.re",
+   "url": "https://palewi.re/docs/news-homepages/extracts.html"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/news-homepages"
+  },
+  {
+   "name": "palewi.re",
+   "url": "https://palewi.re/docs/news-homepages/latest.html"
+  },
+  {
+   "name": "palewi.re",
+   "url": "https://palewi.re/docs/news-homepages/countries.html"
+  },
+  {
+   "name": "palewi.re",
+   "url": "https://palewi.re/docs/news-homepages/languages.html"
+  },
+  {
+   "name": "palewi.re",
+   "url": "https://palewi.re/docs/news-homepages/openai-gptbot-robotstxt.html"
+  },
+  {
+   "name": "brookings.edu",
+   "url": "https://www.brookings.edu/articles/can-journalism-survive-ai/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "theverge.com",
+   "url": "https://www.theverge.com/24067997/robots-txt-ai-text-file-web-crawlers-spiders"
+  },
+  {
+   "name": "reutersinstitute.politics.ox.ac.uk",
+   "url": "https://reutersinstitute.politics.ox.ac.uk/how-many-news-websites-block-ai-crawlers"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-24",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "homepages.news",
+  "host": "homepages.news"
+ }
+}

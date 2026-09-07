@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-10-26-4",
+ "title": "Airborne",
+ "hook": "OpenFlights.org has collected data on more than 60,000 flight routes, including 915 itineraries departing Atlanta’s Hartsfield–Jackson International Airport.",
+ "hook_source": "publisher",
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "openflights.org",
+   "url": "http://openflights.org/data.html"
+  },
+  {
+   "name": "usatoday.com",
+   "url": "http://www.usatoday.com/story/travel/flights/todayinthesky/2016/09/12/worlds-busiest-airport-atlanta-takes-title-again/90271028/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-10-26",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-10-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "openflights.org",
+  "host": "openflights.org"
+ }
+}

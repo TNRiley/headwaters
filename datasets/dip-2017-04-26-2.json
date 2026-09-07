@@ -1,0 +1,62 @@
+{
+ "id": "dip-2017-04-26-2",
+ "title": "Word frequencies",
+ "hook": "You’re probably familiar with the Google Books Ngram Viewer, which lets you chart word and phrase frequencies over time. Google publishes the underlying data but those files can (depending on your tools and goals) be cumbersomely large.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "books.google.com",
+   "url": "https://books.google.com/ngrams/graph?content=data+is%2Cdata+are&year_start=1800&year_end=2012&corpus=15&smoothing=3&share=&direct_url=t1%3B%2Cdata%20is%3B%2Cc0%3B.t1%3B%2Cdata%20are%3B%2Cc0"
+  },
+  {
+   "name": "storage.googleapis.com",
+   "url": "http://storage.googleapis.com/books/ngrams/books/datasetsv2.html"
+  },
+  {
+   "name": "mechanicalscribe.com",
+   "url": "http://mechanicalscribe.com/notes/google-ngrams-for-cmu-pronunciation-dictionary/"
+  },
+  {
+   "name": "speech.cs.cmu.edu",
+   "url": "http://www.speech.cs.cmu.edu/cgi-bin/cmudict"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/mechanicalscribe/cmu_tf_idf"
+  },
+  {
+   "name": "googlebooks.byu.edu",
+   "url": "http://googlebooks.byu.edu/x.asp"
+  }
+ ],
+ "articles": [
+  {
+   "name": "wired.com",
+   "url": "https://www.wired.com/2015/10/pitfalls-of-studying-language-with-google-ngram/"
+  },
+  {
+   "name": "theatlantic.com",
+   "url": "https://www.theatlantic.com/technology/archive/2017/04/the-tragedy-of-google-books/523320/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-04-26",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-04-26/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "books.google.com",
+  "host": "books.google.com"
+ }
+}

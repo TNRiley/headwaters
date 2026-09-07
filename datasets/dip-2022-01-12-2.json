@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-01-12-2",
+ "title": "Pension plans",
+ "hook": "Public Plans Data, a collaboration led by Boston College professor Alicia H. Munnell, gathers extensive information about the retirement plans that state and local governments offer their employees, drawn from those plans’ annual financial reports.",
+ "hook_source": "publisher",
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "publicplansdata.org",
+   "url": "https://publicplansdata.org/"
+  },
+  {
+   "name": "publicplansdata.org",
+   "url": "https://publicplansdata.org/about/our-research"
+  },
+  {
+   "name": "publicplansdata.org",
+   "url": "https://publicplansdata.org/about/bios/munnell/"
+  },
+  {
+   "name": "publicplansdata.org",
+   "url": "https://publicplansdata.org/resources/download-avs-cafrs/"
+  },
+  {
+   "name": "publicplansdata.org",
+   "url": "https://publicplansdata.org/public-plans-database/download-full-data-set/"
+  },
+  {
+   "name": "publicplansdata.org",
+   "url": "https://publicplansdata.org/resources/interactive-tools/"
+  },
+  {
+   "name": "publicplansdata.org",
+   "url": "https://publicplansdata.org/public-plans-database/api/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-01-12",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-01-12/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "publicplansdata.org",
+  "host": "publicplansdata.org"
+ }
+}

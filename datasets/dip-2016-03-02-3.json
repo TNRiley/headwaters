@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-03-02-3",
+ "title": "Bills, bills, bills",
+ "hook": "Congress has finally begun publishing official bulk data on the status of its bills — something open-government advocates had been requesting for more than a decade. The bulk downloads include an XML file for each piece of legislation, with indicators tracking (among other things) committee referrals and actions.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "govinfo.gov",
+   "url": "https://www.govinfo.gov/features/featured-content/bill-status-bulk-data"
+  },
+  {
+   "name": "fedscoop.com",
+   "url": "http://fedscoop.com/congress-makes-bill-status-open-to-public"
+  },
+  {
+   "name": "youtube.com",
+   "url": "https://www.youtube.com/watch?v=tyeJ55o3El0"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-02",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "govinfo.gov",
+  "host": "govinfo.gov"
+ }
+}

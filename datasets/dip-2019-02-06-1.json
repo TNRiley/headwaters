@@ -1,0 +1,45 @@
+{
+ "id": "dip-2019-02-06-1",
+ "title": "Cities’ CO2 emissions",
+ "hook": "An international team of researchers has created a dataset of 343 cities’ CO2 emissions. The researchers aggregated and standardized the emissions data — largely self-reported — from three sources: the Carbon Disclosure Project, the Bonn Center for Local Climate Action and Reporting, and a new project at Peking University.",
+ "hook_source": "publisher",
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "nature.com",
+   "url": "https://www.nature.com/articles/sdata2018280?WT.ec_id=SDATA-201901"
+  },
+  {
+   "name": "doi.pangaea.de",
+   "url": "https://doi.pangaea.de/10.1594/PANGAEA.884141"
+  },
+  {
+   "name": "cdp.net",
+   "url": "https://data.cdp.net/Emissions/2016-Citywide-GHG-Emissions/dfed-thx7"
+  },
+  {
+   "name": "carbonn.org",
+   "url": "https://carbonn.org/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-02-06",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-02-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "nature.com",
+  "host": "nature.com"
+ }
+}

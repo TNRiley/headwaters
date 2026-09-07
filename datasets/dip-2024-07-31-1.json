@@ -1,0 +1,45 @@
+{
+ "id": "dip-2024-07-31-1",
+ "title": "Ballots cast",
+ "hook": "“Electronic records of actual ballots cast (cast vote records) are available to the public in some jurisdictions,” Shiro Kuriwaki et al. write.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/file.xhtml?fileId=10404813&version=1.0"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/kuriwaki/cvr_harvard-mit_scripts"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/PQQ3KV"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Split-ticket_voting"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2024-07-31",
+   "year": 2024,
+   "url": "https://www.data-is-plural.com/archive/2024-07-31/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "dataverse.harvard.edu",
+  "host": "dataverse.harvard.edu"
+ }
+}

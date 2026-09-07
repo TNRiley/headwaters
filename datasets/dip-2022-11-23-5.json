@@ -1,0 +1,57 @@
+{
+ "id": "dip-2022-11-23-5",
+ "title": "Every Star Trek ever",
+ "hook": "The dataset: Flourish Klink’s compilation of every official Star Trek book, audiobook, comic, episode, movie, and more. “My continuing mission: To consume every piece of Star Trek content ever made!” Previously: Star Trek computer-talk (DIP 2022.08.10) and a Star Trek API (DIP 2018.11.07). [h/t Lisa Cee]",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "airtable.com",
+   "url": "https://www.airtable.com/universe/expsZ6vRPGwedtNfq/every-star-trek-book-ever?explore=true"
+  },
+  {
+   "name": "flourishklink.com",
+   "url": "https://www.flourishklink.com/"
+  },
+  {
+   "name": "airtable.com",
+   "url": "https://www.airtable.com/universe/expsZ6vRPGwedtNfq/every-star-trek-book-ever"
+  },
+  {
+   "name": "speechinteraction.org",
+   "url": "https://www.speechinteraction.org/TNG/index.html"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-08-10-edition/"
+  },
+  {
+   "name": "stapi.co",
+   "url": "http://stapi.co/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2018-11-07-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-11-23",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-11-23/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "airtable.com",
+  "host": "airtable.com"
+ }
+}

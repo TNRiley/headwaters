@@ -1,0 +1,49 @@
+{
+ "id": "dip-2016-03-30-1",
+ "title": "U.S. drone permits",
+ "hook": "Want to fly a drone in the United States for non-recreational purposes? You’ll need a “Section 333” exemption from the Federal Aviation Administration, which governs drone activity.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/uas/legislative_programs/section_333/333_authorizations/"
+  },
+  {
+   "name": "dronecenter.bard.edu",
+   "url": "http://dronecenter.bard.edu/"
+  },
+  {
+   "name": "dronecenter.bard.edu",
+   "url": "http://dronecenter.bard.edu/analysis-us-drone-exemptions-14-15-2/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/voxmedia/data-projects/tree/master/verge-drones-over-america"
+  },
+  {
+   "name": "faa.gov",
+   "url": "http://www.faa.gov/uas/law_enforcement/uas_sighting_reports/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-30",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-30/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "faa.gov",
+  "host": "faa.gov"
+ }
+}

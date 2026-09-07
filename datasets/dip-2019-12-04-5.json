@@ -1,0 +1,37 @@
+{
+ "id": "dip-2019-12-04-5",
+ "title": "British Isle bumps",
+ "hook": "The Database of British and Irish Hills began 20 years ago and now catalogs more than 20,000 bits of bumpy terrain. The data files include detailed coordinates, map references, and descriptive characteristics. [h/t Declan Valters]",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "other",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "hills-database.co.uk",
+   "url": "http://www.hills-database.co.uk/index.html"
+  },
+  {
+   "name": "hills-database.co.uk",
+   "url": "http://www.hills-database.co.uk/downloads.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-04",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Database of British and Irish hills",
+  "host": "hills-database.co.uk"
+ }
+}

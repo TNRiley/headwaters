@@ -1,0 +1,65 @@
+{
+ "id": "dip-2022-08-24-2",
+ "title": "Administrative boundaries",
+ "hook": "The geoBoundaries project, maintained by the William & Mary geoLab and volunteer contributors since 2017, calls itself “the world’s largest open, free and research-ready database of political administrative boundaries.” It provides an API and downloadable datasets of those boundaries at up to six levels per country…",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "geoboundaries.org",
+   "url": "https://www.geoboundaries.org/"
+  },
+  {
+   "name": "geolab.wm.edu",
+   "url": "https://geolab.wm.edu/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/wmgeolab/geoBoundaries/graphs/contributors"
+  },
+  {
+   "name": "geoboundaries.org",
+   "url": "https://www.geoboundaries.org/api.html"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Freguesia"
+  },
+  {
+   "name": "gadm.org",
+   "url": "https://gadm.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2019-07-17-edition/"
+  },
+  {
+   "name": "icr.ethz.ch",
+   "url": "https://icr.ethz.ch/data/cshapes/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2022-03-23-edition/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-08-24",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-08-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "geoboundaries.org",
+  "host": "geoboundaries.org"
+ }
+}

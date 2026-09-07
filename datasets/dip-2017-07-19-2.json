@@ -1,0 +1,47 @@
+{
+ "id": "dip-2017-07-19-2",
+ "title": "Dublin in detail",
+ "hook": "Last week, a team at NYU announced “the world’s densest urban aerial laser scanning (LiDAR) dataset” — a 1.4-billion-point description of Dublin’s city center.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "cusp.nyu.edu",
+   "url": "http://cusp.nyu.edu/press-release/nyu-center-urban-science-progress-professor-releases-worlds-densest-urban-aerial-laser-scanning-dataset/"
+  },
+  {
+   "name": "geo.nyu.edu",
+   "url": "https://geo.nyu.edu/catalog/nyu_2451_38684"
+  },
+  {
+   "name": "youtube.com",
+   "url": "https://www.youtube.com/watch?v=qEi2Wo7Bcuk"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-05-25-edition"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2017-04-05-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-07-19",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-07-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cusp.nyu.edu",
+  "host": "cusp.nyu.edu"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2016-03-09-5",
+ "title": "Baseball, baseball, baseball",
+ "hook": "If you’re looking for historical data on baseball teams, players, salaries, or managers, Sean Lahman’s Baseball Archive likely has it. The archive was updated with data from the 2015 season last week. Related: Retrosheet’s game logs — a record of every major league game since 1871. [h/t Joe Murphy]",
+ "hook_source": "publisher",
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "seanlahman.com",
+   "url": "http://www.seanlahman.com/baseball-archive/statistics/"
+  },
+  {
+   "name": "retrosheet.org",
+   "url": "http://www.retrosheet.org/gamelogs/index.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-03-09",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-03-09/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "seanlahman.com",
+  "host": "seanlahman.com"
+ }
+}

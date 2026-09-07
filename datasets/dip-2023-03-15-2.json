@@ -1,0 +1,65 @@
+{
+ "id": "dip-2023-03-15-2",
+ "title": "Bank financials, 1867–1904",
+ "hook": "Federal Reserve economists Sergio Correia and Stephan Luck have compiled a dataset of “annual national bank balance sheets for more than 7,000 unique national banks, covering the years 1867 to 1904.” They did so by “combining optical character recognition (OCR) techniques with modern layout separation techniques,” which allowed them to extract information from scans of the Office of the Comptroller of the Currency’s annual reports to Congress.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "scorreia.com",
+   "url": "http://scorreia.com/"
+  },
+  {
+   "name": "sites.google.com",
+   "url": "https://sites.google.com/site/stephanluck/"
+  },
+  {
+   "name": "libertystreeteconomics.newyorkfed.org",
+   "url": "https://libertystreeteconomics.newyorkfed.org/2023/03/insights-from-newly-digitized-banking-data-1867-1904/"
+  },
+  {
+   "name": "newyorkfed.org",
+   "url": "https://www.newyorkfed.org/research/banking_research/balance-sheet-national-bank"
+  },
+  {
+   "name": "occ.treas.gov",
+   "url": "https://www.occ.treas.gov/"
+  },
+  {
+   "name": "fraser.stlouisfed.org",
+   "url": "https://fraser.stlouisfed.org/title/annual-report-comptroller-currency-56?browse=1860s"
+  },
+  {
+   "name": "scorreia.com",
+   "url": "http://scorreia.com/data/call-reports.html"
+  },
+  {
+   "name": "sciencedirect.com",
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0014498322000535"
+  },
+  {
+   "name": "arxiv.org",
+   "url": "https://arxiv.org/abs/2204.00052"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-03-15",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-03-15/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "scorreia.com",
+  "host": "scorreia.com"
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "id": "dip-2017-03-08-2",
+ "title": "Historical Bitcoin prices",
+ "hook": "The Bitcoin exchange rate hit an all time high last week, at more than $1,290 to the dollar. That’s according to CoinDesk’s Bitcoin Price Index, an average rate derived from several major exchanges. You can download daily and hourly data for the index and its components. [h/t Jan Doggen]",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "coindesk.com",
+   "url": "http://www.coindesk.com/price/"
+  },
+  {
+   "name": "coindesk.com",
+   "url": "http://www.coindesk.com/price/bitcoin-price-index/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-03-08",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-03-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "coindesk.com",
+  "host": "coindesk.com"
+ }
+}

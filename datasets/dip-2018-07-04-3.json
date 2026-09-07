@@ -1,0 +1,33 @@
+{
+ "id": "dip-2018-07-04-3",
+ "title": "Regional Medicare usage",
+ "hook": "The U.S. Centers for Medicare &amp; Medicaid Services publishes a series of “geographic variation” spreadsheets, which cover hundreds of metrics — such as kidney dialysis usage, the total cost of medical tests, and hospital readmission rates — related to Medicare beneficiaries’ healthcare in each state, county, and…",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "cms.gov",
+   "url": "https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Geographic-Variation/GV_PUF.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2018-07-04",
+   "year": 2018,
+   "url": "https://www.data-is-plural.com/archive/2018-07-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Centers for Medicare & Medicaid Services",
+  "host": "cms.gov"
+ }
+}

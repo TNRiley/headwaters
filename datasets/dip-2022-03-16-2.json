@@ -1,0 +1,37 @@
+{
+ "id": "dip-2022-03-16-2",
+ "title": "Ukraine border crossing sites",
+ "hook": "The UN’s Office for the Coordination of Humanitarian Affairs in Ukraine has combined information from multiple sources to create a geospatial dataset of the country’s international border crossings with Moldova (11 crossings listed), Poland (8), Hungary (5), Romania (4), and Slovakia (2).",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "unocha.org",
+   "url": "https://www.unocha.org/ukraine"
+  },
+  {
+   "name": "humdata.org",
+   "url": "https://data.humdata.org/dataset/ukraine-border-crossings"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-03-16",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-03-16/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "unocha.org",
+  "host": "unocha.org"
+ }
+}

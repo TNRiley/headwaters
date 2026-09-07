@@ -1,0 +1,54 @@
+{
+ "id": "dip-2021-12-08-3",
+ "title": "Birds at the feeder",
+ "hook": "Project FeederWatch is a “November-April survey of birds that visit backyards, nature centers, community areas, and other locales in North America.” Tens of thousands of volunteers record the number and species of birds at each feeder, plus information about the surrounding environment.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "feederwatch.org",
+   "url": "https://feederwatch.org/"
+  },
+  {
+   "name": "feederwatch.org",
+   "url": "https://feederwatch.org/pfw/participants"
+  },
+  {
+   "name": "feederwatch.org",
+   "url": "https://feederwatch.org/about/detailed-instructions/"
+  },
+  {
+   "name": "feederwatch.org",
+   "url": "https://feederwatch.org/explore/"
+  },
+  {
+   "name": "feederwatch.org",
+   "url": "https://feederwatch.org/explore/raw-dataset-requests/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "washingtonpost.com",
+   "url": "https://www.washingtonpost.com/business/2021/11/28/bird-feeder-pecking-order/"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-12-08",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-12-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FeederWatch",
+  "host": "feederwatch.org"
+ }
+}

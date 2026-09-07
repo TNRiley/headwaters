@@ -1,0 +1,49 @@
+{
+ "id": "dip-2019-12-04-2",
+ "title": "Ambassadorial qualifications",
+ "hook": "The Foreign Service Act of 1980 requires US presidents to provide Congress a “report on the demonstrated competence” for each ambassadorial nominee. In 2014, the government began disclosing these records, which had long been held secret. But the government’s policy applied only to new nominees.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "state.gov",
+   "url": "https://www.state.gov/resources-bureau-of-human-resources/"
+  },
+  {
+   "name": "ryanscoville.com",
+   "url": "https://ryanscoville.com/about/"
+  },
+  {
+   "name": "ryanscoville.com",
+   "url": "https://ryanscoville.com/2019/02/13/certificates-of-competency-for-nominees-to-be-chiefs-of-mission-1980-2014/"
+  },
+  {
+   "name": "papers.ssrn.com",
+   "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3333988"
+  },
+  {
+   "name": "lawfareblog.com",
+   "url": "https://www.lawfareblog.com/troubling-trends-ambassadorial-appointments-1980-present"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-04",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-04/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "state.gov",
+  "host": "state.gov"
+ }
+}

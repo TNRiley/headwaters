@@ -1,0 +1,42 @@
+{
+ "id": "dip-2016-07-06-3",
+ "title": "Russian election results",
+ "hook": "In a recently-updated paper, three academics say they’ve found “convincing evidence of election fraud” in federal Russian elections since 2004.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "arxiv.org",
+   "url": "http://arxiv.org/abs/1410.6059"
+  },
+  {
+   "name": "figshare.com",
+   "url": "https://figshare.com/articles/kobakEtAl_AOAS2016_suppData_zip/3126883"
+  }
+ ],
+ "articles": [
+  {
+   "name": "wsj.com",
+   "url": "http://www.wsj.com/articles/SB10001424052970203391104577124540544822220"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-07-06",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-07-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arxiv.org",
+  "host": "arxiv.org"
+ }
+}

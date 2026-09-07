@@ -1,0 +1,38 @@
+{
+ "id": "dip-2017-09-27-5",
+ "title": "Your job, in numbers",
+ "hook": "For each of 966 occupations, the Department of Labor’s O*NET database quantifies the types knowledge, skills, abilities, education, and training required, tasks involved, tools used, and more job-related parameters. Related: The Upshot uses the data to ask (and answer), “What Is Your Opposite Job?”",
+ "hook_source": "publisher",
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "onetcenter.org",
+   "url": "https://www.onetcenter.org/database.html?p=3"
+  }
+ ],
+ "articles": [
+  {
+   "name": "nytimes.com",
+   "url": "https://www.nytimes.com/interactive/2017/08/08/upshot/what-is-your-opposite-job.html"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2017-09-27",
+   "year": 2017,
+   "url": "https://www.data-is-plural.com/archive/2017-09-27/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "onetcenter.org",
+  "host": "onetcenter.org"
+ }
+}

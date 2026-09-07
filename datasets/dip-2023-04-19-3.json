@@ -1,0 +1,55 @@
+{
+ "id": "dip-2023-04-19-3",
+ "title": "State bill trajectories",
+ "hook": "Political scientist Alex Garlick has published a dataset categorizing bills’ trajectories in state legislatures.",
+ "hook_source": "publisher",
+ "subjects": [],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "alexgarlick.com",
+   "url": "https://www.alexgarlick.com/"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/8PTHXT"
+  },
+  {
+   "name": "openstates.org",
+   "url": "https://openstates.org/"
+  },
+  {
+   "name": "data-is-plural.com",
+   "url": "https://www.data-is-plural.com/archive/2020-09-30-edition/"
+  },
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/lsq.12422"
+  },
+  {
+   "name": "adambrown.info",
+   "url": "https://adambrown.info/"
+  },
+  {
+   "name": "adambrown.info",
+   "url": "https://adambrown.info/docs/research/brown-garlick-2023-bicameralism.pdf"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-04-19",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-04-19/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "alexgarlick.com",
+  "host": "alexgarlick.com"
+ }
+}

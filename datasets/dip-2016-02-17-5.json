@@ -1,0 +1,41 @@
+{
+ "id": "dip-2016-02-17-5",
+ "title": "A quarter-million bugs",
+ "hook": "For 18 years, a trap on the roof of the University of Copenhagen’s Zoological Museum lured moths, butterflies, and beetles to their early deaths. Researchers at the university counted and identified more than 250,000 specimens from 1,500+ species.",
+ "hook_source": "publisher",
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "onlinelibrary.wiley.com",
+   "url": "http://onlinelibrary.wiley.com/doi/10.1111/1365-2656.12452/full"
+  },
+  {
+   "name": "datadryad.org",
+   "url": "http://datadryad.org/resource/doi:10.5061/dryad.s4945/1"
+  },
+  {
+   "name": "en.wikipedia.org",
+   "url": "https://en.wikipedia.org/wiki/Bird-cherry_ermine"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-02-17",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-02-17/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Gentry et al.",
+  "host": "onlinelibrary.wiley.com"
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "dip-2019-12-11-5",
+ "title": "Yearbook photos",
+ "hook": "Over at The Pudding, Elle O'Brien and Jan Diehm chart the rise and fall of “big hair”. To ’do it, they combed through a public dataset of 37,921 portraits, culled from the yearbooks of 115 American high schools in 26 states between 1905 and 2013. [h/t Sophie Warnes]",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "elle-obrien.com",
+   "url": "https://www.elle-obrien.com/"
+  },
+  {
+   "name": "jandiehmdesigns.com",
+   "url": "http://jandiehmdesigns.com/"
+  },
+  {
+   "name": "pudding.cool",
+   "url": "https://pudding.cool/2019/11/big-hair/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/andronovhopf/Bigdata_Bighair"
+  },
+  {
+   "name": "people.eecs.berkeley.edu",
+   "url": "http://people.eecs.berkeley.edu/~shiry/projects/yearbooks/yearbooks.html"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-12-11",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-12-11/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "elle-obrien.com",
+  "host": "elle-obrien.com"
+ }
+}

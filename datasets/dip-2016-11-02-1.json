@@ -1,0 +1,33 @@
+{
+ "id": "dip-2016-11-02-1",
+ "title": "Medicare beneficiaries",
+ "hook": "The U.S. government’s Medicare Health Outcomes Survey tracks the “physical and mental health and well-being” of Americans covered by Medicare.",
+ "hook_source": "publisher",
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "icpsr.umich.edu",
+   "url": "http://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/23380?classification=ICPSR.IX.&q=&sortBy=7"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-11-02",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-11-02/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "icpsr.umich.edu",
+  "host": "icpsr.umich.edu"
+ }
+}

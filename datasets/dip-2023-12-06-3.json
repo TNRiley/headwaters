@@ -1,0 +1,45 @@
+{
+ "id": "dip-2023-12-06-3",
+ "title": "EU court cases",
+ "hook": "The IUROPA Project’s CJEU Database “is the most complete collection of research-ready data about the Court of Justice of the European Union (CJEU) and European Union (EU) law.” Developed from several official sources by Stein Arne Brekke et al., the database provides tables of all cases (45,000+), parties (85,000+), proceedings (47,000+), decisions (50,000+), citations (1,000,000+), judges (270+), and more from the court’s inception in 1952 through 2022.",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "iuropa.pol.gu.se",
+   "url": "https://www.iuropa.pol.gu.se/about"
+  },
+  {
+   "name": "iuropa.pol.gu.se",
+   "url": "https://www.iuropa.pol.gu.se/cjeu-database"
+  },
+  {
+   "name": "cambridge.org",
+   "url": "https://www.cambridge.org/core/journals/journal-of-law-and-courts/article/cjeu-database-platform-decisions-and-decisionmakers/69151433D88FD163B9CC997296CEE540"
+  },
+  {
+   "name": "iuropa.pol.gu.se",
+   "url": "https://www.iuropa.pol.gu.se/cjeu-database/cjeu-database-platform"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2023-12-06",
+   "year": 2023,
+   "url": "https://www.data-is-plural.com/archive/2023-12-06/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "iuropa.pol.gu.se",
+  "host": "iuropa.pol.gu.se"
+ }
+}

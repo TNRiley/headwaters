@@ -1,0 +1,53 @@
+{
+ "id": "dip-2016-06-08-4",
+ "title": "The Netflix Prize, archived",
+ "hook": "In 2006, Netflix launched a $1 million challenge to beat the company’s movie-recommendation algorithm. In 2009, Netflix awarded the prize to a group of AT&T scientists (though ultimately didn’t use the winning algorithm).",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "netflixprize.com",
+   "url": "http://www.netflixprize.com/"
+  },
+  {
+   "name": "techdirt.com",
+   "url": "https://www.techdirt.com/blog/innovation/articles/20120409/03412518422/why-netflix-never-implemented-algorithm-that-won-netflix-1-million-challenge.shtml"
+  },
+  {
+   "name": "web.archive.org",
+   "url": "https://web.archive.org/web/20090925184737/http://archive.ics.uci.edu/ml/datasets/Netflix+Prize"
+  },
+  {
+   "name": "archive.org",
+   "url": "https://archive.org/details/nf_prize_dataset.tar"
+  },
+  {
+   "name": "grouplens.org",
+   "url": "http://grouplens.org/datasets/movielens/"
+  },
+  {
+   "name": "tinyletter.com",
+   "url": "https://tinyletter.com/data-is-plural/letters/data-is-plural-2016-01-27-edition"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2016-06-08",
+   "year": 2016,
+   "url": "https://www.data-is-plural.com/archive/2016-06-08/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "netflixprize.com",
+  "host": "netflixprize.com"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "id": "dip-2022-07-13-5",
+ "title": "Early movie theaters in Oregon",
+ "hook": "The Oregon Theater Project, developed as part of a cinema studies course, “aims to document the history of moviegoing in Oregon – why people went to the movies, where people watched them, and what people thought about them,” with a current focus on the silent film era.",
+ "hook_source": "publisher",
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "oregontheaterproject.uoregon.edu",
+   "url": "https://oregontheaterproject.uoregon.edu/"
+  },
+  {
+   "name": "oregontheaterproject.uoregon.edu",
+   "url": "https://oregontheaterproject.uoregon.edu/about-project"
+  },
+  {
+   "name": "dataverse.harvard.edu",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FGOUZ3"
+  },
+  {
+   "name": "oregontheaterproject.uoregon.edu",
+   "url": "https://oregontheaterproject.uoregon.edu/theaters"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2022-07-13",
+   "year": 2022,
+   "url": "https://www.data-is-plural.com/archive/2022-07-13/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "oregontheaterproject.uoregon.edu",
+  "host": "oregontheaterproject.uoregon.edu"
+ }
+}

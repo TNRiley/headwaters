@@ -1,0 +1,33 @@
+{
+ "id": "dip-2019-08-07-4",
+ "title": "Antarctic icebergs",
+ "hook": "Brigham Young University’s Antarctic Iceberg Tracking Database provides surveillance on hundreds of floating hunks of ice, past and present. The records cover 1978 plus 1992 through mid-2019; a subset of the database lists 117 icebergs’ daily position, estimated size, and rotation angle. [h/t Robin Hawkes]",
+ "hook_source": "publisher",
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "scp.byu.edu",
+   "url": "https://www.scp.byu.edu/data/iceberg/"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2019-08-07",
+   "year": 2019,
+   "url": "https://www.data-is-plural.com/archive/2019-08-07/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "scp.byu.edu",
+  "host": "scp.byu.edu"
+ }
+}

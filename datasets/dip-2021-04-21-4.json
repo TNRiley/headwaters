@@ -1,0 +1,41 @@
+{
+ "id": "dip-2021-04-21-4",
+ "title": "New York City languages",
+ "hook": "The Endangered Language Alliance’s Languages of New York City map highlights nearly 700 languages and dialects spoken in NYC and nearby counties. For each language, it indicates a number of significant sites where it is or has been spoken.",
+ "hook_source": "publisher",
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "elalliance.org",
+   "url": "https://elalliance.org/"
+  },
+  {
+   "name": "languagemap.nyc",
+   "url": "https://languagemap.nyc/"
+  },
+  {
+   "name": "languagemap.nyc",
+   "url": "https://languagemap.nyc/Data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2021-04-21",
+   "year": 2021,
+   "url": "https://www.data-is-plural.com/archive/2021-04-21/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "elalliance.org",
+  "host": "elalliance.org"
+ }
+}

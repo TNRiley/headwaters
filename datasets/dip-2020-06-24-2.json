@@ -1,0 +1,61 @@
+{
+ "id": "dip-2020-06-24-2",
+ "title": "Indigenous lands",
+ "hook": "Native-Land.ca maps the historical geographic extents of Indigenous territories in North America, Australia, New Zealand, parts of South America, and elsewhere. The project’s datasets cover 1,400+ territories, 900+ languages, and 800+ related treaties, drawn from a wide range of resources.",
+ "hook_source": "publisher",
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "academic",
+ "geography": "Australia",
+ "sources": [
+  {
+   "name": "native-land.ca",
+   "url": "https://native-land.ca/"
+  },
+  {
+   "name": "native-land.ca",
+   "url": "https://native-land.ca/api-docs/"
+  },
+  {
+   "name": "native-land.ca",
+   "url": "https://native-land.ca/resources/"
+  },
+  {
+   "name": "victortemprano.com",
+   "url": "http://victortemprano.com"
+  },
+  {
+   "name": "native-land.ca",
+   "url": "https://native-land.ca/about/"
+  },
+  {
+   "name": "landgrabu.org",
+   "url": "https://www.landgrabu.org"
+  },
+  {
+   "name": "hcn.org",
+   "url": "https://www.hcn.org/articles/indigenous-affairs-education-how-we-investigated-the-land-grant-university-system"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/HCN-Digital-Projects/landgrabu-data"
+  }
+ ],
+ "articles": [],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "data-is-plural",
+   "date": "2020-06-24",
+   "year": 2020,
+   "url": "https://www.data-is-plural.com/archive/2020-06-24/"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "native-land.ca",
+  "host": "native-land.ca"
+ }
+}
