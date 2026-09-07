@@ -1,0 +1,70 @@
+{
+  "id": "montgomery-county-gis",
+  "name": "Montgomery County, MD — GIS services and MC Atlas",
+  "publisher": "Montgomery County Government / Maryland-National Capital Park and Planning Commission",
+  "homepage": "https://montgomeryplanning.org/tools/gis-and-mapping/",
+  "description": "Two live ArcGIS estates for Maryland's largest county. gis.montgomerycountymd.gov carries the operational county layers — Ride On and WMATA bus stops, Metro stations, the DOT street-tree inventory, municipalities, zip codes, election and census boundaries. mcmaps.org (MC Atlas, the planning department's own) carries the planning overlays, including the Agricultural Reserve zone boundary, which is the one thing you cannot get from the state's generalized zoning layer.",
+  "topics": ["local government", "zoning", "planning", "transit", "trees", "boundaries", "gis", "hyperlocal"],
+  "geography": "Montgomery County, Maryland (DC suburbs)",
+  "temporal": { "start": "varies by layer", "end": "present", "grain": "feature", "updated": "irregular, per layer" },
+  "license": { "name": "Montgomery County open data — public record", "redistribution": "free, attribution requested" },
+  "access": {
+    "auth": "none",
+    "formats": ["json", "geojson"],
+    "bulk": false,
+    "rate_limit": "none published",
+    "etiquette": "small county-scale layers; ask for maxAllowableOffset on polygons rather than pulling full-resolution geometry"
+  },
+  "recipes": [
+    {
+      "title": "List what is served",
+      "lang": "bash",
+      "code": "curl -s 'https://gis.montgomerycountymd.gov/arcgis/rest/services?f=json'   # folders: census DGS DOT DPS elections energov General hhs TMD UltraMontgomery Utilities"
+    },
+    {
+      "title": "The Agricultural Reserve boundary as GeoJSON",
+      "lang": "bash",
+      "code": "curl -s -G 'https://mcmaps.org/server11/rest/services/Overlays/MCAtlas_Boundaries/MapServer/10/query' --data-urlencode 'where=1=1' --data-urlencode 'outFields=ZONE_,ACRES' --data-urlencode 'maxAllowableOffset=0.0004' --data-urlencode 'outSR=4326' --data-urlencode 'f=geojson'"
+    },
+    {
+      "title": "Metro stations with names and coordinates",
+      "lang": "bash",
+      "code": "curl -s -G 'https://gis.montgomerycountymd.gov/arcgis/rest/services/General/metro_stations/MapServer/0/query' --data-urlencode 'where=1=1' --data-urlencode 'outFields=NAME,ADDRESS,CITY' --data-urlencode 'outSR=4326' --data-urlencode 'f=geojson'"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "gis.montgomerycountymd.gov has no parcel or property layer. Looking for year built, lot size or assessment in the county's own services is a dead end.",
+      "fix": "Parcels and assessment attributes are a STATE product — see the md-imap record (MDProperty View parcel points). The county serves operations and planning overlays, not the tax roll."
+    },
+    {
+      "trap": "gis.montgomeryplanning.org returns an empty body; the planning department's live host is mcmaps.org (and montgomeryplans.org for a few generalized services).",
+      "fix": "Find the real service URL by pulling the AGOL item behind a published web map: https://www.arcgis.com/sharing/rest/search?q=... then .../content/items/<id>/data?f=json lists every operationalLayer with its URL. That is how both hosts here were found."
+    }
+  ],
+  "probes": [
+    {
+      "id": "services-root",
+      "description": "County ArcGIS root still lists its service folders",
+      "url": "https://gis.montgomerycountymd.gov/arcgis/rest/services?f=json",
+      "expect": { "body_contains": ["folders", "General"] }
+    },
+    {
+      "id": "ag-reserve",
+      "description": "MC Atlas still serves the Agricultural Reserve zone polygons",
+      "url": "https://mcmaps.org/server11/rest/services/Overlays/MCAtlas_Boundaries/MapServer/10/query?where=1%3D1&outFields=ZONE_&returnGeometry=false&resultRecordCount=2&f=json",
+      "expect": { "body_contains": ["ZONE_"] }
+    },
+    {
+      "id": "metro-stations",
+      "description": "Metro station points with names",
+      "url": "https://gis.montgomerycountymd.gov/arcgis/rest/services/General/metro_stations/MapServer/0/query?where=1%3D1&outFields=NAME&returnGeometry=false&f=json",
+      "expect": { "body_contains": ["NAME"] }
+    }
+  ],
+  "related": ["md-imap"],
+  "used_by": ["broke-ground"],
+  "added": "2026-09-07",
+  "verified": "2026-09-07",
+  "status": "live"
+}

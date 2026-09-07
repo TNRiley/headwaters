@@ -1,8 +1,8 @@
 {
-  "checked": "2026-09-07T02:59:26+00:00",
+  "checked": "2026-09-07T13:10:36+00:00",
   "probe_version": 1,
   "summary": {
-    "ok": 72,
+    "ok": 78,
     "fail": 3,
     "expected_fail": 5,
     "partial": true
@@ -224,10 +224,10 @@
     "gbif": {
       "occurrence-search": {
         "url": "https://api.gbif.org/v1/occurrence/search?q=Quercus&limit=1",
-        "checked": "2026-09-07T02:52:23+00:00",
+        "checked": "2026-09-07T07:24:18+00:00",
         "status": 206,
         "content_type": "application/json",
-        "length_header": "bytes 0-4095/*",
+        "length_header": "bytes 0-4095/5135",
         "ms": 717,
         "bytes_read": 4096,
         "ok": true,
@@ -235,11 +235,11 @@
       },
       "species-match": {
         "url": "https://api.gbif.org/v1/species/match?name=Quercus%20alba",
-        "checked": "2026-09-07T02:52:26+00:00",
+        "checked": "2026-09-07T07:24:21+00:00",
         "status": 206,
         "content_type": "application/json",
         "length_header": "bytes 0-430/431",
-        "ms": 495,
+        "ms": 534,
         "bytes_read": 431,
         "ok": true,
         "known_broken": null
@@ -605,21 +605,21 @@
     "open-meteo": {
       "forecast": {
         "url": "https://api.open-meteo.com/v1/forecast?latitude=39.03&longitude=-77.08&hourly=temperature_2m&forecast_days=1",
-        "checked": "2026-09-07T02:53:36+00:00",
+        "checked": "2026-09-07T07:24:21+00:00",
         "status": 200,
         "content_type": "application/json; charset=utf-8",
-        "ms": 691,
-        "bytes_read": 843,
+        "ms": 667,
+        "bytes_read": 842,
         "ok": true,
         "known_broken": null
       },
       "archive-era5": {
         "url": "https://archive-api.open-meteo.com/v1/archive?latitude=39.03&longitude=-77.08&start_date=1990-07-04&end_date=1990-07-04&daily=temperature_2m_max&timezone=UTC",
-        "checked": "2026-09-07T02:53:37+00:00",
+        "checked": "2026-09-07T07:24:22+00:00",
         "status": 200,
         "content_type": "application/json; charset=utf-8",
         "ms": 740,
-        "bytes_read": 290,
+        "bytes_read": 289,
         "ok": true,
         "known_broken": null
       }
@@ -971,6 +971,74 @@
         "length_header": "13015",
         "ms": 726,
         "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "md-imap": {
+      "parcel-count-montgomery": {
+        "url": "https://mdgeodata.md.gov/imap/rest/services/PlanningCadastre/MD_PropertyData/MapServer/0/query?where=JURSCODE%3D%27MONT%27&returnCountOnly=true&f=json",
+        "checked": "2026-09-07T13:09:59+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=UTF-8",
+        "length_header": "16",
+        "ms": 1282,
+        "bytes_read": 16,
+        "ok": true,
+        "known_broken": null
+      },
+      "parcel-fields": {
+        "url": "https://mdgeodata.md.gov/imap/rest/services/PlanningCadastre/MD_PropertyData/MapServer/0/query?where=JURSCODE%3D%27MONT%27+AND+YEARBLT+IS+NOT+NULL&outFields=YEARBLT%2CDESCSUBD%2CSDATWEBADR%2CDESCSTYL&returnGeometry=false&resultRecordCount=1&f=json",
+        "checked": "2026-09-07T13:10:02+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=UTF-8",
+        "length_header": "819",
+        "ms": 404,
+        "bytes_read": 819,
+        "ok": true,
+        "known_broken": null
+      },
+      "historic-properties": {
+        "url": "https://mdgeodata.md.gov/imap/rest/services/Historic/MD_InventoryHistoricProperties/MapServer/0/query?where=COUNTY%3D%27Montgomery%27&outFields=MIHPNO%2CNam%2CPDFLINK&returnGeometry=false&resultRecordCount=2&f=json",
+        "checked": "2026-09-07T13:10:04+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=UTF-8",
+        "length_header": "690",
+        "ms": 649,
+        "bytes_read": 690,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "montgomery-county-gis": {
+      "services-root": {
+        "url": "https://gis.montgomerycountymd.gov/arcgis/rest/services?f=json",
+        "checked": "2026-09-07T13:10:34+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=UTF-8",
+        "ms": 112,
+        "bytes_read": 150,
+        "ok": true,
+        "known_broken": null
+      },
+      "ag-reserve": {
+        "url": "https://mcmaps.org/server11/rest/services/Overlays/MCAtlas_Boundaries/MapServer/10/query?where=1%3D1&outFields=ZONE_&returnGeometry=false&resultRecordCount=2&f=json",
+        "checked": "2026-09-07T13:10:35+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=UTF-8",
+        "length_header": "248",
+        "ms": 218,
+        "bytes_read": 248,
+        "ok": true,
+        "known_broken": null
+      },
+      "metro-stations": {
+        "url": "https://gis.montgomerycountymd.gov/arcgis/rest/services/General/metro_stations/MapServer/0/query?where=1%3D1&outFields=NAME&returnGeometry=false&f=json",
+        "checked": "2026-09-07T13:10:36+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=UTF-8",
+        "ms": 106,
+        "bytes_read": 653,
         "ok": true,
         "known_broken": null
       }

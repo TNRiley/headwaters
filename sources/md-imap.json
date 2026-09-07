@@ -1,0 +1,153 @@
+{
+  "id": "md-imap",
+  "name": "Maryland iMAP — statewide GIS services (parcels, boundaries, hydrography, historic properties)",
+  "publisher": "Maryland Department of Information Technology / Maryland Department of Planning",
+  "homepage": "https://imap.maryland.gov/",
+  "description": "Maryland's statewide ArcGIS REST estate. The one that earns its keep here is MDProperty View 'Parcel Points' — every tax account in the state as a point, carrying the assessor's own attributes: year built, structure area, building style, construction, subdivision name, land use, assessed value and a link to the property's SDAT record. Also serves the Maryland Inventory of Historic Properties (with links to scanned survey PDFs), political and municipal boundaries, hydrography, land use 1973–2018, and orthoimagery back to 2017. Statewide coverage of ~2.3M parcels; Montgomery County alone is 348,669.",
+  "topics": [
+    "parcels",
+    "cadastre",
+    "property",
+    "housing",
+    "buildings",
+    "historic preservation",
+    "boundaries",
+    "hydrography",
+    "land use",
+    "gis"
+  ],
+  "geography": "Maryland, statewide",
+  "temporal": {
+    "start": "assessor year-built values run back to the 1700s (estimates before ~1920)",
+    "end": "present",
+    "grain": "one record per tax account",
+    "updated": "parcel attributes refreshed yearly from SDAT; see the MDPVDATE / SDATDATE fields on each record"
+  },
+  "license": {
+    "name": "Maryland open data — public record",
+    "url": "https://imap.maryland.gov/Pages/terms-of-use.aspx",
+    "redistribution": "free, attribution requested"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json",
+      "geojson",
+      "pbf"
+    ],
+    "bulk": false,
+    "rate_limit": "none published; maxRecordCount is 2000 per page on the parcel layer",
+    "etiquette": "page with resultOffset and send a real User-Agent; a full county is ~175 requests, which it serves in about three minutes at a 0.4 s gap"
+  },
+  "fields": [
+    "YEARBLT — year built, a STRING(4), not a number",
+    "DESCSTYL / STRUSTYL — assessor's structure style (133 distinct values in Montgomery)",
+    "DESCSUBD — subdivision name, the best handle on a development's identity",
+    "SQFTSTRC, ACRES, BLDG_STORY, DESCCNST — size and construction",
+    "NFMTTLVL — current assessed full value",
+    "ACCTID — county(2) + district(2) + account(8); rebuilds the SDAT URL without carrying SDATWEBADR",
+    "DESCLU / LU — land use class",
+    "PDFLINK (historic properties layer) — the scanned MHT survey form"
+  ],
+  "recipes": [
+    {
+      "title": "Count the parcels in one county",
+      "lang": "bash",
+      "code": "curl -s -G 'https://mdgeodata.md.gov/imap/rest/services/PlanningCadastre/MD_PropertyData/MapServer/0/query' --data-urlencode \"where=JURSCODE='MONT'\" --data-urlencode 'returnCountOnly=true' --data-urlencode 'f=json'"
+    },
+    {
+      "title": "Page a county's parcels with the fields worth having",
+      "lang": "bash",
+      "code": "curl -s -G 'https://mdgeodata.md.gov/imap/rest/services/PlanningCadastre/MD_PropertyData/MapServer/0/query' --data-urlencode \"where=JURSCODE='MONT'\" --data-urlencode 'outFields=ACCTID,ADDRESS,CITY,YEARBLT,DESCSTYL,SQFTSTRC,DESCLU,DESCSUBD,NFMTTLVL,ACRES' --data-urlencode 'returnGeometry=true' --data-urlencode 'outSR=4326' --data-urlencode 'orderByFields=OBJECTID' --data-urlencode 'resultOffset=0' --data-urlencode 'resultRecordCount=2000' --data-urlencode 'f=json'"
+    },
+    {
+      "title": "Server-side histogram instead of downloading everything",
+      "lang": "bash",
+      "code": "curl -s -G 'https://mdgeodata.md.gov/imap/rest/services/PlanningCadastre/MD_PropertyData/MapServer/0/query' --data-urlencode \"where=JURSCODE='MONT' AND YEARBLT IS NOT NULL\" --data-urlencode 'groupByFieldsForStatistics=YEARBLT' --data-urlencode 'outStatistics=[{\"statisticType\":\"count\",\"onStatisticField\":\"ACCTID\",\"outStatisticFieldName\":\"n\"}]' --data-urlencode 'f=json'"
+    },
+    {
+      "title": "Historic properties in a county, with their survey PDFs",
+      "lang": "bash",
+      "code": "curl -s -G 'https://mdgeodata.md.gov/imap/rest/services/Historic/MD_InventoryHistoricProperties/MapServer/0/query' --data-urlencode \"where=COUNTY='Montgomery'\" --data-urlencode 'outFields=MIHPNO,Nam,FULLADDR,TOWN,PDFLINK' --data-urlencode 'returnGeometry=false' --data-urlencode 'f=json'"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "YEARBLT is a STRING(4), not a number. `where=YEARBLT > 0` returns HTTP 400 'Unable to complete operation' with no explanation of why.",
+      "fix": "Compare as a string (YEARBLT IS NOT NULL AND YEARBLT <> ''), or cast client-side. Check the layer's field types before writing any where clause here — SQFTSTRC and NFMTTLVL really are integers, so the types are inconsistent within one layer."
+    },
+    {
+      "trap": "geodata.md.gov and mdgeodata.md.gov are different hosts. The first served a 'Site Maintenance' HTML page for the whole of 2026-09-07; the second was fine.",
+      "fix": "Use mdgeodata.md.gov. mdpgis.mdp.state.md.us is a third live host carrying the Department of Planning's own services (zoning, property sales, MHT Medusa)."
+    },
+    {
+      "trap": "Paging with resultOffset alone silently returns unstable pages — records can repeat or vanish between requests.",
+      "fix": "Always pass orderByFields (OBJECTID is fine) alongside resultOffset/resultRecordCount."
+    },
+    {
+      "trap": "returnCentroid=true is accepted and then ignored by MapServer layers, so a polygon query comes back with geometry and no centroid field. A loop reading `feature.centroid.x` silently produces zero records rather than an error.",
+      "fix": "Ask for the geometry with maxAllowableOffset and average the ring yourself, or use a FeatureServer endpoint where centroids are honoured."
+    },
+    {
+      "trap": "PDFLINK on the historic-properties layer contains a literal space and semicolon — 'https://apps.mht.maryland.gov/Medusa/PDF/Montgomery/M; 17-53.pdf'. Handed to a browser or curl unencoded it fails.",
+      "fix": "Percent-encode the space (%20). The URL then returns a real scanned survey form, a few MB of PDF."
+    },
+    {
+      "trap": "The parcel layer's field list looks like it has no architectural style — DESCSTYL is structural (\"2 Story With Basement\", \"Townhouse-Center Unit\", \"Split Foyer\"), not architectural (no Colonial/Rambler/Cape Cod).",
+      "fix": "It is still the best typology axis available: detached vs townhouse vs condominium vs apartment falls straight out of it. But a condominium code describes how the unit is OWNED TODAY, not how it was built — 1960s garden apartments converted in the 1970s carry a 1960s year and a condominium style."
+    },
+    {
+      "trap": "YEARBLT clusters hard on placeholder years. In Montgomery County 1900 alone carries 544 buildings, about ten times its neighbouring years.",
+      "fix": "Treat pre-1920 years as estimates. Check for round-number spikes against the mean of neighbouring years before you build any pre-war analysis on it."
+    },
+    {
+      "trap": "The generalized zoning layer has no AGRICULTURE category for Montgomery County — the Agricultural Reserve shows up as 106,821 acres of 'RURAL LOW DENSITY RESIDENTIAL'.",
+      "fix": "For the actual Reserve boundary use Montgomery County's own atlas: https://mcmaps.org/server11/rest/services/Overlays/MCAtlas_Boundaries/MapServer/10 (ZONE_='AR', 23 polygons). Note it is the 2014 AR zone, not the 1980 RDT boundary it replaced."
+    }
+  ],
+  "probes": [
+    {
+      "id": "parcel-count-montgomery",
+      "description": "Montgomery County parcel count from the MDProperty View parcel points layer",
+      "url": "https://mdgeodata.md.gov/imap/rest/services/PlanningCadastre/MD_PropertyData/MapServer/0/query?where=JURSCODE%3D%27MONT%27&returnCountOnly=true&f=json",
+      "expect": {
+        "body_contains": [
+          "\"count\""
+        ]
+      }
+    },
+    {
+      "id": "parcel-fields",
+      "description": "One parcel with the fields this catalogue relies on (probe.py truncates long bodies, so query a small response rather than the layer's own metadata)",
+      "url": "https://mdgeodata.md.gov/imap/rest/services/PlanningCadastre/MD_PropertyData/MapServer/0/query?where=JURSCODE%3D%27MONT%27+AND+YEARBLT+IS+NOT+NULL&outFields=YEARBLT%2CDESCSUBD%2CSDATWEBADR%2CDESCSTYL&returnGeometry=false&resultRecordCount=1&f=json",
+      "expect": {
+        "body_contains": [
+          "YEARBLT",
+          "SDATWEBADR",
+          "DESCSUBD"
+        ]
+      }
+    },
+    {
+      "id": "historic-properties",
+      "description": "Maryland Inventory of Historic Properties returns records with survey PDF links",
+      "url": "https://mdgeodata.md.gov/imap/rest/services/Historic/MD_InventoryHistoricProperties/MapServer/0/query?where=COUNTY%3D%27Montgomery%27&outFields=MIHPNO%2CNam%2CPDFLINK&returnGeometry=false&resultRecordCount=2&f=json",
+      "expect": {
+        "body_contains": [
+          "PDFLINK",
+          "MIHPNO"
+        ]
+      }
+    }
+  ],
+  "related": [
+    "socrata-portals",
+    "data-gov"
+  ],
+  "used_by": [
+    "broke-ground"
+  ],
+  "added": "2026-09-07",
+  "verified": "2026-09-07",
+  "status": "live"
+}

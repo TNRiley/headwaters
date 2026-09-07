@@ -62,6 +62,16 @@
       "title": "Occurrences of one species in a bounding box",
       "lang": "bash",
       "code": "KEY=$(curl -s 'https://api.gbif.org/v1/species/match?name=Danaus%20plexippus' | python3 -c 'import json,sys;print(json.load(sys.stdin)[\"usageKey\"])')\ncurl -s \"https://api.gbif.org/v1/occurrence/search?taxonKey=$KEY&decimalLatitude=38,40&decimalLongitude=-78,-76&limit=5\" | python3 -m json.tool | head -30"
+    },
+    {
+      "title": "Daily histogram for one species, one box, one month",
+      "lang": "bash",
+      "code": "curl -s 'https://api.gbif.org/v1/occurrence/search?taxonKey=5228514&decimalLatitude=38.5,39.5&decimalLongitude=-77.6,-76.5&year=2024&month=5&limit=0&facet=day&facetLimit=31&basisOfRecord=HUMAN_OBSERVATION'"
+    },
+    {
+      "title": "Observer-effort denominator: the same query for all birds",
+      "lang": "bash",
+      "code": "# Swap taxonKey for classKey=212 (Aves) to get every bird record in the same box on the\n# same days. Dividing by this is what makes counts comparable across years: the DC box\n# logged 210 hummingbird records in 2000 and 13,261 in 2024 -- observers, not birds.\ncurl -s 'https://api.gbif.org/v1/occurrence/search?classKey=212&decimalLatitude=38.5,39.5&decimalLongitude=-77.6,-76.5&year=2024&month=5&limit=0&facet=day&facetLimit=31&basisOfRecord=HUMAN_OBSERVATION'"
     }
   ],
   "gotchas": [
@@ -76,9 +86,32 @@
     {
       "trap": "Coordinates are often rounded or obscured for endangered species.",
       "fix": "Check coordinateUncertaintyInMeters and hasGeospatialIssues."
+    },
+    {
+      "trap": "occurrence/search accepts facet=day alongside year= and month=, which is easy to miss.",
+      "fix": "One call then returns a full daily histogram for that month. Building a day-resolution seasonal curve by looping eventDate day by day costs ~30x more requests: faceting by day over month+year collapsed a 150,000-call job to 5,250."
+    },
+    {
+      "trap": "eBird's annual export reaches GBIF about a year late, so the most recent year looks catastrophically empty rather than merely incomplete.",
+      "fix": "Checked 2026-09-07: the DC box held 422 Ruby-throated Hummingbird records for 2025 against 13,261 for 2024. Any seasonal-timing measure reads that as a wildly early season. Compare each year's volume against the trailing median and drop the incomplete tail; never trust the current or previous calendar year."
+    },
+    {
+      "trap": "More than about 6 concurrent search requests get silently throttled, failing even after five retries with exponential backoff.",
+      "fix": "10 threads failed 198 of 4,362 histogram calls (4.5%). The identical job list at 4 threads refetched all 198 with zero errors at the same ~250 requests/min. Concurrency above ~6 buys no throughput and loses data."
+    },
+    {
+      "trap": "A burst of rapid sequential calls occasionally answers HTTP 200 with a JSON *array* error body instead of the search object.",
+      "fix": "Parse defensively and treat a non-dict body as retryable. Code that goes straight to d['count'] dies with 'list indices must be integers' thousands of calls into a harvest."
+    },
+    {
+      "trap": "Occurrence counts fold in museum specimens and fossils whose collection dates say nothing about present-day seasonal timing.",
+      "fix": "Filter basisOfRecord=HUMAN_OBSERVATION for anything phenological. This is the same trap as the existing cultivated/zoo gotcha, but it bites date-based work rather than range maps."
     }
   ],
   "added": "2026-09-06",
   "verified": "2026-09-06",
-  "status": "live"
+  "status": "live",
+  "used_by": [
+    "ahead-of-season"
+  ]
 }
