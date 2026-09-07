@@ -11,6 +11,7 @@ standalone document rather than an Artifact fragment) and add_catalog_link.py.
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -150,6 +151,23 @@ def main():
                  "  index.html is unchanged.")
     if not wrapped:
         print("note: catalogue tools not found; index.html is an unwrapped fragment")
+
+    # Run the page. A build that produces a syntactically valid file whose script dies on
+    # load is not a build -- the header renders, everything under it is blank, and nothing
+    # here notices. Same contract as the fragment guard above: on failure, put the previous
+    # index.html back rather than leave a broken one where it can be published.
+    smoke = ROOT / "src" / "smoke.js"
+    if smoke.exists() and shutil.which("node"):
+        result = subprocess.run(["node", str(smoke), str(OUT)],
+                                capture_output=True, text=True)
+        print(result.stdout.strip() or result.stderr.strip())
+        if result.returncode != 0:
+            if previous is not None:
+                OUT.write_bytes(previous)
+                print("index.html is unchanged.")
+            sys.exit("the built page does not run; not publishing it")
+    elif smoke.exists():
+        print("note: node not found, so the page was not run. `node src/smoke.js` checks it.")
 
 
 if __name__ == "__main__":

@@ -111,7 +111,8 @@ python3 src/classify.py                           # assign subjects, publishers,
 python3 src/quality.py --sweep                    # strip publisher boilerplate from hooks
 python3 src/joins.py                              # rebuild the join graph
 python3 src/harvest.py --list new | head          # candidates waiting to be researched
-python3 src/build_site.py                         # regenerate index.html
+python3 src/build_site.py                         # regenerate index.html (and run it)
+node src/smoke.js                                 # run the built page; fails if it throws
 ```
 
 Standard library only, no dependencies, Python 3.9 or newer — it has to run anywhere.

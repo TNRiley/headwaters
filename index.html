@@ -195,7 +195,11 @@
 (function(){
   var D = JSON.parse(document.getElementById('DATA').textContent);
   var DS = D.datasets || [], SRC = D.sources || [], H = D.health || {}, R = H.results || {};
-  JOINS = D.joins || {};
+  // Declared here, where they are first used. They were declared 45 lines further down,
+  // and `var` hoisting meant BY_ID was undefined at this line rather than absent -- so the
+  // assignment threw, the whole script died, and the page rendered its static header with
+  // nothing under it.
+  var JOINS = D.joins || {}, BY_ID = {};
   DS.forEach(function(d){ BY_ID[d.id] = d; });
   var PAGE = 60;
   var state = {q:'', mode:'datasets', facets:{}, shown:PAGE, seed:0, overview:true};
@@ -240,7 +244,6 @@
   }
 
   // Readable names for the aggregations that surface datasets.
-  var JOINS = {}, BY_ID = {};
   var AGG = {'tidytuesday':'TidyTuesday', 'data-is-plural':'Data Is Plural',
              'aws-open-data-registry':'AWS Open Data'};
 

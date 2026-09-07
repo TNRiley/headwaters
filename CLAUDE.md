@@ -251,7 +251,8 @@ src/fetch_dip.py    builds dataset records from the Data Is Plural archive
 src/validate.py     schema + id + cross-reference checks (stdlib only, no pip)
 src/probe.py        runs every probe, writes health.json, reports what changed state
 src/harvest.py      pulls leads from upstream initiatives into leads.json
-src/build_site.py   splices sources + health into index.html
+src/build_site.py   splices sources + health into index.html, then runs the page
+src/smoke.js        runs index.html's script in a DOM shim; the build fails if it throws
 src/template.html   the page; edit here, never edit index.html
 .github/workflows/probe.yml  weekly probe run; commits health, opens an issue on a break
 boilerplate.json    generated — learned boilerplate, plus the not_boilerplate judgements
@@ -270,6 +271,13 @@ to run on a machine where `pip install` is not an option.
 - **Host and title normalisation lives in `src/match.py`.** Three private copies of that
   rule is how they drift apart. If a match is wrong, fix it there and add a case to
   `_selftest()` — `python3 src/match.py` runs them.
+- **A page that parses is not a page that runs.** `build_site.py` executes the built page
+  through `src/smoke.js` and restores the previous `index.html` if the script throws or
+  renders nothing. This exists because a published build had a `var` declared 45 lines
+  below its first use: hoisting made it `undefined` rather than a ReferenceError, the
+  assignment threw, the whole script died, and the static header still rendered — so the
+  page looked fine in a screenshot and was empty underneath. If the page grows something
+  the shim cannot fake, widen the shim; do not delete the check.
 - **Never let `build_site.py` publish an unwrapped fragment.** It refuses on its own now
   (the page would render in quirks mode with UTF-8 read as Latin-1), but if you see that
   refusal, the fix is to supply the wrapper, never to bypass the check.
