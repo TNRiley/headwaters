@@ -339,11 +339,16 @@ def build(refresh=False, limit=None):
                 rec["hook"] = old["hook"]
             if old.get("questions_source") in ("manual", "generated") and old.get("questions"):
                 rec["questions"] = old["questions"]
-            # a record already here may have picked up other sightings
-            seen = {f.get("aggregation") for f in rec["found_in"]}
+            # A record already here may have picked up other sightings, including further
+            # ones from this same aggregation -- DiP re-features a dataset years later.
+            # Keyed by (aggregation, date) to match the merge rule: comparing aggregation
+            # alone dropped the second DiP sighting on every rewrite, which the merge pass
+            # then re-added, so the file churned on every run and nothing was ever stable.
+            seen = {(f.get("aggregation"), f.get("date")) for f in rec["found_in"]}
             for f in old.get("found_in", []):
-                if f.get("aggregation") not in seen:
+                if (f.get("aggregation"), f.get("date")) not in seen:
                     rec["found_in"].append(f)
+            rec["found_in"].sort(key=lambda f: (f.get("date") or "", f.get("aggregation")))
         if not rec["questions"]:
             rec.pop("questions")
         path.write_text(json.dumps(rec, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
