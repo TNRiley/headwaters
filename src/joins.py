@@ -183,7 +183,9 @@ def score_pair(a, b):
     shared = a["keys"] & b["keys"]
     if not shared or not compatible(a, b):
         return None
-    best = max(shared, key=lambda f: SPECIFICITY[f])
+    # sorted() first: max() over a set breaks ties in whatever order the set iterates,
+    # which varies with the hash seed and made the graph differ between identical runs
+    best = max(sorted(shared), key=lambda f: SPECIFICITY[f])
     score = SPECIFICITY[best]
 
     subs_a, subs_b = a["subjects"], b["subjects"]
@@ -230,7 +232,10 @@ def build(top_k=6):
     # 2.8 million pairs to discard almost all of them.
     edges = defaultdict(list)
     seen_pairs = set()
-    for fam, group in by_key.items():
+    # Families in a fixed order for the same reason: whichever family reaches a pair
+    # first is the one that scores it, so set-iteration order would decide the answer.
+    for fam in sorted(by_key):
+        group = by_key[fam]
         for i, a in enumerate(group):
             for b in group[i + 1:]:
                 pair = (a["id"], b["id"])
@@ -249,7 +254,8 @@ def build(top_k=6):
     # suggestion for half the catalogue. Penalising a partner by how joinable it is in
     # general is the same idea as weighting a search term by how rare it is.
     degree = {rid: len(es) for rid, es in edges.items()}
-    for rid, es in edges.items():
+    for rid in sorted(edges):
+        es = edges[rid]
         for e in es:
             e["score"] = round(e["score"] - HUB_PENALTY * math.log2(1 + degree.get(e["other"], 1)), 2)
         es.sort(key=lambda e: (-e["score"], e["other"]))
@@ -260,7 +266,7 @@ def build(top_k=6):
     # the strongest claim on a popular record wins it, and everyone after that gets shown
     # something they would not have seen otherwise. A record with no alternative still keeps
     # its best candidate, because a repetitive suggestion beats an empty panel.
-    out = {rid: [] for rid in edges}
+    out = {rid: [] for rid in sorted(edges)}
     used = defaultdict(int)
     ranked = sorted(((e["score"], rid, e) for rid, es in edges.items() for e in es),
                     key=lambda t: (-t[0], t[1], t[2]["other"]))
@@ -269,9 +275,9 @@ def build(top_k=6):
             continue
         out[rid].append(e)
         used[e["other"]] += 1
-    for rid, es in edges.items():
+    for rid in sorted(edges):
         if not out[rid]:
-            out[rid] = es[:1]
+            out[rid] = edges[rid][:1]
 
     payload = {
         "built_from": "%d records" % len(records),
