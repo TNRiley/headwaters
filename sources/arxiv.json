@@ -30,7 +30,8 @@
     ],
     "bulk": true,
     "rate_limit": "one request every 3 seconds, and they enforce it",
-    "pagination": "start= and max_results=, max 2000 per call, 30,000 total per query"
+    "pagination": "start= and max_results=, max 2000 per call, 30,000 total per query",
+    "etiquette": "One request every 3 seconds, and they mean it. Back off for minutes after a 429 rather than retrying: a quick retry extends the block."
   },
   "probes": [
     {
@@ -41,7 +42,9 @@
           "<feed",
           "<entry"
         ]
-      }
+      },
+      "min_interval_s": 3,
+      "note": "arXiv's stated 3-second spacing, honoured by the prober. Observed 2026-09-07: a request that timed out at 30s, retried about a minute later, came back 429 - the penalty is a cooldown, not per-request spacing."
     }
   ],
   "recipes": [
@@ -63,6 +66,10 @@
     {
       "trap": "Versions matter: the same paper has v1, v2, v3 with different dates and sometimes different conclusions.",
       "fix": "The id carries the version suffix; decide up front whether you want v1 or latest."
+    },
+    {
+      "trap": "A throttled call does not always answer 429. It can simply never answer - a 30-second read timeout with no status at all - and only the retry reveals the 429.",
+      "fix": "Treat a timeout against export.arxiv.org as rate limiting, not as an outage, and wait minutes before trying again."
     }
   ],
   "related": [

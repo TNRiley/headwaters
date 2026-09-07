@@ -1,0 +1,7 @@
+#!/bin/sh
+# Run the catalogue CLI from anywhere: `path/to/headwaters/hw find tide`.
+# Apple's /usr/bin/python3 is preferred deliberately -- the python.org build on this
+# machine ships without a CA bundle, so every HTTPS call from it fails while curl works.
+PY=/usr/bin/python3
+[ -x "$PY" ] || PY=python3
+exec "$PY" "$(dirname "$0")/src/hw.py" "$@"

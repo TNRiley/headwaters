@@ -83,10 +83,24 @@ copy-pasteable **recipes**, the **gotchas** that cost an hour, and the **probes*
 ## Use it
 
 ```bash
-grep -il "penguin\|bird" datasets/*.json          # is there something fun on this?
-grep -il "citation\|retraction" sources/*.json    # do we already document this endpoint?
+./hw find tide                 # search both layers; column names are the best key
+./hw show noaa-coops           # licence, auth, rate limit, gotchas, recipes, probe results
+./hw gotchas census            # the traps, before you write the loop
+./hw recipe openalex           # requests that run as written
+./hw add https://x.org/api     # already catalogued? ask before researching from scratch
+./hw health                    # what is failing, and what changed since the run before
+./hw stats
+```
+
+Add `--json` to any of them. The records are plain files, so `grep -il penguin datasets/*.json`
+works too.
+
+Maintenance:
+
+```bash
 python3 src/validate.py                           # schema, ids, cross-references
 python3 src/probe.py                              # re-check every endpoint, write health.json
+python3 src/match.py                              # normalisation self-test
 python3 src/fetch_tidytuesday.py                  # pick up new weeks (incremental, cached)
 python3 src/classify.py                           # assign subjects, publishers, geography
 python3 src/harvest.py --list new | head          # candidates waiting to be researched
@@ -94,6 +108,25 @@ python3 src/build_site.py                         # regenerate index.html
 ```
 
 Standard library only, no dependencies, Python 3.9 or newer — it has to run anywhere.
+
+### From another project
+
+`src/mcp_server.py` serves the same queries as MCP tools over stdio, so a session working
+somewhere else can consult the catalogue without knowing where it lives:
+
+```bash
+claude mcp add headwaters -- /usr/bin/python3 /abs/path/to/headwaters/src/mcp_server.py
+```
+
+`headwaters_find`, `headwaters_show`, `headwaters_gotchas`, `headwaters_recipe`,
+`headwaters_known`, `headwaters_used_by`, `headwaters_health`. Hand-rolled JSON-RPC, no SDK.
+
+### It checks itself
+
+`.github/workflows/probe.yml` runs every probe weekly, commits the results, and opens an
+issue **only when a source changes state** — never for a recovery, and never for a rate
+limit, which `probe.py` classifies separately from a failure. A watcher that cries every
+week is a watcher nobody reads.
 
 ## How it grows
 

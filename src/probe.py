@@ -12,6 +12,7 @@ Polite by construction: one request at a time, with a per-host delay.
     python3 src/probe.py                 # everything
     python3 src/probe.py ghcn-daily      # one source
     python3 src/probe.py --timeout 45    # slow networks
+    python3 src/probe.py --fail-on-change # exit 2 if anything flipped; for CI
 """
 import argparse
 import json
@@ -127,12 +128,77 @@ def run_probe(p, timeout):
     return out
 
 
+# Being rate-limited is not the endpoint breaking; it is the endpoint working and us
+# asking too often. Conflating the two is how a weekly watcher earns a mute: arXiv
+# answers 429 (and sometimes just never answers) to a burst, and files an issue that
+# resolves itself by the next run.
+THROTTLE_STATUS = {429, 503}
+
+
+def state_of(r):
+    """The outcomes worth distinguishing when comparing two runs."""
+    if r.get("ok"):
+        return "ok"
+    if r.get("known_broken"):
+        return "dead"
+    if r.get("status") in THROTTLE_STATUS or "timeout" in (r.get("error") or "").lower():
+        return "throttled"
+    return "failing"
+
+
+def diff(previous, current):
+    """What flipped between two runs, ignoring everything that stayed the same.
+
+    Only state changes are reported, never timings or byte counts -- a probe that
+    answered 40 ms slower is not a finding, and a watcher that cries every run gets
+    muted. A probe seen for the first time is reported once, as `new`.
+    """
+    out = []
+    for sid, probes in sorted(current.items()):
+        for pid, r in sorted(probes.items()):
+            was = (previous.get(sid) or {}).get(pid)
+            now = state_of(r)
+            if was is None:
+                if now != "ok":
+                    out.append({"source": sid, "probe": pid, "change": "new",
+                                "from": None, "to": now,
+                                "detail": "first run: %s -- %s" % (now, "; ".join(r.get("why", [])))})
+                continue
+            before = state_of(was)
+            if before == now:
+                continue
+            detail = "; ".join(r.get("why", [])) or "status %s" % r.get("status")
+            change = "recovered" if now == "ok" else \
+                     "throttled" if now == "throttled" else "broke"
+            out.append({"source": sid, "probe": pid, "change": change,
+                        "from": before, "to": now, "detail": detail})
+    for sid, probes in sorted(previous.items()):
+        for pid in sorted(probes):
+            if pid not in (current.get(sid) or {}) and sid in current:
+                out.append({"source": sid, "probe": pid, "change": "removed",
+                            "from": state_of(probes[pid]), "to": None,
+                            "detail": "probe no longer defined in the record"})
+    return out
+
+
+def tally(results):
+    """Count outcomes across a results map, however it was assembled."""
+    counts = {"ok": 0, "fail": 0, "expected_fail": 0}
+    for probes in results.values():
+        for r in probes.values():
+            key = "ok" if r.get("ok") else ("expected_fail" if r.get("known_broken") else "fail")
+            counts[key] += 1
+    return counts
+
+
 def main(argv):
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("ids", nargs="*", help="source ids; default all")
     ap.add_argument("--timeout", type=float, default=30.0)
     ap.add_argument("--quiet", action="store_true")
+    ap.add_argument("--fail-on-change", action="store_true",
+                    help="exit 2 if any probe changed state; for CI")
     args = ap.parse_args(argv)
 
     files = sorted(SOURCES.glob("*.json"))
@@ -142,6 +208,11 @@ def main(argv):
         missing = wanted - {f.stem for f in files}
         for m in sorted(missing):
             print("no such source: %s" % m, file=sys.stderr)
+
+    # Read the previous run before overwriting it. What changed is the interesting part:
+    # 37 of 40 answering is not news, one of them stopping is.
+    previous = json.loads(HEALTH.read_text(encoding="utf-8")).get("results", {}) \
+        if HEALTH.exists() else {}
 
     results, last_host, counts = {}, {}, {"ok": 0, "fail": 0, "expected_fail": 0}
     for f in files:
@@ -172,10 +243,12 @@ def main(argv):
                       % (mark, sid, p["id"], str(r.get("status") or "---").rjust(3),
                          r["ms"], "; ".join(r.get("why", []))[:90]))
 
+    changes = diff(previous, results)
     payload = {
         "checked": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "probe_version": 1,
         "summary": counts,
+        "changes": changes,
         "results": results,
     }
     if args.ids and HEALTH.exists():      # partial run: merge, do not clobber
@@ -183,11 +256,18 @@ def main(argv):
         merged = old.get("results", {})
         merged.update(results)
         payload["results"] = merged
-        payload["summary"] = {"ok": 0, "fail": 0, "expected_fail": 0, "partial": True}
+        # Recount across everything held, not just what this run touched. Reporting
+        # zeroes here is worse than reporting nothing: the site reads this summary,
+        # so a one-source run used to publish "0 ok, 0 failing" for the whole catalogue.
+        payload["summary"] = dict(tally(merged), partial=True)
     with HEALTH.open("w", encoding="utf-8", newline="\n") as fh:
         fh.write(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
     print("\n%d ok, %d failing, %d known-dead  ->  health.json"
           % (counts["ok"], counts["fail"], counts["expected_fail"]))
+    for ch in changes:
+        print("%-6s %s/%s  %s" % (ch["change"].upper(), ch["source"], ch["probe"], ch["detail"]))
+    if args.fail_on_change and changes:
+        return 2                          # for CI: a flip is worth a red build
     return 0
 
 

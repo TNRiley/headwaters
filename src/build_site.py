@@ -9,11 +9,15 @@ standalone document rather than an Artifact fragment) and add_catalog_link.py.
     python3 src/build_site.py
 """
 import json
+import os
 import re
 import subprocess
 import sys
 from pathlib import Path
 from urllib.parse import urlsplit
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from match import normalise                                  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE = ROOT / "src" / "template.html"
@@ -37,10 +41,9 @@ def link_datasets_to_sources(datasets, sources):
 
     Derived at build time, not stored, so adding a source record retro-links every
     dataset that came from it without touching a single dataset file."""
-    def norm(host):
-        # must match the normalisation classify.py applies to provider hosts,
-        # or nothing joins: api.nhle.com and nhle.com are one publisher.
-        return re.sub(r"^(www|api|data|raw|files|download)\.", "", (host or "").lower())
+    # Host normalisation lives in match.py, which is also what `hw add` and the lead
+    # harvester ask. Three private copies of this rule is how they drift apart.
+    norm = normalise
 
     host_to_source = {}
     for s in sources:
@@ -100,19 +103,40 @@ def main():
     if "__PAYLOAD__" not in html:
         sys.exit("template has no __PAYLOAD__ placeholder")
     html = html.replace("__PAYLOAD__", blob)
+
+    # The template is an Artifact-shaped fragment: no doctype, no head. wrap_for_pages.py
+    # turns it into a standalone document, and GitHub Pages needs that -- served raw, a
+    # fragment lands in quirks mode with no charset and renders UTF-8 as Latin-1. So keep
+    # the previous file until it is clear this run can produce an equivalent one.
+    was_standalone = OUT.exists() and OUT.read_text(encoding="utf-8").lstrip()[:9].lower() == "<!doctype"
+    previous = OUT.read_bytes() if OUT.exists() else None
+
     with OUT.open("w", encoding="utf-8", newline="\n") as fh:
         fh.write(html)
     print("index.html: %d datasets (%d linked to a source), %d sources, %d KB"
           % (len(datasets), linked, len(sources), OUT.stat().st_size // 1024))
 
     ws = workspace_root(ROOT)
-    tools = ws / "catalog" / "tools" if ws else None
+    tools = Path(os.environ["HEADWATERS_TOOLS"]) if os.environ.get("HEADWATERS_TOOLS") \
+        else (ws / "catalog" / "tools" if ws else None)
+    wrapped = False
     if tools and tools.is_dir():
         for script in ("wrap_for_pages.py", "add_catalog_link.py"):
             path = tools / script
             if path.exists():
                 subprocess.run([sys.executable, str(path), str(OUT)], check=True)
-    else:
+                wrapped = wrapped or script == "wrap_for_pages.py"
+
+    if not wrapped and was_standalone:
+        # Publishing a fragment over a standalone document is a silent, ugly break that
+        # nobody notices until the live page is mojibake. Refusing is the safe answer;
+        # a caller that cannot wrap (CI, say) should skip the rebuild, not ship this.
+        OUT.write_bytes(previous)
+        sys.exit("refusing to replace a standalone index.html with an unwrapped fragment:\n"
+                 "  wrap_for_pages.py was not found. Set HEADWATERS_TOOLS to the directory\n"
+                 "  holding it, or run this from the Quick Projects workspace.\n"
+                 "  index.html is unchanged.")
+    if not wrapped:
         print("note: catalogue tools not found; index.html is an unwrapped fragment")
 
 

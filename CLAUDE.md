@@ -22,23 +22,54 @@ today rather than what worked once. Link lists rot; this one is meant to notice.
 
 ## Use it
 
-Looking for something to work with, or checking whether we already know about a dataset:
+Everything goes through `./hw`. It works from any directory, so a session in another
+project can reach the catalogue by path.
 
 ```bash
-grep -il "penguin\|bird" datasets/*.json
-python3 -c "import json;d=json.load(open('datasets/tt-2024-01-09.json'));print(d['hook']);print([t['file'] for t in d['tables']])"
+./hw find tide                    # both layers, ranked; column names are the best key
+./hw show noaa-coops              # the whole record: licence, auth, limits, gotchas, recipes, probes
+./hw gotchas census               # the traps
+./hw recipe openalex              # copy-paste starting points
+./hw add https://x.org/api        # do we already know this? ask BEFORE researching from scratch
+./hw probe noaa-coops             # does it still answer, right now?
+./hw health                       # what is failing, and what changed since the run before
+./hw stats
 ```
 
-Before writing any data-fetching code, look at the source layer first:
-
-```bash
-grep -il "tide\|water level" sources/*.json          # is it already catalogued?
-python3 -c "import json;r=json.load(open('sources/noaa-coops.json'));print(r['description']);print([g['trap'] for g in r['gotchas']])"
-python3 src/probe.py noaa-coops                      # does it still answer, right now?
-```
+Every command takes `--json`. The underlying records are plain files, so `grep -il penguin
+datasets/*.json` still works and is sometimes faster to think in.
 
 Read the `gotchas` before writing the loop, not after it fails. They are there because
 somebody already lost the hour.
+
+## Reach it from another session
+
+`src/mcp_server.py` serves the same queries as MCP tools over stdio, so a session in any
+project can consult the catalogue without knowing where it lives:
+
+```bash
+claude mcp add headwaters -- /usr/bin/python3 /abs/path/to/headwaters/src/mcp_server.py
+```
+
+That exposes `headwaters_find`, `headwaters_show`, `headwaters_gotchas`,
+`headwaters_recipe`, `headwaters_known`, `headwaters_used_by` and `headwaters_health`.
+It is hand-rolled JSON-RPC — no SDK, no pip, like everything else here. **Every byte on
+stdout is protocol**: anything reused from `hw.py` inside a tool handler must be a pure
+function, because one stray `print()` kills the server with an unhelpful parse error.
+
+## Write back
+
+The catalogue is only worth its keep if using it feeds it. After building anything that
+touched data:
+
+```bash
+./hw used-by openalex still-cited     # this project consumed that source
+./hw add https://newthing.org/api --write   # scaffolds sources/newthing.json to fill in
+```
+
+Then add a `gotcha` for anything that cost you time. **A new gotcha on an existing record
+beats a shallow new record.** `nightly/DISPATCH.md` in the workspace makes this a step of
+every nightly build.
 
 ## Extend the dataset layer
 
@@ -108,16 +139,21 @@ Leads whose host already appears in a source record are auto-marked `catalogued`
 ## Layout
 
 ```
+hw                  the CLI; run it from anywhere
 datasets/*.json     what data exists       — generated, then corrected by hand
 sources/*.json      how to get data        — hand/agent authored, canonical
 schema/             both record schemas    — extend deliberately; validate.py enforces them
+src/hw.py           search, show, gotchas, recipes, add, used-by, probe, health, stats
+src/mcp_server.py   the same, as MCP tools over stdio, for sessions in other projects
+src/match.py        "do we already know about this?" — the one host/title normaliser
 src/fetch_tidytuesday.py  builds dataset records from TidyTuesday metadata (no downloads)
 src/classify.py     subject / publisher / geography rules, plus the override table
 src/validate.py     schema + id + cross-reference checks (stdlib only, no pip)
-src/probe.py        runs every probe, writes health.json
+src/probe.py        runs every probe, writes health.json, reports what changed state
 src/harvest.py      pulls leads from upstream initiatives into leads.json
 src/build_site.py   splices sources + health into index.html
 src/template.html   the page; edit here, never edit index.html
+.github/workflows/probe.yml  weekly probe run; commits health, opens an issue on a break
 health.json         generated — last probe run
 leads.json          generated — the queue
 LANDSCAPE.md        why this exists and what already existed (written first, on purpose)
@@ -129,6 +165,16 @@ to run on a machine where `pip install` is not an option.
 ## House rules
 
 - **Never invent a probe result.** If you cannot run it, say the record is unprobed.
+- **Host and title normalisation lives in `src/match.py`.** Three private copies of that
+  rule is how they drift apart. If a match is wrong, fix it there and add a case to
+  `_selftest()` — `python3 src/match.py` runs them.
+- **Never let `build_site.py` publish an unwrapped fragment.** It refuses on its own now
+  (the page would render in quirks mode with UTF-8 read as Latin-1), but if you see that
+  refusal, the fix is to supply the wrapper, never to bypass the check.
+- **Being rate-limited is not being broken.** `probe.py` classifies 429, 503 and read
+  timeouts as `throttled`, and the weekly run does not raise an issue for them. If you
+  find a publisher that means its limit, set `min_interval_s` on the probe rather than
+  letting the catalogue break the etiquette it documents.
 - **Never soften a `known_broken` note into a hedge.** "404 on 2026-09-06, and here is what
   else I tried" is the useful sentence.
 - Date every claim about behaviour you observed. Endpoints change; the record should say when

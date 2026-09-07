@@ -1,0 +1,80 @@
+# Ask every catalogued endpoint whether it still answers, once a week.
+#
+# The catalogue's claim is that it notices when a source rots. Left to a human running
+# src/probe.py, that claim decays into "it noticed once". This runs it on a schedule,
+# commits what it found, and opens an issue only when something actually changed state
+# -- never for a rate limit or a recovery, because a watcher that cries every week is a
+# watcher nobody reads.
+name: probe
+
+on:
+  schedule:
+    # Mondays, 09:17 UTC. Odd minute on purpose: the top of the hour is when every cron
+    # on GitHub fires at once and scheduled runs get queued behind them.
+    - cron: "17 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: probe
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run the probes
+        # Never fails the job: a source being down is a finding, not a broken build.
+        run: python3 src/probe.py --quiet
+
+      - name: Rebuild the site
+        # build_site.py refuses to overwrite the standalone index.html with an unwrapped
+        # fragment, so it needs the canonical wrapper from the quick-projects repo. If
+        # that fetch fails the rebuild is skipped and health.json still gets committed --
+        # a stale page is recoverable, a mojibake one is what shipping a fragment does.
+        run: |
+          mkdir -p /tmp/hwtools
+          if curl -fsS -o /tmp/hwtools/wrap_for_pages.py \
+              https://raw.githubusercontent.com/TNRiley/quick-projects/main/tools/wrap_for_pages.py; then
+            HEADWATERS_TOOLS=/tmp/hwtools python3 src/build_site.py
+          else
+            echo "could not fetch wrap_for_pages.py; leaving index.html alone"
+          fi
+
+      - name: Summarise the run
+        id: sum
+        run: python3 src/hw.py health >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Commit what changed
+        run: |
+          git config user.name  "headwaters-probe"
+          git config user.email "actions@users.noreply.github.com"
+          git add health.json index.html
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "Probe run $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Open an issue if something broke
+        # hw health --markdown exits 1 when nothing changed state, and when the only
+        # changes were recoveries or rate limits. So the issue is the exception.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if python3 src/hw.py health --markdown > body.md; then
+            gh issue create --title "Probe: a catalogued source stopped answering" \
+                            --body-file body.md || cat body.md
+          else
+            echo "no state changes worth an issue"
+          fi
