@@ -29,6 +29,7 @@ project can reach the catalogue by path.
 
 ```bash
 ./hw find tide                    # both layers, ranked; column names are the best key
+./hw joins tt-2024-01-09          # what could this be combined with, and on what key
 ./hw show noaa-coops              # the whole record: licence, auth, limits, gotchas, recipes, probes
 ./hw gotchas census               # the traps
 ./hw recipe openalex              # copy-paste starting points
@@ -181,6 +182,43 @@ The bar is: someone with a shell and no other context could start using it from 
   1,000 entries — costs far more than an outage. Probe for the content, not just the status.
 - **The exact string.** `counts_by_year` uses `cited_by_count`, not `count`. Write that down.
 
+## The join graph
+
+`src/joins.py` answers the question after "what exists": what could I put this *next to*?
+It derives, for each dataset, which others appear to share an entity key.
+
+```bash
+python3 src/joins.py                      # rebuild joins.json
+python3 src/joins.py --explain tt-2024-01-09
+python3 src/joins.py --sample 12          # a spread, for eyeballing
+```
+
+Four things it learned the hard way, all of which a rewrite would rediscover:
+
+- **A shared time column is not a discovery.** `year` is in 129 records. A graph built on
+  time says everything joins to everything. An edge needs an *entity* key; time only
+  confirms two datasets could line up.
+- **`place` keys and `entity` keys behave oppositely.** A place — county, country,
+  coordinate — is a universal code space, so a cross-subject join is the whole point and
+  distance is rewarded. An entity — species, airport, station — is nominally shared and
+  practically disjoint: bats and coffee both have a `species` column and their species
+  never meet. Entity edges are kept only when the subjects agree. `person` and `company`
+  were dropped outright; matching on a name is not matching on a key.
+- **Popular records swamp everything.** Scoring alone made one dataset of chart-design
+  mistakes the top suggestion for half the catalogue, because it has a country column and
+  an unusual subject, so it scored maximum distance against all comers. There is a hub
+  penalty *and* a per-partner quota, and both were necessary.
+- **Keys arrive with qualifiers.** `birth_country`, `home_state`, `birth_city`. Anchored
+  patterns matched none of them, so the NHL birth-dates record reported no keys while
+  carrying three. Column names are matched whole *and* by underscore-delimited part.
+
+**Say what the evidence is.** Only the records that came from TidyTuesday list column
+names, so for most of the catalogue the key is read out of the description. Every edge
+carries `basis`: `columns` (both declare it — a fact), `mixed`, or `inferred` (a guess).
+Never present an inferred edge as though it were a column match. And a shared key means a
+join is *mechanically possible*, never that the values overlap — the catalogue does not
+download data, so it cannot know that.
+
 ## Grow the queue
 
 `src/harvest.py` pulls candidates from the initiatives that already do the finding — Data Is
@@ -208,6 +246,8 @@ src/match.py        "do we already know about this?" — the one host/title norm
 src/fetch_tidytuesday.py  builds dataset records from TidyTuesday metadata (no downloads)
 src/classify.py     subject / publisher / geography rules, plus the override table
 src/quality.py      learns publisher boilerplate from repetition; strips it; reports prose
+src/joins.py        derives which datasets share an entity key -> joins.json
+src/fetch_dip.py    builds dataset records from the Data Is Plural archive
 src/validate.py     schema + id + cross-reference checks (stdlib only, no pip)
 src/probe.py        runs every probe, writes health.json, reports what changed state
 src/harvest.py      pulls leads from upstream initiatives into leads.json
@@ -215,6 +255,7 @@ src/build_site.py   splices sources + health into index.html
 src/template.html   the page; edit here, never edit index.html
 .github/workflows/probe.yml  weekly probe run; commits health, opens an issue on a break
 boilerplate.json    generated — learned boilerplate, plus the not_boilerplate judgements
+joins.json          generated — the join graph
 health.json         generated — last probe run
 leads.json          generated — the queue
 LANDSCAPE.md        why this exists and what already existed (written first, on purpose)

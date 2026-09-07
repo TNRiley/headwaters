@@ -169,6 +169,8 @@
 (function(){
   var D = JSON.parse(document.getElementById('DATA').textContent);
   var DS = D.datasets || [], SRC = D.sources || [], H = D.health || {}, R = H.results || {};
+  JOINS = D.joins || {};
+  DS.forEach(function(d){ BY_ID[d.id] = d; });
   var PAGE = 60;
   var state = {q:'', mode:'datasets', facets:{}, shown:PAGE, seed:0, overview:true};
 
@@ -212,6 +214,7 @@
   }
 
   // Readable names for the aggregations that surface datasets.
+  var JOINS = {}, BY_ID = {};
   var AGG = {'tidytuesday':'TidyTuesday', 'data-is-plural':'Data Is Plural',
              'aws-open-data-registry':'AWS Open Data'};
 
@@ -445,7 +448,10 @@
            d.questions.map(function(q){return '<li>'+esc(q)+'</li>';}).join('')+'</ul>';
     }
     h += '<h4>What is in it</h4>';
-    if(!(d.tables||[]).length){ h += '<div style="color:var(--dim);font-size:13px">No data files recorded for this week.</div>'; }
+    if(!(d.tables||[]).length){
+      h += '<div style="color:var(--dim);font-size:13px">No file list recorded &mdash; follow the '+
+           'source link below. Column names are only held for datasets whose curator published them.</div>';
+    }
     (d.tables||[]).forEach(function(t){
       h += '<div class="tbl"><div class="top"><b>'+esc(t.file)+'</b>'+
            '<span class="meta">'+esc(bytes(t.bytes))+((t.columns||[]).length?' &middot; '+t.columns.length+' columns':'')+'</span></div>'+
@@ -463,11 +469,29 @@
       h += '<tr><td>written up in</td><td><a href="'+esc(a.url)+'" target="_blank" rel="noopener">'+esc(a.name||a.url)+'</a></td></tr>';
     });
     d.found_in.forEach(function(x){
-      h += '<tr><td>surfaced by</td><td><a href="'+esc(x.url)+'" target="_blank" rel="noopener">TidyTuesday '+
+      h += '<tr><td>surfaced by</td><td><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+
+           esc(AGG[x.aggregation]||x.aggregation)+' '+
            esc(x.date)+(x.week?' (week '+x.week+')':'')+'</a></td></tr>';
     });
     if(d.geography) h += '<tr><td>about</td><td>'+esc(d.geography)+'</td></tr>';
     h += '</table>';
+
+    var js = (JOINS[d.id]||[]);
+    if(js.length){
+      var BASIS = {columns:'both list the key as a column',
+                   mixed:'one lists the column, the other describes it',
+                   inferred:'inferred from both descriptions \u2014 a guess'};
+      h += '<h4>Could be joined with</h4><table class="kv">';
+      js.forEach(function(j){
+        var other = BY_ID[j.other];
+        if(!other) return;
+        h += '<tr><td>on '+esc(j.key)+'</td><td><a href="#" data-goto="'+esc(j.other)+'">'+
+             esc(other.title)+'</a><div style="color:var(--dimmer);font-size:11px">'+
+             esc(BASIS[j.basis])+'</div></td></tr>';
+      });
+      h += '</table><div style="color:var(--dimmer);font-size:11px;margin-top:4px">'+
+           'A shared key means a join is mechanically possible, not that the values overlap.</div>';
+    }
 
     if(d.source_id){
       var s = null; SRC.forEach(function(x){ if(x.id===d.source_id) s=x; });
@@ -577,6 +601,9 @@
     });
     body.querySelectorAll('[data-ds]').forEach(function(el){
       el.onclick=function(){ setMode('datasets'); open(el.dataset.ds); };
+    });
+    body.querySelectorAll('[data-goto]').forEach(function(el){
+      el.onclick=function(e){ e.preventDefault(); setMode('datasets'); open(el.dataset.goto); };
     });
     body.querySelectorAll('[data-sub]').forEach(function(el){
       el.onclick=function(){ close(); setMode('datasets'); state.facets={subject:el.dataset.sub}; state.shown=PAGE; draw(); };

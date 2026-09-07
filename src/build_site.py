@@ -93,7 +93,18 @@ def main():
         leads = json.loads(lp.read_text(encoding="utf-8"))
         leads_new = sum(1 for x in leads.get("leads", {}).values() if x.get("state") == "new")
 
-    payload = {"sources": sources, "datasets": datasets, "health": health, "leads_new": leads_new}
+    # Only what the panel draws: the partner id, the key and how good the evidence is.
+    # Titles are looked up client-side from the records already in the payload, which keeps
+    # a 968-record graph to about a tenth of the space the full edge list would take.
+    joins = {}
+    jp = ROOT / "joins.json"
+    if jp.exists():
+        for rid, edges in json.loads(jp.read_text(encoding="utf-8")).get("joins", {}).items():
+            joins[rid] = [{"other": e["other"], "key": e["key"], "basis": e["basis"]}
+                          for e in edges[:4]]
+
+    payload = {"sources": sources, "datasets": datasets, "health": health,
+               "leads_new": leads_new, "joins": joins}
     blob = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
     # The payload lives in a <script type="application/json">; the only sequence
     # that can end it early is a literal </script.
@@ -113,8 +124,9 @@ def main():
 
     with OUT.open("w", encoding="utf-8", newline="\n") as fh:
         fh.write(html)
-    print("index.html: %d datasets (%d linked to a source), %d sources, %d KB"
-          % (len(datasets), linked, len(sources), OUT.stat().st_size // 1024))
+    print("index.html: %d datasets (%d linked to a source), %d sources, %d with join "
+          "candidates, %d KB"
+          % (len(datasets), linked, len(sources), len(joins), OUT.stat().st_size // 1024))
 
     ws = workspace_root(ROOT)
     tools = Path(os.environ["HEADWATERS_TOOLS"]) if os.environ.get("HEADWATERS_TOOLS") \

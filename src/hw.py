@@ -11,6 +11,7 @@ source from scratch instead. This collapses all of it to `hw find tide`.
     hw recipe openalex           copy-paste starting points
     hw add https://x.org/api     do we know this already? if not, scaffold a record
     hw probe noaa-coops          does it still answer, right now?
+    hw joins tt-2024-01-09       what could this be joined with, and on what key
     hw health                    what broke since the last run
     hw used-by openalex still-cited   record that a project consumed a source
     hw stats
@@ -30,6 +31,7 @@ from probe import state_of                                 # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 HEALTH = ROOT / "health.json"
+JOINS = ROOT / "joins.json"
 
 BOLD, DIM, OFF = "\033[1m", "\033[2m", "\033[0m"
 RED, GREEN, YELLOW = "\033[31m", "\033[32m", "\033[33m"
@@ -463,6 +465,40 @@ def health_markdown(h):
     return 0
 
 
+
+def joins_for(rid):
+    if not JOINS.exists():
+        return []
+    return json.loads(JOINS.read_text(encoding="utf-8")).get("joins", {}).get(rid, [])
+
+
+def cmd_joins(args, idx):
+    kind, rec = load_record(idx, args.id)
+    if not rec:
+        print("no record %r" % args.id, file=sys.stderr)
+        return 1
+    edges = joins_for(args.id)
+    if args.json:
+        print(json.dumps(edges, indent=2))
+        return 0
+    print(c(rec.get("title", args.id), BOLD))
+    if not edges:
+        print(c("  no join candidates. Either no entity key was found in its columns or "
+                "description,\n  or nothing else shares one.", DIM))
+        return 1
+    titles = {d["id"]: d.get("title", "") for d in idx.datasets}
+    for e in edges:
+        print("  %s on %s" % (c("join", GREEN if e["basis"] == "columns" else YELLOW),
+                              c(e["key"], BOLD)))
+        print("     %s  %s" % (c(e["other"], DIM), titles.get(e["other"], e.get("title", ""))))
+        print(c("     evidence: %s" % {
+            "columns": "both declare the key as a column",
+            "mixed": "one declares the column; the other only describes it",
+            "inferred": "read out of both descriptions - a guess, not a fact",
+        }[e["basis"]], DIM))
+    return 0
+
+
 def cmd_probe(args, idx):
     cmd = [sys.executable, str(ROOT / "src" / "probe.py")] + args.ids
     return subprocess.call(cmd)
@@ -559,6 +595,9 @@ def main(argv):
     p.add_argument("--title", default=None)
     p.add_argument("--id", default=None, help="override the derived record id")
     p.add_argument("--write", action="store_true", help="write the stub record")
+
+    p = add("joins", cmd_joins, "what this dataset could be joined with")
+    p.add_argument("id")
 
     p = add("used-by", cmd_used_by, "record that a project consumed a source")
     p.add_argument("id")

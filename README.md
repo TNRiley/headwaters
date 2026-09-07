@@ -88,6 +88,7 @@ copy-pasteable **recipes**, the **gotchas** that cost an hour, and the **probes*
 
 ```bash
 ./hw find tide                 # search both layers; column names are the best key
+./hw joins tt-2024-01-09       # what could this be combined with, and on what key
 ./hw show noaa-coops           # licence, auth, rate limit, gotchas, recipes, probe results
 ./hw gotchas census            # the traps, before you write the loop
 ./hw recipe openalex           # requests that run as written
@@ -108,6 +109,7 @@ python3 src/match.py                              # normalisation self-test
 python3 src/fetch_tidytuesday.py                  # pick up new weeks (incremental, cached)
 python3 src/classify.py                           # assign subjects, publishers, geography
 python3 src/quality.py --sweep                    # strip publisher boilerplate from hooks
+python3 src/joins.py                              # rebuild the join graph
 python3 src/harvest.py --list new | head          # candidates waiting to be researched
 python3 src/build_site.py                         # regenerate index.html
 ```
@@ -132,6 +134,18 @@ claude mcp add headwaters -- /usr/bin/python3 /abs/path/to/headwaters/src/mcp_se
 issue **only when a source changes state** — never for a recovery, and never for a rate
 limit, which `probe.py` classifies separately from a failure. A watcher that cries every
 week is a watcher nobody reads.
+
+### What could this be joined with
+
+A catalogue tells you what exists. `src/joins.py` derives the question after that — which
+datasets share an entity key, so you could put two of them together. It ignores time keys
+(`year` is in 129 records; a graph built on it says everything joins to everything), knows
+that a *place* key like county or coordinate joins across subjects while a *species* key
+only joins within one, and labels every edge with the evidence behind it: both records
+declaring the column, or the key merely being read out of a description.
+
+968 of 2,371 records have at least one candidate. A shared key means a join is
+mechanically possible — not that the values overlap.
 
 ## How it grows
 

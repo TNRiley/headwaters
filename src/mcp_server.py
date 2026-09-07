@@ -155,6 +155,29 @@ def t_known(args):
                            "endpoint itself may still be worth adding."}[hit.kind]))
 
 
+
+def t_joins(args):
+    """What could this be combined with? The question after "what exists"."""
+    path = ROOT / "joins.json"
+    if not path.exists():
+        return "No joins.json yet; run python3 src/joins.py in the headwaters repo."
+    edges = json.loads(path.read_text(encoding="utf-8")).get("joins", {}).get(args.get("id", ""), [])
+    if not edges:
+        return ("No join candidates for %r: either no entity key was found in its columns or "
+                "description, or nothing else in the catalogue shares one." % args.get("id"))
+    lines = ["Datasets that appear to share a join key with %s:" % args.get("id"), ""]
+    for e in edges:
+        lines.append("%s  -- %s" % (e["other"], e.get("title", "")))
+        lines.append("  join on: %s   evidence: %s" % (e["key"], {
+            "columns": "both declare the key as a column (strong)",
+            "mixed": "one declares the column, the other only describes it",
+            "inferred": "read out of both descriptions - a guess, not a fact",
+        }[e["basis"]]))
+    lines.append("\nA shared key means a join is mechanically possible, not that the values "
+                 "overlap. Check coverage before promising anything.")
+    return "\n".join(lines)
+
+
 def t_used_by(args):
     # Deliberately not delegating to hw.cmd_used_by: that writes to stdout, which here
     # is the JSON-RPC stream. One stray line and the client sees a parse error instead
@@ -245,6 +268,15 @@ TOOLS = [
         "inputSchema": {"type": "object",
                         "properties": {"url": {"type": "string"},
                                        "title": {"type": "string"}}, "required": ["url"]},
+    },
+    {
+        "name": "headwaters_joins",
+        "description": "Datasets in the catalogue that could be joined to a given one, and "
+                       "on which key (county, country, coordinate, species, ...). Use it when "
+                       "looking for a second dataset to combine with one you already have.",
+        "handler": t_joins,
+        "inputSchema": {"type": "object",
+                        "properties": {"id": {"type": "string"}}, "required": ["id"]},
     },
     {
         "name": "headwaters_used_by",
