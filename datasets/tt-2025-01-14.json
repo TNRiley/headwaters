@@ -72,5 +72,6 @@
  "provider": {
   "name": "posit::conf attendee portal 2023",
   "host": "reg.conf.posit.co"
- }
+ },
+ "questions_source": "curator"
 }

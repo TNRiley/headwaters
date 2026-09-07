@@ -57,5 +57,6 @@
  "provider": {
   "name": "Suite of Food Security Indicators",
   "host": "fao.org"
- }
+ },
+ "questions_source": "curator"
 }

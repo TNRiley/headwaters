@@ -1,13 +1,13 @@
 {
  "id": "tt-2023-07-18",
  "title": "GPT detectors",
- "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: \\### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph \\### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year \\### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "hook": "The data this week comes from Simon Couch's detectors R package. containing predictions from various GPT detectors. The data is based on the pre-print: GPT Detectors Are Biased Against Non-Native English Writers. Weixin Liang, Mert Yuksekgonul, Yining Mao, Eric Wu, James Zou. arXiv: 2304.02819 The study authors carried out a series of experiments passing a number of essays to different GPT detection models. Juxtaposing detector predictions for papers written by native and non-native English writers, the authors argue that GPT detectors disproportionately classify real writing from non-native English writers as AI-generated. csv file was generated from the detectors tibble in the 'detectors' R package.",
  "questions": [],
  "subjects": [
   "technology & software"
  ],
  "provider_type": "platform",
- "geography": "",
+ "geography": "United Kingdom",
  "sources": [
   {
    "name": "GPT detectors R package",

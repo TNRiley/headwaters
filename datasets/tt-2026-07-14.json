@@ -61,5 +61,6 @@
  "provider": {
   "name": "AVONET",
   "host": "opentraits.org"
- }
+ },
+ "questions_source": "curator"
 }

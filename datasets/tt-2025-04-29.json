@@ -58,5 +58,6 @@
  "provider": {
   "name": "Program for the useR! 2025 conference",
   "host": "user2025.r-project.org"
- }
+ },
+ "questions_source": "curator"
 }

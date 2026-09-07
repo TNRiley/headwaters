@@ -59,5 +59,6 @@
  "provider": {
   "name": "Parfumo Fragrance",
   "host": "parfumo fragrance"
- }
+ },
+ "questions_source": "curator"
 }

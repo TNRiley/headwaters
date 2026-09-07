@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-03-26",
  "title": "Seattle Pet Names",
- "hook": "Seattle's open data portal has a dataset of registered pets here. While they don't include the sex or age of the animal, they were kind enough to leave in the license issue date, animal's name, species, breed, and zip code. This should open up some fun explorations! h/t to Jacqueline Nolis for sharing this data! A few articles examined the most popular pet names in 2018, one from Seattle specifically, and another from Australia. seattlepets <- readr::readcsv(\"",
+ "hook": "Seattle's open data portal has a dataset of registered pets here. While they don't include the sex or age of the animal, they were kind enough to leave in the license issue date, animal's name, species, breed, and zip code. This should open up some fun explorations! h/t to Jacqueline Nolis for sharing this data! A few articles examined the most popular pet names in 2018, one from Seattle specifically, and another from Australia.",
  "questions": [],
  "subjects": [
   "animals & nature"

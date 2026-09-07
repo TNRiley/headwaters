@@ -71,5 +71,6 @@
  "provider": {
   "name": "Norwegian Veterinary Institute",
   "host": "apps.vetinst.no"
- }
+ },
+ "questions_source": "curator"
 }

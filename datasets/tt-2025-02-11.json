@@ -99,5 +99,6 @@
  "provider": {
   "name": "CDC datasets uploaded before January 28th, 2025",
   "host": "archive.org"
- }
+ },
+ "questions_source": "curator"
 }

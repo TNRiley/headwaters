@@ -87,5 +87,6 @@
  "provider": {
   "name": "Industrial production volume",
   "host": "seriestoriche.istat.it"
- }
+ },
+ "questions_source": "curator"
 }

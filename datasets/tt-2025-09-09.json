@@ -68,5 +68,6 @@
  "provider": {
   "name": "Henley Passport Index Data",
   "host": "henleypassportindex.com"
- }
+ },
+ "questions_source": "curator"
 }

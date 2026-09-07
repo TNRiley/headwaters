@@ -3,8 +3,7 @@
  "title": "Tennis Grand Slam Champions",
  "hook": "A few exciting Tennis-related datasets this week, all of which come courtesy of Wikipedia! \"All records are based on data from the Association of Tennis Professionals (ATP), the International Tennis Federation (ITF), and the official websites of the four Grand Slam tournaments.\" - Wikipedia \"The Open Era is the current era of professional tennis. It began in 1968 when the Grand Slam tournaments allowed professional players to compete with amateurs, ending the division that had persisted since the dawn of the sport in the 19th century.\" - Wikipedia \"The Grand Slam tournaments, also called majors, are the four most important annual tennis events. They offer the most ranking points, prize money, public and media attention, the greatest strength and size of field, and greater number of \"best of\" sets for men.",
  "questions": [
-  "grandslamtimeline",
-  "grandslams"
+  "grandslamtimeline"
  ],
  "subjects": [
   "sports & games"
@@ -57,5 +56,6 @@
  "provider": {
   "name": "Wikipedia",
   "host": "wikipedia"
- }
+ },
+ "questions_source": "curator"
 }

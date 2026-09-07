@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-12-24",
  "title": "Christmas Songs",
- "hook": "This week's data is about Christmas songs on the hot-100 list! Clean data comes from Kaggle and originally from data.world. The lyrics come courtest of Josiah Parry's genius R package. It has several useful functions, mainly built around grabbing lyrics for specific artists, songs, or albums. christmassongs <- readr::readcsv(\" christmaslyrics <- readr::readtsv(\" tuesdata <- tidytuesdayR::ttload(\"2019-12-24\") tuesdata <- tidytuesdayR::ttload(2019, week = 52) christmassongs <- tuesdata$christmassongs r library(tidyverse) library(genius) df <- readcsv(here(\"2019\", \"2019-12-24\", \"christmassongs.csv\")) lyricdf <- df %>% select(\"title\" = song, \"artist\" = performer, songid, weekid) %>% addgenius(artist = artist, title = title) %>% select(-lyrics) lyricclean %>% writetsv(here(\"2019\", \"2019-12-24\",\"christmaslyrics.tsv\"))",
+ "hook": "This week's data is about Christmas songs on the hot-100 list! Clean data comes from Kaggle and originally from data.world. The lyrics come courtest of Josiah Parry's genius R package. It has several useful functions, mainly built around grabbing lyrics for specific artists, songs, or albums.",
  "questions": [],
  "subjects": [
   "music"

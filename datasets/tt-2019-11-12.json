@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-11-12",
  "title": "CRAN Code",
- "hook": "This week's data is from the CRAN courtesy of Phillip Massicotte. He analyzed the lines of code and the different languages in all of the R packages on CRAN. tuesdata <- tidytuesdayR::ttload(\"2019-11-12\") tuesdata <- tidytuesdayR::ttload(2019, week = 46) crancode <- tuesdata$loccranpackages Phillip's script can be found at his blog.",
+ "hook": "This week's data is from the CRAN courtesy of Phillip Massicotte. He analyzed the lines of code and the different languages in all of the R packages on CRAN. Phillip's script can be found at his blog.",
  "questions": [],
  "subjects": [
   "the r & tidytuesday community"

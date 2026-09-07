@@ -73,5 +73,6 @@
  "provider": {
   "name": "System Reference Document v5.2.1",
   "host": "dndbeyond.com"
- }
+ },
+ "questions_source": "curator"
 }

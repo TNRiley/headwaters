@@ -77,5 +77,6 @@
  "provider": {
   "name": "FIDE Player Database",
   "host": "ratings.fide.com"
- }
+ },
+ "questions_source": "curator"
 }

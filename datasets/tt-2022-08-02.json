@@ -1,17 +1,13 @@
 {
  "id": "tt-2022-08-02",
  "title": "Oregon Spotted Frog",
- "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
- "questions": [
-  "",
-  "",
-  ""
- ],
+ "hook": "Data this week come from USGS. Read more about them at USGS.gov Oregon spotted frog (Rana pretiosa) telemetry and habitat use at Crane Prairie Reservoir in Oregon, USA. Radio-telemetry has been used to study late-season movement and habitat use by Oregon spotted frogs (Rana pretiosa) at Crane Prairie Reservoir in Oregon. This dataset includes individual frog location data and habitat use during each tracking event that occurred roughly weekly between September and late November of 2018. \"...study adds to the limited data on late-season activity and habitat use in R. pretiosa. Information on seasonal habitat use, movement between seasonal habitat types, and habitats that are particularly valuable for maintaining populations is important to conservation and management.",
+ "questions": [],
  "subjects": [
   "animals & nature"
  ],
  "provider_type": "government",
- "geography": "",
+ "geography": "United States",
  "sources": [
   {
    "name": "usgs.gov spotted frog data",

@@ -1,7 +1,7 @@
 {
  "id": "tt-2018-10-09",
  "title": "US Voter Turnout",
- "hook": "Number of age-eligible voters versus total ballots/votes counted by state and year. presidentyears <- seq(1980, 2012, 4) midtermyears <- seq(1982, 2014, 4)",
+ "hook": "Number of age-eligible voters versus total ballots/votes counted by state and year.",
  "questions": [],
  "subjects": [
   "government & politics"

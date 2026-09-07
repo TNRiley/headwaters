@@ -83,5 +83,6 @@
  "provider": {
   "name": "FreddieMac",
   "host": "freddiemac.com"
- }
+ },
+ "questions_source": "curator"
 }

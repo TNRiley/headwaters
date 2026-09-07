@@ -83,5 +83,6 @@
  "provider": {
   "name": "VizieR Astronomical Catalogs (Ho, Filippenko & Sargent 1995,",
   "host": "vizier.cds.unistra.fr"
- }
+ },
+ "questions_source": "curator"
 }

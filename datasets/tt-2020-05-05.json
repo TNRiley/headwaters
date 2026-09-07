@@ -105,5 +105,6 @@
  "provider": {
   "name": "Villager DB",
   "host": "villager db"
- }
+ },
+ "questions_source": "curator"
 }

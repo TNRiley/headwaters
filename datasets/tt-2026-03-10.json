@@ -77,5 +77,6 @@
  "provider": {
   "name": "Kucharski AJ (2026) CAPphrase",
   "host": "kucharski aj (2026) capphrase"
- }
+ },
+ "questions_source": "curator"
 }

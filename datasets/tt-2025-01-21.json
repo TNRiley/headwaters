@@ -154,5 +154,6 @@
  "provider": {
   "name": "The Himalayan Database",
   "host": "himalayandatabase.com"
- }
+ },
+ "questions_source": "curator"
 }

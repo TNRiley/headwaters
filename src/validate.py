@@ -15,6 +15,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import quality                                # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 # (directory, schema, label) - sources are probed access routes, datasets are things to work with
 COLLECTIONS = [
@@ -128,6 +131,33 @@ def main(argv):
                 for ref in rec.get("related", []):
                     if ref not in ids:
                         print("WARN %s: related id %r has no record" % (f.name, ref))
+
+        if label == "dataset" and not only:
+            # Prose quality is a schema-shaped question the schema cannot ask: whether a
+            # hook describes this dataset or the publisher's standing boilerplate is only
+            # answerable by comparing it with every other record. Warnings, not failures --
+            # a readme that genuinely says nothing is a fact about the week, not a defect.
+            known = quality.load_learned()
+            if not known:
+                print("WARN no boilerplate.json; run `python3 src/quality.py --learn`")
+            else:
+                # Summarised, not listed. Sixty WARN lines on every run is how a warning
+                # becomes wallpaper; the count is enough to notice a regression, and
+                # src/quality.py prints the detail when someone wants to act on it.
+                kinds = {}
+                affected = 0
+                for f, rec in load_records(directory):
+                    found = quality.problems(rec, known)
+                    affected += bool(found)
+                    for problem in found:
+                        kinds[re.sub(r"\d+", "N", problem)] = \
+                            kinds.get(re.sub(r"\d+", "N", problem), 0) + 1
+                if affected:
+                    print("WARN %d record(s) with prose problems: %s"
+                          % (affected, ", ".join("%s x%d" % (k, v) for k, v in
+                                                 sorted(kinds.items(), key=lambda kv: -kv[1]))))
+                    print("     `python3 src/quality.py` lists them; `--sweep` strips boilerplate")
+
         print("%d %s%s checked" % (n, label, "" if n == 1 else "s"))
 
     print("%d record%s total, %d with problems" % (total, "" if total == 1 else "s", bad))

@@ -51,5 +51,6 @@
  "provider": {
   "name": "One Million Digits of Pi (Eve Andersson collection)",
   "host": "one million digits of pi (eve andersson collection)"
- }
+ },
+ "questions_source": "curator"
 }

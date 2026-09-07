@@ -47,5 +47,6 @@
  "provider": {
   "name": "usgs.gov",
   "host": "eerscmap.usgs.gov"
- }
+ },
+ "questions_source": "curator"
 }

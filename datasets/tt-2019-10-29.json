@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-10-29",
  "title": "NYC Squirrel Census",
- "hook": "This week's data is from the NYC Squirrel Census - raw data at NY Data portal. H/t to Sara Stoudt for sharing this data, and Mine Cetinkaya-Rundel for her squirrel data package using the same data. CityLab's Linda Poon wrote an article using this data. nycsquirrels <- readr::readcsv(\"",
+ "hook": "This week's data is from the NYC Squirrel Census - raw data at NY Data portal. H/t to Sara Stoudt for sharing this data, and Mine Cetinkaya-Rundel for her squirrel data package using the same data. CityLab's Linda Poon wrote an article using this data.",
  "questions": [],
  "subjects": [
   "animals & nature",

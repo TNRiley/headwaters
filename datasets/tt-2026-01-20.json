@@ -53,5 +53,6 @@
  "provider": {
   "name": "NASA",
   "host": "nasa.gov"
- }
+ },
+ "questions_source": "curator"
 }

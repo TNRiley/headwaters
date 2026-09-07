@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-03-03",
  "title": "NHL Goals",
- "hook": "The data this week comes from HockeyReference.com. We have overall career goals (top250.csv), season level goals (seasongoals.csv), game level goals (gamegoals.csv). If you'd like to go beyond season or game-level data, check out MoneyPuck.com for shot-level data or additional game/season level data from 2007-current. This week's data visualization and article come from the Washington Post. They examined Alex Ovechkin's career as he broke the 700 career goals mark. \"Alexendar the Great\" is already top 8 in goals all-time, and is only 34 years old. If he can keep his pace for a few more years, he has a shot at becoming the overall record holder for most goals in a career, potentially breaking Wayne Gretzky's long-standing career goals record of 894.",
+ "hook": "The data this week comes from HockeyReference.com. We have overall career goals (top250.csv), season level goals (seasongoals.csv), game level goals (gamegoals.csv). If you'd like to go beyond season or game-level data, check out MoneyPuck.com for shot-level data or additional game/season level data from 2007-current. This week's data visualization and article come from the Washington Post. They examined Alex Ovechkin's career as he broke the 700 career goals mark. \"Alexendar the Great\" is already top 8 in goals all-time, and is only 34 years old. If he can keep his pace for a few more years, he has a shot at becoming the overall record holder for most goals in a career, potentially breaking Wayne Gretzky's long-standing career goals record of 894. Please note this is the top 250 goal scorers as found here.",
  "questions": [],
  "subjects": [
   "sports & games"

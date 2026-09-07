@@ -81,5 +81,6 @@
  "provider": {
   "name": "Open data CNPJ",
   "host": "arquivos.receitafederal.gov.br"
- }
+ },
+ "questions_source": "curator"
 }

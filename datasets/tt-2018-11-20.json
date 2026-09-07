@@ -56,5 +56,6 @@
  "provider": {
   "name": "FiveThirtyEight",
   "host": "fivethirtyeight"
- }
+ },
+ "questions_source": "curator"
 }

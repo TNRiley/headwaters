@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-09-29",
  "title": "Beyonce & Taylor Swift Lyrics",
- "hook": "The data this week comes from Rosie Baillie and Dr. Sara Stoudt. Beyoncé's top 100 - Billboard. Taylor Swift's top 100 - Billboard. Rosie put together a wonderful analysis of Taylor Swift lyrics! Can you do some similar work with Beyoncé's work? Text analysis guides in tidytext or Supervised Machine Learning for Text Analysis in R. tuesdata <- tidytuesdayR::ttload('2020-09-29') tuesdata <- tidytuesdayR::ttload(2020, week = 40) beyoncelyrics <- tuesdata$beyoncelyrics beyoncelyrics <- readr::readcsv(' taylorswiftlyrics <- readr::readcsv(' sales <- readr::readcsv(' charts <- readr::readcsv(' r library(tidyverse) library(rvest) rawtshtml <- tsurl %>% readhtml() tsraw <- rawtshtml %>% htmlnode(\"#mw-content-text > div.mw-parser-output > table:nth-child(10)\") %>% htmltable(fill = TRUE) %>% data.frame() %>% janitor::cleannames() %>% tibble() %>% slice(-1, -nrow(.)) %>% mutate(albumdetails =…",
+ "hook": "The data this week comes from Rosie Baillie and Dr. Sara Stoudt. Beyoncé's top 100 - Billboard. Taylor Swift's top 100 - Billboard. Rosie put together a wonderful analysis of Taylor Swift lyrics! Can you do some similar work with Beyoncé's work? Text analysis guides in tidytext or Supervised Machine Learning for Text Analysis in R.",
  "questions": [],
  "subjects": [
   "music"

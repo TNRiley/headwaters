@@ -72,5 +72,6 @@
  "provider": {
   "name": "USDA",
   "host": "ers.usda.gov"
- }
+ },
+ "questions_source": "curator"
 }

@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-01-21",
  "title": "Song Genres",
- "hook": "The data this week comes from Spotify via the spotifyr package. Charlie Thompson, Josiah Parry, Donal Phipps, and Tom Wolff authored this package to make it easier to get either your own data or general metadata arounds songs from Spotify's API. Make sure to check out the spotifyr package website to see how you can collect your own data! Kaylin Pavlik had a recent blogpost using the audio features to explore and classify songs. She used the spotifyr package to collect about 5000 songs from 6 main categories (EDM, Latin, Pop, R&B, Rap, & Rock). h/t to Jon Harmon & Neal Grantham. spotifysongs <- readr::readcsv(' tuesdata <- tidytuesdayR::ttload('2020-01-21') tuesdata <- tidytuesdayR::ttload(2020, week = 4) spotifysongs <- tuesdata$spotifysongs",
+ "hook": "The data this week comes from Spotify via the spotifyr package. Charlie Thompson, Josiah Parry, Donal Phipps, and Tom Wolff authored this package to make it easier to get either your own data or general metadata arounds songs from Spotify's API. Make sure to check out the spotifyr package website to see how you can collect your own data! Kaylin Pavlik had a recent blogpost using the audio features to explore and classify songs. She used the spotifyr package to collect about 5000 songs from 6 main categories (EDM, Latin, Pop, R&B, Rap, & Rock). h/t to Jon Harmon & Neal Grantham.",
  "questions": [],
  "subjects": [
   "music"

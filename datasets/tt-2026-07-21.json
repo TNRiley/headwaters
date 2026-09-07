@@ -67,5 +67,6 @@
  "provider": {
   "name": "NDERF Search",
   "host": "search.nderf.org"
- }
+ },
+ "questions_source": "curator"
 }

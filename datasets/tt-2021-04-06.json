@@ -1,7 +1,7 @@
 {
  "id": "tt-2021-04-06",
  "title": "Global deforestation",
- "hook": "The data this week comes from Our World in Data. Hannah Ritchie and Max Roser (2021) - \"Forests and Deforestation\". Published online at OurWorldInData.org. Retrieved from: ' [Online Resource] Additional article from UCSD and about deforestation and its effects on climate change and disease. -Soybean production and use -Palm oil production Quotes below from the Our World in Data articles: The net change in forest cover measures any gains in forest cover – either through natural forest expansion or afforestation through tree-planting – minus deforestation. How much of the world's land surface today is covered by forest? In the visualization we see the breakdown of global land area. 10% of the world is covered by glaciers, and a further 19% is barren land – deserts, dry salt flats, beaches, sand dunes, and exposed rocks. This leaves what we call ‘habitable land'.",
+ "hook": "Hannah Ritchie and Max Roser (2021) - \"Forests and Deforestation\". Published online at OurWorldInData.org. Retrieved from: ' [Online Resource] Additional article from UCSD and about deforestation and its effects on climate change and disease. -Soybean production and use -Palm oil production Quotes below from the Our World in Data articles: The net change in forest cover measures any gains in forest cover – either through natural forest expansion or afforestation through tree-planting – minus deforestation. How much of the world's land surface today is covered by forest? In the visualization we see the breakdown of global land area. 10% of the world is covered by glaciers, and a further 19% is barren land – deserts, dry salt flats, beaches, sand dunes, and exposed rocks. This leaves what we call ‘habitable land'. Forests account for a little over one-third (38%) of habitable land area.",
  "questions": [
   "Deforestation",
   "Share of forest area",
@@ -109,5 +109,6 @@
  "provider": {
   "name": "Our World in Data",
   "host": "ourworldindata.org"
- }
+ },
+ "questions_source": "curator"
 }

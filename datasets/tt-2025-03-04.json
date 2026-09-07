@@ -68,5 +68,6 @@
  "provider": {
   "name": "City of Long Beach Animal Care Services",
   "host": "longbeach.gov"
- }
+ },
+ "questions_source": "curator"
 }

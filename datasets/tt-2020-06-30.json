@@ -159,5 +159,6 @@
  "provider": {
   "name": "Claremont Run",
   "host": "claremontrun.com"
- }
+ },
+ "questions_source": "curator"
 }

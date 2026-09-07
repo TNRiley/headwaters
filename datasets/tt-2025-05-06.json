@@ -68,5 +68,6 @@
  "provider": {
   "name": "Grant Watch",
   "host": "grant-watch.us"
- }
+ },
+ "questions_source": "curator"
 }

@@ -1,7 +1,7 @@
 {
  "id": "tt-2018-10-02",
  "title": "US Births",
- "hook": "This folder contains data behind the story Some People Are Too Superstitious To Have A Baby On Friday The 13th. usbirths2000-2014.csv contains U.S. births data for the years 2000 to 2014, as provided by the Social Security Administration. The data have the following structure: Header | Definition ---|--------- year | Year month | Month dateofmonth | Day number of the month dayofweek | Day of week, where 1 is Monday and 7 is Sunday births | Number of births",
+ "hook": "This folder contains data behind the story Some People Are Too Superstitious To Have A Baby On Friday The 13th. usbirths2000-2014.csv contains U.S. births data for the years 2000 to 2014, as provided by the Social Security Administration. The data have the following structure:",
  "questions": [],
  "subjects": [
   "society & demographics"

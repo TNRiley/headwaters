@@ -61,5 +61,6 @@
  "provider": {
   "name": "Jelle's Marble Runs",
   "host": "youtube.com"
- }
+ },
+ "questions_source": "curator"
 }

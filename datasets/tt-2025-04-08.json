@@ -54,5 +54,6 @@
  "provider": {
   "name": "Centers for Medicare & Medicaid Services",
   "host": "cms.gov"
- }
+ },
+ "questions_source": "curator"
 }

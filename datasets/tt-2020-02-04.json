@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-02-04",
  "title": "NFL Attendance",
- "hook": "The data this week comes from Pro Football Reference team standings. Additional data on attendance also comes from Pro Football Reference here. attendance <- readr::readcsv(' standings <- readr::readcsv(' games <- readr::readcsv(' tuesdata <- tidytuesdayR::ttload('2020-02-04') tuesdata <- tidytuesdayR::ttload(2020, week = 6) attendance <- tuesdata$attendance These can be joined relatively nicely with dplyr::leftjoin(by = c(\"year\", \"teamname\", \"team\"))",
+ "hook": "The data this week comes from Pro Football Reference team standings. Additional data on attendance also comes from Pro Football Reference here. These can be joined relatively nicely with dplyr::leftjoin(by = c(\"year\", \"teamname\", \"team\"))",
  "questions": [],
  "subjects": [
   "sports & games"

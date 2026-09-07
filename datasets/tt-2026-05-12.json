@@ -62,5 +62,6 @@
  "provider": {
   "name": "Wikidata Query Service",
   "host": "query.wikidata.org"
- }
+ },
+ "questions_source": "curator"
 }

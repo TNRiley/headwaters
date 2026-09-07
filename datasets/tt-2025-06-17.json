@@ -100,5 +100,6 @@
  "provider": {
   "name": "APIs.guru",
   "host": "apis.guru"
- }
+ },
+ "questions_source": "curator"
 }

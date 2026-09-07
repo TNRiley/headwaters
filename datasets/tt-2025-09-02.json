@@ -70,5 +70,6 @@
  "provider": {
   "name": "FrogID dataset 6.0",
   "host": "frogid.net.au"
- }
+ },
+ "questions_source": "curator"
 }

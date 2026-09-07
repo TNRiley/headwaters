@@ -51,5 +51,6 @@
  "provider": {
   "name": "Black in Data Week",
   "host": "blkindata.github.io"
- }
+ },
+ "questions_source": "curator"
 }

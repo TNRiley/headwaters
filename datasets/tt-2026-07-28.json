@@ -104,5 +104,6 @@
  "provider": {
   "name": "{ecotourism}",
   "host": "{ecotourism}"
- }
+ },
+ "questions_source": "curator"
 }

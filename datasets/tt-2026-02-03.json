@@ -67,5 +67,6 @@
  "provider": {
   "name": "Edible Plant Database",
   "host": "discovery.dundee.ac.uk"
- }
+ },
+ "questions_source": "curator"
 }

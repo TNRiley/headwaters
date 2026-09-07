@@ -78,5 +78,6 @@
  "provider": {
   "name": "Kaggle",
   "host": "kaggle"
- }
+ },
+ "questions_source": "curator"
 }

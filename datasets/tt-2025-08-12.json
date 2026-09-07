@@ -80,5 +80,6 @@
  "provider": {
   "name": "Carbon Brief",
   "host": "carbonbrief.org"
- }
+ },
+ "questions_source": "curator"
 }

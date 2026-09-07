@@ -101,5 +101,6 @@
  "provider": {
   "name": "The Simpsons",
   "host": "the simpsons"
- }
+ },
+ "questions_source": "curator"
 }

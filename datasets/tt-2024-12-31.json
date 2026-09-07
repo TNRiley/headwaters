@@ -99,5 +99,6 @@
  "provider": {
   "name": "James Beard Foundation Awards Search",
   "host": "jamesbeard.org"
- }
+ },
+ "questions_source": "curator"
 }

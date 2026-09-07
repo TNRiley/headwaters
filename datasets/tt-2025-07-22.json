@@ -1,7 +1,7 @@
 {
  "id": "tt-2025-07-22",
  "title": "MTA Permanent Art Catalog",
- "hook": "This week we're exploring the (New York) MTA Permanent Art Catalog! Thank you to Georgios Karamanis (GitHub | Bluesky | LinkedIn for suggesting this dataset. Submit your dataset ideas through our GitHub issue tracker! The MTA has a dashboard to explore this dataset, but the dashboard is at least partially broken. Can you recreate it in Shiny for R or Python? Through the Permanent Art Program, MTA Arts & Design (formerly Arts for Transit) commissions public art that is seen by millions of city-dwellers as well as national and international visitors who use the MTA’s subways and trains. Arts & Design works closely with the architects and engineers at MTA NYC Transit, Long Island Rail Road and Metro-North Railroad to determine the parameters and sites for the artwork that is to be incorporated into each station scheduled for renovation.",
+ "hook": "The MTA has a dashboard to explore this dataset, but the dashboard is at least partially broken. Can you recreate it in Shiny for R or Python? Through the Permanent Art Program, MTA Arts & Design (formerly Arts for Transit) commissions public art that is seen by millions of city-dwellers as well as national and international visitors who use the MTA’s subways and trains. Arts & Design works closely with the architects and engineers at MTA NYC Transit, Long Island Rail Road and Metro-North Railroad to determine the parameters and sites for the artwork that is to be incorporated into each station scheduled for renovation. A diversity of well-established, mid-career and emerging artists contribute to the growing collection of works created in the materials of the system -mosaic, ceramic, tile, bronze, steel and glass.",
  "questions": [
   "Can you reproduce the stationlines dataset without looking at our Cleaning Script? How does your solution differ from ours?",
   "Which agency has the most art? Which has the least?",
@@ -66,5 +66,6 @@
  "provider": {
   "name": "MTA Permanent Art Catalog",
   "host": "ny.gov"
- }
+ },
+ "questions_source": "curator"
 }

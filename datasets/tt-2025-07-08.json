@@ -73,5 +73,6 @@
  "provider": {
   "name": "xkcd Color Survey SQLite database",
   "host": "xkcd.com"
- }
+ },
+ "questions_source": "curator"
 }

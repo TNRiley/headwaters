@@ -86,5 +86,6 @@
  "provider": {
   "name": "Paini et al, 2016",
   "host": "pnas.org"
- }
+ },
+ "questions_source": "curator"
 }

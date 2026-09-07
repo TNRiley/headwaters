@@ -63,5 +63,6 @@
  "provider": {
   "name": "Lunenburg County Water Quality Data",
   "host": "novascotia.ca"
- }
+ },
+ "questions_source": "curator"
 }

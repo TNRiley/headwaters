@@ -1,13 +1,13 @@
 {
  "id": "tt-2021-08-10",
  "title": "BEA Infrastructure Investment",
- "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "hook": "The data this week comes from Bureau of Economic Analysis. The raw .xlsx file is included, or can be downloaded directly from the BEA Working paper series. Note that there are additional datasets in the Excel file, but the 3 primary datasets are already cleaned and saved as individual .csv files. h/t to Donald Schneider and DataIsPlural The Working Paper by Jennifer Bennett et al Infrastructure provides critical support for economic activity, and assessing its role requires reliable measures. This paper provides an overview of U.S. infrastructure data in the National Economic Accounts. After developing definitions of basic, social, and digital infrastructure, we assess trends in each of these categories and their components. Results are mixed depending on the category.",
  "questions": [],
  "subjects": [
   "economy & work"
  ],
  "provider_type": "government",
- "geography": "",
+ "geography": "United States",
  "sources": [
   {
    "name": "BEA",

@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-01-14",
  "title": "Passwords",
- "hook": "This week's data is all about passwords. Data is sourced from Information is Beautiful, with the graphic coming from the same group here. There's lots of additional information about password quality & strength in the source Doc. Please note that the \"strength\" column in this dataset is relative to these common aka \"bad\" passwords and YOU SHOULDN'T USE ANY OF THEM! Wikipedia has a nice article on password strength as well. tuesdata <- tidytuesdayR::ttload('2020-01-14') tuesdata <- tidytuesdayR::ttload(2020, week = 3) passwords <- tuesdata$passwords",
+ "hook": "This week's data is all about passwords. Data is sourced from Information is Beautiful, with the graphic coming from the same group here. There's lots of additional information about password quality & strength in the source Doc. Please note that the \"strength\" column in this dataset is relative to these common aka \"bad\" passwords and YOU SHOULDN'T USE ANY OF THEM! Wikipedia has a nice article on password strength as well.",
  "questions": [],
  "subjects": [
   "technology & software"

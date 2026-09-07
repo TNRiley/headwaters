@@ -68,5 +68,6 @@
  "provider": {
   "name": "Historical monthly data for meteorological stations",
   "host": "data.gov.uk"
- }
+ },
+ "questions_source": "curator"
 }

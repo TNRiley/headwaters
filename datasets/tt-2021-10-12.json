@@ -1,7 +1,7 @@
 {
  "id": "tt-2021-10-12",
  "title": "Global Seafood",
- "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "hook": "The data this week comes from OurWorldinData.org. More details can be found on their site.",
  "questions": [
   "Increasing pressures on fish populations mean one-third of global fish stocks are overexploited – this has increased from 10% in the 1970s.",
   "The world now produces more than 155 million tonnes of seafood each year.",
@@ -131,5 +131,6 @@
  "provider": {
   "name": "Our World in Data",
   "host": "ourworldindata.org"
- }
+ },
+ "questions_source": "curator"
 }

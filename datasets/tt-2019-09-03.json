@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-09-03",
  "title": "Moore's Law",
- "hook": "This week's data is from Wikipedia - by way of the Data Is Beautiful Subreddit. Additional info and graphics can be found at Our World in Data. Moore's Law: Transistors per microprocessor library(tidyverse) library(rvest) tables <- url %>% readhtml() %>% htmltable(fill = TRUE) df1 <- tables %>% chuck(1) %>% janitor::cleannames() %>% astibble() df1clean <- df1 %>% mutate( transistorcount = strremove(transistorcount, \"\\\\[[^\\\\]]\\\\]\"), transistorcount = strremove(transistorcount, \"[:punct:]+\"), transistorcount = strremove(transistorcount, \"\\\\[[^\\\\]]\\\\]\"), transistorcount = strremove(transistorcount, \"[:punct:]+\"), transistorcount = strremove(transistorcount, \"[:punct:]+\"), transistorcount = strextract(transistorcount, \"[:digit:]+\"), dateofintroduction = strsub(dateofintroduction, 1, 4), process = strremove(process, \",\"), process = strextract(process, \"[:digit:]+\"), area = strextract(area,…",
+ "hook": "This week's data is from Wikipedia - by way of the Data Is Beautiful Subreddit. Additional info and graphics can be found at Our World in Data. Moore's Law: Transistors per microprocessor",
  "questions": [
   "The observation that the number of transistors in a dense integrated circuit doubles approximately every two years."
  ],
@@ -83,5 +83,6 @@
  "provider": {
   "name": "Wikipedia",
   "host": "wikipedia"
- }
+ },
+ "questions_source": "curator"
 }

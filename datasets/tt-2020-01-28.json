@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-01-28",
  "title": "San Francisco Trees",
- "hook": "The data this week comes from San Francisco's open data portal. There are dozens of tree species, and many other intresting features to explore in this dataset! I did drop a few columns that were either > 75% missing or redundant, feel free to check out the source for the fully original dataset. Also - make sure to follow @tidypod - they'll have some interesting #TidyTuesday updates to come this week! tuesdata <- tidytuesdayR::ttload('2020-01-28') tuesdata <- tidytuesdayR::ttload(2020, week = 5) A full data dictionary is available at: the source but it's fairly sparse.",
+ "hook": "The data this week comes from San Francisco's open data portal. There are dozens of tree species, and many other intresting features to explore in this dataset! I did drop a few columns that were either > 75% missing or redundant, feel free to check out the source for the fully original dataset. Also - make sure to follow @tidypod - they'll have some interesting #TidyTuesday updates to come this week! A full data dictionary is available at: the source but it's fairly sparse.",
  "questions": [
   "Trees of Life in SF",
   "Landmark trees",
@@ -61,5 +61,6 @@
  "provider": {
   "name": "data.sfgov.org",
   "host": "sfgov.org"
- }
+ },
+ "questions_source": "curator"
 }

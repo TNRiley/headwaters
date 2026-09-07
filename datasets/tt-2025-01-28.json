@@ -67,5 +67,6 @@
  "provider": {
   "name": "US Census Data from tidycensus",
   "host": "us census data from tidycensus"
- }
+ },
+ "questions_source": "curator"
 }

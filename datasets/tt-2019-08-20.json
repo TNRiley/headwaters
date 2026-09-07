@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-08-20",
  "title": "Nuclear Explosions",
- "hook": "This week's data is from Stockholm International Peace Research Institute, by way of data is plural with credit to Jesus Castagnetto for sharing the dataset. Additional information can be found on Wikipedia or via the original report PDF. Additional related datasets can be found at Our World in Data. For details around units for yield/magnitude, please see the Nuclear Yield formulas. nuclearexplosions <- readr::readcsv(\"",
+ "hook": "This week's data is from Stockholm International Peace Research Institute, by way of data is plural with credit to Jesus Castagnetto for sharing the dataset. Additional information can be found on Wikipedia or via the original report PDF. Additional related datasets can be found at Our World in Data. For details around units for yield/magnitude, please see the Nuclear Yield formulas.",
  "questions": [],
  "subjects": [
   "government & politics",

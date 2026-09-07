@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-10-08",
  "title": "Powerlifting",
- "hook": "This week's data is from Open Powerlifting. Wikipedia has many details around the sport itself, as well as more details around the 3 lifts (squat, bench, and deadlift). Credit to Nichole Monhait for sharing this fantastic open dataset. Please note this is a small subset of the data limited to IPF (International Powerlifting Federation) events, the full dataset with many more columns and alternative events can be found as a .csv at The full dataset has many more federations, ages, and meet types but is >250 MB.",
+ "hook": "This week's data is from Open Powerlifting. Wikipedia has many details around the sport itself, as well as more details around the 3 lifts (squat, bench, and deadlift). Credit to Nichole Monhait for sharing this fantastic open dataset. Please note this is a small subset of the data limited to IPF (International Powerlifting Federation) events, the full dataset with many more columns and alternative events can be found as a .csv at The full dataset has many more federations, ages, and meet types but is >250 MB. A nice analysis of this dataset for age-effects in R can be found at Elias Oziolor's Blog",
  "questions": [],
  "subjects": [
   "sports & games"

@@ -1,7 +1,7 @@
 {
  "id": "tt-2021-08-17",
  "title": "Star Trek Voice Commands",
- "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "hook": "The data this week comes from SpeechInteraction.org. H/t to Sara Stoudt for sharing this dataset. ### Tea, Earl Grey, Hot: Designing Speech Interactions from the Imagined Ideal of Star Trek Speech is now common in daily interactions with our devices, thanks to voice user interfaces (VUIs) like Alexa. Despite their seeming ubiquity, designs often do not match users' expectations. Science fiction, which is known to influence design of new technologies, has included VUIs for decades. Star Trek: The Next Generation is a prime example of how people envisioned ideal VUIs. Understanding how current VUIs live up to Star Trek's utopian technologies reveals mismatches between current designs and user expectations, as informed by popular fiction.",
  "questions": [],
  "subjects": [
   "film & television"

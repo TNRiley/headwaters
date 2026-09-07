@@ -61,5 +61,6 @@
  "provider": {
   "name": "faa.gov",
   "host": "faa.gov"
- }
+ },
+ "questions_source": "curator"
 }

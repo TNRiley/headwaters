@@ -75,5 +75,6 @@
  "provider": {
   "name": "{palmtrees}",
   "host": "{palmtrees}"
- }
+ },
+ "questions_source": "curator"
 }

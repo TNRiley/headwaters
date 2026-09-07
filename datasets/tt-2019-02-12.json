@@ -61,5 +61,6 @@
  "provider": {
   "name": "AAAS",
   "host": "aaas.org"
- }
+ },
+ "questions_source": "curator"
 }

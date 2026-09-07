@@ -57,5 +57,6 @@
  "provider": {
   "name": "EuroleagueBasketball R package (curated from Wikipedia and E",
   "host": "euroleaguebasketball r package (curated from wikipedia and euroleague records)"
- }
+ },
+ "questions_source": "curator"
 }

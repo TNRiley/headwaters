@@ -121,5 +121,6 @@
  "provider": {
   "name": "At-Sea Observations of Seabirds 1969 to 1990",
   "host": "catalogue.data.govt.nz"
- }
+ },
+ "questions_source": "curator"
 }

@@ -1,14 +1,14 @@
 {
  "id": "tt-2022-03-29",
  "title": "Collegiate Sports Budgets",
- "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "hook": "The data this week comes from Equity in Athletics Data Analysis, hattip to Data is Plural. An additional article can be found at USA Facts. Please note that I have only used a subset of all available columns, there are MANY other columns of interest like coaching staff and other statistics. Please see the Schoolsdoc file in each folder (EADA2016-2017, etc) for the definitions of additional columns. Additional articles from US News and NPR.",
  "questions": [],
  "subjects": [
   "sports & games",
   "education"
  ],
  "provider_type": "government",
- "geography": "",
+ "geography": "United States",
  "sources": [
   {
    "name": "Equity in Athletics Data Analysis",

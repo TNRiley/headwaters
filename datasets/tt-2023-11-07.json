@@ -1,7 +1,7 @@
 {
  "id": "tt-2023-11-07",
  "title": "US House Election Results",
- "hook": "It's election day in the United States! To celebrate, the data this week comes from the MIT Election Data and Science Lab (MEDSL). Hat tip this week to the RStudio GitHub Copilot integration, which suggested the MEDSL. From the MEDSL's report New Report: How We Voted in 2022: The Survey of the Performance of American Elections (SPAE) provides information about how Americans experienced voting in the most recent federal election. The survey has been conducted after federal elections since 2008, and is the only public opinion project in the country that is dedicated explicitly to understanding how voters themselves experience the election process. We're specifically providing data on House elections from 1976-2022. Check out the MEDSL website for additional datasets and tools.",
+ "hook": "It's election day in the United States! To celebrate, the data this week comes from the MIT Election Data and Science Lab (MEDSL). Hat tip this week to the RStudio GitHub Copilot integration, which suggested the MEDSL. From the MEDSL's report New Report: How We Voted in 2022: The Survey of the Performance of American Elections (SPAE) provides information about how Americans experienced voting in the most recent federal election. The survey has been conducted after federal elections since 2008, and is the only public opinion project in the country that is dedicated explicitly to understanding how voters themselves experience the election process. We're specifically providing data on House elections from 1976-2022. Check out the MEDSL website for additional datasets and tools. Be sure to cite the MEDSL in your work:",
  "questions": [],
  "subjects": [
   "government & politics"

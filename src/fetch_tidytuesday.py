@@ -23,7 +23,17 @@ import urllib.request
 from datetime import date
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import quality                                        # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
+
+# Learned once from the corpus; see src/quality.py. Empty on a first run, which is
+# correct -- there is nothing to compare against until records exist.
+BOILERPLATE = quality.load_learned()
+
+# ```r ... ``` -- non-greedy, and tolerant of the malformed openers in the corpus
+FENCE = re.compile(r"```.*?(?:```|\Z)", re.S)
 sys.path.insert(0, str(ROOT / "src"))
 from probe import CTX, UA                                    # CA-bundle fallback lives there
 
@@ -145,7 +155,11 @@ def parse_week_readme(md):
     out = {"title": "", "hook": "", "questions": [], "files": [], "columns": {}, "links": []}
     if not md:
         return out
-    body = md.split("## The Data")[0]
+    # Code blocks are not prose. Several readmes open with the tidyverse pipeline that
+    # produced the file, and without this the "curator's pitch" for Board Game Geek was
+    # `filter(usersrated >= 50, gametype == "boardgame")`. Only the prose half is stripped:
+    # the file list and column tables below are still read from the full markdown.
+    body = FENCE.sub(" ", md.split("## The Data")[0])
     lines = body.splitlines()
     for line in lines:
         if line.startswith("# "):
@@ -170,14 +184,26 @@ def parse_week_readme(md):
         paras.append(" ".join(para))
     out["links"] = [{"name": n.strip(), "url": u} for n, u in LINK.findall(body) if u.startswith("http")]
     plain = [demarkdown(p) for p in paras]
-    plain = [p for p in plain if len(p) > 30 and not p.lower().startswith("thank you")]
-    hook = " ".join(plain)
+    # A row of a data dictionary is not prose. The line-level skip above only catches
+    # rows that start with a pipe; some readmes indent theirs, and the cells then land
+    # mid-paragraph ("Unemploymentrate | Unemployed / (Unemployed + Employed)").
+    plain = [p for p in plain
+             if len(p) > 30 and not p.lower().startswith("thank you") and p.count("|") < 2]
+    # Drop the publisher's standing boilerplate BEFORE the length cap, not after. The
+    # alt-text block runs to about 800 characters, so on the weeks that carried it the cap
+    # was spent before the readme got to the data -- 107 records described how to write
+    # alt text and never mentioned their own subject. Stripping first recovers the prose
+    # that was being crowded out.
+    hook = quality.strip(" ".join(plain), BOILERPLATE)
     if len(hook) > 900:
         cut = hook[:900]
         stop = max(cut.rfind(". "), cut.rfind("! "), cut.rfind("? "))
         hook = (cut[:stop + 1] if stop > 500 else cut[:cut.rfind(" ")] + "\u2026")
     out["hook"] = hook
-    out["questions"] = [demarkdown(q) for q in questions if len(q) > 12][:5]
+    # Length is judged AFTER the markdown comes off, not before: "[grandslams](url)" is
+    # 17 characters of raw bullet and 10 of question, and the schema minimum is 12.
+    out["questions"] = [q for q in (demarkdown(x).strip() for x in questions)
+                        if len(q) >= 12][:5]
 
     # canonical files: the ones the readme itself tells you to read
     out["files"] = list(dict.fromkeys(re.findall(r"/data/\d{4}/\d{4}-\d{2}-\d{2}/([\w.\-]+)", md)))
@@ -264,9 +290,18 @@ def build(refresh=False):
         path = OUT / ("%s.json" % rec["id"])
         if path.exists():                      # never clobber a classification pass
             old = json.loads(path.read_text(encoding="utf-8"))
-            for k in ("subjects", "provider_type", "geography", "notes", "added"):
+            # Everything classify.py owns, plus anything a person wrote. `provider` was
+            # missing from this list while `provider_type` was in it, so a re-fetch dropped
+            # the publisher key that joins datasets to sources -- 22 links, silently, until
+            # classify.py happened to run again.
+            for k in ("subjects", "provider", "provider_type", "geography", "notes", "added",
+                      "hook_source", "questions_source"):
                 if old.get(k):
                     rec[k] = old[k]
+            if old.get("hook_source") == "manual" and old.get("hook"):
+                rec["hook"] = old["hook"]          # somebody wrote it; never regenerate it
+            if old.get("questions_source") in ("manual", "generated") and old.get("questions"):
+                rec["questions"] = old["questions"]
         with path.open("w", encoding="utf-8", newline="\n") as fh:
             fh.write(json.dumps(rec, indent=1, ensure_ascii=False) + "\n")
         written += 1

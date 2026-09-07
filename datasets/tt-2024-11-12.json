@@ -1,7 +1,7 @@
 {
  "id": "tt-2024-11-12",
  "title": "ISO Country Codes",
- "hook": "We've referenced countries and country codes in many past datasets, but we've never looked closely at the ISO 3166 standard that defines these codes. ISO 3166 is a standard published by the International Organization for Standardization (ISO) that defines codes for the names of countries, dependent territories, special areas of geographical interest, and their principal subdivisions (e.g., provinces or states). The official name of the standard is Codes for the representation of names of countries and their subdivisions. The dataset this week comes from the {ISOcodes} R package. It consists of three tables: Tip: Try the quickmap() function in the {countries} package to produce maps colored by country.",
+ "hook": "We've referenced countries and country codes in many past datasets, but we've never looked closely at the ISO 3166 standard that defines these codes. ISO 3166 is a standard published by the International Organization for Standardization (ISO) that defines codes for the names of countries, dependent territories, special areas of geographical interest, and their principal subdivisions (e.g., provinces or states). The official name of the standard is Codes for the representation of names of countries and their subdivisions. The dataset this week comes from the {ISOcodes} R package. It consists of three tables: Tip: Try the quickmap() function in the {countries} package to produce maps colored by country. You can use this code to explore past datasets that have mentioned countries and/or country codes:",
  "questions": [
   "countries: Country codes from ISO 3166-1.",
   "countrysubdivisions: Country subdivision code from ISO 3166-2.",
@@ -78,5 +78,6 @@
  "provider": {
   "name": "ISOcodes",
   "host": "isocodes"
- }
+ },
+ "questions_source": "curator"
 }

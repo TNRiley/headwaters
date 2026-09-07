@@ -64,5 +64,6 @@
  "provider": {
   "name": "WorldPop Hub",
   "host": "hub.worldpop.org"
- }
+ },
+ "questions_source": "curator"
 }

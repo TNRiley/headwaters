@@ -69,5 +69,6 @@
  "provider": {
   "name": "Tate Collection",
   "host": "tate collection"
- }
+ },
+ "questions_source": "curator"
 }

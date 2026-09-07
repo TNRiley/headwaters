@@ -1,14 +1,14 @@
 {
  "id": "tt-2021-06-01",
  "title": "Survivor TV Show",
- "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "hook": "The data this week comes from the survivorR R package by way of Daniel Oehm. 596 episodes. 40 seasons. 1 package! survivoR is a collection of data sets detailing events across all 40 seasons of the US Survivor, including castaway information, vote history, immunity and reward challenge winners and jury votes. Full details about the package and additional datasets available in the package are available on GitHub. The package is on CRAN as survivoR and can be installed for ALL the datasets, themes, etc via install.packages(\"survivoR\"). Some example code is available at Daniel's Website. Additional context/details about the Survivor TV show can be found on Wikipedia). No cleaning script, just the CRAN package survivoR!",
  "questions": [],
  "subjects": [
   "sports & games",
   "film & television"
  ],
  "provider_type": "platform",
- "geography": "",
+ "geography": "United States",
  "sources": [
   {
    "name": "`survivoR` Package",

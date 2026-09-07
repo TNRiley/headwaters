@@ -60,5 +60,6 @@
  "provider": {
   "name": "World Bank Data Catalog",
   "host": "datacatalog.worldbank.org"
- }
+ },
+ "questions_source": "curator"
 }

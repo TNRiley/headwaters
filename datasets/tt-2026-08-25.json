@@ -82,5 +82,6 @@
  "provider": {
   "name": "Country Lyrics Amazing Spreadsheet",
   "host": "country lyrics amazing spreadsheet"
- }
+ },
+ "questions_source": "curator"
 }

@@ -1,14 +1,14 @@
 {
  "id": "tt-2021-06-22",
  "title": "Public Park Access",
- "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "hook": "The data this week comes from The Trust for Public Land. Citylab also wrote an article about park access and these datasets. When the pandemic forced millions of Americans to shelter indoors, parks saw a surge in popularity. Parks in North Carolina received an all-time high of 20 million visitors in 2020, an uptick of one million from the year before. In New York, the number of park-goers topped 78 million. Cities also mobilized their green spaces in the pandemic-fighting effort, using them to distribute PPE, meals and even vaccines. In Memphis, Tennessee, a 360-foot long tent was erected on Liberty Park fairgrounds in April, aiming to administer 21,000 vaccines weekly. But even as green spaces proved to be a crucial element to people's physical and mental well-being — especially for urban dwellers — the pandemic further exposed the disparity in who has access to parks.",
  "questions": [],
  "subjects": [
   "animals & nature",
   "society & demographics"
  ],
  "provider_type": "nonprofit or society",
- "geography": "",
+ "geography": "United States",
  "sources": [
   {
    "name": "TPL",

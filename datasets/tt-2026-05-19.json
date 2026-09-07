@@ -128,5 +128,6 @@
  "provider": {
   "name": "State of Crossref metadata by member country",
   "host": "state of crossref metadata by member country"
- }
+ },
+ "questions_source": "curator"
 }

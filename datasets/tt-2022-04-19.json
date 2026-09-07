@@ -1,13 +1,13 @@
 {
  "id": "tt-2022-04-19",
  "title": "Crossword Puzzles and Clues",
- "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "hook": "Data this week comes from Cryptic Crossword Clues. A short TDS article on Crosswords cryptics.georgeho.org is a dataset of cryptic crossword1 clues, indicators and charades, collected from various blogs and digital archives. This dataset is a significant work of crossword archivism and scholarship, as acquiring historical crosswords and structuring their contents require focused effort and tedious cleaning that few are willing to do for such trivial data - for example, according to this selection guide2, the Library of Congress explicitly does not collect crossword puzzles. This project indexes various blogs and digital archives for cryptic crosswords. Several fields - such as clues, answers, clue numbers, annotations or commentary, puzzle title and publication date - are parsed and extracted into a tabular dataset.",
  "questions": [],
  "subjects": [
   "books & language"
  ],
  "provider_type": "nonprofit or society",
- "geography": "",
+ "geography": "United States",
  "sources": [
   {
    "name": "Cryptics.georgeho.org",

@@ -78,8 +78,57 @@ New TidyTuesday weeks appear every Monday. Picking them up is two commands and n
 ```bash
 python3 src/fetch_tidytuesday.py     # incremental; readmes are cached under .cache/
 python3 src/classify.py              # fills only empty fields, so it never undoes a correction
+python3 src/quality.py --sweep       # strip the publisher's boilerplate out of the new hooks
 python3 src/build_site.py
 ```
+
+## The prose gate
+
+The browsing layer lives on its hooks, and a quarter of the first 428 records opened with
+TidyTuesday's standing request to add alt text to your charts — three paragraphs about
+accessible visualisation, filed as the description of a dataset about technology adoption.
+
+`src/quality.py` catches that class of thing without a list of known phrases, because the
+next aggregation will have its own. **The signal is repetition: a paragraph appearing
+verbatim in several records is not a description of any of them.** That is a corpus-level
+judgement, so it is learned once into `boilerplate.json` and then applied per record —
+which is also why `validate.py` and every fetcher can consult it for free.
+
+```bash
+python3 src/quality.py               # what is wrong with the corpus's prose
+python3 src/quality.py --sweep       # learn and strip, repeatedly, until nothing changes
+```
+
+Three things to know before you touch it:
+
+- **`--sweep` iterates for a reason.** Fragments are compared as groups of whole sentences,
+  so removing the first half of a block re-groups what is left and exposes fingerprints
+  nobody had seen. Stripping the alt-text block's opening paragraphs revealed eight more
+  fragments underneath it, in the same 107 records.
+- **Re-fetching and sweeping alternate.** A fetcher strips the boilerplate it knows about
+  *before* the length cap — the alt-text block runs to ~800 characters, so on the weeks
+  that carried it the cap was spent before the readme reached the data. Each re-fetch
+  recovers prose, which can expose new boilerplate, so run both until each is a no-op.
+- **Repetition is a good signal, not a perfect one.** Three weeks genuinely drew on IMDb
+  and said so in the same words. Record such an exception in `boilerplate.json`'s
+  `not_boilerplate` map **with its reason** — do not raise the threshold until it survives,
+  because that lets real boilerplate through. Relearning preserves those judgements.
+
+An empty hook is an honest outcome, not a defect to paper over: the earliest TidyTuesday
+weeks have no week readme at all. Never invent a pitch for a dataset — `hook` means the
+curator's words. If you write one yourself, set `hook_source: "manual"` and every tool
+here will leave it alone.
+
+### Filling `questions`
+
+`questions` is what turns browsing into an idea, and it is nearly empty. The schema says
+what a good one is: answerable from the columns the record already lists, phrased as a
+question, and specific enough that it could not be asked of a different dataset. Set
+`questions_source` to `curator` (the publisher's own bullets), `generated` or `manual` —
+a curator's question is evidence about the dataset and a generated one is not.
+
+**An ingest that has the publisher's prose in front of it should fill this in the same
+pass.** Back-filling later means a second traversal of the whole corpus for no reason.
 
 `fetch_tidytuesday.py` downloads **no data files** — everything comes from the year readme
 table, the week readme, `meta.yaml` and one git-trees call. Keep it that way; the catalogue
@@ -148,12 +197,14 @@ src/mcp_server.py   the same, as MCP tools over stdio, for sessions in other pro
 src/match.py        "do we already know about this?" — the one host/title normaliser
 src/fetch_tidytuesday.py  builds dataset records from TidyTuesday metadata (no downloads)
 src/classify.py     subject / publisher / geography rules, plus the override table
+src/quality.py      learns publisher boilerplate from repetition; strips it; reports prose
 src/validate.py     schema + id + cross-reference checks (stdlib only, no pip)
 src/probe.py        runs every probe, writes health.json, reports what changed state
 src/harvest.py      pulls leads from upstream initiatives into leads.json
 src/build_site.py   splices sources + health into index.html
 src/template.html   the page; edit here, never edit index.html
 .github/workflows/probe.yml  weekly probe run; commits health, opens an issue on a break
+boilerplate.json    generated — learned boilerplate, plus the not_boilerplate judgements
 health.json         generated — last probe run
 leads.json          generated — the queue
 LANDSCAPE.md        why this exists and what already existed (written first, on purpose)

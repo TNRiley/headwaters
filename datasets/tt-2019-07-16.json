@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-07-16",
  "title": "R4DS Membership",
- "hook": "In honor of the R4DS Online Learning Community team's recent presentation at useR-2019, here are the stats for the R4DS community from it's founding through the start of July. No user names or user information is included - it is aggregated by date. See Jesse's talk about founding this community here. Join us on Slack here or check out our website. r4dsmembers <- readr::readcsv(\"",
+ "hook": "In honor of the R4DS Online Learning Community team's recent presentation at useR-2019, here are the stats for the R4DS community from it's founding through the start of July. No user names or user information is included - it is aggregated by date. See Jesse's talk about founding this community here. Join us on Slack here or check out our website.",
  "questions": [],
  "subjects": [
   "the r & tidytuesday community"

@@ -66,5 +66,6 @@
  "provider": {
   "name": "getTBinR",
   "host": "gettbinr"
- }
+ },
+ "questions_source": "curator"
 }

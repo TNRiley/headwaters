@@ -103,6 +103,7 @@ python3 src/probe.py                              # re-check every endpoint, wri
 python3 src/match.py                              # normalisation self-test
 python3 src/fetch_tidytuesday.py                  # pick up new weeks (incremental, cached)
 python3 src/classify.py                           # assign subjects, publishers, geography
+python3 src/quality.py --sweep                    # strip publisher boilerplate from hooks
 python3 src/harvest.py --list new | head          # candidates waiting to be researched
 python3 src/build_site.py                         # regenerate index.html
 ```

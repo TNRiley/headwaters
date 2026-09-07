@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-12-01",
  "title": "Toronto Shelters",
- "hook": "The data this week comes from Sharla Gelfand's opendatatoronto R package. The site website has additional details and all sorts of great datasets. opendatatoronto package website. Quick intro/vignette can also be found here. Data originally sourced from open.toronto.ca. Article around Homeless Shelters in Toronto. In his response to \"where will homeless people go (when the respite closes)?\" Ross tweeted: \"Other respites will also work to accommodate. As respites, typically, see their highest usage in the winter months, we anticipate an easing of demand for respites with the warmer weather.",
+ "hook": "The data this week comes from Sharla Gelfand's opendatatoronto R package. The site website has additional details and all sorts of great datasets. opendatatoronto package website. Quick intro/vignette can also be found here. Data originally sourced from open.toronto.ca. Article around Homeless Shelters in Toronto. In his response to \"where will homeless people go (when the respite closes)?\" Ross tweeted: \"Other respites will also work to accommodate. As respites, typically, see their highest usage in the winter months, we anticipate an easing of demand for respites with the warmer weather. Will be keeping a close watch, of course.\" A list of places to donate to in Toronto:",
  "questions": [
   "Encampment Support Network Toronto - ESN is an ad-hoc, volunteer-run network of neighbours building community and supporting people living in encampments in 6 locations throughout Toronto. Every day since the beginning of June 2020, outreach volunteers from the network visit encampments to deliver basic supplies, such as water and tents, ice, sleeping bags, fire safety equipment, and snacks, which the City of Toronto has consistently refused to provide (despite recommendations from Ontario's Chief Coroner to do so).",
   "Toronto Tiny Shelters - Khaleel Seivwright is a carpenter and raising money to build durable insulated tiny shelters for homeless people across Toronto who might be living outside this winter.",
@@ -62,5 +62,6 @@
  "provider": {
   "name": "opendatatoronto",
   "host": "opendatatoronto"
- }
+ },
+ "questions_source": "curator"
 }

@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-09-17",
  "title": "National Park Visits",
- "hook": "This week's data is from dataisplural/data.world. There are some additional datasets that may be interesting in relation to this data - namely US population and gas prices over time. There's also some shapefiles you might be able to use with the sf package. Lastly, a fivethirtyeight article covered this dataset with lots of great visualizations to copy or build off of. parkvisits <- readr::readcsv(\" statepop <- readr::readcsv(\" gasprice <- readr::readcsv(\" library(tidyverse) library(rvest) dfraw <- readcsv(here::here(\"2019/2019-09-17/All National Parks Visitation 1904-2016.csv\")) df <- dfraw %>% janitor::cleannames() %>% mutate(date = lubridate::mdyhms(year)) %>% select(date, gnisid, geometry:yearraw) df %>% writecsv(here::here(\"2019/2019-09-17/nationalparks.csv\")) rawhtml <- url %>% readhtml() %>% htmltable() popdf <- rawhtml %>% chuck(5) %>% gather(key = \"state\", value = \"pop\", AL:DC)…",
+ "hook": "This week's data is from dataisplural/data.world. There are some additional datasets that may be interesting in relation to this data - namely US population and gas prices over time. There's also some shapefiles you might be able to use with the sf package. Lastly, a fivethirtyeight article covered this dataset with lots of great visualizations to copy or build off of.",
  "questions": [
   "Regional Boundaries"
  ],
@@ -77,5 +77,6 @@
  "provider": {
   "name": "Data.World",
   "host": "data.world"
- }
+ },
+ "questions_source": "curator"
 }

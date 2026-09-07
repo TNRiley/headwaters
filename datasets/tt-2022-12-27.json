@@ -1,7 +1,7 @@
 {
  "id": "tt-2022-12-27",
  "title": "Star Trek Timelines",
- "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "hook": "The data this week comes from the {rtrek} package. Thank you Georgios Karamanis for suggesting the dataset! The rtrek package provides datasets related to the Star Trek fictional universe and functions for working with those datasets. It interfaces with the Star Trek API (STAPI), Memory Alpha and Memory Beta to retrieve data, metadata and other information relating to Star Trek. We directly included two of the datasets from the {rtrek} package, but we encourage you to install the package and explore the trekverse of Star-Trek-related R packages!",
  "questions": [
   "We filtered the tlFootnotes dataset and renamed columns, so you won't see exactly the same dataset if you load directly from the package.",
   "Some of the years do not fit into R integers, and will be coerced to NA if you attempt to convert the years to integer."
@@ -69,5 +69,6 @@
  "provider": {
   "name": "rtrek",
   "host": "leonawicz.github.io"
- }
+ },
+ "questions_source": "curator"
 }

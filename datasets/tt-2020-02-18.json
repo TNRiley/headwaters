@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-02-18",
  "title": "Food's Carbon Footprint",
- "hook": "The data this week comes from nu3 and was contributed by Kasia Kulma. Kasia has put together a great guide on webscraping along with data cleaning and organization! Make sure to check out her blog post, and the raw code is duplicated as part of the cleaning script. foodconsumption <- readr::readcsv(' tuesdata <- tidytuesdayR::ttload('2020-02-18') tuesdata <- tidytuesdayR::ttload(2020, week = 8) foodconsumption <- tuesdata$foodconsumption r library(tidyverse) library(janitor) library(rvest) wholetable <- urlhtml %>% htmlnodes('table') %>% htmltable(fill = TRUE) %>% .[[1]] tablecontent <- wholetable %>% select(-X1) %>% # remove redundant column filter(!dplyr::rownumber() %in% 1:3) # remove redundant rows rawheaders <- urlhtml %>% htmlnodes(\".thead-icon\") %>% htmlattr('title') tidybottomheader <- rawheaders[28:length(rawheaders)] tidybottomheader[1:10] rawmiddleheader <- rawheaders[17:27]…",
+ "hook": "The data this week comes from nu3 and was contributed by Kasia Kulma. Kasia has put together a great guide on webscraping along with data cleaning and organization! Make sure to check out her blog post, and the raw code is duplicated as part of the cleaning script.",
  "questions": [],
  "subjects": [
   "environment & climate",

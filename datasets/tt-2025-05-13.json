@@ -60,5 +60,6 @@
  "provider": {
   "name": "Italian Istituto Nazionale di Geofisica e Vulcanologia (INGV",
   "host": "ingv.it"
- }
+ },
+ "questions_source": "curator"
 }

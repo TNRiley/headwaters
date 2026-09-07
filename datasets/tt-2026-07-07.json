@@ -272,5 +272,6 @@
  "provider": {
   "name": "fightr",
   "host": "fightr"
- }
+ },
+ "questions_source": "curator"
 }

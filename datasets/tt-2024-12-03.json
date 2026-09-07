@@ -75,5 +75,6 @@
  "provider": {
   "name": "WebTRIS Traffic Flow API",
   "host": "webtris.nationalhighways.co.uk"
- }
+ },
+ "questions_source": "curator"
 }

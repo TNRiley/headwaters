@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-08-06",
  "title": "Bob Ross paintings",
- "hook": "This week's DATA is from 538, and can either be read in directly from this repo or from the 538 R package which was recently updated to include more data from 538! The 538 article can be found here. The stringr::strtotitle() function could help with the variable names. Try dplyr::gather() on the painting elements if you want to go to a tall/tidy format. Be aware there are frame AND painting elements in the columns, dplyr::contains() could be useful here with a \"frame\" argument. This only applies if you wanted to separate the columns into a frame and painting elements column. Otherwise, you could just do a straight gather/pivotlonger with all elements but season, title, episode. r bobross %>% janitor::cleannames() %>% separate(episode, into = c(\"season\", \"episode\"), sep = \"E\") %>% mutate(season = strextract(season, \"[:digit:]+\")) %>% mutateat(vars(season, episode), as.integer)",
+ "hook": "This week's DATA is from 538, and can either be read in directly from this repo or from the 538 R package which was recently updated to include more data from 538! The 538 article can be found here. The stringr::strtotitle() function could help with the variable names. Try dplyr::gather() on the painting elements if you want to go to a tall/tidy format. Be aware there are frame AND painting elements in the columns, dplyr::contains() could be useful here with a \"frame\" argument. This only applies if you wanted to separate the columns into a frame and painting elements column. Otherwise, you could just do a straight gather/pivotlonger with all elements but season, title, episode.",
  "questions": [
   "Each of the columns after episode/title correspond to the binary presence (0 or 1) of that element in the painting."
  ],
@@ -114,5 +114,6 @@
  "provider": {
   "name": "FiveThirtyEight",
   "host": "fivethirtyeight"
- }
+ },
+ "questions_source": "curator"
 }

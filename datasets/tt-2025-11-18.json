@@ -51,5 +51,6 @@
  "provider": {
   "name": "The Complete Sherlock Holmes via {sherlock}",
   "host": "the complete sherlock holmes via {sherlock}"
- }
+ },
+ "questions_source": "curator"
 }

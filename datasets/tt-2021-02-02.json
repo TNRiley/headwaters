@@ -64,5 +64,6 @@
  "provider": {
   "name": "Data.World",
   "host": "data.world"
- }
+ },
+ "questions_source": "curator"
 }

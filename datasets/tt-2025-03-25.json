@@ -50,5 +50,6 @@
  "provider": {
   "name": "Amazon's Annual Reports",
   "host": "ir.aboutamazon.com"
- }
+ },
+ "questions_source": "curator"
 }

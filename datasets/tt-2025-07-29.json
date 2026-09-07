@@ -88,5 +88,6 @@
  "provider": {
   "name": "Netflix Engagement Reports 2023-2025",
   "host": "assets.ctfassets.net"
- }
+ },
+ "questions_source": "curator"
 }

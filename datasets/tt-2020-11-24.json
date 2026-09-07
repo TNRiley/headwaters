@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-11-24",
  "title": "Washington Trails",
- "hook": "The data this week comes from Washington Trails Association courtesy of the TidyX crew, Ellis Hughes and Patrick Ward! A video going through this data can be found on YouTube. Their scraping code can be found on GitHub. tuesdata <- tidytuesdayR::ttload('2020-11-24') tuesdata <- tidytuesdayR::ttload(2020, week = 48) hikedata <- readr::readrds(url(' r library(rvest) library(tidyverse) library(here) library(ggplot2) library(plotly) scrapetrails <- function(startint){ pageurl <- paste0( \" startint ) htmlnodes(\".search-result-item\") %>% hikename <- hike %>% htmlnodes(\".listitem-title\") %>% htmlnodes(\"span\") %>% htmltext() hikelocation <- hike %>% htmlnode(\"h3\") %>% htmltext() hikestats <- hike %>% htmlnode(\".hike-stats\") hikelength <- hikestats %>% htmlnodes(\".hike-length\") %>%htmlnodes(\"span\") %>% htmltext() hikegain <- hikestats %>% htmlnodes(\".hike-gain\") %>%htmlnodes(\"span\") %>%…",
+ "hook": "The data this week comes from Washington Trails Association courtesy of the TidyX crew, Ellis Hughes and Patrick Ward! A video going through this data can be found on YouTube. Their scraping code can be found on GitHub.",
  "questions": [],
  "subjects": [
   "animals & nature",

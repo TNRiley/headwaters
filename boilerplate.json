@@ -1,0 +1,90 @@
+{
+  "learned_from": "datasets/*.json (428 records)",
+  "min_records": 3,
+  "min_chars": 40,
+  "not_boilerplate": {
+    "the data this week comes from the internet movie database": "Real content, not boilerplate: three separate weeks drew on IMDb and said so in the same words. Repetition here is coincidence of subject, not a publisher template."
+  },
+  "boilerplate": {
+    "example the winter months have more banana sales link to data or source don t include this in your alt text but it should be included somewhere in the surrounding text": {
+      "records": 107,
+      "sample": "Example: the winter months have more banana sales ### Link to data or source Don't include this in your alt text, but it should be included somewhere in the surrounding text."
+    },
+    "people should be able to click on a link to view the source data or dig further into the visual": {
+      "records": 107,
+      "sample": "People should be able to click on a link to view the source data or dig further into the visual."
+    },
+    "this provides transparency about your source and lets people explore the data": {
+      "records": 107,
+      "sample": "This provides transparency about your source and lets people explore the data."
+    },
+    "example data from the usda penn state has an article on writing alt text descriptions for charts and tables": {
+      "records": 107,
+      "sample": "Example: Data from the USDA Penn State has an article on writing alt text descriptions for charts and tables."
+    },
+    "charts graphs and maps use visuals to convey complex images to users": {
+      "records": 107,
+      "sample": "Charts, graphs and maps use visuals to convey complex images to users."
+    },
+    "but since they are images these media provide serious accessibility issues to colorblind users and users of screen readers": {
+      "records": 107,
+      "sample": "But since they are images, these media provide serious accessibility issues to colorblind users and users of screen readers."
+    },
+    "see the examples on this page for details on how to make charts more accessible": {
+      "records": 107,
+      "sample": "See the examples on this page for details on how to make charts more accessible."
+    },
+    "the rtweet package includes the ability to post tweets with alt text programatically": {
+      "records": 106,
+      "sample": "The {rtweet} package includes the ability to post tweets with alt text programatically."
+    },
+    "the data this week comes from the internet movie database": {
+      "records": 3,
+      "sample": "The data this week comes from the Internet Movie Database."
+    },
+    "if you do submit a dataset please drop a link and some context as an issue": {
+      "records": 3,
+      "sample": "If you do submit a dataset, please drop a link and some context as an issue."
+    },
+    "please add alt text alternative text to all of your posted graphics for tidytuesday": {
+      "records": 106,
+      "sample": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday."
+    },
+    "twitter provides guidelines for how to add alt text to your images": {
+      "records": 107,
+      "sample": "Twitter provides guidelines for how to add alt text to your images."
+    },
+    "the dataviz society nightingale by way of amy cesal has an article on writing good alt text for plots graphs": {
+      "records": 107,
+      "sample": "The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs."
+    },
+    "here s a simple formula for writing alt text for data visualization chart type it s helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual": {
+      "records": 107,
+      "sample": "Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the res"
+    },
+    "example line graph type of data what data is included in the chart": {
+      "records": 107,
+      "sample": "Example: Line graph ### Type of data What data is included in the chart?"
+    },
+    "the x and y axis labels may help you figure this out": {
+      "records": 107,
+      "sample": "The x and y axis labels may help you figure this out."
+    },
+    "example number of bananas sold per day in the last year reason for including the chart think about why you re including this visual": {
+      "records": 107,
+      "sample": "Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual."
+    },
+    "what does it show that s meaningful there should be a point to every visual and you should tell people what to look for": {
+      "records": 106,
+      "sample": "What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for."
+    },
+    "the data this week comes from our world in data": {
+      "records": 3,
+      "sample": "The data this week comes from Our World in Data."
+    },
+    "need a reminder there are extensions that force you to remember to add alt text to tweets with media": {
+      "records": 107,
+      "sample": "Need a reminder? There are extensions that force you to remember to add Alt Text to Tweets with media."
+    }
+  }
+}

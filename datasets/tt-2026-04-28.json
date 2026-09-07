@@ -88,5 +88,6 @@
  "provider": {
   "name": "DataWeb",
   "host": "dataweb.usitc.gov"
- }
+ },
+ "questions_source": "curator"
 }

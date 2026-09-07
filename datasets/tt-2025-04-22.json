@@ -59,5 +59,6 @@
  "provider": {
   "name": "420 (data-raw)",
   "host": "420 (data-raw)"
- }
+ },
+ "questions_source": "curator"
 }

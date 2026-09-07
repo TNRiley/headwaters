@@ -74,5 +74,6 @@
  "provider": {
   "name": "Glottolog_5.2",
   "host": "glottolog_5.2"
- }
+ },
+ "questions_source": "curator"
 }

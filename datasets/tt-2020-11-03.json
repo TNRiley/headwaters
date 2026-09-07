@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-11-03",
  "title": "Ikea Furniture",
- "hook": "The data this week comes from Kaggle. Original source on IKEA Article about Ikea from FiveThirtyEight tuesdata <- tidytuesdayR::ttload('2020-11-03') tuesdata <- tidytuesdayR::ttload(2020, week = 45)",
+ "hook": "The data this week comes from Kaggle. Original source on IKEA Article about Ikea from FiveThirtyEight",
  "questions": [],
  "subjects": [
   "economy & work"

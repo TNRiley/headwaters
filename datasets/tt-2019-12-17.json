@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-12-17",
  "title": "Adoptable dogs",
- "hook": "This week's data is from The Pudding. The data was cleaned, collected and story written by Amber Thomas, with design by Sacha Maxim. Their article Finding Forever Homes examines data on all adoptable dogs from Petfinder.com in the USA on 2019-09-20. There are a number of datasets, where the dogtravel and dogdescriptions datasets can be joined via the common id column. The premise of the story in Amber's own words: \"If you're looking to add a new furry friend to your family, you may be encouraged to \"adopt not shop\". That is, to find a new dog at a local shelter or rescue organization rather than a pet store or breeder.",
+ "hook": "This week's data is from The Pudding. The data was cleaned, collected and story written by Amber Thomas, with design by Sacha Maxim. Their article Finding Forever Homes examines data on all adoptable dogs from Petfinder.com in the USA on 2019-09-20. There are a number of datasets, where the dogtravel and dogdescriptions datasets can be joined via the common id column. The premise of the story in Amber's own words: \"If you're looking to add a new furry friend to your family, you may be encouraged to \"adopt not shop\". That is, to find a new dog at a local shelter or rescue organization rather than a pet store or breeder. But where do adoptable dogs come from?\" All the code/cleaning can be found on The Pudding Github.",
  "questions": [],
  "subjects": [
   "animals & nature"

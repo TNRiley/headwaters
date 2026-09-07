@@ -64,5 +64,6 @@
  "provider": {
   "name": "Database of British and Irish hills",
   "host": "hills-database.co.uk"
- }
+ },
+ "questions_source": "curator"
 }

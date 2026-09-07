@@ -52,5 +52,6 @@
  "provider": {
   "name": "U.S. Gasoline and Diesel Retail Prices",
   "host": "eia.gov"
- }
+ },
+ "questions_source": "curator"
 }

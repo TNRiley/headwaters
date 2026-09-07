@@ -70,5 +70,6 @@
  "provider": {
   "name": "Post45 Data",
   "host": "post45.org"
- }
+ },
+ "questions_source": "curator"
 }

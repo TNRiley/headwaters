@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-05-21",
  "title": "Global Plastic Waste",
- "hook": "Plastic pollution is a major and growing problem, negatively affecting oceans and wildlife health. Our World in Data has a lot of great data at the various levels including globally, per country, and over time. Additionally, National Geographic is running a dataviz communication contest on plastic waste as seen here. I intentionally left the datasets \"uncleaned\" this week as they are already in good shape minus the column names. I would suggest trying the janitor package, where janitor::cleannames() or purrr::setnames() can come in handy to clean up the names quickly! coastvswaste <- readr::readcsv(\" mismanagedvsgdp <- readr::readcsv(\"",
+ "hook": "Plastic pollution is a major and growing problem, negatively affecting oceans and wildlife health. Our World in Data has a lot of great data at the various levels including globally, per country, and over time. Additionally, National Geographic is running a dataviz communication contest on plastic waste as seen here. I intentionally left the datasets \"uncleaned\" this week as they are already in good shape minus the column names. I would suggest trying the janitor package, where janitor::cleannames() or purrr::setnames() can come in handy to clean up the names quickly!",
  "questions": [],
  "subjects": [
   "environment & climate"

@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-07-02",
  "title": "Media Franchise Revenues",
- "hook": "This data comes from Wikipedia and includes franchises that have grossed at least $4 billion usd. How do different media franchises stack up with their revenue streams? I took a stab at cleaning up the data in R directly from the source - I made some opinionated decisions about how to group categories (there were > 60 distinct categories), if you'd like a deeper dive on data cleaning try working with the data purely from the source. I have included my script in this repo so you can take a peek at how we got here. A popular reddit/dataisbeautiful post examined this data with ggplot2. mediafranchises <- readr::readcsv(\"",
+ "hook": "This data comes from Wikipedia and includes franchises that have grossed at least $4 billion usd. How do different media franchises stack up with their revenue streams? I took a stab at cleaning up the data in R directly from the source - I made some opinionated decisions about how to group categories (there were > 60 distinct categories), if you'd like a deeper dive on data cleaning try working with the data purely from the source. I have included my script in this repo so you can take a peek at how we got here. A popular reddit/dataisbeautiful post examined this data with ggplot2.",
  "questions": [],
  "subjects": [
   "film & television",

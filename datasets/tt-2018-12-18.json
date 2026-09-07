@@ -69,5 +69,6 @@
  "provider": {
   "name": "The Pudding",
   "host": "the pudding"
- }
+ },
+ "questions_source": "curator"
 }

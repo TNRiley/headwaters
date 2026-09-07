@@ -78,5 +78,6 @@
  "provider": {
   "name": "Repair Monitor",
   "host": "dashboard.repairmonitor.org"
- }
+ },
+ "questions_source": "curator"
 }

@@ -87,5 +87,6 @@
  "provider": {
   "name": "Union Membership, Coverage, and Earnings from the CPS",
   "host": "unionstats.com"
- }
+ },
+ "questions_source": "curator"
 }

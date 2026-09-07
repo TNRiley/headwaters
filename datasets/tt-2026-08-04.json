@@ -70,5 +70,6 @@
  "provider": {
   "name": "UN Comtrade Database",
   "host": "comtradeplus.un.org"
- }
+ },
+ "questions_source": "curator"
 }

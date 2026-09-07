@@ -64,5 +64,6 @@
  "provider": {
   "name": "{qatarcars}",
   "host": "profmusgrave.github.io"
- }
+ },
+ "questions_source": "curator"
 }

@@ -96,5 +96,6 @@
  "provider": {
   "name": "Black Past",
   "host": "blackpast.org"
- }
+ },
+ "questions_source": "curator"
 }

@@ -64,5 +64,6 @@
  "provider": {
   "name": "BL Funding Over Time",
   "host": "bl funding over time"
- }
+ },
+ "questions_source": "curator"
 }

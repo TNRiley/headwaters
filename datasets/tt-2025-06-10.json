@@ -83,5 +83,6 @@
  "provider": {
   "name": "Web site of the Federal Judicial Center, via the historydata",
   "host": "web site of the federal judicial center, via the historydata"
- }
+ },
+ "questions_source": "curator"
 }

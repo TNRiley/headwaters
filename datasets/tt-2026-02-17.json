@@ -51,5 +51,6 @@
  "provider": {
   "name": "Figure.NZ",
   "host": "figure.nz"
- }
+ },
+ "questions_source": "curator"
 }

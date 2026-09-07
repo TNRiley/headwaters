@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-06-04",
  "title": "Ramen Ratings",
- "hook": "This week's dataset is a ramen ratings dataset from The Ramen Rater. H/t to Data is Plural. If you want to submit a dataset please do so as an Issue on our GitHub! If you do submit a dataset, please drop a link and some context as an issue. Thanks! ramenratings <- readr::readcsv(\"",
+ "hook": "This week's dataset is a ramen ratings dataset from The Ramen Rater. H/t to Data is Plural. If you want to submit a dataset please do so as an Issue on our GitHub! Thanks!",
  "questions": [],
  "subjects": [
   "food & drink"

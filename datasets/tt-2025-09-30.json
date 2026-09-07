@@ -51,5 +51,6 @@
  "provider": {
   "name": "Transtatistik ('crane statistics'), Naturum, Hornborgasjön, ",
   "host": "hornborga.com"
- }
+ },
+ "questions_source": "curator"
 }

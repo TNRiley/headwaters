@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-10-27",
  "title": "Canadian Wind Turbines",
- "hook": "The data this week comes from the Government of Canada. H/t to Will Noel, Tim Weis and Andrew Leach for collecting the data. Blake Shaffer and Alyssa Goldberg for visualizing and sharing! Canada's National Observer Article on this dataset. tuesdata <- tidytuesdayR::ttload('2020-10-27') tuesdata <- tidytuesdayR::ttload(2020, week = 44) windturbine <- tuesdata$wind-turbine windturbine <- readr::readcsv('",
+ "hook": "The data this week comes from the Government of Canada. H/t to Will Noel, Tim Weis and Andrew Leach for collecting the data. Blake Shaffer and Alyssa Goldberg for visualizing and sharing! Canada's National Observer Article on this dataset.",
  "questions": [],
  "subjects": [
   "government & politics"

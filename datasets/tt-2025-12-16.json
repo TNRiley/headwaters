@@ -64,5 +64,6 @@
  "provider": {
   "name": "roundabouts",
   "host": "roundabouts"
- }
+ },
+ "questions_source": "curator"
 }

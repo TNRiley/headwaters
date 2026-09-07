@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-12-10",
  "title": "Replicating plots in R",
- "hook": "This week's data is a meta collection of data sources and code from Rafael Irizarry - his recent blog post You can replicate almost any plot with R covered a few news articles and how to replicate them in R. I included 4 datasets, but please note that there are many more datasets in his DS Labs package. I'd recommend checking out his blog post for plot examples and metadata. tuesdata <- tidytuesdayR::ttload(\"2019-12-10\") tuesdata <- tidytuesdayR::ttload(2019, week = 50) library(dslabs) library(tidyverse) library(here) murders <- tibble(country = toupper(c(\"US\", \"Italy\", \"Canada\", \"UK\", \"Japan\", \"Germany\", \"France\", \"Russia\")), count = c(3.2, 0.71, 0.5, 0.1, 0, 0.2, 0.1, 0), label = c(as.character(c(3.2, 0.71, 0.5, 0.1, 0, 0.2, 0.1)), \"No Data\"), code = c(\"us\", \"it\", \"ca\", \"gb\", \"jp\", \"de\", \"fr\", \"ru\")) gunmurders <- tibble(country = toupper(c(\"United States\", \"Canada\", \"Portugal\",…",
+ "hook": "This week's data is a meta collection of data sources and code from Rafael Irizarry - his recent blog post You can replicate almost any plot with R covered a few news articles and how to replicate them in R. I included 4 datasets, but please note that there are many more datasets in his DS Labs package. I'd recommend checking out his blog post for plot examples and metadata.",
  "questions": [],
  "subjects": [
   "the r & tidytuesday community"

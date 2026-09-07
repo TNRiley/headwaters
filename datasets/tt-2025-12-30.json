@@ -72,5 +72,6 @@
  "provider": {
   "name": "Project Gutenberg",
   "host": "gutenberg.org"
- }
+ },
+ "questions_source": "curator"
 }

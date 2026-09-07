@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-12-22",
  "title": "Big Mac Index",
- "hook": "The data this week comes from TheEconomist. Their article about this dataset can be found here. This repository contains the data behind The Economist's Big Mac index, and code that shows how we calculate it. To download the data, go to the [latest release][latest release], where you can download the index data in a CSV or Excel, or the [code behind it][notebook link]. [latest release]: [notebook link]: Our source data are from several places. Big Mac prices are from McDonald's directly and from reporting around the world; exchange rates are from Thomson Reuters; GDP and population data used to calculate the euro area averages are from Eurostat and GDP per person data are from the IMF World Economic Outlook reports. tuesdata <- tidytuesdayR::ttload('2020-12-22') tuesdata <- tidytuesdayR::ttload(2020, week = 52)",
+ "hook": "The data this week comes from TheEconomist. Their article about this dataset can be found here. This repository contains the data behind The Economist's Big Mac index, and code that shows how we calculate it. To download the data, go to the [latest release][latest release], where you can download the index data in a CSV or Excel, or the [code behind it][notebook link]. [latest release]: [notebook link]: Our source data are from several places. Big Mac prices are from McDonald's directly and from reporting around the world; exchange rates are from Thomson Reuters; GDP and population data used to calculate the euro area averages are from Eurostat and GDP per person data are from the IMF World Economic Outlook reports.",
  "questions": [],
  "subjects": [
   "economy & work"

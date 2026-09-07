@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-04-28",
  "title": "Broadway Musicals",
- "hook": "Huge thanks to Alex Cookson who provided ALL of this week's data, cleaning script, and readme! Check out his recent blog post on the same data. This data comes from Playbill. Weekly box office grosses comprise data on revenue and attendance figures for theatres that are part of The Broadway League, an industry association for, you guessed it, Broadway theatre. CPI data is from the U.S. Bureau of Labor Statistics. There are many, many measures of CPI, so the one used here is \"All items less food and energy in U.S. city average, all urban consumers, seasonally adjusted\" (table CUSR0000SA0L1E).",
+ "hook": "Huge thanks to Alex Cookson who provided ALL of this week's data, cleaning script, and readme! Check out his recent blog post on the same data. This data comes from Playbill. Weekly box office grosses comprise data on revenue and attendance figures for theatres that are part of The Broadway League, an industry association for, you guessed it, Broadway theatre. CPI data is from the U.S. Bureau of Labor Statistics. There are many, many measures of CPI, so the one used here is \"All items less food and energy in U.S. city average, all urban consumers, seasonally adjusted\" (table CUSR0000SA0L1E). Check out all of the raw data and other details on Alex's GitHub",
  "questions": [],
  "subjects": [
   "economy & work"

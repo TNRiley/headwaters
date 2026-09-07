@@ -92,5 +92,6 @@
  "provider": {
   "name": "Bureau of Meteorology",
   "host": "bom.gov.au"
- }
+ },
+ "questions_source": "curator"
 }

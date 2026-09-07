@@ -56,5 +56,6 @@
  "provider": {
   "name": "FBI Crime Data API",
   "host": "cde.ucr.cjis.gov"
- }
+ },
+ "questions_source": "curator"
 }

@@ -101,5 +101,6 @@
  "provider": {
   "name": "IUCN Red List",
   "host": "iucnredlist.org"
- }
+ },
+ "questions_source": "curator"
 }

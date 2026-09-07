@@ -1,7 +1,7 @@
 {
  "id": "tt-2022-05-31",
  "title": "Company reputation poll",
- "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "hook": "The data this week comes from Axios and Harris Poll. Also see The Harris Poll overview for more details. No poll is perfect, but methodology is included below, and see the links for Axios and Harris Poll or The Harris Poll overview for more details. This survey is the result of a partnership between Axios and Harris Poll to gauge the reputation of the most visible brands in America, based on 20 years of Harris Poll research. From Trader Joe's to Disney, here's how this year's class stacks up. Methodology: The Axios Harris Poll 100 is based on a survey of 33,096 Americans in a nationally representative sample conducted March 11-April 3, 2022. The two-step process starts fresh each year by surveying the public's top-of-mind awareness of companies that either excel or falter in society.",
  "questions": [
   "All ranks in this for current year only"
  ],
@@ -65,5 +65,6 @@
  "provider": {
   "name": "Axios and Harris Poll",
   "host": "axios.com"
- }
+ },
+ "questions_source": "curator"
 }

@@ -85,5 +85,6 @@
  "provider": {
   "name": "WHO Global Health Expenditure Database (GHED)",
   "host": "apps.who.int"
- }
+ },
+ "questions_source": "curator"
 }

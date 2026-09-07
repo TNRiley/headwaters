@@ -74,5 +74,6 @@
  "provider": {
   "name": "BeachwatchNSW",
   "host": "beachwatch.nsw.gov.au"
- }
+ },
+ "questions_source": "curator"
 }

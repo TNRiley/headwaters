@@ -59,5 +59,6 @@
  "provider": {
   "name": "Gentry et al.",
   "host": "onlinelibrary.wiley.com"
- }
+ },
+ "questions_source": "curator"
 }

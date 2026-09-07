@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-10-20",
  "title": "Great American Beer Festival Data",
- "hook": "The data this week comes from Great American Beer Festival. The Professional Judge Panel awards gold, silver or bronze medals that are recognized around the world as symbols of brewing excellence. These awards are among the most coveted in the industry and heralded by the winning brewers in their national advertising. Five different three-hour judging sessions take place over the three-day period during the week of the festival. Judges are assigned beers to evaluate in their specific area of expertise and never judge their own product or any product in which they have a concern. 2018 GABF Medal Winner Analysis 2019 GABF Medal Winner Analysis NOTE - There are a few missing data points unfortunately tuesdata <- tidytuesdayR::ttload('2020-10-20') tuesdata <- tidytuesdayR::ttload(2020, week = 43) beerawards <- tuesdata$beerawards No cleaning script listed today.",
+ "hook": "The data this week comes from Great American Beer Festival. The Professional Judge Panel awards gold, silver or bronze medals that are recognized around the world as symbols of brewing excellence. These awards are among the most coveted in the industry and heralded by the winning brewers in their national advertising. Five different three-hour judging sessions take place over the three-day period during the week of the festival. Judges are assigned beers to evaluate in their specific area of expertise and never judge their own product or any product in which they have a concern. 2018 GABF Medal Winner Analysis 2019 GABF Medal Winner Analysis NOTE - There are a few missing data points unfortunately No cleaning script listed today.",
  "questions": [],
  "subjects": [
   "food & drink"

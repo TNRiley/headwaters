@@ -72,5 +72,6 @@
  "provider": {
   "name": "Vera Institute",
   "host": "vera institute"
- }
+ },
+ "questions_source": "curator"
 }

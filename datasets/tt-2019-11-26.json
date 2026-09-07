@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-11-26",
  "title": "Student Loan Debt",
- "hook": "This week's data is from the Department of Education courtesy of Alex Albright. Data idea comes from Dignity and Debt who is running a contest around data viz for understanding and spreading awareness around Student Loan debt. There are already some gorgeous plots in the style of DuBois. I have uploaded the raw data and the clean data - definitely a nice dive into some data cleansing if you want to have a go at the raw Excel files. tuesdata <- tidytuesdayR::ttload(\"2019-11-26\") tuesdata <- tidytuesdayR::ttload(2019, week = 48) r library(tidyverse) library(here) library(readxl) shortfilenames <- list.files(here(\"2019\", \"2019-11-26\")) %>% strremoveall(\".xls|.xlsx\") %>% strremoveall(\"PCAReport|pca-report-\") %>% tolower() %>% strreplace(\"defaultrecoveriespca\", \"fy15q4\") shortfiles <- shortfilenames %>% strdetect(\"loans\") %>% discard(shortfilenames, .) allfiles <- list.files(here(\"2019\",…",
+ "hook": "This week's data is from the Department of Education courtesy of Alex Albright. Data idea comes from Dignity and Debt who is running a contest around data viz for understanding and spreading awareness around Student Loan debt. There are already some gorgeous plots in the style of DuBois. I have uploaded the raw data and the clean data - definitely a nice dive into some data cleansing if you want to have a go at the raw Excel files.",
  "questions": [],
  "subjects": [
   "education",

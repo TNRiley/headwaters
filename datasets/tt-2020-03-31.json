@@ -1,7 +1,7 @@
 {
  "id": "tt-2020-03-31",
  "title": "Beer Production",
- "hook": "The data this week comes from the Alcohol and Tobacco Tax and Trade Bureau (TTB). H/t to Bart Watson for sharing the source of the data. There's a literal treasure trove of data here: Massive shoutout to pdftools by ROpenSci and stringr for doing a lot of heavy lifting with the datacleaning and prep here. brewingmaterials <- readr::readcsv(' beertaxed <- readr::readcsv(' brewersize <- readr::readcsv(' beerstates <- readr::readcsv(' tuesdata <- tidytuesdayR::ttload('2020-03-31') tuesdata <- tidytuesdayR::ttload(2020, week = 14) brewingmaterials <- tuesdata$brewingmaterials Please see download script via downloadbeer.R Please see cleaning scripts via scrapebeers.R",
+ "hook": "The data this week comes from the Alcohol and Tobacco Tax and Trade Bureau (TTB). H/t to Bart Watson for sharing the source of the data. There's a literal treasure trove of data here: Massive shoutout to pdftools by ROpenSci and stringr for doing a lot of heavy lifting with the datacleaning and prep here. Please see download script via downloadbeer.R Please see cleaning scripts via scrapebeers.R",
  "questions": [
   "State-level beer production by year (2008-2019)",
   "Number of brewers by production size by year (2008-2019)",
@@ -98,5 +98,6 @@
  "provider": {
   "name": "TTB",
   "host": "ttb.gov"
- }
+ },
+ "questions_source": "curator"
 }

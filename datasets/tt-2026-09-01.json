@@ -61,5 +61,6 @@
  "provider": {
   "name": "Castlemap, curated from Wikidata",
   "host": "thecastlemap.com"
- }
+ },
+ "questions_source": "curator"
 }

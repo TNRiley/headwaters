@@ -1,7 +1,7 @@
 {
  "id": "tt-2019-05-28",
  "title": "Wine Ratings",
- "hook": "This week's dataset is a wine-enthusiast ratings dataset from Kaggle. H/t to Georgios Karamanis for sharing this week's dataset as an Issue on our GitHub! If you want to submit a dataset, please drop a link and some context as an issue. Thanks! An article with some interesting graphs (different dataset) can be found here. They found some clear relationships, but it also appears that cost is factored into their rating system. How does the Wine Enthusiast ratings scale compare? wineratings <- readr::readcsv(\"",
+ "hook": "This week's dataset is a wine-enthusiast ratings dataset from Kaggle. H/t to Georgios Karamanis for sharing this week's dataset as an Issue on our GitHub! If you want to submit a dataset, please drop a link and some context as an issue. Thanks! An article with some interesting graphs (different dataset) can be found here. They found some clear relationships, but it also appears that cost is factored into their rating system. How does the Wine Enthusiast ratings scale compare?",
  "questions": [],
  "subjects": [
   "food & drink"

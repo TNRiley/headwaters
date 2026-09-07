@@ -54,5 +54,6 @@
  "provider": {
   "name": "bobsburgersR",
   "host": "bobsburgersr"
- }
+ },
+ "questions_source": "curator"
 }

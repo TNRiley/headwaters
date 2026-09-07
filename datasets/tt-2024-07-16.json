@@ -123,5 +123,6 @@
  "provider": {
   "name": "The English Women's Football (EWF) Database, May 2024",
   "host": "the english women's football (ewf) database, may 2024"
- }
+ },
+ "questions_source": "curator"
 }

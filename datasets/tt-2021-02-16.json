@@ -133,5 +133,6 @@
  "provider": {
   "name": "Du Bois Data Challenge",
   "host": "du bois data challenge"
- }
+ },
+ "questions_source": "curator"
 }

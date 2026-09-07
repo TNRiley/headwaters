@@ -64,5 +64,6 @@
  "provider": {
   "name": "pixarfilms",
   "host": "erictleung.com"
- }
+ },
+ "questions_source": "curator"
 }

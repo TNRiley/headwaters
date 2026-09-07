@@ -66,5 +66,6 @@
  "provider": {
   "name": "Our World in Data",
   "host": "ourworldindata.org"
- }
+ },
+ "questions_source": "curator"
 }
