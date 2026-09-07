@@ -1,0 +1,52 @@
+{
+ "id": "tt-2021-05-11",
+ "title": "US Broadband",
+ "hook": "The data this week comes from Microsoft by way of The Verge. If broadband access was a problem before 2020, the pandemic turned it into a crisis. As everyday businesses moved online, city council meetings or court proceedings became near-inaccessible to anyone whose connection couldn't support a Zoom call. Some school districts started providing Wi-Fi hotspots to students without a reliable home connection. In other districts, kids set up in McDonald's parking lots just to get a reliable enough signal to do their homework. After years of slowly widening, the broadband gap became impossible to ignore. Note that to map the areas you will likely need to geocode by zipcode, which can be accomplished with the {zipcodeR} package. The {tigris} can also help with Census shapefiles. zipcodeR is an R package that makes working with ZIP codes in R easier. It provides data on all U.S.",
+ "questions": [],
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Microsoft GitHub",
+   "url": "https://github.com/microsoft/USBroadbandUsagePercentages"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Verge",
+   "url": "https://www.theverge.com/22418074/broadband-gap-america-map-county-microsoft-data"
+  }
+ ],
+ "tables": [
+  {
+   "file": "broadband.csv",
+   "bytes": 106567,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-05-11/broadband.csv",
+   "columns": [
+    "st",
+    "county_id",
+    "county_name",
+    "broadband_availability_per_fcc",
+    "broadband_usage"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-05-11",
+   "year": 2021,
+   "week": 20,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-05-11"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Microsoft GitHub",
+  "host": "microsoft github"
+ }
+}

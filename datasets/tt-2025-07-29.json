@@ -1,0 +1,92 @@
+{
+ "id": "tt-2025-07-29",
+ "title": "What have we been watching on Netflix?",
+ "hook": "This week we are exploring TV show and movie viewing data from Netflix. Since 2023, Netflix has released regular Engagement Reports summarising the number of hours that users have spent watching each show and movie in the last 6 months. This report, which captures ~99% of all viewing in the first half of 2025, shows that people watched a lot of Netflix — over 95B hours — spanning a wide range of genres and languages. It’s why we continue to invest in a variety of quality titles for various moods and tastes and work hard to make them great. The dataset this week combines viewing data from late 2023 through the first half of 2025.",
+ "questions": [
+  "What is the relation between time since release and current viewing performance? Do older shows have staying power or do newer releases dominate?",
+  "How does the timing of a show's release (month/season) relate to engagement metrics?",
+  "How does the performance of globally available content compare to regionally restricted titles? Do global releases consistently outperform regional ones?",
+  "How do the top movie performers in each reporting period compare? Are the same kinds of movies consistently popular?",
+  "How does viewing change across seasons for shows that appear in multiple Netflix engagement reports? Do later seasons of popular shows maintain, gain, or lose audience engagement compared to their earlier seasons?"
+ ],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Netflix Engagement Reports 2023-2025",
+   "url": "https://assets.ctfassets.net/4cd45et68cgf/inuAnzotdsAEgbInGLzH5/1be323ba419b2af3a96bffa29acc31a3/What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec.xlsx, https://assets.ctfassets.net/4cd45et68cgf/2PoZlfdc46dH2gQvI8eUzI/9db5840720c47acfcf7b89ffe2402860/What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun.xlsx, https://assets.ctfassets.net/4cd45et68cgf/6XSmoEjBjVMPRtYybT9d1E/8c0b0b2645b8712d5597b0bdbe0d64e2/What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec.xlsx, https://assets.ctfassets.net/4cd45et68cgf/mplcXj5ulHDfbCPCr0f0I/5dbb6ec09f03df89706476e380e9b8bd/What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun.xlsx"
+  },
+  {
+   "name": "Netflix Engagement Report 2023b",
+   "url": "https://assets.ctfassets.net/4cd45et68cgf/inuAnzotdsAEgbInGLzH5/1be323ba419b2af3a96bffa29acc31a3/What_We_Watched_A_Netflix_Engagement_Report_2023Jul-Dec.xlsx"
+  },
+  {
+   "name": "Netflix Engagement Report 2024a",
+   "url": "https://assets.ctfassets.net/4cd45et68cgf/2PoZlfdc46dH2gQvI8eUzI/9db5840720c47acfcf7b89ffe2402860/What_We_Watched_A_Netflix_Engagement_Report_2024Jan-Jun.xlsx"
+  },
+  {
+   "name": "Netflix Engagement Report 2024b",
+   "url": "https://assets.ctfassets.net/4cd45et68cgf/6XSmoEjBjVMPRtYybT9d1E/8c0b0b2645b8712d5597b0bdbe0d64e2/What_We_Watched_A_Netflix_Engagement_Report_2024Jul-Dec.xlsx"
+  },
+  {
+   "name": "Netflix Engagement Report 2025a",
+   "url": "https://assets.ctfassets.net/4cd45et68cgf/mplcXj5ulHDfbCPCr0f0I/5dbb6ec09f03df89706476e380e9b8bd/What_We_Watched_A_Netflix_Engagement_Report_2025Jan-Jun.xlsx"
+  }
+ ],
+ "articles": [
+  {
+   "name": "What We Watched the First Half of 2025",
+   "url": "https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2025"
+  }
+ ],
+ "tables": [
+  {
+   "file": "movies.csv",
+   "bytes": 4756400,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-29/movies.csv",
+   "columns": [
+    "source",
+    "report",
+    "title",
+    "available_globally",
+    "release_date",
+    "hours_viewed",
+    "runtime",
+    "views"
+   ]
+  },
+  {
+   "file": "shows.csv",
+   "bytes": 4147129,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-29/shows.csv",
+   "columns": [
+    "source",
+    "report",
+    "title",
+    "available_globally",
+    "release_date",
+    "hours_viewed",
+    "runtime",
+    "views"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-07-29",
+   "year": 2025,
+   "week": 30,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-07-29"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Netflix Engagement Reports 2023-2025",
+  "host": "assets.ctfassets.net"
+ }
+}

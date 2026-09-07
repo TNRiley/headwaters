@@ -1,0 +1,68 @@
+{
+ "id": "tt-2024-08-27",
+ "title": "The Power Rangers Franchise",
+ "hook": "This week's dataset comes from Kaggle's Power Rangers Dataset! In 1993, five ordinary teenagers exploded on the pop-culture scene with the launch of Mighty Morphin Power Rangers. Together they broke down barriers. They defeated evil by demonstrating teamwork, inclusivity, and diversity to people of all ages. Today, this grand tradition continues as new Ranger teams and new generations of fans discover these essential values again. The series, created by Haim Saban, has one of the most popular taglines in history, \"It's Morphin Time!\" The TV series \"Mighty Morphin Power Rangers\" (MMPR) launched on August 28, 1993. Power Rangers quickly became the #1 kids action brand and a global phenomenon. With its current 25th season, \"Power Rangers Super Ninja Steel,\" the show is now the second-longest-running, non-soap-opera, scripted program on American TV (after \"The Simpsons\").",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Power Rangers: Seasons and episodes data",
+   "url": "https://www.kaggle.com/datasets/karetnikovn/power-rangers-dataset/data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "National Power Rangers Day (August 28)",
+   "url": "https://www.nationaldaycalendar.com/national-day/national-power-rangers-day-august-28"
+  }
+ ],
+ "tables": [
+  {
+   "file": "power_rangers_episodes.csv",
+   "bytes": 244124,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-08-27/power_rangers_episodes.csv",
+   "columns": [
+    "season_title",
+    "episode_num",
+    "episode_title",
+    "air_date",
+    "IMDB_rating",
+    "total_votes",
+    "desc"
+   ]
+  },
+  {
+   "file": "power_rangers_seasons.csv",
+   "bytes": 1638,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-08-27/power_rangers_seasons.csv",
+   "columns": [
+    "season_title",
+    "season_num",
+    "number_of_episodes",
+    "air_date_first_ep",
+    "air_date_last_ep",
+    "producer",
+    "IMDB_rating"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-08-27",
+   "year": 2024,
+   "week": 35,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-08-27"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Power Rangers",
+  "host": "power rangers"
+ }
+}

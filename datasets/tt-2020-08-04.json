@@ -1,0 +1,52 @@
+{
+ "id": "tt-2020-08-04",
+ "title": "European Energy",
+ "hook": "The data this week comes from Eurostat. H/t to Karim Douïeb who created a very nice graphic in Observable (D3), based off a Washington post article for US Energy. Their graphic can be found below. Additional data can be found via the OECD. There's also a nice report for 2017 form the EU Power sector. Lots of graphics inside. Thermal power according to Wikipedia: A thermal power station is a power station in which heat energy is converted to electric power. In most, a steam-driven turbine converts heat to mechanical power as an intermediate to electrical power. Water is heated, turns into steam and drives a steam turbine which drives an electrical generator. Clean vs renewable vs fossil fuels by Peninsula Energy. Clean energy is carbon-free energy that creates little to no greenhouse gas emissions.",
+ "questions": [],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "Eurostat Energy",
+   "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php/Electricity_generation_statistics_%E2%80%93_first_results"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Washington Post Energy",
+   "url": "https://www.washingtonpost.com/climate-environment/2020/07/30/biden-calls-100-percent-clean-electricity-by-2035-heres-how-far-we-have-go/?arc404=true&utm_medium=social&utm_source=twitter&utm_campaign=wp_graphics"
+  }
+ ],
+ "tables": [
+  {
+   "file": "energy_types.csv",
+   "bytes": 14285,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-08-04/energy_types.csv",
+   "columns": []
+  },
+  {
+   "file": "country_totals.csv",
+   "bytes": 11086,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-08-04/country_totals.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-08-04",
+   "year": 2020,
+   "week": 32,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-08-04"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Eurostat Energy",
+  "host": "ec.europa.eu"
+ }
+}

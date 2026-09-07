@@ -1,0 +1,58 @@
+{
+ "id": "tt-2024-10-22",
+ "title": "The CIA World Factbook",
+ "hook": "This week we're exploring the CIA World Factbook! The dataset this week comes from the CIA Factbook, Country Comparisons, 2014, via the {openintro} R package, via the {usdatasets} R package, via this post on LinkedIn. The World Factbook provides basic intelligence on the history, people, government, economy, energy, geography, environment, communications, transportation, military, terrorism, and transnational issues for 265 world entities. Which countries have the highest number of internet users per square kilometer? Which countries have the highest percentage of internet users? You might want to join this dataset with past TidyTueday datasets that featured country information!",
+ "questions": [],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "usdatasets R package",
+   "url": "https://cran.r-project.org/package=usdatasets"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The World Factbook",
+   "url": "https://www.cia.gov/the-world-factbook/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "cia_factbook.csv",
+   "bytes": 16939,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-10-22/cia_factbook.csv",
+   "columns": [
+    "country",
+    "area",
+    "birth_rate",
+    "death_rate",
+    "infant_mortality_rate",
+    "internet_users",
+    "life_exp_at_birth",
+    "maternal_mortality_rate",
+    "net_migration_rate",
+    "population",
+    "population_growth_rate"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-10-22",
+   "year": 2024,
+   "week": 43,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-10-22"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usdatasets",
+  "host": "usdatasets"
+ }
+}

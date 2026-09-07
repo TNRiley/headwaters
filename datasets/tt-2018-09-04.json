@@ -1,0 +1,49 @@
+{
+ "id": "tt-2018-09-04",
+ "title": "Fast Food Calories",
+ "hook": "At the request of the website owner - I have removed web-scraping guide.",
+ "questions": [
+  "Data from fastfoodnutrition.com",
+  "Please notice that I really only took entrees - feel free to select ALL food, sides, drinks, desserts, etc."
+ ],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "fastfoodnutrition.org",
+   "url": "https://fastfoodnutrition.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "franchiseopportunities.com",
+   "url": "https://www.franchiseopportunities.com/blog/general-franchise-information/fast-food-calorie-comparison-charts"
+  }
+ ],
+ "tables": [
+  {
+   "file": "fastfood_calories.csv",
+   "bytes": 49629,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-09-04/fastfood_calories.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-09-04",
+   "year": 2018,
+   "week": 23,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-09-04"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fastfoodnutrition.org",
+  "host": "fastfoodnutrition.org"
+ }
+}

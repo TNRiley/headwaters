@@ -1,0 +1,58 @@
+{
+ "id": "tt-2019-05-21",
+ "title": "Global Plastic Waste",
+ "hook": "Plastic pollution is a major and growing problem, negatively affecting oceans and wildlife health. Our World in Data has a lot of great data at the various levels including globally, per country, and over time. Additionally, National Geographic is running a dataviz communication contest on plastic waste as seen here. I intentionally left the datasets \"uncleaned\" this week as they are already in good shape minus the column names. I would suggest trying the janitor package, where janitor::cleannames() or purrr::setnames() can come in handy to clean up the names quickly! coastvswaste <- readr::readcsv(\" mismanagedvsgdp <- readr::readcsv(\"",
+ "questions": [],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Our World In Data",
+   "url": "https://ourworldindata.org/plastic-pollution"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Our World in Data",
+   "url": "https://ourworldindata.org/plastic-pollution"
+  }
+ ],
+ "tables": [
+  {
+   "file": "coastal-population-vs-mismanaged-plastic.csv",
+   "bytes": 572634,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-05-21/coastal-population-vs-mismanaged-plastic.csv",
+   "columns": []
+  },
+  {
+   "file": "per-capita-mismanaged-plastic-waste-vs-gdp-per-capita.csv",
+   "bytes": 734588,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-05-21/per-capita-mismanaged-plastic-waste-vs-gdp-per-capita.csv",
+   "columns": []
+  },
+  {
+   "file": "per-capita-plastic-waste-vs-gdp-per-capita.csv",
+   "bytes": 734600,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-05-21/per-capita-plastic-waste-vs-gdp-per-capita.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-05-21",
+   "year": 2019,
+   "week": 21,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-05-21"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Our World in Data",
+  "host": "ourworldindata.org"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "tt-2024-02-20",
+ "title": "R Consortium ISC Grants",
+ "hook": "The R Consortium Infrastructure Steering Committee (ISC) Grant Program will accept proposals again between March 1 and April 1, 2024 (and then again in the fall). This initiative is a cornerstone of our commitment to bolstering and enhancing the R Ecosystem. We fund projects contributing to the R community’s technical and social infrastructures. Learn more in their blog post announcing this round of grants. The R Consortium ISC has been awarding grants since 2016. This week's data is an exploration of past grant recipients. Are there any keywords that stand out in the titles or summaries of awarded grants? Have the funded amounts changed over time?",
+ "questions": [],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "R Consortium ISC Funded Projects",
+   "url": "https://www.r-consortium.org/all-projects/awarded-projects"
+  }
+ ],
+ "articles": [
+  {
+   "name": "R Consortium ISC Call for Proposals 2024",
+   "url": "https://www.r-consortium.org/blog/2024/02/08/r-consortium-infrastructure-steering-committee-isc-grant-program-accepting-proposals-starting-march-1st"
+  }
+ ],
+ "tables": [
+  {
+   "file": "isc_grants.csv",
+   "bytes": 73334,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-02-20/isc_grants.csv",
+   "columns": [
+    "year",
+    "group",
+    "title",
+    "funded",
+    "proposed_by",
+    "summary",
+    "website"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-02-20",
+   "year": 2024,
+   "week": 8,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-02-20"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "R Consortium ISC Funded Projects",
+  "host": "r-consortium.org"
+ }
+}

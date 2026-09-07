@@ -1,0 +1,91 @@
+{
+ "id": "tt-2026-05-05",
+ "title": "Italian industrial production",
+ "hook": "ISTAT (Istituto nazionale di statistica / Italian National Institute of Statistics) is the primary source of official statistics in Italy. They publish long-running time series data on industrial production of food and beverages, transport equipment, and textiles covering over 100 years. Information on the volumes of some industrial products has been also collected over time by public and private Institutions and published by Istat in the previous Sommari di statistiche storiche (Historical statistics summaries), for the period between 1861 to 1985.",
+ "questions": [
+  "Which industries have increased production, and which have decreased?",
+  "How has the average weight per ship changed over time?"
+ ],
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "Industrial production volume",
+   "url": "https://seriestoriche.istat.it/index.php?id=1&no_cache=1&L=1&tx_usercento_centofe%5Bcategoria%5D=44&tx_usercento_centofe%5Baction%5D=show&tx_usercento_centofe%5Bcontroller%5D=Categoria&cHash=8a65478a9f8d5ddd079041fd1d696b05"
+  }
+ ],
+ "articles": [
+  {
+   "name": "History of Italian Industrial Data",
+   "url": "https://seriestoriche.istat.it/fileadmin/documenti/14_History_Industry.pdf"
+  }
+ ],
+ "tables": [
+  {
+   "file": "food_beverages.csv",
+   "bytes": 5684,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/food_beverages.csv",
+   "columns": [
+    "Year",
+    "Sugar",
+    "Glucose",
+    "Coffee_substitute",
+    "Seed_oil",
+    "Ethyl_alcohol_1",
+    "Ethyl_alcohol_2",
+    "Beer"
+   ]
+  },
+  {
+   "file": "textiles.csv",
+   "bytes": 5869,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/textiles.csv",
+   "columns": [
+    "Year",
+    "Cotton_yarn",
+    "Flock_yarn",
+    "Other_yarn",
+    "Total_yarn",
+    "Cotton_textiles",
+    "Flock_textiles",
+    "Other_textiles",
+    "Total_textiles",
+    "Raw_silk"
+   ]
+  },
+  {
+   "file": "transport.csv",
+   "bytes": 4926,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-05/transport.csv",
+   "columns": [
+    "Year",
+    "Ships_launched",
+    "Ships_weight",
+    "Steam_and_electric_engine",
+    "Rail_cars_and_electric_locomotives",
+    "Carriages_and_trailers",
+    "Mail_luggage_vans_and_carriages",
+    "Passenger_cars",
+    "Other"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-05-05",
+   "year": 2026,
+   "week": 18,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-05-05"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Industrial production volume",
+  "host": "seriestoriche.istat.it"
+ }
+}

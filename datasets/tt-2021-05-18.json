@@ -1,0 +1,65 @@
+{
+ "id": "tt-2021-05-18",
+ "title": "Ask a Manager Salary Survey",
+ "hook": "Please note that the image above belongs to the Ask a Manager blog/Alison Green. The data this week comes from the Ask a Manager Survey. H/t to Kaija Gahm for sharing it as an issue! The salary survey a few weeks ago got a huge response — 24,000+ people shared their salaries and other info, which is a lot of raw data to sift through. Reader Elisabeth Engl kindly took the raw data and analyzed some of the trends in it and here's what she found. (She asked me to note that she did this as a fun project to share some insights from the survey, rather than as a paid engagement.) This data does not reflect the general population; it reflects Ask a Manager readers who self-selected to respond, which is a very different group (as you can see just from the demographic breakdown below, which is very white and very female).",
+ "questions": [],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Ask a Manager",
+   "url": "https://docs.google.com/spreadsheets/d/1IPS5dBSGtwYVbjsfbaMCYIWnOuRmJcbequohNxCyGVw/edit?resourcekey#gid=1625408792"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Ask a Manager",
+   "url": "https://www.askamanager.org/2021/05/some-findings-from-24000-peoples-salaries.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "survey.csv",
+   "bytes": 5147731,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-05-18/survey.csv",
+   "columns": [
+    "timestamp",
+    "how_old_are_you",
+    "industry",
+    "job_title",
+    "additional_context_on_job_title",
+    "annual_salary",
+    "other_monetary_comp",
+    "currency",
+    "currency_other",
+    "additional_context_on_income",
+    "country",
+    "state",
+    "city",
+    "overall_years_of_professional_experience",
+    "years_of_experience_in_field",
+    "highest_level_of_education_completed",
+    "gender",
+    "race"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-05-18",
+   "year": 2021,
+   "week": 21,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-05-18"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Ask a Manager",
+  "host": "ask a manager"
+ }
+}

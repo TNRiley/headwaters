@@ -1,0 +1,60 @@
+{
+ "id": "tt-2021-05-04",
+ "title": "Water Access Points",
+ "hook": "The data this week comes from Water Point Data Exchange. Note that the data is limited to some core columns as the full dataset is ~300 Mb. Also data is largely filtered down to African sources. Katy Sill and Adam Kariv are speaking about this data source at csv,conf. The amount of water point data being collected is growing rapidly as governments and development partners increasingly monitor water points over time. Without harmonization among these different data sources, the opportunity for learning will be limited, with the true potential of this information remaining untapped. By establishing a platform for sharing water point data throughout the global water sector, WPDx adds value to the data already being collected. By bringing together diverse data sets, the water sector can establish an unprecedented understanding of water services.",
+ "questions": [],
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "WPDX",
+   "url": "https://www.waterpointdata.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "WPDX",
+   "url": "https://www.waterpointdata.org/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "water.csv",
+   "bytes": 58016911,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-05-04/water.csv",
+   "columns": [
+    "row_id",
+    "lat_deg",
+    "lon_deg",
+    "report_date",
+    "status_id",
+    "water_source_clean",
+    "water_tech",
+    "facility_type",
+    "country_name",
+    "install_year",
+    "installer",
+    "pay",
+    "status"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-05-04",
+   "year": 2021,
+   "week": 19,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-05-04"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "WPDX",
+  "host": "waterpointdata.org"
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "id": "tt-2020-09-29",
+ "title": "Beyonce & Taylor Swift Lyrics",
+ "hook": "The data this week comes from Rosie Baillie and Dr. Sara Stoudt. Beyoncé's top 100 - Billboard. Taylor Swift's top 100 - Billboard. Rosie put together a wonderful analysis of Taylor Swift lyrics! Can you do some similar work with Beyoncé's work? Text analysis guides in tidytext or Supervised Machine Learning for Text Analysis in R. tuesdata <- tidytuesdayR::ttload('2020-09-29') tuesdata <- tidytuesdayR::ttload(2020, week = 40) beyoncelyrics <- tuesdata$beyoncelyrics beyoncelyrics <- readr::readcsv(' taylorswiftlyrics <- readr::readcsv(' sales <- readr::readcsv(' charts <- readr::readcsv(' r library(tidyverse) library(rvest) rawtshtml <- tsurl %>% readhtml() tsraw <- rawtshtml %>% htmlnode(\"#mw-content-text > div.mw-parser-output > table:nth-child(10)\") %>% htmltable(fill = TRUE) %>% data.frame() %>% janitor::cleannames() %>% tibble() %>% slice(-1, -nrow(.)) %>% mutate(albumdetails =…",
+ "questions": [],
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Rosie Baillie",
+   "url": "https://twitter.com/Rosie_Baillie_"
+  },
+  {
+   "name": "Dr. Sara Stoudt",
+   "url": "https://twitter.com/sastoudt"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Taylor Swift lyrics",
+   "url": "https://rpubs.com/RosieB/taylorswiftlyricanalysis"
+  }
+ ],
+ "tables": [
+  {
+   "file": "beyonce_lyrics.csv",
+   "bytes": 2126245,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-09-29/beyonce_lyrics.csv",
+   "columns": [
+    "line",
+    "song_id",
+    "song_name",
+    "artist_id",
+    "artist_name",
+    "song_line"
+   ]
+  },
+  {
+   "file": "taylor_swift_lyrics.csv",
+   "bytes": 243632,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-09-29/taylor_swift_lyrics.csv",
+   "columns": [
+    "Artist",
+    "Album",
+    "Title",
+    "Lyrics"
+   ]
+  },
+  {
+   "file": "sales.csv",
+   "bytes": 5961,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-09-29/sales.csv",
+   "columns": [
+    "artist",
+    "title",
+    "country",
+    "sales",
+    "released",
+    "re_release",
+    "label",
+    "formats"
+   ]
+  },
+  {
+   "file": "charts.csv",
+   "bytes": 16444,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-09-29/charts.csv",
+   "columns": [
+    "artist",
+    "title",
+    "released",
+    "re_release",
+    "label",
+    "formats",
+    "chart",
+    "chart_position"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-09-29",
+   "year": 2020,
+   "week": 40,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-09-29"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Rosie Baillie",
+  "host": "rosie baillie"
+ }
+}

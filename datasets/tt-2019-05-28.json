@@ -1,0 +1,58 @@
+{
+ "id": "tt-2019-05-28",
+ "title": "Wine Ratings",
+ "hook": "This week's dataset is a wine-enthusiast ratings dataset from Kaggle. H/t to Georgios Karamanis for sharing this week's dataset as an Issue on our GitHub! If you want to submit a dataset, please drop a link and some context as an issue. Thanks! An article with some interesting graphs (different dataset) can be found here. They found some clear relationships, but it also appears that cost is factored into their rating system. How does the Wine Enthusiast ratings scale compare? wineratings <- readr::readcsv(\"",
+ "questions": [],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Kaggle",
+   "url": "https://www.kaggle.com/zynicide/wine-reviews"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Vivino",
+   "url": "https://www.vivino.com/wine-news/how-much-does-a-good-bottle-of-wine-cost"
+  }
+ ],
+ "tables": [
+  {
+   "file": "winemag-data-130k-v2.csv",
+   "bytes": 52908706,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-05-28/winemag-data-130k-v2.csv",
+   "columns": [
+    "country",
+    "description",
+    "designation",
+    "points",
+    "price",
+    "province",
+    "region_1",
+    "taster_name",
+    "title",
+    "variety",
+    "winery"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-05-28",
+   "year": 2019,
+   "week": 22,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-05-28"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Kaggle",
+  "host": "kaggle"
+ }
+}

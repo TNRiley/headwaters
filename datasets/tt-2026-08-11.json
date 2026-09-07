@@ -1,0 +1,87 @@
+{
+ "id": "tt-2026-08-11",
+ "title": "the Palomar Spectroscopic Survey of Nearby Galaxies",
+ "hook": "This week we're exploring spectroscopic observations of 486 nearby galaxies from the Palomar Spectroscopic Survey. In the 1990s, astronomers used the 200-inch Hale Telescope at Palomar Observatory — once the world's largest — to split the light from the centers of nearly 500 nearby galaxies into a rainbow of wavelengths. By measuring the strength of specific emission lines in those spectra, they classified each galaxy's nucleus as powered by young stars, by an active galactic nucleus (AGN), or by some combination of both. The dataset comes from a landmark series of papers by Ho, Filippenko & Sargent that quantified the demographics of nuclear activity in the local universe. Their key finding: roughly 43% of nearby galaxies show spectroscopic signatures of AGN activity, making \"active\" nuclei far more common than previously recognized.",
+ "questions": [
+  "What types of nuclear activity are most common, and how does that vary with galaxy morphology (spirals vs. ellipticals)?",
+  "Can you recreate the classic BPT diagnostic diagram using the emission-line ratios? Where do the different activity types fall?",
+  "Is there a relationship between a galaxy's velocity dispersion (a proxy for central mass) and the type of nuclear activity it hosts?",
+  "Which galaxy morphological types are most likely to host Seyfert nuclei vs. LINERs?"
+ ],
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "VizieR Astronomical Catalogs (Ho, Filippenko & Sargent 1995, 1997, 2009)",
+   "url": "https://vizier.cds.unistra.fr/viz-bin/VizieR-2?-source=J/ApJS/112/315"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Demographics of Nuclear Activity in Nearby Galaxies",
+   "url": "https://arxiv.org/abs/astro-ph/9704108"
+  }
+ ],
+ "tables": [
+  {
+   "file": "palomar_emission_lines.csv",
+   "bytes": 17967,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-08-11/palomar_emission_lines.csv",
+   "columns": [
+    "galaxy_name",
+    "h_gamma",
+    "h_beta",
+    "oiii_5007",
+    "oi_6300",
+    "nii_6583",
+    "sii_6716",
+    "sii_6731"
+   ]
+  },
+  {
+   "file": "palomar_survey.csv",
+   "bytes": 55434,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-08-11/palomar_survey.csv",
+   "columns": [
+    "galaxy_name",
+    "hubble_type",
+    "b_magnitude",
+    "helio_velocity_km_s",
+    "ra_j2000",
+    "dec_j2000",
+    "ha_hb_ratio",
+    "internal_reddening_ebv",
+    "sii_density_ratio",
+    "electron_density_cm3",
+    "log_oiii_hb",
+    "log_oi_ha",
+    "log_nii_ha",
+    "log_sii_ha",
+    "spectral_class",
+    "activity_type",
+    "activity_subtype",
+    "classification_confidence",
+    "velocity_dispersion_km_s",
+    "velocity_dispersion_error"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-08-11",
+   "year": 2026,
+   "week": 32,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-08-11"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "VizieR Astronomical Catalogs (Ho, Filippenko & Sargent 1995,",
+  "host": "vizier.cds.unistra.fr"
+ }
+}

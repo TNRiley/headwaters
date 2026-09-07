@@ -1,0 +1,70 @@
+{
+ "id": "tt-2025-11-11",
+ "title": "WHO TB Burden Data: Incidence, Mortality, and Population",
+ "hook": "This week, we explore global tuberculosis (TB) burden estimates from the World Health Organization, using data curated via the getTBinR R package by Sam Abbott. The dataset includes country-level indicators such as TB incidence, mortality, case detection rates, and population estimates across multiple years. These metrics help researchers, public health professionals, and learners understand the scale and distribution of TB worldwide. Tuberculosis remains one of the world’s deadliest infectious diseases. WHO estimates that 10.6 million people fell ill with TB in 2021, and 1.6 million died from the disease. Monitoring TB burden is essential to guide national responses and global strategies. (Note: We removed the original dataset that was slated to run this week after being informed about the history of that dataset.",
+ "questions": [
+  "Are there any years where global TB metrics show unusual spikes or drops?",
+  "How does TB mortality differ between HIV-positive and HIV-negative populations?",
+  "Which regions show consistent high TB burden across multiple years?"
+ ],
+ "subjects": [
+  "health & medicine",
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "getTBinR package",
+   "url": "https://github.com/seabbs/getTBinR/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "getTBinR: Access and Summarise World Health Organization Tuberculosis Data",
+   "url": "https://samabbott.co.uk/getTBinR/index.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "who_tb_data.csv",
+   "bytes": 450408,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-11/who_tb_data.csv",
+   "columns": [
+    "country",
+    "g_whoregion",
+    "iso_numeric",
+    "iso2",
+    "iso3",
+    "year",
+    "c_cdr",
+    "c_newinc_100k",
+    "cfr",
+    "e_inc_100k",
+    "e_inc_num",
+    "e_mort_100k",
+    "e_mort_exc_tbhiv_100k",
+    "e_mort_exc_tbhiv_num",
+    "e_mort_num",
+    "e_mort_tbhiv_100k",
+    "e_mort_tbhiv_num",
+    "e_pop_num"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-11-11",
+   "year": 2025,
+   "week": 45,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-11-11"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "getTBinR",
+  "host": "gettbinr"
+ }
+}

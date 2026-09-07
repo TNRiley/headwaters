@@ -1,0 +1,88 @@
+{
+ "id": "tt-2022-04-05",
+ "title": "Digital Publications",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "technology & software",
+  "books & language"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Project Oasis",
+   "url": "https://www.projectnewsoasis.com/publications"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Project Oasis Report",
+   "url": "https://www.projectnewsoasis.com/sites/default/files/2022-02/project-oasis-report-2021-1.pdf"
+  }
+ ],
+ "tables": [
+  {
+   "file": "news_orgs.csv",
+   "bytes": 521559,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-04-05/news_orgs.csv",
+   "columns": [
+    "publication_name",
+    "parent_publication",
+    "url",
+    "owner",
+    "is_owner_founder",
+    "city",
+    "state",
+    "country",
+    "primary_language",
+    "primary_language_other",
+    "tax_status_founded",
+    "tax_status_current",
+    "year_founded",
+    "total_employees",
+    "budget_percent_editorial",
+    "budget_percent_revenue_generation",
+    "budget_percent_product_technology",
+    "budget_percent_administration",
+    "products",
+    "products_other",
+    "distribution",
+    "distribution_method_other",
+    "geographic_area",
+    "core_editorial_strategy_characteristics",
+    "core_editorial_strategy_characteristics_other",
+    "coverage_topics",
+    "coverage_topics_other",
+    "underrepresented_communities",
+    "underrepresented_communities_not_listed",
+    "revenue_streams",
+    "revenue_stream_other",
+    "revenue_stream_additional_info",
+    "revenue_stream_largest",
+    "revenue_streams_largest_other",
+    "paywall_or_gateway",
+    "paywall_or_gateway_other",
+    "advertising_products",
+    "advertising_product_other",
+    "real_world_impacts",
+    "summary"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2022-04-05",
+   "year": 2022,
+   "week": 14,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-04-05"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Project Oasis",
+  "host": "projectnewsoasis.com"
+ }
+}

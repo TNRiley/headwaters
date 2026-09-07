@@ -1,0 +1,57 @@
+{
+ "id": "tt-2019-07-30",
+ "title": "Video Games",
+ "hook": "This week's data comes courtesy of Liza Wood via Steam Spy. She recently published a blog post on her data analysis of this video game data. She was kind enough to provide a fairly clean dataset, and I have done some small additional clean up seen below. There is time played, ownership, release date, publishing information, and for some a metascore! Lots of ways to slice and dice this data! Please be advised that the average and median playtime is over the last two weeks, as such there are many many games where playtime is low or zero.",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Steam Spy",
+   "url": "https://steamspy.com/year/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Liza Wood",
+   "url": "https://cruiseofdimensionality.home.blog/2019/07/24/pc-video-games-we-still-play/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "video_games.csv",
+   "bytes": 2694338,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-07-30/video_games.csv",
+   "columns": [
+    "number",
+    "game",
+    "release_date",
+    "price",
+    "owners",
+    "developer",
+    "publisher",
+    "average_playtime",
+    "median_playtime",
+    "metascore"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-07-30",
+   "year": 2019,
+   "week": 31,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-07-30"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Steam Spy",
+  "host": "steamspy.com"
+ }
+}

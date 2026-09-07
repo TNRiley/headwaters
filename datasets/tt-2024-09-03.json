@@ -1,0 +1,94 @@
+{
+ "id": "tt-2024-09-03",
+ "title": "Stack Overflow Annual Developer Survey 2024",
+ "hook": "This week's dataset is derived from the 2024 Stack Overflow Annual Developer Survey. Conducted in May 2024, the survey gathered responses from over 65,000 developers across seven key sections: 1. Basic information 2. Education, work, and career 3. Tech and tech culture 4. Stack Overflow community 5. Artificial Intelligence (AI) 6. Professional Developer Series - Not part of the main survey 7. Thoughts on Survey The dataset provided for this analysis focuses exclusively on the single-response questions from the main survey sections. Each categorical response in the survey has been integer-coded, with corresponding labels available in the crosswalk file. What can you see about developer demographics? How do developers engage with Stack Overflow? What do they think about AI?",
+ "questions": [],
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Stack Overflow Annual Developer Survey 2024",
+   "url": "https://survey.stackoverflow.co/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Stack Overflow Annual Developer Survey Results",
+   "url": "https://survey.stackoverflow.co/2024/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "qname_levels_single_response_crosswalk.csv",
+   "bytes": 4527,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-09-03/qname_levels_single_response_crosswalk.csv",
+   "columns": [
+    "qname",
+    "level",
+    "label"
+   ]
+  },
+  {
+   "file": "stackoverflow_survey_questions.csv",
+   "bytes": 2642,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-09-03/stackoverflow_survey_questions.csv",
+   "columns": [
+    "qname",
+    "question"
+   ]
+  },
+  {
+   "file": "stackoverflow_survey_single_response.csv",
+   "bytes": 6226390,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-09-03/stackoverflow_survey_single_response.csv",
+   "columns": [
+    "response_id",
+    "main_branch",
+    "age",
+    "remote_work",
+    "ed_level",
+    "years_code",
+    "years_code_pro",
+    "dev_type",
+    "org_size",
+    "purchase_influence",
+    "buildvs_buy",
+    "country",
+    "currency",
+    "comp_total",
+    "so_visit_freq",
+    "so_account",
+    "so_part_freq",
+    "so_comm",
+    "ai_select",
+    "ai_sent",
+    "ai_acc",
+    "ai_complex",
+    "ai_threat",
+    "survey_length",
+    "survey_ease",
+    "converted_comp_yearly",
+    "r_used",
+    "r_want_to_use"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-09-03",
+   "year": 2024,
+   "week": 36,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-09-03"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Stack Overflow Annual Developer Survey 2024",
+  "host": "survey.stackoverflow.co"
+ }
+}

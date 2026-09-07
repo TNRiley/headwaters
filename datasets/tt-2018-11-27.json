@@ -1,0 +1,47 @@
+{
+ "id": "tt-2018-11-27",
+ "title": "Baltimore Bridges",
+ "hook": "Many thanks to Sara Stoudt for submitting this dataset as to our GitHub! If you want to submit a dataset please open an Issue on our GitHub with some details about the dataset and links to relevant material. \"The Baltimore Sun looked at which bridges in the region are listed in \"poor\" condition by the Federal Highway Administration — and in particular, which have been \"poor\" for several years. To be clear, \"poor\" condition doesn't mean a bridge is unsafe — officials and experts emphasize that a bridge found to be structurally unsound would be closed. Still, such bridges can be a nuisance, damaging to cars, particularly tires. And the costs for repairing long-deteriorating bridges increase with every year.\" The raw data for this article and others can be found on GitHub at the Baltimore Sun Data Desk. Article Author: Christine Zhang",
+ "questions": [],
+ "subjects": [
+  "government & politics",
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Federal Highway Administration",
+   "url": "https://www.fhwa.dot.gov/bridge/nbi.cfm"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Baltimore Sun",
+   "url": "https://www.baltimoresun.com/news/maryland/bs-md-bridge-collapse-maryland-20180815-story.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "baltimore_bridges.csv",
+   "bytes": 290424,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-11-27/baltimore_bridges.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-11-27",
+   "year": 2018,
+   "week": 35,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-11-27"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Federal Highway Administration",
+  "host": "fhwa.dot.gov"
+ }
+}

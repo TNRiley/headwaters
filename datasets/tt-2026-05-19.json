@@ -1,0 +1,132 @@
+{
+ "id": "tt-2026-05-19",
+ "title": "State of Crossref metadata by member country",
+ "hook": "Crossref is a central pillar of the global research ecosystem, running open infrastructure to create a lasting and reusable scholarly record that underpins open science. While many of us know Crossref for providing Digital Object Identifiers (DOIs), they also maintain a massive repository of metadata, which is the essential data about research that makes it discoverable, linkable, and reusable. This dataset provides a granular look at how that metadata was populated across the globe from December 2018 to April 2026 (with monthly granularity beginning in January 2025). It is split into two files: By analyzing these files, you can explore themes of global research equity, the adoption of modern publishing standards, and the varying levels of metadata richness across different corners of the world.",
+ "questions": [
+  "Member participation statistics by country: A look at the Crossref members registering DOIs, broken down by region and country, highlighting the geographical diversity of the publishing community.",
+  "Metadata coverage statistics: A look at metadata completion at the level of individual outputs, also broken down by region and country, and also by content type. This details the connectedness of research, including adoption metrics for citations, funding, ORCID IDs, and ROR IDs.",
+  "Which countries or regions show the fastest growth in metadata \"richness\" over time?",
+  "How does the connectedness of research vary across different work types within a single country?",
+  "Which regions are leading the way in adopting the Research Nexus vision?"
+ ],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "State of Crossref metadata by member country",
+   "url": "https://zenodo.org/records/19928426"
+  }
+ ],
+ "articles": [
+  {
+   "name": "2026 public data file now available (Crossref blog)",
+   "url": "https://doi.org/10.64000/7s70g-drz77"
+  }
+ ],
+ "tables": [
+  {
+   "file": "member_participation_stats_by_country.csv",
+   "bytes": 399206,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/member_participation_stats_by_country.csv",
+   "columns": [
+    "current_up_to",
+    "region_id",
+    "iso3_code",
+    "total_members",
+    "deposits_ref",
+    "deposits_abstract",
+    "deposits_license",
+    "deposits_crossmark",
+    "deposits_updates",
+    "deposits_textmining",
+    "deposits_status_info",
+    "acknowledges_funding",
+    "deposits_funder_id",
+    "deposits_grant_id",
+    "deposits_orcid",
+    "deposits_orcid_for_authors",
+    "deposits_orcid_for_chairs",
+    "deposits_orcid_for_editors",
+    "deposits_orcid_for_translators",
+    "deposits_ror_id",
+    "deposits_ror_id_for_affiliations",
+    "deposits_ror_id_for_funders",
+    "deposits_ror_id_for_institutions"
+   ]
+  },
+  {
+   "file": "metadata_coverage_stats_by_country.csv",
+   "bytes": 7379471,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-19/metadata_coverage_stats_by_country.csv",
+   "columns": [
+    "current_up_to",
+    "region_id",
+    "iso3_code",
+    "document_type",
+    "document_subtype",
+    "n_dois",
+    "with_ref",
+    "with_doi_ref",
+    "references",
+    "references_with_dois",
+    "references_with_doi_asserted_by_publisher",
+    "references_with_doi_asserted_by_crossref",
+    "citations_received",
+    "with_abstract",
+    "with_license",
+    "with_crossmark",
+    "with_crossmark_update",
+    "crossmark_updates",
+    "update_assertions",
+    "update_assertions_from_publisher",
+    "update_assertions_from_retraction_watch",
+    "with_textmining",
+    "with_status_info",
+    "acknowledges_funding",
+    "award_number_assertions",
+    "with_grant_id",
+    "grant_id_assertions",
+    "with_funder_id",
+    "funder_id_assertions",
+    "with_orcid",
+    "with_orcid_for_authors",
+    "with_orcid_for_chairs",
+    "with_orcid_for_editors",
+    "with_orcid_for_translators",
+    "orcid_assertions",
+    "orcid_for_authors_assertions",
+    "orcid_for_chairs_assertions",
+    "orcid_for_editors_assertions",
+    "orcid_for_translators_assertions",
+    "with_ror_id",
+    "with_ror_id_for_affiliations",
+    "with_ror_id_for_institutions",
+    "with_ror_id_for_funders",
+    "ror_id_assertions",
+    "ror_id_for_affiliations_assertions",
+    "ror_id_for_institutions_assertions",
+    "ror_id_for_funders_assertions",
+    "preprint_to_article_links",
+    "retractions"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-05-19",
+   "year": 2026,
+   "week": 20,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-05-19"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "State of Crossref metadata by member country",
+  "host": "state of crossref metadata by member country"
+ }
+}

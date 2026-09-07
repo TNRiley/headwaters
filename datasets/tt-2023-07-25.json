@@ -1,0 +1,55 @@
+{
+ "id": "tt-2023-07-25",
+ "title": "Scurvy",
+ "hook": "The data this week comes from the medicaldata R package. This is a data package from Peter Higgins, with 19 medical datasets for teaching Reproducible Medical Research with R. We're using the scurvy dataset. Source: This data set is from a study published in 1757 in A Treatise on the Scurvy in Three Parts, by James Lind. This data set contains 12 participants with scurvy. In 1757, it was not known that scurvy is a manifestation of vitamin C deficiency. A variety of remedies had been anecdotally reported, but Lind was the first to test different regimens of acidic substances (including citrus fruits) against each other in a randomized, controlled trial. 6 distinct therapies were tested in 12 seamen with symptomatic scurvy, who were selected for similar severity. Six days of therapy were provided, and endpoints were reported in the text at the end of 6 days.",
+ "questions": [],
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "r package",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "medicaldata R package",
+   "url": "https://higgi13425.github.io/medicaldata/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Scurvy Dataset Description",
+   "url": "https://htmlpreview.github.io/?https://github.com/higgi13425/medicaldata/blob/master/man/description_docs/scurvy_desc.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "scurvy.csv",
+   "bytes": 1305,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-07-25/scurvy.csv",
+   "columns": [
+    "study_id",
+    "treatment",
+    "dosing_regimen_for_scurvy",
+    "gum_rot_d6",
+    "skin_sores_d6",
+    "weakness_of_the_knees_d6",
+    "lassitude_d6",
+    "fit_for_duty_d6"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-07-25",
+   "year": 2023,
+   "week": 30,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-07-25"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "medicaldata",
+  "host": "higgi13425.github.io"
+ }
+}

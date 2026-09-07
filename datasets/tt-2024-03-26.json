@@ -1,0 +1,89 @@
+{
+ "id": "tt-2024-03-26",
+ "title": "NCAA Men's March Madness",
+ "hook": "March is NCAA basketball March Madness! This week's data is NCAA Men's March Madness data from Nishaan Amin's Kaggle dataset and analysis Bracketology: predicting March Madness. March Madness is the NCAA Division I basketball tournament for women and men. It's a single-elimination tournament of 68 teams that compete in six rounds for the national championship. (The \"March Madness\" branding and logo was only extended to women in 2022.) Each round of the tournament has a name: The data is from 2008 - 2024 for the men's teams. The year 2020 is not included because the tournament was canceled due to Covid. The first column of almost every dataset displays the year the data is from. Nishaan Amin's dataset contains many different sets of data. For TidyTuesday we're using past team results and the predictions the public has for this year's tournament. How have teams done in past years?",
+ "questions": [
+  "First round: Round of 64",
+  "Second round: Round of 32",
+  "Third round: Sweet 16",
+  "Fourth round: Elite 8",
+  "Fifth round: Final 4"
+ ],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Men's March Madness Data",
+   "url": "https://www.kaggle.com/datasets/nishaanamin/march-madness-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Bracketology: predicting March Madness",
+   "url": "https://www.kaggle.com/code/nishaanamin/bracketology-predicting-march-madness"
+  }
+ ],
+ "tables": [
+  {
+   "file": "team-results.csv",
+   "bytes": 16446,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-03-26/team-results.csv",
+   "columns": [
+    "TEAMID",
+    "TEAM",
+    "PAKE",
+    "PAKERANK",
+    "PASE",
+    "PASERANK",
+    "GAMES",
+    "W",
+    "L",
+    "WINPERCENT",
+    "R64",
+    "R32",
+    "S16",
+    "E8",
+    "F4",
+    "F2",
+    "CHAMP",
+    "TOP2",
+    "F4PERCENT",
+    "CHAMPPERCENT"
+   ]
+  },
+  {
+   "file": "public-picks.csv",
+   "bytes": 3756,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-03-26/public-picks.csv",
+   "columns": [
+    "YEAR",
+    "TEAMNO",
+    "TEAM",
+    "R64",
+    "R32",
+    "S16",
+    "E8",
+    "F4",
+    "FINALS"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-03-26",
+   "year": 2024,
+   "week": 13,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-03-26"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Men's March Madness Data",
+  "host": "men's march madness data"
+ }
+}

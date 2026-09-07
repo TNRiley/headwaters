@@ -1,0 +1,69 @@
+{
+ "id": "tt-2025-04-01",
+ "title": "Pokemon",
+ "hook": "This week we are exploring Pokemon! This dataset is sourced from {pokemon} (CRAN | github), an R package which provides Pokemon information in both English and Brazilian Portuguese. This package provides a dataset of Pokemon information in both English and Brazilian Portuguese. The dataset contains 949 rows and 22 columns, including information such as the Pokemon’s name, ID, height, weight, stats, type, and more.",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "pokemon R package",
+   "url": "https://github.com/williamorim/pokemon/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Pokemon Data Visualization and Analysis with R",
+   "url": "https://medium.com/@hanahshih46/pokemon-data-visualization-and-analysis-with-r-60970c8e37f4"
+  }
+ ],
+ "tables": [
+  {
+   "file": "pokemon_df.csv",
+   "bytes": 209280,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-01/pokemon_df.csv",
+   "columns": [
+    "id",
+    "pokemon",
+    "species_id",
+    "height",
+    "weight",
+    "base_experience",
+    "type_1",
+    "type_2",
+    "hp",
+    "attack",
+    "defense",
+    "special_attack",
+    "special_defense",
+    "speed",
+    "color_1",
+    "color_2",
+    "color_f",
+    "egg_group_1",
+    "egg_group_2",
+    "url_icon",
+    "generation_id",
+    "url_image"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-04-01",
+   "year": 2025,
+   "week": 13,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-04-01"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pokemon",
+  "host": "pokemon"
+ }
+}

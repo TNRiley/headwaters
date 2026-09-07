@@ -1,0 +1,137 @@
+{
+ "id": "tt-2021-02-16",
+ "title": "W.E.B. Du Bois Challenge",
+ "hook": "The data this week comes from Anthony Starks, Allen Hillery Sekou Tyler. Note that Anthony Starks has provided many examples and data preparation, including a \"style guide\" and article. All credit goes to Anthony, Allen, and Sekou for the preparation of this week's datasets/challenge. Anthony, Allen, and Sekou have put together a very cool data challenge as part of a longer celebration of \"the data visualization legacy of W.E.B DuBois by recreating the visualizations from the 1900 Paris Exposition using modern tools.\" A quick guide to the \"Dubosian style\" by Anthony Starks. Their original readme and source of data can be found on their GitHub.",
+ "questions": [
+  "challenge01: Comparative Increase of White and Colored Population in Georgia",
+  "challenge02: Conjugal Condition",
+  "challenge03: Occupations of Negroes and Whites in Georgia",
+  "challenge04: Proportion of Freeman and Slaves Among American Negroes",
+  "challenge05: Income and Expenditure of 150 Negro Families in Atlanta, GA, USA"
+ ],
+ "subjects": [
+  "art & culture",
+  "the r & tidytuesday community",
+  "economy & work"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Du Bois Data Challenge",
+   "url": "https://github.com/ajstarks/dubois-data-portraits/tree/master/challenge"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Anthony Starks - Recreating Du Bois's data portraits",
+   "url": "https://medium.com/nightingale/recreating-w-e-b-du-boiss-data-portraits-87dd36096f34"
+  }
+ ],
+ "tables": [
+  {
+   "file": "georgia_pop.csv",
+   "bytes": 140,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/georgia_pop.csv",
+   "columns": [
+    "Year",
+    "Colored",
+    "White"
+   ]
+  },
+  {
+   "file": "census.csv",
+   "bytes": 5908,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/census.csv",
+   "columns": [
+    "region",
+    "division",
+    "year",
+    "total",
+    "white",
+    "black",
+    "black_free",
+    "black_slaves"
+   ]
+  },
+  {
+   "file": "furniture.csv",
+   "bytes": 104,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/furniture.csv",
+   "columns": [
+    "Year",
+    "Houshold Value (Dollars)"
+   ]
+  },
+  {
+   "file": "city_rural.csv",
+   "bytes": 118,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/city_rural.csv",
+   "columns": [
+    "Category",
+    "Population"
+   ]
+  },
+  {
+   "file": "income.csv",
+   "bytes": 271,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/income.csv",
+   "columns": [
+    "Class",
+    "Actual Average",
+    "Rent",
+    "Food",
+    "Clothes",
+    "Tax",
+    "Other"
+   ]
+  },
+  {
+   "file": "freed_slaves.csv",
+   "bytes": 118,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/freed_slaves.csv",
+   "columns": [
+    "Year",
+    "Slave",
+    "Free"
+   ]
+  },
+  {
+   "file": "occupation.csv",
+   "bytes": 438,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/occupation.csv",
+   "columns": [
+    "Group",
+    "Occupation",
+    "Percentage"
+   ]
+  },
+  {
+   "file": "conjugal.csv",
+   "bytes": 220,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-16/conjugal.csv",
+   "columns": [
+    "Population",
+    "Age",
+    "Single",
+    "Married",
+    "Divorced and Widowed"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-02-16",
+   "year": 2021,
+   "week": 8,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-02-16"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Du Bois Data Challenge",
+  "host": "du bois data challenge"
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "id": "tt-2026-04-21",
+ "title": "Global Health Spending",
+ "hook": "This week we're exploring global health spending data. The WHO Global Health Expenditure Database (GHED) provides comparable data on health expenditure for 195 countries and territories since 2000. The data tracks how much countries spend on health care, where the money comes from (government, private, or external sources), how it is channelled through financing schemes (e.g. government programmes, voluntary insurance, out-of-pocket payments), and what it is spent on (e.g. curative care, preventive care, medical goods). How health systems are funded and how resources are allocated directly shapes health outcomes, progress toward universal health coverage, and whether households face financial hardship when accessing care. These indicators are essential to inform health policy decisions.",
+ "questions": [
+  "healthspending — Aggregate health spending and its breakdown by funding source (domestic government, domestic private, and external aid).",
+  "financingschemes — Health spending by financing scheme (e.g. government schemes, voluntary insurance, out-of-pocket payments).",
+  "spendingpurpose — Health spending by health care function (e.g. curative care, preventive care, medical goods).",
+  "Which countries rely most heavily on out-of-pocket payments for health care?",
+  "How has the balance between government, private, and external aid changed over time?"
+ ],
+ "subjects": [
+  "health & medicine",
+  "economy & work"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "WHO Global Health Expenditure Database (GHED)",
+   "url": "https://apps.who.int/nha/database"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Out-of-Pocket Health Burden Remains High",
+   "url": "https://data.one.org/analysis/out-of-pocket-health-burden"
+  }
+ ],
+ "tables": [
+  {
+   "file": "financing_schemes.csv",
+   "bytes": 4058640,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-21/financing_schemes.csv",
+   "columns": [
+    "country_name",
+    "iso3_code",
+    "year",
+    "indicator_code",
+    "financing_scheme",
+    "value",
+    "unit"
+   ]
+  },
+  {
+   "file": "health_spending.csv",
+   "bytes": 3561949,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-21/health_spending.csv",
+   "columns": [
+    "country_name",
+    "iso3_code",
+    "year",
+    "indicator_code",
+    "expenditure_type",
+    "value",
+    "unit"
+   ]
+  },
+  {
+   "file": "spending_purpose.csv",
+   "bytes": 1284394,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-21/spending_purpose.csv",
+   "columns": [
+    "country_name",
+    "iso3_code",
+    "year",
+    "indicator_code",
+    "spending_purpose",
+    "value",
+    "unit"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-04-21",
+   "year": 2026,
+   "week": 16,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-04-21"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "WHO Global Health Expenditure Database (GHED)",
+  "host": "apps.who.int"
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "tt-2023-11-07",
+ "title": "US House Election Results",
+ "hook": "It's election day in the United States! To celebrate, the data this week comes from the MIT Election Data and Science Lab (MEDSL). Hat tip this week to the RStudio GitHub Copilot integration, which suggested the MEDSL. From the MEDSL's report New Report: How We Voted in 2022: The Survey of the Performance of American Elections (SPAE) provides information about how Americans experienced voting in the most recent federal election. The survey has been conducted after federal elections since 2008, and is the only public opinion project in the country that is dedicated explicitly to understanding how voters themselves experience the election process. We're specifically providing data on House elections from 1976-2022. Check out the MEDSL website for additional datasets and tools.",
+ "questions": [],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "MIT Election Data and Science Lab",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IG0UN2"
+  }
+ ],
+ "articles": [
+  {
+   "name": "New Report: How We Voted in 2022",
+   "url": "https://electionlab.mit.edu/articles/new-report-how-we-voted-2022"
+  }
+ ],
+ "tables": [
+  {
+   "file": "house.csv",
+   "bytes": 4015915,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-11-07/house.csv",
+   "columns": [
+    "year",
+    "state",
+    "state_po",
+    "state_fips",
+    "state_cen",
+    "state_ic",
+    "office",
+    "district",
+    "stage",
+    "runoff",
+    "special",
+    "candidate",
+    "party",
+    "writein",
+    "mode",
+    "candidatevotes",
+    "totalvotes",
+    "unofficial",
+    "version",
+    "fusion_ticket"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-11-07",
+   "year": 2023,
+   "week": 45,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-11-07"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "MIT Election Data and Science Lab",
+  "host": "mit election data and science lab"
+ }
+}

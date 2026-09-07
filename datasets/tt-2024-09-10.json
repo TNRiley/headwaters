@@ -1,0 +1,127 @@
+{
+ "id": "tt-2024-09-10",
+ "title": "Economic Diversity and Student Outcomes",
+ "hook": "College students are back on campus in the US, so we're exploring economic diversity and student outcomes! The dataset this week comes from Opportunity Insights via an article and associated interactive visualization from the Upshot at the New York Times. Thank you to Havisha Khurana for suggesting this dataset! A new study, based on millions of anonymous tax records, shows that some colleges are even more economically segregated than previously understood, while others are associated with income mobility. This dataset offers an opportunity to explore the three rules that make a dataset \"tidy\": 1. Each variable is a column; each column is a variable. 2. Each observation is a row; each row is an observation. 3. Each value is a cell; each cell is a single value. How might you pivot this data to make it longer? When might you want to do that? When might you pivot this data to make it wider?",
+ "questions": [],
+ "subjects": [
+  "education",
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Opportunity Insights: College-Level Data for 139 Selective American Colleges",
+   "url": "https://opportunityinsights.org/data/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Economic diversity and student outcomes at the University of Texas at Dallas",
+   "url": "https://www.nytimes.com/interactive/projects/college-mobility/university-of-texas-at-dallas"
+  }
+ ],
+ "tables": [
+  {
+   "file": "college_admissions.csv",
+   "bytes": 1243725,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-09-10/college_admissions.csv",
+   "columns": [
+    "super_opeid",
+    "par_income_bin",
+    "par_income_lab",
+    "attend",
+    "stderr_attend",
+    "attend_level",
+    "attend_sat",
+    "stderr_attend_sat",
+    "attend_level_sat",
+    "rel_apply",
+    "stderr_rel_apply",
+    "rel_attend",
+    "stderr_rel_attend",
+    "rel_att_cond_app",
+    "rel_apply_sat",
+    "stderr_rel_apply_sat",
+    "rel_attend_sat",
+    "stderr_rel_attend_sat",
+    "rel_att_cond_app_sat",
+    "attend_instate",
+    "stderr_attend_instate",
+    "attend_level_instate",
+    "attend_instate_sat",
+    "stderr_attend_instate_sat",
+    "attend_level_instate_sat",
+    "attend_oostate",
+    "stderr_attend_oostate",
+    "attend_level_oostate",
+    "attend_oostate_sat",
+    "stderr_attend_oostate_sat",
+    "attend_level_oostate_sat",
+    "rel_apply_instate",
+    "stderr_rel_apply_instate",
+    "rel_attend_instate",
+    "stderr_rel_attend_instate",
+    "rel_att_cond_app_instate",
+    "rel_apply_oostate",
+    "stderr_rel_apply_oostate",
+    "rel_attend_oostate",
+    "stderr_rel_attend_oostate",
+    "rel_att_cond_app_oostate",
+    "rel_apply_instate_sat",
+    "stderr_rel_apply_instate_sat",
+    "rel_attend_instate_sat",
+    "stderr_rel_attend_instate_sat",
+    "rel_att_cond_app_instate_sat",
+    "rel_apply_oostate_sat",
+    "stderr_rel_apply_oostate_sat",
+    "rel_attend_oostate_sat",
+    "stderr_rel_attend_oostate_sat",
+    "rel_att_cond_app_oostate_sat",
+    "attend_unwgt",
+    "stderr_attend_unwgt",
+    "attend_unwgt_level",
+    "attend_unwgt_instate",
+    "stderr_attend_unwgt_instate",
+    "attend_unwgt_oostate",
+    "stderr_attend_unwgt_oostate",
+    "attend_unwgt_level_instate",
+    "attend_unwgt_level_oostate",
+    "rel_attend_unwgt",
+    "rel_apply_unwgt",
+    "stderr_rel_attend_unwgt",
+    "stderr_rel_apply_unwgt",
+    "rel_att_cond_app_unwgt",
+    "rel_attend_unwgt_instate",
+    "rel_attend_unwgt_oostate",
+    "stderr_rel_attend_unwgt_instate",
+    "stderr_rel_attend_unwgt_oostate",
+    "rel_apply_unwgt_instate",
+    "rel_apply_unwgt_oostate",
+    "stderr_rel_apply_unwgt_instate",
+    "stderr_rel_apply_unwgt_oostate",
+    "rel_att_cond_app_unwgt_instate",
+    "rel_att_cond_app_unwgt_oostate",
+    "public",
+    "flagship",
+    "tier",
+    "test_band_tier"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-09-10",
+   "year": 2024,
+   "week": 37,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-09-10"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Opportunity Insights",
+  "host": "opportunityinsights.org"
+ }
+}

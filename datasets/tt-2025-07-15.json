@@ -1,0 +1,68 @@
+{
+ "id": "tt-2025-07-15",
+ "title": "British Library Funding",
+ "hook": "This week we're looking into British Library funding! Thank you to Andy Jackson for compiling this data (and updating it with more information) and posting it on BlueSky! Also thanks to David Rosenthal's 2017 blog for inspiring Andy's efforts! I often refer back to this 2017 analysis by DSHR, which documents how the inflation-adjusted income of the British Library fell between 1999 and 2016. I referenced it in Invisible Memory Machines, but of course I was missing the data from the last eight years. Perhaps it’s all turned around since then! It hadn't all turned around, and he had to jump through some hoops to compile the data. Thanks for the efforts to preserve the data, Andy! See Andy Jackson's Google Sheet (where we got this dataset) for some sample charts.",
+ "questions": [
+  "What is the most variable source of data?",
+  "What is the most consistent?",
+  "Does that analysis change when adjusted for inflation?"
+ ],
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "BL Funding Over Time",
+   "url": "https://docs.google.com/spreadsheets/d/1uxjiuWYZrALF2mthmiYbUPieu1dEdEwv9GB8dEAizso/edit?gid=0#gid=0"
+  }
+ ],
+ "articles": [
+  {
+   "name": "British Library funding breakdown & trends",
+   "url": "https://anjackson.net/2024/11/29/british-library-funding-breakdown-trends/#income-streams"
+  }
+ ],
+ "tables": [
+  {
+   "file": "bl_funding.csv",
+   "bytes": 5285,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-15/bl_funding.csv",
+   "columns": [
+    "year",
+    "nominal_gbp_millions",
+    "gia_gbp_millions",
+    "voluntary_gbp_millions",
+    "investment_gbp_millions",
+    "services_gbp_millions",
+    "other_gbp_millions",
+    "year_2000_gbp_millions",
+    "inflation_adjustment",
+    "total_y2000_gbp_millions",
+    "percentage_of_y2000_income",
+    "gia_y2000_gbp_millions",
+    "voluntary_y2000_gbp_millions",
+    "investment_y2000_gbp_millions",
+    "services_y2000_gbp_millions",
+    "other_y2000_gbp_millions",
+    "gia_as_percent_of_peak_gia"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-07-15",
+   "year": 2025,
+   "week": 28,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-07-15"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BL Funding Over Time",
+  "host": "bl funding over time"
+ }
+}

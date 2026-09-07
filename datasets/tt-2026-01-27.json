@@ -1,0 +1,85 @@
+{
+ "id": "tt-2026-01-27",
+ "title": "Brazilian Companies",
+ "hook": "This week we’re exploring Brazilian Companies, curated from Brazil’s open CNPJ (Cadastro Nacional da Pessoa Jurídica) records published by the Brazilian Ministry of Finance / Receita Federal on the national open-data portal (dados.gov.br). The CNPJ open data is a large-scale public registry of Brazilian legal entities. For this dataset, the raw company records were cleaned and enriched with lookup tables (legal nature, owner qualification, and company size), then filtered to retain firms above a share-capital threshold so the analysis focuses on meaningful variation in capital stock.",
+ "questions": [
+  "Which legal nature categories concentrate the highest total and average capital stock?",
+  "How does company size relate to capital stock (and how skewed is it)?",
+  "Do specific owner qualification groups dominate high-capital companies?",
+  "What patterns emerge when comparing the top capital-stock tail across categories (legal nature, size, qualification)?"
+ ],
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Open data CNPJ - December 2025",
+   "url": "https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2025-12/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Wikipedia's List of largest Brazilian companies",
+   "url": "https://en.wikipedia.org/wiki/List_of_largest_Brazilian_companies"
+  }
+ ],
+ "tables": [
+  {
+   "file": "companies.csv",
+   "bytes": 20794243,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-01-27/companies.csv",
+   "columns": [
+    "company_id",
+    "company_name",
+    "legal_nature",
+    "owner_qualification",
+    "capital_stock",
+    "company_size"
+   ]
+  },
+  {
+   "file": "legal_nature.csv",
+   "bytes": 3424,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-01-27/legal_nature.csv",
+   "columns": [
+    "id",
+    "legal_nature"
+   ]
+  },
+  {
+   "file": "qualifications.csv",
+   "bytes": 2580,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-01-27/qualifications.csv",
+   "columns": [
+    "id",
+    "owner_qualification"
+   ]
+  },
+  {
+   "file": "size.csv",
+   "bytes": 76,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-01-27/size.csv",
+   "columns": [
+    "id",
+    "company_size"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-01-27",
+   "year": 2026,
+   "week": 4,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-01-27"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Open data CNPJ",
+  "host": "arquivos.receitafederal.gov.br"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "id": "tt-2025-02-04",
+ "title": "Donuts, Data, and D'oh - A Deep Dive into The Simpsons",
+ "hook": "This week, we are going to explore a Simpsons Dataset from Kaggle. Many thanks to Prashant Banerjee for making this dataset available to the public. The Simpsons Dataset is composed of four files that contain the characters, locations, episode details, and script lines for approximately 600 Simpsons episodes. Please note that episodes and script lines have been filtered to only include episodes from 2010 to 2016 in the episodes data to keep file size within GitHub limits! Here is some history on the Simpsons Dataset from the author: Originally, this dataset was scraped by [Todd W. Schneider] for his post The Simpsons by the Data, for which he made the scraper available on GitHub. Kaggle user William Cukierski used the scraper to upload the data set, which has been rehosted here.",
+ "questions": [
+  "Which character has the most spoken lines across all episodes, and how has their dialogue volume changed over the seasons?",
+  "What are the most frequently used locations in the series, and do specific locations correspond to higher IMDb ratings for episodes?",
+  "Is there a relationship between the number of U.S. viewers (in millions) and the IMDb ratings or votes for episodes?",
+  "What are the most commonly used words or phrases in the dialogue across the series, and do they differ by character or location?"
+ ],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "The Simpsons Dataset",
+   "url": "https://www.kaggle.com/datasets/prashant111/the-simpsons-dataset"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Simpsons by the Data",
+   "url": "https://toddwschneider.com/posts/the-simpsons-by-the-data/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "simpsons_characters.csv",
+   "bytes": 227553,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-02-04/simpsons_characters.csv",
+   "columns": [
+    "id",
+    "normalized_name",
+    "gender"
+   ]
+  },
+  {
+   "file": "simpsons_episodes.csv",
+   "bytes": 31392,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-02-04/simpsons_episodes.csv",
+   "columns": [
+    "id",
+    "image_url",
+    "imdb_rating",
+    "imdb_votes",
+    "number_in_season",
+    "number_in_series",
+    "original_air_date",
+    "original_air_year",
+    "production_code",
+    "season",
+    "title",
+    "us_viewers_in_millions",
+    "video_url",
+    "views"
+   ]
+  },
+  {
+   "file": "simpsons_locations.csv",
+   "bytes": 178306,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-02-04/simpsons_locations.csv",
+   "columns": [
+    "id",
+    "normalized_name"
+   ]
+  },
+  {
+   "file": "simpsons_script_lines.csv",
+   "bytes": 7215241,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-02-04/simpsons_script_lines.csv",
+   "columns": [
+    "id",
+    "episode_id",
+    "number",
+    "raw_text",
+    "timestamp_in_ms",
+    "speaking_line",
+    "character_id",
+    "location_id",
+    "raw_character_text",
+    "raw_location_text",
+    "spoken_words",
+    "normalized_text",
+    "word_count"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-02-04",
+   "year": 2025,
+   "week": 5,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-02-04"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The Simpsons",
+  "host": "the simpsons"
+ }
+}

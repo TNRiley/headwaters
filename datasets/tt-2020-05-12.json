@@ -1,0 +1,136 @@
+{
+ "id": "tt-2020-05-12",
+ "title": "Volcano Eruptions",
+ "hook": "The data this week comes from The Smithsonian Institution. Axios put together a lovely plot of volcano eruptions since Krakatoa (after 1883) by elevation and type. For more information about volcanoes check out the below Wikipedia article or specifically about VEI (Volcano Explosivity Index) see the Wikipedia article here. Lastly, Google Earth has an interactive site on \"10,000 Years of Volcanoes\"! A volcano is a rupture in the crust of a planetary-mass object, such as Earth, that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface. Earth's volcanoes occur because its crust is broken into 17 major, rigid tectonic plates that float on a hotter, softer layer in its mantle. Therefore, on Earth, volcanoes are generally found where tectonic plates are diverging or converging, and most are found underwater.",
+ "questions": [],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Smithsonian",
+   "url": "https://www.himalayandatabase.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Axios",
+   "url": "https://www.axios.com/chart-every-volcano-that-erupted-since-krakatoa-467da621-41ba-4efc-99c6-34ff3cb27709.html"
+  },
+  {
+   "name": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Volcano"
+  }
+ ],
+ "tables": [
+  {
+   "file": "volcano.csv",
+   "bytes": 254788,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-12/volcano.csv",
+   "columns": [
+    "volcano_number",
+    "volcano_name",
+    "primary_volcano_type",
+    "last_eruption_year",
+    "country",
+    "region",
+    "subregion",
+    "latitude",
+    "longitude",
+    "elevation",
+    "tectonic_settings",
+    "evidence_category",
+    "major_rock_1",
+    "major_rock_2",
+    "major_rock_3",
+    "major_rock_4",
+    "major_rock_5",
+    "minor_rock_1",
+    "minor_rock_2",
+    "minor_rock_3",
+    "minor_rock_4",
+    "minor_rock_5",
+    "population_within_5_km",
+    "population_within_10_km",
+    "population_within_30_km",
+    "population_within_100_km"
+   ]
+  },
+  {
+   "file": "eruptions.csv",
+   "bytes": 1212609,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-12/eruptions.csv",
+   "columns": [
+    "volcano_number",
+    "volcano_name",
+    "eruption_number",
+    "eruption_category",
+    "area_of_activity",
+    "vei",
+    "start_year",
+    "start_month",
+    "start_day",
+    "evidence_method_dating",
+    "end_year",
+    "end_month",
+    "end_day",
+    "latitude",
+    "longitude"
+   ]
+  },
+  {
+   "file": "events.csv",
+   "bytes": 2646291,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-12/events.csv",
+   "columns": [
+    "volcano_number",
+    "volcano_name",
+    "eruption_number",
+    "eruption_start_year",
+    "event_number",
+    "event_type",
+    "event_remarks",
+    "event_date_year",
+    "event_date_month",
+    "event_date_day"
+   ]
+  },
+  {
+   "file": "tree_rings.csv",
+   "bytes": 33604,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-12/tree_rings.csv",
+   "columns": [
+    "year",
+    "n_tree",
+    "europe_temp_index"
+   ]
+  },
+  {
+   "file": "sulfur.csv",
+   "bytes": 43988,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-12/sulfur.csv",
+   "columns": [
+    "year",
+    "neem",
+    "wdc"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-05-12",
+   "year": 2020,
+   "week": 20,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-05-12"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The Himalayan Database",
+  "host": "himalayandatabase.com"
+ }
+}

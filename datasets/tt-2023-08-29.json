@@ -1,0 +1,70 @@
+{
+ "id": "tt-2023-08-29",
+ "title": "Fair Use",
+ "hook": "The data this week comes from the U.S. Copyright Office Fair Use Index. Fair use is a longstanding and vital aspect of American copyright law. The goal of the Index is to make the principles and application of fair use more accessible and understandable to the public by presenting a searchable database of court opinions, including by category and type of use (e.g., music, internet/digitization, parody). There are two datasets this week for which the rows align, but the values might not precisely line up for a clean join -- a case you often have to deal with in real-world data.",
+ "questions": [],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "U.S. Copyright Office Fair Use Index",
+   "url": "https://www.copyright.gov/fair-use/fair-index.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "U.S. Copyright Office Fair Use Index",
+   "url": "https://www.copyright.gov/fair-use/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "fair_use_cases.csv",
+   "bytes": 44009,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-08-29/fair_use_cases.csv",
+   "columns": [
+    "case",
+    "year",
+    "court",
+    "jurisdiction",
+    "categories",
+    "outcome",
+    "fair_use_found"
+   ]
+  },
+  {
+   "file": "fair_use_findings.csv",
+   "bytes": 622097,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-08-29/fair_use_findings.csv",
+   "columns": [
+    "title",
+    "case_number",
+    "year",
+    "court",
+    "key_facts",
+    "issue",
+    "holding",
+    "tags",
+    "outcome"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-08-29",
+   "year": 2023,
+   "week": 35,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-08-29"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "U.S. Copyright Office Fair Use Index",
+  "host": "copyright.gov"
+ }
+}

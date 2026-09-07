@@ -1,0 +1,73 @@
+{
+ "id": "tt-2018-12-18",
+ "title": "Cetaceans Data",
+ "hook": "Data for this week comes from a The Pudding article. This folder contains all of the data used in The Pudding article Free Willy and Flipper by the Numbers published in July 2017. The below metadata and descriptions were taken directly from the GitHub for The Pudding and were prepared by Amber Thomas.",
+ "questions": [
+  "What is this?: A collection of all data that I could find on whales and dolphins that spent some period of time captive in the US between 1938 and May 7, 2017.",
+  "Source(s): The data used to create this aggregated set came from the US National Marine Mammal Inventory (original data requested on June 15, 2015 via FOIA available here) and from Ceta-Base. Data from Ceta-Base were downloaded May 7, 2017.",
+  "Last Modified: May 7, 2017",
+  "Contact Information: Amber Thomas",
+  "Spatial Applicability: United States"
+ ],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "The Pudding",
+   "url": "https://github.com/the-pudding/data/tree/master/cetaceans"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Pudding",
+   "url": "https://pudding.cool/2017/07/cetaceans/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "allCetaceanData.csv",
+   "bytes": 506808,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-12-18/allCetaceanData.csv",
+   "columns": [
+    "Header",
+    "species",
+    "id",
+    "sex",
+    "accuracy",
+    "birthYear",
+    "acquisition",
+    "originDate",
+    "originLocation",
+    "mother",
+    "father",
+    "transfers",
+    "currently",
+    "region",
+    "status",
+    "statusDate",
+    "COD",
+    "transferDate",
+    "transfer",
+    "entryDate"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-12-18",
+   "year": 2018,
+   "week": 38,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-12-18"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The Pudding",
+  "host": "the pudding"
+ }
+}

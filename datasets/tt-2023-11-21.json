@@ -1,0 +1,53 @@
+{
+ "id": "tt-2023-11-21",
+ "title": "R-Ladies Chapter Events",
+ "hook": "R-Ladies Global is an inspiring story of community, empowerment, and diversity in the field of data science. Founded by Gabriela de Queiroz, R-Ladies began as a grassroots movement with a simple mission: to promote gender diversity in the R programming community and provide a welcoming space for women and gender minorities to learn, collaborate, and excel in data science. R-Ladies Global Website The data this week comes from Federica Gazzelloni's presentation on R-Ladies Chapters: Making talks work for diverse audiences with data from the rladies meetup-archive.",
+ "questions": [],
+ "subjects": [
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "R-Ladies Chapter Events data",
+   "url": "https://github.com/rladies/meetup_archive"
+  }
+ ],
+ "articles": [
+  {
+   "name": "R-Ladies Chapters: Making talks work for diverse audiences",
+   "url": "https://github.com/Fgazzelloni/RLadies-Chapters-Making-Talks-Work-for-Diverse-Audiences/tree/main"
+  }
+ ],
+ "tables": [
+  {
+   "file": "rladies_chapters.csv",
+   "bytes": 435269,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-11-21/rladies_chapters.csv",
+   "columns": [
+    "id",
+    "chapter",
+    "title",
+    "date",
+    "location",
+    "year"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-11-21",
+   "year": 2023,
+   "week": 47,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-11-21"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "R-Ladies Chapter Events data",
+  "host": "r-ladies chapter events data"
+ }
+}

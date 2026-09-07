@@ -1,0 +1,75 @@
+{
+ "id": "tt-2026-03-17",
+ "title": "Salmonid Mortality Data",
+ "hook": "The datasets this week come from the suite of Salmonid mortality datasets published by the Norwegian Veterinary Institute. A total of five datasets are published on the Laksetap Shiny App and API. This data captures the public interest as the Norwegian government goal is to push for lower mortality. Here, two datasets are shared, the monthly mortality data, and the monthly loses data. TidyTuesday users can explore the other datasets if they wish. Data is available from 2020. The Fish Health Report is the Norwegian Veterinary Institute's annual status report on the health and welfare situation for Norwegian farmed fish and is based on official statistics, data from the Norwegian Veterinary Institute and private laboratories.",
+ "questions": [
+  "How does monthly mortality differ across the time period data is available for?",
+  "Which region has lowest mortality?",
+  "What other types of loses may be significant in addition to death of fish?"
+ ],
+ "subjects": [
+  "health & medicine",
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "Norwegian Veterinary Institute",
+   "url": "https://apps.vetinst.no/laksetap/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Launch of the Fish Health Report (in Norwegian)",
+   "url": "https://www.vetinst.no/arrangementer/lansering-av-fiskehelserapporten-2026"
+  }
+ ],
+ "tables": [
+  {
+   "file": "monthly_losses_data.csv",
+   "bytes": 151610,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-03-17/monthly_losses_data.csv",
+   "columns": [
+    "species",
+    "date",
+    "geo_group",
+    "region",
+    "losses",
+    "dead",
+    "discarded",
+    "escaped",
+    "other"
+   ]
+  },
+  {
+   "file": "monthly_mortality_data.csv",
+   "bytes": 87056,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-03-17/monthly_mortality_data.csv",
+   "columns": [
+    "species",
+    "date",
+    "geo_group",
+    "region",
+    "median",
+    "q1",
+    "q3"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-03-17",
+   "year": 2026,
+   "week": 11,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-03-17"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Norwegian Veterinary Institute",
+  "host": "apps.vetinst.no"
+ }
+}

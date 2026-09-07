@@ -1,0 +1,135 @@
+{
+ "id": "tt-2021-10-12",
+ "title": "Global Seafood",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [
+  "Increasing pressures on fish populations mean one-third of global fish stocks are overexploited – this has increased from 10% in the 1970s.",
+  "The world now produces more than 155 million tonnes of seafood each year.",
+  "There are large differences in per capita fish consumption across the world.",
+  "The world now produces more seafood from aquaculture (fish farming) than from wild catch. This has played a key role in alleviating pressure on wild fish populations."
+ ],
+ "subjects": [
+  "animals & nature",
+  "food & drink"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "OurWorldinData.org",
+   "url": "https://ourworldindata.org/seafood-production"
+  }
+ ],
+ "articles": [
+  {
+   "name": "OurWorldinData.org",
+   "url": "https://ourworldindata.org/seafood-production"
+  }
+ ],
+ "tables": [
+  {
+   "file": "aquaculture-farmed-fish-production.csv",
+   "bytes": 321731,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-10-12/aquaculture-farmed-fish-production.csv",
+   "columns": [
+    "Entity",
+    "Code",
+    "Year",
+    "Aquaculture production (metric tons)"
+   ]
+  },
+  {
+   "file": "capture-fisheries-vs-aquaculture.csv",
+   "bytes": 492106,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-10-12/capture-fisheries-vs-aquaculture.csv",
+   "columns": [
+    "Entity",
+    "Code",
+    "Year",
+    "Aquaculture production (metric tons)",
+    "Capture fisheries production (metric tons)"
+   ]
+  },
+  {
+   "file": "capture-fishery-production.csv",
+   "bytes": 414449,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-10-12/capture-fishery-production.csv",
+   "columns": [
+    "Entity",
+    "Code",
+    "Year",
+    "Capture fisheries production (metric tons)"
+   ]
+  },
+  {
+   "file": "fish-and-seafood-consumption-per-capita.csv",
+   "bytes": 272346,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-10-12/fish-and-seafood-consumption-per-capita.csv",
+   "columns": [
+    "Entity",
+    "Code",
+    "Year",
+    "Fish, Seafood- Food supply quantity (kg/capita/yr) (FAO, 2020)"
+   ]
+  },
+  {
+   "file": "fish-stocks-within-sustainable-levels.csv",
+   "bytes": 2479,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-10-12/fish-stocks-within-sustainable-levels.csv",
+   "columns": [
+    "Entity",
+    "Code",
+    "Year",
+    "Share of fish stocks within biologically sustainable levels (FAO, 2020)",
+    "Share of fish stocks that are overexploited"
+   ]
+  },
+  {
+   "file": "global-fishery-catch-by-sector.csv",
+   "bytes": 3882,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-10-12/global-fishery-catch-by-sector.csv",
+   "columns": [
+    "Entity",
+    "Code",
+    "Year",
+    "Artisanal (small-scale commercial)",
+    "Discards",
+    "Industrial (large-scale commercial)",
+    "Recreational",
+    "Subsistence"
+   ]
+  },
+  {
+   "file": "seafood-and-fish-production-thousand-tonnes.csv",
+   "bytes": 513091,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-10-12/seafood-and-fish-production-thousand-tonnes.csv",
+   "columns": [
+    "Entity",
+    "Code",
+    "Year",
+    "Pelagic Fish - 2763 - Production - 5510 - tonnes",
+    "Crustaceans - 2765 - Production - 5510 - tonnes",
+    "Cephalopods - 2766 - Production - 5510 - tonnes",
+    "Demersal Fish - 2762 - Production - 5510 - tonnes",
+    "Freshwater Fish - 2761 - Production - 5510 - tonnes",
+    "Molluscs, Other - 2767 - Production - 5510 - tonnes",
+    "Marine Fish, Other - 2764 - Production - 5510 - tonnes"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-10-12",
+   "year": 2021,
+   "week": 42,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-10-12"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Our World in Data",
+  "host": "ourworldindata.org"
+ }
+}

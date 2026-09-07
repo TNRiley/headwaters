@@ -1,0 +1,80 @@
+{
+ "id": "tt-2021-04-13",
+ "title": "US Post Offices",
+ "hook": "The data this week comes from Cameron Blevins and Richard W. Helbock. Their website has more details: Please Cite them when using this data: \"Blevins, Cameron; Helbock, Richard W., 2021, \"US Post Offices\", Harvard Dataverse, V1, UNF:6:8ROmiI5/4qA8jHrt62PpyA== [fileUNF]\" US Post Offices is a spatial-historical dataset containing records for 166,140 post offices that operated in the United States between 1639 and 2000. The dataset provides a year-by-year snapshot of the national postal system over multiple centuries, making it one of the most fine-grained and expansive datasets currently available for studying the historical geography of the United States tuesdata <- tidytuesdayR::ttload('2021-04-13') tuesdata <- tidytuesdayR::ttload(2021, week = 16) postoffices <- tuesdata$postoffices postoffices <- readr::readcsv(' No cleaning this week, although check out the original authors data…",
+ "questions": [
+  "US Post Offices"
+ ],
+ "subjects": [
+  "government & politics",
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Cameron Blevins and Richard W. Helbock",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NUKCNA"
+  }
+ ],
+ "articles": [
+  {
+   "name": "US Post Offices",
+   "url": "https://cblevins.github.io/us-post-offices/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "post_offices.csv",
+   "bytes": 28938475,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-04-13/post_offices.csv",
+   "columns": [
+    "field_name",
+    "alt_name",
+    "orig_name",
+    "state",
+    "county1",
+    "county2",
+    "county3",
+    "orig_county",
+    "established",
+    "discontinued",
+    "continuous",
+    "stamp_index",
+    "id",
+    "coordinates",
+    "duration",
+    "gnis_match",
+    "gnis_name",
+    "gnis_county",
+    "gnis_state",
+    "gnis_feature_id",
+    "gnis_feature_class",
+    "gnis_orig_name",
+    "gnis_orig_county",
+    "gnis_latitude",
+    "gnis_longitude",
+    "gnis_elev_in_m",
+    "gnis_dist",
+    "latitude",
+    "longitude",
+    "random_coords_flag"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-04-13",
+   "year": 2021,
+   "week": 16,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-04-13"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Cameron Blevins and Richard W. Helbock",
+  "host": "cameron blevins and richard w. helbock"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "tt-2019-01-29",
+ "title": "Dairy production & Consumption",
+ "hook": "milkcowfacts.csv milkfacts.csv milkproductsfacts.csv cleancheese.csv statemilkproduction.csv Data this week comes from the USDA (United States Department of Agriculture)! The raw datasets (Excel Sheets) can be found here. There is even more data at the source if you are interested, much of which requires a LOT of fun Excel sheet data munging. Enjoy! A related NPR article - \"Nobody is Moving our Cheese\" and Washington Post article - \"America's Cheese Stockpile hit an alltime high\"\". This week's data was found via the Data is Plural newsletter. The \"tame\" datasets seen here might require a few gather calls, while some are already pretty tidy. Fluid milk sales, milkcow facts, and state milk production are good ones if you just want to plot, while the milk products and clean cheese allow for some creativity in the data organization steps.",
+ "questions": [
+  "milkcowfacts.csv",
+  "fluidmilksales.csv",
+  "milkproductsfacts.csv",
+  "cleancheese.csv",
+  "statemilkproduction.csv"
+ ],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "USDA",
+   "url": "https://www.ers.usda.gov/data-products/dairy-data/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "NPR",
+   "url": "https://www.npr.org/2019/01/09/683339929/nobody-is-moving-our-cheese-american-surplus-reaches-record-high"
+  }
+ ],
+ "tables": [
+  {
+   "file": "clean_cheese.csv",
+   "bytes": 4405,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-29/clean_cheese.csv",
+   "columns": []
+  },
+  {
+   "file": "fluid_milk_sales.csv",
+   "bytes": 10694,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-29/fluid_milk_sales.csv",
+   "columns": []
+  },
+  {
+   "file": "milk_products_facts.csv",
+   "bytes": 12726,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-29/milk_products_facts.csv",
+   "columns": []
+  },
+  {
+   "file": "milkcow_facts.csv",
+   "bytes": 3925,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-29/milkcow_facts.csv",
+   "columns": []
+  },
+  {
+   "file": "state_milk_production.csv",
+   "bytes": 76158,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-29/state_milk_production.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-01-29",
+   "year": 2019,
+   "week": 5,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-01-29"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "USDA",
+  "host": "ers.usda.gov"
+ }
+}

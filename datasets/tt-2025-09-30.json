@@ -1,0 +1,55 @@
+{
+ "id": "tt-2025-09-30",
+ "title": "Crane Observations at Lake Hornborgasjön, Sweden (1994–2024)",
+ "hook": "This week we are exploring crane observations at Lake Hornborgasjön in Sweden. For more than 30 years, cranes stopping at the Lake Hornborgasjön ('Lake Hornborga') in Västergötland, Sweden have been counted from the Hornborgasjön field station in the spring and the fall as they pass by during their yearly migration. Thanks to crane counters from the Hornborgasjön field station, we know approximately how many cranes there are at Hornborgasjön during the spring. When there are the most cranes depends on whether spring is early or late. It also depends on when the winds from the south are suitable for crane flight.",
+ "questions": [
+  "Has the crane population at Lake Hornborgasjön grown over the past 30 years?",
+  "If you wanted to see thousands of cranes, when is the best time of year to visit?",
+  "Is it possible to predict the arrival of the cranes from weather patterns?"
+ ],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "company",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "Transtatistik ('crane statistics'), Naturum, Hornborgasjön, Västra Götaland County Administrative Board",
+   "url": "https://www.hornborga.com/naturen/transtatistik/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The dancing cranes of Lake Hornborga",
+   "url": "https://www.datawrapper.de/blog/the-dancing-cranes-of-lake-hornborga"
+  }
+ ],
+ "tables": [
+  {
+   "file": "cranes.csv",
+   "bytes": 41172,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-30/cranes.csv",
+   "columns": [
+    "date",
+    "observations",
+    "comment",
+    "weather_disruption"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-09-30",
+   "year": 2025,
+   "week": 39,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-09-30"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Transtatistik ('crane statistics'), Naturum, Hornborgasjön, ",
+  "host": "hornborga.com"
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "id": "tt-2023-07-04",
+ "title": "Historical Markers",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: \\### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph \\### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year \\### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Historical Marker Database USA Index",
+   "url": "https://www.hmdb.org/geolists.asp?c=United%20States%20of%20America"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Database Counts and Statistics",
+   "url": "https://www.hmdb.org/stats.asp"
+  }
+ ],
+ "tables": [
+  {
+   "file": "historical_markers.csv",
+   "bytes": 13373395,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-07-04/historical_markers.csv",
+   "columns": [
+    "marker_id",
+    "marker_no",
+    "title",
+    "subtitle",
+    "addl_subtitle",
+    "year_erected",
+    "erected_by",
+    "latitude_minus_s",
+    "longitude_minus_w",
+    "street_address",
+    "city_or_town",
+    "section_or_quarter",
+    "county_or_parish",
+    "state_or_prov",
+    "location",
+    "missing",
+    "link"
+   ]
+  },
+  {
+   "file": "no_markers.csv",
+   "bytes": 3237,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-07-04/no_markers.csv",
+   "columns": [
+    "county",
+    "state"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-07-04",
+   "year": 2023,
+   "week": 27,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-07-04"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Historical Marker Database USA Index",
+  "host": "hmdb.org"
+ }
+}

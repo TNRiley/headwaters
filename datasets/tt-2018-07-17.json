@@ -1,0 +1,46 @@
+{
+ "id": "tt-2018-07-17",
+ "title": "Exercise USA",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "CDC",
+   "url": "https://www.cdc.gov/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "CDC - National Health Statistics Reports",
+   "url": "https://www.cdc.gov/nchs/data/nhsr/nhsr112.pdf"
+  }
+ ],
+ "tables": [
+  {
+   "file": "week16_exercise.xlsx",
+   "bytes": 23583,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-07-17/week16_exercise.xlsx",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-07-17",
+   "year": 2018,
+   "week": 16,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-07-17"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

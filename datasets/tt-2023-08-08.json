@@ -1,0 +1,82 @@
+{
+ "id": "tt-2023-08-08",
+ "title": "Hot Ones Episodes",
+ "hook": "The data this week comes from Wikipedia articles: Hot Ones and List of Hot Ones episodes. Thank you to Carl Börstell for the suggestion and cleaning script! Hot Ones is an American YouTube talk show, created by Chris Schonberger, hosted by Sean Evans and produced by First We Feast and Complex Media. Its basic premise involves celebrities being interviewed by Evans over a platter of increasingly spicy chicken wings.",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "reference works",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "*Hot Ones*",
+   "url": "https://en.wikipedia.org/wiki/Hot_Ones"
+  },
+  {
+   "name": "List of Hot Ones episodes",
+   "url": "https://en.wikipedia.org/wiki/List_of_Hot_Ones_episodes"
+  }
+ ],
+ "articles": [
+  {
+   "name": "*Hot Ones*",
+   "url": "https://en.wikipedia.org/wiki/Hot_Ones"
+  }
+ ],
+ "tables": [
+  {
+   "file": "episodes.csv",
+   "bytes": 28592,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-08-08/episodes.csv",
+   "columns": [
+    "season",
+    "episode_overall",
+    "episode_season",
+    "title",
+    "original_release",
+    "guest",
+    "guest_appearance_number",
+    "finished"
+   ]
+  },
+  {
+   "file": "sauces.csv",
+   "bytes": 9215,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-08-08/sauces.csv",
+   "columns": [
+    "season",
+    "sauce_number",
+    "sauce_name",
+    "scoville"
+   ]
+  },
+  {
+   "file": "seasons.csv",
+   "bytes": 688,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-08-08/seasons.csv",
+   "columns": [
+    "season",
+    "episodes",
+    "note",
+    "original_release",
+    "last_release"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-08-08",
+   "year": 2023,
+   "week": 32,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-08-08"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Hot Ones",
+  "host": "hot ones"
+ }
+}

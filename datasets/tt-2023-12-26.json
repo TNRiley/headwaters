@@ -1,0 +1,162 @@
+{
+ "id": "tt-2023-12-26",
+ "title": "R Package Structure",
+ "hook": "Happy Boxing Day! While you're dealing with your physical packages, we're looking into R packages! The dataset this week comes from \"Historical Trends in R Package Structure and Interdependency on CRAN\" by Mark Padgham and Noam Ross. In that paper, they use the {pkgstats} R package to analyze the structure of R packages over time, using an archive of all packages on CRAN as of 2022-11-22. We've provided csv versions of two of the datasets from that paper. The paper focuses on package characteristics over time. It might be interesting to look at the distribution of similar features (such as lines of code) across packages. If you're unfamiliar with some of the terminology in this dataset, you might find the R Packages book by Hadley Wickham and Jennifer Bryan helpful.",
+ "questions": [],
+ "subjects": [
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ropensci-review-tools/pkgstats",
+   "url": "https://zenodo.org/records/7414296"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Historical Trends in R Package Structure and Interdependency on CRAN",
+   "url": "https://mpadge.github.io/pkgstats-analyses/articles/pkgstats.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "cran_20221122.csv",
+   "bytes": 12695626,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-26/cran_20221122.csv",
+   "columns": [
+    "package",
+    "version",
+    "date",
+    "license",
+    "files_R",
+    "files_src",
+    "files_inst",
+    "files_vignettes",
+    "files_tests",
+    "loc_R",
+    "loc_src",
+    "loc_inst",
+    "loc_vignettes",
+    "loc_tests",
+    "blank_lines_R",
+    "blank_lines_src",
+    "blank_lines_inst",
+    "blank_lines_vignettes",
+    "blank_lines_tests",
+    "comment_lines_R",
+    "comment_lines_src",
+    "comment_lines_inst",
+    "comment_lines_vignettes",
+    "comment_lines_tests",
+    "rel_space",
+    "rel_space_R",
+    "rel_space_src",
+    "rel_space_inst",
+    "rel_space_vignettes",
+    "rel_space_tests",
+    "indentation",
+    "nexpr",
+    "num_vignettes",
+    "num_demos",
+    "num_data_files",
+    "data_size_total",
+    "data_size_median",
+    "translations",
+    "urls",
+    "bugs",
+    "desc_n_aut",
+    "desc_n_ctb",
+    "desc_n_fnd",
+    "desc_n_rev",
+    "desc_n_ths",
+    "desc_n_trl",
+    "depends",
+    "imports",
+    "suggests",
+    "enhances",
+    "linking_to",
+    "n_fns_r",
+    "n_fns_r_exported",
+    "n_fns_r_not_exported",
+    "n_fns_src",
+    "n_fns_per_file_r",
+    "n_fns_per_file_src",
+    "npars_exported_mn",
+    "npars_exported_md",
+    "loc_per_fn_r_mn",
+    "loc_per_fn_r_md",
+    "loc_per_fn_r_exp_mn",
+    "loc_per_fn_r_exp_md",
+    "loc_per_fn_r_not_exp_mn",
+    "loc_per_fn_r_not_exp_md",
+    "loc_per_fn_src_mn",
+    "loc_per_fn_src_md",
+    "languages",
+    "doclines_per_fn_exp_mn",
+    "doclines_per_fn_exp_md",
+    "doclines_per_fn_not_exp_mn",
+    "doclines_per_fn_not_exp_md",
+    "doclines_per_fn_src_mn",
+    "doclines_per_fn_src_md",
+    "docchars_per_par_exp_mn",
+    "docchars_per_par_exp_md",
+    "n_edges",
+    "n_edges_r",
+    "n_edges_src",
+    "n_clusters",
+    "centrality_dir_mn",
+    "centrality_dir_md",
+    "centrality_dir_mn_no0",
+    "centrality_dir_md_no0",
+    "centrality_undir_mn",
+    "centrality_undir_md",
+    "centrality_undir_mn_no0",
+    "centrality_undir_md_no0",
+    "num_terminal_edges_dir",
+    "num_terminal_edges_undir",
+    "node_degree_mn",
+    "node_degree_md",
+    "node_degree_max",
+    "cpl_instability_pkg"
+   ]
+  },
+  {
+   "file": "external_calls.csv",
+   "bytes": 3172140,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-26/external_calls.csv",
+   "columns": [
+    "package_from",
+    "package_to",
+    "n_total",
+    "n_unique"
+   ]
+  },
+  {
+   "file": "internal_calls.csv",
+   "bytes": 326216,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-26/internal_calls.csv",
+   "columns": [
+    "package",
+    "n_total",
+    "n_unique"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-12-26",
+   "year": 2023,
+   "week": 52,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-12-26"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ropensci-review-tools/pkgstats",
+  "host": "ropensci-review-tools/pkgstats"
+ }
+}

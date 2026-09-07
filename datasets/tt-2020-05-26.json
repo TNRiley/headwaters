@@ -1,0 +1,82 @@
+{
+ "id": "tt-2020-05-26",
+ "title": "Cocktails",
+ "hook": "The data this week comes from Kaggle and Kaggle courtesy of Georgios Karamanis. The Mr Boston dataset was acquired from the Mr. Boston Bartender's Guide, while the cocktails.csv dataset was web-scraped as part of a hackathon. These datasets are relatively clean, and have lots of interesting data to count, summarize, or possibly classify with a model! While I have tamed both datasets, the Mr. Boston dataset is IMO cleaner, the cocktails.csv dataset was web-scraped and has some classic \"funkiness\" that you get from web-scraping (empty rows, now lines \\n, etc). I've left both datasets for your exploration, where the cocktails.csv is probably better used for data cleaning/validation and the Mr. Boston appears to be cleaner and close to analysis-ready. However, there are additional columns in the cocktails.csv dataset, so maybe try joining or further cleaning!",
+ "questions": [
+  "Margarita Clustering -- this doesn't use our dataset, but provides a potential idea for how to approach this data",
+  "Information is Beautiful Graphic",
+  "Recommender for Cocktail recipes",
+  "tidyr::separate(): Link",
+  "stringr::strsplit(): Link"
+ ],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Kaggle",
+   "url": "https://www.kaggle.com/ai-first/cocktail-ingredients"
+  },
+  {
+   "name": "Kaggle",
+   "url": "https://www.kaggle.com/jenlooper/mr-boston-cocktail-dataset"
+  }
+ ],
+ "articles": [
+  {
+   "name": "FiveThirtyEight",
+   "url": "https://fivethirtyeight.com/videos/we-got-drunk-on-margaritas-for-science/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "cocktails.csv",
+   "bytes": 380840,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-26/cocktails.csv",
+   "columns": [
+    "row_id",
+    "drink",
+    "date_modified",
+    "id_drink",
+    "alcoholic",
+    "category",
+    "drink_thumb",
+    "glass",
+    "iba",
+    "video",
+    "ingredient_number",
+    "ingredient",
+    "measure"
+   ]
+  },
+  {
+   "file": "boston_cocktails.csv",
+   "bytes": 203245,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-26/boston_cocktails.csv",
+   "columns": [
+    "category",
+    "row_id",
+    "ingredient_number",
+    "ingredient",
+    "measure"
+   ]
+  }
+ ],
+ "extra_files": 2,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-05-26",
+   "year": 2020,
+   "week": 22,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-05-26"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Kaggle",
+  "host": "kaggle"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "tt-2020-01-14",
+ "title": "Passwords",
+ "hook": "This week's data is all about passwords. Data is sourced from Information is Beautiful, with the graphic coming from the same group here. There's lots of additional information about password quality & strength in the source Doc. Please note that the \"strength\" column in this dataset is relative to these common aka \"bad\" passwords and YOU SHOULDN'T USE ANY OF THEM! Wikipedia has a nice article on password strength as well. tuesdata <- tidytuesdayR::ttload('2020-01-14') tuesdata <- tidytuesdayR::ttload(2020, week = 3) passwords <- tuesdata$passwords",
+ "questions": [],
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Knowledge is Beautiful",
+   "url": "https://docs.google.com/spreadsheets/d/1cz7TDhm0ebVpySqbTvrHrD3WpxeyE4hLZtifWSnoNTQ/edit#gid=21"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Information is Beautiful",
+   "url": "https://informationisbeautiful.net/visualizations/top-500-passwords-visualized/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "passwords.csv",
+   "bytes": 24262,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-14/passwords.csv",
+   "columns": [
+    "rank",
+    "password",
+    "category",
+    "value",
+    "time_unit",
+    "offline_crack_sec",
+    "rank_alt",
+    "strength",
+    "font_size"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-01-14",
+   "year": 2020,
+   "week": 3,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-01-14"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Knowledge is Beautiful",
+  "host": "knowledge is beautiful"
+ }
+}

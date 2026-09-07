@@ -1,0 +1,50 @@
+{
+ "id": "tt-2024-02-06",
+ "title": "World heritage sites",
+ "hook": "This week we're exploring a very small subset of UNESCO World Heritage Sites. The 1 dataset, 100 visualizations project used this dataset to explore different ways of visualizing a simple dataset. This is your chance to try that out too! Try recreating some of their plots, or make your own. You can add to your data visualization code toolbox by creating types of visualizations you could use with other datasets, or getting inspiration from others. Share your favorite ones!",
+ "questions": [],
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "UNESCO World Heritage Sites",
+   "url": "https://whc.unesco.org/en/list"
+  }
+ ],
+ "articles": [
+  {
+   "name": "1 dataset 100 visualizations",
+   "url": "https://100.datavizproject.com/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "heritage.csv",
+   "bytes": 59,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-02-06/heritage.csv",
+   "columns": [
+    "country",
+    "2004",
+    "2022"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-02-06",
+   "year": 2024,
+   "week": 6,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-02-06"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "UNESCO World Heritage Sites",
+  "host": "whc.unesco.org"
+ }
+}

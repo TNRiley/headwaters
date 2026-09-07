@@ -1,0 +1,46 @@
+{
+ "id": "tt-2019-03-26",
+ "title": "Seattle Pet Names",
+ "hook": "Seattle's open data portal has a dataset of registered pets here. While they don't include the sex or age of the animal, they were kind enough to leave in the license issue date, animal's name, species, breed, and zip code. This should open up some fun explorations! h/t to Jacqueline Nolis for sharing this data! A few articles examined the most popular pet names in 2018, one from Seattle specifically, and another from Australia. seattlepets <- readr::readcsv(\"",
+ "questions": [],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "seattle.gov",
+   "url": "https://data.seattle.gov/Community/Seattle-Pet-Licenses/jguv-t9rb"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Curbed Seattle",
+   "url": "https://seattle.curbed.com/2019/1/2/18165658/seattle-popular-pet-names-2018"
+  }
+ ],
+ "tables": [
+  {
+   "file": "seattle_pets.csv",
+   "bytes": 3367591,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-03-26/seattle_pets.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-03-26",
+   "year": 2019,
+   "week": 13,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-03-26"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "seattle.gov",
+  "host": "seattle.gov"
+ }
+}

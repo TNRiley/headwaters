@@ -1,0 +1,71 @@
+{
+ "id": "tt-2025-01-28",
+ "title": "Water Insecurity",
+ "hook": "This week we're exploring water insecurity data featured in the article Mapping water insecurity in R with tidycensus! Water insecurity can be influenced by number of social vulnerability indicators—from demographic characteristics to living conditions and socioeconomic status —that vary spatially across the U.S. This blog shows how the tidycensus package for R can be used to access U.S. Census Bureau data, including the American Community Surveys, as featured in the “Unequal Access to Water ” data visualization from the USGS Vizlab. It offers reproducible code examples demonstrating use of tidycensus for easy exploration and visualization of social vulnerability indicators in the Western U.S.",
+ "questions": [
+  "How does the lack of complete indoor plumbing compare between the 2023 and 2022 Census data?",
+  "What counties have the greatest percent of households lacking plumbing?",
+  "Are there differences in indoor plumbing availability between Western U.S and Eastern U.S counties?"
+ ],
+ "subjects": [
+  "health & medicine",
+  "society & demographics"
+ ],
+ "provider_type": "r package",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "US Census Data from tidycensus",
+   "url": "https://cran.r-project.org/package=tidycensus"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Mapping water insecurity in R with tidycensus",
+   "url": "https://waterdata.usgs.gov/blog/acs-maps/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "water_insecurity_2022.csv",
+   "bytes": 11196631,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-01-28/water_insecurity_2022.csv",
+   "columns": [
+    "geoid",
+    "year",
+    "geometry",
+    "total_pop",
+    "plumbing",
+    "percent_lacking_plumbing"
+   ]
+  },
+  {
+   "file": "water_insecurity_2023.csv",
+   "bytes": 11296745,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-01-28/water_insecurity_2023.csv",
+   "columns": [
+    "geoid",
+    "year",
+    "geometry",
+    "total_pop",
+    "plumbing",
+    "percent_lacking_plumbing"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-01-28",
+   "year": 2025,
+   "week": 4,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-01-28"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "US Census Data from tidycensus",
+  "host": "us census data from tidycensus"
+ }
+}

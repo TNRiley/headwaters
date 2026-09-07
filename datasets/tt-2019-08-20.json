@@ -1,0 +1,63 @@
+{
+ "id": "tt-2019-08-20",
+ "title": "Nuclear Explosions",
+ "hook": "This week's data is from Stockholm International Peace Research Institute, by way of data is plural with credit to Jesus Castagnetto for sharing the dataset. Additional information can be found on Wikipedia or via the original report PDF. Additional related datasets can be found at Our World in Data. For details around units for yield/magnitude, please see the Nuclear Yield formulas. nuclearexplosions <- readr::readcsv(\"",
+ "questions": [],
+ "subjects": [
+  "government & politics",
+  "environment & climate"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "SIPRI",
+   "url": "https://github.com/data-is-plural/nuclear-explosions/blob/master/documents/sipri-report-original.pdf"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Our World in Data",
+   "url": "https://ourworldindata.org/nuclear-weapons"
+  }
+ ],
+ "tables": [
+  {
+   "file": "nuclear_explosions.csv",
+   "bytes": 158546,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-08-20/nuclear_explosions.csv",
+   "columns": [
+    "date_long",
+    "year",
+    "id_no",
+    "country",
+    "region",
+    "source",
+    "latitude",
+    "longitude",
+    "magnitude_body",
+    "magnitude_surface",
+    "depth",
+    "yield_lower",
+    "yield_upper",
+    "purpose",
+    "type"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-08-20",
+   "year": 2019,
+   "week": 34,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-08-20"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "SIPRI",
+  "host": "sipri"
+ }
+}

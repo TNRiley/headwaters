@@ -1,0 +1,204 @@
+{
+ "id": "tt-2021-09-07",
+ "title": "Formula 1 Races",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ergast.com/mrd/db",
+   "url": "https://ergast.com/mrd/db/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "FiveThirtyEight",
+   "url": "https://fivethirtyeight.com/features/formula-one-racing/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "circuits.csv",
+   "bytes": 10044,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/circuits.csv",
+   "columns": [
+    "circuitId",
+    "circuitRef",
+    "location",
+    "country",
+    "lat",
+    "lng",
+    "alt",
+    "url",
+    "constructorResultsId",
+    "raceId",
+    "constructorId",
+    "points",
+    "status",
+    "constructorStandingsId",
+    "raceId",
+    "constructorId",
+    "points",
+    "position",
+    "positionText",
+    "wins",
+    "constructorId",
+    "constructorRef",
+    "nationality",
+    "url",
+    "driverStandingsId",
+    "raceId",
+    "driverId",
+    "points",
+    "position",
+    "positionText",
+    "wins",
+    "driverId",
+    "driverRef",
+    "number",
+    "code",
+    "forename",
+    "surname",
+    "dob",
+    "nationality",
+    "url",
+    "raceId",
+    "driverId",
+    "lap",
+    "position",
+    "time",
+    "milliseconds",
+    "raceId",
+    "driverId",
+    "stop",
+    "lap",
+    "time",
+    "duration",
+    "milliseconds",
+    "qualifyId",
+    "raceId",
+    "driverId",
+    "constructorId",
+    "number",
+    "position",
+    "q1",
+    "q2",
+    "q3",
+    "raceId",
+    "year",
+    "round",
+    "circuitId",
+    "date",
+    "time",
+    "url",
+    "resultId",
+    "raceId",
+    "driverId",
+    "constructorId",
+    "number",
+    "grid",
+    "position",
+    "positionText",
+    "positionOrder",
+    "points",
+    "laps",
+    "time",
+    "milliseconds",
+    "fastestLap",
+    "rank",
+    "fastestLapTime",
+    "fastestLapSpeed",
+    "statusId",
+    "year",
+    "url",
+    "statusId",
+    "status"
+   ]
+  },
+  {
+   "file": "constructor_results.csv",
+   "bytes": 204444,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/constructor_results.csv",
+   "columns": []
+  },
+  {
+   "file": "constructor_standings.csv",
+   "bytes": 297340,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/constructor_standings.csv",
+   "columns": []
+  },
+  {
+   "file": "constructors.csv",
+   "bytes": 17382,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/constructors.csv",
+   "columns": []
+  },
+  {
+   "file": "driver_standings.csv",
+   "bytes": 838988,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/driver_standings.csv",
+   "columns": []
+  },
+  {
+   "file": "drivers.csv",
+   "bytes": 93450,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/drivers.csv",
+   "columns": []
+  },
+  {
+   "file": "lap_times.csv",
+   "bytes": 14982299,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/lap_times.csv",
+   "columns": []
+  },
+  {
+   "file": "pit_stops.csv",
+   "bytes": 328692,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/pit_stops.csv",
+   "columns": []
+  },
+  {
+   "file": "qualifying.csv",
+   "bytes": 389242,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/qualifying.csv",
+   "columns": []
+  },
+  {
+   "file": "races.csv",
+   "bytes": 116857,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/races.csv",
+   "columns": []
+  },
+  {
+   "file": "results.csv",
+   "bytes": 1598738,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/results.csv",
+   "columns": []
+  },
+  {
+   "file": "seasons.csv",
+   "bytes": 4449,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-09-07/seasons.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 3,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-09-07",
+   "year": 2021,
+   "week": 37,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-09-07"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ergast.com/mrd/db",
+  "host": "ergast.com"
+ }
+}

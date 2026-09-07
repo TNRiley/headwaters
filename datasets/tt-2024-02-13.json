@@ -1,0 +1,89 @@
+{
+ "id": "tt-2024-02-13",
+ "title": "Valentine's Day consumer data",
+ "hook": "Happy Valentine's Day! This week we're exploring Valentine's Day survey data. The National Retail Federation in the United States conducts surveys and has created a Valentine's Day Data Center so you can explore the data on how consumers celebrate. The NRF has surveyed consumers about how they plan to celebrate Valentine’s Day annually for over a decade. Take a deeper dive into the data from the last 10 years, and use the interactive charts to explore a demographic breakdown of total spending, average spending, types of gifts planned and spending per type of gift. The NRF has continued to collect data. The data for this week is from 2010 to 2022, as organized by Suraj Das for a Kaggle dataset. In the historical surveys gender was collected as only 'Men' and 'Women', which does not accurately include all genders.",
+ "questions": [],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Valentine's Days consumer survey data",
+   "url": "https://www.kaggle.com/datasets/infinator/happy-valentines-day-2022"
+  }
+ ],
+ "articles": [
+  {
+   "name": "National Retail Federation Valentine's Day Data Center",
+   "url": "https://nrf.com/research-insights/holiday-data-and-trends/valentines-day/valentines-day-data-center"
+  }
+ ],
+ "tables": [
+  {
+   "file": "historical_spending.csv",
+   "bytes": 827,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-02-13/historical_spending.csv",
+   "columns": [
+    "Year",
+    "PercentCelebrating",
+    "PerPerson",
+    "Candy",
+    "Flowers",
+    "Jewelry",
+    "GreetingCards",
+    "EveningOut",
+    "Clothing",
+    "GiftCards"
+   ]
+  },
+  {
+   "file": "gifts_age.csv",
+   "bytes": 275,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-02-13/gifts_age.csv",
+   "columns": [
+    "Age",
+    "SpendingCelebrating",
+    "Candy",
+    "Flowers",
+    "Jewelry",
+    "GreetingCards",
+    "EveningOut",
+    "Clothing",
+    "GiftCards"
+   ]
+  },
+  {
+   "file": "gifts_gender.csv",
+   "bytes": 154,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-02-13/gifts_gender.csv",
+   "columns": [
+    "Gender",
+    "SpendingCelebrating",
+    "Candy",
+    "Flowers",
+    "Jewelry",
+    "GreetingCards",
+    "EveningOut",
+    "Clothing",
+    "GiftCards"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-02-13",
+   "year": 2024,
+   "week": 7,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-02-13"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Valentine's Days consumer survey data",
+  "host": "valentine's days consumer survey data"
+ }
+}

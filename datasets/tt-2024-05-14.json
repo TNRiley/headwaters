@@ -1,0 +1,104 @@
+{
+ "id": "tt-2024-05-14",
+ "title": "The Great American Coffee Taste Test",
+ "hook": "In October 2023, \"world champion barista\" James Hoffmann and coffee company Cometeer held the \"Great American Coffee Taste Test\" on YouTube, during which viewers were asked to fill out a survey about 4 coffees they ordered from Cometeer for the tasting. Data blogger Robert McKeon Aloe analyzed the data the following month. Do you think participants in this survey are representative of Americans in general?",
+ "questions": [],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "James Hoffmann and Cometeer Great American Coffee Taste Test Survey",
+   "url": "https://bit.ly/gacttCSV"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Great American Coffee Taste Test Breakdown",
+   "url": "https://rmckeon.medium.com/great-american-coffee-taste-test-breakdown-7f3fdcc3c41d"
+  }
+ ],
+ "tables": [
+  {
+   "file": "coffee_survey.csv",
+   "bytes": 2192211,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-05-14/coffee_survey.csv",
+   "columns": [
+    "submission_id",
+    "age",
+    "cups",
+    "where_drink",
+    "brew",
+    "brew_other",
+    "purchase",
+    "purchase_other",
+    "favorite",
+    "favorite_specify",
+    "additions",
+    "additions_other",
+    "dairy",
+    "sweetener",
+    "style",
+    "strength",
+    "roast_level",
+    "caffeine",
+    "expertise",
+    "coffee_a_bitterness",
+    "coffee_a_acidity",
+    "coffee_a_personal_preference",
+    "coffee_a_notes",
+    "coffee_b_bitterness",
+    "coffee_b_acidity",
+    "coffee_b_personal_preference",
+    "coffee_b_notes",
+    "coffee_c_bitterness",
+    "coffee_c_acidity",
+    "coffee_c_personal_preference",
+    "coffee_c_notes",
+    "coffee_d_bitterness",
+    "coffee_d_acidity",
+    "coffee_d_personal_preference",
+    "coffee_d_notes",
+    "prefer_abc",
+    "prefer_ad",
+    "prefer_overall",
+    "wfh",
+    "total_spend",
+    "why_drink",
+    "why_drink_other",
+    "taste",
+    "know_source",
+    "most_paid",
+    "most_willing",
+    "value_cafe",
+    "spent_equipment",
+    "value_equipment",
+    "gender",
+    "gender_specify",
+    "education_level",
+    "ethnicity_race",
+    "ethnicity_race_specify",
+    "employment_status",
+    "number_children",
+    "political_affiliation"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-05-14",
+   "year": 2024,
+   "week": 20,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-05-14"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "James Hoffmann and Cometeer Great American Coffee Taste Test",
+  "host": "james hoffmann and cometeer great american coffee taste test survey"
+ }
+}

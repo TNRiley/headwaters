@@ -1,0 +1,52 @@
+{
+ "id": "tt-2019-01-01",
+ "title": "#Rstats & #TidyTuesday Tweets",
+ "hook": "Data for this week comes from Mike Kearney - author of the awesome rtweet package, as well as several other packages! Just a heads up, there are A LOT of columns (88!) in this collection - feel free to select whichever are useful for your analysis or interest! Both datasets have the same column types which can be seen below.",
+ "questions": [],
+ "subjects": [
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "r package",
+ "geography": "",
+ "sources": [
+  {
+   "name": "`rtweet`",
+   "url": "https://rtweet.info/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "stackoverflow.blog",
+   "url": "https://stackoverflow.blog/2017/10/10/impressive-growth-r/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "rstats_tweets.rds",
+   "bytes": 69114280,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-01/rstats_tweets.rds",
+   "columns": []
+  },
+  {
+   "file": "tidytuesday_tweets.rds",
+   "bytes": 476953,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-01/tidytuesday_tweets.rds",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-01-01",
+   "year": 2019,
+   "week": 1,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-01-01"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rtweet",
+  "host": "rtweet.info"
+ }
+}

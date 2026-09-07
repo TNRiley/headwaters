@@ -1,0 +1,70 @@
+{
+ "id": "tt-2025-07-22",
+ "title": "MTA Permanent Art Catalog",
+ "hook": "This week we're exploring the (New York) MTA Permanent Art Catalog! Thank you to Georgios Karamanis (GitHub | Bluesky | LinkedIn for suggesting this dataset. Submit your dataset ideas through our GitHub issue tracker! The MTA has a dashboard to explore this dataset, but the dashboard is at least partially broken. Can you recreate it in Shiny for R or Python? Through the Permanent Art Program, MTA Arts & Design (formerly Arts for Transit) commissions public art that is seen by millions of city-dwellers as well as national and international visitors who use the MTA’s subways and trains. Arts & Design works closely with the architects and engineers at MTA NYC Transit, Long Island Rail Road and Metro-North Railroad to determine the parameters and sites for the artwork that is to be incorporated into each station scheduled for renovation.",
+ "questions": [
+  "Can you reproduce the stationlines dataset without looking at our Cleaning Script? How does your solution differ from ours?",
+  "Which agency has the most art? Which has the least?",
+  "What are some common materials? How are details such as \"hand forged\" for bronze denoted in the data? Can you reliably take these details into account in your counts?"
+ ],
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "MTA Permanent Art Catalog: Beginning 1980",
+   "url": "https://data.ny.gov/Transportation/MTA-Permanent-Art-Catalog-Beginning-1980/4y8j-9pkd/about_data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Permanent Art",
+   "url": "https://www.mta.info/agency/arts-design/permanent-art"
+  }
+ ],
+ "tables": [
+  {
+   "file": "mta_art.csv",
+   "bytes": 535943,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-22/mta_art.csv",
+   "columns": [
+    "agency",
+    "station_name",
+    "line",
+    "artist",
+    "art_title",
+    "art_date",
+    "art_material",
+    "art_description",
+    "art_image_link"
+   ]
+  },
+  {
+   "file": "station_lines.csv",
+   "bytes": 16946,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-22/station_lines.csv",
+   "columns": [
+    "agency",
+    "station_name",
+    "line"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-07-22",
+   "year": 2025,
+   "week": 29,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-07-22"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "MTA Permanent Art Catalog",
+  "host": "ny.gov"
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "id": "tt-2024-12-17",
+ "title": "Dungeons and Dragons Spells (2024)",
+ "hook": "This week we're exploring magical spells from the recently released Dungeons and Dragons Free Rules (2024 edition). Many characters have the ability to cast spells, which have a huge variety of effects. Some spells are mostly useful in combat, by dealing damage or imposing conditions. Other spells have utility in exploration. If you’re playing a spellcaster, look for a mix of combat-effective and utilitarian spells to help deal with varied challenges.",
+ "questions": [
+  "Which class has the most options for spells to cast on themselves, or on targets they can touch?",
+  "Which classes have the most spells that require concentration? Which classes have spells that last without concentration?",
+  "Are there any interesting patterns in the text descriptions of the spells?"
+ ],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "D&D Free Rules (2024), Spell Descriptions",
+   "url": "https://www.dndbeyond.com/sources/dnd/free-rules/spell-descriptions"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Start Playing Today with the 2024 D&D Free Rules",
+   "url": "https://www.dndbeyond.com/posts/1804-start-playing-today-with-the-2024-d-d-free-rules"
+  }
+ ],
+ "tables": [
+  {
+   "file": "spells.csv",
+   "bytes": 302514,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-12-17/spells.csv",
+   "columns": [
+    "level",
+    "school",
+    "bard",
+    "cleric",
+    "druid",
+    "paladin",
+    "ranger",
+    "sorcerer",
+    "warlock",
+    "wizard",
+    "casting_time",
+    "action",
+    "bonus_action",
+    "reaction",
+    "ritual",
+    "casting_time_long",
+    "trigger",
+    "range",
+    "range_type",
+    "verbal_component",
+    "somatic_component",
+    "material_component",
+    "material_component_details",
+    "duration",
+    "concentration",
+    "description"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-12-17",
+   "year": 2024,
+   "week": 51,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-12-17"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "System Reference Document v5.2.1",
+  "host": "dndbeyond.com"
+ }
+}

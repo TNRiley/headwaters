@@ -1,0 +1,85 @@
+{
+ "id": "tt-2020-07-21",
+ "title": "Australian Animal Outcomes",
+ "hook": "The data this week comes from the RSPCA, Townsville Animal Complaints and Brisbane Open Data - Animal Complaints. h/t to Georgios Karamanis for suggesting part of this data. The RSPCA is Australia's oldest, largest and most trusted animal welfare organisation. With this privileged position comes great responsibility. This year we received1 124,146 animals into our animal shelters and adoption centres across the country. With a great deal of effort from RSPCAs all over the country, adoption and reclaiming rates nationally have been increasing over time and significant improvements in the outcomes for cats and dogs (including kittens and puppies) have been achieved. This can be attributed to the introduction of new approaches and programs to increase the number of animals adopted and reunited with their owners.",
+ "questions": [],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "Australia",
+ "sources": [
+  {
+   "name": "RSPCA",
+   "url": "https://www.rspca.org.au/what-we-do/our-role-caring-animals/annual-statistics"
+  }
+ ],
+ "articles": [
+  {
+   "name": "RSPCA Report",
+   "url": "https://www.rspca.org.au/sites/default/files/RSPCA%20Report%20on%20animal%20outcomes%202018-2019.pdf"
+  }
+ ],
+ "tables": [
+  {
+   "file": "animal_outcomes.csv",
+   "bytes": 34974,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-07-21/animal_outcomes.csv",
+   "columns": [
+    "year",
+    "animal_type",
+    "outcome",
+    "ACT",
+    "NSW",
+    "NT",
+    "QLD",
+    "SA",
+    "TAS",
+    "VIC",
+    "WA",
+    "Total"
+   ]
+  },
+  {
+   "file": "animal_complaints.csv",
+   "bytes": 2103585,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-07-21/animal_complaints.csv",
+   "columns": [
+    "Animal Type",
+    "Complaint Type",
+    "Date Received",
+    "Suburb",
+    "Electoral Division"
+   ]
+  },
+  {
+   "file": "brisbane_complaints.csv",
+   "bytes": 2597935,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-07-21/brisbane_complaints.csv",
+   "columns": [
+    "nature",
+    "animal_type",
+    "category",
+    "suburb",
+    "date_range",
+    "responsible_office",
+    "city"
+   ]
+  }
+ ],
+ "extra_files": 2,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-07-21",
+   "year": 2020,
+   "week": 30,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-07-21"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "RSPCA",
+  "host": "rspca.org.au"
+ }
+}

@@ -1,0 +1,74 @@
+{
+ "id": "tt-2026-02-10",
+ "title": "The 2026 Winter Olympics!",
+ "hook": "This week we're exploring the event schedule for the 2026 Winter Olympics in Milan-Cortina, Italy. The dataset contains detailed information about all 1,866 Olympic events, including both competition and training sessions across various winter sport disciplines. The dataset provides comprehensive scheduling information with start and end times in both local and UTC timezones, venue details, and metadata about each event such as whether it's a medal event or training session. This dataset captures the full scope of Olympic events taking place from early February through the closing ceremonies, including the new ski mountaineering event.",
+ "questions": [
+  "Which sport disciplines have the most events scheduled?",
+  "How are medal events distributed across the days of the Olympics?",
+  "What is the typical duration of different types of events?",
+  "Which venues host the most events?",
+  "How does the schedule vary by day of the week?"
+ ],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "Milano-Cortina 2026 Winter Olympics Data",
+   "url": "https://raw.githubusercontent.com/chendaniely/olympics-2026/refs/heads/main/data/final/olympics/olympics_events.csv"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Olympics Schedule and Results",
+   "url": "https://www.olympics.com/en/milano-cortina-2026/schedule"
+  }
+ ],
+ "tables": [
+  {
+   "file": "schedule.csv",
+   "bytes": 582878,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-02-10/schedule.csv",
+   "columns": [
+    "date",
+    "discipline_code",
+    "discipline_name",
+    "event_code",
+    "event_description",
+    "start_datetime_local",
+    "end_datetime_local",
+    "start_datetime_utc",
+    "end_datetime_utc",
+    "is_medal_event",
+    "is_training",
+    "venue_code",
+    "venue_name",
+    "venue_slug",
+    "location_name",
+    "location_code",
+    "session_code",
+    "estimated_start",
+    "day_of_week",
+    "start_time",
+    "end_time"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-02-10",
+   "year": 2026,
+   "week": 6,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-02-10"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Milano-Cortina 2026 Winter Olympics Data",
+  "host": "milano-cortina 2026 winter olympics data"
+ }
+}

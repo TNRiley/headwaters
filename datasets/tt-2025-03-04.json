@@ -1,0 +1,72 @@
+{
+ "id": "tt-2025-03-04",
+ "title": "Long Beach Animal Shelter",
+ "hook": "This week we're exploring the Long Beach Animal Shelter Data! The dataset comes from the City of Long Beach Animal Care Services via the {animalshelter} R package. This dataset comprises of the intake and outcome record from Long Beach Animal Shelter.",
+ "questions": [
+  "How has the number of pet adoptions changed over the years?",
+  "Which type of pets are adopted most often?"
+ ],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "City of Long Beach Animal Care Services",
+   "url": "https://data.longbeach.gov/explore/dataset/animal-shelter-intakes-and-outcomes/information/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Long Beach Animal Care Services Hits Highest Adoption Rate Ever, Surpasses 2024 Strategic Plan Goal",
+   "url": "https://www.longbeach.gov/press-releases/long-beach-animal-care-services-hits-highest-adoption-rate-ever-surpasses-2024--strategic-plan-goal/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "longbeach.csv",
+   "bytes": 6836987,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-03-04/longbeach.csv",
+   "columns": [
+    "animal_id",
+    "animal_name",
+    "animal_type",
+    "primary_color",
+    "secondary_color",
+    "sex",
+    "dob",
+    "intake_date",
+    "intake_condition",
+    "intake_type",
+    "intake_subtype",
+    "reason_for_intake",
+    "outcome_date",
+    "crossing",
+    "jurisdiction",
+    "outcome_type",
+    "outcome_subtype",
+    "latitude",
+    "longitude",
+    "outcome_is_dead",
+    "was_outcome_alive",
+    "geopoint"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-03-04",
+   "year": 2025,
+   "week": 9,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-03-04"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "City of Long Beach Animal Care Services",
+  "host": "longbeach.gov"
+ }
+}

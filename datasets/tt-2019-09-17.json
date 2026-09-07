@@ -1,0 +1,81 @@
+{
+ "id": "tt-2019-09-17",
+ "title": "National Park Visits",
+ "hook": "This week's data is from dataisplural/data.world. There are some additional datasets that may be interesting in relation to this data - namely US population and gas prices over time. There's also some shapefiles you might be able to use with the sf package. Lastly, a fivethirtyeight article covered this dataset with lots of great visualizations to copy or build off of. parkvisits <- readr::readcsv(\" statepop <- readr::readcsv(\" gasprice <- readr::readcsv(\" library(tidyverse) library(rvest) dfraw <- readcsv(here::here(\"2019/2019-09-17/All National Parks Visitation 1904-2016.csv\")) df <- dfraw %>% janitor::cleannames() %>% mutate(date = lubridate::mdyhms(year)) %>% select(date, gnisid, geometry:yearraw) df %>% writecsv(here::here(\"2019/2019-09-17/nationalparks.csv\")) rawhtml <- url %>% readhtml() %>% htmltable() popdf <- rawhtml %>% chuck(5) %>% gather(key = \"state\", value = \"pop\", AL:DC)…",
+ "questions": [
+  "Regional Boundaries"
+ ],
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Data.world",
+   "url": "https://data.world/inform8n/us-national-parks-visitation-1904-2016-with-boundaries"
+  }
+ ],
+ "articles": [
+  {
+   "name": "`fivethirtyeight` article",
+   "url": "https://fivethirtyeight.com/features/the-national-parks-have-never-been-more-popular/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "national_parks.csv",
+   "bytes": 3397383,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-09-17/national_parks.csv",
+   "columns": [
+    "year_raw",
+    "gnis_id",
+    "geometry",
+    "metadata",
+    "number_of_records",
+    "parkname",
+    "region",
+    "state",
+    "unit_code",
+    "unit_name",
+    "unit_type",
+    "visitors"
+   ]
+  },
+  {
+   "file": "state_pop.csv",
+   "bytes": 92954,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-09-17/state_pop.csv",
+   "columns": [
+    "year",
+    "state",
+    "pop"
+   ]
+  },
+  {
+   "file": "gas_price.csv",
+   "bytes": 1310,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-09-17/gas_price.csv",
+   "columns": [
+    "year",
+    "gas_current",
+    "gas_constant"
+   ]
+  }
+ ],
+ "extra_files": 2,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-09-17",
+   "year": 2019,
+   "week": 38,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-09-17"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Data.World",
+  "host": "data.world"
+ }
+}

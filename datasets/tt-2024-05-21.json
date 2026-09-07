@@ -1,0 +1,54 @@
+{
+ "id": "tt-2024-05-21",
+ "title": "Carbon Majors emissions data",
+ "hook": "This week we're exploring historical emissions data from Carbon Majors. They have complied a database of emissions data going back to 1854. h/t Data is Plural. Carbon Majors is a database of historical production data from 122 of the world’s largest oil, gas, coal, and cement producers. This data is used to quantify the direct operational emissions and emissions from the combustion of marketed products that can be attributed to these entities. These entities include: 75 Investor-owned Companies, 36 State-owned Companies, 11 Nation States, 82 Oil Producing Entities, 81 Gas Entities, 49 Coal Entities, 6 Cement Entities The data spans back to 1854 and contains over 1.42 trillion tonnes of CO2e covering 72% of global fossil fuel and cement emissions since the start of the Industrial Revolution in 1751. They share data with low, medium and high levels of granularity.",
+ "questions": [],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "CarbonMajors dataset",
+   "url": "https://carbonmajors.org/Downloads"
+  }
+ ],
+ "articles": [
+  {
+   "name": "CarbonMajors",
+   "url": "https://carbonmajors.org/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "emissions.csv",
+   "bytes": 1439161,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-05-21/emissions.csv",
+   "columns": [
+    "year",
+    "parent_entity",
+    "parent_type",
+    "commodity",
+    "production_value",
+    "production_unit",
+    "total_emissions_MtCO2e"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-05-21",
+   "year": 2024,
+   "week": 21,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-05-21"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CarbonMajors",
+  "host": "carbonmajors.org"
+ }
+}

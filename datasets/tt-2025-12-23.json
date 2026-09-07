@@ -1,0 +1,78 @@
+{
+ "id": "tt-2025-12-23",
+ "title": "The Languages of the World",
+ "hook": "This week we're exploring The Languages of the World, curated from Glottolog 5.2.1, an open-access database in linguistics, maintained by the Max Planck Institute for Evolutionary Anthropology. Glottolog is the most comprehensive language database in linguistics, and contains information (names, genealogy, geographical information, endangerment status, etc.) of over 8,000 languages of the world.",
+ "questions": [
+  "Which macroareas have the highest concentration of endangered languages?",
+  "Are language isolates more likely to be endangered?",
+  "Which language families span the widest geographic range?",
+  "What geographic patterns emerge when mapping endangered languages?"
+ ],
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Glottolog_5.2",
+   "url": "https://github.com/glottolog/glottolog-cldf/tree/master/cldf"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Glottolog: A Free, Online, Comprehensive Bibliography of the World’s Languages",
+   "url": "https://glottolog.org/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "endangered_status.csv",
+   "bytes": 192267,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/endangered_status.csv",
+   "columns": [
+    "id",
+    "status_code",
+    "status_label"
+   ]
+  },
+  {
+   "file": "families.csv",
+   "bytes": 112944,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/families.csv",
+   "columns": [
+    "id"
+   ]
+  },
+  {
+   "file": "languages.csv",
+   "bytes": 583611,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-23/languages.csv",
+   "columns": [
+    "id",
+    "macroarea",
+    "latitude",
+    "longitude",
+    "iso639p3code",
+    "countries",
+    "is_isolate",
+    "family_id"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-12-23",
+   "year": 2025,
+   "week": 51,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-12-23"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Glottolog_5.2",
+  "host": "glottolog_5.2"
+ }
+}

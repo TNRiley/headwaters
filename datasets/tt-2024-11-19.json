@@ -1,0 +1,58 @@
+{
+ "id": "tt-2024-11-19",
+ "title": "Bob's Burgers Episodes",
+ "hook": "This week we're exploring Bob's Burgers dialogue! Thank you to Steven Ponce for the data, and a blog post demonstrating how to visualize the data! See the {bobsburgersR} R Package for the original transcript data, as well as additional information about each episode!",
+ "questions": [
+  "How have dialogue metrics changed over the seasons?",
+  "Can you find any patterns not shown in Steven Ponce's original visualization?"
+ ],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "bobsburgersR R Package",
+   "url": "https://github.com/poncest/bobsburgersR"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Bob’s Burgers Episode Fingerprints by Season",
+   "url": "https://stevenponce.netlify.app/projects/standalone_visualizations/sa_2024-11-11.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "episode_metrics.csv",
+   "bytes": 28353,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-11-19/episode_metrics.csv",
+   "columns": [
+    "season",
+    "episode",
+    "dialogue_density",
+    "avg_length",
+    "sentiment_variance",
+    "unique_words",
+    "question_ratio",
+    "exclamation_ratio"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-11-19",
+   "year": 2024,
+   "week": 47,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-11-19"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "bobsburgersR",
+  "host": "bobsburgersr"
+ }
+}

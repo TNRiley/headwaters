@@ -1,0 +1,93 @@
+{
+ "id": "tt-2025-06-03",
+ "title": "Project Gutenberg",
+ "hook": "This week we're exploring books from Project Gutenberg and the {gutenbergr} R package! [{gutenbergr} allows you to] Download and process public domain works in the Project Gutenberg collection < Includes metadata for all Project Gutenberg works, so that they can be searched and retrieved.",
+ "questions": [
+  "How many different languages are available in the Project Gutenberg collection? How many books are available in each language?",
+  "Do any authors appear under more than one gutenbergauthorid?",
+  "How might the {gutenbergr} package authors further refine the data for greater ease-of-use?"
+ ],
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "The R gutenbergr package",
+   "url": "https://docs.ropensci.org/gutenbergr/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "50 years of eBooks: 1971-2021",
+   "url": "https://www.gutenberg.org/about/background/50years.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "gutenberg_authors.csv",
+   "bytes": 2850193,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-03/gutenberg_authors.csv",
+   "columns": [
+    "gutenberg_author_id",
+    "author",
+    "alias",
+    "birthdate",
+    "deathdate",
+    "wikipedia",
+    "aliases"
+   ]
+  },
+  {
+   "file": "gutenberg_languages.csv",
+   "bytes": 827281,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-03/gutenberg_languages.csv",
+   "columns": [
+    "gutenberg_id",
+    "language",
+    "total_languages"
+   ]
+  },
+  {
+   "file": "gutenberg_metadata.csv",
+   "bytes": 15123399,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-03/gutenberg_metadata.csv",
+   "columns": [
+    "gutenberg_id",
+    "title",
+    "author",
+    "gutenberg_author_id",
+    "language",
+    "gutenberg_bookshelf",
+    "rights",
+    "has_text"
+   ]
+  },
+  {
+   "file": "gutenberg_subjects.csv",
+   "bytes": 8255248,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-03/gutenberg_subjects.csv",
+   "columns": [
+    "gutenberg_id",
+    "subject_type",
+    "subject"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-06-03",
+   "year": 2025,
+   "week": 22,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-06-03"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The R gutenbergr",
+  "host": "docs.ropensci.org"
+ }
+}

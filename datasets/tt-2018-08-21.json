@@ -1,0 +1,62 @@
+{
+ "id": "tt-2018-08-21",
+ "title": "California Fires",
+ "hook": "Full data from the BuzzFeed news GitHub. Fire Incidents from John Saraceno Data and R code underlying this Jul. 28, 2018 BuzzFeed News article on wildfires in California. The code to process the data and repeat the analysis can be found online here, and in the R Markdown document index.Rmd. Email the author Peter Aldhous at peter.aldhous@buzzfeed.com.",
+ "questions": [],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "BuzzFeed.com",
+   "url": "https://github.com/BuzzFeedNews/2018-07-wildfire-trends"
+  }
+ ],
+ "articles": [
+  {
+   "name": "BuzzFeed News - California Fires",
+   "url": "https://www.buzzfeednews.com/article/peteraldhous/california-wildfires-people-climate"
+  },
+  {
+   "name": "RMarkdown",
+   "url": "https://buzzfeednews.github.io/2018-07-wildfire-trends/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "cal-fire-incidents.csv",
+   "bytes": 2639,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-08-21/cal-fire-incidents.csv",
+   "columns": []
+  },
+  {
+   "file": "calfire_damage.csv",
+   "bytes": 284,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-08-21/calfire_damage.csv",
+   "columns": []
+  },
+  {
+   "file": "week21_calfire_frap.csv",
+   "bytes": 2359608,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-08-21/week21_calfire_frap.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-08-21",
+   "year": 2018,
+   "week": 21,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-08-21"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BuzzFeed.com",
+  "host": "buzzfeed.com"
+ }
+}

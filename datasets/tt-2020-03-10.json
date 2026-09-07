@@ -1,0 +1,106 @@
+{
+ "id": "tt-2020-03-10",
+ "title": "College Tuition, Diversity, and Pay",
+ "hook": "College tuition data is somewhat difficult to find - with many sites limiting it to online tools. The data this week comes from many different sources but originally came from the US Department of Education. The most comprehensive and easily accessible data cames from Tuitiontracker.org who allows for a .csv download! Unfortunately it's in a very wide format that is not ready for analysis, but tidyr can make quick work of that with pivotlonger(). It has a massive amount of data, I have filtered it down to a few tables as seen in the attached .csv files. Tuition and diversity data can be quickly joined by dplyr::leftjoin(tuitioncost, diversityschool, by = c(\"name\", \"state\")). Some of the other tables can also be joined but there may be some fuzzy matching needed. Historical averages from the NCES - cover 1985-2016.",
+ "questions": [],
+ "subjects": [
+  "education",
+  "society & demographics",
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "TuitionTracker.org",
+   "url": "https://www.tuitiontracker.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "TuitionTracker.org",
+   "url": "https://www.tuitiontracker.org/school.html?unitid=228778"
+  }
+ ],
+ "tables": [
+  {
+   "file": "tuition_cost.csv",
+   "bytes": 243625,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-10/tuition_cost.csv",
+   "columns": [
+    "state",
+    "state_code",
+    "type",
+    "degree_length",
+    "room_and_board",
+    "in_state_tuition",
+    "in_state_total",
+    "out_of_state_tuition",
+    "out_of_state_total"
+   ]
+  },
+  {
+   "file": "tuition_income.csv",
+   "bytes": 16054360,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-10/tuition_income.csv",
+   "columns": [
+    "state",
+    "total_price",
+    "year",
+    "campus",
+    "net_cost",
+    "income_lvl"
+   ]
+  },
+  {
+   "file": "salary_potential.csv",
+   "bytes": 53188,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-10/salary_potential.csv",
+   "columns": [
+    "rank",
+    "state_name",
+    "early_career_pay",
+    "mid_career_pay",
+    "make_world_better_percent",
+    "stem_percent"
+   ]
+  },
+  {
+   "file": "historical_tuition.csv",
+   "bytes": 10765,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-10/historical_tuition.csv",
+   "columns": [
+    "type",
+    "year",
+    "tuition_type",
+    "tuition_cost"
+   ]
+  },
+  {
+   "file": "diversity_school.csv",
+   "bytes": 3206496,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-10/diversity_school.csv",
+   "columns": [
+    "total_enrollment",
+    "state",
+    "category",
+    "enrollment"
+   ]
+  }
+ ],
+ "extra_files": 6,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-03-10",
+   "year": 2020,
+   "week": 11,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-03-10"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "TuitionTracker.org",
+  "host": "tuitiontracker.org"
+ }
+}

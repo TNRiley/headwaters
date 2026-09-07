@@ -1,0 +1,69 @@
+{
+ "id": "tt-2021-02-23",
+ "title": "Employment and Earnings",
+ "hook": "Please note that the #DuboisChallenge is still on going! It might be interesting to revisit that data from last week OR apply the same visual techniques to this modern data. The data this week comes from the BLS, specifically table cpsaat17 across several years. Employed persons by industry, sex, race, and occupation I went ahead and downloaded the data by year for the past 6 years (2015 to 2020). I also scraped some earnings data from their self-service data tool, which provided an interesting challenge! If you want to play around with some \"offline\" web scraping it's worth a shot. Weekly and hourly earnings data from the Current Population Survey The BLS has a corresponding article with similar summary data.",
+ "questions": [],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "BLS",
+   "url": "https://www.bls.gov/cps/tables.htm#charemp_m"
+  }
+ ],
+ "articles": [
+  {
+   "name": "BLS Article",
+   "url": "https://www.bls.gov/careeroutlook/2018/article/blacks-in-the-labor-force.htm"
+  }
+ ],
+ "tables": [
+  {
+   "file": "employed.csv",
+   "bytes": 1120778,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-23/employed.csv",
+   "columns": [
+    "industry",
+    "major_occupation",
+    "minor_occupation",
+    "race_gender",
+    "industry_total",
+    "employ_n",
+    "year"
+   ]
+  },
+  {
+   "file": "earn.csv",
+   "bytes": 284247,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-23/earn.csv",
+   "columns": [
+    "sex",
+    "race",
+    "ethnic_origin",
+    "age",
+    "year",
+    "quarter",
+    "n_persons",
+    "median_weekly_earn"
+   ]
+  }
+ ],
+ "extra_files": 8,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-02-23",
+   "year": 2021,
+   "week": 9,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-02-23"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BLS",
+  "host": "bls.gov"
+ }
+}

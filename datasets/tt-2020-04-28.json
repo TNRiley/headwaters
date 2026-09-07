@@ -1,0 +1,89 @@
+{
+ "id": "tt-2020-04-28",
+ "title": "Broadway Musicals",
+ "hook": "Huge thanks to Alex Cookson who provided ALL of this week's data, cleaning script, and readme! Check out his recent blog post on the same data. This data comes from Playbill. Weekly box office grosses comprise data on revenue and attendance figures for theatres that are part of The Broadway League, an industry association for, you guessed it, Broadway theatre. CPI data is from the U.S. Bureau of Labor Statistics. There are many, many measures of CPI, so the one used here is \"All items less food and energy in U.S. city average, all urban consumers, seasonally adjusted\" (table CUSR0000SA0L1E).",
+ "questions": [],
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Playbill",
+   "url": "https://www.playbill.com/grosses"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Alex Cookson",
+   "url": "https://www.alexcookson.com/post/most-successful-broadway-show-of-all-time/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "grosses.csv",
+   "bytes": 4904731,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-04-28/grosses.csv",
+   "columns": [
+    "week_ending",
+    "week_number",
+    "weekly_gross_overall",
+    "show",
+    "theatre",
+    "weekly_gross",
+    "potential_gross",
+    "avg_ticket_price",
+    "top_ticket_price",
+    "seats_sold",
+    "seats_in_theatre",
+    "pct_capacity",
+    "performances",
+    "previews"
+   ]
+  },
+  {
+   "file": "synopses.csv",
+   "bytes": 246387,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-04-28/synopses.csv",
+   "columns": [
+    "show",
+    "synopsis"
+   ]
+  },
+  {
+   "file": "cpi.csv",
+   "bytes": 7467,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-04-28/cpi.csv",
+   "columns": [
+    "year_month",
+    "cpi"
+   ]
+  },
+  {
+   "file": "pre-1985-starts.csv",
+   "bytes": 505,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-04-28/pre-1985-starts.csv",
+   "columns": [
+    "week_ending",
+    "show",
+    "run_start_week"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-04-28",
+   "year": 2020,
+   "week": 18,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-04-28"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Playbill",
+  "host": "playbill.com"
+ }
+}

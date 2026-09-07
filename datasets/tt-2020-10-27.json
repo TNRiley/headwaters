@@ -1,0 +1,62 @@
+{
+ "id": "tt-2020-10-27",
+ "title": "Canadian Wind Turbines",
+ "hook": "The data this week comes from the Government of Canada. H/t to Will Noel, Tim Weis and Andrew Leach for collecting the data. Blake Shaffer and Alyssa Goldberg for visualizing and sharing! Canada's National Observer Article on this dataset. tuesdata <- tidytuesdayR::ttload('2020-10-27') tuesdata <- tidytuesdayR::ttload(2020, week = 44) windturbine <- tuesdata$wind-turbine windturbine <- readr::readcsv('",
+ "questions": [],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "Canada",
+ "sources": [
+  {
+   "name": "open.canada.ca",
+   "url": "https://open.canada.ca/data/en/dataset/79fdad93-9025-49ad-ba16-c26d718cc070"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Canada's National Observer",
+   "url": "https://www.nationalobserver.com/2020/10/23/news/wind-turbine-database-canada"
+  }
+ ],
+ "tables": [
+  {
+   "file": "wind-turbine.csv",
+   "bytes": 829926,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-10-27/wind-turbine.csv",
+   "columns": [
+    "objectid",
+    "province_territory",
+    "project_name",
+    "total_project_capacity_mw",
+    "turbine_identifier",
+    "turbine_number_in_project",
+    "turbine_rated_capacity_k_w",
+    "rotor_diameter_m",
+    "hub_height_m",
+    "manufacturer",
+    "model",
+    "commissioning_date",
+    "latitude",
+    "longitude",
+    "notes"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-10-27",
+   "year": 2020,
+   "week": 44,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-10-27"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "open.canada.ca",
+  "host": "open.canada.ca"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "tt-2019-09-10",
+ "title": "Amusement Park Injuries",
+ "hook": "This week's data is from data.world and the Safer Parks database. A lot of free text this week, some inconsistent NAs (n/a, N/A) and dates (ymd, dmy). A good chance to do some data cleaning and then take a look at frequency, type of injury, and analyze free text. Additional data can be found at SaferParks Database",
+ "questions": [],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Data.world",
+   "url": "https://data.world/amillerbernd/texas-amusement-park-accidents/workspace/file?filename=Amusement-Park-Injuries-xlsxCleaned.xls"
+  },
+  {
+   "name": "Saferparks",
+   "url": "https://saferparksdata.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Saferparks",
+   "url": "https://saferparksdata.org/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "tx_injuries.csv",
+   "bytes": 78892,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-09-10/tx_injuries.csv",
+   "columns": [
+    "injury_report_rec",
+    "name_of_operation",
+    "city",
+    "st",
+    "injury_date",
+    "ride_name",
+    "serial_no",
+    "gender",
+    "age",
+    "body_part",
+    "alleged_injury",
+    "cause_of_injury",
+    "other"
+   ]
+  },
+  {
+   "file": "saferparks.csv",
+   "bytes": 2832488,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-09-10/saferparks.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-09-10",
+   "year": 2019,
+   "week": 37,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-09-10"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Data.World",
+  "host": "data.world"
+ }
+}

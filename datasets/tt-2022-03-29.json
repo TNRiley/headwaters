@@ -1,0 +1,76 @@
+{
+ "id": "tt-2022-03-29",
+ "title": "Collegiate Sports Budgets",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "sports & games",
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Equity in Athletics Data Analysis",
+   "url": "https://ope.ed.gov/athletics/#/datafile/list"
+  }
+ ],
+ "articles": [
+  {
+   "name": "NPR",
+   "url": "https://www.npr.org/2021/10/27/1049530975/ncaa-spends-more-on-mens-sports-report-reveals"
+  }
+ ],
+ "tables": [
+  {
+   "file": "sports.csv",
+   "bytes": 25544572,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-03-29/sports.csv",
+   "columns": [
+    "year",
+    "unitid",
+    "institution_name",
+    "city_txt",
+    "state_cd",
+    "zip_text",
+    "classification_code",
+    "classification_name",
+    "classification_other",
+    "ef_male_count",
+    "ef_female_count",
+    "ef_total_count",
+    "sector_cd",
+    "sector_name",
+    "sportscode",
+    "partic_men",
+    "partic_women",
+    "partic_coed_men",
+    "partic_coed_women",
+    "sum_partic_men",
+    "sum_partic_women",
+    "rev_men",
+    "rev_women",
+    "total_rev_menwomen",
+    "exp_men",
+    "exp_women",
+    "total_exp_menwomen",
+    "sports"
+   ]
+  }
+ ],
+ "extra_files": 5,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2022-03-29",
+   "year": 2022,
+   "week": 13,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-03-29"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Equity in Athletics Data Analysis",
+  "host": "ope.ed.gov"
+ }
+}

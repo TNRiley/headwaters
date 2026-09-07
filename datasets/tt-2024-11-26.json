@@ -1,0 +1,79 @@
+{
+ "id": "tt-2024-11-26",
+ "title": "U.S. Customs and Border Protection (CBP) Encounter Data",
+ "hook": "This week we're exploring U.S. Customs and Border Protection (CBP) encounter data: Encounter data includes U.S. Border Patrol Title 8 apprehensions, Office of Field Operations Title 8 inadmissibles, and all Title 42 expulsions for fiscal years 2020 to date. Data is available for the Northern Land Border, Southwest Land Border, and Nationwide (i.e., air, land, and sea modes of transportation) encounters. Data is extracted from live CBP systems and data sources. Statistical information is subject to change due to corrections, systems changes, change in data definition, additional information, or encounters pending final review. Final statistics are available at the conclusion of each fiscal year.",
+ "questions": [
+  "How has the implementation (and potential end) of Title 42 affected migration and enforcement trends compared to Title 8 actions?",
+  "What are the key differences in migration patterns and enforcement activity between the Northern and Southwest Land Borders?",
+  "Are there seasonal or year-over-year trends in encounters that can help predict future migration patterns?"
+ ],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "U.S. Customs and Border Protection",
+   "url": "https://www.cbp.gov/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "U.S. Border Patrol Encounters",
+   "url": "https://gdatascience.github.io/us_border_patrol_encounters/us_border_patrol_encounters.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "cbp_resp.csv",
+   "bytes": 8661902,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-11-26/cbp_resp.csv",
+   "columns": [
+    "fiscal_year",
+    "month_grouping",
+    "month_abbv",
+    "component",
+    "land_border_region",
+    "area_of_responsibility",
+    "aor_abbv",
+    "demographic",
+    "citizenship",
+    "title_of_authority",
+    "encounter_type",
+    "encounter_count"
+   ]
+  },
+  {
+   "file": "cbp_state.csv",
+   "bytes": 3478971,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-11-26/cbp_state.csv",
+   "columns": [
+    "fiscal_year",
+    "month_grouping",
+    "month_abbv",
+    "land_border_region",
+    "state",
+    "demographic",
+    "citizenship",
+    "title_of_authority",
+    "encounter_count"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-11-26",
+   "year": 2024,
+   "week": 48,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-11-26"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "U.S. Customs and Border Protection",
+  "host": "cbp.gov"
+ }
+}

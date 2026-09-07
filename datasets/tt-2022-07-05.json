@@ -1,0 +1,132 @@
+{
+ "id": "tt-2022-07-05",
+ "title": "San Francisco Rentals",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Kate Pennington",
+   "url": "https://www.katepennington.org/data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Matrix-Berkeley",
+   "url": "https://matrix.berkeley.edu/research-article/kate-pennington-on-gentrification-and-displacement-in-san-francisco/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "rent.csv",
+   "bytes": 39582626,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-07-05/rent.csv",
+   "columns": [
+    "post_id",
+    "date",
+    "year",
+    "nhood",
+    "city",
+    "county",
+    "price",
+    "beds",
+    "baths",
+    "sqft",
+    "room_in_apt",
+    "address",
+    "lat",
+    "lon",
+    "title",
+    "descr",
+    "details"
+   ]
+  },
+  {
+   "file": "sf_permits.csv",
+   "bytes": 42941336,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-07-05/sf_permits.csv",
+   "columns": [
+    "permit_number",
+    "permit_type",
+    "permit_type_definition",
+    "permit_creation_date",
+    "block",
+    "lot",
+    "street_number",
+    "street_number_suffix",
+    "street_name",
+    "street_suffix",
+    "unit",
+    "unit_suffix",
+    "description",
+    "status",
+    "status_date",
+    "filed_date",
+    "issued_date",
+    "completed_date",
+    "first_construction_document_date",
+    "structural_notification",
+    "number_of_existing_stories",
+    "number_of_proposed_stories",
+    "voluntary_soft_story_retrofit",
+    "fire_only_permit",
+    "permit_expiration_date",
+    "estimated_cost",
+    "revised_cost",
+    "existing_use",
+    "existing_units",
+    "proposed_use",
+    "proposed_units",
+    "plansets",
+    "tidf_compliance",
+    "existing_construction_type",
+    "existing_construction_type_description",
+    "proposed_construction_type",
+    "proposed_construction_type_description",
+    "site_permit",
+    "supervisor_district",
+    "neighborhoods_analysis_boundaries",
+    "zipcode",
+    "location",
+    "record_id",
+    "date"
+   ]
+  },
+  {
+   "file": "new_construction.csv",
+   "bytes": 14442,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-07-05/new_construction.csv",
+   "columns": [
+    "cartodb_id",
+    "the_geom",
+    "the_geom_webmercator",
+    "county",
+    "year",
+    "totalproduction",
+    "sfproduction",
+    "mfproduction",
+    "mhproduction",
+    "source"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2022-07-05",
+   "year": 2022,
+   "week": 27,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-07-05"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Kate Pennington",
+  "host": "katepennington.org"
+ }
+}

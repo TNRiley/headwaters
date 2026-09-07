@@ -1,0 +1,46 @@
+{
+ "id": "tt-2018-08-28",
+ "title": "NFL Stats",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "pro-football-reference.com",
+   "url": "https://www.pro-football-reference.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "eldo.co",
+   "url": "https://www.eldo.co/nfl-rushing-and-passing-in-four-charts.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "nfl_2010-2017.csv",
+   "bytes": 7440128,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-08-28/nfl_2010-2017.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-08-28",
+   "year": 2018,
+   "week": 22,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-08-28"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Pro Football Reference",
+  "host": "pro-football-reference.com"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "tt-2019-11-12",
+ "title": "CRAN Code",
+ "hook": "This week's data is from the CRAN courtesy of Phillip Massicotte. He analyzed the lines of code and the different languages in all of the R packages on CRAN. tuesdata <- tidytuesdayR::ttload(\"2019-11-12\") tuesdata <- tidytuesdayR::ttload(2019, week = 46) crancode <- tuesdata$loccranpackages Phillip's script can be found at his blog.",
+ "questions": [],
+ "subjects": [
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "r package",
+ "geography": "",
+ "sources": [
+  {
+   "name": "CRAN",
+   "url": "https://cran.r-project.org/src/contrib/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Phillip Massicotte",
+   "url": "https://www.pmassicotte.com/post/analyzing-the-programming-languages-used-in-r-packages/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "loc_cran_packages.csv",
+   "bytes": 1101116,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-11-12/loc_cran_packages.csv",
+   "columns": [
+    "file",
+    "language",
+    "blank",
+    "comment",
+    "code",
+    "pkg_name",
+    "version"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-11-12",
+   "year": 2019,
+   "week": 46,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-11-12"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CRAN",
+  "host": "cran"
+ }
+}

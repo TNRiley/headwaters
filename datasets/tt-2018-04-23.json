@@ -1,0 +1,46 @@
+{
+ "id": "tt-2018-04-23",
+ "title": "Australian Salaries by Gender",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "Australia",
+ "sources": [
+  {
+   "name": "data.gov.au",
+   "url": "https://data.gov.au/dataset/taxation-statistics-2013-14/resource/c506c052-be2f-4fba-8a65-90f9e60f7775?inner_span=True"
+  }
+ ],
+ "articles": [
+  {
+   "name": "data.gov.au",
+   "url": "https://data.gov.au/dataset/taxation-statistics-2013-14/resource/c506c052-be2f-4fba-8a65-90f9e60f7775?inner_span=True"
+  }
+ ],
+ "tables": [
+  {
+   "file": "week4_australian_salary.csv",
+   "bytes": 151719,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-04-23/week4_australian_salary.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-04-23",
+   "year": 2018,
+   "week": 4,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-04-23"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "data.gov.au",
+  "host": "gov.au"
+ }
+}

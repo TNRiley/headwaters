@@ -1,0 +1,138 @@
+{
+ "id": "tt-2023-01-10",
+ "title": "Bird FeederWatch data",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "FeederWatch",
+   "url": "https://feederwatch.org/explore/raw-dataset-requests/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Over 30 Years of Standardized Bird Counts at Supplementary Feeding Stations in North America: A Citizen Science Data Report for Project FeederWatch",
+   "url": "https://www.frontiersin.org/articles/10.3389/fevo.2021.619682/full"
+  }
+ ],
+ "tables": [
+  {
+   "file": "PFW_2021_public.csv",
+   "bytes": 14704853,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-01-10/PFW_2021_public.csv",
+   "columns": [
+    "loc_id",
+    "latitude",
+    "longitude",
+    "subnational1_code",
+    "entry_technique",
+    "sub_id",
+    "obs_id",
+    "Month",
+    "Day",
+    "Year",
+    "PROJ_PERIOD_ID",
+    "species_code",
+    "how_many",
+    "valid",
+    "reviewed",
+    "day1_am",
+    "day1_pm",
+    "day2_am",
+    "day2_pm",
+    "effort_hrs_atleast",
+    "snow_dep_atleast",
+    "Data_Entry_Method"
+   ]
+  },
+  {
+   "file": "PFW_count_site_data_public_2021.csv",
+   "bytes": 32596253,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-01-10/PFW_count_site_data_public_2021.csv",
+   "columns": [
+    "loc_id",
+    "proj_period_id",
+    "yard_type_pavement",
+    "yard_type_garden",
+    "yard_type_landsca",
+    "yard_type_woods",
+    "yard_type_desert",
+    "hab_dcid_woods",
+    "hab_evgr_woods",
+    "hab_mixed_woods",
+    "hab_orchard",
+    "hab_park",
+    "hab_water_fresh",
+    "hab_water_salt",
+    "hab_residential",
+    "hab_industrial",
+    "hab_agricultural",
+    "hab_desert_scrub",
+    "hab_young_woods",
+    "hab_swamp",
+    "hab_marsh",
+    "evgr_trees_atleast",
+    "evgr_shrbs_atleast",
+    "dcid_trees_atleast",
+    "dcid_shrbs_atleast",
+    "fru_trees_atleast",
+    "cacti_atleast",
+    "brsh_piles_atleast",
+    "water_srcs_atleast",
+    "bird_baths_atleast",
+    "nearby_feeders",
+    "squirrels",
+    "cats",
+    "dogs",
+    "humans",
+    "housing_density",
+    "fed_yr_round",
+    "fed_in_jan",
+    "fed_in_feb",
+    "fed_in_mar",
+    "fed_in_apr",
+    "fed_in_may",
+    "fed_in_jun",
+    "fed_in_jul",
+    "fed_in_aug",
+    "fed_in_sep",
+    "fed_in_oct",
+    "fed_in_nov",
+    "fed_in_dec",
+    "numfeeders_suet",
+    "numfeeders_ground",
+    "numfeeders_hanging",
+    "numfeeders_platfrm",
+    "numfeeders_humming",
+    "numfeeders_water",
+    "numfeeders_thistle",
+    "numfeeders_fruit",
+    "numfeeders_hopper",
+    "numfeeders_tube",
+    "numfeeders_other",
+    "population_atleast",
+    "count_area_size_sq_m_atleast"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-01-10",
+   "year": 2023,
+   "week": 2,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-01-10"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FeederWatch",
+  "host": "feederwatch.org"
+ }
+}

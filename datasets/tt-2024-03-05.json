@@ -1,0 +1,62 @@
+{
+ "id": "tt-2024-03-05",
+ "title": "Trash Wheel Collection Data",
+ "hook": "This week's data is Trash Wheel Collection Data from the Mr. Trash Wheel Baltimore Healthy Harbor initiative. Mr. Trash Wheel is a semi-autonomous trash interceptor that is placed at the end of a river, stream or other outfall. Far too lazy to chase trash around the ocean, Mr. Trash Wheel stays put and waits for the waste to flow to him. Sustainably powered and built to withstand the biggest storms, Mr. Trash Wheel uses a unique blend of solar and hydro power to pull hundreds of tons of trash out of the water each year. The Healthy Harbor initiative has four Trash Wheels collecting trash. Mr. Trash Wheel was the first to start, and since then three more have joined the family. The Trash Wheel Family has collected more than 2,362 tons of trash. See more about how Mr. Trash Wheel works. 1.",
+ "questions": [],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Healthy Harbor Trash Wheel Collection Data",
+   "url": "https://docs.google.com/spreadsheets/d/1b8Lbe-z3PNb3H8nSsSjrwK2B0ReAblL2/edit#gid=1143432795"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Mr. Trash Wheel",
+   "url": "https://www.mrtrashwheel.com/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "trashwheel.csv",
+   "bytes": 92586,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-03-05/trashwheel.csv",
+   "columns": [
+    "ID",
+    "Dumpster",
+    "Month",
+    "Year",
+    "Date",
+    "Weight",
+    "Volume",
+    "PlasticBottles",
+    "Polystyrene",
+    "CigaretteButts",
+    "GlassBottles",
+    "PlasticBags",
+    "Wrappers",
+    "SportsBalls",
+    "HomesPowered"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-03-05",
+   "year": 2024,
+   "week": 10,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-03-05"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Healthy Harbor Trash Wheel Collection Data",
+  "host": "healthy harbor trash wheel collection data"
+ }
+}

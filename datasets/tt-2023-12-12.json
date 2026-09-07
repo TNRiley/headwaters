@@ -1,0 +1,71 @@
+{
+ "id": "tt-2023-12-12",
+ "title": "Holiday Movies",
+ "hook": "Happy holidays! This week we're exploring \"holiday\" movies: movies with \"holiday\", \"Christmas\", \"Hanukkah\", or \"Kwanzaa\" (or variants thereof) in their title! The data this week comes from the Internet Movie Database. We don't have an article using exactly this dataset, but you might get inspiration from this Christmas Movies blog post by Milán Janosov at Central European University.",
+ "questions": [],
+ "subjects": [
+  "society & demographics",
+  "film & television"
+ ],
+ "provider_type": "reference works",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "IMDb non-commercial datasets",
+   "url": "https://developer.imdb.com/non-commercial-datasets/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Christmas Movies blog",
+   "url": "https://networkdatascience.ceu.edu/article/2019-12-16/christmas-movies"
+  }
+ ],
+ "tables": [
+  {
+   "file": "holiday_movies.csv",
+   "bytes": 337079,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-12/holiday_movies.csv",
+   "columns": [
+    "tconst",
+    "title_type",
+    "primary_title",
+    "original_title",
+    "year",
+    "runtime_minutes",
+    "genres",
+    "simple_title",
+    "average_rating",
+    "num_votes",
+    "christmas",
+    "hanukkah",
+    "kwanzaa",
+    "holiday"
+   ]
+  },
+  {
+   "file": "holiday_movie_genres.csv",
+   "bytes": 80080,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-12/holiday_movie_genres.csv",
+   "columns": [
+    "tconst",
+    "genres"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-12-12",
+   "year": 2023,
+   "week": 50,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-12-12"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "IMDb non-commercial",
+  "host": "developer.imdb.com"
+ }
+}

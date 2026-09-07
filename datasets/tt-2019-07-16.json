@@ -1,0 +1,67 @@
+{
+ "id": "tt-2019-07-16",
+ "title": "R4DS Membership",
+ "hook": "In honor of the R4DS Online Learning Community team's recent presentation at useR-2019, here are the stats for the R4DS community from it's founding through the start of July. No user names or user information is included - it is aggregated by date. See Jesse's talk about founding this community here. Join us on Slack here or check out our website. r4dsmembers <- readr::readcsv(\"",
+ "questions": [],
+ "subjects": [
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "R4DS Slack",
+   "url": "https://join.slack.com/t/rfordatascience/shared_invite/enQtMzA1Nzk1MjIzNDczLTY0OTVlMzM3ZTU5ZjA3NWE5ZDkxOGVmNjRjODQ2YmRjMzg4NWQxMDAxZTcwNzViZTczOThiNzBhYWJhZDM2ZTU"
+  }
+ ],
+ "articles": [
+  {
+   "name": "R4DS useR Presentation",
+   "url": "https://t.co/wNexiphbr5"
+  }
+ ],
+ "tables": [
+  {
+   "file": "r4ds_members.csv",
+   "bytes": 59469,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-07-16/r4ds_members.csv",
+   "columns": [
+    "date",
+    "total_membership",
+    "full_members",
+    "guests",
+    "daily_active_members",
+    "daily_members_posting_messages",
+    "weekly_active_members",
+    "weekly_members_posting_messages",
+    "messages_in_public_channels",
+    "messages_in_private_channels",
+    "messages_in_shared_channels",
+    "messages_in_d_ms",
+    "percent_of_messages_public_channels",
+    "percent_of_messages_private_channels",
+    "percent_of_messages_d_ms",
+    "percent_of_views_public_channels",
+    "percent_of_views_private_channels",
+    "percent_of_views_d_ms",
+    "public_channels_single_workspace",
+    "messages_posted"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-07-16",
+   "year": 2019,
+   "week": 29,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-07-16"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "R4DS Slack",
+  "host": "join.slack.com"
+ }
+}

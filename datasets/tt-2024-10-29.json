@@ -1,0 +1,66 @@
+{
+ "id": "tt-2024-10-29",
+ "title": "Monster Movies",
+ "hook": "This week we're exploring \"monster\" movies: movies with \"monster\" in their title! The data this week comes from the Internet Movie Database. Check out \"Why Do People Like Horror Films? A Statistical Analysis\" for an exploration of \"the unique appeal of scary movies\". What are the most common combinations of genres for \"monster\" movies? How do \"monster\" movies compare to \"summer\" movies or \"holiday\" movies? What words are joined with \"monster\" in popular \"monster\" movies?",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "IMDb non-commercial datasets",
+   "url": "https://developer.imdb.com/non-commercial-datasets/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Why Do People Like Horror Films? A Statistical Analysis",
+   "url": "https://www.statsignificant.com/p/why-do-people-like-horror-films-a"
+  }
+ ],
+ "tables": [
+  {
+   "file": "monster_movie_genres.csv",
+   "bytes": 23378,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-10-29/monster_movie_genres.csv",
+   "columns": [
+    "tconst",
+    "genres"
+   ]
+  },
+  {
+   "file": "monster_movies.csv",
+   "bytes": 80709,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-10-29/monster_movies.csv",
+   "columns": [
+    "tconst",
+    "title_type",
+    "primary_title",
+    "original_title",
+    "year",
+    "runtime_minutes",
+    "genres",
+    "simple_title",
+    "average_rating",
+    "num_votes"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-10-29",
+   "year": 2024,
+   "week": 44,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-10-29"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "IMDb non-commercial",
+  "host": "developer.imdb.com"
+ }
+}

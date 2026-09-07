@@ -1,0 +1,60 @@
+{
+ "id": "tt-2023-11-14",
+ "title": "Diwali Sales Data",
+ "hook": "This week is Diwali, the festival of lights! The data this week comes from sales data for a retail store during the Diwali festival period in India. The data is shared on Kaggle by Saad Haroon. This week we're sharing Python data analysis examples! There's a few out there, but these ones from Brushan Shelke or Vikas Vachheta (see the DiwaliSalesAnalysis.ipynb file for the code) are some data exploration analyses.",
+ "questions": [],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "Diwali sales data",
+   "url": "https://www.kaggle.com/datasets/saadharoon27/diwali-sales-dataset"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Diwali sales data exploration (in Python)",
+   "url": "https://www.kaggle.com/code/bhushanshelke69/diwali-data-exploration"
+  }
+ ],
+ "tables": [
+  {
+   "file": "diwali_sales_data.csv",
+   "bytes": 999486,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-11-14/diwali_sales_data.csv",
+   "columns": [
+    "User_ID",
+    "Cust_name",
+    "Product_ID",
+    "Gender",
+    "Age Group",
+    "Age",
+    "Marital_Status",
+    "State",
+    "Zone",
+    "Occupation",
+    "Product_Category",
+    "Orders",
+    "Amount"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-11-14",
+   "year": 2023,
+   "week": 46,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-11-14"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Diwali sales data",
+  "host": "diwali sales data"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "tt-2020-03-17",
+ "title": "The Office",
+ "hook": "The data this week comes from the schrute R package for The Office transcripts and data.world for IMDB ratings of each episode. If you'd like to use the schrute R package for ALL the lines/dialogue from the show - please install it from CRAN via install.packages(\"schrute\"). A quick example from the vignette can be found here. If you want to do text analysis - make sure to check out the tidytext package - a vignette can be found here and the Tidy Text Mining with R book can be found freely online here. Lastly - the pudding analyzed The Office dialogue across a few charts - their article is here. officeratings <- readr::readcsv(' tuesdata <- tidytuesdayR::ttload('2020-03-17') tuesdata <- tidytuesdayR::ttload(2020, week = 12) officeratings <- tuesdata$officeratings",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "r package",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "`schrute`",
+   "url": "https://bradlindblad.github.io/schrute/index.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Pudding",
+   "url": "https://pudding.cool/2017/08/the-office/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "office_ratings.csv",
+   "bytes": 7191,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-17/office_ratings.csv",
+   "columns": [
+    "season",
+    "episode",
+    "title",
+    "imdb_rating",
+    "total_votes",
+    "air_date",
+    "index",
+    "season",
+    "episode",
+    "episode_name",
+    "director",
+    "writer",
+    "character",
+    "text",
+    "text_w_direction"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-03-17",
+   "year": 2020,
+   "week": 12,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-03-17"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "schrute",
+  "host": "bradlindblad.github.io"
+ }
+}

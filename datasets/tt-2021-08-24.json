@@ -1,0 +1,101 @@
+{
+ "id": "tt-2021-08-24",
+ "title": "Lemurs",
+ "hook": "The data this week comes from Duke Lemur Center and was cleaned by Jesse Mostipak. ### About Lemurs and the Duke Lemur Center The Duke Lemur Center houses over 200 lemurs across 14 species – the most diverse population of lemurs on Earth, outside their native Madagascar. Lemurs are the most threatened group of mammals on the planet, and 95% of lemur species are at risk of extinction. Our mission is to learn everything we can about lemurs – because the more we learn, the better we can work to save them from extinction. They are endemic only to Madagascar, so it's essentially a one-shot deal: once lemurs are gone from Madagascar, they are gone from the wild. By studying the variables that most affect their health, reproduction, and social dynamics, the Duke Lemur Center learns how to most effectively focus their conservation efforts.",
+ "questions": [],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Kaggle",
+   "url": "https://www.kaggle.com/jessemostipak/duke-lemur-center-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Zehr et al, 2014 - Nature",
+   "url": "https://www.nature.com/articles/sdata201419"
+  }
+ ],
+ "tables": [
+  {
+   "file": "lemur_data.csv",
+   "bytes": 21946363,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-08-24/lemur_data.csv",
+   "columns": [
+    "﻿variable",
+    "taxon",
+    "dlc_id",
+    "hybrid",
+    "sex",
+    "current_resident",
+    "stud_book",
+    "dob",
+    "birth_month",
+    "estimated_dob",
+    "birth_type",
+    "birth_institution",
+    "litter_size",
+    "expected_gestation",
+    "estimated_concep",
+    "concep_month",
+    "dam_id",
+    "dam_name",
+    "dam_taxon",
+    "dam_dob",
+    "dam_age_at_concep_y",
+    "sire_id",
+    "sire_name",
+    "sire_taxon",
+    "sire_dob",
+    "sire_age_at_concep_y",
+    "dod",
+    "age_at_death_y",
+    "age_of_living_y",
+    "age_last_verified_y",
+    "age_max_live_or_dead_y",
+    "n_known_offspring",
+    "dob_estimated",
+    "weight_g",
+    "weight_date",
+    "month_of_weight",
+    "age_at_wt_d",
+    "age_at_wt_wk",
+    "age_at_wt_mo",
+    "age_at_wt_mo_no_dec",
+    "age_at_wt_y",
+    "change_since_prev_wt_g",
+    "days_since_prev_wt",
+    "avg_daily_wt_change_g",
+    "days_before_death",
+    "r_min_dam_age_at_concep_y",
+    "age_category",
+    "preg_status",
+    "expected_gestation_d",
+    "concep_date_if_preg",
+    "infant_dob_if_preg",
+    "days_before_inf_birth_if_preg",
+    "pct_preg_remain_if_preg",
+    "infant_lit_sz_if_preg"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-08-24",
+   "year": 2021,
+   "week": 35,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-08-24"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Kaggle",
+  "host": "kaggle"
+ }
+}

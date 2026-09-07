@@ -1,0 +1,59 @@
+{
+ "id": "tt-2021-04-20",
+ "title": "Netflix Titles",
+ "hook": "The data this week comes from Kaggle w/ credit to Shivam Bansal. This dataset consists of tv shows and movies available on Netflix as of 2019. The dataset is collected from Flixable which is a third-party Netflix search engine. In 2018, they released an interesting report which shows that the number of TV shows on Netflix has nearly tripled since 2010. The streaming service's number of movies has decreased by more than 2,000 titles since 2010, while its number of TV shows has nearly tripled. It will be interesting to explore what all other insights can be obtained from the same dataset. Integrating this dataset with other external datasets such as IMDB ratings, rotten tomatoes can also provide many interesting findings. tuesdata <- tidytuesdayR::ttload('2021-04-20') tuesdata <- tidytuesdayR::ttload(2021, week = 17) netflixtitles <- readr::readcsv(' No cleaning script this week, enjoy!",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Kaggle",
+   "url": "https://www.kaggle.com/shivamb/netflix-shows"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Flixable",
+   "url": "https://flixable.com/netflix-museum/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "netflix_titles.csv",
+   "bytes": 3000491,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-04-20/netflix_titles.csv",
+   "columns": [
+    "show_id",
+    "type",
+    "title",
+    "director",
+    "cast",
+    "country",
+    "date_added",
+    "release_year",
+    "rating",
+    "duration",
+    "listed_in",
+    "description"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-04-20",
+   "year": 2021,
+   "week": 17,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-04-20"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Kaggle",
+  "host": "kaggle"
+ }
+}

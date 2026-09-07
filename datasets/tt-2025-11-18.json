@@ -1,0 +1,55 @@
+{
+ "id": "tt-2025-11-18",
+ "title": "The Complete Sherlock Holmes",
+ "hook": "This week we're exploring the complete line-by-line text of the Sherlock Holmes stories and novels, made available through the {sherlock} R package by Emil Hvitfeldt. The dataset includes the full collection of Holmes texts, organized by book and line number, and is ideal for stylometry, sentiment analysis, and literary exploration. \"The name is Sherlock Holmes and the address is 221B Baker Street.\" Holmes is a consulting detective known for his keen observation, logical reasoning, and use of forensic science to solve complex cases. Created by Sir Arthur Conan Doyle, Holmes has become one of the most famous fictional detectives in literature.",
+ "questions": [
+  "Are there patterns in how Watson narrates versus how Holmes speaks?",
+  "How does sentence length vary between stories?",
+  "Can we detect shifts in tone when Watson is the narrator versus when Holmes speaks directly?",
+  "Does sentiment shift as the mystery unfolds?"
+ ],
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "The Complete Sherlock Holmes via {sherlock} R Package",
+   "url": "https://github.com/EmilHvitfeldt/sherlock"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Complete Sherlock Holmes",
+   "url": "https://sherlock-holm.es/ascii/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "holmes.csv",
+   "bytes": 5296039,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-11-18/holmes.csv",
+   "columns": [
+    "book",
+    "text",
+    "line_num"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-11-18",
+   "year": 2025,
+   "week": 46,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-11-18"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The Complete Sherlock Holmes via {sherlock}",
+  "host": "the complete sherlock holmes via {sherlock}"
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "id": "tt-2024-09-24",
+ "title": "International Mathematical Olympiad (IMO) Data",
+ "hook": "The data for this week comes from International Mathematical Olympiad (IMO). The International Mathematical Olympiad (IMO) is the World Championship Mathematics Competition for High School students and is held annually in a different country. The first IMO was held in 1959 in Romania, with 7 countries participating. It has gradually expanded to over 100 countries from 5 continents. The competition consists of 6 problems and is held over two consecutive days with 3 problems each. 1. How have country rankings shifted over time? 2. What is the distribution of participation by gender? What's the distribution of top scores? 3. How does team size or team composition (e.g., number of first-time participants vs. veterans) relate to overall country performance?",
+ "questions": [],
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "IMO Team and Individual Results",
+   "url": "https://www.imo-official.org/organizers.aspx"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Global Map of 2024 International Mathematical Olympiad Scores",
+   "url": "https://www.voronoiapp.com/maps/-Global-Map-of-2024-International-Mathematical-Olympiad-Scores-1875"
+  }
+ ],
+ "tables": [
+  {
+   "file": "country_results_df.csv",
+   "bytes": 282662,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-09-24/country_results_df.csv",
+   "columns": [
+    "year",
+    "country",
+    "team_size_all",
+    "team_size_male",
+    "team_size_female",
+    "p1",
+    "p2",
+    "p3",
+    "p4",
+    "p5",
+    "p6",
+    "p7",
+    "awards_gold",
+    "awards_silver",
+    "awards_bronze",
+    "awards_honorable_mentions",
+    "leader",
+    "deputy_leader"
+   ]
+  },
+  {
+   "file": "individual_results_df.csv",
+   "bytes": 1396508,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-09-24/individual_results_df.csv",
+   "columns": [
+    "year",
+    "contestant",
+    "country",
+    "p1",
+    "p2",
+    "p3",
+    "p4",
+    "p5",
+    "p6",
+    "total",
+    "individual_rank",
+    "award"
+   ]
+  },
+  {
+   "file": "timeline_df.csv",
+   "bytes": 4350,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-09-24/timeline_df.csv",
+   "columns": [
+    "edition",
+    "year",
+    "country",
+    "city",
+    "countries",
+    "all_contestant",
+    "male_contestant",
+    "female_contestant",
+    "start_date",
+    "end_date"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-09-24",
+   "year": 2024,
+   "week": 39,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-09-24"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "IMO Team and Individual Results",
+  "host": "imo-official.org"
+ }
+}

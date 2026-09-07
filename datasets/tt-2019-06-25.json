@@ -1,0 +1,58 @@
+{
+ "id": "tt-2019-06-25",
+ "title": "Global UFO Sightings",
+ "hook": "This data includes >80,000 recorded UFO \"sightings\" around the world, including the UFO shape, lat/long and state/country of where the sighting occurred, duration of the \"event\" and the datatime when it occurred. Data comes originally from NUFORC, was cleaned and uploaded to Github by Sigmond Axel, and some exploratory plots were created by Jonathan Bouchet a few years back. H/t to Georgios Karamanis for sharing the data as an issue on Github. If you want to submit a dataset of your own interest, please do so as an Issue on our GitHub! If you do submit a dataset, please drop a link and some context as an issue. Thanks! ufosightings <- readr::readcsv(\"",
+ "questions": [],
+ "subjects": [
+  "oddities & curiosities"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "NUFORC",
+   "url": "http://www.nuforc.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Example Plots",
+   "url": "https://www.kaggle.com/jonathanbouchet/e-t-phone-home-but-mostly-after-8-00pm"
+  }
+ ],
+ "tables": [
+  {
+   "file": "ufo_sightings.csv",
+   "bytes": 13751762,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-06-25/ufo_sightings.csv",
+   "columns": [
+    "date_time",
+    "city_area",
+    "state",
+    "country",
+    "ufo_shape",
+    "encounter_length",
+    "described_encounter_length",
+    "description",
+    "date_documented",
+    "latitude",
+    "longitude"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-06-25",
+   "year": 2019,
+   "week": 26,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-06-25"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "NUFORC",
+  "host": "nuforc.org"
+ }
+}

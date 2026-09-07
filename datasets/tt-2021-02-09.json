@@ -1,0 +1,166 @@
+{
+ "id": "tt-2021-02-09",
+ "title": "Wealth and Income",
+ "hook": "Note: The incomemean dataset appears to have some level of duplicate data for \"Asian Alone\" and \"Asian Alone or in Combination\". We are not changing the dataset to avoid breaking old code, but you may want to start from the raw data if you are using this for anything important. The data this week comes from the Urban Institute and the US Census. The Urban Institute lays out nine charts about racial wealth inequality in America in this article. They include several summary-level datasets that I've included. Nine Charts about Wealth Inequality in America Why hasn't wealth inequality improved over the past 50 years? And why, in particular, has the racial wealth gap not closed?",
+ "questions": [
+  "Freedman's Savings Bank congressional mismanagement",
+  "Tulsa Race Massacre",
+  "Jim Crow Laws",
+  "studentdebt, retirement, homeowner, lifetimeearn, lifetimewealth, racewealth, incometime, and wealthdistribution are from the Urban Institute and are more appropriate for summary plots.",
+  "incomemean, incomedistribution, incomelimits, and incomeaggregate are more appropriate as comparison datasets and have the full racial breakdown across the available years."
+ ],
+ "subjects": [
+  "society & demographics",
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Urban Institute",
+   "url": "https://apps.urban.org/features/wealth-inequality-charts/"
+  },
+  {
+   "name": "US Census",
+   "url": "https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Urban Institute",
+   "url": "https://apps.urban.org/features/wealth-inequality-charts/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "lifetime_earn.csv",
+   "bytes": 164,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-09/lifetime_earn.csv",
+   "columns": [
+    "gender",
+    "race",
+    "lifetime_earn"
+   ]
+  },
+  {
+   "file": "student_debt.csv",
+   "bytes": 966,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-09/student_debt.csv",
+   "columns": [
+    "year",
+    "race",
+    "loan_debt",
+    "loan_debt_pct"
+   ]
+  },
+  {
+   "file": "retirement.csv",
+   "bytes": 650,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-09/retirement.csv",
+   "columns": [
+    "year",
+    "race",
+    "retirement"
+   ]
+  },
+  {
+   "file": "home_owner.csv",
+   "bytes": 3788,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-09/home_owner.csv",
+   "columns": [
+    "year",
+    "race",
+    "home_owner_pct"
+   ]
+  },
+  {
+   "file": "race_wealth.csv",
+   "bytes": 2733,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-09/race_wealth.csv",
+   "columns": [
+    "type",
+    "year",
+    "race",
+    "wealth_family"
+   ]
+  },
+  {
+   "file": "income_time.csv",
+   "bytes": 4484,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-09/income_time.csv",
+   "columns": [
+    "year",
+    "percentile",
+    "income_family"
+   ]
+  },
+  {
+   "file": "income_limits.csv",
+   "bytes": 173536,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-09/income_limits.csv",
+   "columns": [
+    "year",
+    "race",
+    "dollar_type",
+    "number",
+    "income_quintile",
+    "income_dollars"
+   ]
+  },
+  {
+   "file": "income_aggregate.csv",
+   "bytes": 74496,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-09/income_aggregate.csv",
+   "columns": [
+    "year",
+    "race",
+    "number",
+    "income_quintile",
+    "income_share"
+   ]
+  },
+  {
+   "file": "income_distribution.csv",
+   "bytes": 224863,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-09/income_distribution.csv",
+   "columns": [
+    "year",
+    "race",
+    "number",
+    "income_median",
+    "income_med_moe",
+    "income_mean",
+    "income_mean_moe",
+    "income_bracket",
+    "income_distribution"
+   ]
+  },
+  {
+   "file": "income_mean.csv",
+   "bytes": 176922,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-09/income_mean.csv",
+   "columns": [
+    "year",
+    "race",
+    "dollar_type",
+    "income_quintile",
+    "income_dollars"
+   ]
+  }
+ ],
+ "extra_files": 36,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-02-09",
+   "year": 2021,
+   "week": 7,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-02-09"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Urban Institute",
+  "host": "apps.urban.org"
+ }
+}

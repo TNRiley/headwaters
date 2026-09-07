@@ -1,0 +1,78 @@
+{
+ "id": "tt-2025-05-20",
+ "title": "Water Quality at Sydney Beaches",
+ "hook": "This week we're exploring the water quality of Sydney's iconic beaches. The data is available at the New South Wales State Government Beachwatch website. Beachwatch and our partners monitor water quality at swim sites to ensure that recreational water environments are managed as safely as possible so that as many people as possible can benefit from using the water. Sydney beaches were in the news this summer with high rainfall causing concerns about the safety of the water. The dataset this week includes both water quality and historical weather data from 1991 until 2025.",
+ "questions": [
+  "Has the water quality declined over this period?",
+  "How does rainfall impact E-coli bacteria levels?",
+  "Are some swimming sites particularly prone to high bacteria levels following rain?"
+ ],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "Australia",
+ "sources": [
+  {
+   "name": "BeachwatchNSW",
+   "url": "https://www.beachwatch.nsw.gov.au/waterMonitoring/waterQualityData"
+  },
+  {
+   "name": "Open-Meteo",
+   "url": "https://open-meteo.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Sydney beachgoers urged not to swim in waterways, amid pollution warnings and bull shark activity",
+   "url": "https://www.abc.net.au/news/2025-01-10/pollution-risks-in-sydney-beaches-contaminated-waterways-rain/104790856"
+  }
+ ],
+ "tables": [
+  {
+   "file": "water_quality.csv",
+   "bytes": 13123915,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-05-20/water_quality.csv",
+   "columns": [
+    "region",
+    "council",
+    "swim_site",
+    "date",
+    "time",
+    "enterococci_cfu_100ml",
+    "water_temperature_c",
+    "conductivity_ms_cm",
+    "latitude",
+    "longitude"
+   ]
+  },
+  {
+   "file": "weather.csv",
+   "bytes": 556466,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-05-20/weather.csv",
+   "columns": [
+    "date",
+    "max_temp_C",
+    "min_temp_C",
+    "precipitation_mm",
+    "latitude",
+    "longitude"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-05-20",
+   "year": 2025,
+   "week": 20,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-05-20"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BeachwatchNSW",
+  "host": "beachwatch.nsw.gov.au"
+ }
+}

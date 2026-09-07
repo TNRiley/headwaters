@@ -1,0 +1,46 @@
+{
+ "id": "tt-2018-05-14",
+ "title": "Star Wars Survey",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "journalism",
+ "geography": "",
+ "sources": [
+  {
+   "name": "fivethirtyeight package",
+   "url": "https://github.com/rudeboybert/fivethirtyeight"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://fivethirtyeight.com/features/americas-favorite-star-wars-movies-and-least-favorite-characters/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "week7_starwars.csv",
+   "bytes": 531696,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-05-14/week7_starwars.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-05-14",
+   "year": 2018,
+   "week": 7,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-05-14"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FiveThirtyEight",
+  "host": "fivethirtyeight"
+ }
+}

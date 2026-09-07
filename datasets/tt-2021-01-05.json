@@ -1,0 +1,67 @@
+{
+ "id": "tt-2021-01-05",
+ "title": "Transit Cost Project",
+ "hook": "The data this week comes from Transit Costs Project. Why do transit-infrastructure projects in New York cost 20 times more on a per kilometer basis than in Seoul? We investigate this question across hundreds of transit projects from around the world. We have created a database that spans more than 50 countries and totals more than 11,000 km of urban rail built since the late 1990s. We will also examine this question in greater detail by carrying out six in-depth case studies that take a closer look at unique considerations and variables that aren't easily quantified, like project management, governance, and site conditions. The goal of this work is to figure out how to deliver more high-capacity transit projects for a fraction of the cost in countries like the United States.",
+ "questions": [],
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "TransitCosts.com",
+   "url": "https://transitcosts.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Transit Costs Case Study",
+   "url": "https://transitcosts.com/city/boston-case-the-story-of-the-green-line-extension/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "transit_cost.csv",
+   "bytes": 104678,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-01-05/transit_cost.csv",
+   "columns": [
+    "e",
+    "country",
+    "city",
+    "line",
+    "start_year",
+    "end_year",
+    "rr",
+    "length",
+    "tunnel_per",
+    "tunnel",
+    "stations",
+    "source1",
+    "cost",
+    "currency",
+    "year",
+    "ppp_rate",
+    "real_cost",
+    "cost_km_millions",
+    "source2",
+    "reference"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-01-05",
+   "year": 2021,
+   "week": 2,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-01-05"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "TransitCosts.com",
+  "host": "transitcosts.com"
+ }
+}

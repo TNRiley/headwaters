@@ -1,0 +1,50 @@
+{
+ "id": "tt-2024-04-02",
+ "title": "Du Bois Visualization Challenge 2024",
+ "hook": "This week we're inviting you to participate in the 2024 Du Bois Visualization Challenge. The goal of the challenge is to celebrate the data visualization legacy of W.E.B Du Bois by recreating the visualizations from the 1900 Paris Exposition using modern tools. This year the challenge is organized around the colors of the Pan African Flag. For this final week, use a combination of the colors from the flag to reproduce plate 37, \"A Series Of Statistical Charts Illustrating The Conditions Of Descendants Of Formal African Slaves Now Resident In The Unites States.\" Visit the challenge GitHub repository for more details!",
+ "questions": [],
+ "subjects": [
+  "art & culture",
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Week 10 Data",
+   "url": "https://raw.githubusercontent.com/ajstarks/dubois-data-portraits/master/challenge/2024/challenge10/data.csv"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Du Bois Visualization Challenge: 2024",
+   "url": "https://github.com/ajstarks/dubois-data-portraits/blob/master/challenge/2024/README.md"
+  }
+ ],
+ "tables": [
+  {
+   "file": "dubois_week10.csv",
+   "bytes": 125,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-04-02/dubois_week10.csv",
+   "columns": [
+    "Occupation",
+    "Percentage"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-04-02",
+   "year": 2024,
+   "week": 14,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-04-02"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Week 10 Data",
+  "host": "week 10 data"
+ }
+}

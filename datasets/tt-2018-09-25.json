@@ -1,0 +1,90 @@
+{
+ "id": "tt-2018-09-25",
+ "title": "Global Invasive Species",
+ "hook": "Paini et al, 2016 report on \"Global threat to agriculture from invasive species\". Developing countries in Africa are some of the most sensitive to invasive species damage to agriculture. Table data from tables in the Appendix. All invasive species data for Africa from Raw data is what the \"raw\" data looks like from the paper's tables. If you want to practice your tidy skills this would be a good starting place! An example tidying script is also posted if you get stuck. Tidy and cleaned data for the tables from Paini et al, 2016. Developing countries in Africa appear to be most vulnerable to invasive species damage to agriculture. africaspecies.csv contains the known invasive species for African countries from griis.org.",
+ "questions": [
+  "Table 1: Ranking of all threatened countries by overall invasion threat (invasionthreat).",
+  "Table 2: Ranking of all threatened countries by total invasion cost (invasioncost).",
+  "Table 3: Ranking of all threatened countries by total invasion cost (invasioncost) as a proportion (gdpproportion) of mean GDP (gdpmean).",
+  "Table 4: Ranking of all source countries by total invasion cost (invasioncost)",
+  "Table 6: List of 140 species and their maximum recorded percentage impact on one of their known host crops (source: CABI Crop Protection Compendium)"
+ ],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Paini et al, 2016",
+   "url": "http://www.pnas.org/content/113/27/7575"
+  },
+  {
+   "name": "griis.org",
+   "url": "http://www.griis.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Paini et al, 2016",
+   "url": "http://www.pnas.org/content/113/27/7575"
+  },
+  {
+   "name": "griis.org",
+   "url": "http://www.griis.org/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "africa_species.csv",
+   "bytes": 690421,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-09-25/africa_species.csv",
+   "columns": []
+  },
+  {
+   "file": "table_1.csv",
+   "bytes": 2408,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-09-25/table_1.csv",
+   "columns": []
+  },
+  {
+   "file": "table_2.csv",
+   "bytes": 2237,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-09-25/table_2.csv",
+   "columns": []
+  },
+  {
+   "file": "table_3.csv",
+   "bytes": 4031,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-09-25/table_3.csv",
+   "columns": []
+  },
+  {
+   "file": "table_4.csv",
+   "bytes": 2222,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-09-25/table_4.csv",
+   "columns": []
+  },
+  {
+   "file": "table_6.csv",
+   "bytes": 2826,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-09-25/table_6.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-09-25",
+   "year": 2018,
+   "week": 26,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-09-25"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Paini et al, 2016",
+  "host": "pnas.org"
+ }
+}

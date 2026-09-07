@@ -1,0 +1,63 @@
+{
+ "id": "tt-2023-09-26",
+ "title": "Roy Kent F**k count",
+ "hook": "For Deepsha Menghani's talk on Data Viz animation and interactivity in Quarto, she watched each episode of Ted Lasso at 2X speed and diligently noted down every Fbomb and gesture reference, and then made it into the richmondway R package! What is Ted Lasso and who is Roy Kent? Ted Lasso is a TV show that \"follows Ted Lasso, an American college football coach who is hired to coach an English soccer team with the secret intention that his inexperience will lead it to failure, but whose folksy, optimistic leadership proves unexpectedly successful.\" Roy Kent is one of the main characters who goes from captain of AFC Richmond to one of the coaches. Particularly in early seasons, he's a man of few words, but many of them are fk, expressed in various moods - mad, sad, happy, amused, loving, surprised, thoughtful, and joyous.",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Deepsha Menghani posit::conf(2023) talk on data visualization and Quarto",
+   "url": "https://deepshamenghani.github.io/posit_plotly_crosstalk/#/but-first..-what-is-ted-lasso-and-who-is-roy-kent"
+  }
+ ],
+ "articles": [
+  {
+   "name": "richmondway dataset",
+   "url": "https://github.com/deepshamenghani/richmondway"
+  }
+ ],
+ "tables": [
+  {
+   "file": "richmondway.csv",
+   "bytes": 2692,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-09-26/richmondway.csv",
+   "columns": [
+    "Character",
+    "Episode_order",
+    "Season",
+    "Episode",
+    "Season_Episode",
+    "F_count_RK",
+    "F_count_total",
+    "cum_rk_season",
+    "cum_total_season",
+    "cum_rk_overall",
+    "cum_total_overall",
+    "F_score",
+    "F_perc",
+    "Dating_flag",
+    "Coaching_flag",
+    "Imdb_rating"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-09-26",
+   "year": 2023,
+   "week": 39,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-09-26"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Deepsha Menghani posit::conf(2023) talk on data visualizatio",
+  "host": "deepshamenghani.github.io"
+ }
+}

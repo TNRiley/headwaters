@@ -1,0 +1,106 @@
+{
+ "id": "tt-2026-08-18",
+ "title": "IELTS exam results",
+ "hook": "This week we're exploring International English Language Testing System (IELTS) Tests statistics. The dataset comes from the IELTS research website and contains mean scores in various aggregations. IELTS is proud to offer transparent statistics on our testing system. The following data has been compiled from the scores achieved by various groups of test takers. It helps researchers and teachers understand the performance of the test and how test takers perform in particular countries or regions. The IELTS exam consists of 4 parts: Listening, Speaking, Reading and Writing. Each part is scored using a \"band\" system from 1 to 9, and then the four parts are averaged for an overall score. You can find more information on what each band means in the IELTS website. There are two versions of the exam: Academic and General Training. The dataset provides values for the years 2022, 2023 and 2024.",
+ "questions": [
+  "Do English speakers consistently get top marks on the English language test?",
+  "Which parts of the test do test takers find the most difficult? Is it the same for all test takers?",
+  "Does the reason for taking the test affect the score?",
+  "Has there been a change in tests scores in the three years for which we have information?"
+ ],
+ "subjects": [
+  "education",
+  "books & language"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "IELTS official statistics",
+   "url": "https://ielts.org/researchers/our-research/test-statistics"
+  }
+ ],
+ "articles": [
+  {
+   "name": "IELTS Score Statistics - What is a Good IELTS Score in 2026?",
+   "url": "https://sojourningscholar.com/ielts-score-statistics/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "demo_by_first_language.csv",
+   "bytes": 139849,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-08-18/demo_by_first_language.csv",
+   "columns": [
+    "type",
+    "language",
+    "band",
+    "percent",
+    "year"
+   ]
+  },
+  {
+   "file": "demo_by_nationality.csv",
+   "bytes": 142614,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-08-18/demo_by_nationality.csv",
+   "columns": [
+    "type",
+    "nationality",
+    "band",
+    "percent",
+    "year"
+   ]
+  },
+  {
+   "file": "demo_by_reasons.csv",
+   "bytes": 56736,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-08-18/demo_by_reasons.csv",
+   "columns": [
+    "type",
+    "reason",
+    "band",
+    "percent",
+    "year"
+   ]
+  },
+  {
+   "file": "performance_by_first_language.csv",
+   "bytes": 60793,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-08-18/performance_by_first_language.csv",
+   "columns": [
+    "type",
+    "language",
+    "part",
+    "score",
+    "year"
+   ]
+  },
+  {
+   "file": "performance_by_nationality.csv",
+   "bytes": 61794,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-08-18/performance_by_nationality.csv",
+   "columns": [
+    "type",
+    "nationality",
+    "part",
+    "score",
+    "year"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-08-18",
+   "year": 2026,
+   "week": 33,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-08-18"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "IELTS official statistics",
+  "host": "ielts.org"
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "id": "tt-2020-02-11",
+ "title": "Hotel Bookings",
+ "hook": "The data this week comes from an open hotel booking demand dataset from Antonio, Almeida and Nunes, 2019. Also shoutout to a series of packages for time-series analysis and plotting - tidyverts! tuesdata <- tidytuesdayR::ttload('2020-02-11') tuesdata <- tidytuesdayR::ttload(2020, week = 7) r library(tidyverse) library(feasts) h1 <- readcsv(here::here(\"2020\", \"2020-02-11\", \"H1.csv\")) %>% janitor::cleannames() %>% mutate(hotel = \"Resort Hotel\") %>% select(hotel, everything()) h2 <- readcsv(here::here(\"2020\", \"2020-02-11\", \"H2.csv\")) %>% janitor::cleannames() %>% mutate(hotel = \"City Hotel\") %>% select(hotel, everything()) hotelplot <- hoteldf %>% filter(hotel == \"City Hotel\") %>% mutate(date = glue::glue(\"{arrivaldateyear}-{arrivaldatemonth}-{arrivaldatedayofmonth}\"), date = parsedate(date, format = \"%Y-%B-%d\")) %>% select(date, everything()) %>% arrange(date) %>% count(date) %>%…",
+ "questions": [
+  "tsibble - a time-series tibble",
+  "feasts - Feature Extraction And Statistics for Time Series.",
+  "fable - Commonly used time-series forecasting"
+ ],
+ "subjects": [
+  "economy & work",
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Antonio, Almeida, and Nunes, 2019",
+   "url": "https://www.sciencedirect.com/science/article/pii/S2352340918315191#bib5"
+  }
+ ],
+ "articles": [
+  {
+   "name": "`tidyverts`",
+   "url": "https://tsibble.tidyverts.org/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "hotels.csv",
+   "bytes": 16855599,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-02-11/hotels.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 2,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-02-11",
+   "year": 2020,
+   "week": 7,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-02-11"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

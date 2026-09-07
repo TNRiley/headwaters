@@ -1,0 +1,50 @@
+{
+ "id": "tt-2020-10-13",
+ "title": "`datasauRus` dozen",
+ "hook": "The data this week comes from Alberto Cairo courtesy of Steph Locke + Lucy McGowan. H/t to: Jesus M. Castagnetto for sharing it with the TidyTuesday crew. The original blogpost from Alberto. A quick look at the datasauRus R package from Steph and Lucy. An article on the datasets from AutoDesk. From Steph and Lucy's datasauRus Vignette: This package wraps the awesome Datasaurus Dozen dataset, which contains 13 sets of x-y data. Each sub-dataset has five statistics that are (almost) the same in each case. (These are the mean of x, mean of y, standard deviation of x, standard deviation of y, and Pearson correlation between x and y). However, scatter plots reveal that each sub-dataset looks very different. The dataset is intended to be used to teach students that it is important to plot their own datasets, rather than relying only on statistics.",
+ "questions": [],
+ "subjects": [
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Alberto Cairo",
+   "url": "http://www.thefunctionalart.com/2016/08/download-datasaurus-never-trust-summary.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "`datasauRus` R package",
+   "url": "https://cran.r-project.org/web/packages/datasauRus/vignettes/Datasaurus.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "datasaurus.csv",
+   "bytes": 64110,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-10-13/datasaurus.csv",
+   "columns": [
+    "dataset",
+    "x",
+    "y"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-10-13",
+   "year": 2020,
+   "week": 42,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-10-13"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Alberto Cairo",
+  "host": "thefunctionalart.com"
+ }
+}

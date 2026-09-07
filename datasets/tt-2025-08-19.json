@@ -1,0 +1,68 @@
+{
+ "id": "tt-2025-08-19",
+ "title": "Scottish Munros",
+ "hook": "A Munro is a Scottish mountain with an elevation of over 3,000 feet, whereas a Munro Top is a subsidiary summit of a Munro that also exceeds 3,000 feet in height but is not considered a distinct mountain in its own right. The most famous Munro is Ben Nevis. In 1891, Sir Hugh Munro produced the first list of these hills. However, unlike other classification schemes in Scotland which require a peak to have a prominence of at least 500 feet for inclusion, the Munros lack a rigid set of criteria for inclusion. And so, re-surveying can lead to changes in which peaks are included on the list. The Database of British and Irish Hills is licensed under a Creative Commons Attribution 4.0 International Licence. Please reference The Database of British and Irish Hills v18.2 and link to www.hills-database.co.uk.",
+ "questions": [
+  "How many peaks currently listed as Munros have always been included on the list?",
+  "Which year saw the largest number of changes to the classification?",
+  "Which Munro is the most remote?"
+ ],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "other",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "Database of British and Irish hills",
+   "url": "https://www.hills-database.co.uk/downloads.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Accuracy of The Munro Society Heighting Surveys",
+   "url": "https://www.hills-database.co.uk/TMS_heighting_accuracy.pdf"
+  }
+ ],
+ "tables": [
+  {
+   "file": "scottish_munros.csv",
+   "bytes": 100444,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-19/scottish_munros.csv",
+   "columns": [
+    "DoBIH_number",
+    "Height_m",
+    "Height_ft",
+    "xcoord",
+    "ycoord",
+    "1891",
+    "1921",
+    "1933",
+    "1953",
+    "1969",
+    "1974",
+    "1981",
+    "1984",
+    "1990",
+    "1997",
+    "2021",
+    "Comments"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-08-19",
+   "year": 2025,
+   "week": 33,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-08-19"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Database of British and Irish hills",
+  "host": "hills-database.co.uk"
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "id": "tt-2021-03-09",
+ "title": "Bechdel Test",
+ "hook": "The data this week comes from FiveThirtyEight and the corresponding article from FiveThirtyEight. Audiences and creators know that on one level or another, there's an inherent gender bias in the movie business — whether it's the disproportionately low number of films with female leads, the process of pigeonholing actresses into predefined roles (action chick, romantic interest, middle-aged mother, etc.), or the lack of serious character development for women on screen compared to their male counterparts. What's challenging is quantifying this dysfunction, putting numbers to a trend that is — at least anecdotally — a pretty clear reality. One of the most enduring tools to measure Hollywood's gender bias is a test originally promoted by cartoonist Alison Bechdel in a 1985 strip from her \"Dykes To Watch Out For\" series.",
+ "questions": [
+  "Bechdel Test data sourced via Bechdeltest.com API."
+ ],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "FiveThirtyEight",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/bechdel"
+  }
+ ],
+ "articles": [
+  {
+   "name": "FiveThirtyEight",
+   "url": "https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "raw_bechdel.csv",
+   "bytes": 328727,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-03-09/raw_bechdel.csv",
+   "columns": [
+    "year",
+    "id",
+    "imdb_id",
+    "title",
+    "rating"
+   ]
+  },
+  {
+   "file": "movies.csv",
+   "bytes": 1081230,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-03-09/movies.csv",
+   "columns": [
+    "year",
+    "imdb",
+    "title",
+    "test",
+    "clean_test",
+    "binary",
+    "budget",
+    "domgross",
+    "intgross",
+    "code",
+    "budget_2013",
+    "domgross_2013",
+    "intgross_2013",
+    "period_code",
+    "decade_code",
+    "imdb_id",
+    "plot",
+    "rated",
+    "response",
+    "language",
+    "country",
+    "writer",
+    "metascore",
+    "imdb_rating",
+    "director",
+    "released",
+    "actors",
+    "genre",
+    "awards",
+    "runtime",
+    "type",
+    "poster",
+    "imdb_votes",
+    "error"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-03-09",
+   "year": 2021,
+   "week": 11,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-03-09"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FiveThirtyEight",
+  "host": "fivethirtyeight"
+ }
+}

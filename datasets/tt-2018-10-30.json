@@ -1,0 +1,53 @@
+{
+ "id": "tt-2018-10-30",
+ "title": "R and R package downloads",
+ "hook": "Anonymized package and R language downloads from the RStudio CRAN mirror. Header | Description ---|--------- date | date of download (y-m-d) time | time of download (in UTC) size | size (in bytes) version | R release version os | Operating System country | Two letter ISO country code. ipid | Anonymized daily ip code (unique identifier) Package downloads end up with MUCH larger metadata files and are a bit unwieldy to work with, but if you want to play around with them you can use a few ways to easily check! r start <- as.Date('2012-10-01') today <- as.Date('2018-10-27') alldays <- seq(start, today, by = 'day') year <- as.POSIXlt(alldays)$year + 1900 urls <- paste0(' year, '/', alldays, '.csv.gz') installr::downloadRStudioCRANdata",
+ "questions": [
+  "r-downloads.csv - R language downloads from RStudio CRAN mirror on last TidyTuesday for October 23, 2018.",
+  "rdownloadsyear.csv - A year's worth of R language downloads from RStudio CRAN mirror between October 20, 2017 and October 20, 2018.",
+  ".csv.gz files (can be read directly into R via readr::readcsv()",
+  "Data back to Oct 2012",
+  "Package and R-language downloads (anonymized)"
+ ],
+ "subjects": [
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "r package",
+ "geography": "",
+ "sources": [
+  {
+   "name": "cran-logs.rstudio.com",
+   "url": "http://cran-logs.rstudio.com/"
+  }
+ ],
+ "articles": [],
+ "tables": [
+  {
+   "file": "r-downloads.csv",
+   "bytes": 265861,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-10-30/r-downloads.csv",
+   "columns": []
+  },
+  {
+   "file": "r_downloads_year.csv",
+   "bytes": 57222223,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-10-30/r_downloads_year.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-10-30",
+   "year": 2018,
+   "week": 31,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-10-30"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cran-logs.rstudio.com",
+  "host": "cran-logs.rstudio.com"
+ }
+}

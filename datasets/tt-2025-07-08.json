@@ -1,0 +1,77 @@
+{
+ "id": "tt-2025-07-08",
+ "title": "The xkcd Color Survey Results",
+ "hook": "In 2010, the xkcd Color Survey asked hundreds of thousands of people to name colors they saw, revealing the different ways in which people perceive and label colors. Color is a really fascinating topic, especially since we’re taught so many different and often contradictory ideas about rainbows, different primary colors, and frequencies of light.",
+ "questions": [
+  "Which types of users were most accurate in naming colors?",
+  "Which colors are mentioned most in the top 100 ranked color names?",
+  "Which types of users are least likely to be spam users?"
+ ],
+ "subjects": [
+  "art & culture",
+  "society & demographics"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "xkcd Color Survey SQLite database",
+   "url": "https://xkcd.com/color/colorsurvey.tar.gz"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Color Survey Results",
+   "url": "https://blog.xkcd.com/2010/05/03/color-survey-results/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "answers.csv",
+   "bytes": 17240298,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/answers.csv",
+   "columns": [
+    "user_id",
+    "hex",
+    "rank"
+   ]
+  },
+  {
+   "file": "color_ranks.csv",
+   "bytes": 22000,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/color_ranks.csv",
+   "columns": [
+    "color",
+    "rank",
+    "hex"
+   ]
+  },
+  {
+   "file": "users.csv",
+   "bytes": 4905766,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-08/users.csv",
+   "columns": [
+    "user_id",
+    "monitor",
+    "y_chromosome",
+    "colorblind",
+    "spam_prob"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-07-08",
+   "year": 2025,
+   "week": 27,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-07-08"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "xkcd Color Survey SQLite database",
+  "host": "xkcd.com"
+ }
+}

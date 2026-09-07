@@ -1,0 +1,59 @@
+{
+ "id": "tt-2019-10-22",
+ "title": "Horror movie ratings",
+ "hook": "This week's data is from the IMDB by way of Kaggle. H/t to Georgios Karamanis for sharing the data this week. Thrillist did a 75 Best Horror Movies of all Time article. There's also a Stephen Follows article about horror movies exploring data around profit, popularity and ratings. Last year for Halloween we focused on Horror Movie Profit - feel free to take a peek at that data as well on our GitHub. horrormovies <- readr::readcsv(\"",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "IMDB",
+   "url": "https://www.kaggle.com/PromptCloudHQ/imdb-horror-movie-dataset"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Stephen Follows",
+   "url": "https://stephenfollows.com/what-the-data-says-about-producing-low-budget-horror-films/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "horror_movies.csv",
+   "bytes": 1969077,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-10-22/horror_movies.csv",
+   "columns": [
+    "title",
+    "genres",
+    "release_date",
+    "release_country",
+    "movie_rating",
+    "review_rating",
+    "movie_run_time",
+    "plot",
+    "cast",
+    "language",
+    "filming_locations",
+    "budget"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-10-22",
+   "year": 2019,
+   "week": 43,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-10-22"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "IMDB",
+  "host": "imdb"
+ }
+}

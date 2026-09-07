@@ -1,0 +1,68 @@
+{
+ "id": "tt-2021-02-02",
+ "title": "HBCU Enrollment",
+ "hook": "The data this week comes from Data.World and Data.World and was originally from the NCES. High school completion and bachelor's degree attainment among persons age 25 and over by race/ethnicity & sex 1910-2016 Fall enrollment in degree-granting historically Black colleges and universities (HBCU) Consider donating to HBCUs, to help fund student's financial assistance programs. There's other additional HBCU datasets at Data.World as well. ... Donation will be placed in an endowment for students to fund need-based scholarships. President Reynold Verret believes the donation will provide an opportunity for students who don't have the same financial support as others. \"Xavier has roughly more than half of our students who are Pell-eligible. Which means they are in the lowest fifth of the socioeconomic ladder in the country. The lowest quintile.",
+ "questions": [
+  "The percentage of students broken down by race/ethnicity, aged 25 and over who have graduated HS.",
+  "Same as above, but for specific gender and education combination.",
+  "Enrollment by year for types of HBCUs",
+  "Note that hbcublack.csv has duplicate information, but specific to black-student enrollment only."
+ ],
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Data.World",
+   "url": "https://data.world/nces/hbcu-fall-enrollment-1976-2015"
+  },
+  {
+   "name": "Data.World",
+   "url": "https://data.world/nces/high-school-completion-and-bachelors-degree-attainment"
+  }
+ ],
+ "articles": [
+  {
+   "name": "HBCU Donations Article",
+   "url": "https://theundefeated.com/features/how-hbcus-are-using-more-than-250-million-in-donations/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "hbcu_all.csv",
+   "bytes": 2556,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-02-02/hbcu_all.csv",
+   "columns": [
+    "Year",
+    "Total enrollment",
+    "Males",
+    "Females",
+    "4-year",
+    "2-year",
+    "Total - Public",
+    "4-year - Public",
+    "2-year - Public",
+    "Total - Private",
+    "4-year - Private",
+    "2-year - Private"
+   ]
+  }
+ ],
+ "extra_files": 9,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-02-02",
+   "year": 2021,
+   "week": 6,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-02-02"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Data.World",
+  "host": "data.world"
+ }
+}

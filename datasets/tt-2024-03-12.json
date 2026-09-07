@@ -1,0 +1,62 @@
+{
+ "id": "tt-2024-03-12",
+ "title": "Fiscal Sponsors",
+ "hook": "TidyTuesday is organized by the R4DS Online Learning Community. We are currently (when this dataset was first posted in March, 2024) seeking a new fiscal sponsor. See our Donate page for details about our current efforts. To aid in our search, the dataset this week comes from the Fiscal Sponsor Directory. The data is fairly messy, but you may be able to extract more information from it. The Fiscal Sponsor Directory analyzed their directory in March 2023.",
+ "questions": [
+  "Has the data changed?",
+  "Can you identify other trends, or represent them more clearly?",
+  "Can you identify sponsors that might be particularly appealing to the R4DS Online Learning Community, a \"diverse, friendly, and inclusive community of data science learners and practitioners\" (a global community based in Austin, Texas, USA)?"
+ ],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Fiscal Sponsor Directory",
+   "url": "https://fiscalsponsordirectory.org/?page_id=1330"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Fiscal Sponsor Directory facts",
+   "url": "https://fiscalsponsordirectory.org/?page_id=95"
+  }
+ ],
+ "tables": [
+  {
+   "file": "fiscal_sponsor_directory.csv",
+   "bytes": 484403,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-03-12/fiscal_sponsor_directory.csv",
+   "columns": [
+    "details_url",
+    "website",
+    "year_501c3",
+    "year_fiscal_sponsor",
+    "n_sponsored",
+    "fiscal_sponsorship_fee_description",
+    "eligibility_criteria",
+    "project_types",
+    "services",
+    "fiscal_sponsorship_model",
+    "description"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-03-12",
+   "year": 2024,
+   "week": 11,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-03-12"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Fiscal Sponsor Directory",
+  "host": "fiscalsponsordirectory.org"
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "tt-2023-08-22",
+ "title": "Refugees",
+ "hook": "The data this week comes from PopulationStatistics {refugees} R package. {refugees} is an R package designed to facilitate access to the United Nations High Commissioner for Refugees (UNHCR) Refugee Data Finder. It provides an easy-to-use interface to the database, which covers forcibly displaced populations, including refugees, asylum-seekers, internally displaced people, stateless people, and others over a span of more than 70 years. This package provides data from three major sources: The {refugees} package includes eight datasets. We're working with population with data from 2010 to 2022.",
+ "questions": [
+  "Data from UNHCR’s annual statistical activities dating back to 1951.",
+  "Data from the United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA), specifically for registered Palestine refugees under UNRWA’s mandate.",
+  "Data from the Internal Displacement Monitoring Centre (IDMC) on people displaced within their country due to conflict or violence."
+ ],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Refugees R package",
+   "url": "https://github.com/PopulationStatistics/refugees"
+  }
+ ],
+ "articles": [
+  {
+   "name": "United Nations High Commissioner for Refugees (UNHCR) Refugee Data Finder",
+   "url": "https://www.unhcr.org/refugee-statistics/insights/explainers/refugees-r-package.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "population.csv",
+   "bytes": 4184560,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-08-22/population.csv",
+   "columns": [
+    "year",
+    "coo_name",
+    "coo",
+    "coo_iso",
+    "coa_name",
+    "coa",
+    "coa_iso",
+    "refugees",
+    "asylum_seekers",
+    "returned_refugees",
+    "idps",
+    "returned_idps",
+    "stateless",
+    "ooc",
+    "oip",
+    "hst"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-08-22",
+   "year": 2023,
+   "week": 34,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-08-22"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Refugees",
+  "host": "refugees"
+ }
+}

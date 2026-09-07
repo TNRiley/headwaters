@@ -1,0 +1,59 @@
+{
+ "id": "tt-2024-06-25",
+ "title": "tidyRainbow Datasets",
+ "hook": "Happy Pride Month! Check out the {gglgbtq} package for LGBTQ-related themes and color palettes! The data this week comes from the tidyRainbow, \"a data project for the LGBTQ+ community who use the R language ecosystem.\" The data sets in this repository focus on data pertaining to the LGBTQ+ community. We also look for data sets where LGBTQ+ folk are explicitly represented and where it is not assumed that gender is binary. Additionally, we include data sets that are relevant to LGBTQ+ folk because of the impact it has on the community. We're including their LGBTQ Movies database dataset curated by Cara Cuiule (She/Her), but we invite you to explore their other datasets, or to submit any LGBTQ+ related datatsets you know about! Where do the most popular LGBTQ+ movies come from? Are more LGBTQ+ movies being released over time?",
+ "questions": [],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "tidyRainbow LGBTQ Movie Database",
+   "url": "https://raw.githubusercontent.com/r-lgbtq/tidyrainbow/main/data/LGBTQ-movie-database/movieData.csv"
+  }
+ ],
+ "articles": [
+  {
+   "name": "tidyRainbow Datasets",
+   "url": "https://github.com/r-lgbtq/tidyrainbow/tree/main"
+  }
+ ],
+ "tables": [
+  {
+   "file": "lgbtq_movies.csv",
+   "bytes": 2753306,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-06-25/lgbtq_movies.csv",
+   "columns": [
+    "id",
+    "title",
+    "original_title",
+    "original_language",
+    "overview",
+    "release_date",
+    "popularity",
+    "vote_average",
+    "vote_count",
+    "adult",
+    "video",
+    "genre_ids"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-06-25",
+   "year": 2024,
+   "week": 26,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-06-25"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tidyRainbow LGBTQ Movie Database",
+  "host": "tidyrainbow lgbtq movie database"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "tt-2018-09-18",
+ "title": "US Flights or Hypoxia",
+ "hook": "We have a double data-set for this week! Nathan is a glider pilot, and when gliders go above 14,000 feet, the pilot is required to have a supplemental oxygen source. The magazine of the Soaring Society of America (SSA), Soaring, recently published an article about the lack of oxygen and/or carbon dioxide during flight, and the table caught his eye. He received permission from the author and editor to post the article and \"crowdsource\" different means of presenting the data, which could include alternative tabular representations or other more visual means. Here is the article in full.<br/> Table 1 has the useful information. The author, the editor, and I are very interested in the products of everyone's imaginations! SSA is a non-profit, the author was not paid for his work, and the table originated from Guyton & Hall: Textbook of Medical Physiology, 12th ed.",
+ "questions": [
+  "US airport data from 2013-2017",
+  "Hypoxia dataset in pilots from community member Nathan Cook",
+  "Full details here",
+  "Data collected from calendar year (CY) 2013 - 2017 (preliminary)"
+ ],
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "faa.gov",
+   "url": "https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger/previous_years/"
+  },
+  {
+   "name": "Soaring Society of America",
+   "url": "https://github.com/rfordatascience/tidytuesday/files/2343596/Hypoxia.Article.proof.pdf"
+  }
+ ],
+ "articles": [
+  {
+   "name": "travelweekly.com",
+   "url": "https://www.travelweekly.com/Travel-News/Airline-News/In-trend-reversal-midsized-airports-are-growing"
+  },
+  {
+   "name": "SSA - Hypoxia",
+   "url": "https://github.com/rfordatascience/tidytuesday/files/2343596/Hypoxia.Article.proof.pdf"
+  }
+ ],
+ "tables": [
+  {
+   "file": "hypoxia.csv",
+   "bytes": 619,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-09-18/hypoxia.csv",
+   "columns": []
+  },
+  {
+   "file": "us-airports.csv",
+   "bytes": 886165,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-09-18/us-airports.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-09-18",
+   "year": 2018,
+   "week": 25,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-09-18"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "faa.gov",
+  "host": "faa.gov"
+ }
+}

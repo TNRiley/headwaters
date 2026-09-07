@@ -1,0 +1,61 @@
+{
+ "id": "tt-2025-10-07",
+ "title": "EuroLeague Basketball",
+ "hook": "This week we’re exploring EuroLeague Basketball, the premier men’s club basketball competition in Europe. The dataset contains information on EuroLeague teams, including their country, home city, arena, seating capacity, and historical performance (Final Four appearances and titles won). The dataset is curated from publicly available sources such as Wikipedia and official EuroLeague records, and was packaged in the EuroleagueBasketball R package, with documentation available at natanast.github.io/EuroleagueBasketball. \"The EuroLeague is the top-tier European professional basketball club competition, widely regarded as the most prestigious competition in European basketball.\" — EuroLeague Some questions you might explore with this dataset:",
+ "questions": [
+  "Which countries are most represented in the EuroLeague?",
+  "How do arena capacities compare across teams and countries? In R, the readr::parsenumber() function might be helpful here.",
+  "Which clubs have been the most successful historically?"
+ ],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "EuroleagueBasketball R package (curated from Wikipedia and EuroLeague records)",
+   "url": "https://github.com/natanast/EuroleagueBasketball"
+  }
+ ],
+ "articles": [
+  {
+   "name": "EuroLeague on Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/EuroLeague"
+  }
+ ],
+ "tables": [
+  {
+   "file": "euroleague_basketball.csv",
+   "bytes": 2134,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-10-07/euroleague_basketball.csv",
+   "columns": [
+    "Team",
+    "Home city",
+    "Arena",
+    "Capacity",
+    "Last season",
+    "Country",
+    "FinalFour_Appearances",
+    "Titles_Won",
+    "Years_of_FinalFour_Appearances",
+    "Years_of_Titles_Won"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-10-07",
+   "year": 2025,
+   "week": 40,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-10-07"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "EuroleagueBasketball R package (curated from Wikipedia and E",
+  "host": "euroleaguebasketball r package (curated from wikipedia and euroleague records)"
+ }
+}

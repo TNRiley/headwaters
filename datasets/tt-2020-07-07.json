@@ -1,0 +1,90 @@
+{
+ "id": "tt-2020-07-07",
+ "title": "Coffee Ratings",
+ "hook": "The data this week comes from Coffee Quality Database courtesy of Buzzfeed Data Scientist James LeDoux. The original data can be found on James' github. The data was re-posted to Kaggle. \"These data were collected from the Coffee Quality Institute's review pages in January 2018.\" Thrillist has an article on the top coffee-producing countries. Yorgos Askalidis analyzed this data as well. There is data for both Arabica and Robusta beans, across many countries and professionally rated on a 0-100 scale. All sorts of scoring/ratings for things like acidity, sweetness, fragrance, balance, etc - may be useful for either separating into visualizations/categories or for modeling/recommenders. The two most economically important varieties of coffee plant are the Arabica and the Robusta; ~60% of the coffee produced worldwide is Arabica and ~40% is Robusta.",
+ "questions": [],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "James LeDoux",
+   "url": "https://github.com/jldbc/coffee-quality-database"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Yorgos Askalidis - TWD",
+   "url": "https://towardsdatascience.com/the-data-speak-ethiopia-has-the-best-coffee-91f88ed37e84"
+  }
+ ],
+ "tables": [
+  {
+   "file": "coffee_ratings.csv",
+   "bytes": 603612,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-07-07/coffee_ratings.csv",
+   "columns": [
+    "total_cup_points",
+    "species",
+    "owner",
+    "country_of_origin",
+    "farm_name",
+    "lot_number",
+    "mill",
+    "ico_number",
+    "company",
+    "altitude",
+    "region",
+    "producer",
+    "number_of_bags",
+    "bag_weight",
+    "in_country_partner",
+    "harvest_year",
+    "grading_date",
+    "owner_1",
+    "variety",
+    "processing_method",
+    "aroma",
+    "flavor",
+    "aftertaste",
+    "acidity",
+    "body",
+    "balance",
+    "uniformity",
+    "clean_cup",
+    "sweetness",
+    "cupper_points",
+    "moisture",
+    "category_one_defects",
+    "quakers",
+    "color",
+    "category_two_defects",
+    "expiration",
+    "certification_body",
+    "certification_address",
+    "certification_contact",
+    "unit_of_measurement",
+    "altitude_low_meters",
+    "altitude_high_meters",
+    "altitude_mean_meters"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-07-07",
+   "year": 2020,
+   "week": 28,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-07-07"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "James LeDoux",
+  "host": "james ledoux"
+ }
+}

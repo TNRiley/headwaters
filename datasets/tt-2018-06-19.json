@@ -1,0 +1,77 @@
+{
+ "id": "tt-2018-06-19",
+ "title": "Hurricanes & Puerto Rico",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "environment & climate",
+  "society & demographics"
+ ],
+ "provider_type": "journalism",
+ "geography": "",
+ "sources": [
+  {
+   "name": "FiveThirtyEight package",
+   "url": "https://github.com/rudeboybert/fivethirtyeight"
+  }
+ ],
+ "articles": [
+  {
+   "name": "FiveThirtyEight.com",
+   "url": "https://fivethirtyeight.com/features/the-media-really-has-neglected-puerto-rico/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "week12_google_trends.csv",
+   "bytes": 888,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-06-19/week12_google_trends.csv",
+   "columns": []
+  },
+  {
+   "file": "week12_mediacloud_hurricanes.csv",
+   "bytes": 808,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-06-19/week12_mediacloud_hurricanes.csv",
+   "columns": []
+  },
+  {
+   "file": "week12_mediacloud_states.csv",
+   "bytes": 1130,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-06-19/week12_mediacloud_states.csv",
+   "columns": []
+  },
+  {
+   "file": "week12_mediacloud_top_online_news.csv",
+   "bytes": 1758,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-06-19/week12_mediacloud_top_online_news.csv",
+   "columns": []
+  },
+  {
+   "file": "week12_mediacloud_trump.csv",
+   "bytes": 1629,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-06-19/week12_mediacloud_trump.csv",
+   "columns": []
+  },
+  {
+   "file": "week12_tv_hurricanes.csv",
+   "bytes": 1057,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-06-19/week12_tv_hurricanes.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-06-19",
+   "year": 2018,
+   "week": 12,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-06-19"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FiveThirtyEight",
+  "host": "fivethirtyeight"
+ }
+}

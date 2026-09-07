@@ -1,0 +1,181 @@
+{
+ "id": "tt-2024-07-23",
+ "title": "American Idol data",
+ "hook": "This week we're exploring American Idol data! This is a comprehensive dataset put together by kkakey. There's so much data! What do you want to know about American Idol? Song choices, TV ratings, characteristics of winners? Data in this dataset comes from Wikipedia. Data collected on seasons 1-18 of American Idol. The Datasets * songs.csv - songs that contestants sang and competed with on American Idol from seasons 1-18 * auditions.csv - audition, cities, dates, and venues * eliminationchart.csv - eliminations by week. Data availability varies season-to-season based on season length and number of finalists competing * finalists.csv - information on top contestants, including birthday, hometown, and description * ratings.csv - episode ratings and views. * seasons.csv - season-level information, including season winner, runner-up, release dates, and judges",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "American Idol data",
+   "url": "https://github.com/kkakey/American_Idol"
+  }
+ ],
+ "articles": [
+  {
+   "name": "American Idol data",
+   "url": "https://github.com/kkakey/American_Idol"
+  }
+ ],
+ "tables": [
+  {
+   "file": "auditions.csv",
+   "bytes": 18047,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-23/auditions.csv",
+   "columns": [
+    "season",
+    "audition_date_start",
+    "audition_date_end",
+    "audition_city",
+    "audition_venue",
+    "episodes",
+    "episode_air_date",
+    "callback_venue",
+    "callback_date_start",
+    "callback_date_end",
+    "tickets_to_hollywood",
+    "guest_judge"
+   ]
+  },
+  {
+   "file": "eliminations.csv",
+   "bytes": 80081,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-23/eliminations.csv",
+   "columns": [
+    "season",
+    "place",
+    "gender",
+    "contestant",
+    "top_36",
+    "top_36_2",
+    "top_36_3",
+    "top_36_4",
+    "top_32",
+    "top_32_2",
+    "top_32_3",
+    "top_32_4",
+    "top_30",
+    "top_30_2",
+    "top_30_3",
+    "top_25",
+    "top_25_2",
+    "top_25_3",
+    "top_24",
+    "top_24_2",
+    "top_24_3",
+    "top_20",
+    "top_20_2",
+    "top_16",
+    "top_14",
+    "top_13",
+    "top_12",
+    "top_11",
+    "top_11_2",
+    "wildcard",
+    "comeback",
+    "top_10",
+    "top_9",
+    "top_9_2",
+    "top_8",
+    "top_8_2",
+    "top_7",
+    "top_7_2",
+    "top_6",
+    "top_6_2",
+    "top_5",
+    "top_5_2",
+    "top_4",
+    "top_4_2",
+    "top_3",
+    "finale"
+   ]
+  },
+  {
+   "file": "finalists.csv",
+   "bytes": 102933,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-23/finalists.csv",
+   "columns": [
+    "Contestant",
+    "Birthday",
+    "Birthplace",
+    "Hometown",
+    "Description",
+    "Season"
+   ]
+  },
+  {
+   "file": "ratings.csv",
+   "bytes": 54931,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-23/ratings.csv",
+   "columns": [
+    "season",
+    "show_number",
+    "episode",
+    "airdate",
+    "18_49_rating_share",
+    "viewers_in_millions",
+    "timeslot_et",
+    "dvr_18_49",
+    "dvr_viewers_millions",
+    "total_18_49",
+    "total_viewers_millions",
+    "weekrank",
+    "ref",
+    "share",
+    "nightlyrank",
+    "rating_share_households",
+    "rating_share"
+   ]
+  },
+  {
+   "file": "seasons.csv",
+   "bytes": 3275,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-23/seasons.csv",
+   "columns": [
+    "season",
+    "winner",
+    "runner_up",
+    "original_release",
+    "original_network",
+    "hosted_by",
+    "judges",
+    "no_of_episodes",
+    "finals_venue",
+    "mentor"
+   ]
+  },
+  {
+   "file": "songs.csv",
+   "bytes": 230048,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-23/songs.csv",
+   "columns": [
+    "season",
+    "week",
+    "order",
+    "contestant",
+    "song",
+    "artist",
+    "song_theme",
+    "result"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-07-23",
+   "year": 2024,
+   "week": 30,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-07-23"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "American Idol data",
+  "host": "american idol data"
+ }
+}

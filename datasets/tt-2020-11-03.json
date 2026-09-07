@@ -1,0 +1,59 @@
+{
+ "id": "tt-2020-11-03",
+ "title": "Ikea Furniture",
+ "hook": "The data this week comes from Kaggle. Original source on IKEA Article about Ikea from FiveThirtyEight tuesdata <- tidytuesdayR::ttload('2020-11-03') tuesdata <- tidytuesdayR::ttload(2020, week = 45)",
+ "questions": [],
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Kaggle",
+   "url": "https://www.kaggle.com/ahmedkallam/ikea-sa-furniture-web-scraping"
+  }
+ ],
+ "articles": [
+  {
+   "name": "FiveThirtyEight",
+   "url": "https://fivethirtyeight.com/features/the-weird-economics-of-ikea/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "ikea.csv",
+   "bytes": 864710,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-11-03/ikea.csv",
+   "columns": [
+    "item_id",
+    "category",
+    "price",
+    "old_price",
+    "sellable_online",
+    "link",
+    "other_colors",
+    "short_description",
+    "designer",
+    "depth",
+    "height",
+    "width"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-11-03",
+   "year": 2020,
+   "week": 45,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-11-03"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Kaggle",
+  "host": "kaggle"
+ }
+}

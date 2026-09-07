@@ -1,0 +1,63 @@
+{
+ "id": "tt-2019-09-24",
+ "title": "School Diversity",
+ "hook": "This week's data is from The Washington Post courtesy of Kate Rabinowitz, Laura Meckler, and Armand Emamdjomeh. A lot of the visualizations were written in a scrollytelling format with JavaScript. If you want to play around with a similar format you could try out the experimental package rolldown by Yihui. There is geospatial and shapefile data linked below in the methodology. A methodology section taken verbatim from the article is below: \"This analysis used the Common Core of Data from the National Center for Education Statistics (NCES). Charter and private schools were excluded because the government has limited control over them. Virtual schools were also excluded. The Washington Post used data from the 1994-1995 school year, the earliest near-comprehensive data, and from 2016-2017, the latest available data. Findings were checked against interim years at a five-year interval.",
+ "questions": [],
+ "subjects": [
+  "education",
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "NCES",
+   "url": "https://nces.ed.gov/ccd/pubschuniv.asp"
+  }
+ ],
+ "articles": [
+  {
+   "name": "`Washington Post` article",
+   "url": "https://www.washingtonpost.com/graphics/2019/local/school-diversity-data/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "school_diversity.csv",
+   "bytes": 4579322,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-09-24/school_diversity.csv",
+   "columns": [
+    "LEAID",
+    "LEA_NAME",
+    "ST",
+    "d_Locale_Txt",
+    "SCHOOL_YEAR",
+    "AIAN",
+    "Asian",
+    "Black",
+    "Hispanic",
+    "White",
+    "Multi",
+    "Total",
+    "diverse",
+    "variance",
+    "int_group"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-09-24",
+   "year": 2019,
+   "week": 39,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-09-24"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "NCES",
+  "host": "nces.ed.gov"
+ }
+}

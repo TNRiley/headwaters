@@ -1,0 +1,96 @@
+{
+ "id": "tt-2020-01-07",
+ "title": "Australian Fires",
+ "hook": "This week's data is all about Australia, including it's climate over time and recent fires. A good article currently is from the New York Times. The BBC also has an article with maps and news, but I am not 100% convinced their use of scale for fire points is 100% appropriate. It is using the NASA FIRMS data. A group of #rstats contributors have put together a list of resources for community help for those affected, please take a look at it here. This is an ongoing situation, and the goal of sharing data here is to spread awareness of the Australian fires. PLEASE be cautious when plotting maps of ongoing fires - there are many considerations when using the NASA \"Active Fires Dataset\" via FIRMS - potential pitfalls are outlined here and at the source from NASA. It is nuanced in interpretation and plotting (1 km estimations). There is a very long user guide if you want to look further.",
+ "questions": [
+  "BoM Climate Data Online"
+ ],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "Australia",
+ "sources": [
+  {
+   "name": "Bureau of Meteorology",
+   "url": "http://www.bom.gov.au/climate/data/stations/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "NY Times",
+   "url": "https://www.nytimes.com/interactive/2020/01/02/climate/australia-fires-map.html"
+  },
+  {
+   "name": "BBC",
+   "url": "https://www.bbc.com/news/world-australia-50951043"
+  }
+ ],
+ "tables": [
+  {
+   "file": "rainfall.csv",
+   "bytes": 12142752,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-07/rainfall.csv",
+   "columns": [
+    "station_code",
+    "city_name",
+    "year",
+    "month",
+    "day",
+    "rainfall",
+    "period",
+    "quality",
+    "lat",
+    "long",
+    "station_name"
+   ]
+  },
+  {
+   "file": "temperature.csv",
+   "bytes": 23537479,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-07/temperature.csv",
+   "columns": [
+    "city_name",
+    "date",
+    "temperature",
+    "temp_type",
+    "site_name"
+   ]
+  },
+  {
+   "file": "MODIS_C6_Australia_and_New_Zealand_7d.csv",
+   "bytes": 2364924,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-07/MODIS_C6_Australia_and_New_Zealand_7d.csv",
+   "columns": [
+    "latitude",
+    "longitude",
+    "brightness",
+    "scan",
+    "track",
+    "acq_date",
+    "act_time",
+    "satellite",
+    "confidence",
+    "version",
+    "bright_t31",
+    "frp",
+    "day_night"
+   ]
+  }
+ ],
+ "extra_files": 26,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-01-07",
+   "year": 2020,
+   "week": 2,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-01-07"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Bureau of Meteorology",
+  "host": "bom.gov.au"
+ }
+}

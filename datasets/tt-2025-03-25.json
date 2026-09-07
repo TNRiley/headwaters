@@ -1,0 +1,54 @@
+{
+ "id": "tt-2025-03-25",
+ "title": "Text Data From Amazon's Annual Reports",
+ "hook": "This week we're exploring text data from Amazon's annual reports. The PDFs were read into R using the {pdftools} R package, and explored by TidyTuesday participant Gregory Vander Vinne in a post on his website. Note that stop words (e.g., \"and\", \"the\", \"a\") have been removed from the data. As a publicly-traded company, Amazon releases an annual report every year (with a December 31st year end). An annual report is essentially a summary of the company’s performance over the past year. It includes details on how well the company did financially, what goals were achieved, and what challenges it faced.",
+ "questions": [
+  "How have the words used change over time?",
+  "Are there meaningful changes in sentiment from year to year?",
+  "Which words are likely to appear together in the same annual report?"
+ ],
+ "subjects": [
+  "economy & work",
+  "books & language"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Amazon's Annual Reports",
+   "url": "https://ir.aboutamazon.com/annual-reports-proxies-and-shareholder-letters/default.aspx"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Exploring The Use of TidyText and LLMs to Understand Amazon’s Annual Reports",
+   "url": "https://gregoryvdvinne.github.io/Text-Mining-Amazon-Budgets.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "report_words_clean.csv",
+   "bytes": 5565354,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-03-25/report_words_clean.csv",
+   "columns": [
+    "year",
+    "word"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-03-25",
+   "year": 2025,
+   "week": 12,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-03-25"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Amazon's Annual Reports",
+  "host": "ir.aboutamazon.com"
+ }
+}

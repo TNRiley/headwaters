@@ -1,0 +1,72 @@
+{
+ "id": "tt-2022-06-14",
+ "title": "US Drought",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Drought.gov",
+   "url": "https://www.drought.gov/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Drought.gov report",
+   "url": "https://www.drought.gov/historical-information?dataset=1&selectedDateUSDM=20110301&selectedDateSpi=19580901"
+  }
+ ],
+ "tables": [
+  {
+   "file": "drought.csv",
+   "bytes": 4421265,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-06-14/drought.csv",
+   "columns": [
+    "0",
+    "DATE",
+    "D0",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "-9",
+    "W0",
+    "W1",
+    "W2",
+    "W3",
+    "W4",
+    "state"
+   ]
+  },
+  {
+   "file": "drought-fips.csv",
+   "bytes": 85769404,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-06-14/drought-fips.csv",
+   "columns": [
+    "State",
+    "FIPS",
+    "DSCI",
+    "date"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2022-06-14",
+   "year": 2022,
+   "week": 24,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-06-14"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Drought.gov",
+  "host": "drought.gov"
+ }
+}

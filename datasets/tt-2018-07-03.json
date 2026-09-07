@@ -1,0 +1,46 @@
+{
+ "id": "tt-2018-07-03",
+ "title": "Global Life Expectancy",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "ourworldindata.org",
+   "url": "https://ourworldindata.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "ourworldindata.org",
+   "url": "https://ourworldindata.org/life-expectancy"
+  }
+ ],
+ "tables": [
+  {
+   "file": "week14_global_life_expectancy.csv",
+   "bytes": 533643,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-07-03/week14_global_life_expectancy.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-07-03",
+   "year": 2018,
+   "week": 14,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-07-03"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Our World in Data",
+  "host": "ourworldindata.org"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "tt-2026-02-03",
+ "title": "Edible Plants Database",
+ "hook": "This week we're exploring edible plants! The Edible Plant Database (EPD) is an outcome of the GROW Observatory, a European Citizen Science project on growing food, soil moisture sensing and land monitoring. It contains information on 146 edible plant species, including their ideal growing conditions and time to harvest and germination. The Edible Plant Database provides data based on geographical location and growing season to answer questions such as \"What can I plant now\" and \"what can I plant that will yield a crop on some future date\".",
+ "questions": [
+  "Do plants that require more sunlight also require higher temperatures?",
+  "What cultivation classes require the most water?"
+ ],
+ "subjects": [
+  "food & drink",
+  "animals & nature"
+ ],
+ "provider_type": "other",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "Edible Plant Database",
+   "url": "https://discovery.dundee.ac.uk/en/datasets/edible-plant-database/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "GROW Observatory",
+   "url": "https://www.dundee.ac.uk/projects/grow-observatory"
+  }
+ ],
+ "tables": [
+  {
+   "file": "edible_plants.csv",
+   "bytes": 64814,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-02-03/edible_plants.csv",
+   "columns": [
+    "taxonomic_name",
+    "common_name",
+    "cultivation",
+    "sunlight",
+    "water",
+    "preferred_ph_lower",
+    "preferred_ph_upper",
+    "nutrients",
+    "soil",
+    "season",
+    "temperature_class",
+    "temperature_germination",
+    "temperature_growing",
+    "days_germination",
+    "days_harvest",
+    "nutritional_info",
+    "energy",
+    "sensitivities",
+    "description",
+    "requirements"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-02-03",
+   "year": 2026,
+   "week": 5,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-02-03"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Edible Plant Database",
+  "host": "discovery.dundee.ac.uk"
+ }
+}

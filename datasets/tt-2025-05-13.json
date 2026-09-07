@@ -1,0 +1,64 @@
+{
+ "id": "tt-2025-05-13",
+ "title": "Seismic Events at Mount Vesuvius",
+ "hook": "The dataset this week explores seismic events detected at the famous Mount Vesuvius in Italy. It comes from the Italian Istituto Nazionale di Geofisica e Vulcanologia (INGV)'s Data Portal and can be explored along with other seismic areas on the GOSSIP website. The raw data was saved as individual CSV files from the GOSSIP website and some values were translated from Italian to English. The Open Data Portal of Istituto Nazionale di Geofisica e Vulcanologia (INGV) gives public access to data resulting from institutional research activities in the fields of Seismology, Volcanology, and Environment. Some information about Mount Vesuvius from INGV: Some questions you might explore with this data set include:",
+ "questions": [
+  "Location: Campania, 40°49′18.01″N, 14°25'33.57” E",
+  "Maximum height: 1281 m above sea level",
+  "Total surface area: ≈115-150 km2",
+  "Type of volcano: stratovolcano",
+  "Start of eruptive activity: <39,000 years"
+ ],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "Italian Istituto Nazionale di Geofisica e Vulcanologia (INGV)",
+   "url": "https://www.ingv.it/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Somma Vesuvio",
+   "url": "https://www.ingv.it/somma-vesuvio"
+  }
+ ],
+ "tables": [
+  {
+   "file": "vesuvius.csv",
+   "bytes": 1162677,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-05-13/vesuvius.csv",
+   "columns": [
+    "event_id",
+    "time",
+    "latitude",
+    "longitude",
+    "depth_km",
+    "duration_magnitude_md",
+    "md_error",
+    "area",
+    "type",
+    "review_level",
+    "year"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-05-13",
+   "year": 2025,
+   "week": 19,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-05-13"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Italian Istituto Nazionale di Geofisica e Vulcanologia (INGV",
+  "host": "ingv.it"
+ }
+}

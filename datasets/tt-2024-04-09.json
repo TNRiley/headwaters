@@ -1,0 +1,107 @@
+{
+ "id": "tt-2024-04-09",
+ "title": "2023 & 2024 US Solar Eclipses",
+ "hook": "This week we're looking at the paths of solar eclipses in the United States. The data comes from NASA's Scientific Visualization Studio. On October 14, 2023, an annular solar eclipse [crossed] North, Central, and South America creating a path of annularity. An annular solar eclipse occurs when the Moon passes between the Sun and Earth while at its farthest point from Earth. Because the Moon is farther away from Earth, it does not completely block the Sun. This create[d] a “ring of fire” effect in the sky for those standing in the path of annularity. On April 8, 2024, a total solar eclipse will cross North and Central America creating a path of totality. During a total solar eclipse, the Moon completely blocks the Sun while it passes between the Sun and Earth.",
+ "questions": [],
+ "subjects": [
+  "environment & climate",
+  "space & astronomy"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "NASA's Scientific Visualization Studio cities-eclipse-2024.json",
+   "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005073/cities-eclipse-2024.json"
+  },
+  {
+   "name": "NASA's Scientific Visualization Studio cities-eclipse-2023.json",
+   "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005073/cities-eclipse-2023.json"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The 2023 and 2024 Solar Eclipses: Map and Data",
+   "url": "https://svs.gsfc.nasa.gov/5073"
+  }
+ ],
+ "tables": [
+  {
+   "file": "eclipse_annular_2023.csv",
+   "bytes": 72106,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-04-09/eclipse_annular_2023.csv",
+   "columns": [
+    "state",
+    "lat",
+    "lon",
+    "eclipse_1",
+    "eclipse_2",
+    "eclipse_3",
+    "eclipse_4",
+    "eclipse_5",
+    "eclipse_6"
+   ]
+  },
+  {
+   "file": "eclipse_total_2024.csv",
+   "bytes": 292678,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-04-09/eclipse_total_2024.csv",
+   "columns": [
+    "state",
+    "lat",
+    "lon",
+    "eclipse_1",
+    "eclipse_2",
+    "eclipse_3",
+    "eclipse_4",
+    "eclipse_5",
+    "eclipse_6"
+   ]
+  },
+  {
+   "file": "eclipse_partial_2023.csv",
+   "bytes": 2482302,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-04-09/eclipse_partial_2023.csv",
+   "columns": [
+    "state",
+    "lat",
+    "lon",
+    "eclipse_1",
+    "eclipse_2",
+    "eclipse_3",
+    "eclipse_4",
+    "eclipse_5"
+   ]
+  },
+  {
+   "file": "eclipse_partial_2024.csv",
+   "bytes": 2283196,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-04-09/eclipse_partial_2024.csv",
+   "columns": [
+    "state",
+    "lat",
+    "lon",
+    "eclipse_1",
+    "eclipse_2",
+    "eclipse_3",
+    "eclipse_4",
+    "eclipse_5"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-04-09",
+   "year": 2024,
+   "week": 15,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-04-09"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "NASA's Scientific Visualization Studio cities-eclipse-2024.j",
+  "host": "svs.gsfc.nasa.gov"
+ }
+}

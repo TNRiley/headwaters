@@ -1,0 +1,71 @@
+{
+ "id": "tt-2024-02-27",
+ "title": "Leap Day",
+ "hook": "Happy Leap Day! This week's data comes from the February 29 article on Wikipedia. February 29 is a leap day (or \"leap year day\"), an intercalary date added periodically to create leap years in the Julian and Gregorian calendars. One event that's missing from Wikipedia's list: R version 1.0 was released on February 29, 2000#History). Which cohort of leap day births is most represented in Wikipedia's data? Are any years surprisingly underrepresented compared to nearby years? What other patterns can you find in the data?",
+ "questions": [],
+ "subjects": [
+  "oddities & curiosities"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Wikipedia: February 29",
+   "url": "https://en.wikipedia.org/wiki/February_29"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Wikipedia: February 29",
+   "url": "https://en.wikipedia.org/wiki/February_29"
+  }
+ ],
+ "tables": [
+  {
+   "file": "events.csv",
+   "bytes": 4143,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-02-27/events.csv",
+   "columns": [
+    "year",
+    "event"
+   ]
+  },
+  {
+   "file": "births.csv",
+   "bytes": 6791,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-02-27/births.csv",
+   "columns": [
+    "year_birth",
+    "person",
+    "description",
+    "year_death"
+   ]
+  },
+  {
+   "file": "deaths.csv",
+   "bytes": 3777,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-02-27/deaths.csv",
+   "columns": [
+    "year_death",
+    "person",
+    "description",
+    "year_birth"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-02-27",
+   "year": 2024,
+   "week": 9,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-02-27"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Wikipedia",
+  "host": "wikipedia"
+ }
+}

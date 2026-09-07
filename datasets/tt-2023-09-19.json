@@ -1,0 +1,144 @@
+{
+ "id": "tt-2023-09-19",
+ "title": "CRAN Package Authors",
+ "hook": "It's time for posit::conf(2023L)! To celebrate, the data this week comes from the CRAN collaboration graph, a project by David Schoch. The CRAN collaboration graph consists of R package developers who are connected if they appear together as authors of an R package in the DESCRIPTION file. The “Hadley number” is defined as the distance of R developers to Hadley Wickham in the collaboration graph. See the README of the GitHub project for a fun exploration of the data, and to see how it was gathered.",
+ "questions": [],
+ "subjects": [
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "The CRAN collaboration graph",
+   "url": "https://github.com/schochastics/CRAN_collaboration"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The CRAN collaboration graph README",
+   "url": "https://github.com/schochastics/CRAN_collaboration#readme"
+  }
+ ],
+ "tables": [
+  {
+   "file": "cran_20230905.csv",
+   "bytes": 27875933,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-09-19/cran_20230905.csv",
+   "columns": [
+    "Package",
+    "Version",
+    "Priority",
+    "Depends",
+    "Imports",
+    "LinkingTo",
+    "Suggests",
+    "Enhances",
+    "License",
+    "License_is_FOSS",
+    "License_restricts_use",
+    "OS_type",
+    "Archs",
+    "MD5sum",
+    "NeedsCompilation",
+    "Additional_repositories",
+    "Author",
+    "Authors@R",
+    "Biarch",
+    "BugReports",
+    "BuildKeepEmpty",
+    "BuildManual",
+    "BuildResaveData",
+    "BuildVignettes",
+    "Built",
+    "ByteCompile",
+    "Classification/ACM",
+    "Classification/ACM-2012",
+    "Classification/JEL",
+    "Classification/MSC",
+    "Classification/MSC-2010",
+    "Collate",
+    "Collate.unix",
+    "Collate.windows",
+    "Contact",
+    "Copyright",
+    "Date",
+    "Date/Publication",
+    "Description",
+    "Encoding",
+    "KeepSource",
+    "Language",
+    "LazyData",
+    "LazyDataCompression",
+    "LazyLoad",
+    "MailingList",
+    "Maintainer",
+    "Note",
+    "Packaged",
+    "RdMacros",
+    "StagedInstall",
+    "SysDataCompression",
+    "SystemRequirements",
+    "Title",
+    "Type",
+    "URL",
+    "UseLTO",
+    "VignetteBuilder",
+    "ZipData",
+    "Path",
+    "X-CRAN-Comment",
+    "Published",
+    "Reverse depends",
+    "Reverse imports",
+    "Reverse linking to",
+    "Reverse suggests",
+    "Reverse enhances"
+   ]
+  },
+  {
+   "file": "package_authors.csv",
+   "bytes": 1228540,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-09-19/package_authors.csv",
+   "columns": [
+    "Package",
+    "authorsR"
+   ]
+  },
+  {
+   "file": "cran_graph_nodes.csv",
+   "bytes": 951703,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-09-19/cran_graph_nodes.csv",
+   "columns": [
+    "x",
+    "y",
+    "dist2HW",
+    "cc"
+   ]
+  },
+  {
+   "file": "cran_graph_edges.csv",
+   "bytes": 1555773,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-09-19/cran_graph_edges.csv",
+   "columns": [
+    "from",
+    "to",
+    "weight"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-09-19",
+   "year": 2023,
+   "week": 38,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-09-19"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The CRAN collaboration graph",
+  "host": "the cran collaboration graph"
+ }
+}

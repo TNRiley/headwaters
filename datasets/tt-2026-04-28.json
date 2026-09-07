@@ -1,0 +1,92 @@
+{
+ "id": "tt-2026-04-28",
+ "title": "US Agricultural Tariffs",
+ "hook": "This week we're exploring US Agricultural Tariffs! The dataset comes from the USITC Tariff Database, which contains tariff rates for all products imported into the United States from 1997-2025. This week's data focuses on agricultural and food products (HTS Chapters 1-24), covering everything from live animals to beverages. This is part of a potential series of US tariff datasets exploring different sectors of the Harmonized Tariff Schedule. The data includes Most Favored Nation (MFN) rates that apply to normal trade relations, as well as preferential rates under various trade agreements like NAFTA/USMCA, and individual bilateral agreements with countries like Chile, Australia, and Korea. Tariff rates can include both ad valorem (percentage-based) and specific (per-unit) components, and they can change multiple times within a year. Welcome to the U.S. International Trade Commission.",
+ "questions": [
+  "How do tariff rates for agricultural products compare between different trade agreements?",
+  "Which products have seen the largest changes in MFN rates over time?",
+  "Do products with higher MFN rates tend to have more preferential trade agreements?",
+  "How have NAFTA/USMCA rates evolved from the 1990s to today?"
+ ],
+ "subjects": [
+  "economy & work",
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "DataWeb: Annual Tariff Data",
+   "url": "https://dataweb.usitc.gov/tariff/annual"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Economic Impacts of Retaliatory Tariffs on U.S. Agriculture",
+   "url": "https://ers.usda.gov/sites/default/files/_laserfiche/publications/102980/ERR-304.pdf?v=13480"
+  }
+ ],
+ "tables": [
+  {
+   "file": "agreements.csv",
+   "bytes": 2093,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/agreements.csv",
+   "columns": [
+    "agreement",
+    "agreement_full",
+    "agreement_notes"
+   ]
+  },
+  {
+   "file": "quantity_codes.csv",
+   "bytes": 1453,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/quantity_codes.csv",
+   "columns": [
+    "code",
+    "description"
+   ]
+  },
+  {
+   "file": "tariff_agricultural.csv",
+   "bytes": 21307727,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/tariff_agricultural.csv",
+   "columns": [
+    "hts8",
+    "begin_effective_date",
+    "end_effective_date",
+    "agreement",
+    "rate_type_code",
+    "ad_val_rate",
+    "specific_rate"
+   ]
+  },
+  {
+   "file": "tariff_codes.csv",
+   "bytes": 3404180,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-28/tariff_codes.csv",
+   "columns": [
+    "earliest_effective_date",
+    "hts8",
+    "description",
+    "quantity_1_code",
+    "quantity_2_code",
+    "wto_binding_code"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-04-28",
+   "year": 2026,
+   "week": 17,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-04-28"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "DataWeb",
+  "host": "dataweb.usitc.gov"
+ }
+}

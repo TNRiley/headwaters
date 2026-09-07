@@ -1,0 +1,98 @@
+{
+ "id": "tt-2024-07-02",
+ "title": "TidyTuesday Datasets",
+ "hook": "This week we're exploring our own data! The data this week comes from our {ttmeta} package, which automatically updates with information about the TidyTuesday datasets. The data shared here was compiled on 2024-06-18. If you would like, you can use the package to retrieve updated information about the last few weeks. What are the most common variable names? Of those variables, which are used to mean the same thing, and which are used to mean different things?",
+ "questions": [],
+ "subjects": [
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "ttmeta package",
+   "url": "https://github.com/r4ds/ttmeta"
+  }
+ ],
+ "articles": [
+  {
+   "name": "ttmeta package",
+   "url": "https://r4ds.github.io/ttmeta/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "tt_datasets.csv",
+   "bytes": 18223,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-02/tt_datasets.csv",
+   "columns": [
+    "year",
+    "week",
+    "dataset_name",
+    "variables",
+    "observations"
+   ]
+  },
+  {
+   "file": "tt_summary.csv",
+   "bytes": 27464,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-02/tt_summary.csv",
+   "columns": [
+    "year",
+    "week",
+    "date",
+    "title",
+    "source_title",
+    "article_title"
+   ]
+  },
+  {
+   "file": "tt_urls.csv",
+   "bytes": 100793,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-02/tt_urls.csv",
+   "columns": [
+    "year",
+    "week",
+    "type",
+    "url",
+    "scheme",
+    "domain",
+    "subdomain",
+    "tld",
+    "path",
+    "query",
+    "fragment"
+   ]
+  },
+  {
+   "file": "tt_variables.csv",
+   "bytes": 765058,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-02/tt_variables.csv",
+   "columns": [
+    "year",
+    "week",
+    "dataset_name",
+    "class",
+    "n_unique",
+    "min",
+    "max",
+    "description"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-07-02",
+   "year": 2024,
+   "week": 27,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-07-02"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ttmeta",
+  "host": "ttmeta"
+ }
+}

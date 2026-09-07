@@ -1,0 +1,82 @@
+{
+ "id": "tt-2022-11-22",
+ "title": "UK Museums",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "company",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "MuseWeb by way of Data Is Plural",
+   "url": "https://www.data-is-plural.com/archive/2022-10-19-edition/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "MuseWeb Key Findings",
+   "url": "https://museweb.dcs.bbk.ac.uk/findings"
+  }
+ ],
+ "tables": [
+  {
+   "file": "museums.csv",
+   "bytes": 1813386,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-11-22/museums.csv",
+   "columns": [
+    "museum_id",
+    "Name_of_museum",
+    "Address_line_1",
+    "Address_line_2",
+    "Village,_Town_or_City",
+    "Postcode",
+    "Latitude",
+    "Longitude",
+    "Admin_area",
+    "Accreditation",
+    "Governance",
+    "Size",
+    "Size_provenance",
+    "Subject_Matter",
+    "Year_opened",
+    "Year_closed",
+    "DOMUS_Subject_Matter",
+    "DOMUS_identifier",
+    "Primary_provenance_of_data",
+    "Identifier_used_in_primary_data_source",
+    "Area_Deprivation_index",
+    "Area_Deprivation_index_crime",
+    "Area_Deprivation_index_education",
+    "Area_Deprivation_index_employment",
+    "Area_Deprivation_index_health",
+    "Area_Deprivation_index_housing",
+    "Area_Deprivation_index_income",
+    "Area_Deprivation_index_services",
+    "Area_Geodemographic_group",
+    "Area_Geodemographic_group_code",
+    "Area_Geodemographic_subgroup",
+    "Area_Geodemographic_subgroup_code",
+    "Area_Geodemographic_supergroup",
+    "Area_Geodemographic_supergroup_code",
+    "Notes"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2022-11-22",
+   "year": 2022,
+   "week": 47,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-11-22"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "MuseWeb by way of Data Is Plural",
+  "host": "data-is-plural.com"
+ }
+}

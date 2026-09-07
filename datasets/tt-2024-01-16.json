@@ -1,0 +1,61 @@
+{
+ "id": "tt-2024-01-16",
+ "title": "US Polling Places 2012-2020",
+ "hook": "This week we're honoring the legacy of Martin Luther King Jr. by exploring the US Polling Places. The dataset comes from The Center for Public Integrity. You can read more about the data and how it was collected in their September 2020 article \"National data release sheds light on past polling place changes\". Thank you Kelsey E Gonzalez for the dataset suggestion back in 2020! Note: Some states do not have data in this dataset. Several states (Colorado, Hawaii, Oregon, Washington and Utah) vote primarily by mail and have little or no data in this colletion, and others were not available for other reasons. For states with data for multiple elections, how have polling location counts per county changed over time?",
+ "questions": [],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Center for Public Integrity",
+   "url": "https://github.com/PublicI/us-polling-places"
+  }
+ ],
+ "articles": [
+  {
+   "name": "National data release sheds light on past polling place changes",
+   "url": "https://publicintegrity.org/politics/elections/ballotboxbarriers/data-release-sheds-light-on-past-polling-place-changes/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "polling_places.csv",
+   "bytes": 73341292,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-01-16/polling_places.csv",
+   "columns": [
+    "election_date",
+    "state",
+    "county_name",
+    "jurisdiction",
+    "jurisdiction_type",
+    "precinct_id",
+    "precinct_name",
+    "polling_place_id",
+    "location_type",
+    "address",
+    "notes",
+    "source",
+    "source_date",
+    "source_notes"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-01-16",
+   "year": 2024,
+   "week": 3,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-01-16"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Center for Public Integrity",
+  "host": "center for public integrity"
+ }
+}

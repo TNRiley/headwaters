@@ -1,0 +1,46 @@
+{
+ "id": "tt-2018-10-09",
+ "title": "US Voter Turnout",
+ "hook": "Number of age-eligible voters versus total ballots/votes counted by state and year. presidentyears <- seq(1980, 2012, 4) midtermyears <- seq(1982, 2014, 4)",
+ "questions": [],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "data.world",
+   "url": "https://data.world/carlvlewis/voter-registration-and-criminal-records-by-state-1980-2014"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Star Tribune",
+   "url": "http://www.startribune.com/minnesota-leads-nation-in-turnout/400763681/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "voter_turnout.csv",
+   "bytes": 40037,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-10-09/voter_turnout.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-10-09",
+   "year": 2018,
+   "week": 28,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-10-09"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Data.World",
+  "host": "data.world"
+ }
+}

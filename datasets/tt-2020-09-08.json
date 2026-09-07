@@ -1,0 +1,85 @@
+{
+ "id": "tt-2020-09-08",
+ "title": "Friends",
+ "hook": "The data this week comes from the friends R package for the Friends transcripts and additional information. h/t to Emil Hvitfeldt for aggregating, packaging and sharing this data with us! Friends is an American television sitcom, created by David Crane and Marta Kauffman, which aired on NBC from September 22, 1994, to May 6, 2004, lasting ten seasons. With an ensemble cast starring Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry and David Schwimmer, the show revolves around six friends in their 20s and 30s who live in Manhattan, New York City. The series was produced by Bright/Kauffman/Crane Productions, in association with Warner Bros. Television. The original executive producers were Kevin S. Bright, Kauffman, and Crane. The friends package can be installed from CRAN with install.packages(\"friends\").",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "`friends` R package",
+   "url": "https://github.com/EmilHvitfeldt/friends"
+  }
+ ],
+ "articles": [
+  {
+   "name": "ceros interactive article",
+   "url": "https://www.ceros.com/originals/friends-scripts-25th-anniversary-catchphrase-scenes-quotes/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "friends.csv",
+   "bytes": 5383844,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-09-08/friends.csv",
+   "columns": [
+    "text",
+    "speaker",
+    "season",
+    "episode",
+    "scene",
+    "utterance"
+   ]
+  },
+  {
+   "file": "friends_emotions.csv",
+   "bytes": 209162,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-09-08/friends_emotions.csv",
+   "columns": [
+    "season",
+    "episode",
+    "scene",
+    "utterance",
+    "emotion",
+    "season",
+    "episode",
+    "scene",
+    "utterance",
+    "entities"
+   ]
+  },
+  {
+   "file": "friends_info.csv",
+   "bytes": 24587,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-09-08/friends_info.csv",
+   "columns": [
+    "season",
+    "episode",
+    "title",
+    "directed_by",
+    "written_by",
+    "air_date",
+    "us_views_millions",
+    "imdb_rating"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-09-08",
+   "year": 2020,
+   "week": 37,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-09-08"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "friends`",
+  "host": "friends`"
+ }
+}

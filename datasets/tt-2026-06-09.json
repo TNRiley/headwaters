@@ -1,0 +1,71 @@
+{
+ "id": "tt-2026-06-09",
+ "title": "Films Based on Video Games",
+ "hook": "The dataset this week comes from the Wikipedia article List of films based on video games. It covers theatrical releases, direct-to-video productions, television films, short films, and documentaries adapted from video games, spanning from the early 1990s to upcoming releases. Each row is a film, with box office figures, critic scores, budgets, and release dates where available. The list covers feature films, animated films, live-action films, television films, and short films that are based on or inspired by a video game franchise. Some questions worth exploring: which has earned the most at the box office? Rotten Tomatoes scores.",
+ "questions": [
+  "Which video game franchise has generated the most film adaptations, and",
+  "Which video game publishers have the most film adaptations, and how have they performed at the box office?",
+  "Do audiences and critics agree? Compare CinemaScore grades against"
+ ],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/List_of_films_based_on_video_games"
+  }
+ ],
+ "articles": [
+  {
+   "name": "List of films based on video games",
+   "url": "https://en.wikipedia.org/wiki/List_of_films_based_on_video_games"
+  }
+ ],
+ "tables": [
+  {
+   "file": "game_films.csv",
+   "bytes": 76421,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-09/game_films.csv",
+   "columns": [
+    "category",
+    "subcategory",
+    "title",
+    "director",
+    "release_date",
+    "release_date_raw",
+    "air_date_raw",
+    "worldwide_box_office_currency",
+    "worldwide_box_office",
+    "rotten_tomatoes",
+    "metacritic",
+    "cinema_score",
+    "distributor",
+    "original_game_publisher",
+    "budget_currency",
+    "budget_low",
+    "budget_high",
+    "domestic_box_office",
+    "subject",
+    "network"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-06-09",
+   "year": 2026,
+   "week": 23,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-06-09"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Wikipedia",
+  "host": "wikipedia"
+ }
+}

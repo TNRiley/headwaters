@@ -1,0 +1,75 @@
+{
+ "id": "tt-2022-09-13",
+ "title": "Bigfoot",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "oddities & curiosities"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Data.World",
+   "url": "https://data.world/timothyrenner/bfro-sightings-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Finding Bigfoot",
+   "url": "https://timothyrenner.github.io/datascience/2017/06/30/finding-bigfoot.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "bigfoot.csv",
+   "bytes": 11227054,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-09-13/bigfoot.csv",
+   "columns": [
+    "observed",
+    "location_details",
+    "county",
+    "state",
+    "season",
+    "title",
+    "latitude",
+    "longitude",
+    "date",
+    "number",
+    "classification",
+    "geohash",
+    "temperature_high",
+    "temperature_mid",
+    "temperature_low",
+    "dew_point",
+    "humidity",
+    "cloud_cover",
+    "moon_phase",
+    "precip_intensity",
+    "precip_probability",
+    "precip_type",
+    "pressure",
+    "summary",
+    "uv_index",
+    "visibility",
+    "wind_bearing",
+    "wind_speed"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2022-09-13",
+   "year": 2022,
+   "week": 37,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-09-13"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Data.World",
+  "host": "data.world"
+ }
+}

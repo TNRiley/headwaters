@@ -1,0 +1,123 @@
+{
+ "id": "tt-2021-03-30",
+ "title": "Makeup Shades",
+ "hook": "The data this week comes from The Pudding. They have a corresponding article related to this data. First Place. Lead Role. Number One. When things are arranged in a sequence, we have a mild obsession with being the \"first.\" You want the blue ribbon. To be on the first page of search results. To have your story above the fold. Afterall, we prioritize the things that come first. When beauty brands label their foundation shades with sequential numbers, they are implicitly prioritizing those at the beginning of the sequence. These products become more accessible to customers because they are often higher on store shelves and are not hidden behind the \"See More\" button on websites.. We found 130 products on Sephora's and Ulta's websites that use a sequential number system to label their shades. Of those, 97% put their lighter shades, and thus the customers that use those shades, first.",
+ "questions": [],
+ "subjects": [
+  "art & culture",
+  "society & demographics"
+ ],
+ "provider_type": "journalism",
+ "geography": "",
+ "sources": [
+  {
+   "name": "The Pudding data",
+   "url": "https://github.com/the-pudding/data/tree/master/foundation-names"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Pudding",
+   "url": "https://pudding.cool/2021/03/foundation-names/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "sephora.csv",
+   "bytes": 1322805,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-03-30/sephora.csv",
+   "columns": [
+    "Header",
+    "brand",
+    "product",
+    "url",
+    "description",
+    "imgSrc",
+    "imgAlt",
+    "specific"
+   ]
+  },
+  {
+   "file": "ulta.csv",
+   "bytes": 1105647,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-03-30/ulta.csv",
+   "columns": [
+    "Header",
+    "brand",
+    "product",
+    "url",
+    "description",
+    "imgSrc",
+    "imgAlt",
+    "specific"
+   ]
+  },
+  {
+   "file": "allCategories.csv",
+   "bytes": 1291356,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-03-30/allCategories.csv",
+   "columns": [
+    "Header",
+    "brand",
+    "product",
+    "url",
+    "imgSrc",
+    "categories",
+    "specific",
+    "hex",
+    "lightness"
+   ]
+  },
+  {
+   "file": "allShades.csv",
+   "bytes": 2334253,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-03-30/allShades.csv",
+   "columns": [
+    "Header",
+    "brand",
+    "product",
+    "url",
+    "description",
+    "imgSrc",
+    "imgAlt",
+    "specific",
+    "colorspace",
+    "hex",
+    "hue",
+    "sat",
+    "lightness"
+   ]
+  },
+  {
+   "file": "allNumbers.csv",
+   "bytes": 319442,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-03-30/allNumbers.csv",
+   "columns": [
+    "Header",
+    "brand",
+    "product",
+    "specific",
+    "lightness",
+    "hex",
+    "lightToDark",
+    "numbers",
+    "id"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-03-30",
+   "year": 2021,
+   "week": 14,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-03-30"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The Pudding data",
+  "host": "the pudding data"
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "id": "tt-2019-02-05",
+ "title": "House Price Index & Mortgage Rates",
+ "hook": "Data this week comes from the Freddie Mac House Price Index at both the State and National level. The original source can be found here. The House Price Index (HPI) is a broad measure of the movement of single-family house prices. The HPI is a weighted, repeat-sales index, meaning that it measures average price changes in repeat sales or refinancings on the same properties. This information is obtained by reviewing repeat mortgage transactions on single-family properties whose mortgages have been purchased or securitized by Fannie Mae or Freddie Mac since January 1975. - Quote from Federal Housing Finance Agency If the term House Price Index is unfamiliar to you - check out the technical documents or this Wikipedia article. Hint: A useful summary statistic could be the 12-month (yearly) percent change in the Price Index (eg is the price index rising or falling?).",
+ "questions": [
+  "Please notice that 30 year fixed rate data goes back to 1971, while the 15 year data begins in 1991 and the adjustable 5-1 Hybrid begins in 2005.",
+  "You should probably just go to the Wikipedia article - but this is a small list of recessions in the USA."
+ ],
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "FreddieMac",
+   "url": "http://www.freddiemac.com/research/indices/house-price-index.html"
+  },
+  {
+   "name": "FreddieMac",
+   "url": "http://www.freddiemac.com/pmms/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Fortune",
+   "url": "http://fortune.com/2014/06/24/american-housing-the-good-the-bad-and-the-ugly-in-6-charts/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "state_hpi.csv",
+   "bytes": 968847,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-02-05/state_hpi.csv",
+   "columns": [
+    "year",
+    "month",
+    "state",
+    "price_index",
+    "us_avg"
+   ]
+  },
+  {
+   "file": "mortgage.csv",
+   "bytes": 104470,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-02-05/mortgage.csv",
+   "columns": [
+    "date",
+    "fixed_rate_30_yr",
+    "fees_and_pts_30_yr",
+    "fixed_rate_15_yr",
+    "fees_and_pts_15_yr",
+    "adjustable_rate_5_1_hybrid",
+    "fees_and_pts_5_1_hybrid",
+    "adjustable_margin_5_1_hybrid",
+    "spread_30_yr_fixed_and_5_1_adjustable",
+    "period_range",
+    "duration_months",
+    "time_since_previous_recession_months",
+    "peak_unemploy_ment",
+    "gdp_decline_peak_to_trough",
+    "characteristics"
+   ]
+  },
+  {
+   "file": "recessions.csv",
+   "bytes": 7308,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-02-05/recessions.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 2,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-02-05",
+   "year": 2019,
+   "week": 6,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-02-05"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FreddieMac",
+  "host": "freddiemac.com"
+ }
+}

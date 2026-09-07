@@ -1,0 +1,72 @@
+{
+ "id": "tt-2025-09-09",
+ "title": "Henley Passport Index Data",
+ "hook": "This week we are exploring data from the Henley Passport Index API. The Henley Passport Index is produced by Henley & Partners and captures the number of countries to which travelers in possession of each passport in the world may enter visa free. For each travel destination, if no visa is required for passport holders from a country or territory, then a score with value = 1 is created for that passport. A score with value = 1 is also applied if passport holders can obtain a visa on arrival, a visitor’s permit, or an electronic travel authority (ETA) when entering the destination. These visa-types require no pre-departure government approval, because of the specific visa-waiver programs in place. Where a visa is required, or where a passport holder has to obtain a government-approved electronic visa (e-Visa) before departure, a score with value = 0 is assigned.",
+ "questions": [
+  "Which countries have made the most dramatic improvements in passport power? Which passports have lost the most visa-free access?",
+  "Do countries with stronger trade relationships tend to offer mutual visa-free access?",
+  "Did the COVID-19 pandemic affect passport rankings, particularly for countries that implemented strict border controls?",
+  "How does political instability or economic crisis impact passport strength?"
+ ],
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Henley Passport Index Data",
+   "url": "https://api.henleypassportindex.com/api/v3/countries"
+  }
+ ],
+ "articles": [
+  {
+   "name": "US slips again in passport power rankings",
+   "url": "https://edition.cnn.com/2025/07/22/travel/world-most-powerful-passports-july-2025"
+  }
+ ],
+ "tables": [
+  {
+   "file": "country_lists.csv",
+   "bytes": 1867480,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-09/country_lists.csv",
+   "columns": [
+    "code",
+    "country",
+    "visa_required",
+    "visa_online",
+    "visa_on_arrival",
+    "visa_free_access",
+    "electronic_travel_authorisation"
+   ]
+  },
+  {
+   "file": "rank_by_year.csv",
+   "bytes": 124633,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-09/rank_by_year.csv",
+   "columns": [
+    "code",
+    "country",
+    "region",
+    "rank",
+    "visa_free_count",
+    "year"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-09-09",
+   "year": 2025,
+   "week": 36,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-09-09"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Henley Passport Index Data",
+  "host": "henleypassportindex.com"
+ }
+}

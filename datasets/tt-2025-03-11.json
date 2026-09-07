@@ -1,0 +1,68 @@
+{
+ "id": "tt-2025-03-11",
+ "title": "Pixar Films",
+ "hook": "This week we're exploring Pixar films! The data this week comes from the {pixarfilms} R package by Eric Leung. R data package to explore Pixar films, the people, and reception data. This package contains six data sets provided mostly in part by Wikipedia.",
+ "questions": [
+  "Why are some values missing in the datasets?",
+  "Which films have the highest score in each rating system? Are there distinct differences in ratings?",
+  "Download the boxoffice dataset from the {pixarfilms} package. How does the boxofficeuscanada value compare to the various ratings? Is the trend different for boxofficeworldwide?"
+ ],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "r package",
+ "geography": "",
+ "sources": [
+  {
+   "name": "pixarfilms R package",
+   "url": "https://erictleung.com/pixarfilms/index.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Pixar Film Ratings",
+   "url": "https://erictleung.com/pixarfilms/articles/pixar_film_ratings.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "pixar_films.csv",
+   "bytes": 864,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-03-11/pixar_films.csv",
+   "columns": [
+    "number",
+    "film",
+    "release_date",
+    "run_time",
+    "film_rating"
+   ]
+  },
+  {
+   "file": "public_response.csv",
+   "bytes": 588,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-03-11/public_response.csv",
+   "columns": [
+    "film",
+    "rotten_tomatoes",
+    "metacritic",
+    "cinema_score",
+    "critics_choice"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-03-11",
+   "year": 2025,
+   "week": 10,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-03-11"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "pixarfilms",
+  "host": "erictleung.com"
+ }
+}

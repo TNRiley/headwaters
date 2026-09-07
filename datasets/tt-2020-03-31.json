@@ -1,0 +1,102 @@
+{
+ "id": "tt-2020-03-31",
+ "title": "Beer Production",
+ "hook": "The data this week comes from the Alcohol and Tobacco Tax and Trade Bureau (TTB). H/t to Bart Watson for sharing the source of the data. There's a literal treasure trove of data here: Massive shoutout to pdftools by ROpenSci and stringr for doing a lot of heavy lifting with the datacleaning and prep here. brewingmaterials <- readr::readcsv(' beertaxed <- readr::readcsv(' brewersize <- readr::readcsv(' beerstates <- readr::readcsv(' tuesdata <- tidytuesdayR::ttload('2020-03-31') tuesdata <- tidytuesdayR::ttload(2020, week = 14) brewingmaterials <- tuesdata$brewingmaterials Please see download script via downloadbeer.R Please see cleaning scripts via scrapebeers.R",
+ "questions": [
+  "State-level beer production by year (2008-2019)",
+  "Number of brewers by production size by year (2008-2019)",
+  "Monthly beer stats aggregated across the US (2008-2019)",
+  "A barrel of beer for this data is 31 gallons",
+  "Most data is in barrels removed/taxed or produced"
+ ],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "TTB",
+   "url": "https://www.ttb.gov/beer/statistics"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Brewers Association",
+   "url": "https://www.brewersassociation.org/insights/cans-bottles-craft-beer-packaging-trends/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "brewing_materials.csv",
+   "bytes": 146555,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-31/brewing_materials.csv",
+   "columns": [
+    "data_type",
+    "material_type",
+    "year",
+    "month",
+    "type",
+    "month_current",
+    "month_prior_year",
+    "ytd_current",
+    "ytd_prior_year"
+   ]
+  },
+  {
+   "file": "beer_taxed.csv",
+   "bytes": 162850,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-31/beer_taxed.csv",
+   "columns": [
+    "data_type",
+    "tax_status",
+    "year",
+    "month",
+    "type",
+    "month_current",
+    "month_prior_year",
+    "ytd_current",
+    "ytd_prior_year"
+   ]
+  },
+  {
+   "file": "brewer_size.csv",
+   "bytes": 9348,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-31/brewer_size.csv",
+   "columns": [
+    "year",
+    "brewer_size",
+    "n_of_brewers",
+    "total_barrels",
+    "taxable_removals",
+    "total_shipped"
+   ]
+  },
+  {
+   "file": "beer_states.csv",
+   "bytes": 61983,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-31/beer_states.csv",
+   "columns": [
+    "state",
+    "year",
+    "barrels",
+    "type"
+   ]
+  }
+ ],
+ "extra_files": 146,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-03-31",
+   "year": 2020,
+   "week": 14,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-03-31"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "TTB",
+  "host": "ttb.gov"
+ }
+}

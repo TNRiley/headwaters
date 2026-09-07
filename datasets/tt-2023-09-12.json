@@ -1,0 +1,96 @@
+{
+ "id": "tt-2023-09-12",
+ "title": "The Global Human Day",
+ "hook": "The data this week comes from the The Human Chronome Project an initiative based at McGill University in Montreal, from their paper The global human day in PNAS and the associated dataset on Zenodo. The daily activities of ≈8 billion people occupy exactly 24 h per day, placing a strict physical limit on what changes can be achieved in the world. These activities form the basis of human behavior, and because of the global integration of societies and economies, many of these activities interact across national borders. This project estimates how all humans spend their time using a generalized, physical outcome–based categorization that facilitates the integration of data from hundreds of diverse datasets. See their supplementary materials for details about their methods and additional visualizations.",
+ "questions": [],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "The Global Human Day dataset",
+   "url": "https://zenodo.org/record/8040631"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The global human day PNAS article",
+   "url": "https://www.pnas.org/doi/10.1073/pnas.2219564120#sec-2"
+  }
+ ],
+ "tables": [
+  {
+   "file": "all_countries.csv",
+   "bytes": 370927,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-09-12/all_countries.csv",
+   "columns": [
+    "Category",
+    "Subcategory",
+    "country_iso3",
+    "region_code",
+    "population",
+    "hoursPerDayCombined",
+    "uncertaintyCombined"
+   ]
+  },
+  {
+   "file": "country_regions.csv",
+   "bytes": 23179,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-09-12/country_regions.csv",
+   "columns": [
+    "region_code",
+    "region_name",
+    "country_name",
+    "M49_code",
+    "country_iso2",
+    "country_iso3",
+    "alt_country_name",
+    "alt_country_name1",
+    "alt_country_name2",
+    "alt_country_name3",
+    "alt_country_name4",
+    "alt_country_name5",
+    "alt_country_name6",
+    "other_code1",
+    "other_code2"
+   ]
+  },
+  {
+   "file": "global_human_day.csv",
+   "bytes": 629,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-09-12/global_human_day.csv",
+   "columns": [
+    "Subcategory",
+    "hoursPerDay",
+    "uncertainty"
+   ]
+  },
+  {
+   "file": "global_economic_activity.csv",
+   "bytes": 625,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-09-12/global_economic_activity.csv",
+   "columns": [
+    "Subcategory",
+    "hoursPerDay",
+    "uncertainty"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-09-12",
+   "year": 2023,
+   "week": 37,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-09-12"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The Global Human Day",
+  "host": "the global human day"
+ }
+}

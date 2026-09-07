@@ -1,0 +1,79 @@
+{
+ "id": "tt-2025-03-18",
+ "title": "Palm Trees",
+ "hook": "This week we're exploring Palm Trees! The dataset comes from the the PalmTraits 1.0 database via the palmtrees R package by Emil Hvitfeldt. Plant traits are critical to plant form and function —including growth, survival and reproduction— and therefore shape fundamental aspects of population and ecosystem dynamics as well as ecosystem services. Here, we present a global species-level compilation of key functional traits for palms (Arecaceae), a plant family with keystone importance in tropical and subtropical ecosystems.",
+ "questions": [
+  "How does the sizes of the different species of palms vary across sub families?",
+  "Which fruit colors occur most often?"
+ ],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "{palmtrees} R package",
+   "url": "https://github.com/EmilHvitfeldt/palmtrees"
+  }
+ ],
+ "articles": [
+  {
+   "name": "PalmTraits 1.0, a species-level functional trait database of palms worldwide",
+   "url": "https://www.nature.com/articles/s41597-019-0189-0"
+  }
+ ],
+ "tables": [
+  {
+   "file": "palmtrees.csv",
+   "bytes": 516764,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-03-18/palmtrees.csv",
+   "columns": [
+    "spec_name",
+    "acc_genus",
+    "acc_species",
+    "palm_tribe",
+    "palm_subfamily",
+    "climbing",
+    "acaulescent",
+    "erect",
+    "stem_solitary",
+    "stem_armed",
+    "leaves_armed",
+    "max_stem_height_m",
+    "max_stem_dia_cm",
+    "understorey_canopy",
+    "max_leaf_number",
+    "max__blade__length_m",
+    "max__rachis__length_m",
+    "max__petiole_length_m",
+    "average_fruit_length_cm",
+    "min_fruit_length_cm",
+    "max_fruit_length_cm",
+    "average_fruit_width_cm",
+    "min_fruit_width_cm",
+    "max_fruit_width_cm",
+    "fruit_size_categorical",
+    "fruit_shape",
+    "fruit_color_description",
+    "main_fruit_colors",
+    "conspicuousness"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-03-18",
+   "year": 2025,
+   "week": 11,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-03-18"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "{palmtrees}",
+  "host": "{palmtrees}"
+ }
+}

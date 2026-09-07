@@ -1,0 +1,52 @@
+{
+ "id": "tt-2019-02-26",
+ "title": "French Train Delays",
+ "hook": "We've focused a lot on US data over the past few weeks, so many thanks to Mathilda for helping curate this week's French trains dataset! She posted an awesome visualization of this data - if you are interested in a heat-map style geomtile(), take a look at her post The data comes from the SNCF open data portal - there are additional datasets there you can download, but fair to say most things are in French! :smile: The SNCF (National Society of French Railways) is France's national state-owned railway company. Founded in 1938, it operates the country's national rail traffic along with Monaco, including the TGV, France's high-speed rail network. This dataset covers 2015-2018 with a lot of different train stations.",
+ "questions": [],
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "company",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "SNCF",
+   "url": "https://ressources.data.sncf.com/explore/dataset/regularite-mensuelle-tgv-aqst/information/?sort=nombre_de_trains_annules&q=gare&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJzcGxpbmUiLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJleHRlcm5lcyIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiNhNmQ4NTQifV0sInhBeGlzIjoicGVyaW9kZSIsIm1heHBvaW50cyI6IiIsInRpbWVzY2FsZSI6Im1vbnRoIiwic29ydCI6IiIsImNvbmZpZyI6eyJkYXRhc2V0IjoicmVndWxhcml0ZS1tZW5zdWVsbGUtdGd2LWFxc3QiLCJvcHRpb25zIjp7InNvcnQiOiJub21icmVfZGVfdHJhaW5zX2FubnVsZXMifX19XSwidGltZXNjYWxlIjoiIiwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZX0%3D"
+  }
+ ],
+ "articles": [
+  {
+   "name": "RTL - Today",
+   "url": "https://today.rtl.lu/news/luxembourg/1306023.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "full_trains.csv",
+   "bytes": 1846571,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-02-26/full_trains.csv",
+   "columns": []
+  },
+  {
+   "file": "small_trains.csv",
+   "bytes": 4274006,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-02-26/small_trains.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-02-26",
+   "year": 2019,
+   "week": 9,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-02-26"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "SNCF",
+  "host": "ressources.data.sncf.com"
+ }
+}

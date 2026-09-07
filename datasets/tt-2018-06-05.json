@@ -1,0 +1,56 @@
+{
+ "id": "tt-2018-06-05",
+ "title": "Biketown Bikeshare",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "BiketownPDX",
+   "url": "https://www.biketownpdx.com/system-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Biketown",
+   "url": "https://www.biketownpdx.com/system-data"
+  },
+  {
+   "name": "cascadiaRconf/cRaggy",
+   "url": "https://cascadiarconf.com/agenda/#craggy"
+  }
+ ],
+ "tables": [
+  {
+   "file": "week10_biketown.zip",
+   "bytes": 17506109,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-06-05/week10_biketown.zip",
+   "columns": []
+  },
+  {
+   "file": "week10_biketown_raw.zip",
+   "bytes": 15266044,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-06-05/week10_biketown_raw.zip",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-06-05",
+   "year": 2018,
+   "week": 10,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-06-05"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BiketownPDX",
+  "host": "biketownpdx.com"
+ }
+}

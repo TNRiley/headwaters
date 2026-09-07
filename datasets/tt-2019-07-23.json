@@ -1,0 +1,71 @@
+{
+ "id": "tt-2019-07-23",
+ "title": "Wildlife Strikes",
+ "hook": "'The FAA Wildlife Strike Database contains records of reported wildlife strikes since 1990. Strike reporting is voluntary. Therefore, this database only represents the information we have received from airlines, airports, pilots, and other sources. Report on wildlife impacts\". To keep things simple I just took data from the big 4: American Airlines, Delta, Southwest, and United as they account for ~ 70% of passengers in the USA but there are many many more available airlines. h/t to my colleague Katie Masiello for sharing this dataset!",
+ "questions": [],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "FAA",
+   "url": "https://wildlife.faa.gov/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "FAA",
+   "url": "https://www.faa.gov/airports/airport_safety/wildlife/media/Wildlife-Strike-Report-1990-2017.pdf"
+  }
+ ],
+ "tables": [
+  {
+   "file": "wildlife_impacts.csv",
+   "bytes": 8587437,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-07-23/wildlife_impacts.csv",
+   "columns": [
+    "incident_date",
+    "state",
+    "airport_id",
+    "airport",
+    "operator",
+    "atype",
+    "type_eng",
+    "species_id",
+    "species",
+    "damage",
+    "num_engs",
+    "incident_month",
+    "incident_year",
+    "time_of_day",
+    "time",
+    "height",
+    "speed",
+    "phase_of_flt",
+    "sky",
+    "precip",
+    "cost_repairs_infl_adj",
+    "group",
+    "big 4",
+    "Other"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-07-23",
+   "year": 2019,
+   "week": 30,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-07-23"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FAA",
+  "host": "wildlife.faa.gov"
+ }
+}

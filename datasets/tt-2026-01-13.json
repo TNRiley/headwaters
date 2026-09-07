@@ -1,0 +1,55 @@
+{
+ "id": "tt-2026-01-13",
+ "title": "The Languages of Africa",
+ "hook": "This week we're exploring data about popular languages spoken on the African continent. The dataset this week comes from the Languages of Africa page on Wikipedia. The number of languages natively spoken in Africa is variously estimated (depending on the delineation of language vs. dialect) at between 1,250 and 2,100 and by some counts at over 3,000. The dataset is rich with information on the number of languages spoken across the continent. Some of the questions that could be thought of include: Can't wait to see the kind of visualisations that can be created!",
+ "questions": [
+  "Which country in Africa has the largest number of spoken languages?",
+  "Which family of languages has the highest density of speakers?",
+  "Are there any languages that cut across multiple countries?"
+ ],
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "reference works",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "Languages of Africa",
+   "url": "https://en.wikipedia.org/wiki/Languages_of_Africa"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Languages of Africa",
+   "url": "https://en.wikipedia.org/wiki/Languages_of_Africa"
+  }
+ ],
+ "tables": [
+  {
+   "file": "africa.csv",
+   "bytes": 28672,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-01-13/africa.csv",
+   "columns": [
+    "language",
+    "family",
+    "native_speakers",
+    "country"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-01-13",
+   "year": 2026,
+   "week": 2,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-01-13"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Languages of Africa",
+  "host": "languages of africa"
+ }
+}

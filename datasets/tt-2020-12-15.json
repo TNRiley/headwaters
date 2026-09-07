@@ -1,0 +1,52 @@
+{
+ "id": "tt-2020-12-15",
+ "title": "Ninja Warrior",
+ "hook": "The data this week comes from Data.World and originally from sasukepedia. Ninja Warrior and the continuation as American Ninja Warrior: is an American sports entertainment competition based on the Japanese television series Sasuke. It features hundreds of competitors attempting to complete series of obstacle courses of increasing difficulty in various cities across the United States, in hopes of advancing to the national finals on the Las Vegas Strip and becoming the season's \"American Ninja Warrior.\" A description of each obstacle and pictures of them can be found at: sasukepedia).",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Data.World",
+   "url": "https://data.world/ninja/anw-obstacle-history"
+  }
+ ],
+ "articles": [
+  {
+   "name": "sasukepedia",
+   "url": "https://sasukepedia.fandom.com/wiki/List_of_American_Ninja_Warrior_obstacles"
+  }
+ ],
+ "tables": [
+  {
+   "file": "ninja_warrior.csv",
+   "bytes": 46702,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-12-15/ninja_warrior.csv",
+   "columns": [
+    "season",
+    "location",
+    "round_stage",
+    "obstacle_name",
+    "obstacle_order"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-12-15",
+   "year": 2020,
+   "week": 51,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-12-15"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Data.World",
+  "host": "data.world"
+ }
+}

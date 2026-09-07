@@ -1,0 +1,78 @@
+{
+ "id": "tt-2024-01-23",
+ "title": "Educational attainment of young people in English towns",
+ "hook": "The dataset this week comes from The UK Office for National Statistics. It was explored in the July 2023 article \"Why do children and young people in smaller towns do better academically than those in larger towns?\". Thank you Andrea Carpignani for the dataset suggestion. The article this week contains several plots, one of which is interactive. Can you reproduce them? Can you find anything in the data that isn't explored in the article?",
+ "questions": [],
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "The UK Office for National Statistics",
+   "url": "https://www.ons.gov.uk/file?uri=/peoplepopulationandcommunity/educationandchildcare/datasets/educationalattainmentofyoungpeopleinenglishtownsdata/200708201819/youngpeoplesattainmentintownsreferencetable1.xlsx"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Why do children and young people in smaller towns do better academically than those in larger towns?",
+   "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare/articles/whydochildrenandyoungpeopleinsmallertownsdobetteracademicallythanthoseinlargertowns/2023-07-25"
+  }
+ ],
+ "tables": [
+  {
+   "file": "english_education.csv",
+   "bytes": 456664,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-01-23/english_education.csv",
+   "columns": [
+    "town11cd",
+    "town11nm",
+    "population_2011",
+    "size_flag",
+    "rgn11nm",
+    "coastal",
+    "coastal_detailed",
+    "ttwa11cd",
+    "ttwa11nm",
+    "ttwa_classification",
+    "job_density_flag",
+    "income_flag",
+    "university_flag",
+    "level4qual_residents35_64_2011",
+    "ks4_2012_2013_counts",
+    "key_stage_2_attainment_school_year_2007_to_2008",
+    "key_stage_4_attainment_school_year_2012_to_2013",
+    "level_2_at_age_18",
+    "level_3_at_age_18",
+    "activity_at_age_19_full_time_higher_education",
+    "activity_at_age_19_sustained_further_education",
+    "activity_at_age_19_appprenticeships",
+    "activity_at_age_19_employment_with_earnings_above_0",
+    "activity_at_age_19_employment_with_earnings_above_10_000",
+    "activity_at_age_19_out_of_work",
+    "highest_level_qualification_achieved_by_age_22_less_than_level_1",
+    "highest_level_qualification_achieved_by_age_22_level_1_to_level_2",
+    "highest_level_qualification_achieved_by_age_22_level_3_to_level_5",
+    "highest_level_qualification_achieved_by_age_22_level_6_or_above",
+    "highest_level_qualification_achieved_b_age_22_average_score",
+    "education_score"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-01-23",
+   "year": 2024,
+   "week": 4,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-01-23"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The UK Office for National Statistics",
+  "host": "ons.gov.uk"
+ }
+}

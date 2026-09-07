@@ -1,0 +1,116 @@
+{
+ "id": "tt-2022-06-07",
+ "title": "Pride Corporate Accountability Project",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [
+  "Pride sponsors who have donated to Anti-LGBTQ Campaigns",
+  "Fortune 500, Pride sponsors who have donated to Anti-LGBTQ Campaigns",
+  "Overview of company, pride sponsors, HRC Business pledge"
+ ],
+ "subjects": [
+  "society & demographics",
+  "economy & work"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Data For Progress",
+   "url": "https://www.dataforprogress.org/accountable-allies"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Data For Progress",
+   "url": "https://www.dataforprogress.org/accountable-allies"
+  }
+ ],
+ "tables": [
+  {
+   "file": "pride_aggregates.csv",
+   "bytes": 732,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-06-07/pride_aggregates.csv",
+   "columns": [
+    "Company",
+    "Total Contributed",
+    "# of Politicians Contributed to",
+    "# of States Where Contributions Made"
+   ]
+  },
+  {
+   "file": "fortune_aggregates.csv",
+   "bytes": 2813,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-06-07/fortune_aggregates.csv",
+   "columns": [
+    "Company",
+    "Total Contributed",
+    "# of Politicians Contributed to",
+    "# of States Where Contributions Made"
+   ]
+  },
+  {
+   "file": "static_list.csv",
+   "bytes": 4514,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-06-07/static_list.csv",
+   "columns": [
+    "Company",
+    "Pride?",
+    "HRC Business Pledge",
+    "Amount Contributed Across States",
+    "# of Politicians Contributed to",
+    "# of States Where Contributions Made"
+   ]
+  },
+  {
+   "file": "pride_sponsors.csv",
+   "bytes": 44450,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-06-07/pride_sponsors.csv",
+   "columns": [
+    "Company",
+    "Pride Event Sponsored",
+    "Sponsorship Amount, where available",
+    "Year",
+    "Source",
+    "True donor value"
+   ]
+  },
+  {
+   "file": "corp_by_politician.csv",
+   "bytes": 3788,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-06-07/corp_by_politician.csv",
+   "columns": [
+    "Politician",
+    "SUM of Amount",
+    "Title",
+    "State"
+   ]
+  },
+  {
+   "file": "donors.csv",
+   "bytes": 228427,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-06-07/donors.csv",
+   "columns": [
+    "Donor Name",
+    "\"True\" Donor - Pride Sponsor Match Only",
+    "\"True\" Donor - Fortune Match Only",
+    "Pride and Sponsor Match?",
+    "Donor Name - Combined"
+   ]
+  }
+ ],
+ "extra_files": 2,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2022-06-07",
+   "year": 2022,
+   "week": 23,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-06-07"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Data For Progress",
+  "host": "dataforprogress.org"
+ }
+}

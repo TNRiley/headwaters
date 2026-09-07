@@ -1,0 +1,116 @@
+{
+ "id": "tt-2020-05-19",
+ "title": "Beach Volleyball",
+ "hook": "The data this week comes from Adam Vagnar who also blogged about this dataset. There's a LOT of data here - match-level results, player details, and match-level statistics for some matches. For all this dataset all the matches are played 2 vs 2, so there are columns for 2 winners (1 team) and 2 losers (1 team). The data is relatively ready for analysis and clean, although there are some duplicated columns and the data is wide due to the 2-players per team. Check out the data dictionary, or Wikipedia for some longer-form details around what the various match statistics mean. Most of the data is from the international FIVB tournaments but about 1/3 is from the US-centric AVP.",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "other",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "BigTimeStats",
+   "url": "https://bigtimestats.blog/data/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "FiveThirtyEight",
+   "url": "https://fivethirtyeight.com/features/serving-is-a-disadvantage-in-some-olympic-sports/"
+  },
+  {
+   "name": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Beach_volleyball#Skills"
+  }
+ ],
+ "tables": [
+  {
+   "file": "vb_matches.csv",
+   "bytes": 30450375,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-19/vb_matches.csv",
+   "columns": [
+    "circuit",
+    "tournament",
+    "country",
+    "year",
+    "date",
+    "gender",
+    "match_num",
+    "w_player1",
+    "w_p1_birthdate",
+    "w_p1_age",
+    "w_p1_hgt",
+    "w_p1_country",
+    "w_player2",
+    "w_p2_birthdate",
+    "w_p2_age",
+    "w_p2_hgt",
+    "w_p2_country",
+    "w_rank",
+    "l_player1",
+    "l_p1_birthdate",
+    "l_p1_age",
+    "l_p1_hgt",
+    "l_p1_country",
+    "l_player2",
+    "l_p2_birthdate",
+    "l_p2_age",
+    "l_p2_hgt",
+    "l_p2_country",
+    "l_rank",
+    "score",
+    "duration",
+    "bracket",
+    "round",
+    "w_p1_tot_attacks",
+    "w_p1_tot_kills",
+    "w_p1_tot_errors",
+    "w_p1_tot_hitpct",
+    "w_p1_tot_aces",
+    "w_p1_tot_serve_errors",
+    "w_p1_tot_blocks",
+    "w_p1_tot_digs",
+    "w_p2_tot_attacks",
+    "w_p2_tot_kills",
+    "w_p2_tot_errors",
+    "w_p2_tot_hitpct",
+    "w_p2_tot_aces",
+    "w_p2_tot_serve_errors",
+    "w_p2_tot_blocks",
+    "w_p2_tot_digs",
+    "l_p1_tot_attacks",
+    "l_p1_tot_kills",
+    "l_p1_tot_errors",
+    "l_p1_tot_hitpct",
+    "l_p1_tot_aces",
+    "l_p1_tot_serve_errors",
+    "l_p1_tot_blocks",
+    "l_p1_tot_digs",
+    "l_p2_tot_attacks",
+    "l_p2_tot_kills",
+    "l_p2_tot_errors",
+    "l_p2_tot_hitpct",
+    "l_p2_tot_aces",
+    "l_p2_tot_serve_errors",
+    "l_p2_tot_blocks",
+    "l_p2_tot_digs"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-05-19",
+   "year": 2020,
+   "week": 21,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-05-19"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BigTimeStats",
+  "host": "bigtimestats.blog"
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "id": "tt-2025-12-30",
+ "title": "Christmas Novels",
+ "hook": "This week we're exploring \"Christmas\" novels from Project Gutenberg via the {gutenbergr} R package! I originally curated this dataset to serve as an \"ad\" of sorts for a new maintainer of that package, but Jordan Bradford has already assumed that role. Thank you for taking over stewardship of the package, Jordan! He could still use help, so, if you enjoy working with text data and R, consider stepping up to help maintain this useful package! You might find Text Mining with R helpful for analyzing this data.",
+ "questions": [
+  "Which is mentioned more often in these novels: \"spirit\" or \"santa\"?",
+  "What is the overall sentiment of each novel?",
+  "How does the text sentiment change over the course of each novel?"
+ ],
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Project Gutenberg",
+   "url": "https://www.gutenberg.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "New (gutenbergr) Maintainer Wanted",
+   "url": "https://github.com/ropensci/gutenbergr/issues/95"
+  }
+ ],
+ "tables": [
+  {
+   "file": "christmas_novel_authors.csv",
+   "bytes": 4229,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novel_authors.csv",
+   "columns": [
+    "gutenberg_author_id",
+    "author",
+    "birthdate",
+    "deathdate",
+    "wikipedia",
+    "aliases"
+   ]
+  },
+  {
+   "file": "christmas_novel_text.csv",
+   "bytes": 6262265,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novel_text.csv",
+   "columns": [
+    "gutenberg_id",
+    "text"
+   ]
+  },
+  {
+   "file": "christmas_novels.csv",
+   "bytes": 2395,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-30/christmas_novels.csv",
+   "columns": [
+    "gutenberg_id",
+    "title",
+    "gutenberg_author_id"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-12-30",
+   "year": 2025,
+   "week": 52,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-12-30"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Project Gutenberg",
+  "host": "gutenberg.org"
+ }
+}

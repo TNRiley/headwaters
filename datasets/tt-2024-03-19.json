@@ -1,0 +1,93 @@
+{
+ "id": "tt-2024-03-19",
+ "title": "X-Men Mutant Moneyball",
+ "hook": "This week's data is X-Men Mutant Moneyball from Rally's Mutant moneyball: a data driven ultimate X-men by Anderson Evans. This is the data used in Rally's Mutant Moneyball article which visualizes X-Men value data, era by era, from the X-Men's creation in 1963 up to 1993. The idea is that the the concepts in Michael Lewis' book Moneyball, can be applied in a number of cultural industries, not just baseball like in the book and the movie). It’s no accident that the name of this piece is Mutant Moneyball, as the overall point is an exercise in valuing each individual character on the X-Men team in a variety of data driven ways. But buying, reading, and loving comic books should be purely for fun and the raw expression of devotion toward characters, art, and story. True: It’s a lesson we fans have failed to learn in the past.",
+ "questions": [],
+ "subjects": [
+  "film & television",
+  "economy & work"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Mutant Moneyball Data",
+   "url": "https://github.com/EliCash82/mutantmoneyball"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Mutant moneyball: a data-driven ultimate X-Men",
+   "url": "https://rallyrd.com/mutant-moneyball-a-data-driven-ultimate-x-men/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "mutant_moneyball.csv",
+   "bytes": 8634,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-03-19/mutant_moneyball.csv",
+   "columns": [
+    "Member",
+    "TotalIssues",
+    "TotalIssues60s",
+    "TotalIssues70s",
+    "TotalIssues80s",
+    "TotalIssues90s",
+    "totalIssueCheck",
+    "TotalValue_heritage",
+    "TotalValue60s_heritage",
+    "TotalValue70s_heritage",
+    "TotalValue80s_heritage",
+    "TotalValue90s_heritage",
+    "TotalValue_ebay",
+    "TotalValue60s_ebay",
+    "TotalValue70s_ebay",
+    "TotalValue80s_ebay",
+    "TotalValue90s_ebay",
+    "60s_Appearance_Percent",
+    "70s_Appearance_Percent",
+    "80s_Appearance_Percent",
+    "90s_Appearance_Percent",
+    "PPI60s_heritage",
+    "PPI70s_heritage",
+    "PPI80s_heritage",
+    "PPI90s_heritage",
+    "PPI60s_ebay",
+    "PPI70s_ebay",
+    "PPI80s_ebay",
+    "PPI90s_ebay",
+    "TotalValue60s_wiz",
+    "TotalValue70s_wiz",
+    "TotalValue80s_wiz",
+    "TotalValue90s_wiz",
+    "TotalValue60s_oStreet",
+    "TotalValue70s_oStreet",
+    "TotalValue80s_oStreet",
+    "TotalValue90s_oStreet",
+    "PPI60s_wiz",
+    "PPI70s_wiz",
+    "PPI80s_wiz",
+    "PPI90s_wiz",
+    "PPI60s_oStreet",
+    "PPI70s_oStreet",
+    "PPI80s_oStreet",
+    "PPI90s_oStreet"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-03-19",
+   "year": 2024,
+   "week": 12,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-03-19"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Mutant Moneyball Data",
+  "host": "mutant moneyball data"
+ }
+}

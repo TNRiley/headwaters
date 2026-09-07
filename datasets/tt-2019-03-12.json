@@ -1,0 +1,46 @@
+{
+ "id": "tt-2019-03-12",
+ "title": "Board Games",
+ "hook": "This week's data comes from the Board Game Geek database. The site's database has more than 90,000 games, with crowd-sourced ratings. There is also an R package with the fulldataset (bggAnalysis) but it hasn't been updated in ~2 years. To follow along with a fivethirtyeight article, I limited to only games with at least 50 ratings and for games between 1950 and 2016. This still leaves us with 10,532 games! r boardgames <- readr::readcsv(\" {r] library(bggAnalysis) library(tidyverse) namedgames <- BoardGames %>% janitor::cleannames() %>% setnames(~strreplace(.x, \"details\", \"\")) %>% setnames(~strreplace(.x, \"attributesboardgame\", \"\")) %>% setnames(~strreplace(.x, \"stats\", \"\")) %>% select(gameid:average, usersrated, averageweight) %>% filter(!is.na(yearpublished)) %>% filter(yearpublished <=2016 & yearpublished >= 1950) %>% filter(usersrated >= 50, gametype == \"boardgame\") namedgames %>%…",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Board Game Geeks",
+   "url": "https://boardgamegeek.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight",
+   "url": "https://fivethirtyeight.com/features/designing-the-best-board-game-on-the-planet/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "board_games.csv",
+   "bytes": 16561534,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-03-12/board_games.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-03-12",
+   "year": 2019,
+   "week": 11,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-03-12"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Board Game Geeks",
+  "host": "boardgamegeek.com"
+ }
+}

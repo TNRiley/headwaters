@@ -1,0 +1,46 @@
+{
+ "id": "tt-2019-01-08",
+ "title": "TV's Golden Age",
+ "hook": "This week's DATA is curated courtesy of Sara Stoudt and comes from the recently created The Economist Data GitHub! Their November 24th article on TV ratings covers 'all TV dramas ... via IMDb from 1990 to 2018'. Data dictionary courtesy of skimr and kable, with credit to Phillip Knor.",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "IMDb",
+   "url": "https://www.imdb.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Economist",
+   "url": "https://www.economist.com/graphic-detail/2018/11/24/tvs-golden-age-is-real"
+  }
+ ],
+ "tables": [
+  {
+   "file": "IMDb_Economist_tv_ratings.csv",
+   "bytes": 153384,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-08/IMDb_Economist_tv_ratings.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-01-08",
+   "year": 2019,
+   "week": 2,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-01-08"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "IMDb",
+  "host": "imdb.com"
+ }
+}

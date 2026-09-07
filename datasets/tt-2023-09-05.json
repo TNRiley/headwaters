@@ -1,0 +1,91 @@
+{
+ "id": "tt-2023-09-05",
+ "title": "Union Membership in the United States",
+ "hook": "The data this week comes from the Union Membership, Coverage, and Earnings from the CPS by Barry Hirsch (Georgia State University), David Macpherson (Trinity University), and William Even (Miami University). They claim a copyright on the data, and state that \"Use of data requires citation.\" Unionstats.com provides annual measures of union, nonunion, and overall wages, beginning in 1973, compiled from the U.S. Current Population Surveys. Regression-based union wage gap estimates are presented economy-wide, for demographic groups, and sectors (private/public, industries). Union wage gaps are higher in the private than in the public sector, higher for men than women, roughly similar for black and white men, and much higher for Hispanic men than for Hispanic women. The database is updated annually.",
+ "questions": [
+  "The first Monday in September was officially recognized as Labor Day by the state of Oregon in 1887 and became an official U.S. federal holiday in 1894, 10 years before May first was adopted as International Workers' Day by the International Socialist Congress. May 1 was chosen in part to commemorate the Haymarket affair, a strike and incident of police violence that took place in Chicago in 1886. There's no reason everyone can't recognize both days!"
+ ],
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Union Membership, Coverage, and Earnings from the CPS",
+   "url": "https://www.unionstats.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Five decades of CPS wages, methods, and union-nonunion wage gaps at Unionstats.com",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1111/irel.12330"
+  }
+ ],
+ "tables": [
+  {
+   "file": "demographics.csv",
+   "bytes": 169987,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-09-05/demographics.csv",
+   "columns": [
+    "year",
+    "sample_size",
+    "employment",
+    "members",
+    "covered",
+    "p_members",
+    "p_covered",
+    "facet"
+   ]
+  },
+  {
+   "file": "wages.csv",
+   "bytes": 189596,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-09-05/wages.csv",
+   "columns": [
+    "year",
+    "sample_size",
+    "wage",
+    "at_cap",
+    "union_wage",
+    "nonunion_wage",
+    "union_wage_premium_raw",
+    "union_wage_premium_adjusted",
+    "facet"
+   ]
+  },
+  {
+   "file": "states.csv",
+   "bytes": 1329185,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-09-05/states.csv",
+   "columns": [
+    "state_census_code",
+    "state",
+    "sector",
+    "observations",
+    "employment",
+    "members",
+    "covered",
+    "p_members",
+    "p_covered",
+    "state_abbreviation",
+    "year"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-09-05",
+   "year": 2023,
+   "week": 36,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-09-05"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Union Membership, Coverage, and Earnings from the CPS",
+  "host": "unionstats.com"
+ }
+}

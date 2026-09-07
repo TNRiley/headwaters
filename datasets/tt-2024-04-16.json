@@ -1,0 +1,120 @@
+{
+ "id": "tt-2024-04-16",
+ "title": "Shiny Packages",
+ "hook": "ShinyConf is more than just an event; it's a global gathering of diverse Shiny community, creating a shared space for learning, networking, and collaborative exploration. Connect with like-minded enthusiasts from all corners of the world! Your TidyTuesday maintainers -- Tracy Teal and Jon Harmon -- are both speaking at ShinyConf on Thursday, 2024-04-18. We look forward to seeing you there! What is the most popular way in which packages are connected to Shiny? Can you create a Shiny app to explore this data?",
+ "questions": [],
+ "subjects": [
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "r package",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "shiny on CRAN",
+   "url": "https://cran.r-project.org/package=shiny"
+  }
+ ],
+ "articles": [
+  {
+   "name": "ShinyConf2024: The Future is Shiny",
+   "url": "https://www.shinyconf.com/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "shiny_revdeps.csv",
+   "bytes": 3662300,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-04-16/shiny_revdeps.csv",
+   "columns": [
+    "child",
+    "dependency_type",
+    "parent"
+   ]
+  },
+  {
+   "file": "package_details.csv",
+   "bytes": 26935049,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-04-16/package_details.csv",
+   "columns": [
+    "Package",
+    "Version",
+    "Priority",
+    "Depends",
+    "Imports",
+    "LinkingTo",
+    "Suggests",
+    "Enhances",
+    "License",
+    "License_is_FOSS",
+    "License_restricts_use",
+    "OS_type",
+    "Archs",
+    "MD5sum",
+    "NeedsCompilation",
+    "Additional_repositories",
+    "Author",
+    "Authors@R",
+    "Biarch",
+    "BugReports",
+    "BuildKeepEmpty",
+    "BuildManual",
+    "BuildResaveData",
+    "BuildVignettes",
+    "ByteCompile",
+    "Classification/ACM",
+    "Classification/ACM-2012",
+    "Classification/JEL",
+    "Classification/MSC",
+    "Classification/MSC-2010",
+    "Collate",
+    "Contact",
+    "Copyright",
+    "Date",
+    "Date/Publication",
+    "Description",
+    "Encoding",
+    "KeepSource",
+    "Language",
+    "LazyData",
+    "LazyDataCompression",
+    "LazyLoad",
+    "MailingList",
+    "Maintainer",
+    "Note",
+    "Packaged",
+    "RdMacros",
+    "StagedInstall",
+    "SysDataCompression",
+    "SystemRequirements",
+    "Title",
+    "Type",
+    "URL",
+    "UseLTO",
+    "VignetteBuilder",
+    "ZipData",
+    "X-CRAN-Comment",
+    "Published",
+    "Reverse depends",
+    "Reverse imports",
+    "Reverse linking to",
+    "Reverse suggests",
+    "Reverse enhances"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-04-16",
+   "year": 2024,
+   "week": 16,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-04-16"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "shiny on CRAN",
+  "host": "shiny on cran"
+ }
+}

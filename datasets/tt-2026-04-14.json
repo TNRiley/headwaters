@@ -1,0 +1,125 @@
+{
+ "id": "tt-2026-04-14",
+ "title": "Bird Sightings at Sea",
+ "hook": "This week we're exploring Bird Sightings at Sea! The data this week comes from Te Papa Tongarewa, The Museum of New Zealand. It consists of log book entries of bird sightings at sea near New Zealand, from 1969 to 1990. The data was recorded using guidelines for the Australasian Seabird Mapping Scheme and counts seabirds seen from a ship during a 10 minute period. The data includes geolocations of the sightings, bird species, numbers and behaviour, observer and ship name, and observation date and time.",
+ "questions": [
+  "The data was recorded by hand and split into standardized columns. Do the logbook entries in speciescommonname in the birds dataset always match up with the split columns such as speciesscientificname, age, wanplumagephase, plumagephase, and sex."
+ ],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "At-Sea Observations of Seabirds 1969 to 1990",
+   "url": "https://catalogue.data.govt.nz/dataset/at-sea-observations-of-seabirds-1969-to-1990"
+  }
+ ],
+ "articles": [
+  {
+   "name": "At-Sea Observations of Seabirds 1969 to 1990, Tasman Sea, New Zealand and Australian waters",
+   "url": "https://obis.org/dataset/29ea15ed-8f76-40ca-bd14-58c62e10b2ef"
+  }
+ ],
+ "tables": [
+  {
+   "file": "beaufort_scale.csv",
+   "bytes": 318,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/beaufort_scale.csv",
+   "columns": [
+    "wind_speed_class",
+    "wind_description",
+    "wind_speed_knots_min",
+    "wind_speed_knots_max"
+   ]
+  },
+  {
+   "file": "birds.csv",
+   "bytes": 7561114,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/birds.csv",
+   "columns": [
+    "bird_observation_id",
+    "record_id",
+    "species_common_name",
+    "species_scientific_name",
+    "species_abbreviation",
+    "age",
+    "wan_plumage_phase",
+    "plumage_phase",
+    "sex",
+    "count",
+    "n_feeding",
+    "feeding",
+    "n_sitting_on_water",
+    "sitting_on_water",
+    "n_sitting_on_ice",
+    "sitting_on_ice",
+    "sitting_on_ship",
+    "in_hand",
+    "n_flying_past",
+    "flying_past",
+    "n_accompanying",
+    "accompanying",
+    "n_following_ship",
+    "following_ship",
+    "moulting",
+    "naturally_feeding"
+   ]
+  },
+  {
+   "file": "sea_states.csv",
+   "bytes": 199,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/sea_states.csv",
+   "columns": [
+    "sea_state_class",
+    "sea_state_description",
+    "wave_meters_min",
+    "wave_meters_max"
+   ]
+  },
+  {
+   "file": "ships.csv",
+   "bytes": 1540588,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-14/ships.csv",
+   "columns": [
+    "record_id",
+    "date",
+    "time",
+    "latitude",
+    "longitude",
+    "hemisphere",
+    "activity",
+    "speed",
+    "direction",
+    "cloud_cover",
+    "precipitation",
+    "wind_speed_class",
+    "wind_direction",
+    "air_temperature",
+    "pressure",
+    "sea_state_class",
+    "sea_surface_temperature",
+    "depth",
+    "observer",
+    "census_method",
+    "season"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-04-14",
+   "year": 2026,
+   "week": 15,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-04-14"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "At-Sea Observations of Seabirds 1969 to 1990",
+  "host": "catalogue.data.govt.nz"
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "id": "tt-2019-09-03",
+ "title": "Moore's Law",
+ "hook": "This week's data is from Wikipedia - by way of the Data Is Beautiful Subreddit. Additional info and graphics can be found at Our World in Data. Moore's Law: Transistors per microprocessor library(tidyverse) library(rvest) tables <- url %>% readhtml() %>% htmltable(fill = TRUE) df1 <- tables %>% chuck(1) %>% janitor::cleannames() %>% astibble() df1clean <- df1 %>% mutate( transistorcount = strremove(transistorcount, \"\\\\[[^\\\\]]\\\\]\"), transistorcount = strremove(transistorcount, \"[:punct:]+\"), transistorcount = strremove(transistorcount, \"\\\\[[^\\\\]]\\\\]\"), transistorcount = strremove(transistorcount, \"[:punct:]+\"), transistorcount = strremove(transistorcount, \"[:punct:]+\"), transistorcount = strextract(transistorcount, \"[:digit:]+\"), dateofintroduction = strsub(dateofintroduction, 1, 4), process = strremove(process, \",\"), process = strextract(process, \"[:digit:]+\"), area = strextract(area,…",
+ "questions": [
+  "The observation that the number of transistors in a dense integrated circuit doubles approximately every two years."
+ ],
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Transistor_count"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Wikipedia",
+   "url": "https://ourworldindata.org/technological-progress"
+  }
+ ],
+ "tables": [
+  {
+   "file": "cpu.csv",
+   "bytes": 9448,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-09-03/cpu.csv",
+   "columns": [
+    "processor",
+    "transistor_count",
+    "date_of_introduction",
+    "designer",
+    "process",
+    "area"
+   ]
+  },
+  {
+   "file": "gpu.csv",
+   "bytes": 5940,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-09-03/gpu.csv",
+   "columns": [
+    "processor",
+    "transistor_count",
+    "date_of_introduction",
+    "designer_s",
+    "manufacturer_s",
+    "process",
+    "area",
+    "ref"
+   ]
+  },
+  {
+   "file": "ram.csv",
+   "bytes": 2742,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-09-03/ram.csv",
+   "columns": [
+    "chip_name",
+    "capacity_bits",
+    "bit_units",
+    "ram_type",
+    "transistor_count",
+    "date_of_introduction",
+    "manufacturer_s",
+    "process",
+    "area",
+    "ref"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-09-03",
+   "year": 2019,
+   "week": 36,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-09-03"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Wikipedia",
+  "host": "wikipedia"
+ }
+}

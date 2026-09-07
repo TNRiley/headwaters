@@ -1,0 +1,118 @@
+{
+ "id": "tt-2024-05-28",
+ "title": "Lisa's Vegetable Garden Data",
+ "hook": "We're exploring Lisa Lendway's vegetable garden from summer 2020 and summer 2021, from her {gardenR} package. Thank you to Lisa for suggesting this dataset back in 2021! The gardenR package contains data collected by Lisa Lendway from her vegetable garden, starting in the summer of 2020. Data from the summer of 2021 was added 2022-01-29 (finally!). The data were used in her Introduction to Data Science course at Macalester College to introduce many concepts. For examples, see the tutorials for the course. Lisa also has a YouTube video with a visual tour of the garden. What changed between 2020 and 2021?",
+ "questions": [],
+ "subjects": [
+  "food & drink",
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "{gardenR} package",
+   "url": "https://github.com/llendway/gardenR"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Macalester College COMP/STAT 112 Tutorials",
+   "url": "https://ds112-lendway.netlify.app/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "harvest_2020.csv",
+   "bytes": 32357,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-05-28/harvest_2020.csv",
+   "columns": [
+    "vegetable",
+    "variety",
+    "date",
+    "weight",
+    "units"
+   ]
+  },
+  {
+   "file": "harvest_2021.csv",
+   "bytes": 29109,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-05-28/harvest_2021.csv",
+   "columns": [
+    "vegetable",
+    "variety",
+    "date",
+    "weight",
+    "units"
+   ]
+  },
+  {
+   "file": "planting_2020.csv",
+   "bytes": 4253,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-05-28/planting_2020.csv",
+   "columns": [
+    "plot",
+    "vegetable",
+    "variety",
+    "number_seeds_planted",
+    "date",
+    "number_seeds_exact",
+    "notes"
+   ]
+  },
+  {
+   "file": "planting_2021.csv",
+   "bytes": 4558,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-05-28/planting_2021.csv",
+   "columns": [
+    "date",
+    "vegetable",
+    "variety",
+    "plot",
+    "number_seeds_planted",
+    "number_seeds_exact",
+    "notes"
+   ]
+  },
+  {
+   "file": "spending_2020.csv",
+   "bytes": 4096,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-05-28/spending_2020.csv",
+   "columns": [
+    "vegetable",
+    "variety",
+    "brand",
+    "eggplant_item_number",
+    "price",
+    "price_with_tax"
+   ]
+  },
+  {
+   "file": "spending_2021.csv",
+   "bytes": 933,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-05-28/spending_2021.csv",
+   "columns": [
+    "vegetable",
+    "variety",
+    "brand",
+    "price",
+    "price_with_tax"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-05-28",
+   "year": 2024,
+   "week": 22,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-05-28"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "{gardenR}",
+  "host": "{gardenr}"
+ }
+}

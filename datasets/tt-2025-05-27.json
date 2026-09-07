@@ -1,0 +1,84 @@
+{
+ "id": "tt-2025-05-27",
+ "title": "Dungeons and Dragons Monsters (2024)",
+ "hook": "This week we're exploring monsters from the Dungeons & Dragons System Reference Document! After the popularity of our Dungeons and Dragons Spells (2024), we thought it might be fun to explore the freely available monsters from the 2024 update. Every monster is a font of adventure. In this bestiary of Dungeons & Dragons monsters, you’ll discover the weird, the whimsical, the majestic, and the macabre. Choose your favorites, and make them part of your D&D play.",
+ "questions": [
+  "Which types of monsters have the highest (or lowest) of each ability score?",
+  "Which monster types have a broad range of challenger ratings?",
+  "Which language allows your character to communicate with the most monsters?",
+  "How else can the dataset be processed to pull out common fields?"
+ ],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "System Reference Document v5.2.1",
+   "url": "https://www.dndbeyond.com/srd"
+  }
+ ],
+ "articles": [
+  {
+   "name": "You Can Now Publish Your Own Creations Using the New Core Rules",
+   "url": "https://www.dndbeyond.com/posts/1949-you-can-now-publish-your-own-creations-using-the"
+  }
+ ],
+ "tables": [
+  {
+   "file": "monsters.csv",
+   "bytes": 464129,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-05-27/monsters.csv",
+   "columns": [
+    "category",
+    "cr",
+    "size",
+    "type",
+    "descriptive_tags",
+    "alignment",
+    "ac",
+    "initiative",
+    "hp",
+    "hp_number",
+    "speed",
+    "speed_base_number",
+    "str",
+    "dex",
+    "con",
+    "int",
+    "wis",
+    "cha",
+    "str_save",
+    "dex_save",
+    "con_save",
+    "int_save",
+    "wis_save",
+    "cha_save",
+    "skills",
+    "resistances",
+    "vulnerabilities",
+    "immunities",
+    "gear",
+    "senses",
+    "languages",
+    "full_text"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-05-27",
+   "year": 2025,
+   "week": 21,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-05-27"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "System Reference Document v5.2.1",
+  "host": "dndbeyond.com"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "tt-2024-06-04",
+ "title": "Cheese",
+ "hook": "The data this week comes from cheese.com, inspired by the examples in the {polite} package. Cheese is nutritious food made mostly from the milk of cows but also other mammals, including sheep, goats, buffalo, reindeer, camels and yaks. Around 4000 years ago people have started to breed animals and process their milk. That's when the cheese was born. Explore this site to find out about different kinds of cheese from all around the world. 248 cheeses have listed fat content. Is there a relationship between fat content and cheese type? What about texture, flavor, or aroma?",
+ "questions": [],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "cheese.com",
+   "url": "https://www.cheese.com/alphabetical/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "cheese.com site and blog",
+   "url": "https://www.cheese.com/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "cheeses.csv",
+   "bytes": 252382,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-06-04/cheeses.csv",
+   "columns": [
+    "cheese",
+    "url",
+    "milk",
+    "country",
+    "region",
+    "family",
+    "type",
+    "fat_content",
+    "calcium_content",
+    "texture",
+    "rind",
+    "color",
+    "flavor",
+    "aroma",
+    "vegetarian",
+    "vegan",
+    "synonyms",
+    "alt_spellings",
+    "producers"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-06-04",
+   "year": 2024,
+   "week": 23,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-06-04"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "cheese.com",
+  "host": "cheese.com"
+ }
+}

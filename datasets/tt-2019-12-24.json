@@ -1,0 +1,66 @@
+{
+ "id": "tt-2019-12-24",
+ "title": "Christmas Songs",
+ "hook": "This week's data is about Christmas songs on the hot-100 list! Clean data comes from Kaggle and originally from data.world. The lyrics come courtest of Josiah Parry's genius R package. It has several useful functions, mainly built around grabbing lyrics for specific artists, songs, or albums. christmassongs <- readr::readcsv(\" christmaslyrics <- readr::readtsv(\" tuesdata <- tidytuesdayR::ttload(\"2019-12-24\") tuesdata <- tidytuesdayR::ttload(2019, week = 52) christmassongs <- tuesdata$christmassongs r library(tidyverse) library(genius) df <- readcsv(here(\"2019\", \"2019-12-24\", \"christmassongs.csv\")) lyricdf <- df %>% select(\"title\" = song, \"artist\" = performer, songid, weekid) %>% addgenius(artist = artist, title = title) %>% select(-lyrics) lyricclean %>% writetsv(here(\"2019\", \"2019-12-24\",\"christmaslyrics.tsv\"))",
+ "questions": [],
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Billboard Top 100",
+   "url": "https://www.kaggle.com/sharkbait1223/billboard-top-100-christmas-carol-dataset"
+  }
+ ],
+ "articles": [
+  {
+   "name": "A Dash of Data",
+   "url": "https://adashofdata.com/2014/12/21/how-christmas-songs-have-evolved-over-time/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "christmas_songs.csv",
+   "bytes": 63106,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-12-24/christmas_songs.csv",
+   "columns": [
+    "url",
+    "weekid",
+    "week_position",
+    "song",
+    "performer",
+    "songid",
+    "instance",
+    "previous_week_position",
+    "peak_position",
+    "weeks_on_chart",
+    "year",
+    "month",
+    "day"
+   ]
+  },
+  {
+   "file": "christmas_lyrics.tsv",
+   "bytes": 1063815,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-12-24/christmas_lyrics.tsv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-12-24",
+   "year": 2019,
+   "week": 52,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-12-24"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Billboard Top 100",
+  "host": "billboard top 100"
+ }
+}

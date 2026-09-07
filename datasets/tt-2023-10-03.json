@@ -1,0 +1,139 @@
+{
+ "id": "tt-2023-10-03",
+ "title": "US Government Grant Opportunities",
+ "hook": "The R4DS Online Learning Community is a community of learners at all skill levels working together to improve our data-science-related skills. We offer free data-related education through book clubs and free live question-answering on our Slack, and by curating a dataset every week here at TidyTuesday. (NOTE: Unfortunately, since this post, the Open Collective Foundation dissolved, so this is no longer true.) We are now a fiscally sponsored project of Open Collective Foundation ( a 501(c)(3) public charity. That means donations to the R4DS Online Learning Community are now tax-deductible in the US! It also means that we are now eligible for a number of grants, including some of the grants listed on Grants.gov. We have exported all grants past and present from that site, and we are making them available here for you to explore and visualize. We also scraped details for all posted grants.",
+ "questions": [],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Grants 101 from Grants.gov",
+   "url": "https://www.grants.gov/web/grants/learn-grants/grants-101.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Grants.gov Search Export",
+   "url": "https://www.grants.gov/web/grants/search-grants.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "grants.csv",
+   "bytes": 24552317,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-10-03/grants.csv",
+   "columns": [
+    "opportunity_id",
+    "opportunity_number",
+    "opportunity_title",
+    "agency_code",
+    "agency_name",
+    "estimated_funding",
+    "expected_number_of_awards",
+    "grantor_contact",
+    "agency_contact_phone",
+    "agency_contact_email",
+    "estimated_post_date",
+    "estimated_application_due_date",
+    "posted_date",
+    "close_date",
+    "last_updated_date_time",
+    "version",
+    "opportunity_status"
+   ]
+  },
+  {
+   "file": "grant_opportunity_details.csv",
+   "bytes": 6092847,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-10-03/grant_opportunity_details.csv",
+   "columns": [
+    "opportunity_id",
+    "funding_opportunity_number",
+    "funding_opportunity_title",
+    "opportunity_category",
+    "opportunity_category_explanation",
+    "expected_number_of_awards",
+    "cost_sharing_or_matching_requirement",
+    "version",
+    "posted_date",
+    "last_updated_date",
+    "original_closing_date_for_applications",
+    "current_closing_date_for_applications",
+    "archive_date",
+    "estimated_total_program_funding",
+    "award_ceiling",
+    "award_floor",
+    "agency_name",
+    "description",
+    "link_to_additional_information",
+    "grantor_contact_information",
+    "eligibility_individuals",
+    "eligibility_state_governments",
+    "eligibility_county_governments",
+    "eligibility_independent_school_districts",
+    "eligibility_city_or_township_governments",
+    "eligibility_special_district_governments",
+    "eligibility_native_american_tribal_governments_federally_recognized",
+    "eligibility_native_american_tribal_organizations_other",
+    "eligibility_nonprofits_501c3",
+    "eligibility_nonprofits_non_501c3",
+    "eligibility_for_profit",
+    "eligibility_small_businesses",
+    "eligibility_private_institutions_of_higher_education",
+    "eligibility_public_institutions_of_higher_education",
+    "eligibility_public_indian_housing_authorities",
+    "eligibility_others",
+    "eligibility_unrestricted",
+    "additional_information_on_eligibility",
+    "funding_cooperative_agreement",
+    "funding_grant",
+    "funding_procurement_contract",
+    "funding_other",
+    "cfda_numbers",
+    "category_agriculture",
+    "category_arts",
+    "category_business",
+    "category_community_development",
+    "category_consumer_protection",
+    "category_disaster",
+    "category_education",
+    "category_employment",
+    "category_energy",
+    "category_environment",
+    "category_food",
+    "category_health",
+    "category_housing",
+    "category_humanities",
+    "category_iija",
+    "category_income_security",
+    "category_info",
+    "category_law",
+    "category_natural_resources",
+    "category_opportunity_zone",
+    "category_regional_development",
+    "category_science",
+    "category_transportation",
+    "category_other",
+    "category_explanation"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-10-03",
+   "year": 2023,
+   "week": 40,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-10-03"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Grants 101 from Grants.gov",
+  "host": "grants.gov"
+ }
+}

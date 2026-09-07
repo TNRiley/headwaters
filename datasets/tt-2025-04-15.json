@@ -1,0 +1,79 @@
+{
+ "id": "tt-2025-04-15",
+ "title": "Base R Penguins",
+ "hook": "This week we're taking another look at penguins! The Palmer Penguins dataset first appeared in TidyTuesday back in July of 2020. We're using the dataset again because, as of R 4.5.0 (released this past Friday), the datasets are available in the base R datasets package! The Palmer Penguins data, contained in the palmerpenguins R package as the penguins and penguinsraw data frames, have become popular for data exploration and visualisation, particularly in an educational context. ... The data was originally published in Gorman et al. (2014). Their inclusion in the datasets package included in the base R distribution was motivated by Horst et al. (2022). Also check out the {basepenguins} R package to convert scripts that use {palmerpenguins} to use the base R versions of the datasets. 1.",
+ "questions": [],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "The R Datasets Package",
+   "url": "https://www.r-project.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Preparing the Palmer Penguins Data for the datasets Package in R",
+   "url": "https://zenodo.org/records/14902740"
+  }
+ ],
+ "tables": [
+  {
+   "file": "penguins.csv",
+   "bytes": 15222,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-15/penguins.csv",
+   "columns": [
+    "species",
+    "island",
+    "bill_len",
+    "bill_dep",
+    "flipper_len",
+    "body_mass",
+    "sex",
+    "year"
+   ]
+  },
+  {
+   "file": "penguins_raw.csv",
+   "bytes": 53098,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-15/penguins_raw.csv",
+   "columns": [
+    "studyName",
+    "Sample Number",
+    "Species",
+    "Region",
+    "Island",
+    "Stage",
+    "Individual ID",
+    "Clutch Completion",
+    "Date Egg",
+    "Culmen Length (mm)",
+    "Culmen Depth (mm)",
+    "Flipper Length (mm)",
+    "Body Mass (g)",
+    "Sex",
+    "Delta 15 N (o/oo)",
+    "Delta 13 C (o/oo)",
+    "Comments"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-04-15",
+   "year": 2025,
+   "week": 15,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-04-15"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The R Datasets",
+  "host": "r-project.org"
+ }
+}

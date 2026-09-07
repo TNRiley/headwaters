@@ -1,0 +1,99 @@
+{
+ "id": "tt-2023-06-20",
+ "title": "UFO Sightings Redux",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: \\### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph \\### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year \\### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "oddities & curiosities"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "National UFO Reporting Center",
+   "url": "https://nuforc.org/webreports/ndxshape.html"
+  },
+  {
+   "name": "sunrise-sunset.org",
+   "url": "https://sunrise-sunset.org"
+  }
+ ],
+ "articles": [
+  {
+   "name": "TidyTuesday 2019-06-25",
+   "url": "https://tidytues.day/2019/2019-06-25"
+  }
+ ],
+ "tables": [
+  {
+   "file": "ufo_sightings.csv",
+   "bytes": 18261421,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-06-20/ufo_sightings.csv",
+   "columns": [
+    "reported_date_time",
+    "reported_date_time_utc",
+    "posted_date",
+    "city",
+    "state",
+    "country_code",
+    "shape",
+    "reported_duration",
+    "duration_seconds",
+    "summary",
+    "has_images",
+    "day_part"
+   ]
+  },
+  {
+   "file": "places.csv",
+   "bytes": 2924768,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-06-20/places.csv",
+   "columns": [
+    "city",
+    "alternate_city_names",
+    "state",
+    "country",
+    "country_code",
+    "latitude",
+    "longitude",
+    "timezone",
+    "population",
+    "elevation_m"
+   ]
+  },
+  {
+   "file": "day_parts_map.csv",
+   "bytes": 2612556,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-06-20/day_parts_map.csv",
+   "columns": [
+    "rounded_lat",
+    "rounded_long",
+    "rounded_date",
+    "astronomical_twilight_begin",
+    "nautical_twilight_begin",
+    "civil_twilight_begin",
+    "sunrise",
+    "solar_noon",
+    "sunset",
+    "civil_twilight_end",
+    "nautical_twilight_end",
+    "astronomical_twilight_end"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-06-20",
+   "year": 2023,
+   "week": 25,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-06-20"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "NUFORC",
+  "host": "nuforc.org"
+ }
+}

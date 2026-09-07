@@ -1,0 +1,47 @@
+{
+ "id": "tt-2020-11-24",
+ "title": "Washington Trails",
+ "hook": "The data this week comes from Washington Trails Association courtesy of the TidyX crew, Ellis Hughes and Patrick Ward! A video going through this data can be found on YouTube. Their scraping code can be found on GitHub. tuesdata <- tidytuesdayR::ttload('2020-11-24') tuesdata <- tidytuesdayR::ttload(2020, week = 48) hikedata <- readr::readrds(url(' r library(rvest) library(tidyverse) library(here) library(ggplot2) library(plotly) scrapetrails <- function(startint){ pageurl <- paste0( \" startint ) htmlnodes(\".search-result-item\") %>% hikename <- hike %>% htmlnodes(\".listitem-title\") %>% htmlnodes(\"span\") %>% htmltext() hikelocation <- hike %>% htmlnode(\"h3\") %>% htmltext() hikestats <- hike %>% htmlnode(\".hike-stats\") hikelength <- hikestats %>% htmlnodes(\".hike-length\") %>%htmlnodes(\"span\") %>% htmltext() hikegain <- hikestats %>% htmlnodes(\".hike-gain\") %>%htmlnodes(\"span\") %>%…",
+ "questions": [],
+ "subjects": [
+  "animals & nature",
+  "sports & games"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "WTA",
+   "url": "https://www.wta.org/go-outside/hikes?b_start:int=1"
+  }
+ ],
+ "articles": [
+  {
+   "name": "TidyX",
+   "url": "https://github.com/thebioengineer/TidyX"
+  }
+ ],
+ "tables": [
+  {
+   "file": "hike_data.rds",
+   "bytes": 206433,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-11-24/hike_data.rds",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-11-24",
+   "year": 2020,
+   "week": 48,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-11-24"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "WTA",
+  "host": "wta.org"
+ }
+}

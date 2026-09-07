@@ -1,0 +1,103 @@
+{
+ "id": "tt-2024-12-31",
+ "title": "James Beard Awards",
+ "hook": "This week we're exploring the James Beard Awards! Wikipedia tells us: The James Beard Foundation Awards are annual awards presented by the James Beard Foundation to recognize chefs, restaurateurs, authors and journalists in the United States.",
+ "questions": [
+  "How have the subcategories of the various awards changed over time?",
+  "Has anybody won in multiple categories?",
+  "Which restaurants have the most winners? Which newspapers or networks?"
+ ],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "James Beard Foundation Awards Search",
+   "url": "https://www.jamesbeard.org/awards/search"
+  }
+ ],
+ "articles": [
+  {
+   "name": "James Beard Foundation Awards",
+   "url": "https://www.jamesbeard.org/awards"
+  }
+ ],
+ "tables": [
+  {
+   "file": "book.csv",
+   "bytes": 195174,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-12-31/book.csv",
+   "columns": [
+    "subcategory",
+    "rank",
+    "year",
+    "title",
+    "publisher"
+   ]
+  },
+  {
+   "file": "broadcast_media.csv",
+   "bytes": 180075,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-12-31/broadcast_media.csv",
+   "columns": [
+    "subcategory",
+    "rank",
+    "year",
+    "show",
+    "affiliation",
+    "title"
+   ]
+  },
+  {
+   "file": "journalism.csv",
+   "bytes": 186283,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-12-31/journalism.csv",
+   "columns": [
+    "subcategory",
+    "rank",
+    "year",
+    "affiliation",
+    "title"
+   ]
+  },
+  {
+   "file": "leadership.csv",
+   "bytes": 2659,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-12-31/leadership.csv",
+   "columns": [
+    "rank",
+    "year",
+    "affiliation"
+   ]
+  },
+  {
+   "file": "restaurant_and_chef.csv",
+   "bytes": 852952,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-12-31/restaurant_and_chef.csv",
+   "columns": [
+    "subcategory",
+    "rank",
+    "year",
+    "restaurant",
+    "city"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-12-31",
+   "year": 2024,
+   "week": 53,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-12-31"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "James Beard Foundation Awards Search",
+  "host": "jamesbeard.org"
+ }
+}

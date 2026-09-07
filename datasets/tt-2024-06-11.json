@@ -1,0 +1,78 @@
+{
+ "id": "tt-2024-06-11",
+ "title": "Campus Pride Index",
+ "hook": "Happy Pride Month! Check out the {gglgbtq} package for LGBTQ-related themes and color palettes! The data this week comes from the Campus Pride Index. Since 2007, the Campus Pride Index has been the premier LGBTQ national benchmarking tool for colleges and universities to create safer, more inclusive campus communities. The free online tool allows prospective students, families/parents and those interested in higher education to search a database of LGBTQ-friendly campuses who have come out to improve the academic experience and quality of campus life. The website has additional information about each campus, including a more detailed breakdown of their Campus Pride Index rating. Is there a relationship between the size of a campus or the surrounding community and its rating? What about the state in which the campus is located?",
+ "questions": [],
+ "subjects": [
+  "education",
+  "society & demographics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Campus Pride Index search results",
+   "url": "https://campusprideindex.org/searchresults/display/0"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Campus Pride Index",
+   "url": "https://campusprideindex.org"
+  }
+ ],
+ "tables": [
+  {
+   "file": "pride_index.csv",
+   "bytes": 15184,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-06-11/pride_index.csv",
+   "columns": [
+    "campus_name",
+    "campus_location",
+    "rating",
+    "students",
+    "community_type"
+   ]
+  },
+  {
+   "file": "pride_index_tags.csv",
+   "bytes": 23687,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-06-11/pride_index_tags.csv",
+   "columns": [
+    "campus_name",
+    "campus_location",
+    "public",
+    "private",
+    "doctoral",
+    "masters",
+    "baccalaureate",
+    "community",
+    "residential",
+    "nonresidential",
+    "liberal_arts",
+    "technical",
+    "religious",
+    "military",
+    "hbcu",
+    "hispanic_serving",
+    "aapi_serving",
+    "other_minority_serving"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-06-11",
+   "year": 2024,
+   "week": 24,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-06-11"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Campus Pride Index search results",
+  "host": "campusprideindex.org"
+ }
+}

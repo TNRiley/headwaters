@@ -1,0 +1,80 @@
+{
+ "id": "tt-2019-07-09",
+ "title": "Women's World Cup",
+ "hook": "This dataset seemed appropriate for a lot of reasons - useR2019 is in France this year, the Women's World Cup was in France this year and the tournament just ended! Congrats to all the teams for qualifying and participating in the world stage! This data comes from data.world and includes final score and win/loss status data from 1991-2019. Additionally the 2019 rosters for each team are included. The data was uploaded to data.world as part of the #SportsVizSunday Twitter project courtesy of Simon Beaumont. There's a lot more data at Wikipedia, including Attendance, Host/Results, and conference-level data. Additionally, there are lots of other fun sports-related datasets from #SportsVizSundayas seen at data.world. I cleaned up the data and have attached the final and original dataset. I also added the 2019 match data by hand through the Finals! Country codes are on Wikipedia.",
+ "questions": [
+  "Free play-by-play data",
+  "538 Predictions article",
+  "538 Predictions data"
+ ],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "data.world",
+   "url": "https://data.world/sportsvizsunday/womens-world-cup-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/FIFA_Women%27s_World_Cup"
+  }
+ ],
+ "tables": [
+  {
+   "file": "wwc_outcomes.csv",
+   "bytes": 16025,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-07-09/wwc_outcomes.csv",
+   "columns": [
+    "year",
+    "team",
+    "score",
+    "round",
+    "yearly_game_id",
+    "team_num",
+    "win_status"
+   ]
+  },
+  {
+   "file": "squads.csv",
+   "bytes": 39524,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-07-09/squads.csv",
+   "columns": [
+    "squad_no",
+    "country",
+    "pos",
+    "player",
+    "dob",
+    "age",
+    "caps",
+    "goals",
+    "club"
+   ]
+  },
+  {
+   "file": "codes.csv",
+   "bytes": 2932,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-07-09/codes.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-07-09",
+   "year": 2019,
+   "week": 28,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-07-09"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Data.World",
+  "host": "data.world"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "id": "tt-2019-03-05",
+ "title": "Women in the Workplace",
+ "hook": "March is Women's History month, as such we're exploring data from the Bureau of Labor Statistics and the Census Bureau about women in the workforce. There are historical data about women's earnings and employment status, as well as detailed information about specific occupation and earnings from 2013-2016. According to the AAUW - \"The gender pay gap is the gap between what men and women are paid. Most commonly, it refers to the median annual pay of all women who work full time and year-round, compared to the pay of a similar cohort of men.\" These data can be nuanced so please use your best judgement when reporting on trends in the dataset. The specific jobs data came from the Census Bureau and the historical data comes from the Bureau of Labor here and here. The data is provided as is, and you recognize the limitations and issues in defining gender as binary.",
+ "questions": [],
+ "subjects": [
+  "economy & work",
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Census Bureau",
+   "url": "https://www.census.gov/data/tables/time-series/demo/industry-occupation/median-earnings.html"
+  },
+  {
+   "name": "Bureau of Labor",
+   "url": "https://www.bls.gov/opub/ted/2012/ted_20121123.htm"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Census Bureau",
+   "url": "https://www.census.gov/library/stories/2018/05/gender-pay-gap-in-finance-sales.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "jobs_gender.csv",
+   "bytes": 334978,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-03-05/jobs_gender.csv",
+   "columns": []
+  },
+  {
+   "file": "earnings_female.csv",
+   "bytes": 6534,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-03-05/earnings_female.csv",
+   "columns": []
+  },
+  {
+   "file": "employed_gender.csv",
+   "bytes": 1774,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-03-05/employed_gender.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 2,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-03-05",
+   "year": 2019,
+   "week": 10,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-03-05"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

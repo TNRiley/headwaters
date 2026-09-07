@@ -1,0 +1,46 @@
+{
+ "id": "tt-2018-04-16",
+ "title": "Global Mortality",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "ourworldindata.org",
+   "url": "https://ourworldindata.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "ourworldindata.org",
+   "url": "https://ourworldindata.org/what-does-the-world-die-from"
+  }
+ ],
+ "tables": [
+  {
+   "file": "global_mortality.xlsx",
+   "bytes": 2711948,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-04-16/global_mortality.xlsx",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-04-16",
+   "year": 2018,
+   "week": 3,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-04-16"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Our World in Data",
+  "host": "ourworldindata.org"
+ }
+}

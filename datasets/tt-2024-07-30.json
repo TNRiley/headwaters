@@ -1,0 +1,66 @@
+{
+ "id": "tt-2024-07-30",
+ "title": "Summer Movies",
+ "hook": "This week we're exploring \"summer\" movies: movies with \"summer\" in their title! The data this week comes from the Internet Movie Database. We don't have an article using exactly this dataset, but you might get inspiration from IMDb's 2023 Summer Movie Guide.",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "IMDb non-commercial datasets",
+   "url": "https://developer.imdb.com/non-commercial-datasets/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "IMDb's 2023 Summer Movie Guide",
+   "url": "https://www.imdb.com/list/ls569932833"
+  }
+ ],
+ "tables": [
+  {
+   "file": "summer_movie_genres.csv",
+   "bytes": 27571,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-30/summer_movie_genres.csv",
+   "columns": [
+    "tconst",
+    "genres"
+   ]
+  },
+  {
+   "file": "summer_movies.csv",
+   "bytes": 101108,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-30/summer_movies.csv",
+   "columns": [
+    "tconst",
+    "title_type",
+    "primary_title",
+    "original_title",
+    "year",
+    "runtime_minutes",
+    "genres",
+    "simple_title",
+    "average_rating",
+    "num_votes"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-07-30",
+   "year": 2024,
+   "week": 31,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-07-30"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "IMDb non-commercial",
+  "host": "developer.imdb.com"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "tt-2018-10-02",
+ "title": "US Births",
+ "hook": "This folder contains data behind the story Some People Are Too Superstitious To Have A Baby On Friday The 13th. usbirths2000-2014.csv contains U.S. births data for the years 2000 to 2014, as provided by the Social Security Administration. The data have the following structure: Header | Definition ---|--------- year | Year month | Month dateofmonth | Day number of the month dayofweek | Day of week, where 1 is Monday and 7 is Sunday births | Number of births",
+ "questions": [],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fivethirtyeight package",
+   "url": "https://github.com/rudeboybert/fivethirtyeight"
+  }
+ ],
+ "articles": [
+  {
+   "name": "538 - Births",
+   "url": "https://fivethirtyeight.com/features/some-people-are-too-superstitious-to-have-a-baby-on-friday-the-13th/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "us_births_2000-2014.csv",
+   "bytes": 96748,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-10-02/us_births_2000-2014.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-10-02",
+   "year": 2018,
+   "week": 27,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-10-02"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FiveThirtyEight",
+  "host": "fivethirtyeight"
+ }
+}

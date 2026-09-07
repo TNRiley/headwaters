@@ -1,0 +1,65 @@
+{
+ "id": "tt-2020-06-02",
+ "title": "Marble Races",
+ "hook": "The data this week comes from Jelle's Marble Runs courtesy of Randy Olson. Randy's blogpost covers some additional analysis. Jelle's Marble Runs started as a quirky YouTube channel back in 2006 and has refined the art of marble racing to the point that many — including sponsor John Oliver from Last Week Tonight — consider marble racing a legitimate contender for the national sports spotlight. Given that Jelle's Marble Runs just completed their popular Marbula One competition last month, I was curious to look at the race results to see if these races were anything more than chaos. Do some marbles race better than others? Who would I put my money on in season 2 of Marbula One? ... If any of these questions interest you, read on and I'll answer some of them. The first step to answering these questions was to get some data.",
+ "questions": [
+  "Spotlight from John Oliver on Last Week Tonight",
+  "courtesy of Dennis Hammerschmidt"
+ ],
+ "subjects": [
+  "sports & games",
+  "oddities & curiosities"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Jelle's Marble Runs",
+   "url": "https://www.youtube.com/channel/UCYJdpnjuSWVOLgGT9fIzL0g"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Randy Olson",
+   "url": "http://www.randalolson.com/2020/05/24/a-data-driven-look-at-marble-racing/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "marbles.csv",
+   "bytes": 29382,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-02/marbles.csv",
+   "columns": [
+    "date",
+    "race",
+    "site",
+    "source",
+    "marble_name",
+    "team_name",
+    "time_s",
+    "pole",
+    "points",
+    "track_length_m",
+    "number_laps",
+    "avg_time_lap",
+    "host",
+    "notes"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-06-02",
+   "year": 2020,
+   "week": 23,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-06-02"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Jelle's Marble Runs",
+  "host": "youtube.com"
+ }
+}

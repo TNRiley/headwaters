@@ -1,0 +1,87 @@
+{
+ "id": "tt-2025-06-10",
+ "title": "U.S. Judges and the historydata R package",
+ "hook": "This week we're exploring U. S. judge data from the {historydata} R package! This package is looking for a new maintainer. If you are interested in this dataset (and other datasets of historical information), please consider volunteering! Check out the rOpenSci Blog What Does It Mean to Maintain a Package? by Maëlle Salmon for more information. Note: The package help for this dataset links to a particular PDF with some information about judgeships, but the actual source data can be found at Biographical Directory of Article III Federal Judges: Export on the Federal Judicial Center website. This dataset contains information about the appointments and careers of all federal judges in United States history since 1789. It includes judges who \"judges presidentially appointed during good behavior who have served since 1789 on the U.S. District Courts, the U.S.",
+ "questions": [
+  "How many judges have Pacific Islander as part of their designated race?",
+  "Which Presidents appointed the most judges? The fewest?",
+  "Which political parties have appointed the most judges to courts of customs or internation trade? Due to some coding issues in the current version of the {historydata} package, you may need to combine some terms to find all such appointments."
+ ],
+ "subjects": [
+  "government & politics",
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Web site of the Federal Judicial Center, via the historydata R package",
+   "url": "https://github.com/ropensci/historydata"
+  }
+ ],
+ "articles": [
+  {
+   "name": "What Does It Mean to Maintain a Package?",
+   "url": "https://ropensci.org/blog/2023/02/07/what-does-it-mean-to-maintain-a-package/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "judges_appointments.csv",
+   "bytes": 694199,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-10/judges_appointments.csv",
+   "columns": [
+    "judge_id",
+    "court_name",
+    "court_type",
+    "president_name",
+    "president_party",
+    "nomination_date",
+    "predecessor_last_name",
+    "predecessor_first_name",
+    "senate_confirmation_date",
+    "commission_date",
+    "chief_judge_begin",
+    "chief_judge_end",
+    "retirement_from_active_service",
+    "termination_date",
+    "termination_reason"
+   ]
+  },
+  {
+   "file": "judges_people.csv",
+   "bytes": 240920,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-10/judges_people.csv",
+   "columns": [
+    "judge_id",
+    "name_first",
+    "name_middle",
+    "name_last",
+    "name_suffix",
+    "birth_date",
+    "birthplace_city",
+    "birthplace_state",
+    "death_date",
+    "death_city",
+    "death_state",
+    "gender",
+    "race"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-06-10",
+   "year": 2025,
+   "week": 23,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-06-10"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Web site of the Federal Judicial Center, via the historydata",
+  "host": "web site of the federal judicial center, via the historydata"
+ }
+}

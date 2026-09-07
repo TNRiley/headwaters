@@ -9,9 +9,11 @@ standalone document rather than an Artifact fragment) and add_catalog_link.py.
     python3 src/build_site.py
 """
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 TEMPLATE = ROOT / "src" / "template.html"
@@ -30,10 +32,52 @@ def workspace_root(start):
         p = parent
 
 
+def link_datasets_to_sources(datasets, sources):
+    """A dataset's publisher is sometimes an endpoint we already document.
+
+    Derived at build time, not stored, so adding a source record retro-links every
+    dataset that came from it without touching a single dataset file."""
+    def norm(host):
+        # must match the normalisation classify.py applies to provider hosts,
+        # or nothing joins: api.nhle.com and nhle.com are one publisher.
+        return re.sub(r"^(www|api|data|raw|files|download)\.", "", (host or "").lower())
+
+    host_to_source = {}
+    for s in sources:
+        urls = [s["homepage"]] + [p["url"] for p in s.get("probes", [])]
+        for u in urls:
+            host = norm(urlsplit(u).netloc)
+            if host:
+                host_to_source.setdefault(host, s["id"])
+    back = {}
+    for d in datasets:
+        host = norm((d.get("provider") or {}).get("host") or "")
+        if "." not in host:                            # a name key, not a host
+            continue
+        sid = host_to_source.get(host)
+        if not sid:                                   # api.nhle.com -> nhle.com
+            parts = host.split(".")
+            for i in range(1, len(parts) - 1):
+                sid = host_to_source.get(".".join(parts[i:]))
+                if sid:
+                    break
+        if sid:
+            d["source_id"] = sid
+            back.setdefault(sid, []).append(d["id"])
+    for s in sources:
+        if s["id"] in back:
+            s["datasets_from_here"] = sorted(back[s["id"]])[:40]
+    return sum(1 for d in datasets if d.get("source_id"))
+
+
 def main():
     sources = []
     for f in sorted((ROOT / "sources").glob("*.json")):
         sources.append(json.loads(f.read_text(encoding="utf-8")))
+    datasets = []
+    for f in sorted((ROOT / "datasets").glob("*.json")):
+        datasets.append(json.loads(f.read_text(encoding="utf-8")))
+    linked = link_datasets_to_sources(datasets, sources)
 
     health = {}
     hp = ROOT / "health.json"
@@ -46,7 +90,7 @@ def main():
         leads = json.loads(lp.read_text(encoding="utf-8"))
         leads_new = sum(1 for x in leads.get("leads", {}).values() if x.get("state") == "new")
 
-    payload = {"sources": sources, "health": health, "leads_new": leads_new}
+    payload = {"sources": sources, "datasets": datasets, "health": health, "leads_new": leads_new}
     blob = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
     # The payload lives in a <script type="application/json">; the only sequence
     # that can end it early is a literal </script.
@@ -58,7 +102,8 @@ def main():
     html = html.replace("__PAYLOAD__", blob)
     with OUT.open("w", encoding="utf-8", newline="\n") as fh:
         fh.write(html)
-    print("index.html: %d sources, %d bytes" % (len(sources), OUT.stat().st_size))
+    print("index.html: %d datasets (%d linked to a source), %d sources, %d KB"
+          % (len(datasets), linked, len(sources), OUT.stat().st_size // 1024))
 
     ws = workspace_root(ROOT)
     tools = ws / "catalog" / "tools" if ws else None

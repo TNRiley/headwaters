@@ -1,0 +1,47 @@
+{
+ "id": "tt-2018-10-16",
+ "title": "College Major & Income",
+ "hook": "The data behind the story The Economic Guide To Picking A College Major. All data is from American Community Survey 2010-2012 Public Use Microdata Series. Header | Description ---|--------- Rank | Rank by median earnings Majorcode | Major code, FO1DP in ACS PUMS Major | Major description Majorcategory | Category of major from Carnevale et al Total | Total number of people with major Samplesize | Sample size (unweighted) of full-time, year-round ONLY (used for earnings) Men | Male graduates Women | Female graduates ShareWomen | Women as share of total Employed | Number employed (ESR == 1 or 2) Fulltime | Employed 35 hours or more Parttime | Employed less than 35 hours Fulltimeyearround | Employed at least 50 weeks (WKW == 1) and at least 35 hours (WKHP >= 35) Unemployed | Number unemployed (ESR == 3) Unemploymentrate | Unemployed / (Unemployed + Employed) Median | Median earnings of…",
+ "questions": [],
+ "subjects": [
+  "education",
+  "economy & work"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "fivethirtyeight/ACS",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/college-majors"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight",
+   "url": "https://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "recent-grads.csv",
+   "bytes": 26872,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-10-16/recent-grads.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-10-16",
+   "year": 2018,
+   "week": 29,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-10-16"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "fivethirtyeight/ACS",
+  "host": "fivethirtyeight/acs"
+ }
+}

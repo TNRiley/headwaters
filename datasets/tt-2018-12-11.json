@@ -1,0 +1,46 @@
+{
+ "id": "tt-2018-12-11",
+ "title": "NYC Restaurant inspections",
+ "hook": "This week's data is from the New York Open Data Portal. As the dataset is >100 MB (GitHub only allows 100 MB), I uploaded a data selection of 300,000 records sampled at random from the original dataset with samplen(). You could read in the original dataset by using readcsv on the link as seen below. sampleddf <- df %>% janitor::cleannames() %>% select(-phone, -gradedate, -recorddate, -building, -street) %>% samplen(size = 300000) writecsv(sampleddf, \"nycrestaurants.csv\") The original dataset can be found here. \"How Data Made Me A Believer In New York City's Restaurant Grades\"",
+ "questions": [],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "NYC OpenData/NYC Health Department",
+   "url": "https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j"
+  }
+ ],
+ "articles": [
+  {
+   "name": "FiveThirtyEight",
+   "url": "https://fivethirtyeight.com/features/how-data-made-me-a-believer-in-new-york-citys-restaurant-grades/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "nyc_restaurants.csv",
+   "bytes": 96428600,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-12-11/nyc_restaurants.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-12-11",
+   "year": 2018,
+   "week": 37,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-12-11"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Squirrel Census",
+  "host": "cityofnewyork.us"
+ }
+}

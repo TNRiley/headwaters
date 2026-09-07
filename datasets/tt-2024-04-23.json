@@ -1,0 +1,46 @@
+{
+ "id": "tt-2024-04-23",
+ "title": "Objects Launched into Space",
+ "hook": "This week we're exploring the annual number of objects launched into outer space! Our World in Data processed the data from the Online Index of Objects Launched into Outer Space, maintained by the United Nations Office for Outer Space Affairs since 1962. h/t Data is Plural. What you should know about this indicator Objects are defined here as satellites, probes, landers, crewed spacecrafts, and space station flight elements launched into Earth orbit or beyond. This data is based on national registers of launches submitted to the UN by participating nations. According to UN estimates, the data captures around 88% of all objects launched. When an object is marked by the source as launched by a country on behalf of another one, the launch is attributed to the latter country.",
+ "questions": [],
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Our World in Data: Annual number of objects launched into space",
+   "url": "https://ourworldindata.org/grapher/yearly-number-of-objects-launched-into-outer-space"
+  }
+ ],
+ "articles": [
+  {
+   "name": "UN Office for Outer Space Affairs: Online index of objects launched into outer space",
+   "url": "https://www.unoosa.org/oosa/osoindex/search-ng.jspx"
+  }
+ ],
+ "tables": [
+  {
+   "file": "outer_space_objects.csv",
+   "bytes": 23821,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-04-23/outer_space_objects.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-04-23",
+   "year": 2024,
+   "week": 17,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-04-23"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Our World in Data",
+  "host": "ourworldindata.org"
+ }
+}

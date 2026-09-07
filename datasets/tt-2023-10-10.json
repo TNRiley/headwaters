@@ -1,0 +1,57 @@
+{
+ "id": "tt-2023-10-10",
+ "title": "Haunted Places in the United States",
+ "hook": "Halloween is coming soon, so we're exploring a spooky dataset: a compilation of Haunted Places in the United States. The dataset was compiled by Tim Renner, using The Shadowlands Haunted Places Index, and shared on data.world. We're also using this dataset as a reminder that several R packages for spatial data are heading to the graveyard next week. Don't be tricked by their demise!",
+ "questions": [],
+ "subjects": [
+  "oddities & curiosities"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Tim Renner on data.world",
+   "url": "https://github.com/timothyrenner/shadowlands-haunted-places"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Upcoming changes to popular R packages for spatial data: what you need to do",
+   "url": "https://geocompx.org/post/2023/rgdal-retirement/index.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "haunted_places.csv",
+   "bytes": 5375565,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-10-10/haunted_places.csv",
+   "columns": [
+    "city",
+    "country",
+    "description",
+    "location",
+    "state",
+    "state_abbrev",
+    "longitude",
+    "latitude",
+    "city_longitude",
+    "city_latitude"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-10-10",
+   "year": 2023,
+   "week": 41,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-10-10"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Tim Renner on data.world",
+  "host": "tim renner on data.world"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "tt-2024-08-06",
+ "title": "Olympics athletes and medals",
+ "hook": "This week we're exploring Olympics data! The data this week comes from the RGriffin Kaggle dataset: 120 years of Olympic history: athletes and results, basic bio data on athletes and medal results from Athens 1896 to Rio 2016. This is an intentional repeat of TidyTuesday 2021-07-27, since it's the Olympics! This is a historical dataset on the modern Olympic Games, including all the Games from Athens 1896 to Rio 2016. I scraped this data from www.sports-reference.com in May 2018. Note that the Winter and Summer Games were held in the same year up until 1992. After that, they staggered them such that Winter Games occur on a four year cycle starting with 1994, then Summer in 1996, then Winter in 1998, and so on. A common mistake people make when analyzing this data is to assume that the Summer and Winter Games have always been staggered.",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Kaggle Olympic history data",
+   "url": "https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results/"
+  },
+  {
+   "name": "Kaggle Olypmic history data",
+   "url": "https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Financial Times Tokyo Olympics analysis",
+   "url": "https://ig.ft.com/tokyo-olympics-alternative-medal-table/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "olympics.csv",
+   "bytes": 35911926,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-08-06/olympics.csv",
+   "columns": [
+    "id",
+    "sex",
+    "age",
+    "height",
+    "weight",
+    "team",
+    "noc",
+    "games",
+    "year",
+    "season",
+    "city",
+    "sport",
+    "event",
+    "medal"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-08-06",
+   "year": 2024,
+   "week": 32,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-08-06"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Kaggle Olympic history data",
+  "host": "kaggle olympic history data"
+ }
+}

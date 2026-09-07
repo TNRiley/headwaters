@@ -1,0 +1,65 @@
+{
+ "id": "tt-2020-01-28",
+ "title": "San Francisco Trees",
+ "hook": "The data this week comes from San Francisco's open data portal. There are dozens of tree species, and many other intresting features to explore in this dataset! I did drop a few columns that were either > 75% missing or redundant, feel free to check out the source for the fully original dataset. Also - make sure to follow @tidypod - they'll have some interesting #TidyTuesday updates to come this week! tuesdata <- tidytuesdayR::ttload('2020-01-28') tuesdata <- tidytuesdayR::ttload(2020, week = 5) A full data dictionary is available at: the source but it's fairly sparse.",
+ "questions": [
+  "Trees of Life in SF",
+  "Landmark trees",
+  "Non-native trees",
+  "Friends of the urban forest",
+  "SF Tree Guide"
+ ],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "data.sfgov.org",
+   "url": "https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq"
+  }
+ ],
+ "articles": [
+  {
+   "name": "SF Weekly",
+   "url": "https://www.sfweekly.com/news/feature/trees-of-life/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "sf_trees.csv",
+   "bytes": 31173045,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-01-28/sf_trees.csv",
+   "columns": [
+    "tree_id",
+    "legal_status",
+    "species",
+    "address",
+    "site_order",
+    "site_info",
+    "caretaker",
+    "date",
+    "dbh",
+    "plot_size",
+    "latitude",
+    "longitude"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-01-28",
+   "year": 2020,
+   "week": 5,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-01-28"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "data.sfgov.org",
+  "host": "sfgov.org"
+ }
+}

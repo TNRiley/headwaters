@@ -1,0 +1,74 @@
+{
+ "id": "tt-2026-08-04",
+ "title": "Basotho Wool",
+ "hook": "This week we're exploring Lesotho's Wool Trade. The dataset comes from the UN Comtrade Database using the comtradr package. The country is known as \"Lesotho\", and its people are referred to as \"Basotho\" (pronounced \"ba-soo-too\"). Extract from the article \"The mountain men behind Lesotho’s wool wealth - More than 80,000 herders tend the country’s sheep and goats\" by Sechaba Mokhethi for GroundUp News: For generations, Lesotho’s economy depended heavily on migrant labour to South African mines. But as mining jobs declined, many rural households turned back to livestock production. Today, wool and mohair have become one of the country’s most valuable agricultural exports. “During the 2024–2025 season alone, around M800-million entered the country through wool and mohair sales,” says Thinyane. That does not include the sale of animals for meat or breeding.",
+ "questions": [
+  "Does Winter (being in the Southern hemisphere, these are the months June, July and August) impact Basotho wool quantity/volume exported and revenue?",
+  "Which country imports the most Basotho wool at time on average?"
+ ],
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "UN Comtrade Database",
+   "url": "https://comtradeplus.un.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The mountain men behind Lesotho’s wool wealth: More than 80,000 herders tend the country’s sheep and goats",
+   "url": "https://groundup.org.za/article/the-mountain-men-behind-lesothos-wool-wealth/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "basotho_wool.csv",
+   "bytes": 43370,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-08-04/basotho_wool.csv",
+   "columns": [
+    "ref_period_id",
+    "ref_year",
+    "ref_month",
+    "period",
+    "reporter_code",
+    "reporter_iso",
+    "reporter_desc",
+    "flow_code",
+    "classification_code",
+    "cmd_code",
+    "cmd_desc",
+    "qty_unit_code",
+    "qty_unit_abbr",
+    "qty",
+    "is_qty_estimated",
+    "alt_qty_unit_code",
+    "alt_qty_unit_abbr",
+    "alt_qty",
+    "net_wgt",
+    "is_net_wgt_estimated",
+    "cifvalue",
+    "fobvalue",
+    "primary_value",
+    "legacy_estimation_flag"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-08-04",
+   "year": 2026,
+   "week": 31,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-08-04"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "UN Comtrade Database",
+  "host": "comtradeplus.un.org"
+ }
+}

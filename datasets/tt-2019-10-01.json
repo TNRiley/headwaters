@@ -1,0 +1,108 @@
+{
+ "id": "tt-2019-10-01",
+ "title": "All the Pizza",
+ "hook": "This week's data is from Jared Lander and Barstool Sports via Tyler Richards. Credit for this week's concept goes to Ludmila who did a recent dataviz presentation and gave shoutouts to both #tidytuesday and a pizza dataset! Check out her DataViz video and slides at her GitHub Jared's data is from top NY pizza restaurants, with a 6 point likert scale survey on ratings. The Barstool sports dataset has critic, public, and the Barstool Staff's rating as well as pricing, location, and geo-location. There are 22 pizza places that overlap between the two datasets. If you want to look more at geo-location of pizza places, checkout this one from DataFiniti. This includes 10000 pizza places, their price ranges and geo-locations.",
+ "questions": [],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Jared Lander & Ludmila Janda",
+   "url": "https://twitter.com/jaredlander/status/1178122846419193858?s=20"
+  },
+  {
+   "name": "Tyler Richards",
+   "url": "https://github.com/tylerjrichards/Barstool_Pizza"
+  },
+  {
+   "name": "DataFiniti",
+   "url": "https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Tyler Richards on TWD",
+   "url": "https://towardsdatascience.com/adventures-in-barstools-pizza-data-9b8ae6bb6cd1"
+  }
+ ],
+ "tables": [
+  {
+   "file": "pizza_jared.csv",
+   "bytes": 26831,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-10-01/pizza_jared.csv",
+   "columns": [
+    "polla_qid",
+    "answer",
+    "votes",
+    "pollq_id",
+    "question",
+    "place",
+    "time",
+    "total_votes",
+    "percent"
+   ]
+  },
+  {
+   "file": "pizza_barstool.csv",
+   "bytes": 66097,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-10-01/pizza_barstool.csv",
+   "columns": [
+    "address1",
+    "city",
+    "zip",
+    "country",
+    "latitude",
+    "longitude",
+    "price_level",
+    "provider_rating",
+    "provider_review_count",
+    "review_stats_all_average_score",
+    "review_stats_all_count",
+    "review_stats_all_total_score",
+    "review_stats_community_average_score",
+    "review_stats_community_count",
+    "review_stats_community_total_score",
+    "review_stats_critic_average_score",
+    "review_stats_critic_count",
+    "review_stats_critic_total_score",
+    "review_stats_dave_average_score",
+    "review_stats_dave_count",
+    "review_stats_dave_total_score"
+   ]
+  },
+  {
+   "file": "pizza_datafiniti.csv",
+   "bytes": 1112421,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-10-01/pizza_datafiniti.csv",
+   "columns": [
+    "address",
+    "city",
+    "country",
+    "province",
+    "latitude",
+    "longitude",
+    "categories",
+    "price_range_min",
+    "price_range_max"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-10-01",
+   "year": 2019,
+   "week": 40,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-10-01"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Jared Lander & Ludmila Janda",
+  "host": "jared lander & ludmila janda"
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "id": "tt-2024-06-18",
+ "title": "US Federal Holidays",
+ "hook": "This week we're celebrating Juneteenth! [Juneteenth National Independence Day] Commemorates the emancipation of enslaved people in the United States on the anniversary of the 1865 date when emancipation was announced in Galveston, Texas. Celebratory traditions often include readings of the Emancipation Proclamation, singing traditional songs, rodeos, street fairs, family reunions, cookouts, park parties, historical reenactments, and Miss Juneteenth contests. Juneteenth became a federal holiday in the United States on June 17, 2021. To commemorate this newest U.S. Federal Holiday, we're exploring the Wikipedia page about Federal holidays in the United States. Which days of the week do federal holidays fall on this year? What is the longest gap between holidays this year? Is it different in other years?",
+ "questions": [],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "reference works",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Wikipedia Federal holidays in the United States",
+   "url": "https://en.wikipedia.org/wiki/Federal_holidays_in_the_United_States"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Wikipedia Federal holidays in the United States",
+   "url": "https://en.wikipedia.org/wiki/Federal_holidays_in_the_United_States"
+  }
+ ],
+ "tables": [
+  {
+   "file": "federal_holidays.csv",
+   "bytes": 5133,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-06-18/federal_holidays.csv",
+   "columns": [
+    "date",
+    "date_definition",
+    "official_name",
+    "year_established",
+    "date_established",
+    "details"
+   ]
+  },
+  {
+   "file": "proposed_federal_holidays.csv",
+   "bytes": 1521,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-06-18/proposed_federal_holidays.csv",
+   "columns": [
+    "date",
+    "date_definition",
+    "official_name",
+    "details"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-06-18",
+   "year": 2024,
+   "week": 25,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-06-18"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Wikipedia Federal holidays in the United States",
+  "host": "wikipedia federal holidays in the united states"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "id": "tt-2019-10-15",
+ "title": "Car Fuel Economy",
+ "hook": "This week's data is from the EPA. The full data dictionary can be found at fueleconomy.gov. It's essentially a much much larger and updated dataset covering mtcars, the dataset we all know a bit too well! H/t to Ellis Hughes who had a recent blogpost covering this dataset. I left in ALL the data so people could look at various different things besides the classical mtcars! Full data dictionary can be found at fueleconomy.gov",
+ "questions": [],
+ "subjects": [
+  "transport & infrastructure",
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "EPA",
+   "url": "https://www.fueleconomy.gov/feg/download.shtml"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Ellis Hughes",
+   "url": "https://thebioengineer.github.io/thebioengineer.github.io/2019/09/10/big-mtcars/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "big_epa_cars.csv",
+   "bytes": 16325489,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-10-15/big_epa_cars.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-10-15",
+   "year": 2019,
+   "week": 42,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-10-15"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "EPA",
+  "host": "fueleconomy.gov"
+ }
+}

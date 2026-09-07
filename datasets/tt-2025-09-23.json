@@ -1,0 +1,81 @@
+{
+ "id": "tt-2025-09-23",
+ "title": "FIDE Chess Player Ratings",
+ "hook": "This week we're exploring August and September chess player rating data from FIDE (the International Chess Federation). Monthly data files are published on the FIDE website. A chess rating (Elo) is an estimate of a player's strength relative to other players. If a player performs better or worse than expected, their rating increases or decreases accordingly. The September 2025 rating list was shaped primarily by results from the Sinquefield Cup, Quantbox Chennai Grand Masters, 61st International Akiba Rubinstein Chess Festival, and the Spanish League Honor Division 2025 – a Swiss team tournament held in Linares.",
+ "questions": [
+  "Which players showed the greatest improvement from August to September?",
+  "Which federations have the most number of titled players?",
+  "How did the rankings of the top male or female players change?",
+  "Who are the top youth players?"
+ ],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "FIDE Player Database",
+   "url": "https://ratings.fide.com/download_lists.phtml"
+  }
+ ],
+ "articles": [
+  {
+   "name": "FIDE September 2025 rating list: Vincent Keymer debuts in top 10 Open",
+   "url": "https://www.fide.com/fide-september-2025-rating-list-vincent-keymer-debuts-in-top-10-open/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "fide_ratings_august.csv",
+   "bytes": 12421042,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-23/fide_ratings_august.csv",
+   "columns": [
+    "id",
+    "fed",
+    "sex",
+    "title",
+    "wtitle",
+    "otitle",
+    "foa",
+    "rating",
+    "games",
+    "k",
+    "bday"
+   ]
+  },
+  {
+   "file": "fide_ratings_september.csv",
+   "bytes": 12551755,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-09-23/fide_ratings_september.csv",
+   "columns": [
+    "id",
+    "fed",
+    "sex",
+    "title",
+    "wtitle",
+    "otitle",
+    "foa",
+    "rating",
+    "games",
+    "k",
+    "bday"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-09-23",
+   "year": 2025,
+   "week": 38,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-09-23"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FIDE Player Database",
+  "host": "ratings.fide.com"
+ }
+}

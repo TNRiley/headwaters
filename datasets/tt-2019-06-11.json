@@ -1,0 +1,56 @@
+{
+ "id": "tt-2019-06-11",
+ "title": "Meteorites",
+ "hook": "This week's dataset is a dataset all about meteorites, where they fell and when they fell! Data comes from the Meteoritical Society by way of NASA. H/t to #TidyTuesday community member Malin Axelsson for sharing this data as an issue on GitHub! If you want to find out more about meteorite classifications, Malin was kind enough to share a wikipedia article as well! If you want to submit a dataset of your own interest, please do so as an Issue on our GitHub! If you do submit a dataset, please drop a link and some context as an issue. Thanks!",
+ "questions": [],
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "NASA",
+   "url": "https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh/data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Guardian - Meteorite map",
+   "url": "https://www.theguardian.com/news/datablog/interactive/2013/feb/15/meteorite-fall-map"
+  }
+ ],
+ "tables": [
+  {
+   "file": "meteorites.csv",
+   "bytes": 3698313,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-06-11/meteorites.csv",
+   "columns": [
+    "id",
+    "name_type",
+    "class",
+    "mass",
+    "fall",
+    "year",
+    "lat",
+    "long",
+    "geolocation"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-06-11",
+   "year": 2019,
+   "week": 24,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-06-11"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "NASA",
+  "host": "nasa.gov"
+ }
+}

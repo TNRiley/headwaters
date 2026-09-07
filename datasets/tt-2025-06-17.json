@@ -1,0 +1,104 @@
+{
+ "id": "tt-2025-06-17",
+ "title": "API Specs",
+ "hook": "This week we're exploring Web APIs! The lead volunteer for TidyTuesday (Jon Harmon) is writing a book about working with Web APIs with R as well as a series of R packages to make it easier to create API-wrapping R packages. On Thursday, 2025-06-19, Jon will present a talk on this package ecosystem at the Ghana R Conference 2025. While working on the packages and the talk, Jon explored a list of APIs from the website APIs.guru. That dataset is provided here. [APIs.guru's] goal is to create a machine-readable Wikipedia for Web APIs in the OpenAPI Specification format.",
+ "questions": [
+  "What API specs are provided by APIs.guru? Are these the same as the origin specs?",
+  "How many different APIs (\"services\") do providers provide?",
+  "What licenses do APIs use?",
+  "Are any APIs listed more than once in the dataset?"
+ ],
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "APIs.guru",
+   "url": "https://apis.guru"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Web APIs with R: Introduction",
+   "url": "https://dslc-io.github.io/club-wapir/slides/intro.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "api_categories.csv",
+   "bytes": 96410,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_categories.csv",
+   "columns": [
+    "apisguru_category"
+   ]
+  },
+  {
+   "file": "api_info.csv",
+   "bytes": 2656379,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_info.csv",
+   "columns": [
+    "contact_name",
+    "contact_url",
+    "description",
+    "title",
+    "provider_name",
+    "service_name",
+    "license_name",
+    "license_url",
+    "terms_of_service"
+   ]
+  },
+  {
+   "file": "api_logos.csv",
+   "bytes": 343372,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_logos.csv",
+   "columns": [
+    "background_color",
+    "url",
+    "alt_text"
+   ]
+  },
+  {
+   "file": "api_origins.csv",
+   "bytes": 347184,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/api_origins.csv",
+   "columns": [
+    "format",
+    "url",
+    "version"
+   ]
+  },
+  {
+   "file": "apisguru_apis.csv",
+   "bytes": 643117,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-17/apisguru_apis.csv",
+   "columns": [
+    "version",
+    "added",
+    "updated",
+    "swagger_url",
+    "openapi_ver",
+    "link",
+    "external_docs_description",
+    "external_docs_url"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-06-17",
+   "year": 2025,
+   "week": 24,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-06-17"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "APIs.guru",
+  "host": "apis.guru"
+ }
+}

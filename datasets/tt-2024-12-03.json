@@ -1,0 +1,79 @@
+{
+ "id": "tt-2024-12-03",
+ "title": "National Highways Traffic Flow",
+ "hook": "This week we're exploring National Highways Traffic Flow data! National Highways operates and maintains motorways and major A roads in England. They directly monitor the speed and flow of roads using on road sensors, and the data can be accessed via the National Highways API. This week's data has vehicle size and speed information for May 2021 from four different road sensors on the A64 road.",
+ "questions": [
+  "Do vehicles travel faster on certain days or at certain times?",
+  "What time of day do large vehicles use this road?",
+  "Do smaller vehicles travel faster?"
+ ],
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "other",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "WebTRIS Traffic Flow API",
+   "url": "https://webtris.nationalhighways.co.uk/api/swagger/ui/index"
+  }
+ ],
+ "articles": [
+  {
+   "name": "National Highways",
+   "url": "https://webtris.nationalhighways.co.uk/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "A64_traffic.csv",
+   "bytes": 3042359,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-12-03/A64_traffic.csv",
+   "columns": [
+    "SiteId",
+    "Site Name",
+    "Report Date",
+    "Time Period Ending",
+    "Time Interval",
+    "0 - 520 cm",
+    "521 - 660 cm",
+    "661 - 1160 cm",
+    "1160+ cm",
+    "0 - 10 mph",
+    "11 - 15 mph",
+    "16 - 20 mph",
+    "21 - 25 mph",
+    "26 - 30 mph",
+    "31 - 35 mph",
+    "36 - 40 mph",
+    "41 - 45 mph",
+    "46 - 50 mph",
+    "51 - 55 mph",
+    "56 - 60 mph",
+    "61 - 70 mph",
+    "71 - 80 mph",
+    "80+ mph",
+    "Avg mph",
+    "Total Volume",
+    "Longitude",
+    "Latitude",
+    "Status"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-12-03",
+   "year": 2024,
+   "week": 49,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-12-03"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "WebTRIS Traffic Flow API",
+  "host": "webtris.nationalhighways.co.uk"
+ }
+}

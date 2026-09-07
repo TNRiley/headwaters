@@ -1,0 +1,52 @@
+{
+ "id": "tt-2022-04-26",
+ "title": "Kaggle Hidden Gems",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [
+  "vol and date: The consecutive number of the Hidden Gems episode and when it was first published.",
+  "linkforum and linktwitter: The hyperlinks to the Kaggle Forum post and Twitter post for the episode.",
+  "notebook and author: The hyperlinks to the Notebook itself, as well as to the Kaggle profile of the author.",
+  "title: The Notebook title as a string.",
+  "review: My brief review of the Notebook."
+ ],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Kaggle",
+   "url": "https://www.kaggle.com/code/headsortails/hidden-gems-a-collection-of-underrated-notebooks/report"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Kaggle - Notebooks of the Week",
+   "url": "https://www.kaggle.com/datasets/headsortails/notebooks-of-the-week-hidden-gems/discussion/317098"
+  }
+ ],
+ "tables": [
+  {
+   "file": "hidden_gems.csv",
+   "bytes": 151391,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-04-26/hidden_gems.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2022-04-26",
+   "year": 2022,
+   "week": 17,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-04-26"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Kaggle",
+  "host": "kaggle"
+ }
+}

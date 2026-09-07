@@ -1,0 +1,77 @@
+{
+ "id": "tt-2023-11-28",
+ "title": "Doctor Who Episodes",
+ "hook": "Doctor Who is an extremely long-running British television program. The show was revived in 2005, and has proven very popular since then. To celebrate this year's 60th anniversary of Doctor Who, we have three datasets. The data this week comes from Wikipedia's List of Doctor Who episodes via the {datardis} package by Jonathan Kitt. Thank you to Jonathan for compiling and sharing this data! As of 2023-11-24, the data only includes episodes from the \"revived\" era. For an added challenge, consider submitting a pull request to the {datardis} package to update the data-extraction scripts to also fetch the \"classic\" era data!",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "r package",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "datardis package",
+   "url": "https://cran.r-project.org/package=datardis"
+  }
+ ],
+ "articles": [
+  {
+   "name": "List of Doctor Who episodes",
+   "url": "https://en.wikipedia.org/wiki/List_of_Doctor_Who_episodes_(2005%E2%80%93present"
+  }
+ ],
+ "tables": [
+  {
+   "file": "drwho_episodes.csv",
+   "bytes": 12672,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-11-28/drwho_episodes.csv",
+   "columns": [
+    "era",
+    "season_number",
+    "serial_title",
+    "story_number",
+    "episode_number",
+    "episode_title",
+    "type",
+    "first_aired",
+    "production_code",
+    "uk_viewers",
+    "rating",
+    "duration"
+   ]
+  },
+  {
+   "file": "drwho_directors.csv",
+   "bytes": 3227,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-11-28/drwho_directors.csv",
+   "columns": [
+    "story_number",
+    "director"
+   ]
+  },
+  {
+   "file": "drwho_writers.csv",
+   "bytes": 3584,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-11-28/drwho_writers.csv",
+   "columns": [
+    "story_number",
+    "writer"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-11-28",
+   "year": 2023,
+   "week": 48,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-11-28"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "datardis",
+  "host": "datardis"
+ }
+}

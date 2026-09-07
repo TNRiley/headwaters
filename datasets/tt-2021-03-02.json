@@ -1,0 +1,73 @@
+{
+ "id": "tt-2021-03-02",
+ "title": "SuperBowl Ads",
+ "hook": "The data this week comes from FiveThirtyEight. They have a corresponding article on the topic. Note that the original source was superbowl-ads.com. You can watch all the ads via the FiveThirtyEight article above. Like millions of viewers who tune into the big game year after year, we at FiveThirtyEight LOVE Super Bowl commercials. We love them so much, in fact, that we wanted to know everything about them … by analyzing and categorizing them, of course. We dug into the defining characteristics of a Super Bowl ad, then grouped commercials based on which criteria they shared — and let me tell you, we found some really weird clusters of commercials.",
+ "questions": [],
+ "subjects": [
+  "film & television",
+  "sports & games"
+ ],
+ "provider_type": "journalism",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "FiveThirtyEight",
+   "url": "https://github.com/fivethirtyeight/superbowl-ads"
+  }
+ ],
+ "articles": [
+  {
+   "name": "FiveThirtyEight",
+   "url": "https://projects.fivethirtyeight.com/super-bowl-ads/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "youtube.csv",
+   "bytes": 144884,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-03-02/youtube.csv",
+   "columns": [
+    "year",
+    "brand",
+    "superbowl_ads_dot_com_url",
+    "youtube_url",
+    "funny",
+    "show_product_quickly",
+    "patriotic",
+    "celebrity",
+    "danger",
+    "animals",
+    "use_sex",
+    "id",
+    "kind",
+    "etag",
+    "view_count",
+    "like_count",
+    "dislike_count",
+    "favorite_count",
+    "comment_count",
+    "published_at",
+    "title",
+    "description",
+    "thumbnail",
+    "channel_title",
+    "category_id"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-03-02",
+   "year": 2021,
+   "week": 10,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-03-02"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FiveThirtyEight",
+  "host": "fivethirtyeight"
+ }
+}

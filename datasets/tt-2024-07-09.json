@@ -1,0 +1,52 @@
+{
+ "id": "tt-2024-07-09",
+ "title": "David Robinson's TidyTuesday Functions",
+ "hook": "This week we're seeing how David Robinson has explored TidyTuesday data in his YouTube screencasts! Thanks to Bryan Shalloway for the suggestion, the {funspotr} package, and the blog posts about how to use funspotr (including this one about making network graphs with the data). The goal of funspotr (R function spotter) is to make it easy to identify which R functions and packages are used in files and projects. It was initially written to create reference tables of the functions and packages used in a few popular github repositories. What are David's most-used functions? Can you find relationships between functions used and the variable types (using the {ttmeta} package)? How does his function graph compare to your own?",
+ "questions": [],
+ "subjects": [
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "funspotr examples",
+   "url": "https://raw.githubusercontent.com/brshallo/funspotr-examples/main/data/funs/drob-tidy-tuesdays-funs-20220114.csv"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Network Visualizations of Code Collections",
+   "url": "https://www.bryanshalloway.com/2022/03/17/network-plots-of-code-collections-funspotr-part-3/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "drob_funs.csv",
+   "bytes": 1834066,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-07-09/drob_funs.csv",
+   "columns": [
+    "funs",
+    "pkgs",
+    "in_multiple_pkgs",
+    "contents",
+    "urls"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-07-09",
+   "year": 2024,
+   "week": 28,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-07-09"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "funspotr examples",
+  "host": "funspotr examples"
+ }
+}

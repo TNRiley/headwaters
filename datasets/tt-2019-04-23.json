@@ -1,0 +1,52 @@
+{
+ "id": "tt-2019-04-23",
+ "title": "Anime Data",
+ "hook": "This week's data comes from Tam Nguyen and MyAnimeList.net via Kaggle. According to Wikipedia - \"MyAnimeList, often abbreviated as MAL, is an anime and manga social networking and social cataloging application website. The site provides its users with a list-like system to organize and score anime and manga. It facilitates finding users who share similar tastes and provides a large database on anime and manga. The site claims to have 4.4 million anime and 775,000 manga entries. In 2015, the site received 120 million visitors a month.\" Anime without rankings or popularity scores were excluded. Producers, genre, and studio were converted from lists to tidy observations, so there will be repetitions of shows with multiple producers, genres, etc. The raw data is also uploaded. Lots of interesting ways to explore the data this week!",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "MyAnimeList",
+   "url": "https://www.kaggle.com/aludosan/myanimelist-anime-dataset-as-20190204"
+  }
+ ],
+ "articles": [
+  {
+   "name": "MyAnimeList",
+   "url": "https://myanimelist.net/topanime.php?type=bypopularity"
+  }
+ ],
+ "tables": [
+  {
+   "file": "tidy_anime.csv",
+   "bytes": 97095507,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-23/tidy_anime.csv",
+   "columns": []
+  },
+  {
+   "file": "raw_anime.csv",
+   "bytes": 16709186,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-23/raw_anime.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-04-23",
+   "year": 2019,
+   "week": 17,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-04-23"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "MyAnimeList",
+  "host": "myanimelist"
+ }
+}

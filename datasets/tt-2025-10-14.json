@@ -1,0 +1,61 @@
+{
+ "id": "tt-2025-10-14",
+ "title": "World Food Day",
+ "hook": "This Thursday (2025-10-16) is World Food Day, which celebrates the foundation of The Food and Agriculture Organization of the United Nations (FAO), which turns 80 this week! To mark this occasion, this week we're looking at the FAO's Suite of Food Security Indicators. Following the recommendation of experts gathered in the Committee on World Food Security (CFS) Round Table on hunger measurement, hosted at FAO headquarters in September 2011, an initial set of indicators aiming to capture various aspects of food insecurity is presented here. The choice of the indicators has been informed by expert judgment and the availability of data with sufficient coverage to enable comparisons across regions and over time. Thanks to Carl Börstell for suggesting this dataset! Thanks to @ravichandrasekaran for reporting the major error in the dataset!",
+ "questions": [
+  "Which indicators tend to vary together?",
+  "Do any indicators appear to be leading indicators of others?",
+  "Of the indicators with confidence intervals, how have the confidence intervals changed over time or by region?"
+ ],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Suite of Food Security Indicators",
+   "url": "https://www.fao.org/faostat/en/#data/FS"
+  }
+ ],
+ "articles": [
+  {
+   "name": "World Food Day (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/World_Food_Day"
+  }
+ ],
+ "tables": [
+  {
+   "file": "food_security.csv",
+   "bytes": 24409602,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-10-14/food_security.csv",
+   "columns": [
+    "Year_Start",
+    "Year_End",
+    "Area",
+    "Item",
+    "Unit",
+    "Value",
+    "CI_Lower",
+    "CI_Upper",
+    "Flag",
+    "Note"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-10-14",
+   "year": 2025,
+   "week": 41,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-10-14"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Suite of Food Security Indicators",
+  "host": "fao.org"
+ }
+}

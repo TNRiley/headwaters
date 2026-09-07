@@ -1,0 +1,61 @@
+{
+ "id": "tt-2024-08-13",
+ "title": "World's Fairs",
+ "hook": "We're in Seattle this week for posit::conf, so we're exploring World's Fairs! A world's fair, also known as a universal exhibition or an expo, is a large global exhibition designed to showcase the achievements of nations. These exhibitions vary in character and are held in different parts of the world at a specific site for a period of time, typically between three and six months. The data was scraped from Wikipedia's list of world expositions. Does the length of a Fair depend on the month in which the fair begins? How has the cost per month changed over time? How about the cost per visitor?",
+ "questions": [],
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "reference works",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "List of world expositions (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/List_of_world_expositions"
+  }
+ ],
+ "articles": [
+  {
+   "name": "World's fair (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/World%27s_fair"
+  }
+ ],
+ "tables": [
+  {
+   "file": "worlds_fairs.csv",
+   "bytes": 10280,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-08-13/worlds_fairs.csv",
+   "columns": [
+    "start_month",
+    "start_year",
+    "end_month",
+    "end_year",
+    "name_of_exposition",
+    "country",
+    "city",
+    "category",
+    "theme",
+    "notables",
+    "visitors",
+    "cost",
+    "area",
+    "attending_countries"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-08-13",
+   "year": 2024,
+   "week": 33,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-08-13"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "List of world expositions (Wikipedia)",
+  "host": "list of world expositions (wikipedia)"
+ }
+}

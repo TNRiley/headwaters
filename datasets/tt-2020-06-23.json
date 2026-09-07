@@ -1,0 +1,84 @@
+{
+ "id": "tt-2020-06-23",
+ "title": "Caribou Locations",
+ "hook": "This data tracks woodland caribou in northern British Columbia, a Canadian province. It consists of almost 250,000 location tags of 260 caribou, from 1988 to 2016. h/t to Alex Cookson for preparing this week's data! The tracking was part of a study prepared in 2014 by the B.C. Ministry of Environment & Climate Change to inform the management and recovery of the species, which is classified as \"Vulnerable\" on the International Union for the Conservation of Nature's (IUCN) Red List. The caribou range in North America/Canada is visualized courtesy of Wikipedia. Data was accessed through Movebank, \"a free online platform that helps researchers manage, share, analyze and archive animal movement data.\" BC Ministry of Environment (2014) Science update for the South Peace Northern Caribou (Rangifer tarandus caribou pop. 15) in British Columbia. Victoria, BC. 43 p.",
+ "questions": [],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "Movebank",
+   "url": "https://www.movebank.org/cms/movebank-content/about-movebank"
+  }
+ ],
+ "articles": [
+  {
+   "name": "B.C. Ministry of Environment",
+   "url": "https://www2.gov.bc.ca/assets/gov/environment/plants-animals-and-ecosystems/wildlife-wildlife-habitat/caribou/science_update_final_from_web_jan_2014.pdf"
+  }
+ ],
+ "tables": [
+  {
+   "file": "individuals.csv",
+   "bytes": 30879,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-23/individuals.csv",
+   "columns": [
+    "animal_id",
+    "sex",
+    "life_stage",
+    "pregnant",
+    "with_calf",
+    "death_cause",
+    "study_site",
+    "deploy_on_longitude",
+    "deploy_on_latitude",
+    "deploy_on_comments",
+    "deploy_off_longitude",
+    "deploy_off_latitude",
+    "deploy_off_type",
+    "deploy_off_comments",
+    "deploy_off_type",
+    "captured",
+    "dead",
+    "equipment failure",
+    "fall off",
+    "other",
+    "released",
+    "removal",
+    "unknown"
+   ]
+  },
+  {
+   "file": "locations.csv",
+   "bytes": 23742057,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-23/locations.csv",
+   "columns": [
+    "event_id",
+    "animal_id",
+    "study_site",
+    "season",
+    "timestamp",
+    "longitude",
+    "latitude"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-06-23",
+   "year": 2020,
+   "week": 26,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-06-23"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Movebank",
+  "host": "movebank.org"
+ }
+}

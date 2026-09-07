@@ -1,0 +1,124 @@
+{
+ "id": "tt-2023-10-17",
+ "title": "Taylor Swift data",
+ "hook": "Since The Eras Tour Film was just released, this week we're exploring Taylor Swift song data! The taylor R package from W. Jake Thompson is a curated data set of Taylor Swift songs, including lyrics and audio characteristics. The data comes from Genius and the Spotify API. The first is tayloralbumsongs, which includes lyrics and audio features from the Spotify API for all songs on Taylor’s official studio albums. Notably this excludes singles released separately from an album (e.g., Only the Young, Christmas Tree Farm, etc.), and non-Taylor-owned albums that have a Taylor-owned alternative (e.g., Fearless is excluded in favor of Fearless (Taylor’s Version)). We stan artists owning their own songs. You can access Taylor’s entire discography with taylorallsongs.",
+ "questions": [],
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "r package",
+ "geography": "",
+ "sources": [
+  {
+   "name": "taylor R package",
+   "url": "https://taylor.wjakethompson.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Taylor Swift data analysis",
+   "url": "https://rpubs.com/salvatoremancino/1065547"
+  }
+ ],
+ "tables": [
+  {
+   "file": "taylor_album_songs.csv",
+   "bytes": 37090,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-10-17/taylor_album_songs.csv",
+   "columns": [
+    "album_name",
+    "ep",
+    "album_release",
+    "track_number",
+    "track_name",
+    "artist",
+    "featuring",
+    "bonus_track",
+    "promotional_release",
+    "single_release",
+    "track_release",
+    "danceability",
+    "energy",
+    "key",
+    "loudness",
+    "mode",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "valence",
+    "tempo",
+    "time_signature",
+    "duration_ms",
+    "explicit",
+    "key_name",
+    "mode_name",
+    "key_mode",
+    "lyrics"
+   ]
+  },
+  {
+   "file": "taylor_all_songs.csv",
+   "bytes": 51040,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-10-17/taylor_all_songs.csv",
+   "columns": [
+    "album_name",
+    "ep",
+    "album_release",
+    "track_number",
+    "track_name",
+    "artist",
+    "featuring",
+    "bonus_track",
+    "promotional_release",
+    "single_release",
+    "track_release",
+    "danceability",
+    "energy",
+    "key",
+    "loudness",
+    "mode",
+    "speechiness",
+    "acousticness",
+    "instrumentalness",
+    "liveness",
+    "valence",
+    "tempo",
+    "time_signature",
+    "duration_ms",
+    "explicit",
+    "key_name",
+    "mode_name",
+    "key_mode",
+    "lyrics"
+   ]
+  },
+  {
+   "file": "taylor_albums.csv",
+   "bytes": 572,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-10-17/taylor_albums.csv",
+   "columns": [
+    "album_name",
+    "ep",
+    "album_release",
+    "metacritic_score",
+    "user_score"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-10-17",
+   "year": 2023,
+   "week": 42,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-10-17"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "taylor",
+  "host": "taylor.wjakethompson.com"
+ }
+}

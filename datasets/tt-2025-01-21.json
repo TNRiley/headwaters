@@ -1,0 +1,158 @@
+{
+ "id": "tt-2025-01-21",
+ "title": "The History of Himalayan Mountaineering Expeditions",
+ "hook": "This week, we are exploring mountaineering data from the Himalayan Dataset! The Himalayan Database is a comprehensive archive documenting mountaineering expeditions in the Nepal Himalaya. It continues the pioneering work of Elizabeth Hawley, a journalist who dedicated much of her life to cataloging climbing history in the region. Her meticulous records were initially compiled from a wide range of sources, including books, alpine journals, and direct correspondence with Himalayan climbers. Originally published in 2004 by the American Alpine Club as a CD-ROM booklet, the Himalayan Database became a critical resource for the climbing community. In 2017, a non-profit organization named The Himalayan Database was formed to continue Hawley's legacy. This marked the release of Version 2 of the database, now freely available for download via the internet.",
+ "questions": [
+  "What is the distribution of climbing status (PSTATUS) across different mountain ranges (HIMALFACTOR)?",
+  "Which mountain range (HIMALFACTOR) has the highest average peak height (HEIGHTM)?",
+  "What is the distribution of peak heights (HEIGHTM) for peaks that are open (OPEN) versus those that are not?",
+  "Which climbing routes (ROUTE1, ROUTE2, ROUTE3, ROUTE4) have the highest success rates (SUCCESS1, SUCCESS2, SUCCESS3, SUCCESS4) across all expeditions?",
+  "How does the use of supplemental oxygen (O2USED, O2NONE) affect summit success rates?"
+ ],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "The Himalayan Database",
+   "url": "https://www.himalayandatabase.com/downloads.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Expedition Archives of Elizabeth Hawley",
+   "url": "https://www.himalayandatabase.com/index.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "exped_tidy.csv",
+   "bytes": 445269,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-01-21/exped_tidy.csv",
+   "columns": [
+    "EXPID",
+    "PEAKID",
+    "YEAR",
+    "SEASON",
+    "SEASON_FACTOR",
+    "HOST",
+    "HOST_FACTOR",
+    "ROUTE1",
+    "ROUTE2",
+    "ROUTE3",
+    "ROUTE4",
+    "NATION",
+    "LEADERS",
+    "SPONSOR",
+    "SUCCESS1",
+    "SUCCESS2",
+    "SUCCESS3",
+    "SUCCESS4",
+    "ASCENT1",
+    "ASCENT2",
+    "ASCENT3",
+    "ASCENT4",
+    "CLAIMED",
+    "DISPUTED",
+    "COUNTRIES",
+    "APPROACH",
+    "BCDATE",
+    "SMTDATE",
+    "SMTTIME",
+    "SMTDAYS",
+    "TOTDAYS",
+    "TERMDATE",
+    "TERMREASON",
+    "TERMREASON_FACTOR",
+    "TERMNOTE",
+    "HIGHPOINT",
+    "TRAVERSE",
+    "SKI",
+    "PARAPENTE",
+    "CAMPS",
+    "ROPE",
+    "TOTMEMBERS",
+    "SMTMEMBERS",
+    "MDEATHS",
+    "TOTHIRED",
+    "SMTHIRED",
+    "HDEATHS",
+    "NOHIRED",
+    "O2USED",
+    "O2NONE",
+    "O2CLIMB",
+    "O2DESCENT",
+    "O2SLEEP",
+    "O2MEDICAL",
+    "O2TAKEN",
+    "O2UNKWN",
+    "OTHERSMTS",
+    "CAMPSITES",
+    "ROUTEMEMO",
+    "ACCIDENTS",
+    "ACHIEVMENT",
+    "AGENCY",
+    "COMRTE",
+    "STDRTE",
+    "PRIMRTE",
+    "PRIMMEM",
+    "PRIMREF",
+    "PRIMID",
+    "CHKSUM"
+   ]
+  },
+  {
+   "file": "peaks_tidy.csv",
+   "bytes": 129455,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-01-21/peaks_tidy.csv",
+   "columns": [
+    "PEAKID",
+    "PKNAME",
+    "PKNAME2",
+    "LOCATION",
+    "HEIGHTM",
+    "HEIGHTF",
+    "HIMAL",
+    "HIMAL_FACTOR",
+    "REGION",
+    "REGION_FACTOR",
+    "OPEN",
+    "UNLISTED",
+    "TREKKING",
+    "TREKYEAR",
+    "RESTRICT",
+    "PHOST",
+    "PHOST_FACTOR",
+    "PSTATUS",
+    "PSTATUS_FACTOR",
+    "PEAKMEMO",
+    "PYEAR",
+    "PSEASON",
+    "PEXPID",
+    "PSMTDATE",
+    "PCOUNTRY",
+    "PSUMMITERS",
+    "PSMTNOTE",
+    "REFERMEMO",
+    "PHOTOMEMO"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-01-21",
+   "year": 2025,
+   "week": 3,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-01-21"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The Himalayan Database",
+  "host": "himalayandatabase.com"
+ }
+}

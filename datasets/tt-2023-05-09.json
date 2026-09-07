@@ -1,0 +1,119 @@
+{
+ "id": "tt-2023-05-09",
+ "title": "Childcare Costs",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: \\### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph \\### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year \\### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "",
+ "sources": [
+  {
+   "name": "National Database of Childcare Prices",
+   "url": "https://www.dol.gov/agencies/wb/topics/featured-childcare"
+  }
+ ],
+ "articles": [
+  {
+   "name": "National Database of Childcare Prices",
+   "url": "https://www.dol.gov/agencies/wb/topics/featured-childcare"
+  }
+ ],
+ "tables": [
+  {
+   "file": "childcare_costs.csv",
+   "bytes": 10691042,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-05-09/childcare_costs.csv",
+   "columns": [
+    "county_fips_code",
+    "study_year",
+    "unr_16",
+    "funr_16",
+    "munr_16",
+    "unr_20to64",
+    "funr_20to64",
+    "munr_20to64",
+    "flfpr_20to64",
+    "flfpr_20to64_under6",
+    "flfpr_20to64_6to17",
+    "flfpr_20to64_under6_6to17",
+    "mlfpr_20to64",
+    "pr_f",
+    "pr_p",
+    "mhi_2018",
+    "me_2018",
+    "fme_2018",
+    "mme_2018",
+    "total_pop",
+    "one_race",
+    "one_race_w",
+    "one_race_b",
+    "one_race_i",
+    "one_race_a",
+    "one_race_h",
+    "one_race_other",
+    "two_races",
+    "hispanic",
+    "households",
+    "h_under6_both_work",
+    "h_under6_f_work",
+    "h_under6_m_work",
+    "h_under6_single_m",
+    "h_6to17_both_work",
+    "h_6to17_fwork",
+    "h_6to17_mwork",
+    "h_6to17_single_m",
+    "emp_m",
+    "memp_m",
+    "femp_m",
+    "emp_service",
+    "memp_service",
+    "femp_service",
+    "emp_sales",
+    "memp_sales",
+    "femp_sales",
+    "emp_n",
+    "memp_n",
+    "femp_n",
+    "emp_p",
+    "memp_p",
+    "femp_p",
+    "mcsa",
+    "mfccsa",
+    "mc_infant",
+    "mc_toddler",
+    "mc_preschool",
+    "mfcc_infant",
+    "mfcc_toddler",
+    "mfcc_preschool"
+   ]
+  },
+  {
+   "file": "counties.csv",
+   "bytes": 103839,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-05-09/counties.csv",
+   "columns": [
+    "county_fips_code",
+    "county_name",
+    "state_name",
+    "state_abbreviation"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-05-09",
+   "year": 2023,
+   "week": 19,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-05-09"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "National Database of Childcare Prices",
+  "host": "dol.gov"
+ }
+}

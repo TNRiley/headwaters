@@ -1,0 +1,76 @@
+{
+ "id": "tt-2019-01-22",
+ "title": "Incarceration Trends",
+ "hook": "Data comes from The Vera Institute GitHub. The raw dataset was taken from their GitHub - it is in a wide format and if you are keen on really flexing your data munging skills it is a worthy adversary! The truly raw data is seen here. My full code to reproduce the summary level datasets seen below can be found here, you can adapt this minorly to get more data from the original wide dataset. Alternatively, if you don't want to spend the bulk of your time tidying data - I provided summary level and a subset of some tidy county-level data for you to play around with and visualize. These data are from the Vera Institute of Justice, and they wrote several deep-dive articles on the information found. At the most basic level - these data are County-level jail data (1970-2015) and prison data (1983-2015) for the USA.",
+ "questions": [
+  "Overlooked: Women and Jails in an Era of Reform",
+  "Out of Sight: The Growth of Jails in Rural America",
+  "Divided Justice: Trends in Black and White Incarceration 1990-2013",
+  "The New Dynamics of Mass Incarceration",
+  "Jail data methodology."
+ ],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Vera Institute",
+   "url": "https://github.com/vera-institute/incarceration_trends"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Vera Institute",
+   "url": "https://github.com/vera-institute/incarceration_trends"
+  }
+ ],
+ "tables": [
+  {
+   "file": "incarceration_trends.csv",
+   "bytes": 40832087,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-22/incarceration_trends.csv",
+   "columns": []
+  },
+  {
+   "file": "pretrial_population.csv",
+   "bytes": 91168049,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-22/pretrial_population.csv",
+   "columns": []
+  },
+  {
+   "file": "pretrial_summary.csv",
+   "bytes": 20542,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-22/pretrial_summary.csv",
+   "columns": []
+  },
+  {
+   "file": "prison_population.csv",
+   "bytes": 90434730,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-22/prison_population.csv",
+   "columns": []
+  },
+  {
+   "file": "prison_summary.csv",
+   "bytes": 38199,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-22/prison_summary.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-01-22",
+   "year": 2019,
+   "week": 4,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-01-22"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Vera Institute",
+  "host": "vera institute"
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "id": "tt-2019-01-15",
+ "title": "Space Launches",
+ "hook": "Data comes from The Economist GitHub. The following information was taken directly from their GitHub readme. These are the data behind the \"space launches\" article, The space race is dominated by new contenders. Principal data came from the Jonathan McDowell's JSR Launch Vehicle Database, available online at",
+ "questions": [],
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "JSR Launch Vehicle Database",
+   "url": "http://www.planet4589.org/space/lvdb/index.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Economist",
+   "url": "https://economist.com/graphic-detail/2018/10/18/the-space-race-is-dominated-by-new-contenders"
+  }
+ ],
+ "tables": [
+  {
+   "file": "agencies.csv",
+   "bytes": 12563,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-15/agencies.csv",
+   "columns": []
+  },
+  {
+   "file": "launches.csv",
+   "bytes": 430817,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-01-15/launches.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-01-15",
+   "year": 2019,
+   "week": 3,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-01-15"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "JSR Launch Vehicle Database",
+  "host": "planet4589.org"
+ }
+}

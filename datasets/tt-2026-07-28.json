@@ -1,0 +1,108 @@
+{
+ "id": "tt-2026-07-28",
+ "title": "Ecotourism",
+ "hook": "This week we're exploring ecotourism! The {ecotourism} R package provides tools to analyse ecological observation data alongside weather conditions and tourism data. The goal of ecotourism is to provide clean, ready-to-use datasets for example analyses in teaching, demos, and reproducible workflows. The {ecotourism} package provides additional datasets and ideas for analsyis. Remember to cite the package with citation(\"ecotourism\")!",
+ "questions": [
+  "Under which weather conditions are you most likely to observe a Gouldian finch?",
+  "How does weather affect tourism numbers in each region?",
+  "How do observations of the different animals relate to numbers of tourists?"
+ ],
+ "subjects": [
+  "animals & nature",
+  "environment & climate"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "{ecotourism} R package",
+   "url": "https://github.com/vahdatjavad/ecotourism/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Getting Started with the {ecotourism} Package",
+   "url": "https://vahdatjavad.github.io/ecotourism/articles/getting-started.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "occurrences.csv",
+   "bytes": 5703648,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-07-28/occurrences.csv",
+   "columns": [
+    "obs_lat",
+    "obs_lon",
+    "date",
+    "time",
+    "year",
+    "month",
+    "day",
+    "hour",
+    "weekday",
+    "dayofyear",
+    "sci_name",
+    "organism_name",
+    "record_type",
+    "obs_state",
+    "ws_id"
+   ]
+  },
+  {
+   "file": "tourism.csv",
+   "bytes": 4507406,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-07-28/tourism.csv",
+   "columns": [
+    "year",
+    "quarter",
+    "purpose",
+    "trips",
+    "region_id",
+    "ws_id",
+    "region",
+    "lon",
+    "lat"
+   ]
+  },
+  {
+   "file": "weather.csv",
+   "bytes": 3518026,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-07-28/weather.csv",
+   "columns": [
+    "ws_id",
+    "stn_lat",
+    "stn_lon",
+    "date",
+    "year",
+    "month",
+    "day",
+    "weekday",
+    "dayofyear",
+    "temp",
+    "min",
+    "max",
+    "dewp",
+    "rh",
+    "prcp",
+    "rainy",
+    "wind_speed",
+    "max_speed"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-07-28",
+   "year": 2026,
+   "week": 30,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-07-28"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "{ecotourism}",
+  "host": "{ecotourism}"
+ }
+}

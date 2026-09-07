@@ -1,0 +1,66 @@
+{
+ "id": "tt-2024-10-15",
+ "title": "Southern Resident Killer Whale Encounters",
+ "hook": "The data this week comes from the Center for Whale Research (CWR), the leading organization monitoring and studying Southern Resident killer whales in their critical habitat: the Pacific Northwest’s Salish Sea. Each encounter is hosted on its own webpage at whaleresearch.com. Jadey Ryan scraped the encounter data from CWR's website as a personal project to learn web scraping and presented the process at a Seattle R-Ladies meetup in 2023. The scraping functions and cleaning code for 2017 - 2024 encounters can be found in the {orcas} R package. The dataset is mostly tidy but not completely clean. There are still missing values and typos, as evident from some encounters having a negative duration. An Encounter refers to any time we observe killer whales (orcas), from one of CWR's research boats or land, where at least one individual is identified and photographed.",
+ "questions": [],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Center for Whale Research",
+   "url": "https://www.whaleresearch.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Web Scraping & Mapping {orcas} Encounters",
+   "url": "https://jadeynryan.github.io/orcas/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "orcas.csv",
+   "bytes": 1666833,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-10-15/orcas.csv",
+   "columns": [
+    "year",
+    "date",
+    "encounter_sequence",
+    "encounter_number",
+    "begin_time",
+    "end_time",
+    "duration",
+    "vessel",
+    "observers",
+    "pods_or_ecotype",
+    "ids_encountered",
+    "location",
+    "begin_latitude",
+    "begin_longitude",
+    "end_latitude",
+    "end_longitude",
+    "encounter_summary",
+    "nmfs_permit",
+    "link"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-10-15",
+   "year": 2024,
+   "week": 42,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-10-15"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Center for Whale Research",
+  "host": "whaleresearch.com"
+ }
+}

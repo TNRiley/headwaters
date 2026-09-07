@@ -1,0 +1,67 @@
+{
+ "id": "tt-2022-02-08",
+ "title": "Tuskegee Airmen",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "society & demographics",
+  "government & politics"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Commemorative Airforce (CAF) by way of the VA-TUG",
+   "url": "https://github.com/lang1023/Tuskegee-Airman-Challenge"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tuskegee_Airmen"
+  },
+  {
+   "name": "Air Force Historical Research Agency",
+   "url": "https://github.com/lang1023/Tuskegee-Airman-Challenge/blob/main/112%20Victories_%20Aerial%20Victories%20of%20hte%20Tuskegee%20Airmen%20(1"
+  }
+ ],
+ "tables": [
+  {
+   "file": "airmen.csv",
+   "bytes": 138185,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-02-08/airmen.csv",
+   "columns": [
+    "last_name",
+    "first_name",
+    "graduation_date",
+    "rank_at_graduation",
+    "class",
+    "graduated_from",
+    "pilot_type",
+    "military_hometown_of_record",
+    "state",
+    "aerial_victory_credits",
+    "number_of_aerial_victory_credits",
+    "reported_lost",
+    "reported_lost_date",
+    "reported_lost_location",
+    "web_profile"
+   ]
+  }
+ ],
+ "extra_files": 2,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2022-02-08",
+   "year": 2022,
+   "week": 6,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-02-08"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Commemorative Airforce (CAF) by way of the VA-TUG",
+  "host": "commemorative airforce (caf) by way of the va-tug"
+ }
+}

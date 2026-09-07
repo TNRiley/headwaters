@@ -1,0 +1,79 @@
+{
+ "id": "tt-2020-07-28",
+ "title": "Palmer Penguins",
+ "hook": "The data this week comes from Dr. Kristen Gorman by way of the palmerpenguins R package by Dr. Kristen Gorman, Dr. Allison Horst, and Dr. Alison Hill. Their palmerpenguins packagedown site and corresponding GitHub Repo has all the details, which I will duplicate some of below. You can install their package for reproducible use via install.packages(\"palmerpenguins\"). The goal of palmerpenguins is to provide a great dataset for data exploration & visualization, as an alternative to iris. We gratefully acknowledge Palmer Station LTER and the US LTER Network. Special thanks to Marty Downs (Director, LTER Network Office) for help regarding the data license & use. They've bundled both the raw data and the cleaned data together, which I have also included here. The main measurements are body mass, culmen (bill) length, bill depth, and flipper length.",
+ "questions": [],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Gorman, Williams and Fraser, 2014",
+   "url": "https://doi.org/10.1371/journal.pone.0090081"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Palmer Penguins",
+   "url": "https://allisonhorst.github.io/palmerpenguins/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "penguins.csv",
+   "bytes": 15241,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-07-28/penguins.csv",
+   "columns": [
+    "species",
+    "island",
+    "bill_length_mm",
+    "bill_depth_mm",
+    "flipper_length_mm",
+    "body_mass_g",
+    "sex",
+    "year"
+   ]
+  },
+  {
+   "file": "penguins_raw.csv",
+   "bytes": 53098,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-07-28/penguins_raw.csv",
+   "columns": [
+    "studyName",
+    "Sample Number",
+    "Species",
+    "Region",
+    "Island",
+    "Stage",
+    "Individual ID",
+    "Clutch Completion",
+    "Date Egg",
+    "Culmen Length (mm)",
+    "Culmen Depth (mm)",
+    "Flipper Length (mm)",
+    "Body Mass (g)",
+    "Sex",
+    "Delta 15 N (o/oo)",
+    "Delta 13 C (o/oo)",
+    "Comments"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-07-28",
+   "year": 2020,
+   "week": 31,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-07-28"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Gorman, Williams and Fraser, 2014",
+  "host": "doi.org"
+ }
+}

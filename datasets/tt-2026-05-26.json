@@ -1,0 +1,102 @@
+{
+ "id": "tt-2026-05-26",
+ "title": "Sustainable Energy for All",
+ "hook": "This week we're exploring Sustainable Energy for all! Beyond the raw metrics, this dataset offers a window into how nations are balancing growth with green initiatives, challenging us to visualize the actual momentum behind the global energy transition. The “Sustainable Energy for all (SE4ALL)” initiative, launched in 2010 by the UN Secretary General, established three global objectives to be accomplished by 2030: to ensure universal access to modern energy services, to double the global rate of improvement in global energy efficiency, and to double the share of renewable energy in the global energy mix. SE4ALL database supports this initiative and provides country level historical data for access to electricity and non-solid fuel; share of renewable energy in total final energy consumption by technology; and energy intensity rate of improvement.",
+ "questions": [
+  "Which countries have the lowest capacity for solar energy?",
+  "What form of renewable energy has, on average, experienced the fasted rate of adoption?"
+ ],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "SE4ALL Database",
+   "url": "https://energydata.info/dataset/se4all-database/resource/f779714e-d97f-4f57-a61f-057f5496d06f"
+  }
+ ],
+ "articles": [
+  {
+   "name": "SE4ALL Database",
+   "url": "https://energydata.info/dataset/dashboard/se4all-database"
+  }
+ ],
+ "tables": [
+  {
+   "file": "energy_cleaned.csv",
+   "bytes": 1733061,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-26/energy_cleaned.csv",
+   "columns": [
+    "country_name",
+    "country_code",
+    "yr",
+    "access_non_solid_fuel_rural_pop_pct",
+    "access_non_solid_fuel_total_pop_pct",
+    "access_non_solid_fuel_urban_pop_pct",
+    "access_electricity_rural_pop_pct",
+    "access_electricity_total_pop_pct",
+    "access_electricity_urban_pop_pct",
+    "biogas_consumption_tfec_pct",
+    "biogas_consumption_terajoules",
+    "divisia_decomp_analysis_activity_component_index",
+    "divisia_decomp_analysis_energy_intensity_component_index",
+    "divisia_decomp_analysis_structure_component_index",
+    "energy_intensity_level_final_energy_megajoules_per_usd_2005_ppp",
+    "energy_intensity_level_primary_energy_megajoules_per_usd_2005_ppp",
+    "energy_intensity_agricultural_sector_megajoules_per_usd_2005",
+    "energy_intensity_industrial_sector_megajoules_per_usd_2005",
+    "energy_intensity_other_sectors_megajoules_per_usd_2005",
+    "energy_savings_primary_energy_terajoules",
+    "final_to_primary_energy_ratio_pct",
+    "geothermal_energy_consumption_tfec_pct",
+    "geothermal_energy_consumption_terajoules",
+    "hydro_energy_consumption_tfec_pct",
+    "hydro_energy_consumption_terajoules",
+    "liquid_biofuels_energy_consumption_tfec_pct",
+    "liquid_biofuels_consumption_terajoules",
+    "marine_energy_consumption_tfec_pct",
+    "marine_consumption_terajoules",
+    "modern_biomass_energy_consumption_tfec_pct",
+    "modern_biomass_consumption_terajoules",
+    "perc_renewable_of_total_electricity_output",
+    "renewable_energy_consumption_terajoules",
+    "renewable_energy_consumption_tfec_pct",
+    "renewable_energy_electricity_output_gigawatt_hours",
+    "renewable_energy_installed_capacity_gigawatts",
+    "share_of_renewable_capacity_in_total_capacity_pct",
+    "solar_energy_consumption_tfec_pct",
+    "solar_energy_consumption_terajoules",
+    "thermal_efficiency_in_power_supply_pct",
+    "total_electricity_output_gigawatt_hours",
+    "total_final_consumption_terajoules",
+    "total_final_energy_consumption_tfec",
+    "total_installed_generation_capacity_gigawatts",
+    "total_primary_energy_supply_terajoules",
+    "traditional_biomass_consumption_tfec_pct",
+    "traditional_biomass_consumption_terajoules",
+    "transmission_and_distribution_losses_pct",
+    "waste_energy_consumption_tfec_pct",
+    "waste_energy_consumption_terajoules",
+    "wind_energy_consumption_tfec_pct",
+    "wind_energy_consumption_terajoules"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-05-26",
+   "year": 2026,
+   "week": 21,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-05-26"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "SE4ALL Database",
+  "host": "energydata.info"
+ }
+}

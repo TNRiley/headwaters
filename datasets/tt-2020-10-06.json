@@ -1,0 +1,66 @@
+{
+ "id": "tt-2020-10-06",
+ "title": "NCAA Women's Basketball",
+ "hook": "The data this week comes from FiveThirtyEight. The original raw data is on their [GitHub]. More details about the NCAA Women's Basketball Tournament which expended to 64 teams in 1994. There are some additional data points at that Wikipedia link if you're curious! Note that for their dataviz, they converted seed to a 100 point scale based off the average wins/seed. Note that FiveThirtyEight used Simple Rating System scores from Sports-Reference, but I've simplified it into simply the average per seed. A quick table of this as seen below: To measure this, we awarded \"seed points\" in proportion to a given seed number's expected wins in the tournament, calibrated to a 100-point scale where the No. 1 seed gets 100 points, No. 2 gets 70 points, and so forth.",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "FiveThirtyEight",
+   "url": "https://fivethirtyeight.com/features/louisiana-tech-was-the-uconn-of-the-80s/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "FiveThirtyEight",
+   "url": "https://fivethirtyeight.com/features/louisiana-tech-was-the-uconn-of-the-80s/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "tournament.csv",
+   "bytes": 166435,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-10-06/tournament.csv",
+   "columns": [
+    "year",
+    "school",
+    "seed",
+    "conference",
+    "conf_w",
+    "conf_l",
+    "conf_percent",
+    "conf_place",
+    "reg_w",
+    "reg_l",
+    "reg_percent",
+    "how_qual",
+    "x1st_game_at_home",
+    "tourney_w",
+    "tourney_l",
+    "tourney_finish",
+    "full_w",
+    "full_l",
+    "full_percent"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-10-06",
+   "year": 2020,
+   "week": 41,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-10-06"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FiveThirtyEight",
+  "host": "fivethirtyeight.com"
+ }
+}

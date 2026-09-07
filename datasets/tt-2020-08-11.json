@@ -1,0 +1,67 @@
+{
+ "id": "tt-2020-08-11",
+ "title": "Avatar: The Last Airbender",
+ "hook": "The data this week comes from the appa R package created by Avery Robbins. H/t to Kelsey Gonzalez for recommending this data package. The original data came from the Avatar Wiki, and the example code used to scrape this dataset is also covered on Avery's blog along with a quick exploration of the available data in a separate blog post. There is also a \"Avatar\" themed palette from the tvthemes R package courtesy of Ryo Nakagawara For people who have not seen the show or read this series of books, Wikipedia covers the high level details. Avatar: The Last Airbender is set in a world where human civilization consists of four nations, named after the four classical elements: the Water Tribes, the Earth Kingdom, the Fire Nation, and the Air Nomads.",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "`appa`",
+   "url": "https://github.com/averyrobbins1/appa"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Exploring Avatar: The Last Airbender transcript data",
+   "url": "https://www.avery-robbins.com/2020/07/11/avatar-eda/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "avatar.csv",
+   "bytes": 3661874,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-08-11/avatar.csv",
+   "columns": [
+    "id",
+    "book",
+    "book_num",
+    "chapter",
+    "chapter_num",
+    "character",
+    "full_text",
+    "character_words",
+    "writer",
+    "director",
+    "imdb_rating"
+   ]
+  },
+  {
+   "file": "scene_description.csv",
+   "bytes": 358453,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-08-11/scene_description.csv",
+   "columns": [
+    "id",
+    "scene_description"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-08-11",
+   "year": 2020,
+   "week": 33,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-08-11"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "appa",
+  "host": "appa"
+ }
+}

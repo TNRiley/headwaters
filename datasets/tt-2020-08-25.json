@@ -1,0 +1,72 @@
+{
+ "id": "tt-2020-08-25",
+ "title": "Chopped",
+ "hook": "The data this week comes from Kaggle courtesy of Jeffrey Braun with a h/t to: Nick Wan. Chopped season ratings from IMDB and meta-info on Wikipedia). Chopped is an American reality-based cooking television game show series. It is hosted by Ted Allen. The series pits four chefs against each other as they compete for a chance to win $10,000. In each episode, four chefs compete in a three-round contest, where they attempt to incorporate unusual combinations of ingredients into dishes that are later evaluated by a panel of three judges. At the beginning of each round (typically \"Appetizer\", \"Entrée\", and \"Dessert\", but with occasional exceptions), the chefs are each given a basket containing four mystery ingredients and are expected to create dishes that use all of them in some way.",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Kaggle",
+   "url": "https://www.kaggle.com/jeffreybraun/chopped-10-years-of-episode-data"
+  },
+  {
+   "name": "IMDB",
+   "url": "https://www.imdb.com/title/tt1353281/episodes?ref_=tt_eps_sn_mr"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Vice",
+   "url": "https://www.vice.com/en_us/article/wj8q39/how-chopped-became-tvs-greatest-cooking-show"
+  }
+ ],
+ "tables": [
+  {
+   "file": "chopped.tsv",
+   "bytes": 381518,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-08-25/chopped.tsv",
+   "columns": [
+    "season",
+    "season_episode",
+    "series_episode",
+    "episode_rating",
+    "episode_name",
+    "episode_notes",
+    "air_date",
+    "judge1",
+    "judge2",
+    "judge3",
+    "appetizer",
+    "entree",
+    "dessert",
+    "contestant1",
+    "contestant1_info",
+    "contestant2",
+    "contestant2_info",
+    "contestant3",
+    "contestant3_info",
+    "contestant4",
+    "contestant4_info"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-08-25",
+   "year": 2020,
+   "week": 35,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-08-25"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Kaggle",
+  "host": "kaggle"
+ }
+}

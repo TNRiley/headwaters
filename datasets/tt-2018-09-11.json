@@ -1,0 +1,46 @@
+{
+ "id": "tt-2018-09-11",
+ "title": "Cats vs Dogs (USA)",
+ "hook": "Data sourced from American Veterinary Medical Association via data.world this week.",
+ "questions": [],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "data.world",
+   "url": "https://data.world/datanerd/cat-vs-dog-popularity-in-u-s"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Washington Post",
+   "url": "https://www.washingtonpost.com/news/wonk/wp/2014/07/28/where-cats-are-more-popular-than-dogs-in-the-u-s-and-all-over-the-world/?utm_term=.b50cb49b78b5"
+  }
+ ],
+ "tables": [
+  {
+   "file": "cats_vs_dogs.csv",
+   "bytes": 3431,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-09-11/cats_vs_dogs.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-09-11",
+   "year": 2018,
+   "week": 24,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-09-11"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Data.World",
+  "host": "data.world"
+ }
+}

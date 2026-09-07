@@ -1,0 +1,46 @@
+{
+ "id": "tt-2019-04-02",
+ "title": "Seattle Bike Traffic",
+ "hook": "\"Seattle Department of Transportation has 12 bike counters (four of which also count pedestrians) located on neighborhood greenways, multi-use trails, at the Fremont Bridge and on SW Spokane Street. The counters are helping us create a ridership baseline in 2014 that can be used to assess future years and make sure our investments are helping us to reach our goal of quadrupling ridership by 2030. Read our Bicycle Master Plan to learn more about what Seattle is doing to create a citywide bicycle network.\" The Seattle Times recently covered What we can learn from Seattle's bike-counter data. They have some elegant data-visualizations there! biketraffic <- readr::readcsv(\"",
+ "questions": [],
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "seattle.gov",
+   "url": "http://www.seattle.gov/transportation/projects-and-programs/programs/bike-program/bike-counters"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Seattle Times",
+   "url": "https://www.seattletimes.com/seattle-news/transportation/what-we-can-learn-from-seattles-bike-counter-data/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "bike_traffic.csv",
+   "bytes": 30781588,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-02/bike_traffic.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-04-02",
+   "year": 2019,
+   "week": 14,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-04-02"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "seattle.gov",
+  "host": "seattle.gov"
+ }
+}

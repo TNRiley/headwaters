@@ -1,0 +1,68 @@
+{
+ "id": "tt-2024-12-24",
+ "title": "Global Holidays and Travel",
+ "hook": "This week we're exploring how global holidays impact seasonal human mobility. We found the data via the article \"Global holiday datasets for understanding seasonal human mobility and population dynamics\" by Shengjie Lai (et al) (thank you to @lgibson7 for finding the dataset). Public and school holidays have important impacts on population mobility and dynamics across multiple spatial and temporal scales, subsequently affecting the transmission dynamics of infectious diseases and many socioeconomic activities. However, worldwide data on public and school holidays for understanding their changes across regions and years have not been assembled into a single, open-source and multitemporal dataset. To address this gap, an open access archive of data on public and school holidays in 2010–2019 across the globe at daily, weekly, and monthly timescales was constructed.",
+ "questions": [
+  "Can you reproduce them?",
+  "Can you find better ways to show the same information?"
+ ],
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "WorldPop Hub",
+   "url": "https://hub.worldpop.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Global holiday datasets for understanding seasonal human mobility and population dynamics",
+   "url": "https://www.nature.com/articles/s41597-022-01120-z"
+  }
+ ],
+ "tables": [
+  {
+   "file": "global_holidays.csv",
+   "bytes": 2505925,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-12-24/global_holidays.csv",
+   "columns": [
+    "ADM_name",
+    "ISO3",
+    "Date",
+    "Type"
+   ]
+  },
+  {
+   "file": "monthly_passengers.csv",
+   "bytes": 258863,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-12-24/monthly_passengers.csv",
+   "columns": [
+    "ISO3",
+    "Year",
+    "Month",
+    "Total",
+    "Domestic",
+    "International",
+    "Total_OS"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-12-24",
+   "year": 2024,
+   "week": 52,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-12-24"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "WorldPop Hub",
+  "host": "hub.worldpop.org"
+ }
+}

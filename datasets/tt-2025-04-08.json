@@ -1,0 +1,58 @@
+{
+ "id": "tt-2025-04-08",
+ "title": "Timely and Effective Care by US State",
+ "hook": "This week we're exploring state-level results for medicare.gov \"timely and effective care\" measurements. As of 2025-04-06, the data is available at the Centers for Medicare and Medicaid Services (CMS) website. Thanks to former TidyTuesday team member Tracy Teal (@tracykteal) for the dataset suggestion and the link to a visualization by Kayla Zhu and Christina Kostandi at the Visual Capitalist. Emergency room wait times vary significantly across the United States depending on factors such as hospital resources, patient volume, and staffing levels, with some states facing delays that can stretch for more than three hours.",
+ "questions": [
+  "Is there a connection between state populations and wait times?",
+  "Which conditions have the longest wait times? The shortest?"
+ ],
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Centers for Medicare & Medicaid Services",
+   "url": "https://data.cms.gov/provider-data/dataset/apyc-v239"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Mapped: Emergency Room Visit Times by State",
+   "url": "https://www.visualcapitalist.com/mapped-emergency-room-visit-times-by-state/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "care_state.csv",
+   "bytes": 220709,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-08/care_state.csv",
+   "columns": [
+    "state",
+    "condition",
+    "measure_id",
+    "measure_name",
+    "score",
+    "footnote",
+    "start_date",
+    "end_date"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-04-08",
+   "year": 2025,
+   "week": 14,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-04-08"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Centers for Medicare & Medicaid Services",
+  "host": "cms.gov"
+ }
+}

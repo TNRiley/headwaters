@@ -1,0 +1,84 @@
+{
+ "id": "tt-2025-08-12",
+ "title": "Extreme Weather Attribution Studies",
+ "hook": "This week we're exploring extreme weather attribution studies. The dataset comes from Carbon Brief's article Mapped: How climate change affects extreme weather around the world. An in-depth exploration of the evolution of extreme weather attribution science can be found in this Q & A article. The data was last updated in November 2024 and single studies that cover multiple events or locations are separated out into individual entries when possible. Attribution studies calculate whether, and by how much, climate change affected the intensity, frequency or impact of extremes - from wildfires in the US and drought in South Africa through to record-breaking rainfall in Pakistan and typhoons in Taiwan. Some questions you might explore:",
+ "questions": [
+  "How do attribution study publications evolve over time? What about rapid attribution studies?",
+  "What type of extreme event is more frequently the subject of an attribution study?",
+  "In which regions are most studies focused?",
+  "Is there a trend in how climate change influences different types of extreme weather?"
+ ],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "journalism",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Carbon Brief",
+   "url": "https://carbonbrief.org"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Mapped: How climate change affects extreme weather around the word.",
+   "url": "https://interactive.carbonbrief.org/attribution-studies/index.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "attribution_studies.csv",
+   "bytes": 459271,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-12/attribution_studies.csv",
+   "columns": [
+    "event_name",
+    "event_period",
+    "event_year",
+    "study_focus",
+    "iso_country_code",
+    "cb_region",
+    "event_type",
+    "classification",
+    "summary_statement",
+    "publication_year",
+    "citation",
+    "source",
+    "rapid_study",
+    "link"
+   ]
+  },
+  {
+   "file": "attribution_studies_raw.csv",
+   "bytes": 456887,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-08-12/attribution_studies_raw.csv",
+   "columns": [
+    "event_year_trend",
+    "iso_country_code",
+    "cb_region",
+    "event_type",
+    "classification",
+    "summary_statement",
+    "publication_year",
+    "citation",
+    "source",
+    "rapid_study",
+    "link"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-08-12",
+   "year": 2025,
+   "week": 32,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-08-12"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Carbon Brief",
+  "host": "carbonbrief.org"
+ }
+}

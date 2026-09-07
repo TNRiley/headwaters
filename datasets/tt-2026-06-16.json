@@ -1,0 +1,89 @@
+{
+ "id": "tt-2026-06-16",
+ "title": "UK Baby Names",
+ "hook": "This week's dataset explores baby names in the UK. There are three datasets which cover baby names across England and Wales from the Office for National Statistics, Northern Ireland from the Northern Ireland Statistics and Research Agency, and Scotland from National Records of Scotland. Dearest gentle reader… we can report that Daphne, Eloise and Penelope have all increased in popularity this year, with the name of each Bridgerton character reaching joint 172nd, 91st, and 71st place respectively, up from 476th, 124th, and 81st in 2024.",
+ "questions": [
+  "How does the ranking of most popular names compare between the three datasets?",
+  "Are boys' or girls' names more likely to be unique?",
+  "Can you show the Bridgerton trend in charts?"
+ ],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "All Names Given To Babies Between 1974 To 2025",
+   "url": "https://www.nrscotland.gov.uk/publications/babies-first-names-2025/, https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesinenglandandwalesfrom1996, https://www.nisra.gov.uk/publications/baby-names-2025"
+  },
+  {
+   "name": "All Names Given To Babies Between 1974 To 2025",
+   "url": "https://www.nrscotland.gov.uk/publications/babies-first-names-2025/"
+  },
+  {
+   "name": "Baby names in England and Wales: from 1996",
+   "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/datasets/babynamesinenglandandwalesfrom1996"
+  },
+  {
+   "name": "Baby Names 2025",
+   "url": "https://www.nisra.gov.uk/publications/baby-names-2025"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Babies' First Names, 2025",
+   "url": "https://www.nrscotland.gov.uk/publications/babies-first-names-2025/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "england_wales_names.csv",
+   "bytes": 8402523,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-16/england_wales_names.csv",
+   "columns": [
+    "Year",
+    "Sex",
+    "Number",
+    "Rank"
+   ]
+  },
+  {
+   "file": "ni_names.csv",
+   "bytes": 2673670,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-16/ni_names.csv",
+   "columns": [
+    "Year",
+    "Sex",
+    "Number",
+    "Rank"
+   ]
+  },
+  {
+   "file": "scotland_names.csv",
+   "bytes": 1686077,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-16/scotland_names.csv",
+   "columns": [
+    "Year",
+    "Sex",
+    "Number",
+    "Rank"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-06-16",
+   "year": 2026,
+   "week": 24,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-06-16"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "All Names Given To Babies Between 1974 To 2025",
+  "host": "nrscotland.gov.uk"
+ }
+}

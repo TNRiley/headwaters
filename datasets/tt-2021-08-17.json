@@ -1,0 +1,60 @@
+{
+ "id": "tt-2021-08-17",
+ "title": "Star Trek Voice Commands",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "",
+ "sources": [
+  {
+   "name": "SpeechInteraction.org",
+   "url": "http://www.speechinteraction.org/TNG/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "SpeechInteraction.org",
+   "url": "http://www.speechinteraction.org/TNG/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "computer.csv",
+   "bytes": 620944,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-08-17/computer.csv",
+   "columns": [
+    "char",
+    "line",
+    "direction",
+    "type",
+    "pri_type",
+    "domain",
+    "sub_domain",
+    "nv_resp",
+    "interaction",
+    "char_type",
+    "is_fed",
+    "error",
+    "value_id"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-08-17",
+   "year": 2021,
+   "week": 34,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-08-17"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "SpeechInteraction.org",
+  "host": "speechinteraction.org"
+ }
+}

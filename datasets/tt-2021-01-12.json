@@ -1,0 +1,73 @@
+{
+ "id": "tt-2021-01-12",
+ "title": "Art Collections",
+ "hook": "The data this week comes from the Tate Art Museum. The dataset in this repository was last updated in October 2014. Tate has no plans to resume updating this repository, but we are keeping it available for the time being in case this snapshot of the Tate collection is a useful tool for researchers and developers. Here we present the metadata for around 70,000 artworks that Tate owns or jointly owns with the National Galleries of Scotland as part of ARTIST ROOMS. Metadata for around 3,500 associated artists is also included. The metadata here is released under the Creative Commons Public Domain CC0 licence. Images are not included and are not part of the dataset. Use of Tate images is covered on the Copyright and permissions page. You may also license images for commercial use. Tate requests that you actively acknowledge and give attribution to Tate wherever possible.",
+ "questions": [
+  "Data visualisations by Florian Kräutli",
+  "machine imagined art by Shardcore",
+  "The Dimensions of Art by Jim Davenport",
+  "Art as Data as Art and Part II by Os Keyes",
+  "Tate Acquisition Data by Zenlan"
+ ],
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "platform",
+ "geography": "United Kingdom",
+ "sources": [
+  {
+   "name": "Tate Collection",
+   "url": "http://bit.ly/3sev5lM"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Aspect Ratio of Artworks through Time",
+   "url": "https://josephlewis.github.io/aspect.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "artwork.csv",
+   "bytes": 24312779,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-01-12/artwork.csv",
+   "columns": [
+    "id",
+    "accession_number",
+    "artist",
+    "artistRole",
+    "artistId",
+    "title",
+    "dateText",
+    "medium",
+    "creditLine",
+    "year",
+    "acquisitionYear",
+    "dimensions",
+    "width",
+    "height",
+    "depth",
+    "units",
+    "inscription",
+    "thumbnailCopyright",
+    "thumbnailUrl",
+    "url"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-01-12",
+   "year": 2021,
+   "week": 3,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-01-12"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Tate Collection",
+  "host": "tate collection"
+ }
+}

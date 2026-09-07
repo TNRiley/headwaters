@@ -1,0 +1,53 @@
+{
+ "id": "tt-2019-06-04",
+ "title": "Ramen Ratings",
+ "hook": "This week's dataset is a ramen ratings dataset from The Ramen Rater. H/t to Data is Plural. If you want to submit a dataset please do so as an Issue on our GitHub! If you do submit a dataset, please drop a link and some context as an issue. Thanks! ramenratings <- readr::readcsv(\"",
+ "questions": [],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "TheRamenRater.com",
+   "url": "https://www.theramenrater.com/resources-2/the-list/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Food Republic",
+   "url": "https://www.foodrepublic.com/2014/12/02/theres-a-website-that-has-rated-1518-bowls-of-instant-ramen/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "ramen_ratings.csv",
+   "bytes": 195869,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-06-04/ramen_ratings.csv",
+   "columns": [
+    "review_number",
+    "brand",
+    "variety",
+    "style",
+    "country",
+    "stars"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-06-04",
+   "year": 2019,
+   "week": 23,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-06-04"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "TheRamenRater.com",
+  "host": "theramenrater.com"
+ }
+}

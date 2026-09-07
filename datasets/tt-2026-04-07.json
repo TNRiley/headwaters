@@ -1,0 +1,82 @@
+{
+ "id": "tt-2026-04-07",
+ "title": "Repair Cafes Worldwide",
+ "hook": "The dataset this week comes from the Repair Monitor, which has been compiling data from Repair Cafes worldwide since 2015. Repair Cafe branches bring together volunteer fixers to help people learn how to repair household items that are broken. Note: There appears to be some uncertainty (by submitters to the source data) of what to put in repairinfosource and repairinfourl. We included the questions for these fields to aid in the interpretation of the data. As carbon-hungry consumer production and its subsequent waste surge to all-time highs, experts say that the concept can help curb pollution while promoting a more circular economy.",
+ "questions": [
+  "What kinds of items are most easily repaired?",
+  "What are the most common reasons that items can't be repaired?",
+  "Which countries have seen the most growth in Repair Cafe branches?",
+  "Is GenAI becoming more popular than YouTube as a source of useful information for repairers?"
+ ],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Repair Monitor",
+   "url": "https://dashboard.repairmonitor.org/?language=en"
+  }
+ ],
+ "articles": [
+  {
+   "name": "A growing number of 'Repair Cafes' are popping up around the world to curb consumer waste",
+   "url": "https://insideclimatenews.org/news/11112025/todays-climate-repair-cafe-consumer-waste/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "repairs.csv",
+   "bytes": 19314384,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-07/repairs.csv",
+   "columns": [
+    "repair_id",
+    "repair_date",
+    "repair_cafe_number",
+    "repair_cafe_name",
+    "country",
+    "kind_of_product",
+    "category",
+    "brand",
+    "estimated_year_of_production",
+    "repaired",
+    "repairability"
+   ]
+  },
+  {
+   "file": "repairs_text.csv",
+   "bytes": 19902910,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-04-07/repairs_text.csv",
+   "columns": [
+    "repair_id",
+    "model",
+    "defect_found",
+    "problem_description",
+    "repair_method",
+    "partial_repair_notes",
+    "failure_reasons",
+    "failure_reason_open",
+    "used_repair_info",
+    "repair_info_source",
+    "repair_info_url",
+    "suggestions"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-04-07",
+   "year": 2026,
+   "week": 14,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-04-07"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Repair Monitor",
+  "host": "dashboard.repairmonitor.org"
+ }
+}

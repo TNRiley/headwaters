@@ -1,0 +1,51 @@
+{
+ "id": "tt-2018-11-06",
+ "title": "US Wind Farm locations",
+ "hook": "Wind turbine location and characteristic data across the USA can be found here. DISCLAIMER: There is quite a bit of missing data, but still an interesting dataset! Check out OpenEI for >1600 datasets on energy production and use. I intentionally left some of the \"missing\" data qualifiers as it is accurate for lots of government-level open data. They often use things like \"-9999\" means missing data. Take a look, dig through the data, and we can't wait to see what you make!",
+ "questions": [
+  "How do newer installations compare to older turbines?",
+  "Which states/regions have the most wind farms?",
+  "Spread of wind-turbines over time?",
+  "Where is the most missing data?"
+ ],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "usgs.gov",
+   "url": "https://eerscmap.usgs.gov/uswtdb/data/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Wind Market Reports",
+   "url": "https://www.energy.gov/eere/wind/2017-wind-market-reports"
+  }
+ ],
+ "tables": [
+  {
+   "file": "us_wind.csv",
+   "bytes": 10681275,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-11-06/us_wind.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-11-06",
+   "year": 2018,
+   "week": 32,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-11-06"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "usgs.gov",
+  "host": "eerscmap.usgs.gov"
+ }
+}

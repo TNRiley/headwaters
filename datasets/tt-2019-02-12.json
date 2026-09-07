@@ -1,0 +1,65 @@
+{
+ "id": "tt-2019-02-12",
+ "title": "Federal R&D Spending",
+ "hook": "The NY Times has a recent article on federal Research and Development spending by agency. Cheers to Costa Samaras for making us aware of this data source and the article. Their take on the data is that Energy spending and Climate Change Research spending is lagging compared to other departments. Data comes directly from the American Association for the Advancement of Science Historical Trends - there are dozens if not hundreds of ways to break this data down - we have presented a relatively high-level overview, but if you are interested take a look at the raw Excel sheets to get at even more data. Federal Research and Development Spending by Agency or read the data directly into R!",
+ "questions": [
+  "DOD - Deparment of Defense",
+  "NASA - National Aeronautics and Space Administration",
+  "DOE - Department of Energy",
+  "HHS - Department of Health and Human Services",
+  "NIH - National Institute of Health"
+ ],
+ "subjects": [
+  "economy & work",
+  "government & politics"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "AAAS",
+   "url": "https://www.aaas.org/programs/r-d-budget-and-policy/historical-rd-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "New York Times",
+   "url": "https://dotearth.blogs.nytimes.com/2014/11/02/panels-latest-warming-warning-misses-global-slumber-party-on-energy-research/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "fed_r_d_spending.csv",
+   "bytes": 23897,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-02-12/fed_r_d_spending.csv",
+   "columns": []
+  },
+  {
+   "file": "energy_spending.csv",
+   "bytes": 8148,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-02-12/energy_spending.csv",
+   "columns": []
+  },
+  {
+   "file": "climate_spending.csv",
+   "bytes": 3893,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-02-12/climate_spending.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-02-12",
+   "year": 2019,
+   "week": 7,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-02-12"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "AAAS",
+  "host": "aaas.org"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "tt-2023-08-15",
+ "title": "Spam E-mail",
+ "hook": "The data this week comes from Vincent Arel-Bundock's Rdatasets package( Rdatasets is a collection of 2246 datasets which were originally distributed alongside the statistical software environment R and some of its add-on packages. The goal is to make these data more broadly accessible for teaching and statistical software development. We're working with the spam email dataset. This is a subset of the spam e-mail database. This is a dataset collected at Hewlett-Packard Labs by Mark Hopkins, Erik Reeber, George Forman, and Jaap Suermondt and shared with the UCI Machine Learning Repository. The dataset classifies 4601 e-mails as spam or non-spam, with additional variables indicating the frequency of certain words and characters in the e-mail.",
+ "questions": [],
+ "subjects": [
+  "technology & software"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Spam e-mail",
+   "url": "https://vincentarelbundock.github.io/Rdatasets/doc/DAAG/spam7.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Spam email database",
+   "url": "https://archive.ics.uci.edu/dataset/94/spambase"
+  }
+ ],
+ "tables": [
+  {
+   "file": "spam.csv",
+   "bytes": 97053,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-08-15/spam.csv",
+   "columns": [
+    "crl.tot",
+    "dollar",
+    "bang",
+    "money",
+    "n000",
+    "make",
+    "yesno"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-08-15",
+   "year": 2023,
+   "week": 33,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-08-15"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Spam e-mail",
+  "host": "vincentarelbundock.github.io"
+ }
+}

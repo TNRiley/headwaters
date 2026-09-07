@@ -1,0 +1,43 @@
+{
+ "id": "tt-2019-03-19",
+ "title": "Stanford Open Policing Project",
+ "hook": "The Stanford Open Policing Project Summary Video can be seen below. <br> Quotes below from the Stanford Open Policing Project website: \"On a typical day in the United States, police officers make more than 50,000 traffic stops. Our team is gathering, analyzing, and releasing records from millions of traffic stops by law enforcement agencies across the country. Our goal is to help researchers, journalists, and policymakers investigate and improve interactions between police and the public. Currently, a comprehensive, national repository detailing interactions between police and the public doesn't exist. That's why the Stanford Open Policing Project is collecting and standardizing data on vehicle and pedestrian stops from law enforcement departments across the country — and we're making that information freely available.",
+ "questions": [],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Stanford Open Policing Project",
+   "url": "https://openpolicing.stanford.edu/data/"
+  },
+  {
+   "name": "SOPP - arXiv:1706.05678",
+   "url": "https://github.com/5harad/openpolicing"
+  }
+ ],
+ "articles": [
+  {
+   "name": "SOPP - arXiv:1706.05678",
+   "url": "https://arxiv.org/abs/1706.05678"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-03-19",
+   "year": 2019,
+   "week": 12,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-03-19"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Stanford Open Policing Project",
+  "host": "openpolicing.stanford.edu"
+ }
+}

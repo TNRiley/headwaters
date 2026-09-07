@@ -1,0 +1,70 @@
+{
+ "id": "tt-2020-07-14",
+ "title": "Astronaut Database",
+ "hook": "The data this week comes from Mariya Stavnichuk and Tatsuya Corlett. This article talks about the data set in greater detail. This database contains publically available information about all astronauts who participated in space missions before 15 January 2020 collected from NASA, Roscosmos, and fun-made websites. The provided information includes full astronaut name, sex, date of birth, nationality, military status, a title and year of a selection program, and information about each mission completed by a particular astronaut such as a year, ascend and descend shuttle names, mission and extravehicular activity (EVAs) durations. Credit for preparing the dataset: Georgios Karamanis It may be interesting to also use the Space Launches dataset from TidyTuesday 2019, week 3.",
+ "questions": [],
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Corlett, Stavnichuk & Komarova article",
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S2214552420300444"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Corlett, Stavnichuk & Komarova article",
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S2214552420300444"
+  }
+ ],
+ "tables": [
+  {
+   "file": "astronauts.csv",
+   "bytes": 219060,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-07-14/astronauts.csv",
+   "columns": [
+    "id",
+    "number",
+    "nationwide_number",
+    "original_name",
+    "sex",
+    "year_of_birth",
+    "nationality",
+    "military_civilian",
+    "selection",
+    "year_of_selection",
+    "mission_number",
+    "total_number_of_missions",
+    "occupation",
+    "year_of_mission",
+    "mission_title",
+    "ascend_shuttle",
+    "in_orbit",
+    "descend_shuttle",
+    "hours_mission",
+    "total_hrs_sum",
+    "field21",
+    "eva_hrs_mission",
+    "total_eva_hrs"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-07-14",
+   "year": 2020,
+   "week": 29,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-07-14"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Antonio, Almeida, and Nunes, 2019",
+  "host": "sciencedirect.com"
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "id": "tt-2020-02-04",
+ "title": "NFL Attendance",
+ "hook": "The data this week comes from Pro Football Reference team standings. Additional data on attendance also comes from Pro Football Reference here. attendance <- readr::readcsv(' standings <- readr::readcsv(' games <- readr::readcsv(' tuesdata <- tidytuesdayR::ttload('2020-02-04') tuesdata <- tidytuesdayR::ttload(2020, week = 6) attendance <- tuesdata$attendance These can be joined relatively nicely with dplyr::leftjoin(by = c(\"year\", \"teamname\", \"team\"))",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Pro Football Reference",
+   "url": "https://www.pro-football-reference.com/years/2002/index.htm"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Casino.org",
+   "url": "https://www.casino.org/record-and-attendance/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "attendance.csv",
+   "bytes": 570885,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-02-04/attendance.csv",
+   "columns": [
+    "team",
+    "team_name",
+    "year",
+    "total",
+    "home",
+    "away",
+    "week",
+    "weekly_attendance"
+   ]
+  },
+  {
+   "file": "standings.csv",
+   "bytes": 54069,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-02-04/standings.csv",
+   "columns": [
+    "team",
+    "team_name",
+    "year",
+    "wins",
+    "loss",
+    "points_for",
+    "points_against",
+    "points_differential",
+    "margin_of_victory",
+    "strength_of_schedule",
+    "simple_rating",
+    "offensive_ranking",
+    "defensive_ranking",
+    "playoffs",
+    "sb_winner"
+   ]
+  },
+  {
+   "file": "games.csv",
+   "bytes": 738317,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-02-04/games.csv",
+   "columns": [
+    "year",
+    "week",
+    "home_team",
+    "away_team",
+    "winner",
+    "tie",
+    "day",
+    "date",
+    "time",
+    "pts_win",
+    "pts_loss",
+    "yds_win",
+    "turnovers_win",
+    "yds_loss",
+    "turnovers_loss",
+    "home_team_name",
+    "home_team_city",
+    "away_team_name",
+    "away_team_city"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-02-04",
+   "year": 2020,
+   "week": 6,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-02-04"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Pro Football Reference",
+  "host": "pro-football-reference.com"
+ }
+}

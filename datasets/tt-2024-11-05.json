@@ -1,0 +1,93 @@
+{
+ "id": "tt-2024-11-05",
+ "title": "Democracy and Dictatorship",
+ "hook": "It's Election Day in the United States. If you are able to do so, vote! To celebrate, we're looking at a dataset about Democracy and Dictatorship. This dataset updates pacl with more countries and coverage from 1950 to 2020, as described in C. Bjørnskov and M. Rode. \"Regime types and regime change: A new dataset on < democracy, coups, and political institutions\". In: The Review of International Organizations 15.2 (2020), pp. 531-551. DOI: 10.1007/s11558-019-09345-1. The full data and codebook can be downloaded here.",
+ "questions": [
+  "How many countries switched from democracies to non-democracies? Did any of them keep their democratically elected leader after the switch?",
+  "Which of those countries switched back to democracies? How long did it take?"
+ ],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "r package",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "democracyData R Package",
+   "url": "https://xmarquez.github.io/democracyData/index.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Regime types and regime change: A new dataset on democracy, coups, and political institutions",
+   "url": "https://link.springer.com/article/10.1007/s11558-019-09345-1"
+  }
+ ],
+ "tables": [
+  {
+   "file": "democracy_data.csv",
+   "bytes": 3717565,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-11-05/democracy_data.csv",
+   "columns": [
+    "country_name",
+    "country_code",
+    "year",
+    "regime_category_index",
+    "regime_category",
+    "is_monarchy",
+    "is_commonwealth",
+    "monarch_name",
+    "monarch_accession_year",
+    "monarch_birthyear",
+    "is_female_monarch",
+    "is_democracy",
+    "is_presidential",
+    "president_name",
+    "president_accesion_year",
+    "president_birthyear",
+    "is_interim_phase",
+    "is_female_president",
+    "is_colony",
+    "colony_of",
+    "colony_administrated_by",
+    "is_communist",
+    "has_regime_change_lag",
+    "spatial_democracy",
+    "parliament_chambers",
+    "has_proportional_voting",
+    "election_system",
+    "lower_house_members",
+    "upper_house_members",
+    "third_house_members",
+    "has_new_constitution",
+    "has_full_suffrage",
+    "suffrage_restriction",
+    "electoral_category_index",
+    "electoral_category",
+    "spatial_electoral",
+    "has_alternation",
+    "is_multiparty",
+    "has_free_and_fair_election",
+    "parliamentary_election_year",
+    "election_month",
+    "election_year",
+    "has_postponed_election"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-11-05",
+   "year": 2024,
+   "week": 45,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-11-05"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "democracyData",
+  "host": "xmarquez.github.io"
+ }
+}

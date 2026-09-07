@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://tnriley.github.io/headwaters/schema/dataset.schema.json",
+  "title": "Headwaters dataset record",
+  "description": "One published dataset: what it is, what is in it, where it came from, and where it was surfaced. Deliberately lighter than a source record - no probes, no rate limits. A dataset is a thing you might want to work with; a source is a thing you query.",
+  "type": "object",
+  "required": ["id", "title", "found_in", "added"],
+  "additionalProperties": false,
+  "properties": {
+    "id":    { "type": "string", "pattern": "^[a-z]+-[a-z0-9-]+$" },
+    "title": { "type": "string", "minLength": 2 },
+    "hook":  { "type": "string", "description": "The curator's own pitch, kept in their words. This is what makes someone want to use it." },
+    "questions": { "type": "array", "items": { "type": "string" }, "description": "Questions the curator suggested asking of it" },
+    "subjects":      { "type": "array", "items": { "type": "string" }, "description": "From the controlled list in src/classify.py" },
+    "provider":      { "type": ["object", "null"], "additionalProperties": false,
+                       "properties": { "name": { "type": "string" }, "host": { "type": "string" } } },
+    "provider_type": { "type": "string" },
+    "geography":     { "type": "string" },
+    "sources":  { "type": "array", "items": { "type": "object", "additionalProperties": false,
+                  "properties": { "name": { "type": "string" }, "url": { "type": "string" } } },
+                  "description": "Where the data actually came from, upstream of whoever surfaced it" },
+    "articles": { "type": "array", "items": { "type": "object", "additionalProperties": false,
+                  "properties": { "name": { "type": "string" }, "url": { "type": "string" } } },
+                  "description": "The piece of writing that prompted or accompanied it" },
+    "tables": {
+      "type": "array",
+      "description": "The files that make up the dataset. Column names only - not types, not descriptions.",
+      "items": { "type": "object", "required": ["file"], "additionalProperties": false,
+        "properties": {
+          "file":    { "type": "string" },
+          "bytes":   { "type": ["integer", "null"] },
+          "url":     { "type": "string" },
+          "columns": { "type": "array", "items": { "type": "string" } }
+        } }
+    },
+    "extra_files": { "type": "integer", "description": "Files in the folder beyond the tables listed - scripts, images, raw originals" },
+    "found_in": {
+      "type": "array", "minItems": 1,
+      "description": "Which aggregation surfaced it, and when. A dataset can appear in more than one.",
+      "items": { "type": "object", "required": ["aggregation"], "additionalProperties": false,
+        "properties": {
+          "aggregation": { "type": "string" },
+          "date": { "type": "string" }, "year": { "type": "integer" },
+          "week": { "type": ["integer", "null"] }, "url": { "type": "string" }
+        } }
+    },
+    "notes": { "type": "string" },
+    "added": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+  }
+}

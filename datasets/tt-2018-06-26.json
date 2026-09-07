@@ -1,0 +1,47 @@
+{
+ "id": "tt-2018-06-26",
+ "title": "Alcohol Consumption",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "food & drink",
+  "society & demographics"
+ ],
+ "provider_type": "journalism",
+ "geography": "",
+ "sources": [
+  {
+   "name": "FiveThirtyEight package",
+   "url": "https://github.com/rudeboybert/fivethirtyeight"
+  }
+ ],
+ "articles": [
+  {
+   "name": "FiveThirtyEight.com",
+   "url": "https://fivethirtyeight.com/features/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "week13_alcohol_global.csv",
+   "bytes": 4384,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-06-26/week13_alcohol_global.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-06-26",
+   "year": 2018,
+   "week": 13,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-06-26"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FiveThirtyEight",
+  "host": "fivethirtyeight"
+ }
+}

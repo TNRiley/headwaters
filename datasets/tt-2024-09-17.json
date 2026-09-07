@@ -1,0 +1,76 @@
+{
+ "id": "tt-2024-09-17",
+ "title": "Shakespeare Dialogue",
+ "hook": "This week we're exploring dialogue in Shakespeare plays. The dataset this week comes from shakespeare.mit.edu (via github.com/nrennie/shakespeare) which is the Web's first edition of the Complete Works of William Shakespeare. The site has offered Shakespeare's plays and poetry to the internet community since 1993. Dialogue from Hamlet, Macbeth, and Romeo and Juliet are provided for this week. Which play has the most stage directions compared to dialogue? Which play has the longest lines of dialogue? Which character speaks the most?",
+ "questions": [],
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "The Complete Works of William Shakespeare",
+   "url": "https://shakespeare.mit.edu/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "shakespeare",
+   "url": "https://github.com/nrennie/shakespeare"
+  }
+ ],
+ "tables": [
+  {
+   "file": "hamlet.csv",
+   "bytes": 296027,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-09-17/hamlet.csv",
+   "columns": [
+    "act",
+    "scene",
+    "character",
+    "dialogue",
+    "line_number"
+   ]
+  },
+  {
+   "file": "macbeth.csv",
+   "bytes": 171423,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-09-17/macbeth.csv",
+   "columns": [
+    "act",
+    "scene",
+    "character",
+    "dialogue",
+    "line_number"
+   ]
+  },
+  {
+   "file": "romeo_juliet.csv",
+   "bytes": 230027,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-09-17/romeo_juliet.csv",
+   "columns": [
+    "act",
+    "scene",
+    "character",
+    "dialogue",
+    "line_number"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-09-17",
+   "year": 2024,
+   "week": 38,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-09-17"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The Complete Works of William Shakespeare",
+  "host": "shakespeare.mit.edu"
+ }
+}

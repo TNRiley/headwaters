@@ -1,0 +1,53 @@
+{
+ "id": "tt-2019-08-27",
+ "title": "Simpsons Guest Stars",
+ "hook": "This week's data is from Wikipedia), by way of Andrew Collier. simpsons <- readr::readdelim(\" delim = \"|\", quote = \"\")",
+ "questions": [],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "url": "https://github.com/data-is-plural/nuclear-explosions/blob/master/documents/sipri-report-original.pdf"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/List_of_The_Simpsons_guest_stars"
+  }
+ ],
+ "tables": [
+  {
+   "file": "simpsons-guests.csv",
+   "bytes": 96716,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-08-27/simpsons-guests.csv",
+   "columns": [
+    "season",
+    "number",
+    "production_code",
+    "episode_title",
+    "guest_star",
+    "role"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-08-27",
+   "year": 2019,
+   "week": 35,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-08-27"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Wikipedia",
+  "host": "wikipedia"
+ }
+}

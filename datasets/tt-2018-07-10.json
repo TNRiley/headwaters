@@ -1,0 +1,47 @@
+{
+ "id": "tt-2018-07-10",
+ "title": "Craft Beer USA",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "art & culture",
+  "food & drink"
+ ],
+ "provider_type": "platform",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "data.world",
+   "url": "https://data.world/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "thrillist.com",
+   "url": "https://www.thrillist.com/news/nation/most-craft-breweries-by-state-united-states"
+  }
+ ],
+ "tables": [
+  {
+   "file": "week15_beers.xlsx",
+   "bytes": 163572,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-07-10/week15_beers.xlsx",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-07-10",
+   "year": 2018,
+   "week": 15,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-07-10"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Data.World",
+  "host": "data.world"
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "id": "tt-2023-10-31",
+ "title": "Horror Legends",
+ "hook": "Happy Halloween! To celebrate, this week we're exploring horror legends from Snopes.com! Since urban legends are often a means of expressing our fears about the dangers that ripple just beneath the surface of our seemingly calm and untroubled world, it should come as no surprise that horror legends are one of urban folklore's richest veins. We worry about the terrible accidents we're powerless to prevent, and we fear anonymous killers who choose victims at random. We cannot protect ourselves from the venomous animals who slither undetected into the places where we work, play, and shop, nor can we stop the onslaught of insects who invade our homes and our bodies. We're repulsed by the contaminants that may lurk in our food. We're afraid of foreigners and foreign places. We fear for our childrens' safety in a world full of drugs, kidnappers, and poisons.",
+ "questions": [],
+ "subjects": [
+  "oddities & curiosities"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Snopes Horrors Section",
+   "url": "https://www.snopes.com/fact-check/category/horrors"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Snopes Horrors Section",
+   "url": "https://www.snopes.com/fact-check/category/horrors"
+  }
+ ],
+ "tables": [
+  {
+   "file": "horror_articles.csv",
+   "bytes": 78844,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-10-31/horror_articles.csv",
+   "columns": [
+    "title",
+    "url",
+    "rating",
+    "subtitle",
+    "author",
+    "published",
+    "claim"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-10-31",
+   "year": 2023,
+   "week": 44,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-10-31"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Snopes Horrors Section",
+  "host": "snopes.com"
+ }
+}

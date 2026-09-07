@@ -1,0 +1,71 @@
+{
+ "id": "tt-2020-04-21",
+ "title": "GDPR Violations",
+ "hook": "h/t to Bob Rudis for sharing the data source, and to Roel Hogervorst for the guide to scraping this data. He provided the bulk of the scraping code, and I added bit of additional data cleaning. The data this week comes from Privacy Affairs. I have also included all the raw text (gdprtext.tsv) for the actual GDPR legal documents, in case someone was interested in parsing through them or using them along with the violations. The General Data Protection Regulation (EU) 2016/679 (GDPR) is a regulation in EU law on data protection and privacy in the European Union (EU) and the European Economic Area (EEA). It also addresses the transfer of personal data outside the EU and EEA areas.",
+ "questions": [],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "Privacy Affairs",
+   "url": "https://www.privacyaffairs.com/gdpr-fines/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Roel Hogervorst",
+   "url": "https://blog.rmhogervorst.nl/blog/2020/04/08/scraping-gdpr-fines/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "gdpr_violations.tsv",
+   "bytes": 150498,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-04-21/gdpr_violations.tsv",
+   "columns": [
+    "id",
+    "picture",
+    "price",
+    "authority",
+    "date",
+    "controller",
+    "article_violated",
+    "type",
+    "source",
+    "summary"
+   ]
+  },
+  {
+   "file": "gdpr_text.tsv",
+   "bytes": 227166,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-04-21/gdpr_text.tsv",
+   "columns": [
+    "chapter",
+    "chapter_title",
+    "article",
+    "article_title",
+    "sub_article",
+    "gdpr_text",
+    "href"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-04-21",
+   "year": 2020,
+   "week": 17,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-04-21"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Privacy Affairs",
+  "host": "privacyaffairs.com"
+ }
+}

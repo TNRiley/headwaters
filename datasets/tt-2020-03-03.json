@@ -1,0 +1,118 @@
+{
+ "id": "tt-2020-03-03",
+ "title": "NHL Goals",
+ "hook": "The data this week comes from HockeyReference.com. We have overall career goals (top250.csv), season level goals (seasongoals.csv), game level goals (gamegoals.csv). If you'd like to go beyond season or game-level data, check out MoneyPuck.com for shot-level data or additional game/season level data from 2007-current. This week's data visualization and article come from the Washington Post. They examined Alex Ovechkin's career as he broke the 700 career goals mark. \"Alexendar the Great\" is already top 8 in goals all-time, and is only 34 years old. If he can keep his pace for a few more years, he has a shot at becoming the overall record holder for most goals in a career, potentially breaking Wayne Gretzky's long-standing career goals record of 894.",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "HockeyReference.com",
+   "url": "https://www.hockey-reference.com/leaders/goals_career.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Washington Post",
+   "url": "https://www.washingtonpost.com/graphics/2020/sports/capitals/ovechkin-700-goals/?utm_campaign=wp_graphics&utm_medium=social&utm_source=twitter"
+  }
+ ],
+ "tables": [
+  {
+   "file": "game_goals.csv",
+   "bytes": 4500351,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-03/game_goals.csv",
+   "columns": [
+    "player",
+    "season",
+    "rank",
+    "date",
+    "game_num",
+    "age",
+    "team",
+    "at",
+    "opp",
+    "location",
+    "outcome",
+    "goals",
+    "assists",
+    "points",
+    "plus_minus",
+    "penalty_min",
+    "goals_even",
+    "goals_powerplay",
+    "goals_short",
+    "goals_gamewinner",
+    "assists_even",
+    "assists_powerplay",
+    "assists_short",
+    "shots",
+    "shot_percent"
+   ]
+  },
+  {
+   "file": "top_250.csv",
+   "bytes": 32452,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-03/top_250.csv",
+   "columns": [
+    "raw_rank",
+    "player",
+    "years",
+    "total_goals",
+    "url_number",
+    "raw_link",
+    "link",
+    "active",
+    "yr_start"
+   ]
+  },
+  {
+   "file": "season_goals.csv",
+   "bytes": 721270,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-03/season_goals.csv",
+   "columns": [
+    "rank",
+    "position",
+    "hand",
+    "player",
+    "years",
+    "total_goals",
+    "status",
+    "yr_start",
+    "season",
+    "age",
+    "team",
+    "league",
+    "season_games",
+    "goals",
+    "assists",
+    "points",
+    "plus_minus",
+    "penalty_min",
+    "goals_even",
+    "goals_power_play",
+    "goals_short_handed",
+    "goals_game_winner",
+    "headshot"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-03-03",
+   "year": 2020,
+   "week": 10,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-03-03"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "HockeyReference.com",
+  "host": "hockey-reference.com"
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "id": "tt-2018-12-04",
+ "title": "Medium Article Metadata",
+ "hook": "This week's dataset was submitted by Matthew Hendrickson, thanks! Also credit to Kanishka Misra who wanted to work with some text-based data via the tidytext package. Data was originally scraped by Harrison Jansma and submitted as a Kaggle dataset. The data-set originally consisted of 1.4 million stories from 95 of Medium's most popular story-tags. Every story was published between August 1st, 2017 and August 1st, 2018. For each story, Harrison collected all of the information present on a Medium story-card. Here is the full list of the information he was able to collect for each story: Title, Sub-Title, Author, Publication, Date, Tags, Read-Time, Claps-Received, Story-URL, and Author-URL.",
+ "questions": [],
+ "subjects": [
+  "technology & software",
+  "books & language"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Kaggle.com",
+   "url": "https://www.kaggle.com/harrisonjansma/medium-stories"
+  }
+ ],
+ "articles": [
+  {
+   "name": "TidyText package",
+   "url": "https://github.com/juliasilge/tidytext"
+  }
+ ],
+ "tables": [
+  {
+   "file": "medium_datasci.csv",
+   "bytes": 24283592,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-12-04/medium_datasci.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-12-04",
+   "year": 2018,
+   "week": 36,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-12-04"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Kaggle.com",
+  "host": "kaggle.com"
+ }
+}

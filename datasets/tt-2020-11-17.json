@@ -1,0 +1,55 @@
+{
+ "id": "tt-2020-11-17",
+ "title": "Black in Data",
+ "hook": "Amplifying Black folx in #informatics, #datascience, & #coding around the world Follow along via the #BlackInDataWeek hashtag. A week-long celebration #BlackInDataWeek to: To sign up for events, click here! To learn more about #BlackInDataWeek, please see their website. The #TidyTuesday community will be taking a break from our own data this week and asking you to engage with, promote, and support Black people in data. You're welcome to revisit older datasets from #TidyTuesday this week, but especially on Thursday Nov 19th, please create space and engage with the #BlackInDataViz hashtag on Twitter rather than promoting your own work. From the #BlackInDataViz website: Creating space for Black people in data to share their work in the form of favourite data visualisation images. Also hosting a competition for data visualisation using a shared dataset, further reinforcing community.",
+ "questions": [
+  "(1) highlight the valuable work and experiences of Black people in the field of Data",
+  "(2) provide community",
+  "(3) educational and professional resources."
+ ],
+ "subjects": [
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "other",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Black in Data Week",
+   "url": "https://blkindata.github.io/bidweek2020/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "BlackInData `#DataViz`",
+   "url": "https://blkindata.github.io/project/blackindataviz/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "black_in_data.csv",
+   "bytes": 1382,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-11-17/black_in_data.csv",
+   "columns": [
+    "date",
+    "hashtag",
+    "purpose",
+    "link"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-11-17",
+   "year": 2020,
+   "week": 47,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-11-17"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Black in Data Week",
+  "host": "blkindata.github.io"
+ }
+}

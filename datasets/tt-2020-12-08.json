@@ -1,0 +1,52 @@
+{
+ "id": "tt-2020-12-08",
+ "title": "Women of 2020",
+ "hook": "The data this week comes from the BBC by way of Joshua Feldman. The BBC has revealed its list of 100 inspiring and influential women from around the world for 2020. This year 100 Women is highlighting those who are leading change and making a difference during these turbulent times. The list includes Sanna Marin, who leads Finland's all-female coalition government, Michelle Yeoh, star of the new Avatar and Marvel films and Sarah Gilbert, who heads the Oxford University research into a coronavirus vaccine, as well as Jane Fonda, a climate activist and actress. And in an extraordinary year - when countless women around the world have made sacrifices to help others - one name on the 100 Women list has been left blank as a tribute.",
+ "questions": [],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "journalism",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "BBC",
+   "url": "https://www.bbc.com/news/world-55042935"
+  }
+ ],
+ "articles": [
+  {
+   "name": "BBC",
+   "url": "https://www.bbc.com/news/world-55042935"
+  }
+ ],
+ "tables": [
+  {
+   "file": "women.csv",
+   "bytes": 38126,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-12-08/women.csv",
+   "columns": [
+    "img",
+    "category",
+    "country",
+    "role",
+    "description"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-12-08",
+   "year": 2020,
+   "week": 50,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-12-08"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "BBC",
+  "host": "bbc.com"
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "id": "tt-2022-04-12",
+ "title": "Indoor Air Pollution",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [
+  "Indoor air pollution is a leading risk factor for premature death.",
+  "4.1% of global deaths are attributed to indoor air pollution.",
+  "Death rates from air pollution are highest in low-income countries. There's a greater than 1000-fold difference between low- and high-income countries.",
+  "The world is making progress: global deaths from indoor air pollution have declined substantially since 1990.",
+  "Death rates from indoor air pollution have declined in almost every country in the world since 1990."
+ ],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "OurWorldInData.org",
+   "url": "https://ourworldindata.org/indoor-air-pollution"
+  }
+ ],
+ "articles": [
+  {
+   "name": "OurWorldInData.org",
+   "url": "https://ourworldindata.org/indoor-air-pollution"
+  }
+ ],
+ "tables": [
+  {
+   "file": "indoor_pollution.csv",
+   "bytes": 303728,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-04-12/indoor_pollution.csv",
+   "columns": [
+    "Entity",
+    "Code",
+    "Year...3",
+    "Deaths - Cause: All causes - Risk: Household air pollution from solid fuels - Sex: Both - Age: All Ages (Number)...4",
+    "Deaths - Cause: All causes - Risk: Household air pollution from solid fuels - Sex: Both - Age: All Ages (Number)...5",
+    "Year...6",
+    "Continent"
+   ]
+  }
+ ],
+ "extra_files": 5,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2022-04-12",
+   "year": 2022,
+   "week": 15,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-04-12"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Our World in Data",
+  "host": "ourworldindata.org"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "id": "tt-2023-12-19",
+ "title": "Holiday Episodes",
+ "hook": "Happy holidays! Last week we explored \"holiday\" movies. This week we're exploring \"holiday\" TV episodes: individual episodes of TV shows with \"holiday\", \"Christmas\", \"Hanukkah\", or \"Kwanzaa\" (or variants thereof) in their title! The data this week again comes from the Internet Movie Database. We don't have an article using exactly this dataset, but you might get inspiration from the TVTropes Holiday Episode article.",
+ "questions": [],
+ "subjects": [
+  "society & demographics",
+  "film & television"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "IMDb non-commercial datasets",
+   "url": "https://developer.imdb.com/non-commercial-datasets/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Holiday Episode TV Trope",
+   "url": "https://tvtropes.org/pmwiki/pmwiki.php/Main/HolidayEpisode"
+  }
+ ],
+ "tables": [
+  {
+   "file": "holiday_episodes.csv",
+   "bytes": 596962,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-19/holiday_episodes.csv",
+   "columns": [
+    "tconst",
+    "parent_tconst",
+    "season_number",
+    "episode_number",
+    "primary_title",
+    "original_title",
+    "year",
+    "runtime_minutes",
+    "genres",
+    "simple_title",
+    "average_rating",
+    "num_votes",
+    "parent_title_type",
+    "parent_primary_title",
+    "parent_original_title",
+    "parent_start_year",
+    "parent_end_year",
+    "parent_runtime_minutes",
+    "parent_genres",
+    "parent_simple_title",
+    "parent_average_rating",
+    "parent_num_votes",
+    "christmas",
+    "hanukkah",
+    "kwanzaa",
+    "holiday"
+   ]
+  },
+  {
+   "file": "holiday_episode_genres.csv",
+   "bytes": 85570,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-12-19/holiday_episode_genres.csv",
+   "columns": [
+    "tconst",
+    "genres"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-12-19",
+   "year": 2023,
+   "week": 51,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-12-19"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "IMDb non-commercial",
+  "host": "developer.imdb.com"
+ }
+}

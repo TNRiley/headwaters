@@ -1,0 +1,106 @@
+{
+ "id": "tt-2020-09-22",
+ "title": "Himalayan Climbers",
+ "hook": "The data this week comes from The Himalayan Database. The Himalayan Database is a compilation of records for all expeditions that have climbed in the Nepal Himalaya. The database is based on the expedition archives of Elizabeth Hawley, a longtime journalist based in Kathmandu, and it is supplemented by information gathered from books, alpine journals and correspondence with Himalayan climbers. The data cover all expeditions from 1905 through Spring 2019 to more than 465 significant peaks in Nepal. Also included are expeditions to both sides of border peaks such as Everest, Cho Oyu, Makalu and Kangchenjunga as well as to some smaller border peaks. Data on expeditions to trekking peaks are included for early attempts, first ascents and major accidents. h/t to Alex Cookson for sharing and cleaning this data! This blog post by Alex Cookson explores the data in greater detail.",
+ "questions": [],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "company",
+ "geography": "Asia",
+ "sources": [
+  {
+   "name": "The Himalayan Database",
+   "url": "https://www.himalayandatabase.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Alex Cookson blog post",
+   "url": "https://www.alexcookson.com/post/analyzing-himalayan-peaks-first-ascents/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "members.csv",
+   "bytes": 9342729,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-09-22/members.csv",
+   "columns": [
+    "expedition_id",
+    "member_id",
+    "peak_id",
+    "peak_name",
+    "year",
+    "season",
+    "sex",
+    "age",
+    "citizenship",
+    "expedition_role",
+    "hired",
+    "highpoint_metres",
+    "success",
+    "solo",
+    "oxygen_used",
+    "died",
+    "death_cause",
+    "death_height_metres",
+    "injured",
+    "injury_type",
+    "injury_height_metres"
+   ]
+  },
+  {
+   "file": "expeditions.csv",
+   "bytes": 1372293,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-09-22/expeditions.csv",
+   "columns": [
+    "expedition_id",
+    "peak_id",
+    "peak_name",
+    "year",
+    "season",
+    "basecamp_date",
+    "highpoint_date",
+    "termination_date",
+    "termination_reason",
+    "highpoint_metres",
+    "members",
+    "member_deaths",
+    "hired_staff",
+    "hired_staff_deaths",
+    "oxygen_used",
+    "trekking_agency"
+   ]
+  },
+  {
+   "file": "peaks.csv",
+   "bytes": 29251,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-09-22/peaks.csv",
+   "columns": [
+    "peak_id",
+    "peak_name",
+    "peak_alternative_name",
+    "height_metres",
+    "climbing_status",
+    "first_ascent_year",
+    "first_ascent_country",
+    "first_ascent_expedition_id"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-09-22",
+   "year": 2020,
+   "week": 39,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-09-22"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The Himalayan Database",
+  "host": "himalayandatabase.com"
+ }
+}

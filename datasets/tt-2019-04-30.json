@@ -1,0 +1,64 @@
+{
+ "id": "tt-2019-04-30",
+ "title": "Chicago Bird Collisions",
+ "hook": "Winger et al, 2019 examined nocturnal flight-calling behavior and vulnerability to artificial light in migratory birds. \"Understanding interactions between biota and the built environment is increasingly important as human modification of the landscape expands in extent and intensity. For migratory birds, collisions with lighted structures are a major cause of mortality, but the mechanisms behind these collisions are poorly understood. Using 40 years of collision records of passerine birds, we investigated the importance of species' behavioural ecologies in predicting rates of building collisions during nocturnal migration through Chicago, IL and Cleveland, OH, USA. \" \"One of the few means to examine species-specific dynamics of social biology during nocturnal bird migration is through the study of short vocalizations made in flight by migrating birds.",
+ "questions": [],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Winger et al, 2019",
+   "url": "https://datadryad.org/resource/doi:10.5061/dryad.8rr0498"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Winger et al, 2019",
+   "url": "https://royalsocietypublishing.org/doi/10.1098/rspb.2019.0364#d3e550"
+  }
+ ],
+ "tables": [
+  {
+   "file": "bird_collisions.csv",
+   "bytes": 4325316,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-30/bird_collisions.csv",
+   "columns": [
+    "genus",
+    "species",
+    "date",
+    "locality",
+    "family",
+    "flight_call",
+    "habitat",
+    "stratum"
+   ]
+  },
+  {
+   "file": "mp_light.csv",
+   "bytes": 41596,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-30/mp_light.csv",
+   "columns": [
+    "date",
+    "light_score"
+   ]
+  }
+ ],
+ "extra_files": 2,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-04-30",
+   "year": 2019,
+   "week": 18,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-04-30"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Winger et al, 2019",
+  "host": "datadryad.org"
+ }
+}

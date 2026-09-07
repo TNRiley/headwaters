@@ -1,0 +1,66 @@
+{
+ "id": "tt-2026-05-12",
+ "title": "Twinned Cities",
+ "hook": "This week we're exploring data about links between cities! Twinned towns (also known as sister cities) are a form of legal or social agreement between two geographically and politically distinct localities for the purpose of promoting cultural and commercial ties. This dataset looks at links specifically between cities, i.e. it does not include towns, villages or other geographic entities.. While there are early examples of international links between municipalities akin to what are now known as sister cities dating back to the 9th century, the modern concept was first established and adopted worldwide during World War II.",
+ "questions": [
+  "Is every country connected through a chain of twin city links?",
+  "Which city is the most connected?",
+  "Which countries are the most connected to each other?"
+ ],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "reference works",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Wikidata Query Service",
+   "url": "https://query.wikidata.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Twin Cities Explorer",
+   "url": "https://bothness.github.io/twin-cities/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "cities.csv",
+   "bytes": 334224,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-12/cities.csv",
+   "columns": [
+    "id",
+    "lng",
+    "lat",
+    "country",
+    "countrycd",
+    "continent"
+   ]
+  },
+  {
+   "file": "links.csv",
+   "bytes": 150001,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-05-12/links.csv",
+   "columns": [
+    "source",
+    "target"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-05-12",
+   "year": 2026,
+   "week": 19,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-05-12"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Wikidata Query Service",
+  "host": "query.wikidata.org"
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "id": "tt-2021-04-06",
+ "title": "Global deforestation",
+ "hook": "The data this week comes from Our World in Data. Hannah Ritchie and Max Roser (2021) - \"Forests and Deforestation\". Published online at OurWorldInData.org. Retrieved from: ' [Online Resource] Additional article from UCSD and about deforestation and its effects on climate change and disease. -Soybean production and use -Palm oil production Quotes below from the Our World in Data articles: The net change in forest cover measures any gains in forest cover – either through natural forest expansion or afforestation through tree-planting – minus deforestation. How much of the world's land surface today is covered by forest? In the visualization we see the breakdown of global land area. 10% of the world is covered by glaciers, and a further 19% is barren land – deserts, dry salt flats, beaches, sand dunes, and exposed rocks. This leaves what we call ‘habitable land'.",
+ "questions": [
+  "Deforestation",
+  "Share of forest area",
+  "Drivers of deforestation",
+  "Deforestation by commodity"
+ ],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Our World in Data",
+   "url": "https://ourworldindata.org/forests-and-deforestation"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Our World in Data",
+   "url": "https://ourworldindata.org/forests-and-deforestation"
+  }
+ ],
+ "tables": [
+  {
+   "file": "forest.csv",
+   "bytes": 12358,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-04-06/forest.csv",
+   "columns": [
+    "entity",
+    "code",
+    "year",
+    "net_forest_conversion"
+   ]
+  },
+  {
+   "file": "forest_area.csv",
+   "bytes": 305575,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-04-06/forest_area.csv",
+   "columns": [
+    "entity",
+    "code",
+    "year",
+    "forest_area"
+   ]
+  },
+  {
+   "file": "brazil_loss.csv",
+   "bytes": 1241,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-04-06/brazil_loss.csv",
+   "columns": [
+    "entity",
+    "code",
+    "year",
+    "commercial_crops",
+    "flooding_due_to_dams",
+    "natural_disturbances",
+    "pasture",
+    "selective_logging",
+    "fire",
+    "mining",
+    "other_infrastructure",
+    "roads",
+    "tree_plantations_including_palm",
+    "small_scale_clearing"
+   ]
+  },
+  {
+   "file": "soybean_use.csv",
+   "bytes": 312854,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-04-06/soybean_use.csv",
+   "columns": [
+    "entity",
+    "code",
+    "year",
+    "human_food",
+    "animal_feed",
+    "processed"
+   ]
+  },
+  {
+   "file": "vegetable_oil.csv",
+   "bytes": 4817024,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-04-06/vegetable_oil.csv",
+   "columns": [
+    "entity",
+    "code",
+    "year",
+    "crop_oil",
+    "production"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-04-06",
+   "year": 2021,
+   "week": 15,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-04-06"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Our World in Data",
+  "host": "ourworldindata.org"
+ }
+}

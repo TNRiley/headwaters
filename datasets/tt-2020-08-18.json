@@ -1,0 +1,105 @@
+{
+ "id": "tt-2020-08-18",
+ "title": "Extinct Plants",
+ "hook": "The data this week comes from the International Union for Conservation of Nature (IUCN) Red list of Threatened Species (Version 2020-1) and was scrapped and prepared by Florent Lavergne for his fantastic and unique infographic. Here is what Florent says about the rationale of this project: Just like animals, plants are going through an important biodiversity crisis. Many species from isolated areas are facing extinction due to human activities. Using distribution data from the International Union for Conservation of Nature (IUCN), I designed these network maps to inform on an important yet underrepresented topic. In total, 500 plant species are considered extinct as of 2020. 19.6% of those were endemic to Madagascar, 12.8% to Hawaiian islands.",
+ "questions": [
+  "You can find more details on threatened species, summary statistics, articles, and more on the different Red List categories on the IUCN main page.",
+  "This study published in Science in 2019 provides some general information about extinction risks of plants in general and some analyses and visualization about the African flora at risk.",
+  "The IUCN itself shared a blog post on the extinction risk of European endemic trees."
+ ],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "IUCN Red List",
+   "url": "https://www.iucnredlist.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Florent Lavergne infographic",
+   "url": "https://www.behance.net/gallery/98304453/Infographic-Plants-in-Danger"
+  }
+ ],
+ "tables": [
+  {
+   "file": "plants.csv",
+   "bytes": 56475,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-08-18/plants.csv",
+   "columns": [
+    "binomial_name",
+    "country",
+    "continent",
+    "group",
+    "year_last_seen",
+    "threat_AA",
+    "threat_BRU",
+    "threat_RCD",
+    "threat_ISGD",
+    "threat_EPM",
+    "threat_CC",
+    "threat_HID",
+    "threat_P",
+    "threat_TS",
+    "threat_NSM",
+    "threat_GE",
+    "threat_NA",
+    "action_LWP",
+    "action_SM",
+    "action_LP",
+    "action_RM",
+    "action_EA",
+    "action_NA",
+    "red_list_category"
+   ]
+  },
+  {
+   "file": "actions.csv",
+   "bytes": 289398,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-08-18/actions.csv",
+   "columns": [
+    "binomial_name",
+    "country",
+    "continent",
+    "group",
+    "year_last_seen",
+    "red_list_category",
+    "action_type",
+    "action_taken"
+   ]
+  },
+  {
+   "file": "threats.csv",
+   "bytes": 589698,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-08-18/threats.csv",
+   "columns": [
+    "binomial_name",
+    "country",
+    "continent",
+    "group",
+    "year_last_seen",
+    "red_list_category",
+    "threat_type",
+    "threatened"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-08-18",
+   "year": 2020,
+   "week": 34,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-08-18"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "IUCN Red List",
+  "host": "iucnredlist.org"
+ }
+}

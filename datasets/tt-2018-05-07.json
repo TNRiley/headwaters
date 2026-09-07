@@ -1,0 +1,54 @@
+{
+ "id": "tt-2018-05-07",
+ "title": "Global Coffee Chains",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Starbucks: kaggle.com",
+   "url": "https://www.kaggle.com/starbucks/store-locations"
+  },
+  {
+   "name": "Tim Horton: timhortons.com",
+   "url": "https://locations.timhortons.com/"
+  },
+  {
+   "name": "Dunkin Donuts: odditysoftware.com",
+   "url": "http://www.odditysoftware.com/download/download.php?filename=dunkin-donuts.zip"
+  }
+ ],
+ "articles": [
+  {
+   "name": "flowingdata.com",
+   "url": "http://flowingdata.com/2014/03/18/coffee-place-geography/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "week6_coffee_chains.xlsx",
+   "bytes": 4059512,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-05-07/week6_coffee_chains.xlsx",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-05-07",
+   "year": 2018,
+   "week": 6,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-05-07"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Starbucks",
+  "host": "starbucks"
+ }
+}

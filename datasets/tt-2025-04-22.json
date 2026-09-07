@@ -1,0 +1,63 @@
+{
+ "id": "tt-2025-04-22",
+ "title": "Fatal Car Crashes on 4/20",
+ "hook": "Today we're exploring the (lack of) connection between fatal car crashes in the United States and the \"4/20 holiday\" (4:20pm to 11:59pm on April 20th)). Thank you to @Rmadillo for submitting this dataset 6 years ago!, including a bonus script to generate sample plots! [In January 2019], Harper and Palayew[1] published a study looking at whether a signal could be detected in fatal car crashes in the United States based on the \"4/20\" holiday, based on a previous study by Staples and Redelmeier[2] that suggested a strong link. Using more robust methods and a more comprehensive time window, Harper and Palayew could not find a signal for 4/20, but could for other holidays, such as July 4. This is a great example of how charts can mislead based on choices in analysis and plotting. [1]. Harper S, Palayew A \"The annual cannabis holiday and fatal traffic crashes.\" BMJ Injury Prevention.",
+ "questions": [
+  "Can you detect any correlations between fatal car crashes and particular days of the year?",
+  "What are the most dangerous days of the year for fatal car crashes in the United States?",
+  "What other factors might help analyze the data in more detail? You can use the cleaning script to download the full dataset."
+ ],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "420 (data-raw)",
+   "url": "https://osf.io/qnrg6/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Annual Cannabis Holiday and Fatal Traffic Crashes",
+   "url": "https://osf.io/preprints/osf/tzcsy_v1"
+  }
+ ],
+ "tables": [
+  {
+   "file": "daily_accidents.csv",
+   "bytes": 136394,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-22/daily_accidents.csv",
+   "columns": [
+    "date",
+    "fatalities_count"
+   ]
+  },
+  {
+   "file": "daily_accidents_420.csv",
+   "bytes": 191858,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-22/daily_accidents_420.csv",
+   "columns": [
+    "date",
+    "e420",
+    "fatalities_count"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-04-22",
+   "year": 2025,
+   "week": 16,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-04-22"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "420 (data-raw)",
+  "host": "420 (data-raw)"
+ }
+}

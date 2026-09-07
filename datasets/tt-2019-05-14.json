@@ -1,0 +1,83 @@
+{
+ "id": "tt-2019-05-14",
+ "title": "Nobel Prize Winners",
+ "hook": "\"The Nobel Prize is a set of annual international awards bestowed in several categories by Swedish and Norwegian institutions in recognition of academic, cultural, or scientific advances.\" - Wikipedia. This week's h/t goes to Georgios Karamanis for sharing the Nobel data links on GitHub! The data covers metadata for all of the Nobel prize winners. An additional dataset looks at all the publications from each winner. From the data aggregators for the publications dataset, \"We constructed the publication records for almost all Nobel laureates in physics, chemistry, and physiology or medicine from 1900 to 2016 (545 out of 590, 92.4%). We first collected information manually from Nobel Prize official websites, their university websites, and Wikipedia.",
+ "questions": [],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "Kaggle",
+   "url": "https://www.kaggle.com/nobelfoundation/nobel-laureates"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Economist",
+   "url": "https://www.economist.com/graphic-detail/2016/10/03/greying-of-the-nobel-laureates"
+  }
+ ],
+ "tables": [
+  {
+   "file": "nobel_winners.csv",
+   "bytes": 294027,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-05-14/nobel_winners.csv",
+   "columns": [
+    "prize_year",
+    "category",
+    "prize",
+    "motivation",
+    "prize_share",
+    "laureate_id",
+    "laureate_type",
+    "full_name",
+    "birth_date",
+    "birth_city",
+    "birth_country",
+    "gender",
+    "organization_name",
+    "organization_city",
+    "organization_country",
+    "death_date",
+    "death_city",
+    "death_country"
+   ]
+  },
+  {
+   "file": "nobel_winner_all_pubs.csv",
+   "bytes": 20036389,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-05-14/nobel_winner_all_pubs.csv",
+   "columns": [
+    "laureate_id",
+    "laureate_name",
+    "prize_year",
+    "title",
+    "pub_year",
+    "paper_id",
+    "doi",
+    "journal",
+    "affiliation",
+    "is_prize_winning_paper",
+    "category"
+   ]
+  }
+ ],
+ "extra_files": 5,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-05-14",
+   "year": 2019,
+   "week": 20,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-05-14"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Kaggle",
+  "host": "kaggle"
+ }
+}

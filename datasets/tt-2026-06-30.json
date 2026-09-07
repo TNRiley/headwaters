@@ -1,0 +1,61 @@
+{
+ "id": "tt-2026-06-30",
+ "title": "Wreck Inventory of Ireland",
+ "hook": "This week we are exploring Irish shipwreck data. The Wreck Inventory of Ireland Database (WIID) holds records of over 18,000 known and potential wreck sites in Irish waters, with data going back all the way to the 1300s. The Wreck Inventory of Ireland Database (WIID) holds records of over 18,000 known and potential wreck sites in the marine and inland waterways of Ireland. The WIID includes all known wrecks dating to pre-1946 but some later wrecks are also included. The database also includes records of aircraft wrecks where these have come to attention.",
+ "questions": [
+  "How many wrecks still have not been found?",
+  "Where are shipwrecks more likely to occur around Ireland?"
+ ],
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "Wreck Inventory of Ireland",
+   "url": "https://data.gov.ie/dataset/national-monuments-service-wreck-inventory-of-ireland"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Wreck Inventory of Ireland",
+   "url": "https://www.archaeology.ie/advice-and-support/locate-a-monument-or-wreck/wreck-viewer/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "wreck_inventory.csv",
+   "bytes": 3579278,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-30/wreck_inventory.csv",
+   "columns": [
+    "date",
+    "year",
+    "wreck_name",
+    "wreck_no",
+    "classification",
+    "description",
+    "descriptive_date",
+    "place_of_loss",
+    "latitude",
+    "longitude",
+    "source_of_co_ordinate"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-06-30",
+   "year": 2026,
+   "week": 26,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-06-30"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Wreck Inventory of Ireland",
+  "host": "gov.ie"
+ }
+}

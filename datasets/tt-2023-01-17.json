@@ -1,0 +1,61 @@
+{
+ "id": "tt-2023-01-17",
+ "title": "Art history data",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "other",
+ "geography": "",
+ "sources": [
+  {
+   "name": "arthistory data package",
+   "url": "https://saralemus7.github.io/arthistory/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Quantifying Art Historical Narratives",
+   "url": "https://github.com/hollandstam1/thesis/blob/main/_book/Quantifying-Art-Historical-Narratives.pdf"
+  }
+ ],
+ "tables": [
+  {
+   "file": "artists.csv",
+   "bytes": 369000,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-01-17/artists.csv",
+   "columns": [
+    "artist_name",
+    "edition_number",
+    "year",
+    "artist_nationality",
+    "artist_nationality_other",
+    "artist_gender",
+    "artist_race",
+    "artist_ethnicity",
+    "book",
+    "space_ratio_per_page_total",
+    "artist_unique_id",
+    "moma_count_to_year",
+    "whitney_count_to_year",
+    "artist_race_nwi"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-01-17",
+   "year": 2023,
+   "week": 3,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-01-17"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "arthistory data",
+  "host": "saralemus7.github.io"
+ }
+}

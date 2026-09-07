@@ -1,0 +1,68 @@
+{
+ "id": "tt-2024-05-07",
+ "title": "Rolling Stone Album Rankings",
+ "hook": "This week we're looking at album rankings from Rolling Stone. h/t Data is plural. A visual essay from The Pudding looks at what makes an album the greatest of all time, and shares the data they put together for the essay. A new visual essay from The Pudding compares Rolling Stone’s “500 Greatest Albums of All Time” lists from 2003, 2012, and 2020. A methodology note says the project began with a spreadsheet by Chris Eckert and eventually led the authors to develop a dataset of their own. Theirs lists every album in the rankings — its name, genre, release year, 2003/2012/2020 rank, the artist’s name, birth year, gender, and more — plus each year’s voters. [h/t Jason Kottke] What are the characteristics of artists and genres popular at different times?",
+ "questions": [],
+ "subjects": [
+  "music"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Rolling Stone 500",
+   "url": "https://docs.google.com/spreadsheets/d/1c_Tdnm7S1oo8R9UNtdCVIY7bYASmf_cvMynOJTpKuHA/edit#gid=0"
+  }
+ ],
+ "articles": [
+  {
+   "name": "What Makes an Album the Greatest of All Time",
+   "url": "https://pudding.cool/2024/03/greatest-music/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "rolling_stone.csv",
+   "bytes": 121634,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-05-07/rolling_stone.csv",
+   "columns": [
+    "sort_name",
+    "clean_name",
+    "album",
+    "rank_2003",
+    "rank_2012",
+    "rank_2020",
+    "differential",
+    "release_year",
+    "genre",
+    "type",
+    "weeks_on_billboard",
+    "peak_billboard_position",
+    "spotify_popularity",
+    "spotify_url",
+    "artist_member_count",
+    "artist_gender",
+    "artist_birth_year_sum",
+    "debut_album_release_year",
+    "ave_age_at_top_500",
+    "years_between",
+    "album_id"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-05-07",
+   "year": 2024,
+   "week": 19,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-05-07"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Rolling Stone 500",
+  "host": "rolling stone 500"
+ }
+}

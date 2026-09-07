@@ -1,0 +1,62 @@
+{
+ "id": "tt-2026-02-24",
+ "title": "Science Foundation Ireland Grants Commitments",
+ "hook": "This week we're exploring Irish STEM research and ancillary projects funded by Science Foundation Ireland (SFI) since its foundation in 2000 to its dissolution on 31st July 2024. The data comes from Ireland's Open Data Portal SFI was the national foundation in Ireland for investment in scientific and engineering research. Consequently, SFI invested in those academic researchers and research teams who were most likely to generate new knowledge, leading edge technologies and competitive enterprises in the fields of science, technology, engineering and maths (STEM).",
+ "questions": [
+  "Which Higher Education Institute received the most grant funding?",
+  "How much did Science Foundation Ireland invest into research each year?"
+ ],
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "Science Foundation Ireland Historical Grants Commitments",
+   "url": "https://data.gov.ie/dataset/science-foundation-ireland-grants-commitments"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Science Foundation Ireland Historical Grants Commitments",
+   "url": "https://data.gov.ie/dataset/science-foundation-ireland-grants-commitments"
+  }
+ ],
+ "tables": [
+  {
+   "file": "sfi_grants.csv",
+   "bytes": 1934366,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-02-24/sfi_grants.csv",
+   "columns": [
+    "start_date",
+    "end_date",
+    "proposal_id",
+    "programme_name",
+    "sub_programme",
+    "supplement",
+    "research_body",
+    "research_body_ror_id",
+    "funder_name",
+    "crossref_funder_registry_id",
+    "proposal_title",
+    "current_total_commitment"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-02-24",
+   "year": 2026,
+   "week": 8,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-02-24"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Wreck Inventory of Ireland",
+  "host": "gov.ie"
+ }
+}

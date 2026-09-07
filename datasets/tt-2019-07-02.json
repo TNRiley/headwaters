@@ -1,0 +1,55 @@
+{
+ "id": "tt-2019-07-02",
+ "title": "Media Franchise Revenues",
+ "hook": "This data comes from Wikipedia and includes franchises that have grossed at least $4 billion usd. How do different media franchises stack up with their revenue streams? I took a stab at cleaning up the data in R directly from the source - I made some opinionated decisions about how to group categories (there were > 60 distinct categories), if you'd like a deeper dive on data cleaning try working with the data purely from the source. I have included my script in this repo so you can take a peek at how we got here. A popular reddit/dataisbeautiful post examined this data with ggplot2. mediafranchises <- readr::readcsv(\"",
+ "questions": [],
+ "subjects": [
+  "film & television",
+  "economy & work"
+ ],
+ "provider_type": "reference works",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises"
+  }
+ ],
+ "articles": [
+  {
+   "name": "reddit/dataisbeautiful post",
+   "url": "https://www.reddit.com/r/dataisbeautiful/comments/c53540/highest_grossing_media_franchises_oc/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "media_franchises.csv",
+   "bytes": 36286,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-07-02/media_franchises.csv",
+   "columns": [
+    "franchise",
+    "revenue_category",
+    "revenue",
+    "year_created",
+    "original_media",
+    "creators",
+    "owners"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-07-02",
+   "year": 2019,
+   "week": 27,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-07-02"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Wikipedia",
+  "host": "wikipedia"
+ }
+}

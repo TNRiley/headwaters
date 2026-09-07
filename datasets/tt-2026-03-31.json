@@ -1,0 +1,67 @@
+{
+ "id": "tt-2026-03-31",
+ "title": "Coastal Ocean Temperature by Depth",
+ "hook": "This week we're exploring over 7 years of daily coastal ocean temperatures at 7 depths from a location in Nova Scotia, Canada. The data was collected through the Centre for Marine Applied Research's Coastal Monitoring Program. This and related data sets can be downloaded from the Nova Scotia Open Data Portal. The Province of Nova Scotia recognizes the importance of coastal waters, which are critical to the prosperity and sustainability of rural and coastal communities. To bridge the gap between science and decision making, the Nova Scotia Department of Fisheries and Aquaculture (NSDFA) partners with the Centre for Marine Applied Research (CMAR) to measure the environmental conditions of Nova Scotia’s coastal waters. Have fun exploring this ocean data set (and be wary of days with no data)! Here are a few questions to get you started:",
+ "questions": [
+  "How are temperatures changing over time? Is the change more pronounced at a different time of year or a specific depth?",
+  "How does temperature change with depth? Does the relationship change over time?"
+ ],
+ "subjects": [
+  "environment & climate"
+ ],
+ "provider_type": "other",
+ "geography": "Canada",
+ "sources": [
+  {
+   "name": "Lunenburg County Water Quality Data",
+   "url": "https://data.novascotia.ca/Nature-and-Environment/Lunenburg-County-Water-Quality-Data/eda5-aubu/about_data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Understanding Complex Data: Coastal Monitoring",
+   "url": "https://data.novascotia.ca/stories/s/a25g-piws"
+  }
+ ],
+ "tables": [
+  {
+   "file": "ocean_temperature.csv",
+   "bytes": 1004292,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-03-31/ocean_temperature.csv",
+   "columns": [
+    "date",
+    "sensor_depth_at_low_tide_m",
+    "mean_temperature_degree_c",
+    "sd_temperature_degree_c",
+    "n_obs"
+   ]
+  },
+  {
+   "file": "ocean_temperature_deployments.csv",
+   "bytes": 791,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-03-31/ocean_temperature_deployments.csv",
+   "columns": [
+    "deployment_id",
+    "start_date",
+    "end_date",
+    "latitude",
+    "longitude"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-03-31",
+   "year": 2026,
+   "week": 13,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-03-31"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Lunenburg County Water Quality Data",
+  "host": "novascotia.ca"
+ }
+}

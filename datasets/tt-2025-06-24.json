@@ -1,0 +1,93 @@
+{
+ "id": "tt-2025-06-24",
+ "title": "Measles cases across the world",
+ "hook": "This week we are exploring measles and rubella cases across the world. This data was downloaded from the World Health Organisation Provisional monthly measles and rubella data on 2025-06-12. Please note that all data contained within is provisional. The number of cases of measles and rubella officially reported by a WHO Member State is only available by July of each year (through the joint WHO UNICEF annual data collection exercise). If any numbers from this provisional data are quoted, they should be properly sourced with a date (i.e. \"provisional data based on monthly data reported to WHO (Geneva) as of June 2025\"). For official data from 1980, please visit our website: The measles outbreak in the USA has been the subject of much media coverage in the past few months, however, measles continues to be a threat across the world",
+ "questions": [
+  "How have global measles cases changed over time?",
+  "Which regions or countries consistently report the highest measles burden?",
+  "Are there seasonal patterns in measles outbreaks across different regions?",
+  "Does the ratio of laboratory-confirmed cases to total cases reveal differences in healthcare capacity across countries?"
+ ],
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "World Health Organisation Provisional monthly measles and rubella data",
+   "url": "https://immunizationdata.who.int/global?topic=Provisional-measles-and-rubella-data&location="
+  }
+ ],
+ "articles": [
+  {
+   "name": "Measles cases reach 1,046 in US as infections confirmed in 30 states: CDC",
+   "url": "https://abcnews.go.com/Health/measles-cases-reach-1046-us-infections-confirmed-30/story?id=122108194"
+  }
+ ],
+ "tables": [
+  {
+   "file": "cases_month.csv",
+   "bytes": 1183966,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_month.csv",
+   "columns": [
+    "region",
+    "country",
+    "iso3",
+    "year",
+    "month",
+    "measles_suspect",
+    "measles_clinical",
+    "measles_epi_linked",
+    "measles_lab_confirmed",
+    "measles_total",
+    "rubella_clinical",
+    "rubella_epi_linked",
+    "rubella_lab_confirmed",
+    "rubella_total",
+    "discarded"
+   ]
+  },
+  {
+   "file": "cases_year.csv",
+   "bytes": 193394,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-06-24/cases_year.csv",
+   "columns": [
+    "region",
+    "country",
+    "iso3",
+    "year",
+    "total_population",
+    "annualized_population_most_recent_year_only",
+    "total_suspected_measles_rubella_cases",
+    "measles_total",
+    "measles_lab_confirmed",
+    "measles_epi_linked",
+    "measles_clinical",
+    "measles_incidence_rate_per_1000000_total_population",
+    "rubella_total",
+    "rubella_lab_confirmed",
+    "rubella_epi_linked",
+    "rubella_clinical",
+    "rubella_incidence_rate_per_1000000_total_population",
+    "discarded_cases",
+    "discarded_non_measles_rubella_cases_per_100000_total_population"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-06-24",
+   "year": 2025,
+   "week": 25,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-06-24"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "World Health Organisation Provisional monthly measles and ru",
+  "host": "immunizationdata.who.int"
+ }
+}

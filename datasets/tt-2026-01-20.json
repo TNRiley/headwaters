@@ -1,0 +1,57 @@
+{
+ "id": "tt-2026-01-20",
+ "title": "Astronomy Picture of the Day (APOD) Archive",
+ "hook": "This week we're exploring the Astronomy Picture of the Day (APOD) archive. APOD is a popular NASA website featuring daily astronomy related images with a scientific explanation. Each day a different image or photograph of our universe is featured, along with a brief explanation. This APOD archive contains image information from the 2007 - 2025, pulled together into the {astropic} R package.",
+ "questions": [
+  "What types of objects are most common in the archive?",
+  "Are any images posted more than once?"
+ ],
+ "subjects": [
+  "space & astronomy"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "NASA API",
+   "url": "https://api.nasa.gov/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Astronomy Picture of the Day",
+   "url": "https://apod.nasa.gov/apod/astropix.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "apod.csv",
+   "bytes": 7514105,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-01-20/apod.csv",
+   "columns": [
+    "copyright",
+    "date",
+    "explanation",
+    "media_type",
+    "title",
+    "url",
+    "hdurl"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-01-20",
+   "year": 2026,
+   "week": 3,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-01-20"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "NASA",
+  "host": "nasa.gov"
+ }
+}

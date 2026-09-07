@@ -1,0 +1,163 @@
+{
+ "id": "tt-2020-06-30",
+ "title": "Claremont Run of X-Men",
+ "hook": "The data this week comes from the Claremont Run Project and Malcom Barret who put these datasets into a R data package. The Claremont Run project has a nice Foreward capturing some of the reasoning behind this dataset. \"The Claremont Run is a SSHRC-funded academic initiative micro-publishing data-based analysis of Chris Claremont's 16 year run on Uncanny X-Men #97-278.\" From 1975-1991, Chris Claremont wrote X-men, forming the longest stint of any mainstream superhero writer on a single title. During his tenure, X-men went from a B-list title on the verge of cancellation, to the best-selling comic book in the world, and Claremont holds the Guinness World Record to this day for the bestselling single issue comic of all-time. Claremont's work is too culturally important to lose touch with.",
+ "questions": [
+  "remotes::installgithub(\"malcolmbarrett/claremontrun\")",
+  "charactervisualization, counts of character speech, thought, narrative, or visual depictions",
+  "characters, descriptions of character actions",
+  "comicbechdel, whether or not an issue of another (non-X-Men) comic series met the Bechdel test",
+  "covers, data on covers of issues of Uncanny X-Men"
+ ],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "company",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Claremont Run",
+   "url": "http://www.claremontrun.com/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Wikipedia - Uncanny X-Men",
+   "url": "https://en.wikipedia.org/wiki/Uncanny_X-Men"
+  }
+ ],
+ "tables": [
+  {
+   "file": "comic_bechdel.csv",
+   "bytes": 30796,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-30/comic_bechdel.csv",
+   "columns": [
+    "series",
+    "issue",
+    "title",
+    "writer",
+    "artist",
+    "cover_artist",
+    "pass_bechdel",
+    "page_number",
+    "notes"
+   ]
+  },
+  {
+   "file": "character_visualization.csv",
+   "bytes": 482803,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-30/character_visualization.csv",
+   "columns": [
+    "issue",
+    "costume",
+    "character",
+    "speech",
+    "thought",
+    "narrative",
+    "depicted"
+   ]
+  },
+  {
+   "file": "characters.csv",
+   "bytes": 484764,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-30/characters.csv",
+   "columns": [
+    "issue",
+    "character",
+    "rendered_unconcious",
+    "captured",
+    "declared_dead",
+    "redressed",
+    "depowered",
+    "clothing_torn",
+    "subject_to_torture",
+    "quits_team",
+    "surrenders",
+    "number_of_kills_humans",
+    "number_of_kills_non_humans",
+    "initiates_physical_conflict",
+    "expresses_reluctance_to_fight",
+    "on_a_date_with_which_character",
+    "kiss_with_which_character",
+    "hand_holding_with_which_character",
+    "dancing_with_which_character",
+    "flying_with_another_character",
+    "arm_in_arm_with_which_character",
+    "hugging_with_which_character",
+    "physical_contact_other",
+    "carrying_with_which_character",
+    "shared_bed_with_which_character",
+    "shared_room_domestically_with_which_character",
+    "explicitly_states_i_love_you_to_whom",
+    "shared_undress",
+    "shower_number_of_panels_shower_lasts",
+    "bath_number_of_panels_bath_lasts",
+    "depicted_eating_food",
+    "visible_tears_number_of_panels",
+    "visible_tears_number_of_intances",
+    "special_notes"
+   ]
+  },
+  {
+   "file": "xmen_bechdel.csv",
+   "bytes": 9027,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-30/xmen_bechdel.csv",
+   "columns": [
+    "issue",
+    "pass_bechdel",
+    "notes",
+    "reprint"
+   ]
+  },
+  {
+   "file": "covers.csv",
+   "bytes": 20577,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-30/covers.csv",
+   "columns": [
+    "issue",
+    "cover_artist",
+    "narrative_captions",
+    "characters_visualized",
+    "characters_speaking",
+    "dialog_text"
+   ]
+  },
+  {
+   "file": "issue_collaborators.csv",
+   "bytes": 7463,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-30/issue_collaborators.csv",
+   "columns": [
+    "issue",
+    "editor_in_chief",
+    "editor",
+    "penciller"
+   ]
+  },
+  {
+   "file": "locations.csv",
+   "bytes": 64849,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-30/locations.csv",
+   "columns": [
+    "issue",
+    "location",
+    "context",
+    "notes"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-06-30",
+   "year": 2020,
+   "week": 27,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-06-30"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Claremont Run",
+  "host": "claremontrun.com"
+ }
+}

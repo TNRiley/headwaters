@@ -1,0 +1,77 @@
+{
+ "id": "tt-2021-03-23",
+ "title": "UN Votes",
+ "hook": "The data this week comes from Harvard's Dataverse by way of Mine Çetinkaya-Rundel, David Robinson, and Nicholas Goguen-Compagnoni. Original Data citation: Citation: Erik Voeten \"Data and Analyses of Voting in the UN General Assembly\" Routledge Handbook of International Organization, edited by Bob Reinalda (published May 27, 2013). Available at SSRN: The {unvotes} R package is on CRAN! Github link This is a wrapper around the datasets, although I've included them as CSVs in the TidyTuesday repo. Mine Çetinkaya-Rundel wrote about the process of updating the package on the Citizen Statistician blog. tuesdata <- tidytuesdayR::ttload('2021-03-23') tuesdata <- tidytuesdayR::ttload(2021, week = 13) unvotes <- readr::readcsv(' rollcalls <- readr::readcsv(' issues <- readr::readcsv(' The data cleaning can be found in the data-raw folder of the package.",
+ "questions": [],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "academic",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Harvard Dataverse",
+   "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/12379"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Citizen Statistician",
+   "url": "http://www.citizen-statistician.org/2021/03/open-source-contribution-as-a-student-project/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "unvotes.csv",
+   "bytes": 18894418,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-03-23/unvotes.csv",
+   "columns": [
+    "rcid",
+    "country",
+    "country_code",
+    "vote"
+   ]
+  },
+  {
+   "file": "roll_calls.csv",
+   "bytes": 1526701,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-03-23/roll_calls.csv",
+   "columns": [
+    "rcid",
+    "session",
+    "importantvote",
+    "date",
+    "unres",
+    "amend",
+    "para",
+    "short",
+    "descr"
+   ]
+  },
+  {
+   "file": "issues.csv",
+   "bytes": 171754,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-03-23/issues.csv",
+   "columns": [
+    "rcid",
+    "short_name",
+    "issue"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-03-23",
+   "year": 2021,
+   "week": 13,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-03-23"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Harvard Dataverse",
+  "host": "harvard dataverse"
+ }
+}

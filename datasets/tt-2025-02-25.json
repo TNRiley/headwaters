@@ -1,0 +1,145 @@
+{
+ "id": "tt-2025-02-25",
+ "title": "Academic Literature on Racial and Ethnic Disparities in Reproductive Medicine in the US",
+ "hook": "This week we're exploring data on studies investigating racial and ethnic disparities in reproductive medicine as published in the eight highest impact peer-reviewed Ob/Gyn journals from January 1, 2010 through June 30, 2023. The data were collected as part of a review article Racial and ethnic disparities in reproductive medicine in the United States: a narrative review of contemporary high-quality evidence00775-0/fulltext) published in the American Journal of Obstetrics and Gynecology in January 2025. \"There has been increasing debate around how or if race and ethnicity should be used in medical research—including the conceptualization of race as a biological entity, a social construct, or a proxy for racism.",
+ "questions": [
+  "Explore how race and ethnicity are categorized in these articles. Which categories are most prominent? Which are missing? How do sample sizes vary across groups?",
+  "Has the sentiment of article titles, abstracts, keywords, and/or aims statements changed over time?",
+  "What type of health outcomes have been studied? What disparities have been identified?"
+ ],
+ "subjects": [
+  "health & medicine",
+  "society & demographics",
+  "books & language"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Racial and ethnic disparities in reproductive medicine in the United States: a narrative review of contemporary high-quality evidence",
+   "url": "https://www.ajog.org/article/S0002-9378(24)00775-0/fulltext"
+  },
+  {
+   "name": "Racial and ethnic disparities in reproductive medicine in the United States: a narrative review of contemporary high-quality evidence",
+   "url": "https://www.ajog.org/article/S0002-9378(24"
+  }
+ ],
+ "articles": [
+  {
+   "name": "This Art is HARD",
+   "url": "https://katcorr.github.io/this-art-is-HARD/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "article_dat.csv",
+   "bytes": 941790,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-02-25/article_dat.csv",
+   "columns": [
+    "pmid",
+    "doi",
+    "jabbrv",
+    "journal",
+    "year",
+    "month",
+    "day",
+    "title",
+    "abstract",
+    "keywords",
+    "study_aim",
+    "study_location",
+    "study_year_start",
+    "study_year_end",
+    "study_type",
+    "data_source",
+    "race1",
+    "race1_ss",
+    "race2",
+    "race2_ss",
+    "race3",
+    "race3_ss",
+    "race4",
+    "race4_ss",
+    "race5",
+    "race5_ss",
+    "race6",
+    "race6_ss",
+    "race7",
+    "race7_ss",
+    "race8",
+    "race8_ss",
+    "eth1",
+    "eth1_ss",
+    "eth2",
+    "eth2_ss",
+    "eth3",
+    "eth3_ss",
+    "eth4",
+    "eth4_ss",
+    "eth5",
+    "eth5_ss",
+    "eth6",
+    "eth6_ss",
+    "eth7",
+    "eth7_ss",
+    "eth8",
+    "eth8_ss",
+    "access_to_care",
+    "treatment_received",
+    "health_outcome",
+    "cancer_ovarian",
+    "cancer_uterine",
+    "cancer_cervical",
+    "cancer_vulvar",
+    "other_gyn_onc",
+    "endo",
+    "fibroids",
+    "other_gyn_surg",
+    "fert",
+    "matmorbmort",
+    "other_preg",
+    "phys_div",
+    "other",
+    "covid"
+   ]
+  },
+  {
+   "file": "model_dat.csv",
+   "bytes": 1550964,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-02-25/model_dat.csv",
+   "columns": [
+    "doi",
+    "model_number",
+    "stratified",
+    "stratgrp",
+    "subanalysis",
+    "subgrp",
+    "outcome",
+    "measure",
+    "measure_comments",
+    "covariates",
+    "comparison",
+    "ref",
+    "compare",
+    "point",
+    "lower",
+    "upper"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-02-25",
+   "year": 2025,
+   "week": 8,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-02-25"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Racial and ethnic disparities in reproductive medicine in th",
+  "host": "ajog.org"
+ }
+}

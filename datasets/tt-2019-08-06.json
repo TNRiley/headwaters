@@ -1,0 +1,118 @@
+{
+ "id": "tt-2019-08-06",
+ "title": "Bob Ross paintings",
+ "hook": "This week's DATA is from 538, and can either be read in directly from this repo or from the 538 R package which was recently updated to include more data from 538! The 538 article can be found here. The stringr::strtotitle() function could help with the variable names. Try dplyr::gather() on the painting elements if you want to go to a tall/tidy format. Be aware there are frame AND painting elements in the columns, dplyr::contains() could be useful here with a \"frame\" argument. This only applies if you wanted to separate the columns into a frame and painting elements column. Otherwise, you could just do a straight gather/pivotlonger with all elements but season, title, episode. r bobross %>% janitor::cleannames() %>% separate(episode, into = c(\"season\", \"episode\"), sep = \"E\") %>% mutate(season = strextract(season, \"[:digit:]+\")) %>% mutateat(vars(season, episode), as.integer)",
+ "questions": [
+  "Each of the columns after episode/title correspond to the binary presence (0 or 1) of that element in the painting."
+ ],
+ "subjects": [
+  "film & television"
+ ],
+ "provider_type": "journalism",
+ "geography": "",
+ "sources": [
+  {
+   "name": "FiveThirtyEight",
+   "url": "https://github.com/fivethirtyeight/data/tree/master/bob-ross"
+  }
+ ],
+ "articles": [
+  {
+   "name": "FiveThirtyEight",
+   "url": "https://fivethirtyeight.com/features/a-statistical-analysis-of-the-work-of-bob-ross/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "bob-ross.csv",
+   "bytes": 66315,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-08-06/bob-ross.csv",
+   "columns": [
+    "EPISODE",
+    "TITLE",
+    "APPLE_FRAME",
+    "AURORA_BOREALIS",
+    "BARN",
+    "BEACH",
+    "BOAT",
+    "BRIDGE",
+    "BUILDING",
+    "BUSHES",
+    "CABIN",
+    "CACTUS",
+    "CIRCLE_FRAME",
+    "CIRRUS",
+    "CLIFF",
+    "CLOUDS",
+    "CONIFER",
+    "CUMULUS",
+    "DECIDUOUS",
+    "DIANE_ANDRE",
+    "DOCK",
+    "DOUBLE_OVAL_FRAME",
+    "FARM",
+    "FENCE",
+    "FIRE",
+    "FLORIDA_FRAME",
+    "FLOWERS",
+    "FOG",
+    "FRAMED",
+    "GRASS",
+    "GUEST",
+    "HALF_CIRCLE_FRAME",
+    "HALF_OVAL_FRAME",
+    "HILLS",
+    "LAKE",
+    "LAKES",
+    "LIGHTHOUSE",
+    "MILL",
+    "MOON",
+    "MOUNTAIN",
+    "MOUNTAINS",
+    "NIGHT",
+    "OCEAN",
+    "OVAL_FRAME",
+    "PALM_TREES",
+    "PATH",
+    "PERSON",
+    "PORTRAIT",
+    "RECTANGLE_3D_FRAME",
+    "RECTANGULAR_FRAME",
+    "RIVER",
+    "ROCKS",
+    "SEASHELL_FRAME",
+    "SNOW",
+    "SNOWY_MOUNTAIN",
+    "SPLIT_FRAME",
+    "STEVE_ROSS",
+    "STRUCTURE",
+    "SUN",
+    "TOMB_FRAME",
+    "TREE",
+    "TREES",
+    "TRIPLE_FRAME",
+    "WATERFALL",
+    "WAVES",
+    "WINDMILL",
+    "WINDOW_FRAME",
+    "WINTER",
+    "WOOD_FRAMED"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-08-06",
+   "year": 2019,
+   "week": 32,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-08-06"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FiveThirtyEight",
+  "host": "fivethirtyeight"
+ }
+}

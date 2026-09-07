@@ -1,0 +1,66 @@
+{
+ "id": "tt-2020-04-07",
+ "title": "Tour de France",
+ "hook": "The Tour de France is an annual men's multiple stage bicycle race primarily held in France, while also occasionally passing through nearby countries. Like the other Grand Tours (the Giro d'Italia and the Vuelta a España), it consists of 21 day-long stages over the course of 23 days. It has been described as \"the world's most prestigious and most difficult bicycle race\". The data this week comes from Alastair Rushworth's Data Package tdf and Kaggle. Alastair has a very nice walkthrough of his data package at his blog! I've added the Kaggle data which goes through 2017 for some additional stage-specific data not captured in his dataset. Please note that for the most part these datasets COULD be joined by year/edition. Some other stats and records can be found on Wikipedia.",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "`tdf` package",
+   "url": "https://github.com/alastairrushworth/tdf"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Alastair Rushworth's blog",
+   "url": "https://alastairrushworth.github.io/Visualising-Tour-de-France-data-in-R/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "tdf_winners.csv",
+   "bytes": 18896,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-04-07/tdf_winners.csv",
+   "columns": [
+    "edition",
+    "start_date",
+    "winner_name",
+    "winner_team",
+    "distance",
+    "time_overall",
+    "time_margin",
+    "stage_wins",
+    "stages_led",
+    "height",
+    "weight",
+    "age",
+    "born",
+    "died",
+    "full_name",
+    "nickname",
+    "birth_town",
+    "birth_country",
+    "nationality"
+   ]
+  }
+ ],
+ "extra_files": 2,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-04-07",
+   "year": 2020,
+   "week": 15,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-04-07"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "tdf`",
+  "host": "tdf`"
+ }
+}

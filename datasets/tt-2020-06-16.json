@@ -1,0 +1,100 @@
+{
+ "id": "tt-2020-06-16",
+ "title": "African-American History",
+ "hook": "The data this week comes from US Census's Archives, Slave Voyages, and Black Past. Additional details can be found via Wikipedia's Article on Slavery in the US, BlackPast.org, and a Guardian article on Slavery. Lastly, BlackPast.org and Vox has an article about the importance of Juneteenth as a moment and what the holiday commemorates. Please use your best judgement when working with this data. There is a lot of pain and suffering that we cannot fully capture in simple numbers and charts. We believe that it is important to understand how wide-spread slavery was, how many people were affected then, and how this continually impacts the world. Teaching Hard History - American Slavery The consequences of slavery continue to distort and stunt lives in America, so it's quite right that we should engage in what can be an agonizing conversation about this history.",
+ "questions": [
+  "Donate to Blackpast.org",
+  "Donate to Teaching Tolerance"
+ ],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Black Past",
+   "url": "https://www.blackpast.org/donate/"
+  },
+  {
+   "name": "Census",
+   "url": "https://www.census.gov/content/dam/Census/library/working-papers/2002/demo/POP-twps0056.pdf"
+  },
+  {
+   "name": "Slave Voyages",
+   "url": "https://slavevoyages.org/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Guardian",
+   "url": "https://www.theguardian.com/news/2019/aug/15/400-years-since-slavery-timeline"
+  }
+ ],
+ "tables": [
+  {
+   "file": "blackpast.csv",
+   "bytes": 194392,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-16/blackpast.csv",
+   "columns": [
+    "year",
+    "events",
+    "subject",
+    "country",
+    "state",
+    "era"
+   ]
+  },
+  {
+   "file": "census.csv",
+   "bytes": 5908,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-16/census.csv",
+   "columns": [
+    "region",
+    "division",
+    "year",
+    "total",
+    "white",
+    "black",
+    "black_free",
+    "black_slaves"
+   ]
+  },
+  {
+   "file": "slave_routes.csv",
+   "bytes": 3465957,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-16/slave_routes.csv",
+   "columns": [
+    "voyage_id",
+    "ship_name",
+    "port_origin",
+    "place_of_purchase",
+    "port_arrival",
+    "year_arrival",
+    "n_slaves_arrived",
+    "captains_name"
+   ]
+  },
+  {
+   "file": "african_names.csv",
+   "bytes": 6305837,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-06-16/african_names.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-06-16",
+   "year": 2020,
+   "week": 25,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-06-16"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Black Past",
+  "host": "blackpast.org"
+ }
+}

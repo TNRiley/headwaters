@@ -1,0 +1,75 @@
+{
+ "id": "tt-2026-03-03",
+ "title": "Golem Grad Tortoise Data",
+ "hook": "The datasets this week come from the paper \"Sex Ratio Bias Triggers Demographic Suicide in a Dense Tortoise Population\". This topic seemed so interesting that even media like the New York Times picked it up: \"Constant Sexual Aggression Drives Female Tortoises to Walk Off Cliffs\". In an exceptionally dense island population of Hermann's tortoises in Lake Prespa in North Macedonia, sexually coercive males dramatically overnumber females, inflict severe copulatory injuries and put them at risk of fatal falls from the island plateau's sheer rock faces. Harassed females are emaciated, reproduce less frequently, produce smaller clutches and have lower annual survival rates compared to females from a neighbouring mainland population. Sixteen years of capture-recapture data reveal an ongoing extinction event and predict that the last island female will die in 2083.",
+ "questions": [
+  "Do recaptures happen more often in spring or summer?",
+  "Does it seem easier to recapture male or female tortoises?",
+  "What are the differences among tortoises from the mainland vs the ones from the island in terms of body mass or carapace length?"
+ ],
+ "subjects": [
+  "animals & nature",
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Sex Ratio Bias Triggers Demographic Suicide in a Dense Tortoise Population",
+   "url": "https://figshare.com/articles/journal_contribution/Sex_ratio_bias_triggers_demographic_suicide_in_a_dense_tortoise_population/30752687"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Sex Ratio Bias Triggers Demographic Suicide in a Dense Tortoise Population",
+   "url": "https://onlinelibrary.wiley.com/doi/10.1111/ele.70296"
+  }
+ ],
+ "tables": [
+  {
+   "file": "clutch_size_cleaned.csv",
+   "bytes": 2016,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-03-03/clutch_size_cleaned.csv",
+   "columns": [
+    "individual",
+    "age",
+    "date",
+    "locality",
+    "eggs",
+    "body_mass_grams",
+    "straight_carapace_length_mm"
+   ]
+  },
+  {
+   "file": "tortoise_body_condition_cleaned.csv",
+   "bytes": 507973,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-03-03/tortoise_body_condition_cleaned.csv",
+   "columns": [
+    "individual",
+    "year",
+    "year_recode",
+    "season",
+    "locality",
+    "sex",
+    "body_mass_grams",
+    "body_condition_index",
+    "straight_carapace_length_mm"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-03-03",
+   "year": 2026,
+   "week": 9,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-03-03"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Sex Ratio Bias Triggers Demographic Suicide in a Dense Torto",
+  "host": "sex ratio bias triggers demographic suicide in a dense tortoise population"
+ }
+}

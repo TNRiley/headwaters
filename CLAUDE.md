@@ -5,7 +5,14 @@ you**, not only read by a person. Read this file before you touch anything else.
 
 ## What this is
 
-`sources/<id>.json` — one file per data source. Each answers the questions you actually have
+Two catalogues that answer different questions.
+
+**`datasets/<id>.json` — what data exists.** One file per published dataset: what it is, the
+curator's own pitch, the files in it with their column names, who published it upstream, and
+which aggregation surfaced it. 428 records, seeded from every TidyTuesday week since 2018.
+This is the browsing layer — "is there anything good on X?"
+
+**`sources/<id>.json` — how to get data.** One file per queryable endpoint. Each answers the questions you actually have
 when you want to use something: what is in it, what licence, what auth, what the rate limit
 is, **what breaks**, and one or two working requests you can copy.
 
@@ -15,7 +22,14 @@ today rather than what worked once. Link lists rot; this one is meant to notice.
 
 ## Use it
 
-Before writing any data-fetching code, look here first:
+Looking for something to work with, or checking whether we already know about a dataset:
+
+```bash
+grep -il "penguin\|bird" datasets/*.json
+python3 -c "import json;d=json.load(open('datasets/tt-2024-01-09.json'));print(d['hook']);print([t['file'] for t in d['tables']])"
+```
+
+Before writing any data-fetching code, look at the source layer first:
 
 ```bash
 grep -il "tide\|water level" sources/*.json          # is it already catalogued?
@@ -26,7 +40,33 @@ python3 src/probe.py noaa-coops                      # does it still answer, rig
 Read the `gotchas` before writing the loop, not after it fails. They are there because
 somebody already lost the hour.
 
-## Extend it
+## Extend the dataset layer
+
+New TidyTuesday weeks appear every Monday. Picking them up is two commands and no judgement:
+
+```bash
+python3 src/fetch_tidytuesday.py     # incremental; readmes are cached under .cache/
+python3 src/classify.py              # fills only empty fields, so it never undoes a correction
+python3 src/build_site.py
+```
+
+`fetch_tidytuesday.py` downloads **no data files** — everything comes from the year readme
+table, the week readme, `meta.yaml` and one git-trees call. Keep it that way; the catalogue
+describes datasets, it does not host or profile them.
+
+`classify.py` is a rule table, not a pile of one-off judgements, so a week added next year
+classifies itself. When it gets one wrong, prefer teaching the rule over adding an override —
+and when the title genuinely misleads, add to `OVERRIDES` **with the reason as a comment**.
+Re-running with `--force` recomputes everything including overrides; without it, existing
+values are left alone.
+
+Adding a second aggregation (Data Is Plural is the obvious next one) means a new
+`src/fetch_<name>.py` writing the same record shape with its own `id` prefix and `found_in`
+entry. A dataset that appears in two aggregations should be **one record with two `found_in`
+entries**, not two records — that is the whole point of catalogueing by dataset rather than
+by week.
+
+## Extend the source layer
 
 **When you find or use a data source that is not in here, add it.** That is the whole point.
 The bar is: someone with a shell and no other context could start using it from your record.
@@ -68,8 +108,11 @@ Leads whose host already appears in a source record are auto-marked `catalogued`
 ## Layout
 
 ```
-sources/*.json      the catalogue          — hand/agent authored, canonical
-schema/             the record schema      — extend deliberately; validate.py enforces it
+datasets/*.json     what data exists       — generated, then corrected by hand
+sources/*.json      how to get data        — hand/agent authored, canonical
+schema/             both record schemas    — extend deliberately; validate.py enforces them
+src/fetch_tidytuesday.py  builds dataset records from TidyTuesday metadata (no downloads)
+src/classify.py     subject / publisher / geography rules, plus the override table
 src/validate.py     schema + id + cross-reference checks (stdlib only, no pip)
 src/probe.py        runs every probe, writes health.json
 src/harvest.py      pulls leads from upstream initiatives into leads.json

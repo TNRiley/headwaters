@@ -1,0 +1,72 @@
+{
+ "id": "tt-2025-05-06",
+ "title": "National Science Foundation Grant Terminations under the Trump Administration",
+ "hook": "This week we're exploring a dataset of grants for scientific research and education projects from the U.S. National Science Foundation (NSF) that have been terminated by the Trump administration in 2025. In an unprecedented and possibly illegal action, the NSF has terminated over 1,000 such grants starting on April 18, 2025, and terminations continue. These data were collected by Grant Watch by crowdsourcing from researchers and program administrators, as the administration has not released information on these terminations. From a New York Times article on the terminations: In general, the agency provides scientists with the opportunity to dispute its decisions about funding. But researchers were informed that the decision to cancel their grants was final and not subject to appeal.",
+ "questions": [
+  "How many grants, and how much money, were terminated by state or congressional",
+  "Grants from what directorates, divisions, or programs made up most of the",
+  "What topics or terms are most common in project titles or abstracts?"
+ ],
+ "subjects": [
+  "government & politics"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Grant Watch",
+   "url": "https://grant-watch.us/nsf-data.html"
+  }
+ ],
+ "articles": [
+  {
+   "name": "National Science Foundation Terminates Hundreds of Active Research Awards",
+   "url": "https://www.nytimes.com/2025/04/22/science/trump-national-science-foundation-grants.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "nsf_terminations.csv",
+   "bytes": 3728528,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-05-06/nsf_terminations.csv",
+   "columns": [
+    "grant_number",
+    "project_title",
+    "termination_letter_date",
+    "org_name",
+    "org_city",
+    "org_state",
+    "org_district",
+    "usaspending_obligated",
+    "award_type",
+    "directorate_abbrev",
+    "directorate",
+    "division",
+    "nsf_program_name",
+    "nsf_url",
+    "usaspending_url",
+    "nsf_startdate",
+    "nsf_expected_end_date",
+    "org_zip",
+    "org_uei",
+    "abstract",
+    "in_cruz_list"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-05-06",
+   "year": 2025,
+   "week": 18,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-05-06"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Grant Watch",
+  "host": "grant-watch.us"
+ }
+}

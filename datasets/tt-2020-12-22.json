@@ -1,0 +1,65 @@
+{
+ "id": "tt-2020-12-22",
+ "title": "Big Mac Index",
+ "hook": "The data this week comes from TheEconomist. Their article about this dataset can be found here. This repository contains the data behind The Economist's Big Mac index, and code that shows how we calculate it. To download the data, go to the [latest release][latest release], where you can download the index data in a CSV or Excel, or the [code behind it][notebook link]. [latest release]: [notebook link]: Our source data are from several places. Big Mac prices are from McDonald's directly and from reporting around the world; exchange rates are from Thomson Reuters; GDP and population data used to calculate the euro area averages are from Eurostat and GDP per person data are from the IMF World Economic Outlook reports. tuesdata <- tidytuesdayR::ttload('2020-12-22') tuesdata <- tidytuesdayR::ttload(2020, week = 52)",
+ "questions": [],
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "journalism",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "TheEconomist",
+   "url": "https://github.com/TheEconomist/big-mac-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "TheEconomist",
+   "url": "https://www.economist.com/news/2020/07/15/the-big-mac-index"
+  }
+ ],
+ "tables": [
+  {
+   "file": "big-mac.csv",
+   "bytes": 190822,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-12-22/big-mac.csv",
+   "columns": [
+    "date",
+    "iso_a3",
+    "currency_code",
+    "local_price",
+    "dollar_ex",
+    "dollar_price",
+    "USD_raw",
+    "EUR_raw",
+    "GBP_raw",
+    "JPY_raw",
+    "CNY_raw",
+    "GDP_dollar",
+    "adj_price",
+    "USD_adjusted",
+    "EUR_adjusted",
+    "GBP_adjusted",
+    "JPY_adjusted",
+    "CNY_adjusted"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-12-22",
+   "year": 2020,
+   "week": 52,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-12-22"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "TheEconomist",
+  "host": "theeconomist"
+ }
+}

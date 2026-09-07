@@ -5,58 +5,85 @@
     --ink:#dfe8f2; --dim:#8ba0b6; --dimmer:#5f748a;
     --ok:#4ec9a0; --bad:#e8646a; --dead:#6b7c8f; --warn:#e0b054;
     --accent:#5fb3f0; --accent2:#7ee0c4;
+    /* single-hue sequential ramp, dark-surface steps - subjects are 18 ranked
+       magnitudes, which is a job for one hue, never 18 categorical colours */
+    --bar:#3987e5; --bar-soft:#1c5cab; --bar-hi:#6da7ec;
     --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
     --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
-  a{color:var(--accent);text-decoration:none}
-  a:hover{text-decoration:underline}
+  a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
 
-  header{border-bottom:1px solid var(--line);padding:22px 26px 18px;background:
-    radial-gradient(120% 140% at 0% 0%, #14202c 0%, var(--bg) 62%)}
+  header{border-bottom:1px solid var(--line);padding:20px 26px 0;
+    background:radial-gradient(120% 140% at 0% 0%, #14202c 0%, var(--bg) 62%)}
   .brand{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
   h1{margin:0;font-size:23px;letter-spacing:-.4px;font-weight:650}
   h1 .drop{color:var(--accent2)}
-  .tag{color:var(--dim);font-size:13.5px;max-width:62ch}
-  .stats{display:flex;gap:26px;margin-top:14px;flex-wrap:wrap;font-family:var(--mono);font-size:12px}
-  .stat b{display:block;font-size:19px;font-weight:600;letter-spacing:-.3px;font-family:var(--sans)}
+  .tag{color:var(--dim);font-size:13.5px;max-width:64ch}
+  .stats{display:flex;gap:24px;margin:14px 0 12px;flex-wrap:wrap}
+  .stat b{display:block;font-size:19px;font-weight:600;letter-spacing:-.3px}
   .stat span{color:var(--dimmer);text-transform:uppercase;letter-spacing:.09em;font-size:10px}
   .stat.ok b{color:var(--ok)} .stat.bad b{color:var(--bad)} .stat.dead b{color:var(--dead)}
+  .tabs{display:flex;gap:2px}
+  .tabs button{background:none;border:0;border-bottom:2px solid transparent;color:var(--dim);
+    font:13.5px var(--sans);padding:9px 14px;cursor:pointer}
+  .tabs button:hover{color:var(--ink)}
+  .tabs button.on{color:var(--ink);border-bottom-color:var(--accent)}
+  .tabs button i{font-style:normal;color:var(--dimmer);font-family:var(--mono);font-size:11px;margin-left:6px}
 
-  .wrap{display:grid;grid-template-columns:232px minmax(0,1fr);gap:0;min-height:calc(100vh - 132px)}
+  .wrap{display:grid;grid-template-columns:236px minmax(0,1fr);min-height:calc(100vh - 190px)}
   aside{border-right:1px solid var(--line);padding:18px 16px 60px;position:sticky;top:0;align-self:start;
         max-height:100vh;overflow:auto}
-  .facet{margin-bottom:20px}
+  .facet{margin-bottom:18px}
   .facet h3{margin:0 0 7px;font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--dimmer);font-weight:600}
   .facet button{display:flex;justify-content:space-between;gap:8px;width:100%;text-align:left;background:none;border:0;
     color:var(--dim);font:inherit;font-size:13px;padding:2.5px 6px;border-radius:5px;cursor:pointer;line-height:1.4}
   .facet button:hover{background:var(--bg2);color:var(--ink)}
   .facet button.on{background:#17304a;color:#cfe6ff}
   .facet button i{font-style:normal;color:var(--dimmer);font-family:var(--mono);font-size:11px}
+  .facet .more{color:var(--dimmer);font-size:11.5px;padding-left:6px}
 
   main{padding:18px 26px 90px;min-width:0}
-  .searchrow{display:flex;gap:10px;align-items:center;margin-bottom:6px}
+  .searchrow{display:flex;gap:9px;align-items:center;margin-bottom:12px}
   #q{flex:1;background:var(--bg2);border:1px solid var(--line2);color:var(--ink);border-radius:8px;
      padding:9px 12px;font:14px var(--sans);outline:none}
   #q:focus{border-color:var(--accent);box-shadow:0 0 0 3px #5fb3f022}
-  .modes{display:flex;gap:2px;background:var(--bg2);border:1px solid var(--line2);border-radius:8px;padding:2px}
-  .modes button{background:none;border:0;color:var(--dim);font:12px var(--sans);padding:6px 11px;border-radius:6px;cursor:pointer}
-  .modes button.on{background:#17304a;color:#cfe6ff}
-  .count{color:var(--dimmer);font-size:12px;font-family:var(--mono);margin:8px 0 14px}
+  .btn{background:var(--bg2);border:1px solid var(--line2);color:var(--dim);border-radius:8px;
+       padding:9px 13px;font:13px var(--sans);cursor:pointer;white-space:nowrap}
+  .btn:hover{color:var(--ink);border-color:var(--accent)}
+  .count{color:var(--dimmer);font-size:12px;font-family:var(--mono);margin:0 0 14px}
+  .count b{color:var(--dim);font-weight:400}
+  .clear{color:var(--accent);cursor:pointer;margin-left:10px}
+
+  /* subject overview: 18 ranked magnitudes, one hue, direct-labelled */
+  .overview{border:1px solid var(--line);border-radius:10px;padding:14px 16px 10px;margin-bottom:16px;background:var(--bg2)}
+  .overview h4{margin:0 0 10px;font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--dimmer);font-weight:600;
+    display:flex;justify-content:space-between}
+  .overview h4 span{cursor:pointer;color:var(--dim);letter-spacing:0;text-transform:none;font-size:11.5px}
+  .bars{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:2px 22px}
+  .barrow{display:grid;grid-template-columns:132px 1fr 30px;align-items:center;gap:9px;cursor:pointer;
+    padding:2px 4px;border-radius:5px}
+  .barrow:hover{background:#16202b}
+  .barrow .lab{font-size:12px;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .barrow.on .lab{color:#cfe6ff}
+  .track{height:9px;background:#141d27;border-radius:2px;overflow:hidden}
+  .fill{height:100%;background:var(--bar-soft);border-radius:0 3px 3px 0}
+  .barrow:hover .fill,.barrow.on .fill{background:var(--bar)}
+  .barrow .n{font-family:var(--mono);font-size:11px;color:var(--dimmer);text-align:right}
 
   .card{border:1px solid var(--line);border-radius:10px;padding:13px 15px;margin-bottom:9px;background:var(--bg2);cursor:pointer;
         transition:border-color .12s,background .12s}
   .card:hover{border-color:var(--line2);background:#121b25}
-  .card.sel{border-color:var(--accent);background:#101c28}
   .card h2{margin:0 0 3px;font-size:16px;font-weight:600;letter-spacing:-.2px;display:flex;align-items:center;gap:9px;flex-wrap:wrap}
   .pub{color:var(--dimmer);font-size:12px;font-weight:400}
-  .card p{margin:5px 0 8px;color:var(--dim);font-size:13.5px;
-    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .card p{margin:5px 0 9px;color:var(--dim);font-size:13.5px;
+    display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
   .chips{display:flex;gap:5px;flex-wrap:wrap;align-items:center}
   .chip{font-family:var(--mono);font-size:10.5px;color:var(--dim);border:1px solid var(--line2);
     border-radius:20px;padding:1.5px 8px;white-space:nowrap}
   .chip.k{border-color:#3a4a2f;color:#b9d08e}
+  .chip.s{border-color:#24405e;color:#8fc3ee}
   .chip.warnc{border-color:#4a3f20;color:var(--warn)}
   .dot{width:8px;height:8px;border-radius:50%;display:inline-block;flex:none}
   .dot.ok{background:var(--ok);box-shadow:0 0 8px #4ec9a066}
@@ -65,17 +92,22 @@
   .dot.net{background:var(--warn);box-shadow:0 0 8px #e0b05455}
   .dot.none{background:var(--line2)}
 
-  /* detail */
-  .sheet{position:fixed;inset:0 0 0 auto;width:min(760px,94vw);background:var(--panel);border-left:1px solid var(--line2);
+  .sheet{position:fixed;inset:0 0 0 auto;width:min(780px,94vw);background:var(--panel);border-left:1px solid var(--line2);
     overflow:auto;padding:24px 28px 90px;box-shadow:-30px 0 60px #0006;transform:translateX(100%);transition:transform .16s ease-out;z-index:9}
   .sheet.open{transform:none}
   .sheet .x{position:absolute;top:14px;right:18px;background:none;border:0;color:var(--dim);font-size:22px;cursor:pointer;line-height:1}
-  .sheet h2{margin:0 0 2px;font-size:22px;letter-spacing:-.4px}
-  .sheet .lede{color:var(--dim);font-size:14px;margin:10px 0 18px}
+  .sheet h2{margin:0 0 2px;font-size:22px;letter-spacing:-.4px;padding-right:30px}
+  .sheet .lede{color:var(--ink);font-size:14.5px;margin:12px 0 18px;line-height:1.6}
   .sheet h4{margin:22px 0 8px;font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--dimmer)}
   table.kv{width:100%;border-collapse:collapse;font-size:13px}
   table.kv td{padding:5px 0;vertical-align:top;border-bottom:1px solid var(--line)}
   table.kv td:first-child{color:var(--dimmer);width:132px;font-family:var(--mono);font-size:11.5px;padding-right:12px}
+  .tbl{border:1px solid var(--line);border-radius:8px;padding:9px 11px;margin-bottom:7px;background:var(--bg2)}
+  .tbl .top{display:flex;align-items:baseline;gap:9px;font-size:13px;flex-wrap:wrap}
+  .tbl .top b{font-family:var(--mono);font-size:12.5px}
+  .tbl .meta{font-family:var(--mono);font-size:11px;color:var(--dimmer);margin-left:auto}
+  .cols{margin-top:6px;font-family:var(--mono);font-size:11px;color:var(--dim);line-height:1.7;word-break:break-word}
+  .cols span{border:1px solid var(--line2);border-radius:4px;padding:0 5px;margin-right:4px;display:inline-block}
   .probe{border:1px solid var(--line);border-radius:8px;padding:9px 11px;margin-bottom:7px;background:var(--bg2)}
   .probe .top{display:flex;align-items:center;gap:9px;font-size:13px}
   .probe code{font-family:var(--mono);font-size:11.5px;color:var(--dim);word-break:break-all;display:block;margin-top:5px}
@@ -86,6 +118,8 @@
   .gotcha .t{font-size:13.5px}
   .gotcha .f{font-size:13px;color:var(--dim);margin-top:3px}
   .gotcha .f b{color:var(--accent2);font-weight:600}
+  ul.q{margin:0;padding-left:18px;color:var(--dim);font-size:13.5px}
+  ul.q li{margin-bottom:3px}
   pre{background:#0a0f15;border:1px solid var(--line);border-radius:8px;padding:11px 13px;overflow:auto;
       font-family:var(--mono);font-size:11.5px;line-height:1.5;margin:0 0 10px;position:relative}
   .copy{position:absolute;top:6px;right:6px;background:var(--bg2);border:1px solid var(--line2);color:var(--dim);
@@ -93,10 +127,12 @@
   .copy:hover{color:var(--ink);border-color:var(--accent)}
   .scrim{position:fixed;inset:0;background:#0006;opacity:0;pointer-events:none;transition:opacity .16s;z-index:8}
   .scrim.on{opacity:1;pointer-events:auto}
-
   .gview .gotcha{margin-bottom:16px}
   .gview .src{font-size:11px;font-family:var(--mono);color:var(--dimmer);margin-bottom:2px}
   .empty{color:var(--dimmer);padding:40px 0;text-align:center}
+  .more-btn{display:block;width:100%;margin:10px 0 0;padding:11px;background:var(--bg2);border:1px solid var(--line2);
+    color:var(--dim);border-radius:8px;font:13px var(--sans);cursor:pointer}
+  .more-btn:hover{color:var(--ink);border-color:var(--accent)}
   footer{border-top:1px solid var(--line);padding:20px 26px 40px;color:var(--dimmer);font-size:12.5px}
   kbd{font-family:var(--mono);font-size:11px;border:1px solid var(--line2);border-radius:4px;padding:1px 5px;color:var(--dim)}
   @media(max-width:820px){.wrap{grid-template-columns:1fr}aside{position:static;max-height:none;border-right:0;border-bottom:1px solid var(--line)}}
@@ -105,21 +141,20 @@
 <header>
   <div class="brand">
     <h1>Head<span class="drop">waters</span></h1>
-    <div class="tag">Open data sources, each one described well enough to start using it from a shell &mdash; and probed, so the page can tell you whether it still answers.</div>
+    <div class="tag">Datasets worth working with, and the sources they come from &mdash; classified, searchable, and in the sources' case probed, so the page can say whether they still answer.</div>
   </div>
   <div class="stats" id="stats"></div>
+  <div class="tabs" id="tabs"></div>
 </header>
 
 <div class="wrap">
   <aside id="facets"></aside>
   <main>
     <div class="searchrow">
-      <input id="q" placeholder="Search names, descriptions, traps, fields&hellip;   ( / )" autocomplete="off">
-      <div class="modes">
-        <button data-mode="sources" class="on">Sources</button>
-        <button data-mode="gotchas">Traps</button>
-      </div>
+      <input id="q" placeholder="Search titles, descriptions, column names&hellip;   ( / )" autocomplete="off">
+      <button class="btn" id="shuffle">Surprise me</button>
     </div>
+    <div id="overview"></div>
     <div class="count" id="count"></div>
     <div id="list"></div>
   </main>
@@ -133,19 +168,22 @@
 <script>
 (function(){
   var D = JSON.parse(document.getElementById('DATA').textContent);
-  var SRC = D.sources, H = D.health || {}, R = H.results || {};
-  var state = {q:'', mode:'sources', facets:{}};
+  var DS = D.datasets || [], SRC = D.sources || [], H = D.health || {}, R = H.results || {};
+  var PAGE = 60;
+  var state = {q:'', mode:'datasets', facets:{}, shown:PAGE, seed:0, overview:true};
 
   function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, function(c){
     return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function bytes(n){ if(!n) return ''; if(n<1024) return n+' B';
+    if(n<1048576) return Math.round(n/1024)+' KB'; return (n/1048576).toFixed(1)+' MB'; }
 
-  // ---- health rollup -------------------------------------------------------
+  // ---- source health -------------------------------------------------------
   function probeState(sid, pid){
     var r = (R[sid]||{})[pid];
     if(!r) return 'none';
     if(r.ok) return 'ok';
     if(r.known_broken) return 'dead';
-    // no HTTP status at all: DNS, TLS or a timeout on the machine that ran the probe.
+    // no HTTP status at all: DNS, TLS or a timeout where the probe ran.
     // That is a fact about the prober's network, not about the endpoint.
     if(r.status == null && r.error) return 'net';
     return 'bad';
@@ -164,16 +202,6 @@
     if(net && !live) return 'net';
     return live ? 'ok' : 'dead';
   }
-
-  // ---- facets --------------------------------------------------------------
-  var FACETS = [
-    {key:'topic',  label:'Topic',   get:function(s){ return s.topics; }},
-    {key:'auth',   label:'Access',  get:function(s){ return [s.access.auth]; }},
-    {key:'bulk',   label:'Bulk',    get:function(s){ return [s.access.bulk ? 'whole dataset' : 'query only']; }},
-    {key:'licence',label:'Licence', get:function(s){ return [licBucket(s.license.name)]; }},
-    {key:'health', label:'Answering now', get:function(s){ return [{ok:'all probes ok',bad:'a probe failing',dead:'only known-dead',net:'unreachable when last run',none:'unprobed'}[srcState(s)]]; }},
-    {key:'status', label:'Record',  get:function(s){ return [s.status||'live']; }}
-  ];
   function licBucket(n){
     n = (n||'').toLowerCase();
     if(n.indexOf('cc0')>=0 || n.indexOf('public domain')>=0) return 'public domain / CC0';
@@ -183,60 +211,156 @@
     return 'other / per-record';
   }
 
-  function matches(s){
+  // ---- modes ---------------------------------------------------------------
+  var MODES = {
+    datasets: {
+      label:'Datasets', all:function(){ return DS; },
+      facets:[
+        {key:'provider', label:'Published by',  get:function(d){ return d.provider ? [d.provider.name] : []; }, cap:12},
+        {key:'ptype',    label:'Kind of publisher', get:function(d){ return d.provider_type?[d.provider_type]:[]; }},
+        {key:'where',    label:'About where',   get:function(d){ return d.geography?[d.geography]:['unspecified']; }},
+        {key:'year',     label:'Surfaced',      get:function(d){ return d.found_in.map(function(f){return String(f.year);}); }, cap:12},
+        {key:'cols',     label:'Detail',        get:function(d){
+            return [(d.tables||[]).some(function(t){return (t.columns||[]).length;}) ? 'column names known' : 'files only']; }}
+      ],
+      hay:function(d){ return [d.title, d.hook, (d.subjects||[]).join(' '),
+        (d.sources||[]).map(function(s){return s.name;}).join(' '),
+        (d.questions||[]).join(' '),
+        (d.tables||[]).map(function(t){ return t.file+' '+(t.columns||[]).join(' '); }).join(' ')
+        ].join(' ').toLowerCase(); },
+      card:function(d){
+        var n = (d.tables||[]).length, cols = 0;
+        (d.tables||[]).forEach(function(t){ cols += (t.columns||[]).length; });
+        var f = d.found_in[0]||{};
+        return '<div class="card" data-id="'+esc(d.id)+'">'+
+          '<h2>'+esc(d.title)+'</h2>'+
+          '<div class="pub">'+esc((d.provider||{}).name||'')+(f.date?' &middot; TidyTuesday '+esc(f.date):'')+'</div>'+
+          (d.hook?'<p>'+esc(d.hook)+'</p>':'<p style="opacity:.5">no description recorded</p>')+
+          '<div class="chips">'+
+            (d.subjects||[]).map(function(s){return '<span class="chip s">'+esc(s)+'</span>';}).join('')+
+            (d.geography?'<span class="chip">'+esc(d.geography)+'</span>':'')+
+            (n?'<span class="chip k">'+n+' file'+(n>1?'s':'')+'</span>':'')+
+            (cols?'<span class="chip k">'+cols+' columns</span>':'')+
+          '</div></div>';
+      },
+      sheet:function(d){ return datasetSheet(d); }
+    },
+    sources: {
+      label:'Sources', all:function(){ return SRC; },
+      facets:[
+        {key:'topic',   label:'Topic',   get:function(s){ return s.topics; }, cap:14},
+        {key:'auth',    label:'Access',  get:function(s){ return [s.access.auth]; }},
+        {key:'bulk',    label:'Bulk',    get:function(s){ return [s.access.bulk ? 'whole dataset' : 'query only']; }},
+        {key:'licence', label:'Licence', get:function(s){ return [licBucket(s.license.name)]; }},
+        {key:'health',  label:'Answering now', get:function(s){ return [{ok:'all probes ok',bad:'a probe failing',
+            dead:'only known-dead',net:'unreachable when last run',none:'unprobed'}[srcState(s)]]; }},
+        {key:'status',  label:'Record',  get:function(s){ return [s.status||'live']; }}
+      ],
+      hay:function(s){ return [s.name, s.publisher, s.description, s.topics.join(' '), s.id,
+        (s.fields||[]).join(' '),
+        (s.gotchas||[]).map(function(g){return g.trap+' '+(g.fix||'');}).join(' '),
+        s.probes.map(function(p){return p.url;}).join(' ')].join(' ').toLowerCase(); },
+      card:function(s){
+        var st = srcState(s);
+        var probeBits = s.probes.map(function(p){ return '<span class="dot '+probeState(s.id,p.id)+'"></span>'; }).join(' ');
+        return '<div class="card" data-id="'+esc(s.id)+'">'+
+          '<h2><span class="dot '+st+'"></span>'+esc(s.name)+' <span class="pub">'+esc(s.publisher)+'</span></h2>'+
+          '<p>'+esc(s.description)+'</p>'+
+          '<div class="chips">'+
+            s.topics.slice(0,4).map(function(t){return '<span class="chip">'+esc(t)+'</span>';}).join('')+
+            '<span class="chip k">'+esc(s.access.auth)+'</span>'+
+            (s.access.bulk?'<span class="chip k">bulk</span>':'')+
+            ((s.gotchas||[]).length?'<span class="chip warnc">'+s.gotchas.length+' trap'+(s.gotchas.length>1?'s':'')+'</span>':'')+
+            '<span style="margin-left:auto">'+probeBits+'</span>'+
+          '</div></div>';
+      },
+      sheet:function(s){ return sourceSheet(s); }
+    }
+  };
+
+  function rec(id){
+    var all = MODES[state.mode==='traps'?'sources':state.mode].all();
+    for(var i=0;i<all.length;i++){ if(all[i].id===id) return all[i]; }
+    return null;
+  }
+
+  function matches(r, mode){
+    var M = MODES[mode];
     for(var k in state.facets){
       var want = state.facets[k]; if(!want) continue;
-      var f = FACETS.filter(function(x){return x.key===k;})[0];
-      if(f.get(s).indexOf(want) < 0) return false;
+      var f = null;
+      M.facets.forEach(function(x){ if(x.key===k) f=x; });
+      if(!f) continue;
+      if(f.get(r).indexOf(want) < 0) return false;
     }
     if(!state.q) return true;
-    var hay = [s.name, s.publisher, s.description, s.topics.join(' '), s.id,
-               (s.fields||[]).join(' '),
-               (s.gotchas||[]).map(function(g){return g.trap+' '+(g.fix||'');}).join(' '),
-               s.probes.map(function(p){return p.url;}).join(' ')].join(' ').toLowerCase();
+    var hay = M.hay(r);
     return state.q.toLowerCase().split(/\s+/).every(function(t){ return hay.indexOf(t)>=0; });
   }
 
-  function drawFacets(){
-    var vis = SRC.filter(matches);
-    var html = '';
-    FACETS.forEach(function(f){
+  function activeFacets(){
+    return Object.keys(state.facets).filter(function(k){ return state.facets[k]; }).length;
+  }
+
+  function drawFacets(mode){
+    var M = MODES[mode], all = M.all(), html = '';
+    M.facets.forEach(function(f){
       var counts = {};
-      SRC.forEach(function(s){ f.get(s).forEach(function(v){ counts[v]=(counts[v]||0)+1; }); });
+      all.forEach(function(r){ f.get(r).forEach(function(v){ counts[v]=(counts[v]||0)+1; }); });
       var keys = Object.keys(counts).sort(function(a,b){ return counts[b]-counts[a] || a.localeCompare(b); });
-      if(f.key==='topic') keys = keys.slice(0,14);
+      if(f.key==='year') keys.sort(function(a,b){ return b.localeCompare(a); });
+      var cap = f.cap || 99, hidden = Math.max(0, keys.length-cap);
       html += '<div class="facet"><h3>'+f.label+'</h3>';
-      keys.forEach(function(k){
+      keys.slice(0,cap).forEach(function(k){
         var on = state.facets[f.key]===k;
         html += '<button class="'+(on?'on':'')+'" data-f="'+esc(f.key)+'" data-v="'+esc(k)+'">'+
                 '<span>'+esc(k)+'</span><i>'+counts[k]+'</i></button>';
       });
+      if(hidden) html += '<div class="more">+'+hidden+' more &mdash; use search</div>';
       html += '</div>';
     });
-    document.getElementById('facets').innerHTML = html;
-    document.getElementById('facets').querySelectorAll('button').forEach(function(b){
+    var el = document.getElementById('facets');
+    el.innerHTML = html;
+    el.querySelectorAll('button').forEach(function(b){
       b.onclick = function(){
         var k=b.dataset.f, v=b.dataset.v;
         state.facets[k] = (state.facets[k]===v) ? null : v;
-        draw();
+        state.shown = PAGE; draw();
       };
     });
-    return vis;
   }
 
-  function card(s){
-    var st = srcState(s);
-    var probeBits = s.probes.map(function(p){ return '<span class="dot '+probeState(s.id,p.id)+'"></span>'; }).join(' ');
-    return '<div class="card" data-id="'+esc(s.id)+'">'+
-      '<h2><span class="dot '+st+'"></span>'+esc(s.name)+' <span class="pub">'+esc(s.publisher)+'</span></h2>'+
-      '<p>'+esc(s.description)+'</p>'+
-      '<div class="chips">'+
-        s.topics.slice(0,4).map(function(t){return '<span class="chip">'+esc(t)+'</span>';}).join('')+
-        '<span class="chip k">'+esc(s.access.auth)+'</span>'+
-        (s.access.bulk?'<span class="chip k">bulk</span>':'')+
-        ((s.gotchas||[]).length?'<span class="chip warnc">'+s.gotchas.length+' trap'+(s.gotchas.length>1?'s':'')+'</span>':'')+
-        '<span style="margin-left:auto">'+probeBits+'</span>'+
-      '</div></div>';
+  function drawOverview(vis){
+    var el = document.getElementById('overview');
+    if(state.mode!=='datasets'){ el.innerHTML=''; return; }
+    var counts = {};
+    vis.forEach(function(d){ (d.subjects||[]).forEach(function(s){ counts[s]=(counts[s]||0)+1; }); });
+    var keys = Object.keys(counts).sort(function(a,b){ return counts[b]-counts[a] || a.localeCompare(b); });
+    if(!keys.length){ el.innerHTML=''; return; }
+    var max = counts[keys[0]];
+    var head = '<h4>What the '+vis.length+' datasets are about'+
+      '<span id="ovtoggle">'+(state.overview?'hide':'show')+'</span></h4>';
+    if(!state.overview){ el.innerHTML = '<div class="overview">'+head+'</div>'; wireOverview(); return; }
+    var rows = keys.map(function(k){
+      var on = state.facets.subject===k;
+      return '<div class="barrow '+(on?'on':'')+'" data-sub="'+esc(k)+'" title="'+esc(k)+': '+counts[k]+'">'+
+        '<div class="lab">'+esc(k)+'</div>'+
+        '<div class="track"><div class="fill" style="width:'+(counts[k]/max*100).toFixed(1)+'%"></div></div>'+
+        '<div class="n">'+counts[k]+'</div></div>';
+    }).join('');
+    el.innerHTML = '<div class="overview">'+head+'<div class="bars">'+rows+'</div></div>';
+    wireOverview();
+  }
+  function wireOverview(){
+    var t = document.getElementById('ovtoggle');
+    if(t) t.onclick = function(){ state.overview=!state.overview; draw(); };
+    document.querySelectorAll('.barrow').forEach(function(b){
+      b.onclick = function(){
+        var v=b.dataset.sub;
+        state.facets.subject = (state.facets.subject===v)?null:v;
+        state.shown = PAGE; draw();
+      };
+    });
   }
 
   function gotchaView(list){
@@ -252,54 +376,126 @@
   }
 
   function draw(){
-    var vis = drawFacets().filter(matches);
-    vis.sort(function(a,b){ return a.name.localeCompare(b.name); });
-    var listEl = document.getElementById('list');
-    if(state.mode==='gotchas'){
+    var mode = state.mode==='traps' ? 'sources' : state.mode;
+    var M = MODES[mode];
+    drawFacets(mode);
+    var vis = M.all().filter(function(r){ return matches(r, mode); });
+
+    if(state.mode==='traps'){
+      document.getElementById('overview').innerHTML='';
       var n = vis.reduce(function(a,s){ return a+(s.gotchas||[]).length; },0);
-      document.getElementById('count').textContent = n+' traps recorded across '+vis.length+' sources';
-      listEl.innerHTML = n ? gotchaView(vis) : '<div class="empty">nothing matches</div>';
-      return;
+      document.getElementById('count').innerHTML = n+' traps recorded across '+vis.length+' sources';
+      document.getElementById('list').innerHTML = n ? gotchaView(vis) : '<div class="empty">nothing matches</div>';
+      drawTabs(); return;
     }
-    document.getElementById('count').textContent =
-      vis.length+' of '+SRC.length+' sources'+
-      (Object.keys(state.facets).filter(function(k){return state.facets[k];}).length||state.q ? '  ·  filtered' : '');
-    listEl.innerHTML = vis.length ? vis.map(card).join('') : '<div class="empty">nothing matches</div>';
-    listEl.querySelectorAll('.card').forEach(function(c){
-      c.onclick = function(){ open(c.dataset.id); };
+
+    if(state.mode==='datasets' && state.seed){
+      // deterministic shuffle so paging stays stable until you shuffle again
+      var s = state.seed;
+      vis = vis.map(function(r){ s=(s*1103515245+12345)&0x7fffffff; return [s, r]; })
+               .sort(function(a,b){ return a[0]-b[0]; }).map(function(p){ return p[1]; });
+    } else {
+      vis.sort(function(a,b){
+        if(state.mode==='datasets'){ return (b.found_in[0].date||'').localeCompare(a.found_in[0].date||''); }
+        return a.name.localeCompare(b.name);
+      });
+    }
+    drawOverview(vis);
+
+    var filtered = activeFacets() || state.q;
+    document.getElementById('count').innerHTML =
+      '<b>'+vis.length+'</b> of '+M.all().length+' '+M.label.toLowerCase()+
+      (filtered ? '<span class="clear" id="clear">clear filters</span>' : '')+
+      (state.seed && state.mode==='datasets' ? '  &middot; shuffled' : '');
+    var c = document.getElementById('clear');
+    if(c) c.onclick = function(){ state.facets={}; state.q=''; document.getElementById('q').value=''; state.shown=PAGE; draw(); };
+
+    var page = vis.slice(0, state.shown);
+    var html = page.length ? page.map(M.card).join('') : '<div class="empty">nothing matches</div>';
+    if(vis.length > state.shown){
+      html += '<button class="more-btn" id="more">Show '+Math.min(PAGE, vis.length-state.shown)+' more &mdash; '+
+              (vis.length-state.shown)+' left</button>';
+    }
+    var listEl = document.getElementById('list');
+    listEl.innerHTML = html;
+    listEl.querySelectorAll('.card').forEach(function(el){ el.onclick=function(){ open(el.dataset.id); }; });
+    var m = document.getElementById('more');
+    if(m) m.onclick = function(){ state.shown += PAGE; draw(); };
+    drawTabs();
+  }
+
+  // ---- detail sheets -------------------------------------------------------
+  function datasetSheet(d){
+    var f = d.found_in[0] || {};
+    var h = '<h2>'+esc(d.title)+'</h2>';
+    h += '<div class="pub">'+esc((d.provider||{}).name||'unknown publisher')+
+         (d.provider_type?' &middot; '+esc(d.provider_type):'')+'</div>';
+    if(d.hook) h += '<div class="lede">'+esc(d.hook)+'</div>';
+    if((d.questions||[]).length){
+      h += '<h4>Questions the curators asked of it</h4><ul class="q">'+
+           d.questions.map(function(q){return '<li>'+esc(q)+'</li>';}).join('')+'</ul>';
+    }
+    h += '<h4>What is in it</h4>';
+    if(!(d.tables||[]).length){ h += '<div style="color:var(--dim);font-size:13px">No data files recorded for this week.</div>'; }
+    (d.tables||[]).forEach(function(t){
+      h += '<div class="tbl"><div class="top"><b>'+esc(t.file)+'</b>'+
+           '<span class="meta">'+esc(bytes(t.bytes))+((t.columns||[]).length?' &middot; '+t.columns.length+' columns':'')+'</span></div>'+
+           ((t.columns||[]).length ? '<div class="cols">'+t.columns.map(function(c){return '<span>'+esc(c)+'</span>';}).join('')+'</div>' : '')+
+           (t.url?'<code style="display:block;margin-top:6px"><a href="'+esc(t.url)+'" target="_blank" rel="noopener">download</a></code>':'')+
+           '</div>';
     });
+    if(d.extra_files) h += '<div style="color:var(--dimmer);font-size:12px">plus '+d.extra_files+' other file'+(d.extra_files>1?'s':'')+' in the folder (scripts, images, raw originals)</div>';
+
+    h += '<h4>Where it came from</h4><table class="kv">';
+    (d.sources||[]).forEach(function(s){
+      h += '<tr><td>source</td><td><a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.name||s.url)+'</a></td></tr>';
+    });
+    (d.articles||[]).forEach(function(a){
+      h += '<tr><td>written up in</td><td><a href="'+esc(a.url)+'" target="_blank" rel="noopener">'+esc(a.name||a.url)+'</a></td></tr>';
+    });
+    d.found_in.forEach(function(x){
+      h += '<tr><td>surfaced by</td><td><a href="'+esc(x.url)+'" target="_blank" rel="noopener">TidyTuesday '+
+           esc(x.date)+(x.week?' (week '+x.week+')':'')+'</a></td></tr>';
+    });
+    if(d.geography) h += '<tr><td>about</td><td>'+esc(d.geography)+'</td></tr>';
+    h += '</table>';
+
+    if(d.source_id){
+      var s = null; SRC.forEach(function(x){ if(x.id===d.source_id) s=x; });
+      if(s) h += '<h4>The publisher is catalogued here</h4>'+
+        '<div style="font-size:13px;color:var(--dim)">This data comes from <b style="color:var(--ink)">'+esc(s.name)+
+        '</b>, which has a source record with working requests, rate limits and traps &mdash; '+
+        '<span class="chip s" style="cursor:pointer" data-src="'+esc(s.id)+'">open it</span></div>';
+    }
+    if((d.subjects||[]).length){
+      h += '<h4>Subjects</h4><div class="chips">'+d.subjects.map(function(s){
+        return '<span class="chip s" style="cursor:pointer" data-sub="'+esc(s)+'">'+esc(s)+'</span>';}).join('')+'</div>';
+    }
+    h += '<h4>Raw record</h4><div style="font-size:12.5px;color:var(--dim)">'+
+         '<code style="font-family:var(--mono)">datasets/'+esc(d.id)+'.json</code> &middot; '+
+         '<a href="https://github.com/TNRiley/headwaters/blob/main/datasets/'+esc(d.id)+'.json" target="_blank" rel="noopener">on GitHub</a></div>';
+    return h;
   }
 
-  // ---- detail sheet --------------------------------------------------------
-  function pre(code, lang){
-    return '<pre data-code="'+esc(code)+'"><button class="copy">copy</button>'+esc(code)+'</pre>';
-  }
-  function open(id){
-    var s = SRC.filter(function(x){return x.id===id;})[0]; if(!s) return;
+  function sourceSheet(s){
     var h = '';
-    h += '<h2>'+esc(s.name)+'</h2><div class="pub">'+esc(s.publisher)+' &middot; <a href="'+esc(s.homepage)+'" target="_blank" rel="noopener">'+esc(s.homepage.replace(/^https?:\/\//,''))+'</a></div>';
+    h += '<h2>'+esc(s.name)+'</h2><div class="pub">'+esc(s.publisher)+' &middot; <a href="'+esc(s.homepage)+
+         '" target="_blank" rel="noopener">'+esc(s.homepage.replace(/^https?:\/\//,''))+'</a></div>';
     h += '<div class="lede">'+esc(s.description)+'</div>';
-
     h += '<h4>Facts</h4><table class="kv">';
     var t = s.temporal||{};
-    var rows = [
-      ['id', s.id],
-      ['topics', s.topics.join(', ')],
-      ['geography', s.geography],
-      ['covers', [t.start, t.end].filter(Boolean).join(' → ') + (t.grain?'  ('+t.grain+')':'')],
-      ['updated', t.updated],
-      ['licence', s.license.name + (s.license.redistribution ? '  — ' + s.license.redistribution : '')],
-      ['auth', s.access.auth + (s.access.auth_note ? '  — ' + s.access.auth_note : '')],
-      ['formats', s.access.formats.join(', ')],
-      ['bulk', s.access.bulk===undefined ? '' : (s.access.bulk?'the whole dataset is downloadable':'query only')],
-      ['size', s.access.size_hint],
-      ['rate limit', s.access.rate_limit],
-      ['pagination', s.access.pagination],
-      ['etiquette', s.access.etiquette],
-      ['used by', (s.used_by||[]).join(', ')],
-      ['record', (s.status||'live')+', verified '+(s.verified||s.added)]
-    ];
-    rows.forEach(function(r){ if(r[1]) h += '<tr><td>'+esc(r[0])+'</td><td>'+esc(r[1])+'</td></tr>'; });
+    [['id', s.id], ['topics', s.topics.join(', ')], ['geography', s.geography],
+     ['covers', [t.start, t.end].filter(Boolean).join(' → ') + (t.grain?'  ('+t.grain+')':'')],
+     ['updated', t.updated],
+     ['licence', s.license.name + (s.license.redistribution ? '  — ' + s.license.redistribution : '')],
+     ['auth', s.access.auth + (s.access.auth_note ? '  — ' + s.access.auth_note : '')],
+     ['formats', s.access.formats.join(', ')],
+     ['bulk', s.access.bulk===undefined ? '' : (s.access.bulk?'the whole dataset is downloadable':'query only')],
+     ['size', s.access.size_hint], ['rate limit', s.access.rate_limit],
+     ['pagination', s.access.pagination], ['etiquette', s.access.etiquette],
+     ['used by', (s.used_by||[]).join(', ')],
+     ['record', (s.status||'live')+', verified '+(s.verified||s.added)]
+    ].forEach(function(r){ if(r[1]) h += '<tr><td>'+esc(r[0])+'</td><td>'+esc(r[1])+'</td></tr>'; });
     h += '</table>';
 
     if((s.gotchas||[]).length){
@@ -309,7 +505,6 @@
              (g.fix?'<div class="f"><b>&rarr;</b> '+esc(g.fix)+'</div>':'')+'</div>';
       });
     }
-
     h += '<h4>Probes'+(H.checked?' &middot; last run '+esc(H.checked.replace('T',' ').replace('+00:00','Z')):'')+'</h4>';
     s.probes.forEach(function(p){
       var st = probeState(s.id,p.id), r = (R[s.id]||{})[p.id] || {};
@@ -325,21 +520,28 @@
            (!r.ok && r.why && !p.known_broken && !r.error ? '<div class="why">'+esc(r.why.join('; '))+'</div>':'')+
            '</div>';
     });
-
     if((s.recipes||[]).length){
       h += '<h4>Recipes</h4>';
       s.recipes.forEach(function(rc){
-        h += '<div style="font-size:13px;color:var(--dim);margin:0 0 5px">'+esc(rc.title||rc.lang)+'</div>'+pre(rc.code, rc.lang);
+        h += '<div style="font-size:13px;color:var(--dim);margin:0 0 5px">'+esc(rc.title||rc.lang)+'</div>'+
+             '<pre data-code="'+esc(rc.code)+'"><button class="copy">copy</button>'+esc(rc.code)+'</pre>';
       });
     }
     if((s.fields||[]).length){
-      h += '<h4>Fields worth knowing</h4><ul style="margin:0;padding-left:18px;color:var(--dim);font-size:13px">'+
+      h += '<h4>Fields worth knowing</h4><ul class="q">'+
            s.fields.map(function(f){return '<li>'+esc(f)+'</li>';}).join('')+'</ul>';
     }
     if((s.see_also||[]).length){
-      h += '<h4>See also</h4><ul style="margin:0;padding-left:18px;font-size:13px">'+
-        s.see_also.map(function(x){return '<li><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.name)+'</a>'+
+      h += '<h4>See also</h4><ul class="q">'+ s.see_also.map(function(x){
+        return '<li><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.name)+'</a>'+
           (x.note?' <span style="color:var(--dim)">&mdash; '+esc(x.note)+'</span>':'')+'</li>';}).join('')+'</ul>';
+    }
+    if(s.datasets_from_here && s.datasets_from_here.length){
+      h += '<h4>Datasets here that came from it</h4><ul class="q">'+
+        s.datasets_from_here.map(function(id){
+          var d=null; DS.forEach(function(x){ if(x.id===id) d=x; });
+          return d ? '<li><span style="cursor:pointer;color:var(--accent)" data-ds="'+esc(id)+'">'+esc(d.title)+'</span></li>' : '';
+        }).join('')+'</ul>';
     }
     if((s.related||[]).length){
       h += '<h4>Related records</h4><div class="chips">'+s.related.map(function(rid){
@@ -348,10 +550,28 @@
     h += '<h4>Raw record</h4><div style="font-size:12.5px;color:var(--dim)">'+
          '<code style="font-family:var(--mono)">sources/'+esc(s.id)+'.json</code> &middot; '+
          '<a href="https://github.com/TNRiley/headwaters/blob/main/sources/'+esc(s.id)+'.json" target="_blank" rel="noopener">on GitHub</a></div>';
+    return h;
+  }
 
+  function open(id){
+    var d = null;
+    DS.forEach(function(x){ if(x.id===id) d=x; });
+    var s = null;
+    SRC.forEach(function(x){ if(x.id===id) s=x; });
     var body = document.getElementById('sheetbody');
-    body.innerHTML = h;
-    body.querySelectorAll('[data-go]').forEach(function(el){ el.onclick=function(){ open(el.dataset.go); }; });
+    if(d) body.innerHTML = datasetSheet(d);
+    else if(s) body.innerHTML = sourceSheet(s);
+    else return;
+
+    body.querySelectorAll('[data-go],[data-src]').forEach(function(el){
+      el.onclick=function(){ setMode('sources'); open(el.dataset.go || el.dataset.src); };
+    });
+    body.querySelectorAll('[data-ds]').forEach(function(el){
+      el.onclick=function(){ setMode('datasets'); open(el.dataset.ds); };
+    });
+    body.querySelectorAll('[data-sub]').forEach(function(el){
+      el.onclick=function(){ close(); setMode('datasets'); state.facets={subject:el.dataset.sub}; state.shown=PAGE; draw(); };
+    });
     body.querySelectorAll('.copy').forEach(function(b){
       b.onclick = function(e){
         e.stopPropagation();
@@ -362,7 +582,7 @@
     document.getElementById('sheet').classList.add('open');
     document.getElementById('scrim').classList.add('on');
     document.getElementById('sheet').scrollTop = 0;
-    if(history.replaceState) history.replaceState(null,'','#'+s.id);
+    if(history.replaceState) history.replaceState(null,'','#'+id);
   }
   function close(){
     document.getElementById('sheet').classList.remove('open');
@@ -378,33 +598,49 @@
     }
   });
 
-  // ---- header stats --------------------------------------------------------
-  var np = SRC.reduce(function(a,s){return a+s.probes.length;},0);
+  // ---- chrome --------------------------------------------------------------
+  function setMode(m){
+    if(state.mode===m) return;
+    state.mode=m; state.facets={}; state.shown=PAGE; state.seed=0;
+    document.getElementById('q').value=''; state.q='';
+    document.getElementById('shuffle').style.display = (m==='datasets') ? '' : 'none';
+    draw();
+  }
+  function drawTabs(){
+    var traps = SRC.reduce(function(a,s){return a+(s.gotchas||[]).length;},0);
+    var tabs = [['datasets','Datasets',DS.length], ['sources','Sources',SRC.length], ['traps','Traps',traps]];
+    document.getElementById('tabs').innerHTML = tabs.map(function(t){
+      return '<button data-m="'+t[0]+'" class="'+(state.mode===t[0]?'on':'')+'">'+t[1]+'<i>'+t[2]+'</i></button>';
+    }).join('');
+    document.querySelectorAll('#tabs button').forEach(function(b){
+      b.onclick=function(){ setMode(b.dataset.m); };
+    });
+  }
+
   var okc=0, badc=0, deadc=0, netc=0;
   SRC.forEach(function(s){ s.probes.forEach(function(p){
     var st=probeState(s.id,p.id);
     if(st==='ok')okc++; else if(st==='bad')badc++; else if(st==='dead')deadc++; else if(st==='net')netc++; });});
-  var traps = SRC.reduce(function(a,s){return a+(s.gotchas||[]).length;},0);
+  var files = DS.reduce(function(a,d){ return a+(d.tables||[]).length; },0);
+  var cols  = DS.reduce(function(a,d){ return a+(d.tables||[]).reduce(function(x,t){return x+(t.columns||[]).length;},0); },0);
   document.getElementById('stats').innerHTML =
-    [['sources',SRC.length,''],['probes',np,''],['answering',okc,'ok'],
-     ['not answering',badc,badc?'bad':''],['known dead',deadc,'dead']]
-    .concat(netc?[['unreachable',netc,'']]:[])
-    .concat([['traps recorded',traps,''],['leads waiting',D.leads_new,'']])
-    .map(function(x){ return '<div class="stat '+x[2]+'"><b>'+x[1]+'</b><span>'+x[0]+'</span></div>'; }).join('');
+    [['datasets',DS.length,''],['data files',files,''],['column names',cols,''],
+     ['sources',SRC.length,''],['probes answering',okc,'ok'],['known dead',deadc,'dead']]
+    .map(function(x){ return '<div class="stat '+x[2]+'"><b>'+x[1].toLocaleString()+'</b><span>'+x[0]+'</span></div>'; }).join('');
 
   document.getElementById('foot').innerHTML =
-    'Probes last run <b>'+esc((H.checked||'never').replace('T',' ').replace('+00:00'," UTC"))+'</b>. '+
-    'Every record is a JSON file in <a href="https://github.com/TNRiley/headwaters" target="_blank" rel="noopener">the repository</a>; '+
-    'run <code style="font-family:var(--mono)">python3 src/probe.py</code> to re-check every endpoint yourself. '+
+    'Datasets are every week of <a href="https://github.com/rfordatascience/tidytuesday" target="_blank" rel="noopener">TidyTuesday</a> '+
+    'since April 2018, classified by subject and publisher. Sources are the endpoints behind data like it, with live probe results '+
+    '(last run <b>'+esc((H.checked||'never').replace('T',' ').replace('+00:00',' UTC'))+'</b>). '+
+    'Everything is JSON in <a href="https://github.com/TNRiley/headwaters" target="_blank" rel="noopener">the repository</a>. '+
     '<span style="color:var(--dimmer)">Press <kbd>/</kbd> to search, <kbd>esc</kbd> to close a record.</span>';
 
-  document.getElementById('q').addEventListener('input', function(e){ state.q=e.target.value; draw(); });
-  document.querySelectorAll('.modes button').forEach(function(b){
-    b.onclick=function(){
-      document.querySelectorAll('.modes button').forEach(function(x){x.classList.remove('on');});
-      b.classList.add('on'); state.mode=b.dataset.mode; draw();
-    };
+  document.getElementById('q').addEventListener('input', function(e){
+    state.q=e.target.value; state.shown=PAGE; state.seed=0; draw();
   });
+  document.getElementById('shuffle').onclick = function(){
+    state.seed = (Date.now() & 0x7fffffff) || 1; state.shown = PAGE; draw();
+  };
 
   draw();
   if(location.hash) open(location.hash.slice(1));

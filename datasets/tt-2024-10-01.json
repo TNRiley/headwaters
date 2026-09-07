@@ -1,0 +1,63 @@
+{
+ "id": "tt-2024-10-01",
+ "title": "Chess Game Dataset (Lichess)",
+ "hook": "The chess dataset this week comes from Lichess.org via Kaggle/Mitchell J. This is a set of just over 20,000 games collected from a selection of users on the site Lichess.org. 1. What the common opening moves? By ranks? 2. How many turns does a game last based on player ranking? 3. What move patterns explain the game outcome?",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Chess Game Dataset (Lichess)",
+   "url": "https://www.kaggle.com/datasets/datasnaek/chess/data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Beginner's Guide: Data Visualization with Python",
+   "url": "https://www.kaggle.com/code/batibayburak/beginner-s-guide-data-visualization-with-python"
+  }
+ ],
+ "tables": [
+  {
+   "file": "chess.csv",
+   "bytes": 7691620,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-10-01/chess.csv",
+   "columns": [
+    "game_id",
+    "rated",
+    "start_time",
+    "end_time",
+    "turns",
+    "victory_status",
+    "winner",
+    "time_increment",
+    "white_id",
+    "white_rating",
+    "black_id",
+    "black_rating",
+    "moves",
+    "opening_eco",
+    "opening_name",
+    "opening_ply"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-10-01",
+   "year": 2024,
+   "week": 40,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-10-01"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Chess Game Dataset (Lichess)",
+  "host": "chess game dataset (lichess)"
+ }
+}

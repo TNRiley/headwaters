@@ -1,0 +1,63 @@
+{
+ "id": "tt-2024-12-10",
+ "title": "The Scent of Data - Exploring the Parfumo Fragrance Dataset",
+ "hook": "This week we're diving into the fascinating world of fragrances with a dataset sourced from Parfumo, a vibrant community of perfume enthusiasts. Olga G. webscraped these data from the various fragrance sections on the Parfumo website. Here is a description from the author: This dataset contains detailed information about perfumes sourced from Parfumo, obtained through web scraping. It includes data on perfume ratings, olfactory notes (top, middle, and base notes), perfumers, year of release and other relevant characteristics of the perfumes listed on the Parfumo website.",
+ "questions": [
+  "What factors most influence the rating of a perfume?",
+  "Are there distinct scent families that dominate the market, and how are they perceived by users?",
+  "Has the popularity of certain fragrance notes evolved over time?"
+ ],
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Parfumo Fragrance Dataset",
+   "url": "https://www.kaggle.com/datasets/olgagmiufana1/parfumo-fragrance-dataset"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Perfumes at parfumo",
+   "url": "https://www.parfumo.com/Perfumes"
+  }
+ ],
+ "tables": [
+  {
+   "file": "parfumo_data_clean.csv",
+   "bytes": 12795322,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-12-10/parfumo_data_clean.csv",
+   "columns": [
+    "Number",
+    "Brand",
+    "Release_Year",
+    "Concentration",
+    "Rating_Value",
+    "Rating_Count",
+    "Main_Accords",
+    "Top_Notes",
+    "Middle_Notes",
+    "Base_Notes",
+    "Perfumers",
+    "URL"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-12-10",
+   "year": 2024,
+   "week": 50,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-12-10"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Parfumo Fragrance",
+  "host": "parfumo fragrance"
+ }
+}

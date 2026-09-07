@@ -1,0 +1,46 @@
+{
+ "id": "tt-2018-06-12",
+ "title": "FIFA World Cup Audience",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "journalism",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "FiveThirtyEight package",
+   "url": "https://github.com/rudeboybert/fivethirtyeight"
+  }
+ ],
+ "articles": [
+  {
+   "name": "FiveThirtyEight.com",
+   "url": "https://fivethirtyeight.com/features/how-to-break-fifa/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "week11_fifa_audience.csv",
+   "bytes": 6626,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-06-12/week11_fifa_audience.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-06-12",
+   "year": 2018,
+   "week": 11,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-06-12"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "FiveThirtyEight",
+  "host": "fivethirtyeight"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "tt-2022-01-11",
+ "title": "Bee Colony losses",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [
+  "Auburn University"
+ ],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "USDA",
+   "url": "https://usda.library.cornell.edu/concern/publications/rn301137d?locale=en"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Bee Informed",
+   "url": "https://beeinformed.org/2021/06/21/united-states-honey-bee-colony-losses-2020-2021-preliminary-results/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "colony.csv",
+   "bytes": 72358,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-01-11/colony.csv",
+   "columns": [
+    "year",
+    "months",
+    "state",
+    "colony_n",
+    "colony_max",
+    "colony_lost",
+    "colony_lost_pct",
+    "colony_added",
+    "colony_reno",
+    "colony_reno_pct"
+   ]
+  },
+  {
+   "file": "stressor.csv",
+   "bytes": 325347,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-01-11/stressor.csv",
+   "columns": [
+    "year",
+    "months",
+    "state",
+    "stressor",
+    "stress_pct"
+   ]
+  }
+ ],
+ "extra_files": 13,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2022-01-11",
+   "year": 2022,
+   "week": 2,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-01-11"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "USDA",
+  "host": "usda.library.cornell.edu"
+ }
+}

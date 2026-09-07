@@ -1,0 +1,56 @@
+{
+ "id": "tt-2025-07-01",
+ "title": "Weekly US Gas Prices",
+ "hook": "This week we're exploring weekly US gas prices! The data comes from the U.S. Energy Information Administration (EIA), which publishes average retail gasoline and diesel prices each Monday. The original data (including additional datasets) can be found at eia.gov/petroleum/gasdiesel, and the weekly time series used here was downloaded from this XLS file. Gas price methodology: \"Every Monday, retail prices for all three grades of gasoline are collected mainly by telephone and email from a sample of approximately 1,000 retail gasoline outlets. The prices are published around 5:00 p.m. ET Monday, except on government holidays, when the data are released on Tuesday (but still represent Monday's price). The reported price includes all taxes and is the cash pump price paid by a consumer as of 8:00 a.m. Monday. This price represents the self-serve price except in areas having only full-serve.",
+ "questions": [
+  "How did gas prices behave during major events like the 2008 recession or COVID-19 pandemic?",
+  "Are diesel prices more or less volatile than gasoline prices?",
+  "Do different grades or formulations of gasoline follow similar trends?"
+ ],
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "U.S. Gasoline and Diesel Retail Prices",
+   "url": "https://www.eia.gov/dnav/pet/xls/PET_PRI_GND_DCUS_NUS_W.xls"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Weekly U.S. Gasoline and Diesel Retail Prices",
+   "url": "https://www.eia.gov/petroleum/gasdiesel/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "weekly_gas_prices.csv",
+   "bytes": 943849,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-07-01/weekly_gas_prices.csv",
+   "columns": [
+    "date",
+    "fuel",
+    "grade",
+    "formulation",
+    "price"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-07-01",
+   "year": 2025,
+   "week": 26,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-07-01"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "U.S. Gasoline and Diesel Retail Prices",
+  "host": "eia.gov"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "tt-2019-11-05",
+ "title": "Bike & Walk Commutes",
+ "hook": "This week's data is from the ACS Survey. The article and underlying data can be found at the Census Website. The PDF report is also available for download if you'd like to try reading in some of the embedded tables. Please note that the raw excel files are uploaded (6 total), along with the cleaned/tidy data (commute.csv). There is also a cleaned up version of Table 3 from the article, which incorporates summary data around age, gender, race, children, income, and education for modes of travel (bike, walk, other). If you work with the ACS table 3 I'd suggest dplyr::slice() to grab the specific sub-tables from within it!",
+ "questions": [],
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "ACS",
+   "url": "https://www.census.gov/library/publications/2014/acs/acs-25.html?#"
+  }
+ ],
+ "articles": [
+  {
+   "name": "ACS",
+   "url": "https://www.census.gov/library/publications/2014/acs/acs-25.html?#"
+  }
+ ],
+ "tables": [
+  {
+   "file": "acs-25.pdf",
+   "bytes": 1114927,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-11-05/acs-25.pdf",
+   "columns": []
+  },
+  {
+   "file": "commute.csv",
+   "bytes": 204998,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-11-05/commute.csv",
+   "columns": [
+    "city",
+    "state",
+    "city_size",
+    "mode",
+    "n",
+    "percent",
+    "moe",
+    "state_abb",
+    "state_region"
+   ]
+  }
+ ],
+ "extra_files": 7,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-11-05",
+   "year": 2019,
+   "week": 45,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-11-05"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "ACS",
+  "host": "census.gov"
+ }
+}

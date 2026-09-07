@@ -1,0 +1,76 @@
+{
+ "id": "tt-2020-03-24",
+ "title": "Traumatic Brain Injury",
+ "hook": "Brain Injury Awareness Month, observed each March, was established 3 decades ago to educate the public about the incidence of brain injury and the needs of persons with brain injuries and their families (1). Caused by a bump, blow, or jolt to the head, or penetrating head injury, a traumatic brain injury (TBI) can lead to short- or long-term changes affecting thinking, sensation, language, or emotion. The goal of this week's #TidyTuesday is to spread awareness for just how common TBIs are - both in civilian and military populations. One of every 60 people in the U.S. lives with a TBI related disability. Moderate and severe traumatic brain injury (TBI) can lead to a lifetime of physical, cognitive, emotional, and behavioral changes.",
+ "questions": [],
+ "subjects": [
+  "health & medicine"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "CDC",
+   "url": "https://www.cdc.gov/mmwr/volumes/68/wr/mm6810a1.htm"
+  }
+ ],
+ "articles": [
+  {
+   "name": "CDC Traumatic Brain Injury Report",
+   "url": "https://www.cdc.gov/mmwr/volumes/68/wr/mm6810a1.htm"
+  }
+ ],
+ "tables": [
+  {
+   "file": "tbi_age.csv",
+   "bytes": 14040,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-24/tbi_age.csv",
+   "columns": [
+    "age_group",
+    "type",
+    "injury_mechanism",
+    "number_est",
+    "rate_est"
+   ]
+  },
+  {
+   "file": "tbi_year.csv",
+   "bytes": 12614,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-24/tbi_year.csv",
+   "columns": [
+    "injury_mechanism",
+    "type",
+    "year",
+    "rate_est",
+    "number_est"
+   ]
+  },
+  {
+   "file": "tbi_military.csv",
+   "bytes": 14746,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-03-24/tbi_military.csv",
+   "columns": [
+    "service",
+    "component",
+    "severity",
+    "diagnosed",
+    "year"
+   ]
+  }
+ ],
+ "extra_files": 11,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-03-24",
+   "year": 2020,
+   "week": 13,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-03-24"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "CDC",
+  "host": "cdc.gov"
+ }
+}

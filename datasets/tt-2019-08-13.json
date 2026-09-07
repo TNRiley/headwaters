@@ -1,0 +1,66 @@
+{
+ "id": "tt-2019-08-13",
+ "title": "Roman Emperors",
+ "hook": "This week's data is from Wikipedia, with credit to Georgios Karamanis for sharing the dataset. A Reddit /r/dataisbeautiful post covers this data.",
+ "questions": [],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/List_of_Roman_emperors"
+  },
+  {
+   "name": "Zonination",
+   "url": "https://github.com/zonination/emperors/blob/master/README.md"
+  }
+ ],
+ "articles": [
+  {
+   "name": "reddit.com/r/dataisbeautiful",
+   "url": "https://www.reddit.com/r/dataisbeautiful/comments/8tzfgz/roman_emperors_by_year_oc/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "emperors.csv",
+   "bytes": 14792,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-08-13/emperors.csv",
+   "columns": [
+    "index",
+    "name_full",
+    "birth",
+    "death",
+    "birth_cty",
+    "birth_prv",
+    "rise",
+    "reign_start",
+    "reign_end",
+    "cause",
+    "killer",
+    "dynasty",
+    "era",
+    "notes",
+    "verif_who"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-08-13",
+   "year": 2019,
+   "week": 33,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-08-13"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Wikipedia",
+  "host": "wikipedia"
+ }
+}

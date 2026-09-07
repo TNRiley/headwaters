@@ -16,8 +16,11 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SCHEMA = ROOT / "schema" / "source.schema.json"
-SOURCES = ROOT / "sources"
+# (directory, schema, label) - sources are probed access routes, datasets are things to work with
+COLLECTIONS = [
+    (ROOT / "sources", ROOT / "schema" / "source.schema.json", "source"),
+    (ROOT / "datasets", ROOT / "schema" / "dataset.schema.json", "dataset"),
+]
 
 TYPES = {
     "object": dict, "array": list, "string": str,
@@ -30,6 +33,16 @@ def check(node, schema, path, errs):
         errs.append("%s: %r is not one of %s" % (path, node, schema["enum"]))
         return
     t = schema.get("type")
+    if isinstance(t, list):                       # e.g. ["integer", "null"]
+        if node is None and "null" in t:
+            return
+        allowed = tuple(TYPES[x] for x in t if x != "null")
+        if allowed and not isinstance(node, allowed):
+            errs.append("%s: expected one of %s, got %s" % (path, t, type(node).__name__))
+            return
+        t = next((x for x in t if x != "null"), None)
+        if not t:
+            return
     if t:
         py = TYPES[t]
         # bool is a subclass of int in Python; do not let True pass as integer
@@ -74,8 +87,8 @@ def check(node, schema, path, errs):
             errs.append("%s: %s is below minimum %s" % (path, node, schema["minimum"]))
 
 
-def load_sources(only=None):
-    for f in sorted(SOURCES.glob("*.json")):
+def load_records(directory, only=None):
+    for f in sorted(directory.glob("*.json")):
         if only and f.stem not in only:
             continue
         with f.open(encoding="utf-8") as fh:
@@ -84,36 +97,40 @@ def load_sources(only=None):
 
 def main(argv):
     only = set(argv) or None
-    schema = json.loads(SCHEMA.read_text(encoding="utf-8"))
-    seen_ids, total, bad = {}, 0, 0
+    total, bad = 0, 0
+    for directory, schema_path, label in COLLECTIONS:
+        if not directory.is_dir():
+            continue
+        schema = json.loads(schema_path.read_text(encoding="utf-8"))
+        seen_ids, n = {}, 0
+        for f, rec in load_records(directory, only):
+            n += 1
+            total += 1
+            errs = []
+            check(rec, schema, "", errs)
+            if rec.get("id") != f.stem:
+                errs.append("id %r does not match filename %s" % (rec.get("id"), f.name))
+            if rec.get("id") in seen_ids:
+                errs.append("duplicate id, also in %s" % seen_ids[rec["id"]])
+            seen_ids[rec.get("id")] = f.name
+            pids = [p.get("id") for p in rec.get("probes", [])]
+            if len(pids) != len(set(pids)):
+                errs.append("duplicate probe ids: %s" % pids)
+            if errs:
+                bad += 1
+                print("FAIL %s/%s" % (directory.name, f.name))
+                for e in errs:
+                    print("     %s" % e)
 
-    for f, rec in load_sources(only):
-        total += 1
-        errs = []
-        check(rec, schema, "", errs)
-        if rec.get("id") != f.stem:
-            errs.append("id %r does not match filename %s" % (rec.get("id"), f.name))
-        if rec.get("id") in seen_ids:
-            errs.append("duplicate id, also in %s" % seen_ids[rec["id"]])
-        seen_ids[rec.get("id")] = f.name
-        pids = [p.get("id") for p in rec.get("probes", [])]
-        if len(pids) != len(set(pids)):
-            errs.append("duplicate probe ids: %s" % pids)
-        if errs:
-            bad += 1
-            print("FAIL %s" % f.name)
-            for e in errs:
-                print("     %s" % e)
+        if label == "source" and not only:
+            ids = set(seen_ids)
+            for f, rec in load_records(directory):
+                for ref in rec.get("related", []):
+                    if ref not in ids:
+                        print("WARN %s: related id %r has no record" % (f.name, ref))
+        print("%d %s%s checked" % (n, label, "" if n == 1 else "s"))
 
-    # cross-references resolve
-    ids = set(seen_ids)
-    if not only:
-        for f, rec in load_sources():
-            for ref in rec.get("related", []):
-                if ref not in ids:
-                    print("WARN %s: related id %r has no record" % (f.name, ref))
-
-    print("%d source%s checked, %d with problems" % (total, "" if total == 1 else "s", bad))
+    print("%d record%s total, %d with problems" % (total, "" if total == 1 else "s", bad))
     return 1 if bad else 0
 
 

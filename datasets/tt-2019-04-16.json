@@ -1,0 +1,109 @@
+{
+ "id": "tt-2019-04-16",
+ "title": "The Economist Data Viz Mistakes",
+ "hook": "Sarah Leo from The Economist went through the Economist's archives and found 7 examples of charts that were in need of improvement. \"I grouped our crimes against data visualisation into three categories: charts that are (1) misleading, (2) confusing and (3) failing to make a point. For each, I suggest an improved version that requires a similar amount of space — an important consideration when drawing charts to be published in print.\" She was nice enough to include the raw data as .csv files, where I have included both the raw and tidied formats for your graphing fun!",
+ "questions": [],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "journalism",
+ "geography": "",
+ "sources": [
+  {
+   "name": "The Economist",
+   "url": "https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368"
+  }
+ ],
+ "articles": [
+  {
+   "name": "The Economist",
+   "url": "https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368"
+  }
+ ],
+ "tables": [
+  {
+   "file": "brexit.csv",
+   "bytes": 1330,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-16/brexit.csv",
+   "columns": [
+    "date",
+    "percent_responding_right",
+    "percent_responding_wrong"
+   ]
+  },
+  {
+   "file": "corbyn.csv",
+   "bytes": 133,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-16/corbyn.csv",
+   "columns": [
+    "political_group",
+    "avg_facebook_likes"
+   ]
+  },
+  {
+   "file": "dogs.csv",
+   "bytes": 306,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-16/dogs.csv",
+   "columns": [
+    "year",
+    "avg_weight",
+    "avg_neck"
+   ]
+  },
+  {
+   "file": "eu_balance.csv",
+   "bytes": 7277,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-16/eu_balance.csv",
+   "columns": [
+    "country",
+    "account_type",
+    "year",
+    "value"
+   ]
+  },
+  {
+   "file": "pensions.csv",
+   "bytes": 730,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-16/pensions.csv",
+   "columns": [
+    "country",
+    "pop_65_percent",
+    "gov_spend_percent_gdp"
+   ]
+  },
+  {
+   "file": "trade.csv",
+   "bytes": 730,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-16/trade.csv",
+   "columns": [
+    "year",
+    "trade_deficit",
+    "manufacture_employment"
+   ]
+  },
+  {
+   "file": "women_research.csv",
+   "bytes": 1899,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-04-16/women_research.csv",
+   "columns": [
+    "country",
+    "percent_women"
+   ]
+  }
+ ],
+ "extra_files": 7,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-04-16",
+   "year": 2019,
+   "week": 16,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-04-16"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The Economist",
+  "host": "medium.economist.com"
+ }
+}

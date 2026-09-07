@@ -1,0 +1,50 @@
+{
+ "id": "tt-2018-05-21",
+ "title": "US Honey Production",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "food & drink"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "USDA",
+   "url": "http://usda.mannlib.cornell.edu/MannUsda/viewDocumentInfo.do?documentID=1520"
+  },
+  {
+   "name": "Kaggle.com",
+   "url": "https://www.kaggle.com/jessicali9530/honey-production"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Bee Culture",
+   "url": "http://www.beeculture.com/u-s-honey-industry-report-2016/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "week8_honey_production.zip",
+   "bytes": 24890,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-05-21/week8_honey_production.zip",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-05-21",
+   "year": 2018,
+   "week": 8,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-05-21"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "USDA",
+  "host": "usda.mannlib.cornell.edu"
+ }
+}

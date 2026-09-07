@@ -1,0 +1,58 @@
+{
+ "id": "tt-2022-10-18",
+ "title": "Stranger things dialogue",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "film & television",
+  "books & language"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "8flix.com",
+   "url": "https://8flix.com/stranger-things/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "freeCodeCamp",
+   "url": "https://www.freecodecamp.org/news/a-statistical-curiosity-voyage-through-the-emotion-of-stranger-things-e7bc8b2a6395"
+  },
+  {
+   "name": "'stringr things'",
+   "url": "https://github.com/filmicaesthetic/stringr-things"
+  }
+ ],
+ "tables": [
+  {
+   "file": "episodes.csv",
+   "bytes": 2794,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-10-18/episodes.csv",
+   "columns": [
+    "season",
+    "episode",
+    "title",
+    "directed_by",
+    "written_by",
+    "original_release_date"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2022-10-18",
+   "year": 2022,
+   "week": 42,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-10-18"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "8flix.com",
+  "host": "8flix.com"
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "id": "tt-2026-03-10",
+ "title": "How likely is 'likely'?",
+ "hook": "In an online quiz, created as an independent project by Adam Kucharski, over 5,000 participants compared pairs of probability phrases (e.g. “Which conveys a higher probability: Likely or Probable?”) and assigned numerical values (0–100%) to each of 19 phrases. The resulting data can be used to analyse how people interpret common probability phrases.",
+ "questions": [
+  "Which phrases do people most disagree on, in relation to the probability they represent?",
+  "Which demographic background is the most optimistic?",
+  "Does the order people are shown phrases in change their interpretation?"
+ ],
+ "subjects": [
+  "books & language",
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Kucharski AJ (2026) CAPphrase: Comparative and Absolute Probability phrase dataset. DOI: 10.5281/zenodo.18750055",
+   "url": "https://github.com/adamkucharski/CAPphrase"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Comparative and Absolute Probability Phrases",
+   "url": "https://adamkucharski.github.io/CAPphrase/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "absolute_judgements.csv",
+   "bytes": 2350397,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-03-10/absolute_judgements.csv",
+   "columns": [
+    "response_id",
+    "term",
+    "probability",
+    "order"
+   ]
+  },
+  {
+   "file": "pairwise_comparisons.csv",
+   "bytes": 2479910,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-03-10/pairwise_comparisons.csv",
+   "columns": [
+    "response_id",
+    "pair_id",
+    "term1",
+    "term2",
+    "selected"
+   ]
+  },
+  {
+   "file": "respondent_metadata.csv",
+   "bytes": 366364,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-03-10/respondent_metadata.csv",
+   "columns": [
+    "response_id",
+    "timestamp",
+    "age_band",
+    "english_background",
+    "education_level",
+    "country_of_residence"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-03-10",
+   "year": 2026,
+   "week": 10,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-03-10"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Kucharski AJ (2026) CAPphrase",
+  "host": "kucharski aj (2026) capphrase"
+ }
+}

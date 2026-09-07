@@ -1,0 +1,56 @@
+{
+ "id": "tt-2020-09-15",
+ "title": "Gov Spending on Kids",
+ "hook": "The data this week comes from Urban Institute courtesy of Joshua Rosenberg's tidykids package. This dataset provides a comprehensive accounting of public spending on children from 1997 through 2016. It draws on the US Census Bureau's Annual Survey of State and Local Government Finances, as well as several federal and other noncensus sources, to capture state-by-state spending on education, income security, health, and other areas. The data were assembled by Julia Isaacs, Eleanor Lauderback, and Erica Greenberg of the Urban Institute, working in collaboration with Margot Jackson of Brown University for her study of public spending on children and class gaps in child development.",
+ "questions": [],
+ "subjects": [
+  "economy & work"
+ ],
+ "provider_type": "academic",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Urban Institute",
+   "url": "https://datacatalog.urban.org/dataset/state-state-spending-kids-dataset"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Joshua Rosenberg",
+   "url": "https://twitter.com/jrosenberg6432"
+  },
+  {
+   "name": "`tidykids`",
+   "url": "https://jrosen48.github.io/tidykids/index.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "kids.csv",
+   "bytes": 1436276,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-09-15/kids.csv",
+   "columns": [
+    "state",
+    "year",
+    "raw",
+    "inf_adj",
+    "inf_adj_perchild"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-09-15",
+   "year": 2020,
+   "week": 38,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-09-15"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Urban Institute",
+  "host": "datacatalog.urban.org"
+ }
+}

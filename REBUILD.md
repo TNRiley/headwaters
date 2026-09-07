@@ -51,13 +51,34 @@ licence, answering-now, record status), cards in the middle, a right-hand sheet 
 record. A second mode lists every recorded trap across all sources. `/` focuses search,
 `esc` closes the sheet. Health is a dot per probe: green answering, red not, grey known-dead.
 
+## 4b. The dataset layer
+
+Built entirely from metadata TidyTuesday already publishes — no data files are downloaded:
+
+| Input | Gives |
+|---|---|
+| one `git/trees/main?recursive=1` call | every file in every week, with sizes |
+| `data/<year>/readme.md` (9 of them) | the spine: title, date, week number, source name+url, article |
+| `data/<year>/<date>/readme.md` (413) | the hook prose, the canonical file list, column names |
+| `data/<year>/<date>/meta.yaml` (111, since 2024-07) | structured title / data_source / article |
+
+Three weeks are skipped by name: 2020-12-29, 2022-01-04 and 2023-01-03 are "bring your own
+data" year-openers with no dataset. `classify.py` then assigns subject, publisher, publisher
+type and geography from a rule table, with an override list for the ~50 titles whose words
+mislead. Provider names are canonicalised in a second pass — the same organisation is spelled
+several ways across eight years of readmes, and GitHub or Kaggle URLs identify a host, not a
+publisher.
+
 ## 5. Verification table
 
 Rebuild is correct if these hold. Every value was observed on 2026-09-06.
 
 | Check | Expected |
 |---|---|
-| `python3 src/validate.py` | `40 sources checked, 0 with problems` |
+| `python3 src/validate.py` | 40 sources, 428 datasets, 0 with problems |
+| `python3 src/fetch_tidytuesday.py` | `428 weeks written to datasets/` |
+| `python3 src/classify.py` | `no subject (0)` — every dataset placed |
+| dataset→source links at build | 22 (a link means the *publisher* is catalogued, not the host) |
 | `python3 src/probe.py` | ~78 probes; 5 known-dead; failures only from throttling or a busy host |
 | GHCN station CSV first line | starts `STATION,DATE,...` and contains `TMAX` |
 | `ncei.noaa.gov/pub/data/ghcnd/ghcnd-stations.txt` | **404** — this is the point of that probe |

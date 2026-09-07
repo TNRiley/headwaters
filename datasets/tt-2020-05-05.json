@@ -1,0 +1,109 @@
+{
+ "id": "tt-2020-05-05",
+ "title": "Animal Crossing",
+ "hook": "The data this week comes from the VillagerDB and Metacritic. VillagerDB brings info about villagers, items, crafting, accessories, including links to their images. Metacritic brings user and critic reviews of the game (scores and raw text). Animal Crossing: New Horizons is a 2020 life simulation video game developed and published by Nintendo for the Nintendo Switch. It is the fifth main series title in the Animal Crossing series. New Horizons was released in all regions on March 20, 2020. New Horizons sees the player assuming the role of a customizable character who moves to a deserted island after purchasing a package from Tom Nook, a tanuki character who has appeared in every entry in the Animal Crossing series.",
+ "questions": [
+  "Reviews: Sentiment analysis, text analysis, scores, date effect",
+  "Villagers/Items: Gender, species, sayings, personality, price, recipe, what about a star sign based off the birthday column?",
+  "Random: Price fluctuates without clear pattern",
+  "Spike: Price declines for a few days and then jumps up 3x before quickly declining",
+  "Crash: Price increases early and then crashes"
+ ],
+ "subjects": [
+  "animals & nature",
+  "food & drink",
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Villager DB",
+   "url": "https://github.com/jefflomacy/villagerdb"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Polygon",
+   "url": "https://www.polygon.com/2020/4/2/21201065/animal-crossing-new-horizons-calm-mindfulness-coronavirus-quarantine"
+  }
+ ],
+ "tables": [
+  {
+   "file": "critic.tsv",
+   "bytes": 36232,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-05/critic.tsv",
+   "columns": [
+    "grade",
+    "publication",
+    "text",
+    "date"
+   ]
+  },
+  {
+   "file": "user_reviews.tsv",
+   "bytes": 2078473,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-05/user_reviews.tsv",
+   "columns": [
+    "grade",
+    "user_name",
+    "text",
+    "date"
+   ]
+  },
+  {
+   "file": "items.csv",
+   "bytes": 669162,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-05/items.csv",
+   "columns": [
+    "num_id",
+    "id",
+    "category",
+    "orderable",
+    "sell_value",
+    "sell_currency",
+    "buy_value",
+    "buy_currency",
+    "sources",
+    "customizable",
+    "recipe",
+    "recipe_id",
+    "games_id",
+    "id_full",
+    "image_url"
+   ]
+  },
+  {
+   "file": "villagers.csv",
+   "bytes": 54354,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2020/2020-05-05/villagers.csv",
+   "columns": [
+    "row_n",
+    "id",
+    "gender",
+    "species",
+    "birthday",
+    "personality",
+    "song",
+    "phrase",
+    "full_id",
+    "url"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2020-05-05",
+   "year": 2020,
+   "week": 19,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2020/2020-05-05"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Villager DB",
+  "host": "villager db"
+ }
+}

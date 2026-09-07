@@ -1,0 +1,62 @@
+{
+ "id": "tt-2019-10-08",
+ "title": "Powerlifting",
+ "hook": "This week's data is from Open Powerlifting. Wikipedia has many details around the sport itself, as well as more details around the 3 lifts (squat, bench, and deadlift). Credit to Nichole Monhait for sharing this fantastic open dataset. Please note this is a small subset of the data limited to IPF (International Powerlifting Federation) events, the full dataset with many more columns and alternative events can be found as a .csv at The full dataset has many more federations, ages, and meet types but is >250 MB.",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "nonprofit or society",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "OpenPowerlifting.org",
+   "url": "https://www.openpowerlifting.org/data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Elias Oziolor",
+   "url": "https://oziolor.wordpress.com/2018/05/19/part-i-getting-old-you-can-still-lift/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "ipf_lifts.csv",
+   "bytes": 5167536,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-10-08/ipf_lifts.csv",
+   "columns": [
+    "sex",
+    "event",
+    "equipment",
+    "age",
+    "age_class",
+    "division",
+    "bodyweight_kg",
+    "weight_class_kg",
+    "best3squat_kg",
+    "best3bench_kg",
+    "best3deadlift_kg",
+    "place",
+    "date",
+    "federation",
+    "meet_name"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-10-08",
+   "year": 2019,
+   "week": 41,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-10-08"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "OpenPowerlifting.org",
+  "host": "openpowerlifting.org"
+ }
+}

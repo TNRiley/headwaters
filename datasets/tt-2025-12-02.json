@@ -1,0 +1,62 @@
+{
+ "id": "tt-2025-12-02",
+ "title": "Can an exploding snowman predict the summer season?",
+ "hook": "This week we're exploring the weather prediction of Zurich's infamous exploding snowman! The Boeoegg is a snowman effigy made of cotton wool and stuffed with fireworks, created every year for Zurich's \"Sechselaeuten\" spring festival. The saying goes that the quicker the Boeoeg's head explodes, the finer the summer will be.",
+ "questions": [
+  "Check the burn duration of our snowman against the average summer temperature. Does folk science stand its ground against hard science?",
+  "Can you find a number of successive years so that our snowman's predictions seem more accurate?",
+  "Does our snowman's forecasting ability improve if you choose climate variables other than temperature?",
+  "What happened in the years for which there was no duration recorded? You can check the Wikipedia entry for \"Sechselaeuten\" for some funny anecdotes!"
+ ],
+ "subjects": [
+  "oddities & curiosities",
+  "environment & climate"
+ ],
+ "provider_type": "government",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "OpenData for Zurich's Sechselaeuten",
+   "url": "https://github.com/philshem/Sechselaeuten-data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Boeoegg prediction",
+   "url": "https://www.meteoswiss.admin.ch/weather/weather-and-climate-from-a-to-z/boeoegg-prediction.html"
+  }
+ ],
+ "tables": [
+  {
+   "file": "sechselaeuten.csv",
+   "bytes": 3385,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-12-02/sechselaeuten.csv",
+   "columns": [
+    "year",
+    "duration",
+    "tre200m0",
+    "tre200mn",
+    "tre200mx",
+    "sre000m0",
+    "sremaxmv",
+    "rre150m0",
+    "record"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2025-12-02",
+   "year": 2025,
+   "week": 48,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2025/2025-12-02"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "OpenData for Zurich's Sechselaeuten",
+  "host": "opendata for zurich's sechselaeuten"
+ }
+}

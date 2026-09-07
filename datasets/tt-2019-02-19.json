@@ -1,0 +1,46 @@
+{
+ "id": "tt-2019-02-19",
+ "title": "US PhD's Awarded",
+ "hook": "Dr. Ellie Murray proposed a DataViz challenge for the #epibookclub based around the number of PhD degrees awraded in the USA. As an epidemiology postdoc she was especially interested in how others would approach DataViz for Epidemiology PhDs. There are additional fields within this dataset, so take a crack at whatever looks interesting! <blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">Happy Saturday <a href=\" <a href=\" For this week, since we&#39;ve learned a bit about <a href=\" I thought we&#39;d try something new -- a <a href=\" challenge! <br><br>The US gov collects data on all doctoral degree graduates every year. Let&#39;s see what we can learn! <a href=\" Ellie Murray (@EpiEllie) <a href=\" 16, 2019</a></blockquote> The data comes from the NSF - where there are at least 72 different datasets if you wanted to approach the data from a different angle.",
+ "questions": [],
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "NSF",
+   "url": "https://ncses.nsf.gov/pubs/nsf19301/data"
+  }
+ ],
+ "articles": [
+  {
+   "name": "`#epibookclub`",
+   "url": "https://twitter.com/EpiEllie/status/1096876638632140805"
+  }
+ ],
+ "tables": [
+  {
+   "file": "phd_by_field.csv",
+   "bytes": 264532,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-02-19/phd_by_field.csv",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-02-19",
+   "year": 2019,
+   "week": 8,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-02-19"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "NSF",
+  "host": "ncses.nsf.gov"
+ }
+}

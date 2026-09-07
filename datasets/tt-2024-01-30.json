@@ -1,0 +1,74 @@
+{
+ "id": "tt-2024-01-30",
+ "title": "Groundhog predictions",
+ "hook": "Happy Groundhog Day! This week we're exploring Groundhog Day Predictions from groundhog-day.com! See if you can find a better way to present the annual data than their table of predictions by year! For anyone not familiar with the Groundhog Day tradition, if the groundhog sees its shadow and goes back into its burrow, that is a prediction of six more weeks of winter. Otherwise spring will come early. We attempted to provide weather data to accompany this dataset, but so far we've been unsuccessful. Watch for a follow-up dataset in the future! Note: \"Oil Springs Ollie\" (groundhog #55) has been succeeded by \"Heaven's Wildlife Harvey\" (groundhog #70).",
+ "questions": [],
+ "subjects": [
+  "oddities & curiosities"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "Groundhog-day.com API",
+   "url": "https://groundhog-day.com/api"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Groundhog-day.com Predictions by Year",
+   "url": "https://groundhog-day.com/predictions"
+  }
+ ],
+ "tables": [
+  {
+   "file": "groundhogs.csv",
+   "bytes": 56336,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-01-30/groundhogs.csv",
+   "columns": [
+    "id",
+    "slug",
+    "shortname",
+    "city",
+    "region",
+    "country",
+    "latitude",
+    "longitude",
+    "source",
+    "current_prediction",
+    "is_groundhog",
+    "type",
+    "active",
+    "description",
+    "image",
+    "predictions_count"
+   ]
+  },
+  {
+   "file": "predictions.csv",
+   "bytes": 30710,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-01-30/predictions.csv",
+   "columns": [
+    "id",
+    "year",
+    "shadow",
+    "details"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-01-30",
+   "year": 2024,
+   "week": 5,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-01-30"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Groundhog-day.com API",
+  "host": "groundhog-day.com"
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "id": "tt-2023-08-01",
+ "title": "US States",
+ "hook": "Happy Colorado Day! The data this week comes from three Wikipedia articles: List of states and territories of the United States, List of demonyms for US states and territories, and List of state and territory name etymologies of the United States. A number of past TidyTuesdays (such as 2018/2018-04-03, 2019/2019-01-29, 2020/2020-03-10, and 2022/2022-11-08 have state columns. Might joining in this state date offer any insights to those datasets?",
+ "questions": [],
+ "subjects": [
+  "books & language"
+ ],
+ "provider_type": "reference works",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "List of states and territories of the United States",
+   "url": "https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States"
+  },
+  {
+   "name": "List of demonyms for US states and territories",
+   "url": "https://en.wikipedia.org/wiki/List_of_demonyms_for_US_states_and_territories"
+  },
+  {
+   "name": "List of state and territory name etymologies of the United States",
+   "url": "https://en.wikipedia.org/wiki/List_of_state_and_territory_name_etymologies_of_the_United_States"
+  }
+ ],
+ "articles": [
+  {
+   "name": "List of states and territories of the United States",
+   "url": "https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States"
+  }
+ ],
+ "tables": [
+  {
+   "file": "states.csv",
+   "bytes": 5186,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-08-01/states.csv",
+   "columns": [
+    "state",
+    "postal_abbreviation",
+    "capital_city",
+    "largest_city",
+    "admission",
+    "population_2020",
+    "total_area_mi2",
+    "total_area_km2",
+    "land_area_mi2",
+    "land_area_km2",
+    "water_area_mi2",
+    "water_area_km2",
+    "n_representatives",
+    "demonym"
+   ]
+  },
+  {
+   "file": "state_name_etymology.csv",
+   "bytes": 12358,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-08-01/state_name_etymology.csv",
+   "columns": [
+    "state",
+    "date_named",
+    "language",
+    "words_in_original",
+    "meaning"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2023-08-01",
+   "year": 2023,
+   "week": 31,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2023/2023-08-01"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "List of states and territories of the United States",
+  "host": "list of states and territories of the united states"
+ }
+}

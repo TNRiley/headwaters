@@ -1,0 +1,85 @@
+{
+ "id": "tt-2026-06-02",
+ "title": "European Parenting Leave Policies",
+ "hook": "This week we're exploring European Parenting Leave Policies. The European Parenting Leave Policies (EPLP) Dataset provides harmonised data on maternity, co-parent, paid parental, and job-protected leave regulations across 21 European countries from 1970 to 2024. The dataset enables quantitative analyses of policy trends, cross-national differences, and the effects of major reforms – for researchers, policymakers, and others interested in family policy. Given the variety of parental leave schemes across countries, the dataset considers three different dimensions of parental leave duration for each country, if applicable. Dimension 1 (par1) identifies the paid parental leave scheme with the longest possible duration. Dimension 2 (par2) identifies the paid parental leave duration with the highest monthly flat rate payment.",
+ "questions": [
+  "Which countries were the first to implement co-parent leave policies?",
+  "Has parenting leave decreased in any countries?"
+ ],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "academic",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "The European Parenting Leave Policies (EPLP) Dataset",
+   "url": "https://zenodo.org/records/17648712"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Tracking parenting leave policies in Europe over five decades",
+   "url": "https://eplp-dataset.org/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "eplp.csv",
+   "bytes": 284465,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-06-02/eplp.csv",
+   "columns": [
+    "country",
+    "year",
+    "mat_m_ld_bb",
+    "mat_m_ld_ab",
+    "mat_v_ld_bb",
+    "mat_v_ld_ab",
+    "co_ld",
+    "jp_ld_m",
+    "jp_ld_co",
+    "jp_part_time",
+    "jp_later",
+    "par1_ld",
+    "par1_fr",
+    "par1_rr",
+    "par1_cap",
+    "par1_for_whom",
+    "par1_second_parent",
+    "par1_work",
+    "par1_later",
+    "par2_ld",
+    "par2_fr",
+    "par2_for_whom",
+    "par2_second_parent",
+    "par2_work",
+    "par2_later",
+    "par3_ld",
+    "par3_rr",
+    "par3_cap",
+    "par3_for_whom",
+    "par3_second_parent",
+    "par3_work",
+    "par3_later",
+    "par_incentives",
+    "user_note",
+    "currency"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-06-02",
+   "year": 2026,
+   "week": 22,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-06-02"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "The European Parenting Leave Policies (EPLP)",
+  "host": "the european parenting leave policies (eplp)"
+ }
+}

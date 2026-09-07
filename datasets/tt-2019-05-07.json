@@ -1,0 +1,55 @@
+{
+ "id": "tt-2019-05-07",
+ "title": "Global Student to Teacher Ratios",
+ "hook": "\"The UNESCO Institute of Statistics collects country-level data on the number of teachers, teacher-to-student ratios, and related figures. You can download the data or explore it in UNESCO's eAtlas of Teachers or their interactive visualization of teacher supply in Asia\" h/t to Data is Plural 2019/04/03 There is even more education data at the country level available at UNESCO Institute of Statistics. \"Reducing class size to increase student achievement is an approach that has been tried, debated, and analyzed for several decades. The premise seems logical: with fewer students to teach, teachers can coax better performance from each of them.",
+ "questions": [],
+ "subjects": [
+  "education"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "UNESCO",
+   "url": "http://data.uis.unesco.org/index.aspx?queryid=180"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Center for Public Education",
+   "url": "http://www.centerforpubliceducation.org/research/class-size-and-student-achievement"
+  }
+ ],
+ "tables": [
+  {
+   "file": "student_teacher_ratio.csv",
+   "bytes": 374437,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2019/2019-05-07/student_teacher_ratio.csv",
+   "columns": [
+    "edulit_ind",
+    "indicator",
+    "country_code",
+    "country",
+    "year",
+    "student_ratio",
+    "flag_codes",
+    "flags"
+   ]
+  }
+ ],
+ "extra_files": 1,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2019-05-07",
+   "year": 2019,
+   "week": 19,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2019/2019-05-07"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "UNESCO",
+  "host": "uis.unesco.org"
+ }
+}

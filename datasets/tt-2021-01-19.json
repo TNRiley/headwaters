@@ -1,0 +1,156 @@
+{
+ "id": "tt-2021-01-19",
+ "title": "Kenya Census",
+ "hook": "The data this week comes from rKenyaCensus courtesy of Shelmith Kariuki. Shelmith wrote about these datasets on her blog. rKenyaCensus is an R package that contains the 2019 Kenya Population and Housing Census results. The results were released by the Kenya National Bureau of Statistics in February 2020, and published in four different pdf files (Volume 1 - Volume 4). The 2019 Kenya Population and Housing Census was the eighth to be conducted in Kenya since 1948 and was conducted from the night of 24th/25th to 31st August 2019. Kenya leveraged on technology to capture data during cartographic mapping, enumeration and data transmission, making the 2019 Census the first paperless census to be conducted in Kenya Additional details about Kenya can be found on Wikipedia. Kenya, officially the Republic of Kenya (Swahili: Jamhuri ya Kenya), is a country in Eastern Africa.",
+ "questions": [],
+ "subjects": [
+  "society & demographics"
+ ],
+ "provider_type": "platform",
+ "geography": "Africa",
+ "sources": [
+  {
+   "name": "`rKenyaCensus`",
+   "url": "https://github.com/Shelmith-Kariuki/rKenyaCensus"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Introducing `rKenyaCensus`",
+   "url": "https://shelkariuki.netlify.app/post/rkenyacensus/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "gender.csv",
+   "bytes": 1606,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-01-19/gender.csv",
+   "columns": [
+    "County",
+    "Male",
+    "Female",
+    "Intersex",
+    "Total"
+   ]
+  },
+  {
+   "file": "crops.csv",
+   "bytes": 2595,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-01-19/crops.csv",
+   "columns": [
+    "SubCounty",
+    "Farming",
+    "Tea",
+    "Coffee",
+    "Avocado",
+    "Citrus",
+    "Mango",
+    "Coconut",
+    "Macadamia",
+    "Cashew Nut",
+    "Khat (Miraa)"
+   ]
+  },
+  {
+   "file": "households.csv",
+   "bytes": 1443,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2021/2021-01-19/households.csv",
+   "columns": [
+    "County",
+    "Population",
+    "NumberOfHouseholds",
+    "AverageHouseholdSize",
+    "Dataset",
+    "DataCatalogue",
+    "CountyGPS",
+    "KenyaCounties_SHP",
+    "V1_T2.1",
+    "V1_T2.2",
+    "V1_T2.3",
+    "V1_T2.4",
+    "V1_T2.5",
+    "V1_T2.6",
+    "V1_T2.7",
+    "V2_T1.1",
+    "V2_T1.2",
+    "V2_T2.1",
+    "V2_T2.2",
+    "V2_T2.2a",
+    "V2_T2.2b",
+    "V2_T2.3",
+    "V2_T2.5",
+    "V3_T1.1",
+    "V3_T1.2",
+    "V3_T2.1",
+    "V3_T2.2",
+    "V3_T2.2a",
+    "V3_T2.2b",
+    "V3_T2.3",
+    "V3_T2.4a",
+    "V3_T2.4b",
+    "V4_T1.1",
+    "V4_T1.9",
+    "V4_T2.2",
+    "V4_T2.3",
+    "V4_T2.4",
+    "V4_T2.5",
+    "V4_T2.6a",
+    "V4_T2.6b",
+    "V4_T2.7",
+    "V4_T2.8a",
+    "V4_T2.8b",
+    "V4_T2.8c",
+    "V4_T2.9a",
+    "V4_T2.9b",
+    "V4_T2.9c",
+    "V4_T2.10",
+    "V4_T2.11a",
+    "V4_T2.11b",
+    "V4_T2.12",
+    "V4_T2.13",
+    "V4_T2.14",
+    "V4_T2.15",
+    "V4_T2.16",
+    "V4_T2.17",
+    "V4_T2.18",
+    "V4_T2.19",
+    "V4_T2.20",
+    "V4_T2.21",
+    "V4_T2.22",
+    "V4_T2.23",
+    "V4_T2.24",
+    "V4_T2.25",
+    "V4_T2.26",
+    "V4_T2.27",
+    "V4_T2.28",
+    "V4_T2.29",
+    "V4_T2.30",
+    "V4_T2.31",
+    "V4_T2.32",
+    "V4_T2.33",
+    "V4_T2.34",
+    "V4_T2.35",
+    "V4_T2.36",
+    "V4_T2.37",
+    "V4_T2.38",
+    "V4_T2.39",
+    "V4_T2.40"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-01-19",
+   "year": 2021,
+   "week": 4,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-01-19"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "rKenyaCensus",
+  "host": "rkenyacensus"
+ }
+}

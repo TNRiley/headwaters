@@ -1,0 +1,109 @@
+{
+ "id": "tt-2024-01-09",
+ "title": "Canadian NHL Player Birth Dates",
+ "hook": "If you're a Canadian hockey player, happy birth month! That's more likely to be correct this time of year than in the Fall! The dataset this week comes from Statistics Canada, the NHL team list endpoint, and the NHL API. The dataset was inspired by the blog Are Birth Dates Still Destiny for Canadian NHL Players? by JLaw (via In the first chapter Malcolm Gladwell’s Outliers he discusses how in Canadian Junior Hockey there is a higher likelihood for players to be born in the first quarter of the year. Because these kids are older within their year they make all the important teams at a young age which gets them better resources for skill development and so on. While it seems clear that more players are born in the first few months of the year, what isn’t explored is whether or not this would be expected. Maybe more people in Canada in general are born earlier in the year.",
+ "questions": [],
+ "subjects": [
+  "sports & games",
+  "society & demographics"
+ ],
+ "provider_type": "government",
+ "geography": "Canada",
+ "sources": [
+  {
+   "name": "Statistics Canada",
+   "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310041501&pickMembers%5B0%5D=3.1&cubeTimeFrame.startYear=1991&cubeTimeFrame.endYear=2022&referencePeriods=19910101%2C20220101"
+  },
+  {
+   "name": "NHL team list endpoint",
+   "url": "https://api.nhle.com/stats/rest/en/team"
+  },
+  {
+   "name": "NHL API",
+   "url": "https://api-web.nhle.com/v1/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Are Birth Dates Still Destiny for Canadian NHL Players?",
+   "url": "https://jlaw.netlify.app/2023/12/04/are-birth-dates-still-destiny-for-canadian-nhl-players/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "canada_births_1991_2022.csv",
+   "bytes": 5106,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-01-09/canada_births_1991_2022.csv",
+   "columns": [
+    "year",
+    "month",
+    "births"
+   ]
+  },
+  {
+   "file": "nhl_player_births.csv",
+   "bytes": 523309,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-01-09/nhl_player_births.csv",
+   "columns": [
+    "player_id",
+    "first_name",
+    "last_name",
+    "birth_date",
+    "birth_city",
+    "birth_country",
+    "birth_state_province",
+    "birth_year",
+    "birth_month"
+   ]
+  },
+  {
+   "file": "nhl_rosters.csv",
+   "bytes": 8554333,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-01-09/nhl_rosters.csv",
+   "columns": [
+    "team_code",
+    "season",
+    "position_type",
+    "player_id",
+    "headshot",
+    "first_name",
+    "last_name",
+    "sweater_number",
+    "position_code",
+    "shoots_catches",
+    "height_in_inches",
+    "weight_in_pounds",
+    "height_in_centimeters",
+    "weight_in_kilograms",
+    "birth_date",
+    "birth_city",
+    "birth_country",
+    "birth_state_province"
+   ]
+  },
+  {
+   "file": "nhl_teams.csv",
+   "bytes": 1292,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2024/2024-01-09/nhl_teams.csv",
+   "columns": [
+    "team_code",
+    "full_name"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2024-01-09",
+   "year": 2024,
+   "week": 2,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-01-09"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Statistics Canada",
+  "host": "www150.statcan.gc.ca"
+ }
+}

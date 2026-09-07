@@ -1,0 +1,46 @@
+{
+ "id": "tt-2018-04-09",
+ "title": "NFL Positional Salaries",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "sports & games"
+ ],
+ "provider_type": "company",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Spotrac.com",
+   "url": "http://www.spotrac.com/rankings/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fivethirtyeight.com",
+   "url": "https://espnfivethirtyeight.files.wordpress.com/2017/05/morris-nflrb-1.png?w=575&h=488&quality=90&strip=info"
+  }
+ ],
+ "tables": [
+  {
+   "file": "nfl_salary.xlsx",
+   "bytes": 70655,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-04-09/nfl_salary.xlsx",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-04-09",
+   "year": 2018,
+   "week": 2,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-04-09"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Spotrac.com",
+  "host": "spotrac.com"
+ }
+}

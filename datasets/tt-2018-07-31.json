@@ -1,0 +1,46 @@
+{
+ "id": "tt-2018-07-31",
+ "title": "Dallas Animal Shelter FY2017",
+ "hook": "",
+ "questions": [],
+ "subjects": [
+  "animals & nature"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Dallas OpenData",
+   "url": "https://www.dallasopendata.com/City-Services/FY-2017-Dallas-Animal-Shelter-Data/sjyj-ydcj"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Dallas OpenData FY2017 Summary",
+   "url": "https://www.dallasopendata.com/stories/s/FY-2017-Dallas-Animal-Descriptive-Analysis/upeh-b6mt"
+  }
+ ],
+ "tables": [
+  {
+   "file": "week18_dallas_animals.xlsx",
+   "bytes": 10218468,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-07-31/week18_dallas_animals.xlsx",
+   "columns": []
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2018-07-31",
+   "year": 2018,
+   "week": 18,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2018/2018-07-31"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Dallas OpenData",
+  "host": "dallasopendata.com"
+ }
+}

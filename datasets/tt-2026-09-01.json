@@ -1,0 +1,65 @@
+{
+ "id": "tt-2026-09-01",
+ "title": "World Castles, Fortresses and Palaces",
+ "hook": "This week we're exploring the Castlemap dataset of 5,793 castles, fortresses, palaces and ruins in 138 countries. The data comes from Wikidata, and every landmark has verified coordinates, a Wikipedia article and a photo on Wikimedia Commons. Each also has a fame rank, based on how many languages have an article on it and how often that article is read. The Great Wall of China is first.",
+ "questions": [
+  "Which countries have the most castles?",
+  "Are palaces newer than fortresses?",
+  "Which landmarks have articles in many languages but few readers?"
+ ],
+ "subjects": [
+  "art & culture"
+ ],
+ "provider_type": "reference works",
+ "geography": "global",
+ "sources": [
+  {
+   "name": "Castlemap, curated from Wikidata",
+   "url": "https://thecastlemap.com/data/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Castlemap — Castles of the World dataset",
+   "url": "https://thecastlemap.com/data/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "world_castles.csv",
+   "bytes": 1444394,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-09-01/world_castles.csv",
+   "columns": [
+    "qid",
+    "category",
+    "country",
+    "iso",
+    "lat",
+    "lon",
+    "year",
+    "year_approx",
+    "century",
+    "wikipedia",
+    "image",
+    "sitelinks",
+    "pageviews",
+    "fame_rank"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2026-09-01",
+   "year": 2026,
+   "week": 35,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2026/2026-09-01"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Castlemap, curated from Wikidata",
+  "host": "thecastlemap.com"
+ }
+}

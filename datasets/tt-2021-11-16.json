@@ -1,0 +1,39 @@
+{
+ "id": "tt-2021-11-16",
+ "title": "`#BlackInDataWeek` 2021",
+ "hook": "We're celebrating current and future Black Data Professionals, ALL WEEK LONG!!! Full details at: Black in Data Week Follow along via the #BlackInDataWeek hashtag. A week-long celebration #BlackInDataWeek to: (1) highlight the valuable work and experiences of Black people in the field of Data (2) provide community (3) educational and professional resources. To sign up for events, click here! To learn more about #BlackInDataWeek, please see their website. The #TidyTuesday community will be taking a break from our own data this week and asking you to engage with, promote, and support Black people in data. You're welcome to revisit older datasets from #TidyTuesday this week, but especially on Wednesday Nov 17th, please create space and engage with the #BlackInDataViz hashtag on Twitter rather than promoting your own work.",
+ "questions": [],
+ "subjects": [
+  "the r & tidytuesday community"
+ ],
+ "provider_type": "company",
+ "geography": "",
+ "sources": [
+  {
+   "name": "`#BlackInDataWeek`",
+   "url": "https://www.eventbrite.com/e/black-in-data-week-2021-tickets-191046434027"
+  }
+ ],
+ "articles": [
+  {
+   "name": "`#BlackInDataWeek`",
+   "url": "https://www.eventbrite.com/e/black-in-data-week-2021-tickets-191046434027"
+  }
+ ],
+ "tables": [],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2021-11-16",
+   "year": 2021,
+   "week": 47,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2021/2021-11-16"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "#BlackInDataWeek",
+  "host": "eventbrite.com"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "tt-2022-07-12",
+ "title": "European flights",
+ "hook": "editoroptions: markdown: wrap: 72 --- Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: \\### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph \\### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year \\### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful.",
+ "questions": [],
+ "subjects": [
+  "transport & infrastructure"
+ ],
+ "provider_type": "intergovernmental",
+ "geography": "Europe",
+ "sources": [
+  {
+   "name": "Eurocontrol",
+   "url": "https://ansperformance.eu/data/"
+  }
+ ],
+ "articles": [
+  {
+   "name": "ec.europa.eu",
+   "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20210914-1"
+  }
+ ],
+ "tables": [
+  {
+   "file": "flights.csv",
+   "bytes": 67100704,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-07-12/flights.csv",
+   "columns": [
+    "**Column name**",
+    "YEAR",
+    "MONTH_NUM",
+    "MONTH_MON",
+    "FLT_DATE",
+    "APT_ICAO",
+    "APT_NAME",
+    "STATE_NAME",
+    "FLT_DEP_1",
+    "FLT_ARR_1",
+    "FLT_TOT_1",
+    "FLT_DEP_IFR_2",
+    "FLT_ARR_IFR_2",
+    "FLT_TOT_IFR_2"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2022-07-12",
+   "year": 2022,
+   "week": 28,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-07-12"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Eurocontrol",
+  "host": "ansperformance.eu"
+ }
+}

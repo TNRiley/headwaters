@@ -1,0 +1,63 @@
+{
+ "id": "tt-2022-11-08",
+ "title": "Radio Stations",
+ "hook": "Please add alt text (alternative text) to all of your posted graphics for #TidyTuesday. Twitter provides guidelines for how to add alt text to your images. The DataViz Society/Nightingale by way of Amy Cesal has an article on writing good alt text for plots/graphs. Here's a simple formula for writing alt text for data visualization: ### Chart type It's helpful for people with partial sight to know what chart type it is and gives context for understanding the rest of the visual. Example: Line graph ### Type of data What data is included in the chart? The x and y axis labels may help you figure this out. Example: number of bananas sold per day in the last year ### Reason for including the chart Think about why you're including this visual. What does it show that's meaningful. There should be a point to every visual and you should tell people what to look for.",
+ "questions": [],
+ "subjects": [
+  "music",
+  "technology & software"
+ ],
+ "provider_type": "reference works",
+ "geography": "United States",
+ "sources": [
+  {
+   "name": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lists_of_radio_stations_in_the_United_States"
+  }
+ ],
+ "articles": [
+  {
+   "name": "Visualizing the Geography of FM Radio",
+   "url": "https://erdavis.com/2020/01/04/visualizing-the-geography-of-fm-radio/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "state_stations.csv",
+   "bytes": 1316740,
+   "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2022/2022-11-08/state_stations.csv",
+   "columns": [
+    "call_sign",
+    "frequency",
+    "city",
+    "licensee",
+    "format",
+    "state",
+    "application_id",
+    "service",
+    "lms_application_id",
+    "dts_site_number",
+    "site_lat",
+    "site_long",
+    "angle",
+    "deg_lat",
+    "deg_lng"
+   ]
+  }
+ ],
+ "extra_files": 2,
+ "found_in": [
+  {
+   "aggregation": "tidytuesday",
+   "date": "2022-11-08",
+   "year": 2022,
+   "week": 45,
+   "url": "https://github.com/rfordatascience/tidytuesday/tree/main/data/2022/2022-11-08"
+  }
+ ],
+ "added": "2026-09-06",
+ "provider": {
+  "name": "Wikipedia",
+  "host": "wikipedia"
+ }
+}
