@@ -2,6 +2,11 @@
 # Run the catalogue CLI from anywhere: `path/to/headwaters/hw find tide`.
 # Apple's /usr/bin/python3 is preferred deliberately -- the python.org build on this
 # machine ships without a CA bundle, so every HTTPS call from it fails while curl works.
-PY=/usr/bin/python3
-[ -x "$PY" ] || PY=python3
+# Probe each candidate rather than testing for existence: on Windows `python3` is the
+# Microsoft Store alias stub, which is on PATH and executable but fails when it runs.
+PY=""
+for c in /usr/bin/python3 python3 python; do
+  if "$c" -c "" >/dev/null 2>&1; then PY="$c"; break; fi
+done
+[ -n "$PY" ] || { echo "no working python on PATH (tried /usr/bin/python3, python3, python)"; exit 1; }
 exec "$PY" "$(dirname "$0")/src/hw.py" "$@"

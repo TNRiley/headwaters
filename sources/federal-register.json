@@ -69,6 +69,26 @@
     {
       "trap": "Deep paging stops around 2,000 results.",
       "fix": "Slice by publication_date and page within each slice."
+    },
+    {
+      "trap": "raw_text_url ends in .txt but serves HTML: <html><head><title>...</title></head><body><pre> wraps the text, and </pre></body></html> follows it. Read it as plain text and every document carries a Federal Register masthead that is not part of the document.",
+      "fix": "Strip the <pre> wrapper before doing anything else. Observed 2026-09-07 across ~3,000 documents; no exceptions seen."
+    },
+    {
+      "trap": "The full-text payload contains stray NUL bytes, so grep calls a saved file binary and prints nothing. That reads as 'no matches' rather than as an error, which is worse than a crash.",
+      "fix": "Strip NUL bytes (0x00) on write. Observed 2026-09-07."
+    },
+    {
+      "trap": "The full-text endpoint (documents/full_text/text/...) rate-limits and answers 429, while the JSON API does not. An unthrottled first benchmark suggested >1,000 documents/minute; everything after it was an order of magnitude slower, which looks exactly like a client-side performance problem. Two rewrites of a fetcher went by before anyone checked the status code.",
+      "fix": "Check for 429 before optimising the client. ~8 concurrent transfers sustains roughly 60 documents/minute. Being rate-limited is not being broken. Observed 2026-09-07."
+    },
+    {
+      "trap": "cfr_references is not a reliable statement of what a rule amends. A long FCC or GSA rule lists every part in its neighbourhood, so two documents amending completely different parts still appear to overlap.",
+      "fix": "For anything that depends on subject matter, parse the 'PART n--' headings out of the amendatory text instead. Observed 2026-09-07."
+    },
+    {
+      "trap": "There is no field linking a final rule to the proposed rule it came from, and each obvious key fails alone in a way that produces confident nonsense rather than an error. A RIN can be a standing class RIN: 1625-AA00 (Coast Guard safety zones) carries 4,346 documents. A docket can be a proceeding: an FCC or FAR docket carries dozens of unrelated rules over years. Agencies also publish companion documents on the same day with adjacent document numbers, so the smaller one gets mistaken for the parent.",
+      "fix": "Require agreement on RIN or docket AND on CFR part, exclude RINs carrying implausibly many finals, and sanity-check the pair against the text. Requiring CFR-part overlap alone rejected 8,582 candidate pairings out of ~22,000. Worked example: github.com/TNRiley/redline src/pair.py. Observed 2026-09-07."
     }
   ],
   "related": [
@@ -76,6 +96,9 @@
     "data-gov"
   ],
   "added": "2026-09-06",
-  "verified": "2026-09-06",
-  "status": "live"
+  "verified": "2026-09-07",
+  "status": "live",
+  "used_by": [
+    "redline"
+  ]
 }
