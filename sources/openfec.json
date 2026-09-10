@@ -1,0 +1,141 @@
+{
+  "id": "openfec",
+  "name": "OpenFEC API",
+  "publisher": "US Federal Election Commission",
+  "homepage": "https://api.open.fec.gov/developers/",
+  "description": "Every federal campaign-finance filing the FEC holds, as JSON: candidates and committees, receipts and disbursements down to the individual contribution, independent expenditures, electioneering communications, and the filings themselves. Schedule A alone runs to hundreds of millions of itemised contributions with donor name, employer, occupation, city and ZIP. This is the primary source that ProPublica's campaign-finance API was reformatting, and unlike that one it is alive, free and unrestricted.",
+  "topics": [
+    "campaign finance",
+    "politics",
+    "elections",
+    "money",
+    "US government"
+  ],
+  "geography": "US federal elections; contributions carry contributor city, state and ZIP",
+  "temporal": {
+    "start": "1979-1980 cycle for itemised data; some committee records earlier",
+    "end": "present",
+    "grain": "per filing and per itemised transaction",
+    "updated": "continuously as filings arrive; quarterly and monthly reporting deadlines drive the volume"
+  },
+  "license": {
+    "name": "US government work, public domain",
+    "url": "https://www.fec.gov/updates/sale-or-use-contributor-information/",
+    "redistribution": "unrestricted for analysis and republication, with one statutory exception: contributor information may not be sold or used for soliciting contributions or for commercial purposes. That is federal law (52 U.S.C. 30111(a)(4)), not a licence term."
+  },
+  "access": {
+    "auth": "api-key-free",
+    "auth_note": "Free key from https://api.data.gov/signup/ -- the same key as Congress.gov and every other api.data.gov federal API. DEMO_KEY works for exploring, at 10 requests/hour.",
+    "formats": [
+      "json",
+      "csv (bulk downloads)"
+    ],
+    "bulk": true,
+    "size_hint": "an API page is tens of KB; the bulk itemised-contributions file for one cycle is several GB",
+    "rate_limit": "1,000 requests per hour with a registered key; DEMO_KEY capped at 10/hour (X-Ratelimit-Limit: 10, observed 2026-09-10)",
+    "pagination": "per_page up to 100 with page for small result sets; Schedule A and B require keyset paging via last_index and last_contribution_receipt_date"
+  },
+  "probes": [
+    {
+      "id": "candidates-demo-key",
+      "description": "Candidate list, with the public DEMO_KEY",
+      "url": "https://api.open.fec.gov/v1/candidates/?api_key=DEMO_KEY&per_page=1",
+      "range_bytes": 4096,
+      "expect": {
+        "content_type": "json",
+        "body_contains": [
+          "api_version",
+          "candidate_id",
+          "pagination"
+        ]
+      },
+      "note": "DEMO_KEY's 10/hour budget is shared per IP across every api.data.gov API. A 429 here means that budget is spent, not that the FEC is down -- probe.py classifies it as throttled."
+    },
+    {
+      "id": "schedule-a-needs-filter",
+      "description": "Itemised contributions with no filter -- documents the required-parameter gate",
+      "url": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=DEMO_KEY&per_page=1",
+      "expect": {
+        "status": [
+          400
+        ],
+        "content_type": "json",
+        "body_contains": [
+          "two_year_transaction_period"
+        ]
+      },
+      "note": "A deliberate 400. Schedule A refuses an unfiltered query rather than starting to stream 400 million rows, and the error names every filter it will accept. Verified 2026-09-10."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Find a candidate, then their committee totals",
+      "lang": "bash",
+      "code": "curl -s \"https://api.open.fec.gov/v1/candidates/search/?api_key=$FEC_API_KEY&q=warren&office=S\" | head -c 500\ncurl -s \"https://api.open.fec.gov/v1/candidate/S2MA00170/totals/?api_key=$FEC_API_KEY&cycle=2024\" | head -c 400"
+    },
+    {
+      "title": "Itemised contributions to one committee, keyset-paged",
+      "lang": "bash",
+      "code": "U=\"https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=$FEC_API_KEY&committee_id=C00401224&two_year_transaction_period=2024&per_page=100\"\ncurl -s \"$U\" -o p1.json\n# take last_indexes from the response and feed them back -- do NOT increment page\npython3 -c \"import json; p=json.load(open('p1.json'))['pagination']['last_indexes']; print(p)\""
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Schedule A and Schedule B refuse to page with page=N past the first few pages, and the fix is not more pages -- it is a different paging mechanism entirely.",
+      "fix": "Use keyset pagination: read pagination.last_indexes from each response and pass its members (last_index, last_contribution_receipt_date) as query parameters on the next call. Incrementing `page` silently returns wrong or repeated rows on these two endpoints while working fine on every other one, which is why it takes so long to notice."
+    },
+    {
+      "trap": "An unfiltered Schedule A query returns 400, not data, and the message is easy to read as a malformed request.",
+      "fix": "It is telling you what it needs. Supply two_year_transaction_period, or one of committee_id, contributor_id, contributor_name, contributor_city, contributor_zip, contributor_employer, contributor_occupation or image_number. Verified 2026-09-10."
+    },
+    {
+      "trap": "Contributions are itemised only above a threshold, so small-dollar giving is invisible at the transaction level -- and the threshold has changed over time.",
+      "fix": "Use the committee totals endpoints for unitemised sums. An analysis of 'who gave' built only on Schedule A systematically over-represents large donors, which is a finding about the data rather than about donors."
+    },
+    {
+      "trap": "The same person appears as many contributor strings -- 'SMITH, JOHN', 'Smith, John A.', 'JOHN SMITH' -- with employer and occupation self-reported and frequently blank or 'NONE'.",
+      "fix": "There is no donor id. Any per-person aggregation is a record-linkage problem you have to solve and should disclose. contributor_id exists only for committee-to-committee transfers."
+    },
+    {
+      "trap": "Amendments. A committee refiles a report and both the original and the amendment are in the data, so summing naively double-counts.",
+      "fix": "Filter on is_individual and prefer the endpoints that already deduplicate (the totals and by_* aggregates) when you want a sum rather than a transaction list."
+    },
+    {
+      "trap": "'Cycle' and 'two_year_transaction_period' look interchangeable and are not.",
+      "fix": "two_year_transaction_period is the two-year window the transaction falls in; cycle is the election cycle the committee is filing for. A Senate candidate runs on a six-year cycle and their filings span three two-year periods."
+    }
+  ],
+  "fields": [
+    "candidate_id -- H/S/P prefix plus state and number, e.g. S2MA00170",
+    "committee_id -- C followed by 8 digits; the join key for almost everything",
+    "two_year_transaction_period -- required on Schedule A; not the same as cycle",
+    "pagination.last_indexes -- the keyset cursor for Schedules A and B",
+    "contributor_employer / contributor_occupation -- self-reported, often blank, never normalised",
+    "is_individual -- separates individual contributions from transfers and refunds"
+  ],
+  "see_also": [
+    {
+      "name": "FEC bulk downloads",
+      "url": "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+      "note": "whole-cycle CSVs -- far faster than paging the API for anything above a few hundred thousand rows"
+    },
+    {
+      "name": "OpenSecrets",
+      "url": "https://www.opensecrets.org/open-data/api-documentation",
+      "note": "the same filings with donor and industry classification added; free key, non-commercial"
+    },
+    {
+      "name": "Sale or use of contributor information",
+      "url": "https://www.fec.gov/updates/sale-or-use-contributor-information/",
+      "note": "the statutory restriction on what you may do with contributor names -- read before building anything commercial"
+    }
+  ],
+  "related": [
+    "propublica-apis",
+    "congress-gov",
+    "usaspending"
+  ],
+  "added": "2026-09-10",
+  "verified": "2026-09-10",
+  "status": "live"
+}

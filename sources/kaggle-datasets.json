@@ -1,0 +1,130 @@
+{
+  "id": "kaggle-datasets",
+  "name": "Kaggle Datasets",
+  "publisher": "Kaggle (Google)",
+  "homepage": "https://www.kaggle.com/datasets",
+  "description": "The largest meta-catalogue of user-uploaded tabular data -- several hundred thousand public datasets, most of them CSV, each with a title, subtitle, size, upload date, usability score and a declared licence. It is a re-publishing layer rather than a primary source: much of what is here is a copy of something from a government or academic publisher, sometimes cleaned, sometimes silently altered. Useful for finding out whether a tidy version of something already exists, and for the genuinely Kaggle-native material (competition data, scraped corpora).",
+  "topics": [
+    "meta-catalogue",
+    "machine learning",
+    "tabular data",
+    "community data"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "2016",
+    "end": "present",
+    "grain": "per dataset, per version",
+    "updated": "continuously; some datasets are on daily auto-refresh, most are one-off uploads"
+  },
+  "license": {
+    "name": "per dataset -- CC0, CC-BY, ODbL, 'Other', and 'Unknown' all appear",
+    "url": "https://www.kaggle.com/terms",
+    "redistribution": "read licenseNameNullable on each dataset before republishing. A large share say 'Unknown', and an uploader's declared licence is not evidence they had the right to grant it -- check the upstream source the description names."
+  },
+  "access": {
+    "auth": "api-key-free",
+    "auth_note": "The documented route is a free kaggle.json token from https://www.kaggle.com/settings, used by the kaggle CLI. In practice the list, view and download endpoints answered keyless on 2026-09-10 -- see the gotchas. Treat the token as required and the keyless route as a convenience that may close.",
+    "formats": [
+      "csv",
+      "json",
+      "sqlite",
+      "parquet",
+      "zip"
+    ],
+    "bulk": true,
+    "size_hint": "typical dataset 1-100 MB; the cap for a single dataset is 100 GB",
+    "rate_limit": "not published; the CLI is single-threaded by default and that is the right pace",
+    "pagination": "page=N on the list endpoints, 20 per page, no total count returned"
+  },
+  "probes": [
+    {
+      "id": "datasets-list-keyless",
+      "description": "Search the catalogue with no credentials at all",
+      "url": "https://www.kaggle.com/api/v1/datasets/list?search=tennis&page=1",
+      "range_bytes": 4096,
+      "expect": {
+        "content_type": "json",
+        "body_contains": [
+          "urlNullable",
+          "licenseNameNullable"
+        ]
+      },
+      "note": "Documented as requiring a token. It did not on 2026-09-10. If this probe starts failing, the keyless route closed and the gotcha below needs rewriting rather than deleting."
+    },
+    {
+      "id": "datasets-view",
+      "description": "Metadata for one known dataset",
+      "url": "https://www.kaggle.com/api/v1/datasets/view/uciml/iris",
+      "range_bytes": 4096,
+      "expect": {
+        "content_type": "json",
+        "body_contains": [
+          "iris"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Search the catalogue without installing anything",
+      "lang": "bash",
+      "code": "curl -s 'https://www.kaggle.com/api/v1/datasets/list?search=air+quality&page=1' | python3 -m json.tool | head -40"
+    },
+    {
+      "title": "The documented route",
+      "lang": "bash",
+      "code": "pip install kaggle   # then put kaggle.json in ~/.kaggle/ with mode 600\nkaggle datasets list -s 'air quality'\nkaggle datasets download -d uciml/iris --unzip -p ./data"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Everything you read says you must create a kaggle.json token before you can touch the API, so the first hour goes into account setup for a question that is really 'does a tidy version of X exist'.",
+      "fix": "On 2026-09-10, GET https://www.kaggle.com/api/v1/datasets/list?search=TERM answered 200 with full JSON and no credentials, as did /datasets/view/OWNER/SLUG, and /datasets/download/OWNER/SLUG 302'd to a signed storage.googleapis.com URL that fetched without auth. Undocumented, so do not build a pipeline on it -- but for browsing, curl is enough."
+    },
+    {
+      "trap": "The JSON field names are not what the docs show. Every nullable field carries a Nullable suffix in the wire format.",
+      "fix": "titleNullable, subtitleNullable, urlNullable, totalBytesNullable, licenseNameNullable, creatorNameNullable. Code written against the documented names silently reads None."
+    },
+    {
+      "trap": "Kaggle is a mirror, not a publisher. A 'World Happiness Report 2019' dataset is one person's copy of the real report, possibly with columns renamed, rows dropped or a year quietly missing.",
+      "fix": "Read the description for the upstream source and go there for anything that has to be defensible. Use Kaggle to find out what exists and how people have shaped it, not as the citation."
+    },
+    {
+      "trap": "The list endpoint returns no total count and no next-page marker, so a naive loop either stops at page 1 or never stops.",
+      "fix": "Page until you get a short or empty array. There is no hits header."
+    },
+    {
+      "trap": "A dataset's URL slug is stable but its contents are not -- owners push new versions in place, and the default download gives you the newest.",
+      "fix": "Pin with the version parameter on the download endpoint if reproducibility matters, and record currentVersionNumber alongside the data."
+    }
+  ],
+  "fields": [
+    "ref -- owner/slug, the only durable identifier",
+    "licenseNameNullable -- often 'Unknown'; check before you republish anything",
+    "totalBytesNullable -- decide whether to download before you download",
+    "usabilityRatingNullable -- Kaggle's own completeness score, a decent proxy for whether columns are documented",
+    "currentVersionNumber -- record it; datasets are updated in place",
+    "isPrivate, isReviewed -- filter both when harvesting"
+  ],
+  "see_also": [
+    {
+      "name": "Kaggle API docs",
+      "url": "https://www.kaggle.com/docs/api",
+      "note": "the documented, token-based route"
+    },
+    {
+      "name": "Hugging Face Datasets",
+      "url": "https://huggingface.co/datasets",
+      "note": "the same role for ML-shaped data, with a better-specified API -- catalogued here as huggingface-datasets"
+    }
+  ],
+  "related": [
+    "huggingface-datasets",
+    "zenodo",
+    "data-gov"
+  ],
+  "added": "2026-09-10",
+  "verified": "2026-09-10",
+  "status": "live"
+}

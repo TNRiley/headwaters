@@ -43,6 +43,7 @@
   .facet button.on{background:#17304a;color:#cfe6ff}
   .facet button i{font-style:normal;color:var(--dimmer);font-family:var(--mono);font-size:11px}
   .facet .more{color:var(--dimmer);font-size:11.5px;padding-left:6px}
+  .facet .fnote{color:var(--dimmer);font-size:11px;line-height:1.4;margin:-1px 0 6px;padding-left:6px}
 
   main{padding:18px 26px 90px;min-width:0}
   .searchrow{display:flex;gap:9px;align-items:center;margin-bottom:12px}
@@ -60,7 +61,12 @@
   .overview{border:1px solid var(--line);border-radius:10px;padding:14px 16px 10px;margin-bottom:16px;background:var(--bg2)}
   .overview h4{margin:0 0 10px;font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--dimmer);font-weight:600;
     display:flex;justify-content:space-between}
-  .overview h4 span{cursor:pointer;color:var(--dim);letter-spacing:0;text-transform:none;font-size:11.5px}
+  /* Target the toggle by id, not `h4 span`. The heading is a flex row, so every child is a
+     flex item: a bare `h4 span` rule also caught the label and space-between then pushed
+     the label's own pieces to opposite ends of the card. */
+  .overview h4 #ovtoggle{cursor:pointer;color:var(--dim);letter-spacing:0;text-transform:none;font-size:11.5px;flex:none;margin-left:12px}
+  .overview h4 .ovlab{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .overview h4 .ovlab b{color:var(--ink)}
   .bars{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:2px 22px}
   .barrow{display:grid;grid-template-columns:132px 1fr 30px;align-items:center;gap:9px;cursor:pointer;
     padding:2px 4px;border-radius:5px}
@@ -232,11 +238,24 @@
         // How a dataset was found is worth filtering on: the two aggregations select for
         // very different things, and a dataset both of them surfaced is independently
         // interesting twice. Multi-valued on purpose -- a record can carry several sightings.
-        {key:'agg',      label:'Found via',     get:function(d){
+        // The label says "surfaced by" and carries a note, because "sources" here meant two
+        // different things: this short list is the aggregations that found the datasets,
+        // while the Sources tab is the endpoints you can query. Two entries beside a tab
+        // reading 42 looked like a bug.
+        {key:'agg',      label:'Surfaced by',   note:'The newsletter or project that found the dataset. Not its publisher, and not the Sources tab &mdash; those are the endpoints you can query.',
+         get:function(d){
             return d.found_in.map(function(f){ return AGG[f.aggregation] || f.aggregation; }); }},
-        {key:'year',     label:'Surfaced',      get:function(d){ return d.found_in.map(function(f){return String(f.year);}); }, cap:12},
+        {key:'year',     label:'Year surfaced', get:function(d){ return d.found_in.map(function(f){return String(f.year);}); }, cap:12},
         {key:'cols',     label:'Detail',        get:function(d){
-            return [(d.tables||[]).some(function(t){return (t.columns||[]).length;}) ? 'column names known' : 'files only']; }}
+            return [(d.tables||[]).some(function(t){return (t.columns||[]).length;}) ? 'column names known' : 'files only']; }},
+        // Subject is filtered from the bar chart above the list rather than from this
+        // column, so it is marked hidden and drawFacets skips it. The definition still has
+        // to exist here: matches() resolves a facet key by looking it up in this list and
+        // silently ignores any key it does not find. Without this entry, clicking a bar set
+        // state.facets.subject, highlighted the bar and lit up "clear filters" -- and
+        // filtered nothing at all, because the lookup failed and the loop moved on.
+        {key:'subject',  label:'About what',    hidden:true,
+         get:function(d){ return d.subjects||[]; }}
       ],
       hay:function(d){ return [d.title, d.hook, (d.subjects||[]).join(' '),
         (d.sources||[]).map(function(s){return s.name;}).join(' '),
@@ -299,9 +318,12 @@
     return null;
   }
 
-  function matches(r, mode){
+  // `skip` lifts one facet from the test, so the subject chart can count what the other
+  // filters leave rather than what it has itself narrowed to.
+  function matches(r, mode, skip){
     var M = MODES[mode];
     for(var k in state.facets){
+      if(k === skip) continue;
       var want = state.facets[k]; if(!want) continue;
       var f = null;
       M.facets.forEach(function(x){ if(x.key===k) f=x; });
@@ -320,12 +342,14 @@
   function drawFacets(mode){
     var M = MODES[mode], all = M.all(), html = '';
     M.facets.forEach(function(f){
+      if(f.hidden) return;                       // it has its own UI elsewhere on the page
       var counts = {};
       all.forEach(function(r){ f.get(r).forEach(function(v){ counts[v]=(counts[v]||0)+1; }); });
       var keys = Object.keys(counts).sort(function(a,b){ return counts[b]-counts[a] || a.localeCompare(b); });
       if(f.key==='year') keys.sort(function(a,b){ return b.localeCompare(a); });
       var cap = f.cap || 99, hidden = Math.max(0, keys.length-cap);
       html += '<div class="facet"><h3>'+f.label+'</h3>';
+      if(f.note) html += '<div class="fnote">'+f.note+'</div>';
       keys.slice(0,cap).forEach(function(k){
         var on = state.facets[f.key]===k;
         html += '<button class="'+(on?'on':'')+'" data-f="'+esc(f.key)+'" data-v="'+esc(k)+'">'+
@@ -345,16 +369,23 @@
     });
   }
 
-  function drawOverview(vis){
+  // `vis` is what the list is showing; `barSet` is what the bars count. They differ only
+  // when a subject is selected: the bars then count the set with the subject filter lifted,
+  // so every subject stays on screen and clicking another one moves you sideways. Counting
+  // `vis` would leave a chart of exactly one bar and no way back.
+  function drawOverview(vis, barSet){
     var el = document.getElementById('overview');
     if(state.mode!=='datasets'){ el.innerHTML=''; return; }
     var counts = {};
-    vis.forEach(function(d){ (d.subjects||[]).forEach(function(s){ counts[s]=(counts[s]||0)+1; }); });
+    (barSet||vis).forEach(function(d){ (d.subjects||[]).forEach(function(s){ counts[s]=(counts[s]||0)+1; }); });
     var keys = Object.keys(counts).sort(function(a,b){ return counts[b]-counts[a] || a.localeCompare(b); });
     if(!keys.length){ el.innerHTML=''; return; }
     var max = counts[keys[0]];
-    var head = '<h4>What the '+vis.length+' datasets are about'+
-      '<span id="ovtoggle">'+(state.overview?'hide':'show')+'</span></h4>';
+    var sel = state.facets.subject;
+    var head = '<h4><span class="ovlab">'+
+      (sel ? 'Showing '+vis.length+' about <b>'+esc(sel)+'</b> &mdash; click it again to clear, or another to switch'
+           : 'What the '+vis.length+' datasets are about &mdash; click a bar to filter')+
+      '</span><span id="ovtoggle">'+(state.overview?'hide':'show')+'</span></h4>';
     if(!state.overview){ el.innerHTML = '<div class="overview">'+head+'</div>'; wireOverview(); return; }
     var rows = keys.map(function(k){
       var on = state.facets.subject===k;
@@ -415,7 +446,9 @@
         return a.name.localeCompare(b.name);
       });
     }
-    drawOverview(vis);
+    drawOverview(vis, state.facets.subject
+      ? M.all().filter(function(r){ return matches(r, mode, 'subject'); })
+      : vis);
 
     var filtered = activeFacets() || state.q;
     document.getElementById('count').innerHTML =
@@ -668,9 +701,12 @@
     .map(function(x){ return '<div class="stat '+x[2]+'"><b>'+x[1].toLocaleString()+'</b><span>'+x[0]+'</span></div>'; }).join('');
 
   document.getElementById('foot').innerHTML =
-    'Datasets are every week of <a href="https://github.com/rfordatascience/tidytuesday" target="_blank" rel="noopener">TidyTuesday</a> '+
-    'since April 2018, classified by subject and publisher. Sources are the endpoints behind data like it, with live probe results '+
-    '(last run <b>'+esc((H.checked||'never').replace('T',' ').replace('+00:00',' UTC'))+'</b>). '+
+    '<b>Datasets</b> are ones somebody already went and found: every week of '+
+    '<a href="https://github.com/rfordatascience/tidytuesday" target="_blank" rel="noopener">TidyTuesday</a> since April 2018 '+
+    'and ten years of <a href="https://www.data-is-plural.com/" target="_blank" rel="noopener">Data Is Plural</a>, '+
+    'classified by subject and publisher. Those two are the whole of &ldquo;surfaced by&rdquo;. '+
+    '<b>Sources</b> is a different thing &mdash; the endpoints you can query yourself, each with its licence, '+
+    'rate limit, traps and live probe results (last run <b>'+esc((H.checked||'never').replace('T',' ').replace('+00:00',' UTC'))+'</b>). '+
     'Everything is JSON in <a href="https://github.com/TNRiley/headwaters" target="_blank" rel="noopener">the repository</a>. '+
     '<span style="color:var(--dimmer)">Press <kbd>/</kbd> to search, <kbd>esc</kbd> to close a record.</span>';
 

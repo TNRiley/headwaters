@@ -1,0 +1,159 @@
+{
+  "id": "sec-edgar",
+  "name": "SEC EDGAR (submissions, XBRL frames and full-text search)",
+  "publisher": "US Securities and Exchange Commission",
+  "homepage": "https://www.sec.gov/edgar/sec-api-documentation",
+  "description": "Every disclosure filed with the SEC since 1993-1994, plus a set of keyless JSON endpoints over the structured parts of it. submissions/CIK##########.json gives a company's whole filing history; api/xbrl/companyfacts gives every number that company has ever tagged in XBRL, with the filing and fiscal period each came from; api/xbrl/frames inverts it -- one concept for one period across every filer at once. No key, no registration, no quota, and it is the authoritative copy rather than a vendor's cleaning of it.",
+  "topics": [
+    "finance",
+    "companies",
+    "regulation",
+    "accounting",
+    "ownership",
+    "US government"
+  ],
+  "geography": "US (any issuer that files with the SEC, including foreign private issuers)",
+  "temporal": {
+    "start": "1993-1994 for full-text filings; XBRL facts from about 2009",
+    "end": "present",
+    "grain": "per filing",
+    "updated": "filings appear within minutes; the bulk zips are rebuilt nightly"
+  },
+  "license": {
+    "name": "US government work, public domain",
+    "url": "https://www.sec.gov/about/privacy-information",
+    "redistribution": "unrestricted; the SEC asks only that you identify your traffic"
+  },
+  "access": {
+    "auth": "none",
+    "auth_note": "No key. The SEC instead requires a declared User-Agent carrying a real contact -- and rejects some perfectly honest ones. Read the first gotcha before you write anything.",
+    "formats": [
+      "json",
+      "xml",
+      "html",
+      "txt",
+      "zip (bulk)"
+    ],
+    "bulk": true,
+    "size_hint": "one companyfacts document is 1-20 MB for a large filer; the companyfacts bulk zip is about 1.5 GB",
+    "rate_limit": "10 requests per second, published and enforced; exceeding it blocks the IP for a window rather than answering 429",
+    "etiquette": "stay under 10 req/s, send a contact in the User-Agent, and pull the nightly bulk zip instead of iterating companies one by one"
+  },
+  "probes": [
+    {
+      "id": "submissions-aapl",
+      "description": "One company's whole filing history",
+      "url": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "headers": {
+        "User-Agent": "Headwaters Catalogue headwaters@example.com"
+      },
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "Apple Inc.",
+          "0000320193"
+        ]
+      },
+      "note": "The User-Agent is overridden on purpose: the catalogue's normal prober UA contains a github.com URL and the SEC 403s it. See the first gotcha."
+    },
+    {
+      "id": "xbrl-companyconcept",
+      "description": "One XBRL concept for one filer, every period it was reported",
+      "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000320193/us-gaap/AccountsPayableCurrent.json",
+      "headers": {
+        "User-Agent": "Headwaters Catalogue headwaters@example.com"
+      },
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "AccountsPayableCurrent",
+          "USD"
+        ]
+      }
+    },
+    {
+      "id": "default-ua-refused",
+      "description": "The same request with a library's default User-Agent",
+      "url": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "headers": {
+        "User-Agent": "python-requests/2.32.3"
+      },
+      "known_broken": "403 on 2026-09-10, with an HTML page titled 'Your Request Originates from an Undeclared Automated Tool'. curl/8.0 is refused the same way. This probe exists so the catalogue notices if the SEC ever relaxes it.",
+      "expect": {
+        "body_contains": [
+          "cik"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Ticker to CIK, then that company's XBRL facts",
+      "lang": "bash",
+      "code": "UA='Your Name your@email.com'\ncurl -s -A \"$UA\" https://www.sec.gov/files/company_tickers.json -o tickers.json\nCIK=$(python3 -c \"import json; d=json.load(open('tickers.json')); print('%010d' % next(v['cik_str'] for v in d.values() if v['ticker']=='AAPL'))\")\ncurl -s -A \"$UA\" \"https://data.sec.gov/api/xbrl/companyfacts/CIK$CIK.json\" | head -c 400"
+    },
+    {
+      "title": "One concept for one quarter across every filer that reported it",
+      "lang": "bash",
+      "code": "curl -s -A 'Your Name your@email.com' 'https://data.sec.gov/api/xbrl/frames/us-gaap/Revenues/USD/CY2024Q1.json' | head -c 400"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "The docs say to declare your traffic by putting company information in the User-Agent. A User-Agent containing a github.com URL is 403'd anyway -- including the polite, contactable form most open-source crawlers use.",
+      "fix": "Tested 2026-09-10 against data.sec.gov/submissions/CIK0000320193.json: 'Acme Research acme@example.com' -> 200, 'Headwaters Catalogue headwaters@example.com' -> 200, but 'Headwaters tnril@github.com' -> 403 and 'Headwaters tnril@users.noreply.github.com' -> 403. Substituting only the domain flipped the result, so the trigger is the literal string github.com in the User-Agent, not the shape of the header. Use a name plus a non-github contact address. python-requests and curl default UAs are refused outright."
+    },
+    {
+      "trap": "Once the SEC has seen an undeclared tool from your IP it keeps refusing for a while, so the first fix you try appears not to work and you go on changing the wrong thing.",
+      "fix": "After a 403, wait a minute before concluding a new User-Agent failed. The block is on the address, not only on the request."
+    },
+    {
+      "trap": "The refusal is an HTML page, and some clients surface it without an obvious error.",
+      "fix": "Check the content-type, not only the status. Same class of silent failure as the Census keyless redirect -- see census-acs."
+    },
+    {
+      "trap": "CIK must be zero-padded to ten digits in data.sec.gov paths.",
+      "fix": "data.sec.gov/submissions/CIK0000320193.json works; CIK320193 does not. Format with '%010d'."
+    },
+    {
+      "trap": "companyfacts returns every fact the filer ever tagged, including restatements and amendments, so the same fiscal period appears several times with different values.",
+      "fix": "Each entry carries accn, fy, fp, form, filed and sometimes frame. Take the latest filed per (fy, fp), or keep only entries that have a frame -- those are the ones the SEC treats as canonical for the period."
+    },
+    {
+      "trap": "us-gaap concept names are not stable across companies. Revenue is Revenues for some filers, RevenueFromContractWithCustomerExcludingAssessedTax for others, and SalesRevenueNet historically.",
+      "fix": "Do not build on one concept name. Pull companyfacts once and see which us-gaap keys that filer actually uses, or query frames for each candidate concept and union them."
+    }
+  ],
+  "fields": [
+    "cik -- the SEC's company key; zero-pad to 10 in data.sec.gov paths",
+    "accessionNumber / accn -- identifies one filing; the join key between submissions and XBRL facts",
+    "form -- 10-K, 10-Q, 8-K, 4 (insider trades), 13F-HR (institutional holdings), S-1",
+    "frame -- present only on the value the SEC treats as canonical for that period",
+    "fy / fp -- fiscal year and period, which are not calendar year and quarter",
+    "primaryDocument -- the filename to append to the Archives path to fetch the filing itself"
+  ],
+  "see_also": [
+    {
+      "name": "EDGAR full-text search",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=climate",
+      "note": "searches filing text since 2001; undocumented, keyless, and the only way to grep the prose rather than the XBRL"
+    },
+    {
+      "name": "Financial Statement Data Sets",
+      "url": "https://www.sec.gov/data-research/financial-statement-data-sets",
+      "note": "quarterly zips of every XBRL number filed, if you would rather not crawl at all"
+    },
+    {
+      "name": "Bulk companyfacts zip",
+      "url": "https://www.sec.gov/Archives/edgar/daily-index/xbrl/companyfacts.zip",
+      "note": "about 1.5 GB, rebuilt nightly -- one download beats iterating 8,000 companies"
+    }
+  ],
+  "related": [
+    "usaspending",
+    "federal-register"
+  ],
+  "added": "2026-09-10",
+  "verified": "2026-09-10",
+  "status": "live"
+}

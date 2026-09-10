@@ -1,0 +1,147 @@
+{
+  "id": "spotify-web-api",
+  "name": "Spotify Web API",
+  "publisher": "Spotify AB",
+  "homepage": "https://developer.spotify.com/documentation/web-api",
+  "description": "Catalogue metadata for roughly 100 million tracks -- artists, albums, release dates, popularity scores, markets, ISRCs -- plus a user's own library, playlists and listening history under OAuth. Long the standard source for music analytics because of its per-track audio features (danceability, energy, valence, tempo, acousticness). Those audio-feature endpoints are the reason most people come here and, since 27 November 2024, they are closed to every newly registered application. Catalogued as degraded for that reason: the API is alive, the thing it was famous for is not available to new work.",
+  "topics": [
+    "music",
+    "media",
+    "audio",
+    "entertainment",
+    "metadata"
+  ],
+  "geography": "global, with per-market availability on every track",
+  "temporal": {
+    "start": "catalogue covers recordings from the earliest commercial releases onward",
+    "end": "present",
+    "grain": "per track, album, artist, playlist",
+    "updated": "continuously"
+  },
+  "license": {
+    "name": "Spotify Developer Terms -- proprietary, not open data",
+    "url": "https://developer.spotify.com/terms",
+    "redistribution": "prohibited. You may display metadata with attribution and a link back to Spotify; you may not republish the catalogue, cache it beyond what the terms allow, or use Spotify content to train a machine learning or AI model (an explicit restriction in section IV of the terms)."
+  },
+  "access": {
+    "auth": "oauth",
+    "auth_note": "Client-credentials flow (client id + secret from https://developer.spotify.com/dashboard) is enough for catalogue reads; anything about a person needs the authorization-code flow and that user's consent. A new app starts in development mode, which allows at most 5 allowlisted Spotify users.",
+    "formats": [
+      "json"
+    ],
+    "bulk": false,
+    "size_hint": "one track object is ~2 KB; multi-get endpoints take up to 50 ids at once",
+    "rate_limit": "a rolling 30-second window, the exact figure undisclosed; endpoints share quota buckets and exceeding one returns 429 with Retry-After",
+    "pagination": "limit and offset, limit max 50, and search results are capped at 1,000 items"
+  },
+  "probes": [
+    {
+      "id": "api-unauthenticated",
+      "description": "A catalogue read with no token -- confirms the service is up and the gate is OAuth",
+      "url": "https://api.spotify.com/v1/search?q=abbey&type=album&limit=1",
+      "expect": {
+        "status": [
+          401
+        ],
+        "content_type": "json",
+        "body_contains": [
+          "Missing/invalid/expired access token"
+        ]
+      },
+      "note": "The catalogue itself cannot be probed without credentials, so this probe watches the auth boundary rather than the data. Verified 2026-09-10."
+    },
+    {
+      "id": "token-endpoint",
+      "description": "The client-credentials token endpoint, called with no client",
+      "method": "POST",
+      "url": "https://accounts.spotify.com/api/token",
+      "body": "grant_type=client_credentials",
+      "headers": {
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      "expect": {
+        "status": [
+          400
+        ],
+        "body_contains": [
+          "invalid_client"
+        ]
+      },
+      "note": "Proves the OAuth endpoint is answering and rejecting correctly. A 5xx here means the auth service is down, which looks identical to a bad secret from the caller's side."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Client-credentials token, then a catalogue search",
+      "lang": "bash",
+      "code": "TOKEN=$(curl -s -X POST https://accounts.spotify.com/api/token \\\n  -H 'Content-Type: application/x-www-form-urlencoded' \\\n  -d grant_type=client_credentials \\\n  -d client_id=$SPOTIFY_CLIENT_ID -d client_secret=$SPOTIFY_CLIENT_SECRET \\\n  | python3 -c 'import json,sys; print(json.load(sys.stdin)[\"access_token\"])')\ncurl -s -H \"Authorization: Bearer $TOKEN\" \\\n  'https://api.spotify.com/v1/search?q=artist:Radiohead&type=album&limit=5' | head -c 500"
+    },
+    {
+      "title": "Fifty tracks in one call rather than fifty calls",
+      "lang": "bash",
+      "code": "curl -s -H \"Authorization: Bearer $TOKEN\" \\\n  'https://api.spotify.com/v1/tracks?ids=11dFghVXANMlKmJXsNCbNl,7ouMYWpwJ422jRcDASZB7P&market=US' | head -c 400"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Audio features -- danceability, energy, valence, tempo, acousticness -- are the reason most projects reach for this API, and they are unavailable to any app registered on or after 27 November 2024.",
+      "fix": "Spotify's own announcement (developer.spotify.com/blog/2024-11-27-changes-to-the-web-api, verified 2026-09-10) says new use cases 'will no longer be able to access or use' Audio Features, Audio Analysis, Recommendations, Related Artists, Get Featured Playlists, Get Category's Playlists, 30-second preview URLs in multi-get responses, and algorithmic or Spotify-owned editorial playlists. It applies to apps registered on or after that date and to existing development-mode apps without a pending extension request. Apps already in extended mode keep them. If your project needs audio features, use AcousticBrainz or Essentia on audio you have rights to, and plan around Spotify for identifiers and metadata only."
+    },
+    {
+      "trap": "Development mode looks like a formality you graduate from. It is not, for an individual.",
+      "fix": "Development mode allows at most 5 allowlisted Spotify users, and a non-allowlisted user can log in successfully and then get 403 on every request -- which reads as a bug in your code. The quota-extension route requires 'an established business entity', a launched service, and at least 250,000 monthly active users, with review taking up to six weeks (developer.spotify.com/documentation/web-api/concepts/quota-modes, read 2026-09-10). A hobby project cannot pass that bar, so design for 5 users or do not build on it."
+    },
+    {
+      "trap": "The terms forbid using Spotify content to train a machine learning or AI model, and forbid republishing the metadata.",
+      "fix": "Read section IV before planning any dataset-building project. This is a closed commercial API with a free tier, not an open data source, and Headwaters catalogues it as such."
+    },
+    {
+      "trap": "`popularity` looks like a play count. It is a 0-100 score that Spotify recomputes and that decays with time, so the same track scores differently month to month and the number is not comparable across snapshots.",
+      "fix": "Record the date you fetched it and never compare popularity values captured at different times as though they were a trend."
+    },
+    {
+      "trap": "Track availability is per market, and omitting `market` returns objects whose available_markets array you then have to filter yourself -- or, on some endpoints, nulls.",
+      "fix": "Always pass market=US (or the market you mean). Track relinking means the same song has different ids in different markets, so ids collected without a market do not join cleanly."
+    },
+    {
+      "trap": "Access tokens from the client-credentials flow expire in an hour and the API returns 401, which is the same status as 'you never authenticated'.",
+      "fix": "Refresh on 401 once before treating it as a credentials failure, and do not cache a token past expires_in."
+    }
+  ],
+  "fields": [
+    "id / uri -- Spotify's own key; there is no public crosswalk to MusicBrainz",
+    "external_ids.isrc -- the industry recording identifier, and the only reliable join to other music datasets",
+    "popularity -- 0-100, recomputed over time, not a play count",
+    "available_markets -- per-country availability; pass market= instead of filtering this yourself",
+    "album.release_date_precision -- 'year', 'month' or 'day'; parsing release_date without checking it produces fake January 1sts"
+  ],
+  "see_also": [
+    {
+      "name": "MusicBrainz",
+      "url": "https://musicbrainz.org/doc/MusicBrainz_API",
+      "note": "open (CC0 core data), keyless, no 5-user cap -- the right base layer for a music project that has to be redistributable"
+    },
+    {
+      "name": "AcousticBrainz",
+      "url": "https://acousticbrainz.org/",
+      "note": "open audio features computed with Essentia, keyed by MusicBrainz id -- the open stand-in for what Spotify closed. Collection ended in 2022, so it is a fixed archive, not a live feed."
+    },
+    {
+      "name": "Changes to Web API (27 Nov 2024)",
+      "url": "https://developer.spotify.com/blog/2024-11-27-changes-to-the-web-api",
+      "note": "the announcement that closed the audio-feature endpoints to new apps"
+    },
+    {
+      "name": "Quota modes",
+      "url": "https://developer.spotify.com/documentation/web-api/concepts/quota-modes",
+      "note": "the 5-user development cap and the 250k-MAU extension bar"
+    }
+  ],
+  "related": [
+    "itunes-search",
+    "wikidata"
+  ],
+  "added": "2026-09-10",
+  "verified": "2026-09-10",
+  "status": "degraded"
+}

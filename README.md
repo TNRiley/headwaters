@@ -12,8 +12,9 @@ Two layers, deliberately different:
   teachable, column names known) and ten years of
   [Data Is Plural](https://www.data-is-plural.com/) (odd, specific, hard to believe it
   exists). A dataset both of them surfaced is one record with two sightings, and the
-  **Found via** facet filters on that.
-- **`sources/`** — 40 endpoints you can query repeatedly, each described well enough to use
+  **Surfaced by** facet filters on that — it names the aggregation that found the dataset,
+  which is why it lists two entries while the Sources tab lists dozens.
+- **`sources/`** — 54 endpoints you can query repeatedly, each described well enough to use
   from a shell, and **probed**, so the catalogue can say whether it still answers.
 
 A dataset is a thing you might want to work with. A source is a thing you query. The join

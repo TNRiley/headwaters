@@ -1,27 +1,44 @@
 {
-  "checked": "2026-09-07T15:06:56+00:00",
+  "checked": "2026-09-10T21:50:00+00:00",
   "probe_version": 1,
   "summary": {
-    "ok": 78,
+    "ok": 99,
     "fail": 3,
-    "expected_fail": 5
+    "expected_fail": 9,
+    "partial": true
   },
   "changes": [
     {
-      "source": "arxiv",
-      "probe": "query",
-      "change": "recovered",
-      "from": "throttled",
-      "to": "ok",
-      "detail": "status 206"
+      "source": "openaq",
+      "probe": "v2-retired",
+      "change": "new",
+      "from": null,
+      "to": "dead",
+      "detail": "first run: dead -- status 410, wanted [200, 206]; body missing 'results'"
     },
     {
-      "source": "overpass",
-      "probe": "small-bbox",
-      "change": "broke",
-      "from": "ok",
-      "to": "failing",
-      "detail": "status 504, wanted [200, 206]; body missing 'generator'"
+      "source": "propublica-apis",
+      "probe": "campaign-finance-candidates",
+      "change": "new",
+      "from": null,
+      "to": "dead",
+      "detail": "first run: dead -- status 401, wanted [200, 206]; body missing 'results'"
+    },
+    {
+      "source": "propublica-apis",
+      "probe": "congress-members",
+      "change": "new",
+      "from": null,
+      "to": "dead",
+      "detail": "first run: dead -- status 401, wanted [200, 206]; body missing 'results'"
+    },
+    {
+      "source": "sec-edgar",
+      "probe": "default-ua-refused",
+      "change": "new",
+      "from": null,
+      "to": "dead",
+      "detail": "first run: dead -- status 403, wanted [200, 206]; body missing 'cik'"
     }
   ],
   "results": {
@@ -1053,6 +1070,307 @@
         "length_header": "13015",
         "ms": 683,
         "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "congress-gov": {
+      "bill-list-demo-key": {
+        "url": "https://api.congress.gov/v3/bill?api_key=DEMO_KEY&limit=1",
+        "checked": "2026-09-10T21:49:35+00:00",
+        "status": 206,
+        "content_type": "application/json",
+        "length_header": "bytes 0-1110/1111",
+        "ms": 448,
+        "bytes_read": 1111,
+        "ok": true,
+        "known_broken": null
+      },
+      "member-list-demo-key": {
+        "url": "https://api.congress.gov/v3/member?api_key=DEMO_KEY&limit=1",
+        "checked": "2026-09-10T21:49:37+00:00",
+        "status": 206,
+        "content_type": "application/json",
+        "length_header": "bytes 0-1176/1177",
+        "ms": 371,
+        "bytes_read": 1177,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "eurostat": {
+      "statistics-json": {
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?format=JSON&geo=DE&time=2022&na_item=B1GQ&unit=CP_MEUR",
+        "checked": "2026-09-10T21:49:38+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "length_header": "2913",
+        "ms": 363,
+        "bytes_read": 2913,
+        "ok": true,
+        "known_broken": null
+      },
+      "catalogue-toc": {
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/catalogue/toc/txt?lang=en",
+        "checked": "2026-09-10T21:49:39+00:00",
+        "status": 200,
+        "content_type": "text/plain;charset=UTF-8",
+        "ms": 338,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "fred": {
+      "fredgraph-csv-keyless": {
+        "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&cosd=2020-01-01&coed=2020-06-01",
+        "checked": "2026-09-10T21:49:40+00:00",
+        "status": 206,
+        "content_type": "application/csv",
+        "length_header": "bytes 0-116/117",
+        "ms": 91,
+        "bytes_read": 117,
+        "ok": true,
+        "known_broken": null
+      },
+      "api-keyless-refused": {
+        "url": "https://api.stlouisfed.org/fred/series?series_id=GNPCA&file_type=json",
+        "checked": "2026-09-10T21:49:40+00:00",
+        "status": 400,
+        "content_type": "application/json; charset=UTF-8",
+        "ms": 167,
+        "bytes_read": 162,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "kaggle-datasets": {
+      "datasets-list-keyless": {
+        "url": "https://www.kaggle.com/api/v1/datasets/list?search=tennis&page=1",
+        "checked": "2026-09-10T21:49:41+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "ms": 131,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "datasets-view": {
+        "url": "https://www.kaggle.com/api/v1/datasets/view/uciml/iris",
+        "checked": "2026-09-10T21:49:43+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "ms": 152,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "nasa-cmr": {
+      "collections-keyword": {
+        "url": "https://cmr.earthdata.nasa.gov/search/collections.json?keyword=sea+surface+temperature&page_size=2",
+        "checked": "2026-09-10T21:49:43+00:00",
+        "status": 200,
+        "content_type": "application/json;charset=utf-8",
+        "ms": 163,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "granules-short-name": {
+        "url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=MOD11A1&page_size=1",
+        "checked": "2026-09-10T21:49:45+00:00",
+        "status": 200,
+        "content_type": "application/json;charset=utf-8",
+        "length_header": "7519",
+        "ms": 200,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "openaq": {
+      "v3-keyless-refused": {
+        "url": "https://api.openaq.org/v3/locations?limit=2",
+        "checked": "2026-09-10T21:49:45+00:00",
+        "status": 401,
+        "content_type": "application/json",
+        "ms": 178,
+        "bytes_read": 86,
+        "ok": true,
+        "known_broken": null
+      },
+      "v2-retired": {
+        "url": "https://api.openaq.org/v2/locations?limit=2",
+        "checked": "2026-09-10T21:49:47+00:00",
+        "status": 410,
+        "content_type": "application/json",
+        "ms": 35,
+        "bytes_read": 134,
+        "ok": false,
+        "why": [
+          "status 410, wanted [200, 206]",
+          "body missing 'results'"
+        ],
+        "preview": "{\"message\": \"Gone. Version 1 and Version 2 API endpoints are retired and no longer available. Please migrate to Version 3 endpoints.\"}",
+        "known_broken": "410 Gone on 2026-09-10: 'Version 1 and Version 2 API endpoints are retired and no longer available. Please migrate to Version 3 endpoints.' Recorded because a large amount of published code, and most search results, still call v2."
+      }
+    },
+    "openfec": {
+      "candidates-demo-key": {
+        "url": "https://api.open.fec.gov/v1/candidates/?api_key=DEMO_KEY&per_page=1",
+        "checked": "2026-09-10T21:49:47+00:00",
+        "status": 206,
+        "content_type": "application/json",
+        "length_header": "bytes 0-743/744",
+        "ms": 442,
+        "bytes_read": 744,
+        "ok": true,
+        "known_broken": null
+      },
+      "schedule-a-needs-filter": {
+        "url": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=DEMO_KEY&per_page=1",
+        "checked": "2026-09-10T21:49:49+00:00",
+        "status": 400,
+        "content_type": "application/json",
+        "ms": 322,
+        "bytes_read": 289,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "propublica-apis": {
+      "congress-members": {
+        "url": "https://api.propublica.org/congress/v1/119/senate/members.json",
+        "checked": "2026-09-10T21:49:50+00:00",
+        "status": 401,
+        "content_type": "application/json",
+        "ms": 187,
+        "bytes_read": 26,
+        "ok": false,
+        "why": [
+          "status 401, wanted [200, 206]",
+          "body missing 'results'"
+        ],
+        "preview": "{\"message\":\"Unauthorized\"}",
+        "known_broken": "401 {\"message\":\"Unauthorized\"} on 2026-09-10, with no way to obtain a key. The API's own documentation at projects.propublica.org/api-docs/congress-api/ states: 'ProPublica's Congress API is no longer available. This documentation should only be used as a historical reference.' The docs site still serves 200, so a link-checker sees a healthy source and a client sees a dead one."
+      },
+      "campaign-finance-candidates": {
+        "url": "https://api.propublica.org/campaign-finance/v1/2024/candidates/search.json?query=smith",
+        "checked": "2026-09-10T21:49:51+00:00",
+        "status": 401,
+        "content_type": "application/json",
+        "ms": 65,
+        "bytes_read": 26,
+        "ok": false,
+        "why": [
+          "status 401, wanted [200, 206]",
+          "body missing 'results'"
+        ],
+        "preview": "{\"message\":\"Unauthorized\"}",
+        "known_broken": "401 {\"message\":\"Unauthorized\"} on 2026-09-10. Unlike the Congress API, the campaign-finance documentation page carries no retirement banner and still describes a 'Get an API Key' step -- but that key request page redirects away, so the documentation is misleading rather than merely stale. Use OpenFEC instead; see openfec."
+      }
+    },
+    "sec-edgar": {
+      "submissions-aapl": {
+        "url": "https://data.sec.gov/submissions/CIK0000320193.json",
+        "checked": "2026-09-10T21:49:52+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "ms": 43,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "xbrl-companyconcept": {
+        "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000320193/us-gaap/AccountsPayableCurrent.json",
+        "checked": "2026-09-10T21:49:53+00:00",
+        "status": 200,
+        "content_type": "application/json",
+        "length_header": "19480",
+        "ms": 147,
+        "bytes_read": 4096,
+        "ok": true,
+        "known_broken": null
+      },
+      "default-ua-refused": {
+        "url": "https://data.sec.gov/submissions/CIK0000320193.json",
+        "checked": "2026-09-10T21:49:55+00:00",
+        "status": 403,
+        "content_type": "text/html",
+        "ms": 117,
+        "bytes_read": 4096,
+        "ok": false,
+        "why": [
+          "status 403, wanted [200, 206]",
+          "body missing 'cik'"
+        ],
+        "preview": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\"> <head> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /> <title>SEC.gov | Your Request Origina",
+        "known_broken": "403 on 2026-09-10, with an HTML page titled 'Your Request Originates from an Undeclared Automated Tool'. curl/8.0 is refused the same way. This probe exists so the catalogue notices if the SEC ever relaxes it."
+      }
+    },
+    "spotify-web-api": {
+      "api-unauthenticated": {
+        "url": "https://api.spotify.com/v1/search?q=abbey&type=album&limit=1",
+        "checked": "2026-09-10T21:49:55+00:00",
+        "status": 401,
+        "content_type": "application/json",
+        "ms": 144,
+        "bytes_read": 94,
+        "ok": true,
+        "known_broken": null
+      },
+      "token-endpoint": {
+        "url": "https://accounts.spotify.com/api/token",
+        "checked": "2026-09-10T21:49:56+00:00",
+        "status": 400,
+        "content_type": "application/json",
+        "ms": 119,
+        "bytes_read": 26,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "tmdb": {
+      "keyless-refused": {
+        "url": "https://api.themoviedb.org/3/configuration",
+        "checked": "2026-09-10T21:49:56+00:00",
+        "status": 401,
+        "content_type": "application/json; charset=utf-8",
+        "ms": 104,
+        "bytes_read": 103,
+        "ok": true,
+        "known_broken": null
+      },
+      "movie-endpoint-keyless": {
+        "url": "https://api.themoviedb.org/3/movie/550",
+        "checked": "2026-09-10T21:49:58+00:00",
+        "status": 401,
+        "content_type": "application/json; charset=utf-8",
+        "ms": 62,
+        "bytes_read": 103,
+        "ok": true,
+        "known_broken": null
+      }
+    },
+    "who-gho": {
+      "indicator-list": {
+        "url": "https://ghoapi.azureedge.net/api/Indicator?$top=2",
+        "checked": "2026-09-10T21:49:58+00:00",
+        "status": 200,
+        "content_type": "application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8",
+        "ms": 103,
+        "bytes_read": 321,
+        "ok": true,
+        "known_broken": null
+      },
+      "life-expectancy-filtered": {
+        "url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?$filter=SpatialDim%20eq%20%27USA%27%20and%20TimeDim%20eq%202019",
+        "checked": "2026-09-10T21:50:00+00:00",
+        "status": 200,
+        "content_type": "application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8",
+        "ms": 64,
+        "bytes_read": 1868,
         "ok": true,
         "known_broken": null
       }

@@ -1,0 +1,150 @@
+{
+  "id": "nasa-cmr",
+  "name": "NASA Earthdata CMR (Common Metadata Repository)",
+  "publisher": "NASA Earth Science Data and Information System (ESDIS)",
+  "homepage": "https://cmr.earthdata.nasa.gov/search/site/docs/search/api.html",
+  "description": "The search index over NASA's entire Earth-observation archive -- roughly 100 petabytes across satellite imagery, atmospheric soundings, sea surface temperature, land cover, precipitation and climate model output, held in a dozen distributed DAACs. CMR itself holds no data: it holds the metadata for about 40,000 collections and billions of granules (individual files), and answers queries by keyword, bounding box, time range, instrument or platform, returning the URLs to fetch. Searching is keyless; downloading most of what it points at is not.",
+  "topics": [
+    "earth observation",
+    "satellite",
+    "climate",
+    "remote sensing",
+    "atmosphere",
+    "oceans",
+    "geospatial"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "1960s for a few reprocessed records; most missions from 1979 onward",
+    "end": "present, with near-real-time products hours behind",
+    "grain": "per granule -- typically one swath, tile or daily/monthly grid",
+    "updated": "continuously"
+  },
+  "license": {
+    "name": "NASA Earth science data are free and open; individual collections carry their own citation requirements",
+    "url": "https://www.earthdata.nasa.gov/engage/open-data-services-software-policies",
+    "redistribution": "permitted; each collection's metadata carries a DOI and requested citation, and some DAACs ask you to register the download"
+  },
+  "access": {
+    "auth": "none",
+    "auth_note": "CMR search needs nothing. Actually downloading granules usually needs a free Earthdata Login account and, for many DAACs, a bearer token or a cookie-following client -- the redirect chain to urs.earthdata.nasa.gov is where unauthenticated downloads fail.",
+    "formats": [
+      "json",
+      "atom",
+      "echo10 xml",
+      "umm-json",
+      "csv (granules only)"
+    ],
+    "bulk": false,
+    "size_hint": "metadata responses are KB to a few MB; the granules they point at are typically 10 MB to 5 GB each",
+    "rate_limit": "not published as a hard number; CMR asks for reasonable use and answers quickly, so the real limit is the DAAC you download from",
+    "pagination": "page_size up to 2000, then follow the CMR-Search-After response header -- page_num is capped and will not take you past 1,000,000 results"
+  },
+  "probes": [
+    {
+      "id": "collections-keyword",
+      "description": "Collection search by keyword, keyless",
+      "url": "https://cmr.earthdata.nasa.gov/search/collections.json?keyword=sea+surface+temperature&page_size=2",
+      "range_bytes": 4096,
+      "expect": {
+        "content_type": "json",
+        "body_contains": [
+          "ECHO dataset metadata",
+          "dataset_id",
+          "time_start"
+        ]
+      }
+    },
+    {
+      "id": "granules-short-name",
+      "description": "Granule search for a known MODIS product",
+      "url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=MOD11A1&page_size=1",
+      "range_bytes": 4096,
+      "expect": {
+        "content_type": "json",
+        "body_contains": [
+          "ECHO granule metadata",
+          "producer_granule_id"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Find collections for a subject, with their short_names",
+      "lang": "bash",
+      "code": "curl -s 'https://cmr.earthdata.nasa.gov/search/collections.json?keyword=precipitation&page_size=5' | python3 -c \"import json,sys; [print(e['short_name'], '|', e['dataset_id'][:70]) for e in json.load(sys.stdin)['feed']['entry']]\""
+    },
+    {
+      "title": "Granules over a bounding box and date range, with download URLs",
+      "lang": "bash",
+      "code": "curl -s 'https://cmr.earthdata.nasa.gov/search/granules.json?short_name=MOD11A1&bounding_box=-78,38,-76,40&temporal=2024-07-01T00:00:00Z,2024-07-03T00:00:00Z&page_size=5' | python3 -c \"import json,sys; [print(l['href']) for e in json.load(sys.stdin)['feed']['entry'] for l in e.get('links',[]) if l.get('rel','').endswith('/data#')]\""
+    },
+    {
+      "title": "Page past 2000 results with CMR-Search-After",
+      "lang": "bash",
+      "code": "curl -s -D headers.txt 'https://cmr.earthdata.nasa.gov/search/granules.json?short_name=MOD11A1&page_size=2000' -o page1.json\nAFTER=$(grep -i '^CMR-Search-After:' headers.txt | cut -d' ' -f2-)\ncurl -s -H \"CMR-Search-After: $AFTER\" 'https://cmr.earthdata.nasa.gov/search/granules.json?short_name=MOD11A1&page_size=2000' -o page2.json"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "The result count is not in the body. Clients parse the JSON, find no total, and either loop blindly or assume the first page is everything.",
+      "fix": "It is in the CMR-Hits response header. Observed 2026-09-10: a keyword=fire collection search returned CMR-Hits: 1103 with two entries in the body. Read the headers."
+    },
+    {
+      "trap": "Deep paging with page_num quietly stops working -- CMR refuses beyond the 1,000,000th result, and long page_num walks get slower until they time out.",
+      "fix": "Use the CMR-Search-After header: take its value from each response and send it back as a request header on the next call, keeping the query identical. Both header names are in Access-Control-Expose-Headers, so this works from a browser too."
+    },
+    {
+      "trap": "Searching is open; downloading is not. A granule URL fetched without an Earthdata Login token 302s to urs.earthdata.nasa.gov and a client that follows redirects lands on an HTML login page, often saving it as the .hdf file it asked for.",
+      "fix": "Register free at urs.earthdata.nasa.gov, generate a token, and send Authorization: Bearer. Check the content-type of what you saved -- an HTML login page is the same size class as a small granule and will not announce itself."
+    },
+    {
+      "trap": "`keyword` is a loose full-text match over titles and abstracts, so it is good for exploring and bad for reproducing. The same keyword search returns different collections as the archive grows.",
+      "fix": "Once you have found what you want, pin the query to short_name plus version, or to the collection concept-id (C1234567890-DAAC). Those are stable."
+    },
+    {
+      "trap": "bounding_box is west,south,east,north -- longitude first, and the opposite order from the lat,lon most APIs take.",
+      "fix": "bounding_box=-78,38,-76,40 is a box over Maryland. Getting it backwards returns zero granules rather than an error, which reads like 'no data here'."
+    },
+    {
+      "trap": "One collection can have millions of granules and the same physical file can appear under several collections at different processing levels.",
+      "fix": "Filter on processing_level_id and prefer the highest level that answers your question -- a Level 3 monthly grid is usually one file where Level 2 swaths are thousands."
+    }
+  ],
+  "fields": [
+    "concept-id -- C... for collections, G... for granules; the only stable identifier",
+    "short_name + version_id -- the human-usable stable key, e.g. MOD11A1 v061",
+    "CMR-Hits (header) -- total matches; not in the body",
+    "CMR-Search-After (header) -- the paging cursor for anything past one page",
+    "processing_level_id -- 1, 2, 3, 4; picking the right one is most of the work",
+    "links[].rel ending in /data# -- the actual download URL among many link types",
+    "cloud_hosted -- true means it is in AWS S3 (us-west-2) and can be read in place"
+  ],
+  "see_also": [
+    {
+      "name": "Earthdata Search",
+      "url": "https://search.earthdata.nasa.gov/",
+      "note": "the browser UI over the same index -- fastest way to find the short_name you then query by"
+    },
+    {
+      "name": "Earthdata Login",
+      "url": "https://urs.earthdata.nasa.gov/",
+      "note": "free account and bearer token; needed for downloads, not for search"
+    },
+    {
+      "name": "earthaccess",
+      "url": "https://earthaccess.readthedocs.io/",
+      "note": "NASA-maintained Python client that handles the login redirect and S3 credentials for you"
+    }
+  ],
+  "related": [
+    "usgs-earthquakes",
+    "noaa-swpc",
+    "ghcn-daily",
+    "aws-open-data-registry"
+  ],
+  "added": "2026-09-10",
+  "verified": "2026-09-10",
+  "status": "live"
+}

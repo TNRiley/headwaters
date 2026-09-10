@@ -1,0 +1,143 @@
+{
+  "id": "who-gho",
+  "name": "WHO Global Health Observatory (GHO) OData API",
+  "publisher": "World Health Organization",
+  "homepage": "https://www.who.int/data/gho/info/gho-odata-api",
+  "description": "WHO's official statistics for its 194 member states -- life expectancy, mortality by cause, immunisation coverage, disease burden, health workforce, tobacco and alcohol use, water and sanitation -- as an OData v4 service with no key. Roughly 2,000 indicators, each addressed by a code such as WHOSIS_000001 (life expectancy at birth), and each returning tidy rows already broken down by country, year and whichever dimensions apply. The value here is comparability: WHO has done the work of reconciling national reporting into one definition per indicator.",
+  "topics": [
+    "health",
+    "mortality",
+    "disease",
+    "development",
+    "official statistics"
+  ],
+  "geography": "global -- 194 member states, plus WHO region and World Bank income-group aggregates",
+  "temporal": {
+    "start": "1950 for a few series; most begin 1990-2000",
+    "end": "typically 2-3 years behind present, because national reporting lags",
+    "grain": "annual",
+    "updated": "per indicator, as member states report"
+  },
+  "license": {
+    "name": "CC BY-NC-SA 3.0 IGO",
+    "url": "https://www.who.int/about/policies/publishing/copyright",
+    "redistribution": "attribution required, non-commercial, share-alike. The NC clause is real and is the reason to check before building anything commercial on it."
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json (OData v4)"
+    ],
+    "bulk": true,
+    "size_hint": "the indicator list is ~500 KB; a whole indicator's rows are typically 1-20 MB",
+    "rate_limit": "not published; the service is CDN-fronted (azureedge) and tolerant, but fetch each indicator once and cache",
+    "pagination": "OData $top and $skip; with no $top you get the entire indicator in one response, which is usually what you want"
+  },
+  "probes": [
+    {
+      "id": "indicator-list",
+      "description": "The catalogue of indicator codes",
+      "url": "https://ghoapi.azureedge.net/api/Indicator?$top=2",
+      "range_bytes": 4096,
+      "expect": {
+        "content_type": "json",
+        "body_contains": [
+          "@odata.context",
+          "IndicatorCode",
+          "IndicatorName"
+        ]
+      }
+    },
+    {
+      "id": "life-expectancy-filtered",
+      "description": "One indicator, filtered by country and year through OData",
+      "url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?$filter=SpatialDim%20eq%20%27USA%27%20and%20TimeDim%20eq%202019",
+      "range_bytes": 4096,
+      "expect": {
+        "content_type": "json",
+        "body_contains": [
+          "WHOSIS_000001",
+          "\"SpatialDim\":\"USA\"",
+          "NumericValue"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Find the indicator code for a subject",
+      "lang": "bash",
+      "code": "curl -s \"https://ghoapi.azureedge.net/api/Indicator\" | python3 -c \"import json,sys; [print(r['IndicatorCode'],'|',r['IndicatorName']) for r in json.load(sys.stdin)['value'] if 'immuniz' in r['IndicatorName'].lower()]\""
+    },
+    {
+      "title": "A whole indicator, every country and year",
+      "lang": "bash",
+      "code": "curl -s 'https://ghoapi.azureedge.net/api/WHOSIS_000001' -o life_expectancy.json\npython3 -c \"import json; d=json.load(open('life_expectancy.json')); print(len(d['value']),'rows')\""
+    },
+    {
+      "title": "Countries only, dropping the aggregates",
+      "lang": "bash",
+      "code": "curl -s \"https://ghoapi.azureedge.net/api/WHOSIS_000001?\\$filter=SpatialDimType eq 'COUNTRY' and TimeDim eq 2019\" | head -c 500"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "A plain query returns member states and aggregates in the same array. WHO regions (AFR, EUR, AMR), World Bank income groups and GLOBAL all appear as rows with the same shape as a country, so summing or averaging the column double-counts badly.",
+      "fix": "Filter on SpatialDimType eq 'COUNTRY', or drop every row whose SpatialDimType is REGION, WORLDBANKINCOMEGROUP or GLOBAL. Confirmed 2026-09-10 -- the type field is the reliable discriminator, not the code's shape."
+    },
+    {
+      "trap": "The dimension columns are generically named. Dim1, Dim2, Dim3 hold whatever that indicator breaks down by, and what they mean changes per indicator -- Dim1 is sex for life expectancy and age group for something else.",
+      "fix": "Read Dim1Type on the row itself ('SEX', 'AGEGROUP') rather than assuming. Ignoring it is how a 'life expectancy' series ends up being the female-only series, or three overlapping rows summed into nonsense."
+    },
+    {
+      "trap": "Both `Value` and `NumericValue` exist and they are not the same thing. `Value` is a display string that may read '72.5 [70.1-74.8]' or '<0.1'.",
+      "fix": "Use NumericValue for arithmetic and keep Value only for display. NumericValue is null where WHO published only a range or a suppressed figure, and that null is information."
+    },
+    {
+      "trap": "OData $filter needs its string literals in single quotes, which have to be percent-encoded in a URL, and $ is a shell variable sigil.",
+      "fix": "Encode ' as %27 and space as %20, and escape the dollar in bash as \\$ or single-quote the whole URL. A malformed $filter returns 400 with a terse OData error, not an empty result set."
+    },
+    {
+      "trap": "SpatialDim is ISO-3166 alpha-3, but WHO's set includes codes that are not countries and omits some places that are.",
+      "fix": "Join on alpha-3 and check what failed to match rather than assuming a clean join. Kosovo, territories and a few disputed areas are the usual casualties."
+    },
+    {
+      "trap": "'Latest year' differs per indicator and per country, so a cross-country comparison pinned to one year silently drops the countries that reported late.",
+      "fix": "Either fix the year and report how many countries you lost, or take each country's most recent year and say so. Do not do the second while describing it as the first."
+    }
+  ],
+  "fields": [
+    "IndicatorCode -- WHOSIS_000001 (life expectancy), WHS4_100 (immunisation), MDG_0000000001 (infant mortality)",
+    "SpatialDim / SpatialDimType -- ISO alpha-3 code and whether it is a COUNTRY, REGION, WORLDBANKINCOMEGROUP or GLOBAL",
+    "TimeDim -- the year, as an integer",
+    "Dim1 / Dim1Type -- the indicator's own breakdown; check the Type before using the value",
+    "NumericValue -- the number; Value is a display string and not a substitute",
+    "Low / High -- uncertainty bounds where WHO publishes them",
+    "ParentLocationCode -- the WHO region, handy for grouping without a second lookup"
+  ],
+  "see_also": [
+    {
+      "name": "GHO indicator browser",
+      "url": "https://www.who.int/data/gho/data/indicators",
+      "note": "human-readable definitions -- read the indicator's methodology note before using it in an argument"
+    },
+    {
+      "name": "OData API notes",
+      "url": "https://www.who.int/data/gho/info/gho-odata-api",
+      "note": "WHO's own short guide to the query syntax"
+    },
+    {
+      "name": "IHME Global Burden of Disease",
+      "url": "https://vizhub.healthdata.org/gbd-results/",
+      "note": "modelled estimates with fuller coverage where WHO has reporting gaps; different methodology, do not mix the two in one series"
+    }
+  ],
+  "related": [
+    "world-bank",
+    "our-world-in-data",
+    "pubmed-eutilities"
+  ],
+  "added": "2026-09-10",
+  "verified": "2026-09-10",
+  "status": "live"
+}

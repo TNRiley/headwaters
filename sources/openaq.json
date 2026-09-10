@@ -1,0 +1,143 @@
+{
+  "id": "openaq",
+  "name": "OpenAQ",
+  "publisher": "OpenAQ (US non-profit)",
+  "homepage": "https://openaq.org/",
+  "description": "Air quality measurements aggregated from government reference monitors and low-cost sensor networks worldwide, normalised onto one schema so a PM2.5 reading from Delhi and one from Denver are directly comparable. Tens of thousands of locations across roughly 100 countries, with hourly measurements going back to 2016 and a growing archive of parquet snapshots on S3 for anyone who wants history in bulk rather than by the page.",
+  "topics": [
+    "air quality",
+    "environment",
+    "health",
+    "sensors",
+    "time series"
+  ],
+  "geography": "global",
+  "temporal": {
+    "start": "2016",
+    "end": "present",
+    "grain": "hourly, some sensors sub-hourly",
+    "updated": "continuously; ingestion lag varies by provider from minutes to a day"
+  },
+  "license": {
+    "name": "CC-BY-4.0 for the aggregation; each provider's own terms apply to their readings",
+    "url": "https://docs.openaq.org/about/about",
+    "redistribution": "permitted with attribution to OpenAQ and to the originating agency, which the record's `provider` field names"
+  },
+  "access": {
+    "auth": "api-key-free",
+    "auth_note": "v3 requires a free key sent as the X-API-Key header. Register at https://explore.openaq.org/register. There is no keyless route -- v2 was the keyless one and it is gone.",
+    "formats": [
+      "json",
+      "csv (exports)",
+      "parquet (S3 archive)"
+    ],
+    "bulk": true,
+    "size_hint": "a page of measurements is a few hundred KB; the open S3 archive at s3://openaq-data-archive is hundreds of GB",
+    "rate_limit": "60 requests per minute and 2,000 per hour per key (documented); exceeding it returns 429 with a Retry-After",
+    "pagination": "page and limit, limit max 1000; `found` in the meta block may come back as a string like '>1000' rather than a number"
+  },
+  "probes": [
+    {
+      "id": "v3-keyless-refused",
+      "description": "v3 without a key -- proves the gate, and that the service is up",
+      "url": "https://api.openaq.org/v3/locations?limit=2",
+      "expect": {
+        "status": [
+          401
+        ],
+        "content_type": "json",
+        "body_contains": [
+          "X-API-Key"
+        ]
+      },
+      "note": "A clean, readable 401 naming the header it wants. If this ever answers 200, the keyless route came back."
+    },
+    {
+      "id": "v2-retired",
+      "description": "The keyless v2 endpoint every tutorial still shows",
+      "url": "https://api.openaq.org/v2/locations?limit=2",
+      "known_broken": "410 Gone on 2026-09-10: 'Version 1 and Version 2 API endpoints are retired and no longer available. Please migrate to Version 3 endpoints.' Recorded because a large amount of published code, and most search results, still call v2.",
+      "expect": {
+        "body_contains": [
+          "results"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Locations near a point",
+      "lang": "bash",
+      "code": "curl -s -H \"X-API-Key: $OPENAQ_API_KEY\" 'https://api.openaq.org/v3/locations?coordinates=39.03,-77.08&radius=25000&limit=5' | head -c 600"
+    },
+    {
+      "title": "Hourly PM2.5 history for one sensor",
+      "lang": "bash",
+      "code": "# find the sensor id from /v3/locations/{id} first -- measurements hang off sensors, not locations\ncurl -s -H \"X-API-Key: $OPENAQ_API_KEY\" 'https://api.openaq.org/v3/sensors/3920/measurements?datetime_from=2024-01-01&datetime_to=2024-01-08&limit=1000' | head -c 600"
+    },
+    {
+      "title": "Skip the API for history",
+      "lang": "bash",
+      "code": "# the S3 archive is public and needs no key or AWS account\naws s3 ls --no-sign-request s3://openaq-data-archive/records/csv.gz/locationid=2178/year=2024/"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Nearly every example you will find online calls api.openaq.org/v2/... keylessly. That endpoint now answers 410 Gone, so code copied from a blog post, a notebook or an LLM fails on the first call for reasons that look like a network problem.",
+      "fix": "v3 only, with X-API-Key. Confirmed 2026-09-10: v2 returns 410 with an explicit migration message; v3 without the header returns 401."
+    },
+    {
+      "trap": "In v3 measurements no longer hang off a location. They hang off a sensor, and one location has several sensors -- one per pollutant.",
+      "fix": "GET /v3/locations/{id} to list its sensors, then /v3/sensors/{sensor_id}/measurements. The v2 habit of querying measurements by location or by city has no v3 equivalent."
+    },
+    {
+      "trap": "Reference-grade government monitors and low-cost sensors sit side by side in the same result set, and their readings are not equivalent -- low-cost PM sensors drift badly with humidity.",
+      "fix": "Filter on the provider and on `isMonitor` before comparing anything across locations. A city-level average that mixes both is measuring the sensor mix as much as the air."
+    },
+    {
+      "trap": "Units are not uniform. The same pollutant arrives as ug/m3 from some providers and ppm or ppb from others, and OpenAQ passes both through.",
+      "fix": "Read the `parameter.units` on every measurement rather than assuming. Converting between ppb and ug/m3 needs the molecular weight and the temperature, so it is not a constant."
+    },
+    {
+      "trap": "The meta block's `found` is sometimes a string such as '>1000' rather than an integer, which breaks arithmetic on the total.",
+      "fix": "Coerce defensively, or page until you get a short result set."
+    },
+    {
+      "trap": "Coverage gaps read as clean air. A country with no sensors and a country with excellent air both show nothing.",
+      "fix": "Check location counts per country before drawing any global comparison. Absence of data is the most common finding here and the easiest to misread."
+    }
+  ],
+  "fields": [
+    "locations[].sensors[].id -- the key you actually need; measurements are per sensor",
+    "parameter.name and parameter.units -- pm25, pm10, no2, o3, co, so2; units vary by provider",
+    "provider -- who operates the monitor; the basis for judging quality",
+    "isMonitor -- true for reference-grade, false for low-cost sensor",
+    "datetimeFirst / datetimeLast -- the location's coverage window, worth checking before a query",
+    "coordinates.latitude / .longitude -- and note the API takes coordinates as lat,lon"
+  ],
+  "see_also": [
+    {
+      "name": "OpenAQ v3 docs",
+      "url": "https://docs.openaq.org/",
+      "note": "endpoint reference and the v2-to-v3 migration notes"
+    },
+    {
+      "name": "OpenAQ S3 archive",
+      "url": "https://openaq-data-archive.s3.amazonaws.com/index.html",
+      "note": "public, no-sign-request, partitioned by location and year -- the right route for bulk history"
+    },
+    {
+      "name": "EPA AirNow API",
+      "url": "https://docs.airnowapi.org/",
+      "note": "US-only, free key, the upstream for OpenAQ's US readings"
+    }
+  ],
+  "related": [
+    "open-meteo",
+    "ghcn-daily",
+    "aws-open-data-registry"
+  ],
+  "added": "2026-09-10",
+  "verified": "2026-09-10",
+  "status": "live"
+}

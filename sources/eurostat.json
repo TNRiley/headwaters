@@ -1,0 +1,146 @@
+{
+  "id": "eurostat",
+  "name": "Eurostat dissemination API",
+  "publisher": "Eurostat (Statistical Office of the European Union)",
+  "homepage": "https://ec.europa.eu/eurostat/web/main/data/database",
+  "description": "The EU's official statistics, harmonised across member states so that the numbers are actually comparable -- GDP and national accounts, population and migration, labour, prices, energy, trade, health and regional breakdowns down to NUTS level 3. About 8,000 datasets, each addressed by a short code (nama_10_gdp, demo_pjan, prc_hicp_midx), queryable keyless as JSON-stat, and with the full SDMX structure available if you need the dimension definitions.",
+  "topics": [
+    "economics",
+    "population",
+    "labour",
+    "health",
+    "trade",
+    "energy",
+    "Europe",
+    "official statistics"
+  ],
+  "geography": "EU member states, EFTA, candidate countries; many series down to NUTS 2 and NUTS 3 regions",
+  "temporal": {
+    "start": "1960 for national accounts; most series start 1990-2000",
+    "end": "present",
+    "grain": "annual, quarterly and monthly depending on the dataset",
+    "updated": "per release calendar; the response carries an `updated` timestamp"
+  },
+  "license": {
+    "name": "Commission Reuse Decision 2011/833/EU -- free reuse with attribution",
+    "url": "https://ec.europa.eu/eurostat/about-us/policies/copyright",
+    "redistribution": "permitted, including commercially, with the source acknowledged"
+  },
+  "access": {
+    "auth": "none",
+    "formats": [
+      "json-stat 2.0",
+      "sdmx 2.1 xml",
+      "tsv (bulk)"
+    ],
+    "bulk": true,
+    "size_hint": "a filtered query is a few KB; a whole dataset as TSV runs to tens of MB",
+    "rate_limit": "50 requests per 10 seconds per IP (documented); a single query is also capped at 1,000,000 cells",
+    "pagination": "none -- you narrow with dimension filters instead, and a query that would exceed the cell cap is rejected rather than truncated",
+    "etiquette": "filter on the server with geo/time/unit parameters rather than pulling a whole dataset and subsetting locally"
+  },
+  "probes": [
+    {
+      "id": "statistics-json",
+      "description": "One cell of German GDP, current prices",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?format=JSON&geo=DE&time=2022&na_item=B1GQ&unit=CP_MEUR",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "\"class\":\"dataset\"",
+          "dimension",
+          "ESTAT"
+        ]
+      }
+    },
+    {
+      "id": "catalogue-toc",
+      "description": "The dataset index, with last-update dates",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/catalogue/toc/txt?lang=en",
+      "range_bytes": 4096,
+      "expect": {
+        "body_contains": [
+          "last update of data",
+          "Database by themes"
+        ]
+      },
+      "note": "About 3 MB in full. range_bytes stops the read at the header rows, which is all the probe needs."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "One indicator for every member state, one year",
+      "lang": "bash",
+      "code": "curl -s 'https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?format=JSON&na_item=B1GQ&unit=CP_MEUR&time=2023' | head -c 600"
+    },
+    {
+      "title": "Find the dataset code for a subject",
+      "lang": "bash",
+      "code": "curl -s 'https://ec.europa.eu/eurostat/api/dissemination/catalogue/toc/txt?lang=en' | grep -i 'unemployment' | head -20"
+    },
+    {
+      "title": "JSON-stat is a flat array plus index maps, not nested records",
+      "lang": "python",
+      "code": "import json, urllib.request\nu = ('https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/'\n     'nama_10_gdp?format=JSON&na_item=B1GQ&unit=CP_MEUR&time=2023')\nd = json.load(urllib.request.urlopen(u))\ngeo = d['dimension']['geo']['category']\nlabel, index = geo['label'], geo['index']\n# `value` is keyed by flat position as a string, and missing cells are simply absent\nfor code, pos in sorted(index.items(), key=lambda kv: kv[1]):\n    v = d['value'].get(str(pos))\n    if v is not None:\n        print('%-28s %12.0f' % (label[code], v))"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "JSON-stat does not return records. `value` is a flat map from a stringified integer position to a number, and you have to reconstruct the coordinates yourself from `dimension`, `id` and `size`.",
+      "fix": "Read `id` for dimension order and `size` for the shape, then decode each position as a row-major index. For a single-dimension query the position is just the value of `dimension.<name>.category.index[code]`, which is what the Python recipe above uses."
+    },
+    {
+      "trap": "Missing observations are absent from `value`, not null. Iterating over value.items() silently skips countries rather than reporting them as missing.",
+      "fix": "Iterate over the dimension's index and look each position up with .get(), so an absent cell shows as missing rather than vanishing from the output."
+    },
+    {
+      "trap": "A query that would return more than a million cells is rejected outright rather than truncated, and it is easy to write one by accident -- omitting `time` on a monthly regional dataset will do it.",
+      "fix": "Always pin at least one of geo, time or unit. If you genuinely want everything, take the bulk TSV instead of paging the API."
+    },
+    {
+      "trap": "Dataset codes look mnemonic but are not guessable, and old codes are retired without redirects.",
+      "fix": "Resolve the code from the catalogue TOC rather than hard-coding one you found in a paper. The TOC also carries `last update of data`, which is how you tell a discontinued series from a slow one."
+    },
+    {
+      "trap": "`geo` codes are mostly ISO-3166 alpha-2 but not entirely: EL is Greece, not GR, and UK is the United Kingdom, not GB. EU27_2020 and EA19/EA20 are aggregates that will double-count if you sum the column.",
+      "fix": "Map EL->GR and UK->GB when joining to anything ISO, and drop codes matching EU*, EA* and *_AGG before aggregating."
+    },
+    {
+      "trap": "Values carry status flags (p provisional, e estimated, b break in series, c confidential) in a parallel `status` object that most clients drop.",
+      "fix": "Read `status` before drawing a trend line across a `b`. A break in series means the definition changed, not that the quantity did."
+    }
+  ],
+  "fields": [
+    "geo -- country or NUTS region code; EL and UK are the exceptions to ISO",
+    "time -- year, or 2024-Q1 / 2024-01 forms depending on the dataset's frequency",
+    "unit -- CP_MEUR (current prices), CLV_I10 (chain-linked volume index), PC (percent); comparing across units is a common error",
+    "na_item -- the national-accounts concept, e.g. B1GQ for GDP",
+    "freq -- A, Q or M; present as a dimension even when the dataset has only one value for it",
+    "status -- provisional/estimated/break flags, in a parallel object to value"
+  ],
+  "see_also": [
+    {
+      "name": "API dissemination docs",
+      "url": "https://wikis.ec.europa.eu/display/EUROSTATHELP/API+-+Getting+started+with+statistics+API",
+      "note": "parameter reference for the statistics endpoint"
+    },
+    {
+      "name": "Bulk download of a whole dataset as TSV",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/nama_10_gdp?format=TSV&compressed=true",
+      "note": "when the cell cap is in your way"
+    },
+    {
+      "name": "NUTS geometries",
+      "url": "https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/nuts",
+      "note": "the boundaries the geo codes refer to, for mapping"
+    }
+  ],
+  "related": [
+    "world-bank",
+    "our-world-in-data",
+    "fred"
+  ],
+  "added": "2026-09-10",
+  "verified": "2026-09-10",
+  "status": "live"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "propublica-apis",
+  "name": "ProPublica Congress and Campaign Finance APIs",
+  "publisher": "ProPublica",
+  "homepage": "https://projects.propublica.org/api-docs/congress-api/",
+  "description": "For a decade the easiest programmatic route into US legislative activity -- members, roll-call votes, bills, nominations, committees, statements -- and into FEC campaign-finance filings, both as clean JSON with sensible field names. It began at the New York Times in 2009 and ProPublica took it over in 2016. It is now retired: the Congress API's own documentation says so, and both hosts refuse unauthenticated calls with no route left to obtain a key. The record is kept because an enormous amount of published code, tutorial writing and model training still points at these endpoints, and knowing they are gone -- and what replaced them -- saves the search.",
+  "topics": [
+    "politics",
+    "US Congress",
+    "legislation",
+    "campaign finance",
+    "elections",
+    "government"
+  ],
+  "geography": "US",
+  "temporal": {
+    "start": "1789 for historical member data; votes from the 101st Congress (1989); campaign finance from the 1980 cycle",
+    "end": "no longer updated",
+    "grain": "per member, vote, bill, filing",
+    "updated": "retired"
+  },
+  "license": {
+    "name": "was Creative Commons Attribution-NonCommercial-NoDerivs for the API output",
+    "url": "https://www.propublica.org/datastore/terms",
+    "redistribution": "moot -- the API no longer serves. The underlying facts are public records and are available unrestricted from the replacements listed below."
+  },
+  "access": {
+    "auth": "api-key-free",
+    "auth_note": "Historically a free key by email request. On 2026-09-10 the signup page at propublica.org/datastore/api/propublica-congress-api 301-redirects to projects.propublica.org/represent/, which carries no signup form, so there is no route to a new key.",
+    "formats": [
+      "json",
+      "xml"
+    ],
+    "bulk": false,
+    "rate_limit": "was 5,000 requests per day per key",
+    "pagination": "was offset in steps of 20"
+  },
+  "probes": [
+    {
+      "id": "congress-members",
+      "description": "Senate roster for the current Congress -- the canonical first call in every tutorial",
+      "url": "https://api.propublica.org/congress/v1/119/senate/members.json",
+      "known_broken": "401 {\"message\":\"Unauthorized\"} on 2026-09-10, with no way to obtain a key. The API's own documentation at projects.propublica.org/api-docs/congress-api/ states: 'ProPublica's Congress API is no longer available. This documentation should only be used as a historical reference.' The docs site still serves 200, so a link-checker sees a healthy source and a client sees a dead one.",
+      "expect": {
+        "body_contains": [
+          "results"
+        ]
+      }
+    },
+    {
+      "id": "campaign-finance-candidates",
+      "description": "Candidate search for the 2024 cycle",
+      "url": "https://api.propublica.org/campaign-finance/v1/2024/candidates/search.json?query=smith",
+      "known_broken": "401 {\"message\":\"Unauthorized\"} on 2026-09-10. Unlike the Congress API, the campaign-finance documentation page carries no retirement banner and still describes a 'Get an API Key' step -- but that key request page redirects away, so the documentation is misleading rather than merely stale. Use OpenFEC instead; see openfec.",
+      "expect": {
+        "body_contains": [
+          "results"
+        ]
+      }
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "The Congress API is the single most common source in tutorials, Stack Overflow answers and generated code for 'get US legislators as JSON'. All of it now 401s, and the 401 says only 'Unauthorized' -- so the obvious conclusion is that your key is wrong, and the next hour goes into looking for the signup page.",
+      "fix": "There is no signup page. Confirmed 2026-09-10: propublica.org/datastore/api/propublica-congress-api 301s to projects.propublica.org/represent/, which has no form. Go to api.congress.gov (catalogued here as congress-gov) for legislative data and api.open.fec.gov (openfec) for campaign finance. Both are free, keyed through api.data.gov, and both answer with DEMO_KEY for testing."
+    },
+    {
+      "trap": "The documentation sites still return 200 and render fully, so a link checker, a sitemap crawl or a 'is this source alive' script reports the API as healthy.",
+      "fix": "Probe the API host, not the docs host. api.propublica.org is the thing that is dead; projects.propublica.org is a live archive of how it used to work."
+    },
+    {
+      "trap": "The field vocabularies are not the same on the replacements. ProPublica's member objects carried computed fields -- votes_with_party_pct, missed_votes_pct, dw_nominate -- that Congress.gov does not provide at all.",
+      "fix": "Congress.gov gives you the raw roll calls; the aggregate percentages were ProPublica's own arithmetic. Expect to recompute them, and use unitedstates/congress-legislators on GitHub for the stable cross-source id crosswalk (bioguide, ICPSR, FEC, Wikidata) that ProPublica used to hand you for free."
+    }
+  ],
+  "see_also": [
+    {
+      "name": "Congress.gov API",
+      "url": "https://api.congress.gov/",
+      "note": "the live replacement for legislative data; catalogued here as congress-gov"
+    },
+    {
+      "name": "OpenFEC API",
+      "url": "https://api.open.fec.gov/developers/",
+      "note": "the live replacement for campaign finance, and the primary source ProPublica was reformatting; catalogued here as openfec"
+    },
+    {
+      "name": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators",
+      "note": "YAML crosswalk of every legislator since 1789 across bioguide, ICPSR, FEC, GovTrack, OpenSecrets and Wikidata ids -- the piece neither replacement gives you"
+    },
+    {
+      "name": "ProPublica Data Store",
+      "url": "https://projects.propublica.org/datastore/",
+      "note": "ProPublica's remaining data offerings -- bulk downloads rather than APIs"
+    }
+  ],
+  "related": [
+    "congress-gov",
+    "openfec",
+    "federal-register",
+    "usaspending"
+  ],
+  "added": "2026-09-10",
+  "verified": "2026-09-10",
+  "status": "closed"
+}

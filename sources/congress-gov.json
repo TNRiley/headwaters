@@ -1,0 +1,145 @@
+{
+  "id": "congress-gov",
+  "name": "Congress.gov API",
+  "publisher": "Library of Congress",
+  "homepage": "https://api.congress.gov/",
+  "description": "The official API over Congress.gov: members of the House and Senate back to 1789, bills and resolutions with their full action histories and text versions, amendments, committees and committee reports, nominations, treaties and the Congressional Record. This is the authoritative source rather than a reformatting of one, and it is the replacement to reach for now that ProPublica's Congress API is retired. Free key, generous limits, and a DEMO_KEY that works well enough to explore before you register.",
+  "topics": [
+    "politics",
+    "US Congress",
+    "legislation",
+    "government",
+    "law"
+  ],
+  "geography": "US",
+  "temporal": {
+    "start": "1789 for member biographies; bill text from 1993 (103rd Congress), summaries from 1973",
+    "end": "present",
+    "grain": "per bill, action, member, vote",
+    "updated": "daily, with legislative actions appearing within a day"
+  },
+  "license": {
+    "name": "US government work, public domain",
+    "url": "https://www.congress.gov/about/terms-of-service",
+    "redistribution": "unrestricted; attribution requested but not required"
+  },
+  "access": {
+    "auth": "api-key-free",
+    "auth_note": "Free key from https://api.data.gov/signup/ -- the same key works across every api.data.gov-fronted federal API, including OpenFEC and Regulations.gov. DEMO_KEY works without registering, at 10 requests/hour.",
+    "formats": [
+      "json",
+      "xml"
+    ],
+    "bulk": true,
+    "size_hint": "a list page is tens of KB; bill text is fetched separately per version",
+    "rate_limit": "5,000 requests per hour with a registered key; DEMO_KEY is capped at 10/hour (X-Ratelimit-Limit: 10, observed 2026-09-10)",
+    "pagination": "offset and limit, limit max 250; the response carries pagination.count and pagination.next"
+  },
+  "probes": [
+    {
+      "id": "bill-list-demo-key",
+      "description": "Recent bills, with the public DEMO_KEY",
+      "url": "https://api.congress.gov/v3/bill?api_key=DEMO_KEY&limit=1",
+      "range_bytes": 4096,
+      "expect": {
+        "content_type": "json",
+        "body_contains": [
+          "bills",
+          "latestAction",
+          "originChamber"
+        ]
+      },
+      "note": "DEMO_KEY allows only 10 requests per hour, shared across every api.data.gov consumer on this IP. A 429 here means that shared budget is spent, not that the API is down -- probe.py classifies it as throttled and the weekly run does not raise an issue for it."
+    },
+    {
+      "id": "member-list-demo-key",
+      "description": "Member records, including historical",
+      "url": "https://api.congress.gov/v3/member?api_key=DEMO_KEY&limit=1",
+      "range_bytes": 4096,
+      "expect": {
+        "content_type": "json",
+        "body_contains": [
+          "members",
+          "bioguideId"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Every bill in a Congress, paged",
+      "lang": "bash",
+      "code": "curl -s \"https://api.congress.gov/v3/bill/118/hr?api_key=$CONGRESS_API_KEY&limit=250&offset=0\" | head -c 600"
+    },
+    {
+      "title": "One bill, then its actions and its text versions",
+      "lang": "bash",
+      "code": "B=\"https://api.congress.gov/v3/bill/118/hr/3076\"\ncurl -s \"$B?api_key=$CONGRESS_API_KEY\" | head -c 400\ncurl -s \"$B/actions?api_key=$CONGRESS_API_KEY&limit=250\" | head -c 400\ncurl -s \"$B/text?api_key=$CONGRESS_API_KEY\" | head -c 400"
+    },
+    {
+      "title": "Explore before registering",
+      "lang": "bash",
+      "code": "curl -s 'https://api.congress.gov/v3/summaries?api_key=DEMO_KEY&limit=2' | head -c 400"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "There are no roll-call votes in the v3 API in the form ProPublica served them. People migrate, look for /votes, and conclude the API is incomplete.",
+      "fix": "Roll calls come from the chambers themselves: clerk.house.gov/evs/{year}/roll{nnn}.xml and senate.gov/legislative/LIS/roll_call_votes/. Congress.gov gives you bills, actions and members; the vote tallies are a separate fetch and a separate join on bioguideId."
+    },
+    {
+      "trap": "DEMO_KEY is capped at 10 requests per hour and the cap is shared per IP across every api.data.gov API, so a loop written against DEMO_KEY dies almost immediately and looks like the endpoint throttling you.",
+      "fix": "Observed X-Ratelimit-Limit: 10 on 2026-09-10. Register at api.data.gov/signup for 5,000/hour -- it takes a minute and no approval. Read X-Ratelimit-Remaining rather than guessing."
+    },
+    {
+      "trap": "Bill text is not in the bill object. `text` is a sub-resource, and each version (Introduced, Engrossed, Enrolled) has its own formats.",
+      "fix": "GET /bill/{congress}/{type}/{number}/text, then follow the formats array to the .htm or .xml URL. Expect several versions per bill and pick deliberately -- Introduced and Enrolled can differ enormously."
+    },
+    {
+      "trap": "The identifier space is split. bioguideId identifies a person; a bill needs congress + billType + billNumber together, and billType is lowercase in URLs (hr, s, hjres) but often uppercase in printed citations.",
+      "fix": "Lowercase the type before building the URL. And note that a bill number alone is meaningless across Congresses -- HR 1 exists in every one of them."
+    },
+    {
+      "trap": "Sub-resources are separately paginated and default to 20 items, so a bill's action history looks truncated at 20 with no obvious signal.",
+      "fix": "Pass limit=250 on every sub-resource call and follow pagination.next until it is absent. pagination.count tells you what you should have ended up with -- check it."
+    }
+  ],
+  "fields": [
+    "bioguideId -- the stable person key, shared with the unitedstates/congress-legislators crosswalk",
+    "congress + billType + billNumber -- the composite bill key; billType is lowercase in URLs",
+    "latestAction.actionDate / .text -- the cheapest way to tell where a bill got to",
+    "pagination.count and pagination.next -- check count, do not assume the first page is everything",
+    "updateDate -- for incremental harvesting; fromDateTime/toDateTime filter on it"
+  ],
+  "see_also": [
+    {
+      "name": "API documentation and endpoint list",
+      "url": "https://github.com/LibraryOfCongress/api.congress.gov/",
+      "note": "the reference lives in a GitHub repo, not on the API host"
+    },
+    {
+      "name": "GovInfo bulk data",
+      "url": "https://www.govinfo.gov/bulkdata",
+      "note": "bill XML in bulk by Congress -- the right route for full-text corpora, no key needed"
+    },
+    {
+      "name": "unitedstates/congress-legislators",
+      "url": "https://github.com/unitedstates/congress-legislators",
+      "note": "crosswalk from bioguideId to FEC, ICPSR, GovTrack, OpenSecrets and Wikidata ids"
+    },
+    {
+      "name": "House roll-call votes",
+      "url": "https://clerk.house.gov/Votes",
+      "note": "where the vote tallies actually live"
+    }
+  ],
+  "related": [
+    "propublica-apis",
+    "openfec",
+    "federal-register",
+    "usaspending"
+  ],
+  "added": "2026-09-10",
+  "verified": "2026-09-10",
+  "status": "live"
+}

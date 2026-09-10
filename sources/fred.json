@@ -1,0 +1,138 @@
+{
+  "id": "fred",
+  "name": "FRED (Federal Reserve Economic Data)",
+  "publisher": "Federal Reserve Bank of St. Louis",
+  "homepage": "https://fred.stlouisfed.org/",
+  "description": "Around 800,000 economic time series -- US and international -- collected from about 100 statistical agencies and served under one identifier scheme. If a macro number has a name (UNRATE, CPIAUCSL, GDP, DGS10) it has a FRED series id, and every series comes with its units, seasonal adjustment, frequency and the agency that actually produced it. ALFRED, the sibling archive, keeps the vintages: what a series said on a given day, before revision.",
+  "topics": [
+    "economics",
+    "finance",
+    "labour",
+    "prices",
+    "time series",
+    "macroeconomics"
+  ],
+  "geography": "US, plus international series sourced from OECD, IMF, World Bank and national statistics offices",
+  "temporal": {
+    "start": "1776 for a few annual series; most monthly series start 1947-1960",
+    "end": "present",
+    "grain": "daily to annual, varies by series",
+    "updated": "on the releasing agency's schedule, usually within minutes of publication"
+  },
+  "license": {
+    "name": "mostly public domain (US federal sources); some series are copyrighted by their originating provider",
+    "url": "https://fred.stlouisfed.org/legal/",
+    "redistribution": "check the per-series 'Copyright' notice on the series page before republishing values -- most are free to reuse, but the licensed feeds (S&P, some OECD) are not"
+  },
+  "access": {
+    "auth": "api-key-free",
+    "auth_note": "the JSON/XML API at api.stlouisfed.org needs a free key from https://fredaccount.stlouisfed.org/apikeys. The CSV download at fred.stlouisfed.org/graph/fredgraph.csv needs no key at all -- see the gotchas.",
+    "formats": [
+      "json",
+      "xml",
+      "csv (keyless, via fredgraph)",
+      "xls"
+    ],
+    "bulk": true,
+    "size_hint": "one series as CSV is a few KB to a few hundred KB; the full-catalogue bulk zip is ~100 MB",
+    "rate_limit": "120 requests per minute per key (documented); the keyless fredgraph CSV route has no published limit, so throttle yourself",
+    "pagination": "limit / offset, default 1000, max 1000 on list endpoints"
+  },
+  "probes": [
+    {
+      "id": "fredgraph-csv-keyless",
+      "description": "A whole series as CSV, with no API key",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&cosd=2020-01-01&coed=2020-06-01",
+      "range_bytes": 2048,
+      "expect": {
+        "body_contains": [
+          "observation_date",
+          "UNRATE",
+          "2020-04-01"
+        ]
+      },
+      "note": "Also pins the April 2020 unemployment spike (14.8) as a value check, so a route that answers 200 with the wrong series fails here."
+    },
+    {
+      "id": "api-keyless-refused",
+      "description": "The documented API without a key -- proves the gate is where we say it is",
+      "url": "https://api.stlouisfed.org/fred/series?series_id=GNPCA&file_type=json",
+      "expect": {
+        "status": [
+          400
+        ],
+        "body_contains": [
+          "Variable api_key is not set"
+        ]
+      },
+      "note": "A clean 400 with a readable message, not a redirect to an HTML page. Compare census-acs, which 302s a keyless call into a 200 HTML error and breaks JSON parsers silently."
+    }
+  ],
+  "recipes": [
+    {
+      "title": "One series as CSV, no key, no account",
+      "lang": "bash",
+      "code": "curl -s 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL' | head -5"
+    },
+    {
+      "title": "Several series aligned on one date column, still keyless",
+      "lang": "bash",
+      "code": "curl -s 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE,CPIAUCSL,DGS10&cosd=2015-01-01' | head -5"
+    },
+    {
+      "title": "Search the catalogue -- this one does need a key",
+      "lang": "bash",
+      "code": "curl -s \"https://api.stlouisfed.org/fred/series/search?search_text=median+household+income&api_key=$FRED_API_KEY&file_type=json&limit=5\" | head -c 600"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "Everyone reaches for the API key first, because that is what the docs lead with. For 'give me this series' you do not need one.",
+      "fix": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SERIES returns the full history as CSV, keyless, and takes id=A,B,C to align several series on one date column plus cosd/coed for a window. Get a key when you need to *search* the catalogue or read series metadata; skip it when you already know the id."
+    },
+    {
+      "trap": "The CSV's first column header is `observation_date`. A great deal of published code -- and most tutorials written before it changed -- does df['DATE'] and dies with a KeyError.",
+      "fix": "Read the header rather than hard-coding it, or index positionally. Observed 2026-09-10."
+    },
+    {
+      "trap": "Two series that look like the same measure often differ in seasonal adjustment or units, and nothing in the id says so. CPIAUCSL is seasonally adjusted; CPIAUCNS is not.",
+      "fix": "Read `units`, `seasonal_adjustment_short` and `frequency` from /fred/series before comparing anything. The `_NS` / `SL` suffix convention is a habit, not a rule."
+    },
+    {
+      "trap": "FRED serves the *current* value of a series, so a backtest built on it is quietly using numbers nobody had at the time. GDP gets revised for years.",
+      "fix": "Use ALFRED -- /fred/series/observations with realtime_start and realtime_end -- when the question is 'what did we believe on date X'. This is the single most common way an economic backtest is wrong."
+    },
+    {
+      "trap": "Not everything on FRED is public domain, despite the .org and the federal publisher.",
+      "fix": "Series sourced from licensed providers carry a copyright notice on their series page. Check before republishing the values themselves; citing the id is always fine."
+    }
+  ],
+  "fields": [
+    "series_id -- the whole key space; UNRATE, CPIAUCSL, GDP, DGS10, PAYEMS",
+    "units and units_short -- 'Percent', 'Billions of Dollars', 'Index 1982-1984=100'",
+    "seasonal_adjustment_short -- 'SA' or 'NSA'; comparing across this is a common error",
+    "frequency_short -- D, W, M, Q, A",
+    "realtime_start / realtime_end -- the ALFRED vintage window, not the observation date",
+    "last_updated -- when the series itself last changed, useful for cache invalidation"
+  ],
+  "see_also": [
+    {
+      "name": "ALFRED",
+      "url": "https://alfred.stlouisfed.org/",
+      "note": "the same catalogue, with every historical vintage -- for anything that must not use revised numbers"
+    },
+    {
+      "name": "FRED API docs",
+      "url": "https://fred.stlouisfed.org/docs/api/fred/",
+      "note": "endpoint reference; the keyless CSV route is not documented here"
+    }
+  ],
+  "related": [
+    "world-bank",
+    "our-world-in-data",
+    "usaspending"
+  ],
+  "added": "2026-09-10",
+  "verified": "2026-09-10",
+  "status": "live"
+}

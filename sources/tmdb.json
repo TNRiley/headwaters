@@ -1,0 +1,150 @@
+{
+  "id": "tmdb",
+  "name": "TMDB (The Movie Database) API",
+  "publisher": "The Movie Database, community-maintained",
+  "homepage": "https://developer.themoviedb.org/docs",
+  "description": "Crowdsourced metadata for around a million films and 150,000 television series -- titles, release dates, runtimes, genres, cast and crew with per-person credits, budgets and box office where known, posters and stills, ratings, and translated titles and synopses in dozens of languages. It is the practical replacement for IMDb in anything programmatic: IMDb's own datasets exclude cast ordering and images and forbid commercial use, while TMDB has a documented REST API and a permissive attribution requirement.",
+  "topics": [
+    "film",
+    "television",
+    "media",
+    "entertainment",
+    "metadata"
+  ],
+  "geography": "global, with strong coverage of US, European and Indian releases",
+  "temporal": {
+    "start": "1874 for the earliest catalogued film",
+    "end": "future releases are listed before they come out",
+    "grain": "per title, per person, per credit",
+    "updated": "continuously by contributors; the ID export files are rebuilt daily around 08:00 UTC"
+  },
+  "license": {
+    "name": "free for non-commercial use with attribution; commercial use requires TMDB's written agreement",
+    "url": "https://www.themoviedb.org/api-terms-of-use",
+    "redistribution": "you may cache and display, but you may not republish the database itself. Attribution wording ('This product uses the TMDB API but is not endorsed or certified by TMDB') is required and specified."
+  },
+  "access": {
+    "auth": "api-key-free",
+    "auth_note": "A free key from https://www.themoviedb.org/settings/api after registering. Two forms exist: the v3 api_key query parameter and a v4 bearer token; both work against the v3 endpoints. The daily ID export files at files.tmdb.org need no key at all.",
+    "formats": [
+      "json",
+      "jsonl.gz (daily ID exports)"
+    ],
+    "bulk": false,
+    "size_hint": "one movie record is 2-10 KB; the daily movie ID export is about 10 MB gzipped",
+    "rate_limit": "roughly 50 requests per second per key; TMDB removed the older 40-per-10-seconds cap but still 429s bursts",
+    "pagination": "page parameter, 20 results per page, hard cap of 500 pages -- see the gotchas"
+  },
+  "probes": [
+    {
+      "id": "keyless-refused",
+      "description": "The v3 API without a key -- proves the service is up and the gate is where we say",
+      "url": "https://api.themoviedb.org/3/configuration",
+      "expect": {
+        "status": [
+          401
+        ],
+        "content_type": "json",
+        "body_contains": [
+          "Invalid API key",
+          "\"status_code\":7"
+        ]
+      },
+      "note": "A readable JSON 401 rather than an HTML page, so an unkeyed call fails loudly. Verified 2026-09-10."
+    },
+    {
+      "id": "movie-endpoint-keyless",
+      "description": "A specific title, unkeyed -- the same gate on a data endpoint",
+      "url": "https://api.themoviedb.org/3/movie/550",
+      "expect": {
+        "status": [
+          401
+        ],
+        "body_contains": [
+          "Invalid API key"
+        ]
+      }
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Search, then fetch the full record with credits in one call",
+      "lang": "bash",
+      "code": "curl -s \"https://api.themoviedb.org/3/search/movie?api_key=$TMDB_API_KEY&query=fight+club\" | head -c 400\ncurl -s \"https://api.themoviedb.org/3/movie/550?api_key=$TMDB_API_KEY&append_to_response=credits,release_dates,external_ids\" | head -c 600"
+    },
+    {
+      "title": "Every ID in the catalogue, keyless",
+      "lang": "bash",
+      "code": "# one JSON object per line, gzipped; date must be within the last ~3 months\nD=$(date -u -d '2 days ago' +%m_%d_%Y)\ncurl -s \"http://files.tmdb.org/p/exports/movie_ids_$D.json.gz\" | gunzip | head -3"
+    },
+    {
+      "title": "Poster URLs need the image base from /configuration",
+      "lang": "bash",
+      "code": "curl -s \"https://api.themoviedb.org/3/configuration?api_key=$TMDB_API_KEY\" | python3 -c \"import json,sys; c=json.load(sys.stdin)['images']; print(c['secure_base_url'], c['poster_sizes'])\"\n# then: {secure_base_url}{size}{poster_path}"
+    }
+  ],
+  "gotchas": [
+    {
+      "trap": "`append_to_response` is the difference between one request per title and four. Most code fetches the movie, then credits, then external_ids, then release_dates as separate calls and hits the rate limit at a quarter of the throughput it could have.",
+      "fix": "append_to_response=credits,release_dates,external_ids,videos returns them all inline in one response, and the appended sections do not count against pagination."
+    },
+    {
+      "trap": "Discover and search stop at page 500. total_pages will happily say 4,000 and pages beyond 500 return an error, so a harvest loop that trusts total_pages dies two thirds of the way through a long job.",
+      "fix": "Slice the query instead of paging deeper -- by release year, then by genre if a year still exceeds 10,000 results. For the whole catalogue, use the daily ID export rather than discover at all."
+    },
+    {
+      "trap": "Poster and backdrop fields are paths like /abc123.jpg, not URLs. Concatenating them onto the API host gives a 404.",
+      "fix": "Fetch /configuration once, take images.secure_base_url and a size from images.poster_sizes, and build {base}{size}{path}. The base host is image.tmdb.org, not api.themoviedb.org."
+    },
+    {
+      "trap": "The daily ID export URLs carry a date and are only kept for about three months, so a URL that worked in a tutorial is a 403 now.",
+      "fix": "Build the date at runtime as MM_DD_YYYY, and use yesterday or the day before rather than today -- the file appears around 08:00 UTC. Verified keyless on 2026-09-10."
+    },
+    {
+      "trap": "Ratings are contributor votes, not a representative sample. vote_average for a film with 12 votes sits in the same column as one with 30,000.",
+      "fix": "Always filter on vote_count before ranking. TMDB's own popular lists use a Bayesian prior for this reason; a raw sort by vote_average returns obscure titles with three 10s."
+    },
+    {
+      "trap": "budget and revenue are 0 rather than null when unknown, which is very common outside major studio releases.",
+      "fix": "Treat 0 as missing. A profitability analysis that does not will find a great many films that earned infinitely more than they cost."
+    },
+    {
+      "trap": "The v4 bearer token and the v3 api_key parameter are both current and the docs interleave them, so examples get mixed and return 401 with no hint which half is wrong.",
+      "fix": "Pick one. Either ?api_key=<v3 key> in the query, or Authorization: Bearer <v4 token> as a header -- never both, and the v4 token is a long JWT, not the 32-character v3 key."
+    }
+  ],
+  "fields": [
+    "id -- TMDB's own key; not an IMDb id",
+    "external_ids.imdb_id -- the join to IMDb, OMDb, Wikidata; request it via append_to_response",
+    "vote_count -- check it before trusting vote_average",
+    "budget / revenue -- 0 means unknown, not zero",
+    "credits.cast[].order -- billing order, which IMDb's public datasets do not give you",
+    "poster_path / backdrop_path -- paths, not URLs; see /configuration",
+    "release_dates -- per-country, with certification; the top-level release_date is only one of them"
+  ],
+  "see_also": [
+    {
+      "name": "IMDb non-commercial datasets",
+      "url": "https://developer.imdb.com/non-commercial-datasets/",
+      "note": "bulk TSVs, no API, no images, no cast order, strictly non-commercial -- the reason people use TMDB instead"
+    },
+    {
+      "name": "OMDb API",
+      "url": "https://www.omdbapi.com/",
+      "note": "thin wrapper keyed by IMDb id, free tier 1,000 calls/day; handy for filling Rotten Tomatoes scores TMDB lacks"
+    },
+    {
+      "name": "Wikidata",
+      "url": "https://query.wikidata.org/",
+      "note": "catalogued here as wikidata; holds TMDB and IMDb ids as properties, so it can bridge the two without an API key"
+    }
+  ],
+  "related": [
+    "wikidata",
+    "itunes-search",
+    "openlibrary"
+  ],
+  "added": "2026-09-10",
+  "verified": "2026-09-10",
+  "status": "live"
+}
