@@ -1,5 +1,5 @@
 {
-  "checked": "2026-09-10T21:50:00+00:00",
+  "checked": "2026-09-11T02:38:01+00:00",
   "probe_version": 1,
   "summary": {
     "ok": 99,
@@ -7,40 +7,7 @@
     "expected_fail": 9,
     "partial": true
   },
-  "changes": [
-    {
-      "source": "openaq",
-      "probe": "v2-retired",
-      "change": "new",
-      "from": null,
-      "to": "dead",
-      "detail": "first run: dead -- status 410, wanted [200, 206]; body missing 'results'"
-    },
-    {
-      "source": "propublica-apis",
-      "probe": "campaign-finance-candidates",
-      "change": "new",
-      "from": null,
-      "to": "dead",
-      "detail": "first run: dead -- status 401, wanted [200, 206]; body missing 'results'"
-    },
-    {
-      "source": "propublica-apis",
-      "probe": "congress-members",
-      "change": "new",
-      "from": null,
-      "to": "dead",
-      "detail": "first run: dead -- status 401, wanted [200, 206]; body missing 'results'"
-    },
-    {
-      "source": "sec-edgar",
-      "probe": "default-ua-refused",
-      "change": "new",
-      "from": null,
-      "to": "dead",
-      "detail": "first run: dead -- status 403, wanted [200, 206]; body missing 'cik'"
-    }
-  ],
+  "changes": [],
   "results": {
     "apple-review-rss": {
       "reviews-page1": {
@@ -1274,31 +1241,31 @@
     "sec-edgar": {
       "submissions-aapl": {
         "url": "https://data.sec.gov/submissions/CIK0000320193.json",
-        "checked": "2026-09-10T21:49:52+00:00",
+        "checked": "2026-09-11T02:37:57+00:00",
         "status": 200,
         "content_type": "application/json",
-        "ms": 43,
+        "ms": 101,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "xbrl-companyconcept": {
         "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000320193/us-gaap/AccountsPayableCurrent.json",
-        "checked": "2026-09-10T21:49:53+00:00",
+        "checked": "2026-09-11T02:37:59+00:00",
         "status": 200,
         "content_type": "application/json",
         "length_header": "19480",
-        "ms": 147,
+        "ms": 252,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "default-ua-refused": {
         "url": "https://data.sec.gov/submissions/CIK0000320193.json",
-        "checked": "2026-09-10T21:49:55+00:00",
+        "checked": "2026-09-11T02:38:00+00:00",
         "status": 403,
         "content_type": "text/html",
-        "ms": 117,
+        "ms": 74,
         "bytes_read": 4096,
         "ok": false,
         "why": [

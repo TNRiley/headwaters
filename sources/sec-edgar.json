@@ -54,7 +54,7 @@
           "0000320193"
         ]
       },
-      "note": "The User-Agent is overridden on purpose: the catalogue's normal prober UA contains a github.com URL and the SEC 403s it. See the first gotcha."
+      "note": "The User-Agent is overridden on purpose: the catalogue's normal prober UA contains a github.com URL and the SEC 403s it. See the first gotcha. The contact here is a placeholder on the reserved example.com domain -- if you run these probes yourself, substitute an address you actually monitor, because the SEC's policy is that the contact be reachable."
     },
     {
       "id": "xbrl-companyconcept",
@@ -101,7 +101,7 @@
   "gotchas": [
     {
       "trap": "The docs say to declare your traffic by putting company information in the User-Agent. A User-Agent containing a github.com URL is 403'd anyway -- including the polite, contactable form most open-source crawlers use.",
-      "fix": "Tested 2026-09-10 against data.sec.gov/submissions/CIK0000320193.json: 'Acme Research acme@example.com' -> 200, 'Headwaters Catalogue headwaters@example.com' -> 200, but 'Headwaters tnril@github.com' -> 403 and 'Headwaters tnril@users.noreply.github.com' -> 403. Substituting only the domain flipped the result, so the trigger is the literal string github.com in the User-Agent, not the shape of the header. Use a name plus a non-github contact address. python-requests and curl default UAs are refused outright."
+      "fix": "Tested 2026-09-10 against data.sec.gov/submissions/CIK0000320193.json: 'Acme Research acme@example.com' -> 200 and 'Headwaters Catalogue headwaters@example.com' -> 200, but the same name and local-part with an @github.com domain -> 403, and with @users.noreply.github.com -> 403. Only the domain changed between the 200 and the 403, so the trigger is the literal string github.com in the User-Agent, not the shape of the header. Use a name plus a non-github contact address. python-requests/2.32.3 and curl/8.0 default UAs are refused outright."
     },
     {
       "trap": "Once the SEC has seen an undeclared tool from your IP it keeps refusing for a while, so the first fix you try appears not to work and you go on changing the wrong thing.",
