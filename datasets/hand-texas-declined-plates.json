@@ -1,0 +1,67 @@
+{
+ "id": "hand-texas-declined-plates",
+ "title": "Texas DMV declined personalized plates, by year",
+ "hook": "Every personalized plate the Texas DMV declined, with the date of each request. There are lists for 2025 (1,951 plates, posted by the agency), 2024 (2,341) and January–November 2023 (3,095, obtained by the Houston Chronicle). The state's rules say it does not consider what the applicant meant, only how the public might read the plate. Because requests are dated, current events show up in the list.",
+ "hook_source": "manual",
+ "questions": [
+  "Do declined Texas plates mentioning Elon Musk cluster in spring 2025, and plates mentioning ICE in autumn 2025?",
+  "Which months of 2025 had the most declined plate requests, and does the pattern repeat in 2023 and 2024?",
+  "How many of the plates Texas declined would California's reviewers have approved?"
+ ],
+ "questions_source": "generated",
+ "subjects": [
+  "government & politics",
+  "oddities & curiosities"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "provider": {
+  "name": "Texas Department of Motor Vehicles",
+  "host": "txdmv.gov"
+ },
+ "sources": [
+  {
+   "name": "fox4news.com",
+   "url": "https://static.fox4news.com/www.fox4news.com/content/uploads/2026/01/denied_plate_selections_cy2025.pdf"
+  },
+  {
+   "name": "txdmv.gov",
+   "url": "https://www.txdmv.gov/sites/default/files/body-files/PLP_Criteria.pdf"
+  }
+ ],
+ "articles": [
+  {
+   "name": "fox4news.com",
+   "url": "https://www.fox4news.com/news/2025-rejected-personalized-license-plates-texas"
+  },
+  {
+   "name": "statesman.com",
+   "url": "https://www.statesman.com/story/news/state/2025/02/18/texas-license-plates-2024-rejected-personalized-list/77930891007/"
+  },
+  {
+   "name": "houstonchronicle.com",
+   "url": "https://www.houstonchronicle.com/news/houston-texas/trending/article/2023-license-plates-rejected-18595564.php"
+  }
+ ],
+ "tables": [
+  {
+   "file": "denied_plate_selections_cy2025.pdf",
+   "bytes": 508680,
+   "url": "https://static.fox4news.com/www.fox4news.com/content/uploads/2026/01/denied_plate_selections_cy2025.pdf",
+   "columns": [
+    "Plate Selection",
+    "Request Date"
+   ]
+  }
+ ],
+ "extra_files": 0,
+ "found_in": [
+  {
+   "aggregation": "hand",
+   "date": "2026-09-12",
+   "year": 2026
+  }
+ ],
+ "notes": "Observed 2026-09-12. News reports say TxDMV posted the list on its website, but the only copy found was a FOX 4 re-host of denied_plate_selections_cy2025.pdf; guessing the same filename under txdmv.gov/sites/default/files/body-files/ failed (no response for 2023-2025, 404 for 2021-2022). The 2023 and 2024 files have not been located yet. GOTCHA: `pdftotext -layout` misaligns this PDF. Plates and dates drift apart by a row where a plate cell wraps, and about 84 rows pair a plate with its neighbour's date without any error. `pdftotext -raw` and `-table` agree with each other and give exactly the 1,951 rows the header states. Plates can contain spaces and symbols (@STL BLZ, &FKICE, BOOJIE*B), so split the date from the end of the line, not on whitespace. Policy PDF: TxDMV 'does not consider your meaning or intent because the public will not know this information.'",
+ "added": "2026-09-12"
+}

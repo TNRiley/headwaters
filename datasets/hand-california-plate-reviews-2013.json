@@ -1,0 +1,60 @@
+{
+ "id": "hand-california-plate-reviews-2013",
+ "title": "California DMV vanity plate review sheets, 2012–2013",
+ "hook": "About 300 spreadsheets the California DMV released in response to a 2014 MuckRock request, covering plate orders its review committee flagged in 2012–13. Each row has the plate, the applicant's stated meaning, the reviewer's comment and the decision. These are the same fields as Noah Veltman's 2015–16 California dataset, so the two can be joined into one run of California's reasoning over time.",
+ "hook_source": "manual",
+ "questions": [
+  "Did California reviewers deny plates ending in 13 or 88 as gang or hate codes as often in 2012–13 as they did in 2015–16?",
+  "How often did reviewers deny a plate even though the applicant gave an innocent meaning, such as a name or a car model?",
+  "Which reference sources do reviewers cite in their comments, such as Urban Dictionary or Google, and how often?"
+ ],
+ "questions_source": "generated",
+ "subjects": [
+  "government & politics",
+  "oddities & curiosities"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "provider": {
+  "name": "muckrock.com",
+  "host": "muckrock.com"
+ },
+ "sources": [
+  {
+   "name": "muckrock.com",
+   "url": "https://www.muckrock.com/foi/california-52/rejected-personalized-aka-vanity-license-plates-in-2013-department-of-motor-vehicles-11655/"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/dannguyen/dmv-vanity-plate-rejections/tree/master/data/muckrock/fetched/CA"
+  }
+ ],
+ "articles": [
+  {
+   "name": "muckrock.com",
+   "url": "https://www.muckrock.com/news/archives/2014/may/05/vanity-plate-rejections-whats-your-state/"
+  }
+ ],
+ "tables": [
+  {
+   "file": "data/muckrock/fetched/CA/*_ELP_ORDER_YES.xlsx",
+   "columns": [
+    "PLATE",
+    "REVIEW REASON CODE",
+    "COMMENTS",
+    "STATUS",
+    "CUSTOMER'S MEANING ON APPLICATION"
+   ]
+  }
+ ],
+ "extra_files": 300,
+ "found_in": [
+  {
+   "aggregation": "hand",
+   "date": "2026-09-12",
+   "year": 2026
+  }
+ ],
+ "notes": "Observed 2026-09-12: 225 .xlsx, 72 .xls, one misnamed .xsx and a PDF cover letter. Column order and header names change between sheets (MEANING and COMMENTS swap places, and some sheets have no reason code), so map columns by header text, not position. The header row sits below a reviewer-name line and sometimes an order number and an Excel serial order date (40915 = 2012-01-07). Plate strings contain spaces and symbols: $ is a heart, # a hand, & a star, + a plus. The 225 .xlsx files alone give 3,999 Y/N decisions, 17% approved; the .xls files need xlrd or similar. The same decisions for 2015-16 are dip-2020-01-29-5.",
+ "added": "2026-09-12"
+}

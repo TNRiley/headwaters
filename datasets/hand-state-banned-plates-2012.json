@@ -1,0 +1,55 @@
+{
+ "id": "hand-state-banned-plates-2012",
+ "title": "Banned vanity plate lists from 26 state DMVs, 2012",
+ "hook": "In 2012 governmentattic.org asked every state DMV for its list of prohibited personalized plates, and 26 answered. The responses are scans: some are clean lists, some are rejection letters with reason codes, and eleven are only a policy letter. Because every list comes from the same year, the states can be compared with each other directly.",
+ "hook_source": "manual",
+ "questions": [
+  "How much of Arkansas's 2012 banned-plate list also appears in Vermont's, and which states built their lists independently?",
+  "Which states' 2012 lists ban religious words such as GOD or JESUS, and which ban only profanity?",
+  "Which reasons does Utah give most often for a banned plate: sex, drugs, profanity or ethnicity?"
+ ],
+ "questions_source": "generated",
+ "subjects": [
+  "government & politics",
+  "oddities & curiosities"
+ ],
+ "provider_type": "government",
+ "geography": "United States",
+ "provider": {
+  "name": "governmentattic.org",
+  "host": "governmentattic.org"
+ },
+ "sources": [
+  {
+   "name": "governmentattic.org",
+   "url": "http://www.governmentattic.org/StateDMV-ForbidPlates.html"
+  },
+  {
+   "name": "github.com",
+   "url": "https://github.com/dannguyen/dmv-vanity-plate-rejections"
+  }
+ ],
+ "articles": [],
+ "tables": [
+  {
+   "file": "checklist.csv",
+   "url": "https://github.com/dannguyen/dmv-vanity-plate-rejections/blob/master/checklist.csv",
+   "columns": [
+    "State",
+    "Abbreviation",
+    "governmentattic.org",
+    "MuckRock"
+   ]
+  }
+ ],
+ "extra_files": 83,
+ "found_in": [
+  {
+   "aggregation": "hand",
+   "date": "2026-09-12",
+   "year": 2026
+  }
+ ],
+ "notes": "Observed 2026-09-12. The dannguyen repo (last commit 2016) holds each state's original PDF, an OCR'd PDF, and an OCR'd xlsx that mixes letter text with the lists. Usable lists: AR, AZ, CO, DC, GA, IA, KS, ME, NJ, NY, OH, OK, UT, VT, WI (NM is short). Letters only, no list: CA, MI, MO, MT, ND, NE, RI, SD, TN, WA, WY. Extract with `pdftotext -layout` on the ocr-pdf files and split columns on two or more spaces, then remove the single spaces OCR puts inside plates ('K N U C K IE'). Each state's layout differs: Utah gives a reason per plate (SEX REFERENCE, DRUG REFERENCE and so on; drop SERIES CONFLICT and ALREADY ISSUED, which are not bans); Colorado's are rejection letters where code 06 means 'possibly offensive'; New York puts a 7-digit id after each plate; Maine's list tags each plate with a state code and is mostly Alaska's (AK ~4,200 of ~6,100), so it is a list assembled from other states' lists. Numbered blocks such as GODS1-GODS32 (GA) and FUBAR2-FUBAR96 (NJ) are ranges, not separate judgements, and inflate any per-theme count. A first pass extracted ~100k state-plate pairs with visible OCR noise.",
+ "added": "2026-09-12"
+}
