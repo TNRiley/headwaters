@@ -9,7 +9,7 @@ Two catalogues that answer different questions.
 
 **`datasets/<id>.json` — what data exists.** One file per published dataset: what it is, the
 curator's own pitch, the files in it with their column names, who published it upstream, and
-which aggregation surfaced it. 2,371 records from two aggregations — every TidyTuesday week
+which aggregation surfaced it. 2,374 records, all but three from two aggregations (the rest were found by hand, `found_in: hand`) — every TidyTuesday week
 since 2018, and ten years of Data Is Plural — with 30 datasets that both of them surfaced
 held as **one record with two `found_in` entries**, never two records. This is the browsing
 layer — "is there anything good on X?"

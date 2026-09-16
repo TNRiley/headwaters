@@ -4,7 +4,7 @@
 
 Two layers, deliberately different:
 
-- **`datasets/`** — 2,371 specific published datasets: what they are, what is in them, who
+- **`datasets/`** — 2,374 specific published datasets: what they are, what is in them, who
   published them, and where the original data lives. Classified by subject and publisher so
   you can browse for something to work with rather than search for something you already
   know exists. Drawn from two aggregations that select for very different things — every week
@@ -146,7 +146,7 @@ that a *place* key like county or coordinate joins across subjects while a *spec
 only joins within one, and labels every edge with the evidence behind it: both records
 declaring the column, or the key merely being read out of a description.
 
-968 of 2,371 records have at least one candidate. A shared key means a join is
+970 of 2,374 records have at least one candidate. A shared key means a join is
 mechanically possible — not that the values overlap.
 
 ## How it grows

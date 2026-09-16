@@ -1,7 +1,7 @@
 {
  "id": "hand-state-banned-plates-2012",
- "title": "Banned vanity plate lists from 26 state DMVs, 2012",
- "hook": "In 2012 governmentattic.org asked every state DMV for its list of prohibited personalized plates, and 26 answered. The responses are scans: some are clean lists, some are rejection letters with reason codes, and eleven are only a policy letter. Because every list comes from the same year, the states can be compared with each other directly.",
+ "title": "Banned vanity plate lists from 26 state DMVs and D.C., 2012",
+ "hook": "In 2012 governmentattic.org asked every state DMV for its list of prohibited personalized plates, and 26 states and D.C. answered. The responses are scans: some are clean lists, some are rejection letters with reason codes, and eleven are only a policy letter. Because every list comes from the same year, the states can be compared with each other directly.",
  "hook_source": "manual",
  "questions": [
   "How much of Arkansas's 2012 banned-plate list also appears in Vermont's, and which states built their lists independently?",
