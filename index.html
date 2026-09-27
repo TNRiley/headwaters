@@ -152,6 +152,41 @@
 </style>
 </head>
 <body>
+<!-- catalog-link -->
+<style>
+.qp-crumb{display:flex;align-items:center;gap:8px;padding:9px 18px;
+  border-bottom:1px solid rgba(128,128,128,.26);background:rgba(128,128,128,.06);
+  font:500 12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.06em}
+.qp-crumb a{color:inherit;text-decoration:none;opacity:.68;display:inline-flex;gap:7px;align-items:center}
+.qp-crumb a:hover,.qp-crumb a:focus-visible{opacity:1;text-decoration:underline;text-underline-offset:3px}
+.qp-crumb .qp-sep{opacity:.34}
+.qp-crumb .qp-here{opacity:.44;text-transform:uppercase}
+.qp-crumb .qp-visits{margin-left:auto;opacity:.44;font-variant-numeric:tabular-nums}
+@media(max-width:600px){.qp-crumb{padding:8px 14px;font-size:11px}}
+@media print{.qp-crumb{display:none}}
+</style>
+<nav class="qp-crumb" aria-label="Breadcrumb">
+  <a href="https://tnriley.github.io/quick-projects/">&larr;&nbsp;Quick Projects</a>
+  <span class="qp-sep">/</span>
+  <span class="qp-here">Headwaters</span>
+</nav>
+<script>
+(function(){
+  var nav = document.querySelector(".qp-crumb"); if (!nav) return;
+  var live = /\.github\.io$/i.test(location.hostname);
+  fetch("https://abacus.jasoncameron.dev/" + (live ? "hit" : "get") + "/tnriley-shelf-e76198/headwaters", {cache: "no-store"})
+    .then(function(r){ return r.ok ? r.json() : null; })
+    .then(function(d){
+      if (!d || typeof d.value !== "number") return;
+      var s = document.createElement("span");
+      s.className = "qp-visits";
+      s.textContent = d.value.toLocaleString("en-US") + (d.value === 1 ? " visit" : " visits");
+      nav.appendChild(s);
+    })
+    .catch(function(){});
+})();
+</script>
+<!-- /catalog-link -->
 <header>
   <div class="brand">
     <h1>Head<span class="drop">waters</span></h1>
