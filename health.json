@@ -1,55 +1,55 @@
 {
-  "checked": "2026-11-02T19:34:47+00:00",
+  "checked": "2026-11-09T19:54:07+00:00",
   "probe_version": 1,
   "summary": {
-    "ok": 94,
-    "fail": 8,
+    "ok": 98,
+    "fail": 4,
     "expected_fail": 9
   },
   "changes": [
     {
+      "source": "aws-open-data-registry",
+      "probe": "registry-index",
+      "change": "broke",
+      "from": "ok",
+      "to": "failing",
+      "detail": "status 403, wanted [200, 206]; body missing 'download_url'"
+    },
+    {
       "source": "congress-gov",
       "probe": "member-list-demo-key",
-      "change": "throttled",
-      "from": "ok",
-      "to": "throttled",
-      "detail": "status None, wanted [200, 206]; content-type None lacks 'json'; body missing 'members'; body missing 'bioguideId'"
+      "change": "recovered",
+      "from": "throttled",
+      "to": "ok",
+      "detail": "status 206"
     },
     {
       "source": "gbif",
       "probe": "occurrence-search",
-      "change": "throttled",
-      "from": "ok",
-      "to": "throttled",
-      "detail": "status None, wanted [200, 206]; body missing 'results'; body missing 'count'"
+      "change": "recovered",
+      "from": "throttled",
+      "to": "ok",
+      "detail": "status 206"
     },
     {
       "source": "gdelt",
-      "probe": "timeline-tone",
-      "change": "throttled",
-      "from": "ok",
-      "to": "throttled",
-      "detail": "status 429, wanted [200, 206]; body missing 'timeline'"
+      "probe": "artlist",
+      "change": "recovered",
+      "from": "throttled",
+      "to": "ok",
+      "detail": "status 200"
     },
     {
-      "source": "overpass",
-      "probe": "small-bbox",
-      "change": "throttled",
+      "source": "who-gho",
+      "probe": "indicator-list",
+      "change": "recovered",
       "from": "failing",
-      "to": "throttled",
-      "detail": "status None, wanted [200, 206]; body missing 'generator'; body missing 'osm3s'"
+      "to": "ok",
+      "detail": "status 200"
     },
     {
-      "source": "overpass",
-      "probe": "status",
-      "change": "throttled",
-      "from": "failing",
-      "to": "throttled",
-      "detail": "status None, wanted [200, 206]; body missing 'Rate limit'"
-    },
-    {
-      "source": "socrata-portals",
-      "probe": "soql-query",
+      "source": "who-gho",
+      "probe": "life-expectancy-filtered",
       "change": "recovered",
       "from": "failing",
       "to": "ok",
@@ -60,11 +60,10 @@
     "apple-review-rss": {
       "reviews-page1": {
         "url": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=375380948/sortby=mostrecent/json",
-        "checked": "2026-11-02T19:29:36+00:00",
+        "checked": "2026-11-09T19:49:50+00:00",
         "status": 200,
         "content_type": "text/javascript; charset=UTF-8",
-        "length_header": "41955",
-        "ms": 148,
+        "ms": 198,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -73,11 +72,11 @@
     "arxiv": {
       "query": {
         "url": "https://export.arxiv.org/api/query?search_query=cat:stat.AP&max_results=1",
-        "checked": "2026-11-02T19:29:36+00:00",
+        "checked": "2026-11-09T19:49:50+00:00",
         "status": 206,
         "content_type": "application/atom+xml; charset=utf-8",
         "length_header": "bytes 0-1992/1993",
-        "ms": 3802,
+        "ms": 559,
         "bytes_read": 1993,
         "ok": true,
         "known_broken": null
@@ -86,35 +85,39 @@
     "aws-open-data-registry": {
       "dataset-yaml": {
         "url": "https://raw.githubusercontent.com/awslabs/open-data-registry/main/datasets/noaa-ghcn.yaml",
-        "checked": "2026-11-02T19:29:40+00:00",
+        "checked": "2026-11-09T19:49:51+00:00",
         "status": 206,
         "content_type": "text/plain; charset=utf-8",
         "length_header": "bytes 0-4095/4821",
-        "ms": 885,
+        "ms": 179,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "registry-index": {
         "url": "https://api.github.com/repos/awslabs/open-data-registry/contents/datasets?per_page=1",
-        "checked": "2026-11-02T19:29:42+00:00",
-        "status": 206,
+        "checked": "2026-11-09T19:49:51+00:00",
+        "status": 403,
         "content_type": "application/json; charset=utf-8",
-        "length_header": "bytes 0-4095/940672",
-        "ms": 266,
-        "bytes_read": 4096,
-        "ok": true,
+        "ms": 60,
+        "bytes_read": 280,
+        "ok": false,
+        "why": [
+          "status 403, wanted [200, 206]",
+          "body missing 'download_url'"
+        ],
+        "preview": "{\"message\":\"API rate limit exceeded for 52.190.182.115. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)\",\"documentation_url\":\"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting\"}",
         "known_broken": null
       }
     },
     "census-acs": {
       "acs5-keyless": {
         "url": "https://api.census.gov/data/2023/acs/acs5?get=NAME,B01001_001E&for=state:24",
-        "checked": "2026-11-02T19:29:42+00:00",
+        "checked": "2026-11-09T19:49:52+00:00",
         "status": 206,
         "content_type": "text/html",
         "length_header": "bytes 0-4095/8531",
-        "ms": 504,
+        "ms": 280,
         "bytes_read": 4096,
         "ok": false,
         "why": [
@@ -125,10 +128,10 @@
       },
       "variable-metadata": {
         "url": "https://api.census.gov/data/2023/acs/acs5/variables.json",
-        "checked": "2026-11-02T19:29:44+00:00",
+        "checked": "2026-11-09T19:49:54+00:00",
         "status": 200,
         "content_type": "application/json;charset=utf-8",
-        "ms": 175,
+        "ms": 138,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -137,50 +140,44 @@
     "congress-gov": {
       "bill-list-demo-key": {
         "url": "https://api.congress.gov/v3/bill?api_key=DEMO_KEY&limit=1",
-        "checked": "2026-11-02T19:29:45+00:00",
+        "checked": "2026-11-09T19:49:54+00:00",
         "status": 206,
         "content_type": "application/json",
         "length_header": "bytes 0-1110/1111",
-        "ms": 59,
+        "ms": 152,
         "bytes_read": 1111,
         "ok": true,
         "known_broken": null
       },
       "member-list-demo-key": {
         "url": "https://api.congress.gov/v3/member?api_key=DEMO_KEY&limit=1",
-        "checked": "2026-11-02T19:29:46+00:00",
-        "status": null,
-        "error": "TimeoutError: The read operation timed out",
-        "ms": 30008,
-        "bytes_read": 0,
-        "ok": false,
-        "why": [
-          "status None, wanted [200, 206]",
-          "content-type None lacks 'json'",
-          "body missing 'members'",
-          "body missing 'bioguideId'"
-        ],
-        "preview": "",
+        "checked": "2026-11-09T19:49:56+00:00",
+        "status": 206,
+        "content_type": "application/json",
+        "length_header": "bytes 0-1072/1073",
+        "ms": 345,
+        "bytes_read": 1073,
+        "ok": true,
         "known_broken": null
       }
     },
     "crossref": {
       "works-query": {
         "url": "https://api.crossref.org/works?query.bibliographic=retraction&rows=1&mailto=tnril@users.noreply.github.com",
-        "checked": "2026-11-02T19:30:16+00:00",
+        "checked": "2026-11-09T19:49:56+00:00",
         "status": 200,
         "content_type": "application/json",
-        "ms": 548,
+        "ms": 780,
         "bytes_read": 1146,
         "ok": true,
         "known_broken": null
       },
       "single-doi": {
         "url": "https://api.crossref.org/works/10.1038/s41597-023-02462-y?mailto=tnril@users.noreply.github.com",
-        "checked": "2026-11-02T19:30:19+00:00",
+        "checked": "2026-11-09T19:49:59+00:00",
         "status": 200,
         "content_type": "application/json",
-        "ms": 217,
+        "ms": 298,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -189,10 +186,10 @@
     "data-gov": {
       "ckan-package-search": {
         "url": "https://catalog.data.gov/api/3/action/package_search?q=climate&rows=1",
-        "checked": "2026-11-02T19:30:19+00:00",
+        "checked": "2026-11-09T19:49:59+00:00",
         "status": 404,
         "content_type": "application/json",
-        "ms": 64,
+        "ms": 112,
         "bytes_read": 36,
         "ok": false,
         "why": [
@@ -204,10 +201,10 @@
       },
       "gsa-proxy": {
         "url": "https://api.gsa.gov/technology/datagov/v3/action/package_search?q=climate&rows=1",
-        "checked": "2026-11-02T19:30:19+00:00",
+        "checked": "2026-11-09T19:50:00+00:00",
         "status": 403,
         "content_type": "application/json",
-        "ms": 23,
+        "ms": 148,
         "bytes_read": 128,
         "ok": true,
         "known_broken": null
@@ -216,10 +213,10 @@
     "data-is-plural": {
       "archive-csv": {
         "url": "https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/export?format=csv&gid=0",
-        "checked": "2026-11-02T19:30:20+00:00",
+        "checked": "2026-11-09T19:50:00+00:00",
         "status": 200,
         "content_type": "text/csv; charset=utf-8",
-        "ms": 479,
+        "ms": 404,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -228,20 +225,20 @@
     "datacite-re3data": {
       "re3data-list": {
         "url": "https://www.re3data.org/api/v1/repositories",
-        "checked": "2026-11-02T19:30:21+00:00",
+        "checked": "2026-11-09T19:50:01+00:00",
         "status": 200,
         "content_type": "text/xml; charset=UTF-8",
-        "ms": 4049,
+        "ms": 2166,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "datacite-dois": {
         "url": "https://api.datacite.org/dois?query=sea+level&page[size]=1",
-        "checked": "2026-11-02T19:30:25+00:00",
+        "checked": "2026-11-09T19:50:03+00:00",
         "status": 200,
         "content_type": "application/json; charset=utf-8",
-        "ms": 583,
+        "ms": 865,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -250,21 +247,21 @@
     "europe-pmc": {
       "search": {
         "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=malaria&format=json&pageSize=1",
-        "checked": "2026-11-02T19:30:26+00:00",
+        "checked": "2026-11-09T19:50:04+00:00",
         "status": 200,
         "content_type": "application/json;charset=UTF-8",
-        "ms": 793,
+        "ms": 1731,
         "bytes_read": 1282,
         "ok": true,
         "known_broken": null
       },
       "citations": {
         "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/MED/23245604/citations?format=json&pageSize=1",
-        "checked": "2026-11-02T19:30:28+00:00",
+        "checked": "2026-11-09T19:50:08+00:00",
         "status": 200,
         "content_type": "application/json;charset=UTF-8",
-        "ms": 630,
-        "bytes_read": 564,
+        "ms": 1434,
+        "bytes_read": 588,
         "ok": true,
         "known_broken": null
       }
@@ -272,21 +269,21 @@
     "eurostat": {
       "statistics-json": {
         "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?format=JSON&geo=DE&time=2022&na_item=B1GQ&unit=CP_MEUR",
-        "checked": "2026-11-02T19:30:29+00:00",
+        "checked": "2026-11-09T19:50:09+00:00",
         "status": 200,
         "content_type": "application/json",
         "length_header": "2913",
-        "ms": 664,
+        "ms": 513,
         "bytes_read": 2913,
         "ok": true,
         "known_broken": null
       },
       "catalogue-toc": {
         "url": "https://ec.europa.eu/eurostat/api/dissemination/catalogue/toc/txt?lang=en",
-        "checked": "2026-11-02T19:30:31+00:00",
+        "checked": "2026-11-09T19:50:11+00:00",
         "status": 200,
         "content_type": "text/plain;charset=UTF-8",
-        "ms": 517,
+        "ms": 468,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -295,22 +292,22 @@
     "federal-register": {
       "documents": {
         "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=1",
-        "checked": "2026-11-02T19:30:32+00:00",
+        "checked": "2026-11-09T19:50:12+00:00",
         "status": 206,
         "content_type": "application/json; charset=utf-8",
-        "length_header": "bytes 0-4095/30134",
-        "ms": 240,
+        "length_header": "bytes 0-4095/31395",
+        "ms": 196,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "agency-filter": {
         "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=1&conditions[agencies][]=national-oceanic-and-atmospheric-administration&conditions[publication_date][gte]=2025-01-01&conditions[publication_date][lte]=2025-01-31",
-        "checked": "2026-11-02T19:30:34+00:00",
+        "checked": "2026-11-09T19:50:14+00:00",
         "status": 206,
         "content_type": "application/json; charset=utf-8",
         "length_header": "bytes 0-4095/35638",
-        "ms": 245,
+        "ms": 225,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -319,21 +316,21 @@
     "fred": {
       "fredgraph-csv-keyless": {
         "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&cosd=2020-01-01&coed=2020-06-01",
-        "checked": "2026-11-02T19:30:34+00:00",
+        "checked": "2026-11-09T19:50:14+00:00",
         "status": 206,
         "content_type": "application/csv",
         "length_header": "bytes 0-116/117",
-        "ms": 657,
+        "ms": 638,
         "bytes_read": 117,
         "ok": true,
         "known_broken": null
       },
       "api-keyless-refused": {
         "url": "https://api.stlouisfed.org/fred/series?series_id=GNPCA&file_type=json",
-        "checked": "2026-11-02T19:30:35+00:00",
+        "checked": "2026-11-09T19:50:15+00:00",
         "status": 400,
         "content_type": "application/json; charset=UTF-8",
-        "ms": 207,
+        "ms": 165,
         "bytes_read": 162,
         "ok": true,
         "known_broken": null
@@ -342,27 +339,22 @@
     "gbif": {
       "occurrence-search": {
         "url": "https://api.gbif.org/v1/occurrence/search?q=Quercus&limit=1",
-        "checked": "2026-11-02T19:30:36+00:00",
-        "status": null,
-        "error": "TimeoutError: The read operation timed out",
-        "ms": 30395,
-        "bytes_read": 0,
-        "ok": false,
-        "why": [
-          "status None, wanted [200, 206]",
-          "body missing 'results'",
-          "body missing 'count'"
-        ],
-        "preview": "",
+        "checked": "2026-11-09T19:50:16+00:00",
+        "status": 206,
+        "content_type": "application/json",
+        "length_header": "bytes 0-4095/5135",
+        "ms": 884,
+        "bytes_read": 4096,
+        "ok": true,
         "known_broken": null
       },
       "species-match": {
         "url": "https://api.gbif.org/v1/species/match?name=Quercus%20alba",
-        "checked": "2026-11-02T19:31:08+00:00",
+        "checked": "2026-11-09T19:50:18+00:00",
         "status": 206,
         "content_type": "application/json",
         "length_header": "bytes 0-430/431",
-        "ms": 502,
+        "ms": 454,
         "bytes_read": 431,
         "ok": true,
         "known_broken": null
@@ -371,10 +363,10 @@
     "gdelt": {
       "timeline-tone": {
         "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=%22sea%20level%22&mode=timelinetone&format=json&timespan=1w",
-        "checked": "2026-11-02T19:31:08+00:00",
+        "checked": "2026-11-09T19:50:19+00:00",
         "status": 429,
         "content_type": "",
-        "ms": 15249,
+        "ms": 11817,
         "bytes_read": 444,
         "ok": false,
         "why": [
@@ -386,38 +378,34 @@
       },
       "artlist": {
         "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=flooding&mode=artlist&format=json&maxrecords=2",
-        "checked": "2026-11-02T19:31:36+00:00",
-        "status": 429,
-        "content_type": "",
-        "ms": 11945,
-        "bytes_read": 444,
-        "ok": false,
-        "why": [
-          "status 429, wanted [200, 206]",
-          "body missing 'articles'"
-        ],
-        "preview": "Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries. All high-traffic users should switch to our ngrams dataset: https://blog.gdeltproject.org/using-the-new-web-ngrams-dataset-to-find-relevant-coverage/. For trend analysis, please s",
+        "checked": "2026-11-09T19:50:43+00:00",
+        "status": 200,
+        "content_type": "application/json; charset=utf-8",
+        "length_header": "917",
+        "ms": 21700,
+        "bytes_read": 917,
+        "ok": true,
         "known_broken": null
       }
     },
     "ghcn-daily": {
       "station-csv": {
         "url": "https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/access/USW00013743.csv",
-        "checked": "2026-11-02T19:31:48+00:00",
+        "checked": "2026-11-09T19:51:05+00:00",
         "status": 206,
         "content_type": "text/csv",
-        "length_header": "bytes 0-4095/12421395",
-        "ms": 417,
+        "length_header": "bytes 0-4095/12424192",
+        "ms": 315,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "legacy-pub-path": {
         "url": "https://www.ncei.noaa.gov/pub/data/ghcnd/ghcnd-stations.txt",
-        "checked": "2026-11-02T19:31:50+00:00",
+        "checked": "2026-11-09T19:51:07+00:00",
         "status": 404,
         "content_type": "text/html; charset=iso-8859-1",
-        "ms": 289,
+        "ms": 253,
         "bytes_read": 196,
         "ok": false,
         "why": [
@@ -431,22 +419,22 @@
     "ghcn-stations-inventory": {
       "stations": {
         "url": "https://noaa-ghcn-pds.s3.amazonaws.com/ghcnd-stations.txt",
-        "checked": "2026-11-02T19:31:50+00:00",
+        "checked": "2026-11-09T19:51:07+00:00",
         "status": 206,
         "content_type": "application/octet-stream",
         "length_header": "bytes 0-4095/11441526",
-        "ms": 222,
+        "ms": 269,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "inventory": {
         "url": "https://noaa-ghcn-pds.s3.amazonaws.com/ghcnd-inventory.txt",
-        "checked": "2026-11-02T19:31:52+00:00",
+        "checked": "2026-11-09T19:51:09+00:00",
         "status": 206,
         "content_type": "application/octet-stream",
         "length_header": "bytes 0-4095/36400398",
-        "ms": 204,
+        "ms": 239,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -455,33 +443,33 @@
     "github-api": {
       "repo": {
         "url": "https://api.github.com/repos/rfordatascience/tidytuesday",
-        "checked": "2026-11-02T19:31:53+00:00",
+        "checked": "2026-11-09T19:51:09+00:00",
         "status": 206,
         "content_type": "application/json; charset=utf-8",
         "length_header": "bytes 0-6822/6823",
-        "ms": 251,
+        "ms": 267,
         "bytes_read": 6823,
         "ok": true,
         "known_broken": null
       },
       "contents": {
         "url": "https://api.github.com/repos/awslabs/open-data-registry/contents/datasets?per_page=1",
-        "checked": "2026-11-02T19:31:54+00:00",
+        "checked": "2026-11-09T19:51:11+00:00",
         "status": 206,
         "content_type": "application/json; charset=utf-8",
-        "length_header": "bytes 0-4095/940672",
-        "ms": 185,
+        "length_header": "bytes 0-4095/937119",
+        "ms": 269,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "git-tree": {
         "url": "https://api.github.com/repos/awslabs/open-data-registry/git/trees/main?recursive=1",
-        "checked": "2026-11-02T19:31:56+00:00",
+        "checked": "2026-11-09T19:51:13+00:00",
         "status": 206,
         "content_type": "application/json; charset=utf-8",
         "length_header": "bytes 0-8191/*",
-        "ms": 234,
+        "ms": 308,
         "bytes_read": 8192,
         "ok": true,
         "known_broken": null
@@ -490,20 +478,20 @@
     "google-play": {
       "search-html": {
         "url": "https://play.google.com/store/search?q=tennis&c=apps&hl=en&gl=us",
-        "checked": "2026-11-02T19:31:57+00:00",
+        "checked": "2026-11-09T19:51:14+00:00",
         "status": 200,
         "content_type": "text/html; charset=utf-8",
-        "ms": 271,
+        "ms": 349,
         "bytes_read": 1150000,
         "ok": true,
         "known_broken": null
       },
       "listing-page": {
         "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.maps&hl=en&gl=us",
-        "checked": "2026-11-02T19:32:00+00:00",
+        "checked": "2026-11-09T19:51:17+00:00",
         "status": 200,
         "content_type": "text/html; charset=utf-8",
-        "ms": 119,
+        "ms": 162,
         "bytes_read": 1200000,
         "ok": true,
         "known_broken": null
@@ -512,23 +500,23 @@
     "hn-algolia": {
       "search": {
         "url": "https://hn.algolia.com/api/v1/search?query=open%20data&hitsPerPage=1",
-        "checked": "2026-11-02T19:32:00+00:00",
+        "checked": "2026-11-09T19:51:17+00:00",
         "status": 200,
         "content_type": "application/json",
         "length_header": "1652",
-        "ms": 434,
+        "ms": 312,
         "bytes_read": 1652,
         "ok": true,
         "known_broken": null
       },
       "by-date": {
         "url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=created_at_i%3E1700000000&hitsPerPage=1",
-        "checked": "2026-11-02T19:32:02+00:00",
+        "checked": "2026-11-09T19:51:19+00:00",
         "status": 200,
         "content_type": "application/json",
-        "length_header": "1093",
-        "ms": 314,
-        "bytes_read": 1093,
+        "length_header": "1213",
+        "ms": 287,
+        "bytes_read": 1213,
         "ok": true,
         "known_broken": null
       }
@@ -536,22 +524,22 @@
     "huggingface-datasets": {
       "list": {
         "url": "https://huggingface.co/api/datasets?limit=1",
-        "checked": "2026-11-02T19:32:03+00:00",
+        "checked": "2026-11-09T19:51:20+00:00",
         "status": 200,
         "content_type": "application/json; charset=utf-8",
         "length_header": "774",
-        "ms": 103,
+        "ms": 86,
         "bytes_read": 774,
         "ok": true,
         "known_broken": null
       },
       "rows": {
         "url": "https://datasets-server.huggingface.co/rows?dataset=rajpurkar%2Fsquad&config=plain_text&split=train&offset=0&length=1",
-        "checked": "2026-11-02T19:32:03+00:00",
+        "checked": "2026-11-09T19:51:20+00:00",
         "status": 200,
         "content_type": "application/json",
         "length_header": "1553",
-        "ms": 310,
+        "ms": 206,
         "bytes_read": 1553,
         "ok": true,
         "known_broken": null
@@ -560,22 +548,22 @@
     "itunes-search": {
       "search": {
         "url": "https://itunes.apple.com/search?term=tennis&entity=software&country=us&limit=2",
-        "checked": "2026-11-02T19:32:04+00:00",
+        "checked": "2026-11-09T19:51:21+00:00",
         "status": 200,
         "content_type": "text/javascript; charset=utf-8",
-        "length_header": "18559",
-        "ms": 459,
-        "bytes_read": 18559,
+        "length_header": "18557",
+        "ms": 263,
+        "bytes_read": 18557,
         "ok": true,
         "known_broken": null
       },
       "lookup-by-id": {
         "url": "https://itunes.apple.com/lookup?id=284882215&country=us",
-        "checked": "2026-11-02T19:32:07+00:00",
+        "checked": "2026-11-09T19:51:24+00:00",
         "status": 200,
         "content_type": "text/javascript; charset=utf-8",
-        "length_header": "10542",
-        "ms": 141,
+        "length_header": "9680",
+        "ms": 62,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -584,20 +572,20 @@
     "kaggle-datasets": {
       "datasets-list-keyless": {
         "url": "https://www.kaggle.com/api/v1/datasets/list?search=tennis&page=1",
-        "checked": "2026-11-02T19:32:08+00:00",
+        "checked": "2026-11-09T19:51:24+00:00",
         "status": 200,
         "content_type": "application/json",
-        "ms": 319,
+        "ms": 260,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "datasets-view": {
         "url": "https://www.kaggle.com/api/v1/datasets/view/uciml/iris",
-        "checked": "2026-11-02T19:32:10+00:00",
+        "checked": "2026-11-09T19:51:26+00:00",
         "status": 200,
         "content_type": "application/json",
-        "ms": 191,
+        "ms": 301,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -606,33 +594,33 @@
     "md-imap": {
       "parcel-count-montgomery": {
         "url": "https://mdgeodata.md.gov/imap/rest/services/PlanningCadastre/MD_PropertyData/MapServer/0/query?where=JURSCODE%3D%27MONT%27&returnCountOnly=true&f=json",
-        "checked": "2026-11-02T19:32:10+00:00",
+        "checked": "2026-11-09T19:51:27+00:00",
         "status": 200,
         "content_type": "application/json; charset=UTF-8",
         "length_header": "16",
-        "ms": 2252,
+        "ms": 1851,
         "bytes_read": 16,
         "ok": true,
         "known_broken": null
       },
       "parcel-fields": {
         "url": "https://mdgeodata.md.gov/imap/rest/services/PlanningCadastre/MD_PropertyData/MapServer/0/query?where=JURSCODE%3D%27MONT%27+AND+YEARBLT+IS+NOT+NULL&outFields=YEARBLT%2CDESCSUBD%2CSDATWEBADR%2CDESCSTYL&returnGeometry=false&resultRecordCount=1&f=json",
-        "checked": "2026-11-02T19:32:14+00:00",
+        "checked": "2026-11-09T19:51:30+00:00",
         "status": 200,
         "content_type": "application/json; charset=UTF-8",
         "length_header": "838",
-        "ms": 1280,
+        "ms": 3115,
         "bytes_read": 838,
         "ok": true,
         "known_broken": null
       },
       "historic-properties": {
         "url": "https://mdgeodata.md.gov/imap/rest/services/Historic/MD_InventoryHistoricProperties/MapServer/0/query?where=COUNTY%3D%27Montgomery%27&outFields=MIHPNO%2CNam%2CPDFLINK&returnGeometry=false&resultRecordCount=2&f=json",
-        "checked": "2026-11-02T19:32:17+00:00",
+        "checked": "2026-11-09T19:51:35+00:00",
         "status": 200,
         "content_type": "application/json; charset=UTF-8",
         "length_header": "690",
-        "ms": 676,
+        "ms": 502,
         "bytes_read": 690,
         "ok": true,
         "known_broken": null
@@ -641,31 +629,31 @@
     "montgomery-county-gis": {
       "services-root": {
         "url": "https://gis.montgomerycountymd.gov/arcgis/rest/services?f=json",
-        "checked": "2026-11-02T19:32:18+00:00",
+        "checked": "2026-11-09T19:51:35+00:00",
         "status": 200,
         "content_type": "application/json; charset=UTF-8",
-        "ms": 359,
+        "ms": 333,
         "bytes_read": 150,
         "ok": true,
         "known_broken": null
       },
       "ag-reserve": {
         "url": "https://mcmaps.org/server11/rest/services/Overlays/MCAtlas_Boundaries/MapServer/10/query?where=1%3D1&outFields=ZONE_&returnGeometry=false&resultRecordCount=2&f=json",
-        "checked": "2026-11-02T19:32:18+00:00",
+        "checked": "2026-11-09T19:51:36+00:00",
         "status": 200,
         "content_type": "application/json; charset=UTF-8",
         "length_header": "248",
-        "ms": 378,
+        "ms": 466,
         "bytes_read": 248,
         "ok": true,
         "known_broken": null
       },
       "metro-stations": {
         "url": "https://gis.montgomerycountymd.gov/arcgis/rest/services/General/metro_stations/MapServer/0/query?where=1%3D1&outFields=NAME&returnGeometry=false&f=json",
-        "checked": "2026-11-02T19:32:19+00:00",
+        "checked": "2026-11-09T19:51:37+00:00",
         "status": 200,
         "content_type": "application/json; charset=UTF-8",
-        "ms": 353,
+        "ms": 118,
         "bytes_read": 653,
         "ok": true,
         "known_broken": null
@@ -674,22 +662,22 @@
     "nasa-cmr": {
       "collections-keyword": {
         "url": "https://cmr.earthdata.nasa.gov/search/collections.json?keyword=sea+surface+temperature&page_size=2",
-        "checked": "2026-11-02T19:32:20+00:00",
+        "checked": "2026-11-09T19:51:38+00:00",
         "status": 200,
         "content_type": "application/json;charset=utf-8",
         "length_header": "10980",
-        "ms": 142,
+        "ms": 176,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "granules-short-name": {
         "url": "https://cmr.earthdata.nasa.gov/search/granules.json?short_name=MOD11A1&page_size=1",
-        "checked": "2026-11-02T19:32:22+00:00",
+        "checked": "2026-11-09T19:51:39+00:00",
         "status": 200,
         "content_type": "application/json;charset=utf-8",
         "length_header": "7519",
-        "ms": 193,
+        "ms": 189,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -698,22 +686,22 @@
     "natural-earth": {
       "countries-110m": {
         "url": "https://naciscdn.org/naturalearth/110m/cultural/ne_110m_admin_0_countries.zip",
-        "checked": "2026-11-02T19:32:22+00:00",
+        "checked": "2026-11-09T19:51:40+00:00",
         "status": 206,
         "content_type": "application/zip",
         "length_header": "bytes 0-2047/214976",
-        "ms": 62,
+        "ms": 173,
         "bytes_read": 2048,
         "ok": true,
         "known_broken": null
       },
       "coastline-50m": {
         "url": "https://naciscdn.org/naturalearth/50m/physical/ne_50m_coastline.zip",
-        "checked": "2026-11-02T19:32:24+00:00",
+        "checked": "2026-11-09T19:51:42+00:00",
         "status": 206,
         "content_type": "application/zip",
         "length_header": "bytes 0-2047/455936",
-        "ms": 29,
+        "ms": 209,
         "bytes_read": 2048,
         "ok": true,
         "known_broken": null
@@ -722,44 +710,44 @@
     "noaa-coops": {
       "latest-water-level": {
         "url": "https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?date=latest&station=8574680&product=water_level&datum=MLLW&units=english&time_zone=gmt&format=json&application=headwaters",
-        "checked": "2026-11-02T19:32:24+00:00",
+        "checked": "2026-11-09T19:51:42+00:00",
         "status": 200,
         "content_type": "application/json;charset=UTF-8",
-        "length_header": "166",
-        "ms": 206,
-        "bytes_read": 166,
+        "length_header": "167",
+        "ms": 351,
+        "bytes_read": 167,
         "ok": true,
         "known_broken": null
       },
       "station-metadata": {
         "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=waterlevels",
-        "checked": "2026-11-02T19:32:26+00:00",
+        "checked": "2026-11-09T19:51:44+00:00",
         "status": 200,
         "content_type": "application/json",
-        "length_header": "777380",
-        "ms": 267,
+        "length_header": "777393",
+        "ms": 282,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "harmonic-constituents": {
         "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/8594900/harcon.json?units=english",
-        "checked": "2026-11-02T19:32:28+00:00",
+        "checked": "2026-11-09T19:51:46+00:00",
         "status": 200,
         "content_type": "application/json",
         "length_header": "12517",
-        "ms": 238,
+        "ms": 260,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "harcon-station-list": {
         "url": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=harcon",
-        "checked": "2026-11-02T19:32:29+00:00",
+        "checked": "2026-11-09T19:51:47+00:00",
         "status": 200,
         "content_type": "application/json",
-        "length_header": "3532052",
-        "ms": 546,
+        "length_header": "3532065",
+        "ms": 1451,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -768,43 +756,43 @@
     "noaa-swpc": {
       "k-index": {
         "url": "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json",
-        "checked": "2026-11-02T19:32:30+00:00",
+        "checked": "2026-11-09T19:51:49+00:00",
         "status": 206,
         "content_type": "application/json",
         "length_header": "bytes 0-2047/27925",
-        "ms": 114,
+        "ms": 96,
         "bytes_read": 2048,
         "ok": true,
         "known_broken": null
       },
       "solar-wind-rtsw": {
         "url": "https://services.swpc.noaa.gov/json/rtsw/rtsw_wind_1m.json",
-        "checked": "2026-11-02T19:32:32+00:00",
+        "checked": "2026-11-09T19:51:51+00:00",
         "status": 206,
         "content_type": "application/json",
-        "length_header": "bytes 0-2047/2425535",
-        "ms": 26,
+        "length_header": "bytes 0-2047/2694025",
+        "ms": 13,
         "bytes_read": 2048,
         "ok": true,
         "known_broken": null
       },
       "geospace-propagated": {
         "url": "https://services.swpc.noaa.gov/products/geospace/propagated-solar-wind-1-hour.json",
-        "checked": "2026-11-02T19:32:33+00:00",
+        "checked": "2026-11-09T19:51:52+00:00",
         "status": 206,
         "content_type": "application/json",
-        "length_header": "bytes 0-2047/6172",
-        "ms": 34,
+        "length_header": "bytes 0-2047/6924",
+        "ms": 10,
         "bytes_read": 2048,
         "ok": true,
         "known_broken": null
       },
       "retired-plasma-path": {
         "url": "https://services.swpc.noaa.gov/products/solar-wind/plasma-1-day.json",
-        "checked": "2026-11-02T19:32:35+00:00",
+        "checked": "2026-11-09T19:51:54+00:00",
         "status": 404,
         "content_type": "text/html; charset=iso-8859-1",
-        "ms": 146,
+        "ms": 12,
         "bytes_read": 196,
         "ok": false,
         "why": [
@@ -818,22 +806,22 @@
     "nominatim": {
       "forward": {
         "url": "https://nominatim.openstreetmap.org/search?q=Kensington%2C%20Maryland&format=json&limit=1",
-        "checked": "2026-11-02T19:32:35+00:00",
+        "checked": "2026-11-09T19:51:54+00:00",
         "status": 206,
         "content_type": "application/json; charset=utf-8",
         "length_header": "bytes 0-464/465",
-        "ms": 606,
+        "ms": 190,
         "bytes_read": 465,
         "ok": true,
         "known_broken": null
       },
       "reverse": {
         "url": "https://nominatim.openstreetmap.org/reverse?lat=39.029&lon=-77.076&format=json",
-        "checked": "2026-11-02T19:32:37+00:00",
+        "checked": "2026-11-09T19:51:56+00:00",
         "status": 206,
         "content_type": "application/json; charset=utf-8",
         "length_header": "bytes 0-668/669",
-        "ms": 135,
+        "ms": 579,
         "bytes_read": 669,
         "ok": true,
         "known_broken": null
@@ -842,20 +830,20 @@
     "open-meteo": {
       "forecast": {
         "url": "https://api.open-meteo.com/v1/forecast?latitude=39.03&longitude=-77.08&hourly=temperature_2m&forecast_days=1",
-        "checked": "2026-11-02T19:32:38+00:00",
+        "checked": "2026-11-09T19:51:57+00:00",
         "status": 200,
         "content_type": "application/json; charset=utf-8",
-        "ms": 314,
-        "bytes_read": 829,
+        "ms": 301,
+        "bytes_read": 832,
         "ok": true,
         "known_broken": null
       },
       "archive-era5": {
         "url": "https://archive-api.open-meteo.com/v1/archive?latitude=39.03&longitude=-77.08&start_date=1990-07-04&end_date=1990-07-04&daily=temperature_2m_max&timezone=UTC",
-        "checked": "2026-11-02T19:32:38+00:00",
+        "checked": "2026-11-09T19:51:57+00:00",
         "status": 200,
         "content_type": "application/json; charset=utf-8",
-        "ms": 679,
+        "ms": 657,
         "bytes_read": 291,
         "ok": true,
         "known_broken": null
@@ -864,21 +852,21 @@
     "openalex": {
       "works-filter": {
         "url": "https://api.openalex.org/works?filter=is_retracted:true&per-page=1&mailto=tnril@users.noreply.github.com",
-        "checked": "2026-11-02T19:32:39+00:00",
+        "checked": "2026-11-09T19:51:58+00:00",
         "status": 200,
         "content_type": "application/json",
-        "ms": 719,
+        "ms": 511,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "cursor-select": {
         "url": "https://api.openalex.org/works?filter=publication_year:2024&per-page=2&select=doi,cited_by_count,counts_by_year&cursor=*&mailto=tnril@users.noreply.github.com",
-        "checked": "2026-11-02T19:32:42+00:00",
+        "checked": "2026-11-09T19:52:00+00:00",
         "status": 200,
         "content_type": "application/json",
-        "ms": 273,
-        "bytes_read": 2254,
+        "ms": 228,
+        "bytes_read": 2255,
         "ok": true,
         "known_broken": null
       }
@@ -886,20 +874,20 @@
     "openaq": {
       "v3-keyless-refused": {
         "url": "https://api.openaq.org/v3/locations?limit=2",
-        "checked": "2026-11-02T19:32:42+00:00",
+        "checked": "2026-11-09T19:52:01+00:00",
         "status": 401,
         "content_type": "application/json",
-        "ms": 65,
+        "ms": 36,
         "bytes_read": 86,
         "ok": true,
         "known_broken": null
       },
       "v2-retired": {
         "url": "https://api.openaq.org/v2/locations?limit=2",
-        "checked": "2026-11-02T19:32:44+00:00",
+        "checked": "2026-11-09T19:52:02+00:00",
         "status": 410,
         "content_type": "application/json",
-        "ms": 23,
+        "ms": 22,
         "bytes_read": 134,
         "ok": false,
         "why": [
@@ -913,21 +901,21 @@
     "openfec": {
       "candidates-demo-key": {
         "url": "https://api.open.fec.gov/v1/candidates/?api_key=DEMO_KEY&per_page=1",
-        "checked": "2026-11-02T19:32:44+00:00",
-        "status": 206,
+        "checked": "2026-11-09T19:52:03+00:00",
+        "status": 200,
         "content_type": "application/json",
-        "length_header": "bytes 0-729/730",
-        "ms": 110,
+        "length_header": "730",
+        "ms": 158,
         "bytes_read": 730,
         "ok": true,
         "known_broken": null
       },
       "schedule-a-needs-filter": {
         "url": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=DEMO_KEY&per_page=1",
-        "checked": "2026-11-02T19:32:46+00:00",
+        "checked": "2026-11-09T19:52:04+00:00",
         "status": 400,
         "content_type": "application/json",
-        "ms": 33,
+        "ms": 109,
         "bytes_read": 289,
         "ok": true,
         "known_broken": null
@@ -936,21 +924,21 @@
     "openlibrary": {
       "search": {
         "url": "https://openlibrary.org/search.json?q=moby+dick&limit=1",
-        "checked": "2026-11-02T19:32:46+00:00",
+        "checked": "2026-11-09T19:52:05+00:00",
         "status": 200,
         "content_type": "application/json",
-        "length_header": "3378",
-        "ms": 356,
-        "bytes_read": 3378,
+        "length_header": "3074",
+        "ms": 202,
+        "bytes_read": 3074,
         "ok": true,
         "known_broken": null
       },
       "isbn-lookup": {
         "url": "https://openlibrary.org/isbn/9780140449136.json",
-        "checked": "2026-11-02T19:32:48+00:00",
+        "checked": "2026-11-09T19:52:06+00:00",
         "status": 200,
         "content_type": "application/json",
-        "ms": 279,
+        "ms": 139,
         "bytes_read": 1701,
         "ok": true,
         "known_broken": null
@@ -959,11 +947,11 @@
     "our-world-in-data": {
       "grapher-csv": {
         "url": "https://ourworldindata.org/grapher/annual-co2-emissions-per-country.csv?v=1&csvType=full",
-        "checked": "2026-11-02T19:32:49+00:00",
+        "checked": "2026-11-09T19:52:07+00:00",
         "status": 206,
         "content_type": "text/csv",
         "length_header": "bytes 0-4095/833076",
-        "ms": 644,
+        "ms": 513,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -972,10 +960,10 @@
     "overpass": {
       "status": {
         "url": "https://overpass-api.de/api/status",
-        "checked": "2026-11-02T19:32:49+00:00",
+        "checked": "2026-11-09T19:52:08+00:00",
         "status": null,
         "error": "TimeoutError: The read operation timed out",
-        "ms": 30398,
+        "ms": 30593,
         "bytes_read": 0,
         "ok": false,
         "why": [
@@ -987,10 +975,10 @@
       },
       "small-bbox": {
         "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A20%5D%3Bnode(39.025%2C-77.080%2C39.030%2C-77.075)%3Bout%201%3B",
-        "checked": "2026-11-02T19:33:23+00:00",
+        "checked": "2026-11-09T19:52:41+00:00",
         "status": null,
         "error": "TimeoutError: The read operation timed out",
-        "ms": 30362,
+        "ms": 30366,
         "bytes_read": 0,
         "ok": false,
         "why": [
@@ -1005,10 +993,10 @@
     "propublica-apis": {
       "congress-members": {
         "url": "https://api.propublica.org/congress/v1/119/senate/members.json",
-        "checked": "2026-11-02T19:33:54+00:00",
+        "checked": "2026-11-09T19:53:12+00:00",
         "status": 401,
         "content_type": "application/json",
-        "ms": 143,
+        "ms": 210,
         "bytes_read": 26,
         "ok": false,
         "why": [
@@ -1020,7 +1008,7 @@
       },
       "campaign-finance-candidates": {
         "url": "https://api.propublica.org/campaign-finance/v1/2024/candidates/search.json?query=smith",
-        "checked": "2026-11-02T19:33:55+00:00",
+        "checked": "2026-11-09T19:53:14+00:00",
         "status": 401,
         "content_type": "application/json",
         "ms": 88,
@@ -1037,20 +1025,20 @@
     "pubmed-eutilities": {
       "esearch": {
         "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=evidence+synthesis&retmode=json&retmax=1",
-        "checked": "2026-11-02T19:33:56+00:00",
+        "checked": "2026-11-09T19:53:14+00:00",
         "status": 200,
         "content_type": "application/json; charset=UTF-8",
-        "ms": 191,
+        "ms": 190,
         "bytes_read": 366,
         "ok": true,
         "known_broken": null
       },
       "esummary": {
         "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=23245604&retmode=json",
-        "checked": "2026-11-02T19:33:57+00:00",
+        "checked": "2026-11-09T19:53:16+00:00",
         "status": 200,
         "content_type": "application/json; charset=UTF-8",
-        "ms": 248,
+        "ms": 181,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -1059,10 +1047,10 @@
     "retraction-watch": {
       "full-csv": {
         "url": "https://api.labs.crossref.org/data/retractionwatch?tnril@users.noreply.github.com",
-        "checked": "2026-11-02T19:33:58+00:00",
+        "checked": "2026-11-09T19:53:16+00:00",
         "status": 200,
         "content_type": "",
-        "ms": 6275,
+        "ms": 827,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -1071,31 +1059,31 @@
     "sec-edgar": {
       "submissions-aapl": {
         "url": "https://data.sec.gov/submissions/CIK0000320193.json",
-        "checked": "2026-11-02T19:34:04+00:00",
+        "checked": "2026-11-09T19:53:17+00:00",
         "status": 200,
         "content_type": "application/json",
-        "ms": 153,
+        "ms": 105,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "xbrl-companyconcept": {
         "url": "https://data.sec.gov/api/xbrl/companyconcept/CIK0000320193/us-gaap/AccountsPayableCurrent.json",
-        "checked": "2026-11-02T19:34:06+00:00",
+        "checked": "2026-11-09T19:53:19+00:00",
         "status": 200,
         "content_type": "application/json",
-        "length_header": "19480",
-        "ms": 247,
+        "length_header": "19748",
+        "ms": 265,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "default-ua-refused": {
         "url": "https://data.sec.gov/submissions/CIK0000320193.json",
-        "checked": "2026-11-02T19:34:08+00:00",
+        "checked": "2026-11-09T19:53:21+00:00",
         "status": 403,
         "content_type": "text/html",
-        "ms": 44,
+        "ms": 68,
         "bytes_read": 4096,
         "ok": false,
         "why": [
@@ -1109,30 +1097,30 @@
     "socrata-portals": {
       "portal-catalog": {
         "url": "https://data.ny.gov/api/views.json?limit=1",
-        "checked": "2026-11-02T19:34:08+00:00",
+        "checked": "2026-11-09T19:53:21+00:00",
         "status": 200,
         "content_type": "application/json; charset=utf-8",
-        "ms": 4287,
-        "bytes_read": 3169,
+        "ms": 9698,
+        "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "soql-query": {
         "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.json?$select=primary_type,count(*)&$group=primary_type&$limit=3",
-        "checked": "2026-11-02T19:34:13+00:00",
+        "checked": "2026-11-09T19:53:31+00:00",
         "status": 200,
         "content_type": "application/json;charset=utf-8",
-        "ms": 9158,
+        "ms": 4487,
         "bytes_read": 134,
         "ok": true,
         "known_broken": null
       },
       "discovery-api": {
         "url": "https://api.us.socrata.com/api/catalog/v1?q=air+quality&limit=1",
-        "checked": "2026-11-02T19:34:22+00:00",
+        "checked": "2026-11-09T19:53:36+00:00",
         "status": 200,
         "content_type": "application/json;charset=utf-8",
-        "ms": 433,
+        "ms": 6301,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -1141,20 +1129,20 @@
     "spotify-web-api": {
       "api-unauthenticated": {
         "url": "https://api.spotify.com/v1/search?q=abbey&type=album&limit=1",
-        "checked": "2026-11-02T19:34:23+00:00",
+        "checked": "2026-11-09T19:53:43+00:00",
         "status": 401,
         "content_type": "application/json",
-        "ms": 82,
+        "ms": 151,
         "bytes_read": 94,
         "ok": true,
         "known_broken": null
       },
       "token-endpoint": {
         "url": "https://accounts.spotify.com/api/token",
-        "checked": "2026-11-02T19:34:23+00:00",
+        "checked": "2026-11-09T19:53:43+00:00",
         "status": 400,
         "content_type": "application/json",
-        "ms": 91,
+        "ms": 122,
         "bytes_read": 26,
         "ok": true,
         "known_broken": null
@@ -1163,32 +1151,32 @@
     "tennis-open-data": {
       "mcp-repo": {
         "url": "https://api.github.com/repos/JeffSackmann/tennis_MatchChartingProject",
-        "checked": "2026-11-02T19:34:24+00:00",
+        "checked": "2026-11-09T19:53:43+00:00",
         "status": 206,
         "content_type": "application/json; charset=utf-8",
         "length_header": "bytes 0-4095/6118",
-        "ms": 206,
+        "ms": 205,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "tml-year-csv": {
         "url": "https://raw.githubusercontent.com/Tennismylife/TML-Database/master/2026.csv",
-        "checked": "2026-11-02T19:34:24+00:00",
+        "checked": "2026-11-09T19:53:44+00:00",
         "status": 206,
         "content_type": "text/plain; charset=utf-8",
         "length_header": "bytes 0-4095/28551",
-        "ms": 152,
+        "ms": 91,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "sackmann-atp": {
         "url": "https://api.github.com/repos/JeffSackmann/tennis_atp",
-        "checked": "2026-11-02T19:34:25+00:00",
+        "checked": "2026-11-09T19:53:45+00:00",
         "status": 404,
         "content_type": "application/json; charset=utf-8",
-        "ms": 154,
+        "ms": 180,
         "bytes_read": 118,
         "ok": false,
         "why": [
@@ -1202,22 +1190,22 @@
     "tidytuesday": {
       "year-index": {
         "url": "https://api.github.com/repos/rfordatascience/tidytuesday/contents/data/2026",
-        "checked": "2026-11-02T19:34:27+00:00",
+        "checked": "2026-11-09T19:53:47+00:00",
         "status": 206,
         "content_type": "application/json; charset=utf-8",
-        "length_header": "bytes 0-8191/34272",
-        "ms": 138,
+        "length_header": "bytes 0-8191/35049",
+        "ms": 161,
         "bytes_read": 8192,
         "ok": true,
         "known_broken": null
       },
       "week-file": {
         "url": "https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2018/2018-04-02/us_avg_tuition.xlsx",
-        "checked": "2026-11-02T19:34:27+00:00",
+        "checked": "2026-11-09T19:53:47+00:00",
         "status": 206,
         "content_type": "application/octet-stream",
         "length_header": "bytes 0-2047/23015",
-        "ms": 188,
+        "ms": 169,
         "bytes_read": 2048,
         "ok": true,
         "known_broken": null
@@ -1226,20 +1214,20 @@
     "tmdb": {
       "keyless-refused": {
         "url": "https://api.themoviedb.org/3/configuration",
-        "checked": "2026-11-02T19:34:28+00:00",
+        "checked": "2026-11-09T19:53:48+00:00",
         "status": 401,
         "content_type": "application/json; charset=utf-8",
-        "ms": 107,
+        "ms": 236,
         "bytes_read": 103,
         "ok": true,
         "known_broken": null
       },
       "movie-endpoint-keyless": {
         "url": "https://api.themoviedb.org/3/movie/550",
-        "checked": "2026-11-02T19:34:30+00:00",
+        "checked": "2026-11-09T19:53:49+00:00",
         "status": 401,
         "content_type": "application/json; charset=utf-8",
-        "ms": 98,
+        "ms": 73,
         "bytes_read": 103,
         "ok": true,
         "known_broken": null
@@ -1248,22 +1236,22 @@
     "usaspending": {
       "toptier-agencies": {
         "url": "https://api.usaspending.gov/api/v2/references/toptier_agencies/",
-        "checked": "2026-11-02T19:34:30+00:00",
+        "checked": "2026-11-09T19:53:50+00:00",
         "status": 200,
         "content_type": "application/json",
         "length_header": "52950",
-        "ms": 212,
+        "ms": 130,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "award-search": {
         "url": "https://api.usaspending.gov/api/v2/search/spending_by_award/",
-        "checked": "2026-11-02T19:34:32+00:00",
+        "checked": "2026-11-09T19:53:51+00:00",
         "status": 200,
         "content_type": "application/json",
         "length_header": "846",
-        "ms": 1430,
+        "ms": 1012,
         "bytes_read": 846,
         "ok": true,
         "known_broken": null
@@ -1272,20 +1260,20 @@
     "usgs-earthquakes": {
       "summary-feed": {
         "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson",
-        "checked": "2026-11-02T19:34:33+00:00",
+        "checked": "2026-11-09T19:53:53+00:00",
         "status": 200,
         "content_type": "application/json; charset=utf-8",
-        "ms": 40,
+        "ms": 46,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
       },
       "fdsn-query": {
         "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2025-01-01&endtime=2025-01-03&minmagnitude=5",
-        "checked": "2026-11-02T19:34:35+00:00",
+        "checked": "2026-11-09T19:53:54+00:00",
         "status": 200,
         "content_type": "application/json; charset=utf-8",
-        "ms": 67,
+        "ms": 380,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -1294,20 +1282,20 @@
     "usgs-water": {
       "instantaneous": {
         "url": "https://waterservices.usgs.gov/nwis/iv/?format=json&sites=01646500&parameterCd=00060&siteStatus=all",
-        "checked": "2026-11-02T19:34:35+00:00",
+        "checked": "2026-11-09T19:53:55+00:00",
         "status": 200,
         "content_type": "application/json",
-        "ms": 297,
+        "ms": 59,
         "bytes_read": 2430,
         "ok": true,
         "known_broken": null
       },
       "daily-values": {
         "url": "https://waterservices.usgs.gov/nwis/dv/?format=json&sites=01646500&parameterCd=00060&startDT=2024-01-01&endDT=2024-01-07",
-        "checked": "2026-11-02T19:34:37+00:00",
+        "checked": "2026-11-09T19:53:57+00:00",
         "status": 200,
         "content_type": "application/json",
-        "ms": 315,
+        "ms": 239,
         "bytes_read": 3097,
         "ok": true,
         "known_broken": null
@@ -1316,49 +1304,33 @@
     "who-gho": {
       "indicator-list": {
         "url": "https://ghoapi.azureedge.net/api/Indicator?$top=2",
-        "checked": "2026-11-02T19:34:38+00:00",
-        "status": 500,
-        "content_type": "text/html; charset=UTF-8",
-        "ms": 1151,
-        "bytes_read": 82,
-        "ok": false,
-        "why": [
-          "status 500, wanted [200, 206]",
-          "content-type 'text/html; charset=UTF-8' lacks 'json'",
-          "body missing '@odata.context'",
-          "body missing 'IndicatorCode'",
-          "body missing 'IndicatorName'"
-        ],
-        "preview": "<html><head><title>Server Error</title></head><body>Server Error 500</body></html>",
+        "checked": "2026-11-09T19:53:57+00:00",
+        "status": 200,
+        "content_type": "application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8",
+        "ms": 1141,
+        "bytes_read": 321,
+        "ok": true,
         "known_broken": null
       },
       "life-expectancy-filtered": {
         "url": "https://ghoapi.azureedge.net/api/WHOSIS_000001?$filter=SpatialDim%20eq%20%27USA%27%20and%20TimeDim%20eq%202019",
-        "checked": "2026-11-02T19:34:40+00:00",
-        "status": 500,
-        "content_type": "text/html; charset=UTF-8",
-        "ms": 663,
-        "bytes_read": 82,
-        "ok": false,
-        "why": [
-          "status 500, wanted [200, 206]",
-          "content-type 'text/html; charset=UTF-8' lacks 'json'",
-          "body missing 'WHOSIS_000001'",
-          "body missing '\"SpatialDim\":\"USA\"'",
-          "body missing 'NumericValue'"
-        ],
-        "preview": "<html><head><title>Server Error</title></head><body>Server Error 500</body></html>",
+        "checked": "2026-11-09T19:54:00+00:00",
+        "status": 200,
+        "content_type": "application/json; odata.metadata=minimal; odata.streaming=true; charset=utf-8",
+        "ms": 1042,
+        "bytes_read": 1863,
+        "ok": true,
         "known_broken": null
       }
     },
     "wikidata": {
       "sparql": {
         "url": "https://query.wikidata.org/sparql?query=SELECT%20%3Fs%20WHERE%20%7B%3Fs%20wdt%3AP31%20wd%3AQ3918%7D%20LIMIT%201&format=json",
-        "checked": "2026-11-02T19:34:41+00:00",
+        "checked": "2026-11-09T19:54:01+00:00",
         "status": 206,
         "content_type": "application/sparql-results+json;charset=utf-8",
         "length_header": "bytes 0-194/195",
-        "ms": 494,
+        "ms": 268,
         "bytes_read": 195,
         "ok": true,
         "known_broken": null
@@ -1367,21 +1339,21 @@
     "wikimedia-pageviews": {
       "per-article": {
         "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Tennis/daily/20250101/20250107",
-        "checked": "2026-11-02T19:34:42+00:00",
+        "checked": "2026-11-09T19:54:02+00:00",
         "status": 200,
         "content_type": "application/json; charset=utf-8",
         "length_header": "1012",
-        "ms": 152,
+        "ms": 137,
         "bytes_read": 1012,
         "ok": true,
         "known_broken": null
       },
       "top-articles": {
         "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/2025/01/01",
-        "checked": "2026-11-02T19:34:44+00:00",
+        "checked": "2026-11-09T19:54:03+00:00",
         "status": 200,
         "content_type": "application/json; charset=utf-8",
-        "ms": 217,
+        "ms": 138,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
@@ -1390,20 +1362,20 @@
     "world-bank": {
       "indicator": {
         "url": "https://api.worldbank.org/v2/country/US/indicator/NY.GDP.MKTP.CD?format=json&per_page=2",
-        "checked": "2026-11-02T19:34:44+00:00",
+        "checked": "2026-11-09T19:54:04+00:00",
         "status": 200,
         "content_type": "application/json;charset=utf-8",
-        "ms": 102,
+        "ms": 134,
         "bytes_read": 513,
         "ok": true,
         "known_broken": null
       },
       "indicator-list": {
         "url": "https://api.worldbank.org/v2/indicator?format=json&per_page=1",
-        "checked": "2026-11-02T19:34:46+00:00",
+        "checked": "2026-11-09T19:54:05+00:00",
         "status": 200,
         "content_type": "application/json;charset=utf-8",
-        "ms": 53,
+        "ms": 54,
         "bytes_read": 465,
         "ok": true,
         "known_broken": null
@@ -1412,11 +1384,11 @@
     "zenodo": {
       "records-search": {
         "url": "https://zenodo.org/api/records?q=sea+level&size=1",
-        "checked": "2026-11-02T19:34:46+00:00",
+        "checked": "2026-11-09T19:54:06+00:00",
         "status": 200,
         "content_type": "application/json",
         "length_header": "12324",
-        "ms": 735,
+        "ms": 814,
         "bytes_read": 4096,
         "ok": true,
         "known_broken": null
